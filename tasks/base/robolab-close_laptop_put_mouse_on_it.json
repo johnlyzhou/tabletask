@@ -1,0 +1,14 @@
+{
+  "id": "robolab-close_laptop_put_mouse_on_it",
+  "instruction": "Close the laptop and set the mouse on top of it.",
+  "objects": {"purple_mouse": {"asset": "purple_mouse", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "silver_laptop": {"asset": "silver_laptop", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_pencil": {"asset": "yellow_pencil", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "silver_laptop", "table"],
+    ["open", "silver_laptop/lid"],
+    ["on", "purple_mouse", "table"],
+    ["on", "yellow_pencil", "table"]
+  ],
+  "goal": [
+    ["then", ["closed", "silver_laptop/lid"], ["on", "purple_mouse", "silver_laptop"]]
+  ]
+}

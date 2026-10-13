@@ -1,0 +1,13 @@
+{
+  "id": "robolab-lid_the_jar_with_the_saucer",
+  "instruction": "Put the small plate on top of the jar like a lid.",
+  "objects": {"wooden_clothespin": {"asset": "wooden_clothespin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_jar": {"asset": "blue_jar", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "floral_dish": {"asset": "floral_dish", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "blue_jar", "table"],
+    ["on", "floral_dish", "table"],
+    ["on", "wooden_clothespin", "table"]
+  ],
+  "goal": [
+    ["on", "floral_dish", "blue_jar"]
+  ]
+}

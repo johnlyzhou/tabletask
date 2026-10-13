@@ -1,0 +1,15 @@
+{
+  "id": "robolab-nest_the_bowls",
+  "instruction": "Nest the bowls: the small one in the middle one, and both in the big one.",
+  "objects": {"lemon_fruit": {"asset": "lemon_fruit", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_floral_bowl": {"asset": "blue_floral_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_lined_bowl": {"asset": "red_lined_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "celadon_bowl": {"asset": "celadon_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "red_lined_bowl", "table"],
+    ["on", "celadon_bowl", "table"],
+    ["on", "blue_floral_bowl", "table"],
+    ["on", "lemon_fruit", "table"]
+  ],
+  "goal": [
+    ["inside", "celadon_bowl", "red_lined_bowl"],
+    ["inside", "blue_floral_bowl", "celadon_bowl"]
+  ]
+}

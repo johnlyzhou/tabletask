@@ -1,0 +1,14 @@
+{
+  "id": "robolab-close_the_laptop",
+  "instruction": "Close the laptop.",
+  "objects": {"orange_mug": {"asset": "orange_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "black_calculator": {"asset": "black_calculator", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "dark_laptop": {"asset": "dark_laptop", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "dark_laptop", "table"],
+    ["open", "dark_laptop/lid"],
+    ["on", "black_calculator", "table"],
+    ["on", "orange_mug", "table"]
+  ],
+  "goal": [
+    ["closed", "dark_laptop/lid"]
+  ]
+}

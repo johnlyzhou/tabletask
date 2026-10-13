@@ -1,0 +1,15 @@
+{
+  "id": "robolab-teapot_in_the_centre_of_the_table",
+  "instruction": "Put the teapot in the centre of the table.",
+  "objects": {"yellow_teacup": {"asset": "yellow_teacup"}, "heart_cup": {"asset": "heart_cup"}, "red_teapot": {"asset": "red_teapot", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["not", ["at", "red_teapot", "table", 0.15]],
+    ["on", "red_teapot", "table"],
+    ["on", "yellow_teacup", "table/left"],
+    ["on", "heart_cup", "table/right"]
+  ],
+  "goal": [
+    ["inside", "red_teapot", "table/center"],
+    ["upright", "red_teapot"]
+  ]
+}

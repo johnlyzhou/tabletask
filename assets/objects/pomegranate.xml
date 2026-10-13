@@ -1,0 +1,29 @@
+<mujoco model="pomegranate">
+  <compiler angle="radian" meshdir="../mesh/pomegranate" texturedir="../mesh/pomegranate" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pomegranate01_0_mesh" file="0.obj" />
+    <texture name="pomegranate01_0_tex" type="2d" file="0.png" />
+    <texture name="pomegranate01_0_normal" type="2d" file="0_normal.png" />
+    <texture name="pomegranate01_0_roughness" type="2d" file="0_roughness.png" />
+    <material name="pomegranate01_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="pomegranate01_0_tex" role="rgb" />
+      <layer texture="pomegranate01_0_normal" role="normal" />
+      <layer texture="pomegranate01_0_roughness" role="roughness" />
+    </material>
+    <mesh name="pomegranate_hull_00" file="pomegranate_hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pomegranate_hull_01" file="pomegranate_hulls/h01.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="pomegranate">
+      <geom type="mesh" mesh="pomegranate01_0_mesh" material="pomegranate01_0_skin" contype="0" conaffinity="0" mass="0" condim="4" pos="0.0023 -0.0008 0.0000" />
+      <geom name="place:bounds" class="place" type="box" size="0.0571 0.0577 0.0575" pos="0.0000 0.0000 0.0575" />
+      <geom type="mesh" mesh="pomegranate_hull_00" rgba="0 0 0 0" group="3" mass="0.00310161673" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="pomegranate_hull_01" rgba="0 0 0 0" group="3" mass="0.744466799" condim="4" friction="0.9 0.01 0.002" />
+    </body>
+  </worldbody>
+</mujoco>

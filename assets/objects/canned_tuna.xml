@@ -1,0 +1,92 @@
+<mujoco model="canned_tuna">
+  <compiler angle="radian" meshdir="../mesh/canned_tuna" texturedir="../mesh/canned_tuna" />
+  <custom>
+    <text name="label" data="can of tuna" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="canned_tuna_0_mesh" file="0.obj" />
+    <texture name="canned_tuna_0_tex" type="2d" file="0.png" />
+    <material name="canned_tuna_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="canned_tuna_0_tex" role="rgb" />
+    </material>
+    <mesh name="canned_tuna_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="canned_tuna_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="canned_tuna">
+      <geom type="mesh" mesh="canned_tuna_0_mesh" material="canned_tuna_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_00" rgba="0 0 0 0" group="3" mass="0.0108988985" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_01" rgba="0 0 0 0" group="3" mass="0.0104496378" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_02" rgba="0 0 0 0" group="3" mass="0.0154889047" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_03" rgba="0 0 0 0" group="3" mass="0.0158832353" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_04" rgba="0 0 0 0" group="3" mass="0.000267074467" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_05" rgba="0 0 0 0" group="3" mass="0.000433579197" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_06" rgba="0 0 0 0" group="3" mass="0.00040941089" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_07" rgba="0 0 0 0" group="3" mass="0.000530002323" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_08" rgba="0 0 0 0" group="3" mass="0.000452377602" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_09" rgba="0 0 0 0" group="3" mass="0.000600815797" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_10" rgba="0 0 0 0" group="3" mass="0.000548167674" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_11" rgba="0 0 0 0" group="3" mass="0.000631559892" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_12" rgba="0 0 0 0" group="3" mass="0.000887917884" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_13" rgba="0 0 0 0" group="3" mass="0.000380878825" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_14" rgba="0 0 0 0" group="3" mass="0.000655651343" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_15" rgba="0 0 0 0" group="3" mass="0.000702930095" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_16" rgba="0 0 0 0" group="3" mass="0.000553301079" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_17" rgba="0 0 0 0" group="3" mass="0.000598536652" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_18" rgba="0 0 0 0" group="3" mass="0.000700301424" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_19" rgba="0 0 0 0" group="3" mass="0.00751447265" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_20" rgba="0 0 0 0" group="3" mass="0.000178155534" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_21" rgba="0 0 0 0" group="3" mass="0.00068217036" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_22" rgba="0 0 0 0" group="3" mass="0.00049454615" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_23" rgba="0 0 0 0" group="3" mass="0.000440407471" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_24" rgba="0 0 0 0" group="3" mass="0.00203775699" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_25" rgba="0 0 0 0" group="3" mass="0.000286339799" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_26" rgba="0 0 0 0" group="3" mass="0.000370678138" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_27" rgba="0 0 0 0" group="3" mass="0.000209315727" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_28" rgba="0 0 0 0" group="3" mass="0.00196337281" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_29" rgba="0 0 0 0" group="3" mass="0.000520981937" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_30" rgba="0 0 0 0" group="3" mass="0.000521495309" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_31" rgba="0 0 0 0" group="3" mass="0.00241835619" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_32" rgba="0 0 0 0" group="3" mass="0.000573102525" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="canned_tuna_hull_33" rgba="0 0 0 0" group="3" mass="0.000158599889" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0354 0.0329 0.0163" pos="0.0000 0.0000 0.0163" />
+    </body>
+  </worldbody>
+</mujoco>

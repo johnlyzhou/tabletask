@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tabletask"
+dynamic = ["version"]
+description = "Tabletop manipulation tasks as JSON, sampled and graded in MuJoCo"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Omar Rayyan", email = "olr7742@nyu.edu" }]
+keywords = ["robotics", "manipulation", "mujoco", "benchmark", "simulation"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["msgspec", "mujoco", "numpy", "pillow", "scipy"]
+
+[project.optional-dependencies]
+control = ["mink", "daqp"]        # Cartesian control
+importing = ["trimesh", "coacd"]  # turning a mesh into an asset
+rtx = ["ovrtx", "ovstage", "usd-core"]  # path-traced rendering on an NVIDIA RTX GPU
+all = ["tabletask[control,importing]"]
+dev = ["ruff"]
+
+[project.urls]
+Homepage = "https://table-task.com"
+Source = "https://github.com/omarrayyann/tabletask"
+
+[project.scripts]
+tabletask = "tabletask.__main__:main"
+
+[tool.hatch.version]
+path = "tabletask/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["tabletask"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"tasks" = "tabletask/data/tasks"
+
+[tool.hatch.build.targets.sdist]
+include = ["tabletask", "tasks", "README.md"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "SIM", "C4", "RUF", "PIE", "PERF", "ISC"]
+ignore = [
+  "B905",  # zip() without strict=: the lengths here match by construction
+]

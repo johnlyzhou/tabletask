@@ -1,0 +1,92 @@
+<mujoco model="abc_mug">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="mug_1_color" specular="0.5" shininess="0.003" rgba="0.172 0.780 0.435 1.0" />
+    <material name="mug_white" specular="0.5" shininess="0.003" rgba="0.930 0.930 0.930 1.0" />
+    <mesh name="mug_col_0" file="mug/collision/model_normalized_collision_0.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_1" file="mug/collision/model_normalized_collision_1.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_10" file="mug/collision/model_normalized_collision_10.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_11" file="mug/collision/model_normalized_collision_11.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_12" file="mug/collision/model_normalized_collision_12.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_13" file="mug/collision/model_normalized_collision_13.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_14" file="mug/collision/model_normalized_collision_14.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_15" file="mug/collision/model_normalized_collision_15.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_16" file="mug/collision/model_normalized_collision_16.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_17" file="mug/collision/model_normalized_collision_17.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_18" file="mug/collision/model_normalized_collision_18.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_19" file="mug/collision/model_normalized_collision_19.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_2" file="mug/collision/model_normalized_collision_2.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_20" file="mug/collision/model_normalized_collision_20.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_21" file="mug/collision/model_normalized_collision_21.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_22" file="mug/collision/model_normalized_collision_22.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_23" file="mug/collision/model_normalized_collision_23.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_24" file="mug/collision/model_normalized_collision_24.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_25" file="mug/collision/model_normalized_collision_25.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_26" file="mug/collision/model_normalized_collision_26.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_27" file="mug/collision/model_normalized_collision_27.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_28" file="mug/collision/model_normalized_collision_28.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_29" file="mug/collision/model_normalized_collision_29.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_3" file="mug/collision/model_normalized_collision_3.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_30" file="mug/collision/model_normalized_collision_30.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_31" file="mug/collision/model_normalized_collision_31.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_4" file="mug/collision/model_normalized_collision_4.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_5" file="mug/collision/model_normalized_collision_5.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_6" file="mug/collision/model_normalized_collision_6.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_7" file="mug/collision/model_normalized_collision_7.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_8" file="mug/collision/model_normalized_collision_8.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_col_9" file="mug/collision/model_normalized_collision_9.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_vis_0" file="mug/visual/model_normalized_0.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="mug_vis_1" file="mug/visual/model_normalized_1.obj" scale="0.105 0.105 0.105" refquat="-0.7071067811865477 0.0 0.0 0.7071067811865474" />
+    <mesh name="region_92ea4ec9721732c1" file="regions/92ea4ec9721732c1.obj" />
+    <mesh name="abc_mug_hook" file="regions/abc_mug_hook.obj" />
+  </asset>
+  <worldbody>
+    <body name="abc_mug">
+      <body name="source" pos="-9.62059946e-12 -5.25701531e-10 0.0455052343" euler="0 0 0">
+        <geom type="mesh" mesh="mug_vis_0" material="mug_white" mass="0.05" density="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="mug_vis_1" material="mug_1_color" density="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_0" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_1" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_2" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_3" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_4" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_5" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_6" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_7" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_8" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_9" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_10" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_11" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_12" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_13" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_14" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_15" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_16" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_17" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_18" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_19" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_20" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_21" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_22" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_23" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_24" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_25" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_26" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_27" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_28" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_29" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_30" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" mesh="mug_col_31" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.0455052351" size="0.0352201077 0.0525000013 0.0455052351" />
+      <geom name="place:center" class="place" type="box" pos="0 0 0.045505" size="0.001 0.001 0.001" />
+      <geom name="place:inside" class="place" type="mesh" pos="0 0.0175 0.05" mesh="region_92ea4ec9721732c1" />
+      <geom name="place:hook" class="place" type="mesh" mesh="abc_mug_hook" pos="-0.00351 -0.03232 0.04800" />
+    </body>
+  </worldbody>
+</mujoco>

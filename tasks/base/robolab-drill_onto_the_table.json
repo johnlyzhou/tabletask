@@ -1,0 +1,18 @@
+{
+  "id": "robolab-drill_onto_the_table",
+  "instruction": "Select the cordless drill and put it on the table.",
+  "objects": {"clamp_2": {"asset": "clamp", "sample": {"rel": "table/top", "offset": [-0.06, 0.0, 0.0], "jitter": {"xy": [0.22, 0.36]}}}, "wood_hammer": {"asset": "wood_hammer", "sample": {"rel": "table/top", "offset": [-0.06, 0.0, 0.0], "jitter": {"xy": [0.22, 0.36]}}}, "red_hammer": {"asset": "red_hammer", "sample": {"rel": "table/top", "offset": [-0.06, 0.0, 0.0], "jitter": {"xy": [0.22, 0.36]}}}, "spring_clamp": {"asset": "spring_clamp", "sample": {"rel": "table/top", "offset": [-0.06, 0.0, 0.0], "jitter": {"xy": [0.22, 0.36]}}}, "left_bin": {"asset": "left_bin", "sample": {"rel": "table/top", "offset": [-0.07, 0.18, 0.0], "jitter": {"xy": [0.006, 0.05]}}}, "cordless_drill": {"asset": "cordless_drill"}, "blue_hammer": {"asset": "blue_hammer", "sample": {"rel": "table/top", "offset": [-0.06, 0.0, 0.0], "jitter": {"xy": [0.22, 0.36]}}}, "clamp": {"asset": "clamp", "sample": {"rel": "table/top", "offset": [-0.06, 0.0, 0.0], "jitter": {"xy": [0.22, 0.36]}}}},
+  "start": [
+    ["on", "clamp", "table"],
+    ["inside", "cordless_drill", "left_bin"],
+    ["on", "spring_clamp", "table"],
+    ["on", "blue_hammer", "table"],
+    ["on", "red_hammer", "table"],
+    ["on", "wood_hammer", "table"],
+    ["on", "left_bin", "table"],
+    ["on", "clamp_2", "table"]
+  ],
+  "goal": [
+    ["on", "cordless_drill", "table"]
+  ]
+}

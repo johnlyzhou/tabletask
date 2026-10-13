@@ -1,0 +1,124 @@
+<mujoco model="clam_shell">
+  <!-- clam_shell, converted from the MolmoSpaces Objaverse library (uid 021dabd59f9a4415bf580ae0adeebcbe; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/clam_shell" texturedir="../mesh/clam_shell"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="clam_shell_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="clam_shell_0_tex" type="2d" file="0.png"/>
+    <material name="clam_shell_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="clam_shell_0_tex" role="rgb"/>
+    </material>
+    <mesh name="clam_shell_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_25" file="hulls/h25.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_26" file="hulls/h26.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_27" file="hulls/h27.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_28" file="hulls/h28.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_29" file="hulls/h29.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_30" file="hulls/h30.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_31" file="hulls/h31.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_32" file="hulls/h32.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_33" file="hulls/h33.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_34" file="hulls/h34.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_35" file="hulls/h35.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_36" file="hulls/h36.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_37" file="hulls/h37.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_38" file="hulls/h38.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_39" file="hulls/h39.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_40" file="hulls/h40.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_41" file="hulls/h41.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_42" file="hulls/h42.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_43" file="hulls/h43.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_44" file="hulls/h44.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_45" file="hulls/h45.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_46" file="hulls/h46.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_47" file="hulls/h47.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_48" file="hulls/h48.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_49" file="hulls/h49.obj" maxhullvert="128"/>
+    <mesh name="clam_shell_hull_50" file="hulls/h50.obj" maxhullvert="128"/>
+  </asset>
+  <worldbody>
+    <body name="clam_shell">
+      <geom type="mesh" mesh="clam_shell_0_mesh" material="clam_shell_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_00" rgba="0 0 0 0" group="3" mass="0.000988015923" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_01" rgba="0 0 0 0" group="3" mass="0.000387022313" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_02" rgba="0 0 0 0" group="3" mass="0.0002877298" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_03" rgba="0 0 0 0" group="3" mass="0.000786357136" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_04" rgba="0 0 0 0" group="3" mass="0.000879635962" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_05" rgba="0 0 0 0" group="3" mass="0.000402432463" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_06" rgba="0 0 0 0" group="3" mass="0.00135426961" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_07" rgba="0 0 0 0" group="3" mass="0.00139478294" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_08" rgba="0 0 0 0" group="3" mass="0.000615297816" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_09" rgba="0 0 0 0" group="3" mass="0.00106656548" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_10" rgba="0 0 0 0" group="3" mass="0.00111184586" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_11" rgba="0 0 0 0" group="3" mass="0.000506207533" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_12" rgba="0 0 0 0" group="3" mass="0.000675245823" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_13" rgba="0 0 0 0" group="3" mass="0.000689084236" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_14" rgba="0 0 0 0" group="3" mass="0.00062959356" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_15" rgba="0 0 0 0" group="3" mass="0.000286196361" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_16" rgba="0 0 0 0" group="3" mass="0.000606536655" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_17" rgba="0 0 0 0" group="3" mass="0.000606090334" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_18" rgba="0 0 0 0" group="3" mass="0.000499088752" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_19" rgba="0 0 0 0" group="3" mass="0.000567189945" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_20" rgba="0 0 0 0" group="3" mass="0.0010128237" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_21" rgba="0 0 0 0" group="3" mass="0.000851838847" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_22" rgba="0 0 0 0" group="3" mass="0.000548968943" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_23" rgba="0 0 0 0" group="3" mass="0.000356494536" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_24" rgba="0 0 0 0" group="3" mass="0.000542352641" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_25" rgba="0 0 0 0" group="3" mass="0.000520593636" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_26" rgba="0 0 0 0" group="3" mass="0.000390154795" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_27" rgba="0 0 0 0" group="3" mass="0.000610439902" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_28" rgba="0 0 0 0" group="3" mass="0.000637707392" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_29" rgba="0 0 0 0" group="3" mass="0.000864335428" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_30" rgba="0 0 0 0" group="3" mass="0.000702809995" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_31" rgba="0 0 0 0" group="3" mass="0.000550274936" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_32" rgba="0 0 0 0" group="3" mass="0.000776792464" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_33" rgba="0 0 0 0" group="3" mass="0.000547020957" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_34" rgba="0 0 0 0" group="3" mass="0.000775877218" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_35" rgba="0 0 0 0" group="3" mass="0.000553307099" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_36" rgba="0 0 0 0" group="3" mass="0.000607768941" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_37" rgba="0 0 0 0" group="3" mass="0.000220318669" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_38" rgba="0 0 0 0" group="3" mass="0.00047379211" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_39" rgba="0 0 0 0" group="3" mass="0.00052832804" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_40" rgba="0 0 0 0" group="3" mass="0.000201904521" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_41" rgba="0 0 0 0" group="3" mass="0.000268888619" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_42" rgba="0 0 0 0" group="3" mass="0.00023628953" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_43" rgba="0 0 0 0" group="3" mass="0.000307592778" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_44" rgba="0 0 0 0" group="3" mass="0.000201428647" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_45" rgba="0 0 0 0" group="3" mass="0.00013643649" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_46" rgba="0 0 0 0" group="3" mass="0.000212575386" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_47" rgba="0 0 0 0" group="3" mass="0.00029353539" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_48" rgba="0 0 0 0" group="3" mass="0.000179800393" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_49" rgba="0 0 0 0" group="3" mass="0.000100360846" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clam_shell_hull_50" rgba="0 0 0 0" group="3" mass="8.03495193e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0510 0.0517 0.0188" pos="0.0000 0.0000 0.0188"/>
+    </body>
+  </worldbody>
+</mujoco>

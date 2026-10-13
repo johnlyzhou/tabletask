@@ -1,0 +1,22 @@
+{
+  "id": "abc-hang_mug_on_mug_rack",
+  "instruction": "Hang all three mugs by their handles on the wooden mug rack.",
+  "objects": {"rack": {"asset": "abc_mug_tree", "sample": {"rel": "table/top", "offset": [0.11, 0.0, 0], "jitter": {"xy": [0.0, 0.004], "yaw": 0}}, "fixed": true}, "mug1": {"asset": "abc_mug", "sample": {"rel": "table/top", "offset": [-0.14, -0.28, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}, "tags": ["mugs"]}, "mug2": {"asset": "abc_mug", "sample": {"rel": "table/top", "offset": [-0.14, 0.0, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}, "tags": ["mugs"]}, "mug3": {"asset": "abc_mug", "sample": {"rel": "table/top", "offset": [-0.14, 0.28, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}, "tags": ["mugs"]}},
+  "start": [
+    ["on", "rack", "table"],
+    ["on", "mug1", "table"],
+    ["on", "mug2", "table"],
+    ["on", "mug3", "table"]
+  ],
+  "goal": [
+    ["and", ["or", ["overlapping", "mug1/hook", "rack/peg1"], ["overlapping", "mug1/hook", "rack/peg2"], ["overlapping", "mug1/hook", "rack/peg3"], ["overlapping", "mug1/hook", "rack/peg4"], ["overlapping", "mug1/hook", "rack/peg5"], ["overlapping", "mug1/hook", "rack/peg6"]], ["lifted", "mug1", 0.035, "table"]],
+    ["and", ["or", ["overlapping", "mug2/hook", "rack/peg1"], ["overlapping", "mug2/hook", "rack/peg2"], ["overlapping", "mug2/hook", "rack/peg3"], ["overlapping", "mug2/hook", "rack/peg4"], ["overlapping", "mug2/hook", "rack/peg5"], ["overlapping", "mug2/hook", "rack/peg6"]], ["lifted", "mug2", 0.035, "table"]],
+    ["and", ["or", ["overlapping", "mug3/hook", "rack/peg1"], ["overlapping", "mug3/hook", "rack/peg2"], ["overlapping", "mug3/hook", "rack/peg3"], ["overlapping", "mug3/hook", "rack/peg4"], ["overlapping", "mug3/hook", "rack/peg5"], ["overlapping", "mug3/hook", "rack/peg6"]], ["lifted", "mug3", 0.035, "table"]],
+    ["at_most", ["tally", ["each", ["mug1/hook", "mug2/hook", "mug3/hook"], ["overlapping", "it", "rack/peg1"]]], 1],
+    ["at_most", ["tally", ["each", ["mug1/hook", "mug2/hook", "mug3/hook"], ["overlapping", "it", "rack/peg2"]]], 1],
+    ["at_most", ["tally", ["each", ["mug1/hook", "mug2/hook", "mug3/hook"], ["overlapping", "it", "rack/peg3"]]], 1],
+    ["at_most", ["tally", ["each", ["mug1/hook", "mug2/hook", "mug3/hook"], ["overlapping", "it", "rack/peg4"]]], 1],
+    ["at_most", ["tally", ["each", ["mug1/hook", "mug2/hook", "mug3/hook"], ["overlapping", "it", "rack/peg5"]]], 1],
+    ["at_most", ["tally", ["each", ["mug1/hook", "mug2/hook", "mug3/hook"], ["overlapping", "it", "rack/peg6"]]], 1]
+  ]
+}

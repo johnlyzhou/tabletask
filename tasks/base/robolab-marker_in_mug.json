@@ -1,0 +1,21 @@
+{
+  "id": "robolab-marker_in_mug",
+  "instruction": "Put the whiteboard marker in the mug.",
+  "objects": {"dinosaur": {"asset": "dinosaur", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "glasses": {"asset": "glasses", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wooden_bowl": {"asset": "wooden_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "granola_bars": {"asset": "granola_bars", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "rubiks_cube": {"asset": "rubiks_cube", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "keyboard": {"asset": "keyboard", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yogurt_cup": {"asset": "yogurt_cup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "oatmeal_raisin_cookies": {"asset": "oatmeal_raisin_cookies", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "smartphone": {"asset": "smartphone", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "ceramic_mug": {"asset": "ceramic_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "marker": {"asset": "marker", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "ceramic_mug", "table"],
+    ["on", "glasses", "table"],
+    ["on", "keyboard", "table"],
+    ["on", "dinosaur", "table"],
+    ["on", "marker", "table"],
+    ["on", "rubiks_cube", "table"],
+    ["on", "smartphone", "table"],
+    ["on", "wooden_bowl", "table"],
+    ["on", "yogurt_cup", "table"],
+    ["on", "oatmeal_raisin_cookies", "table"],
+    ["on", "granola_bars", "table"]
+  ],
+  "goal": [
+    ["inside", "marker", "ceramic_mug"]
+  ]
+}

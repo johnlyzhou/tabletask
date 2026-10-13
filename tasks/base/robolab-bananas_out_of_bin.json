@@ -1,0 +1,17 @@
+{
+  "id": "robolab-bananas_out_of_bin",
+  "instruction": "Take the bananas out.",
+  "objects": {"banana_2": {"asset": "banana", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "banana_5": {"asset": "banana"}, "banana": {"asset": "banana", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "grey_bin": {"asset": "grey_bin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "banana_3": {"asset": "banana"}, "banana_4": {"asset": "banana", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "banana", "table"],
+    ["on", "banana_2", "table"],
+    ["inside", "banana_3", "grey_bin"],
+    ["on", "banana_4", "table"],
+    ["inside", "banana_5", "grey_bin"],
+    ["on", "grey_bin", "table"]
+  ],
+  "goal": [
+    ["not", ["inside", "banana_3", "grey_bin"]],
+    ["not", ["inside", "banana_5", "grey_bin"]]
+  ]
+}

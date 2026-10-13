@@ -1,0 +1,22 @@
+<mujoco model="peg_board">
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="peg_board_wood" rgba="0.72 0.53 0.33 1" specular="0.15" shininess="0.2" />
+  </asset>
+  <worldbody>
+    <body name="peg_board">
+      <!-- a 14 x 14 x 4 cm block with a 22 mm square hole, 35 mm deep (a 5 mm floor under it) -->
+      <geom type="box" size="0.07 0.07 0.0025" pos="0 0 0.0025" material="peg_board_wood" mass="0.12" condim="4" friction="0.8 0.01 0.002" />
+      <geom type="box" size="0.0295 0.07 0.0175" pos="-0.0405 0 0.0225" material="peg_board_wood" mass="0.36" condim="4" friction="0.8 0.01 0.002" />
+      <geom type="box" size="0.0295 0.07 0.0175" pos="0.0405 0 0.0225" material="peg_board_wood" mass="0.36" condim="4" friction="0.8 0.01 0.002" />
+      <geom type="box" size="0.011 0.0295 0.0175" pos="0 -0.0405 0.0225" material="peg_board_wood" mass="0.06" condim="4" friction="0.8 0.01 0.002" />
+      <geom type="box" size="0.011 0.0295 0.0175" pos="0 0.0405 0.0225" material="peg_board_wood" mass="0.06" condim="4" friction="0.8 0.01 0.002" />
+      <geom name="place:bounds" class="place" type="box" size="0.07 0.07 0.02" pos="0 0 0.02" />
+      <geom name="place:hole" class="place" type="box" size="0.011 0.011 0.0175" pos="0 0 0.0225" />
+    </body>
+  </worldbody>
+</mujoco>

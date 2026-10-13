@@ -1,0 +1,49 @@
+<mujoco model="small_pumpkin">
+  <compiler angle="radian" meshdir="../mesh/small_pumpkin" texturedir="../mesh/small_pumpkin" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pumpkinsmall_0_mesh" file="0.obj" />
+    <texture name="pumpkinsmall_0_tex" type="2d" file="0.png" />
+    <texture name="pumpkinsmall_0_normal" type="2d" file="0_normal.png" />
+    <texture name="pumpkinsmall_0_roughness" type="2d" file="0_roughness.png" />
+    <material name="pumpkinsmall_0_skin" specular="0.2" shininess="0.3" metallic="0">
+      <layer texture="pumpkinsmall_0_tex" role="rgb" />
+      <layer texture="pumpkinsmall_0_normal" role="normal" />
+      <layer texture="pumpkinsmall_0_roughness" role="roughness" />
+    </material>
+    <mesh name="pumpkinsmall_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="pumpkinsmall_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="small_pumpkin">
+      <geom type="mesh" mesh="pumpkinsmall_0_mesh" material="pumpkinsmall_0_skin" contype="0" conaffinity="0" mass="0" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_00" rgba="0 0 0 0" group="3" mass="0.00250898026" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_01" rgba="0 0 0 0" group="3" mass="0.0302511951" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_02" rgba="0 0 0 0" group="3" mass="0.0311067378" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_03" rgba="0 0 0 0" group="3" mass="0.0341604344" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_04" rgba="0 0 0 0" group="3" mass="0.0345543758" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_05" rgba="0 0 0 0" group="3" mass="0.00174124792" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_06" rgba="0 0 0 0" group="3" mass="0.00217835491" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_07" rgba="0 0 0 0" group="3" mass="0.0040672697" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_08" rgba="0 0 0 0" group="3" mass="0.00425346676" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_09" rgba="0 0 0 0" group="3" mass="0.0218321816" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_10" rgba="0 0 0 0" group="3" mass="0.0154633743" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom type="mesh" mesh="pumpkinsmall_hull_11" rgba="0 0 0 0" group="3" mass="0.0157302972" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0004 0.0000" />
+      <geom name="place:bounds" class="place" type="box" size="0.0380 0.0380 0.0376" pos="0.0000 0.0000 0.0376" />
+    </body>
+  </worldbody>
+</mujoco>

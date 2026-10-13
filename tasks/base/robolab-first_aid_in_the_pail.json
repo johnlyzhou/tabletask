@@ -1,0 +1,15 @@
+{
+  "id": "robolab-first_aid_in_the_pail",
+  "instruction": "Put the first aid kit and the pill bottle in the pail.",
+  "objects": {"tennis_ball": {"asset": "tennis_ball", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "first_aid_box": {"asset": "first_aid_box", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "tin_pail": {"asset": "tin_pail", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "pill_bottle": {"asset": "pill_bottle", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "tin_pail", "table"],
+    ["on", "first_aid_box", "table"],
+    ["on", "pill_bottle", "table"],
+    ["on", "tennis_ball", "table"]
+  ],
+  "goal": [
+    ["inside", "first_aid_box", "tin_pail"],
+    ["inside", "pill_bottle", "tin_pail"]
+  ]
+}

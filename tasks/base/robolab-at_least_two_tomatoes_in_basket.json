@@ -1,0 +1,15 @@
+{
+  "id": "robolab-at_least_two_tomatoes_in_basket",
+  "instruction": "Put at least two tomatoes in the basket.",
+  "objects": {"orange_tomato": {"asset": "orange_tomato", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "tomato": {"asset": "tomato", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_tomato": {"asset": "red_tomato", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "round_wicker_basket": {"asset": "round_wicker_basket", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_potato": {"asset": "yellow_potato", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "round_wicker_basket", "table"],
+    ["on", "tomato", "table"],
+    ["on", "red_tomato", "table"],
+    ["on", "orange_tomato", "table"],
+    ["on", "yellow_potato", "table"]
+  ],
+  "goal": [
+    ["count_in", ["tomato", "red_tomato", "orange_tomato"], "round_wicker_basket", 2, 3]
+  ]
+}

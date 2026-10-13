@@ -1,0 +1,21 @@
+{
+  "id": "robolab-apple_and_yogurt_in_bowl",
+  "instruction": "Put the apple and yogurt in the bowl.",
+  "objects": {"pitcher": {"asset": "pitcher", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "pail": {"asset": "pail", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "glasses": {"asset": "glasses", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "ceramic_mug": {"asset": "ceramic_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wooden_bowl": {"asset": "wooden_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "apple": {"asset": "apple", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "keyboard": {"asset": "keyboard", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yogurt_cup": {"asset": "yogurt_cup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "smartphone": {"asset": "smartphone", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "marker": {"asset": "marker", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "ceramic_mug", "table"],
+    ["on", "glasses", "table"],
+    ["on", "keyboard", "table"],
+    ["on", "marker", "table"],
+    ["on", "smartphone", "table"],
+    ["on", "wooden_bowl", "table"],
+    ["on", "yogurt_cup", "table"],
+    ["on", "pitcher", "table"],
+    ["on", "pail", "table"],
+    ["on", "apple", "table"]
+  ],
+  "goal": [
+    ["inside", "apple", "wooden_bowl"],
+    ["inside", "yogurt_cup", "wooden_bowl"]
+  ]
+}

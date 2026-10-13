@@ -1,0 +1,17 @@
+<mujoco model="square_peg">
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="square_peg_paint" rgba="0.2 0.45 0.8 1" specular="0.3" shininess="0.4" />
+  </asset>
+  <worldbody>
+    <body name="square_peg">
+      <!-- 20 x 20 x 70 mm: 1 mm of clearance on each side of the board's hole -->
+      <geom type="box" size="0.01 0.01 0.035" pos="0 0 0.035" material="square_peg_paint" mass="0.05" condim="4" friction="1.0 0.01 0.002" />
+      <geom name="place:bounds" class="place" type="box" size="0.01 0.01 0.035" pos="0 0 0.035" />
+    </body>
+  </worldbody>
+</mujoco>

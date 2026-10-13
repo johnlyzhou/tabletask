@@ -1,0 +1,20 @@
+{
+  "id": "robolab-toy_vehicles_in_the_crate",
+  "instruction": "Put the toy vehicles in the crate; the animals stay out.",
+  "objects": {"orange_toy_truck": {"asset": "orange_toy_truck", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_storage_crate": {"asset": "yellow_storage_crate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "green_toy_tractor": {"asset": "green_toy_tractor", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_race_car": {"asset": "blue_race_car", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "hedgehog_figure": {"asset": "hedgehog_figure", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "orange_toy_dinosaur": {"asset": "orange_toy_dinosaur", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "yellow_storage_crate", "table"],
+    ["on", "blue_race_car", "table"],
+    ["on", "orange_toy_truck", "table"],
+    ["on", "green_toy_tractor", "table"],
+    ["on", "orange_toy_dinosaur", "table"],
+    ["on", "hedgehog_figure", "table"]
+  ],
+  "goal": [
+    ["inside", "blue_race_car", "yellow_storage_crate"],
+    ["inside", "orange_toy_truck", "yellow_storage_crate"],
+    ["inside", "green_toy_tractor", "yellow_storage_crate"],
+    ["not", ["inside", "orange_toy_dinosaur", "yellow_storage_crate"]],
+    ["not", ["inside", "hedgehog_figure", "yellow_storage_crate"]]
+  ]
+}

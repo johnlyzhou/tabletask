@@ -1,0 +1,66 @@
+<mujoco model="purple_tray">
+  <!-- purple_tray, converted from the MolmoSpaces Objaverse library (uid a0cf648be87842db8d7b3b76950be963; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/purple_tray" texturedir="../mesh/purple_tray"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="purple_tray_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="purple_tray_0_tex" type="2d" file="0.png"/>
+    <material name="purple_tray_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="purple_tray_0_tex" role="rgb"/>
+    </material>
+    <mesh name="purple_tray_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="purple_tray_inside" file="inside.obj"/>
+    <mesh name="purple_tray_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="purple_tray">
+      <geom type="mesh" mesh="purple_tray_0_mesh" material="purple_tray_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_00" rgba="0 0 0 0" group="3" mass="0.073415673" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_01" rgba="0 0 0 0" group="3" mass="0.170486022" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_02" rgba="0 0 0 0" group="3" mass="0.0858970421" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_03" rgba="0 0 0 0" group="3" mass="0.0458627553" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_04" rgba="0 0 0 0" group="3" mass="0.0801496062" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_05" rgba="0 0 0 0" group="3" mass="0.0415225982" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_06" rgba="0 0 0 0" group="3" mass="0.0131369105" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_07" rgba="0 0 0 0" group="3" mass="0.0468671225" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_08" rgba="0 0 0 0" group="3" mass="0.0877789011" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_09" rgba="0 0 0 0" group="3" mass="0.0185719834" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_10" rgba="0 0 0 0" group="3" mass="0.0757397" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_11" rgba="0 0 0 0" group="3" mass="0.0292570906" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_12" rgba="0 0 0 0" group="3" mass="0.0717004372" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_13" rgba="0 0 0 0" group="3" mass="0.0355261697" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_14" rgba="0 0 0 0" group="3" mass="0.0276738638" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_15" rgba="0 0 0 0" group="3" mass="0.00791524859" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_16" rgba="0 0 0 0" group="3" mass="0.0166825473" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_17" rgba="0 0 0 0" group="3" mass="0.0460495806" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_18" rgba="0 0 0 0" group="3" mass="0.0221168948" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="purple_tray_hull_19" rgba="0 0 0 0" group="3" mass="0.00364985281" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.2346 0.2029 0.0500" pos="0.0000 0.0000 0.0500"/>
+      <geom name="place:inside" class="place" type="mesh" mesh="purple_tray_inside"/>
+      <geom name="place:top" class="place" type="mesh" mesh="purple_tray_top"/>
+    </body>
+  </worldbody>
+</mujoco>

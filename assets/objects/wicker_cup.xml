@@ -1,0 +1,84 @@
+<mujoco model="wicker_cup">
+  <!-- wicker_cup, converted from the MolmoSpaces Objaverse library (uid 3beabd7c94ae4def813d554afad41b9c; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/wicker_cup" texturedir="../mesh/wicker_cup"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="wicker_cup_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="wicker_cup_0_tex" type="2d" file="0.png"/>
+    <material name="wicker_cup_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="wicker_cup_0_tex" role="rgb"/>
+    </material>
+    <mesh name="wicker_cup_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_25" file="hulls/h25.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_26" file="hulls/h26.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_27" file="hulls/h27.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_hull_28" file="hulls/h28.obj" maxhullvert="128"/>
+    <mesh name="wicker_cup_inside" file="inside.obj"/>
+    <mesh name="wicker_cup_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="wicker_cup">
+      <geom type="mesh" mesh="wicker_cup_0_mesh" material="wicker_cup_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_00" rgba="0 0 0 0" group="3" mass="0.0340351137" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_01" rgba="0 0 0 0" group="3" mass="0.00634494198" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_02" rgba="0 0 0 0" group="3" mass="0.0130910499" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_03" rgba="0 0 0 0" group="3" mass="0.00656346836" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_04" rgba="0 0 0 0" group="3" mass="0.0087268814" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_05" rgba="0 0 0 0" group="3" mass="0.0130903805" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_06" rgba="0 0 0 0" group="3" mass="0.0132188578" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_07" rgba="0 0 0 0" group="3" mass="0.0130828698" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_08" rgba="0 0 0 0" group="3" mass="0.00922191917" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_09" rgba="0 0 0 0" group="3" mass="0.0131676977" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_10" rgba="0 0 0 0" group="3" mass="0.00969938833" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_11" rgba="0 0 0 0" group="3" mass="0.0087338195" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_12" rgba="0 0 0 0" group="3" mass="0.00917399529" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_13" rgba="0 0 0 0" group="3" mass="0.00913951056" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_14" rgba="0 0 0 0" group="3" mass="0.0101743668" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_15" rgba="0 0 0 0" group="3" mass="0.00738297116" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_16" rgba="0 0 0 0" group="3" mass="0.00563516294" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_17" rgba="0 0 0 0" group="3" mass="0.00654412114" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_18" rgba="0 0 0 0" group="3" mass="0.00665799" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_19" rgba="0 0 0 0" group="3" mass="0.00883410186" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_20" rgba="0 0 0 0" group="3" mass="0.0058137794" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_21" rgba="0 0 0 0" group="3" mass="0.00563165961" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_22" rgba="0 0 0 0" group="3" mass="0.00656316189" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_23" rgba="0 0 0 0" group="3" mass="0.00737866785" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_24" rgba="0 0 0 0" group="3" mass="0.00563362077" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_25" rgba="0 0 0 0" group="3" mass="0.00595288511" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_26" rgba="0 0 0 0" group="3" mass="0.0083553432" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_27" rgba="0 0 0 0" group="3" mass="0.00685460542" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="wicker_cup_hull_28" rgba="0 0 0 0" group="3" mass="0.00817457016" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0568 0.0568 0.0750" pos="0.0000 0.0000 0.0750"/>
+      <geom name="place:inside" class="place" type="mesh" mesh="wicker_cup_inside"/>
+      <geom name="place:top" class="place" type="mesh" mesh="wicker_cup_top"/>
+    </body>
+  </worldbody>
+</mujoco>

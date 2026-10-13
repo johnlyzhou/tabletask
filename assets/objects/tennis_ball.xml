@@ -1,0 +1,23 @@
+<mujoco model="tennis_ball">
+  <!-- tennis_ball, converted from the MolmoSpaces Objaverse library (uid 4a6cd8d53cbc423da9e33299f4263aed; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/tennis_ball" texturedir="../mesh/tennis_ball"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="tennis_ball_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="tennis_ball_0_tex" type="2d" file="0.png"/>
+    <material name="tennis_ball_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="tennis_ball_0_tex" role="rgb"/>
+    </material>
+  </asset>
+  <worldbody>
+    <body name="tennis_ball">
+      <geom type="mesh" mesh="tennis_ball_0_mesh" material="tennis_ball_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="sphere" size="0.03750" pos="0.0000 0.0000 0.0375" rgba="0 0 0 0" group="3" mass="0.058" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0375 0.0375 0.0375" pos="0.0000 0.0000 0.0375"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,58 @@
+<mujoco model="orange_headphones">
+  <!-- orange_headphones, converted from the MolmoSpaces Objaverse library (uid 1e44bec35a2c4c8cb29af45f84102b3c; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/orange_headphones" texturedir="../mesh/orange_headphones"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="orange_headphones_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="orange_headphones_0_tex" type="2d" file="0.png"/>
+    <material name="orange_headphones_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="orange_headphones_0_tex" role="rgb"/>
+    </material>
+    <mesh name="orange_headphones_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="orange_headphones_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+  </asset>
+  <worldbody>
+    <body name="orange_headphones">
+      <geom type="mesh" mesh="orange_headphones_0_mesh" material="orange_headphones_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_00" rgba="0 0 0 0" group="3" mass="0.0119831114" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_01" rgba="0 0 0 0" group="3" mass="0.015507254" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_02" rgba="0 0 0 0" group="3" mass="0.0148110792" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_03" rgba="0 0 0 0" group="3" mass="0.0148648134" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_04" rgba="0 0 0 0" group="3" mass="0.0200216895" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_05" rgba="0 0 0 0" group="3" mass="0.0122821247" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_06" rgba="0 0 0 0" group="3" mass="0.0326600001" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_07" rgba="0 0 0 0" group="3" mass="0.0797347483" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_08" rgba="0 0 0 0" group="3" mass="0.00115099339" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_09" rgba="0 0 0 0" group="3" mass="0.00384314188" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_10" rgba="0 0 0 0" group="3" mass="0.00154816385" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_11" rgba="0 0 0 0" group="3" mass="0.00431845377" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_12" rgba="0 0 0 0" group="3" mass="0.0111518875" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_13" rgba="0 0 0 0" group="3" mass="0.0063228514" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_14" rgba="0 0 0 0" group="3" mass="0.00778283424" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_15" rgba="0 0 0 0" group="3" mass="0.00544598403" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_16" rgba="0 0 0 0" group="3" mass="0.0198774193" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="orange_headphones_hull_17" rgba="0 0 0 0" group="3" mass="0.00469344994" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0588 0.0772 0.0277" pos="0.0000 0.0000 0.0277"/>
+    </body>
+  </worldbody>
+</mujoco>

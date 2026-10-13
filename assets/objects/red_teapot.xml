@@ -1,0 +1,36 @@
+<mujoco model="red_teapot">
+  <!-- red_teapot, converted from the MolmoSpaces Objaverse library (uid 0a104b446f124a9da76e4b98b8f5d83a; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/red_teapot" texturedir="../mesh/red_teapot"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_teapot_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="red_teapot_0_tex" type="2d" file="0.png"/>
+    <material name="red_teapot_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="red_teapot_0_tex" role="rgb"/>
+    </material>
+    <mesh name="red_teapot_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="red_teapot_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="red_teapot_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="red_teapot_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="red_teapot_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="red_teapot_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="red_teapot_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+  </asset>
+  <worldbody>
+    <body name="red_teapot">
+      <geom type="mesh" mesh="red_teapot_0_mesh" material="red_teapot_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="red_teapot_hull_00" rgba="0 0 0 0" group="3" mass="0.0145275913" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_teapot_hull_01" rgba="0 0 0 0" group="3" mass="0.00791543289" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_teapot_hull_02" rgba="0 0 0 0" group="3" mass="0.00548137821" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_teapot_hull_03" rgba="0 0 0 0" group="3" mass="0.00744717781" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_teapot_hull_04" rgba="0 0 0 0" group="3" mass="0.00867705671" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_teapot_hull_05" rgba="0 0 0 0" group="3" mass="0.949033016" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_teapot_hull_06" rgba="0 0 0 0" group="3" mass="0.0069183474" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.1148 0.0714 0.0563" pos="0.0000 0.0000 0.0563"/>
+    </body>
+  </worldbody>
+</mujoco>

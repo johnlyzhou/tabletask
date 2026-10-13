@@ -1,0 +1,12 @@
+{
+  "id": "robolab-left_bowl_on_the_right_bowl",
+  "instruction": "Stack the left bowl on the right bowl.",
+  "objects": {"bowl_2": {"asset": "bowl"}, "bowl": {"asset": "bowl"}},
+  "start": [
+    ["at", "bowl", "table/right"],
+    ["at", "bowl_2", "table/left"]
+  ],
+  "goal": [
+    ["inside", "bowl_2", "bowl"]
+  ]
+}

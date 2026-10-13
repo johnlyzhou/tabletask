@@ -1,0 +1,54 @@
+<mujoco model="lattice_pie">
+  <!-- lattice_pie, converted from the MolmoSpaces Objaverse library (uid 1b2792e199ed472ba2d7e9d62b1d3565; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/lattice_pie" texturedir="../mesh/lattice_pie"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="lattice_pie_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="lattice_pie_0_tex" type="2d" file="0.png"/>
+    <material name="lattice_pie_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="lattice_pie_0_tex" role="rgb"/>
+    </material>
+    <mesh name="lattice_pie_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="lattice_pie_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+  </asset>
+  <worldbody>
+    <body name="lattice_pie">
+      <geom type="mesh" mesh="lattice_pie_0_mesh" material="lattice_pie_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_00" rgba="0 0 0 0" group="3" mass="0.206208738" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_01" rgba="0 0 0 0" group="3" mass="0.132594028" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_02" rgba="0 0 0 0" group="3" mass="0.0299392587" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_03" rgba="0 0 0 0" group="3" mass="0.0100147057" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_04" rgba="0 0 0 0" group="3" mass="0.0261755511" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_05" rgba="0 0 0 0" group="3" mass="0.0555312513" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_06" rgba="0 0 0 0" group="3" mass="0.0650425235" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_07" rgba="0 0 0 0" group="3" mass="0.0983701001" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_08" rgba="0 0 0 0" group="3" mass="0.133835529" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_09" rgba="0 0 0 0" group="3" mass="0.0290727383" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_10" rgba="0 0 0 0" group="3" mass="0.0260816335" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_11" rgba="0 0 0 0" group="3" mass="0.0232047809" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_12" rgba="0 0 0 0" group="3" mass="0.0414384869" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_13" rgba="0 0 0 0" group="3" mass="0.0615635944" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_14" rgba="0 0 0 0" group="3" mass="0.0162177411" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="lattice_pie_hull_15" rgba="0 0 0 0" group="3" mass="0.044709339" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.1338 0.1338 0.0251" pos="0.0000 0.0000 0.0251"/>
+    </body>
+  </worldbody>
+</mujoco>

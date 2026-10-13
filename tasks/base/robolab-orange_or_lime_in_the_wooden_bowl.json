@@ -1,0 +1,25 @@
+{
+  "id": "robolab-orange_or_lime_in_the_wooden_bowl",
+  "instruction": "Move an orange or a lime to the wood bowl.",
+  "objects": {"orange": {"asset": "orange"}, "lime": {"asset": "lime"}, "clay_plates": {"asset": "clay_plates", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "lime_2": {"asset": "lime", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "small_pumpkin": {"asset": "small_pumpkin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wooden_bowl": {"asset": "wooden_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "large_orange": {"asset": "large_orange"}, "pomegranate": {"asset": "pomegranate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "large_pumpkin": {"asset": "large_pumpkin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "spatula": {"asset": "spatula", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "storage_box": {"asset": "storage_box", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "small_lemon": {"asset": "small_lemon"}, "serving_bowl": {"asset": "serving_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wooden_spoons": {"asset": "wooden_spoons", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_onion": {"asset": "red_onion", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "small_lemon", "clay_plates"],
+    ["on", "lime", "clay_plates"],
+    ["on", "lime_2", "table"],
+    ["on", "large_orange", "clay_plates"],
+    ["on", "orange", "clay_plates"],
+    ["on", "pomegranate", "table"],
+    ["on", "large_pumpkin", "table"],
+    ["on", "small_pumpkin", "table"],
+    ["on", "red_onion", "table"],
+    ["on", "serving_bowl", "table"],
+    ["on", "clay_plates", "table"],
+    ["on", "wooden_bowl", "table"],
+    ["on", "wooden_spoons", "table"],
+    ["on", "spatula", "table"],
+    ["on", "storage_box", "table"]
+  ],
+  "goal": [
+    ["or", ["inside", "large_orange", "wooden_bowl"], ["inside", "lime", "wooden_bowl"], ["inside", "orange", "wooden_bowl"], ["inside", "lime_2", "wooden_bowl"]]
+  ]
+}

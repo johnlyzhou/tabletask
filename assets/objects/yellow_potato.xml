@@ -1,0 +1,30 @@
+<mujoco model="yellow_potato">
+  <!-- yellow_potato, converted from the MolmoSpaces Objaverse library (uid 0f4be86441694633b42c764a4574fd41; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/yellow_potato" texturedir="../mesh/yellow_potato" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="yellow_potato_0_mesh" file="0.obj" inertia="shell" />
+    <texture name="yellow_potato_0_tex" type="2d" file="0.png" />
+    <material name="yellow_potato_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="yellow_potato_0_tex" role="rgb" />
+    </material>
+    <mesh name="yellow_potato_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="yellow_potato_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="yellow_potato_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="yellow_potato_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="yellow_potato">
+      <geom type="mesh" mesh="yellow_potato_0_mesh" material="yellow_potato_0_skin" contype="0" conaffinity="0" mass="0" condim="4" quat="0.682317064 0.634301977 -0.363461726 0" pos="0.0161786982 0.0333593148 0.0309960722" />
+      <geom type="mesh" mesh="yellow_potato_hull_00" rgba="0 0 0 0" group="3" mass="0.030109272" friction="0.9 0.01 0.002" condim="4" quat="0.682317064 0.634301977 -0.363461726 0" pos="0.0161786982 0.0333593148 0.0309960722" />
+      <geom type="mesh" mesh="yellow_potato_hull_01" rgba="0 0 0 0" group="3" mass="0.0117687863" friction="0.9 0.01 0.002" condim="4" quat="0.682317064 0.634301977 -0.363461726 0" pos="0.0161786982 0.0333593148 0.0309960722" />
+      <geom type="mesh" mesh="yellow_potato_hull_02" rgba="0 0 0 0" group="3" mass="0.0187656343" friction="0.9 0.01 0.002" condim="4" quat="0.682317064 0.634301977 -0.363461726 0" pos="0.0161786982 0.0333593148 0.0309960722" />
+      <geom type="mesh" mesh="yellow_potato_hull_03" rgba="0 0 0 0" group="3" mass="0.0955519147" friction="0.9 0.01 0.002" condim="4" quat="0.682317064 0.634301977 -0.363461726 0" pos="0.0161786982 0.0333593148 0.0309960722" />
+      <geom name="place:bounds" class="place" type="box" size="0.0343 0.0309 0.0375" pos="-0.00242101216 0.000899685114 0.0284128154" quat="0.682317064 0.634301977 -0.363461726 0" />
+    </body>
+  </worldbody>
+</mujoco>

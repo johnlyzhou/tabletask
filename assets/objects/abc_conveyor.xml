@@ -1,0 +1,52 @@
+<mujoco model="abc_conveyor">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="conveyor_00_borracha_001" specular="0.5" shininess="0.023575562" rgba="0.037410 0.037410 0.037410 1.000000" />
+    <material name="conveyor_02_metal_motor_001" specular="0.5" shininess="0.638740723" rgba="0.545724 0.545724 0.545725 1.000000" />
+    <material name="conveyor_03_metal_pintado_002" specular="0.5" shininess="0.411820343" rgba="0.006370 0.006370 0.006370 1.000000" />
+    <material name="conveyor_04_parto_do_motor" specular="0.5" shininess="0.716488953" rgba="0.800000 0.536922 0.000000 1.000000" />
+    <material name="conveyor_05_plastico_preto_001" specular="0.5" shininess="0.265996033" rgba="0.013410 0.013410 0.013410 1.000000" />
+    <material name="conveyor_06_rolete" specular="0.5" shininess="0.784689087" rgba="0.735654 0.735654 0.735654 1.000000" />
+    <mesh name="conveyor_belt_model_0" file="task_conveyor_pick/conveyor_belt/model_0.obj" scale="0.7 0.7 0.7" />
+    <mesh name="conveyor_belt_model_1" file="task_conveyor_pick/conveyor_belt/model_1.obj" scale="0.7 0.7 0.7" />
+    <mesh name="conveyor_belt_model_2" file="task_conveyor_pick/conveyor_belt/model_2.obj" scale="0.7 0.7 0.7" />
+    <mesh name="conveyor_belt_model_3" file="task_conveyor_pick/conveyor_belt/model_3.obj" scale="0.7 0.7 0.7" />
+    <mesh name="conveyor_belt_model_4" file="task_conveyor_pick/conveyor_belt/model_4.obj" scale="0.7 0.7 0.7" />
+    <mesh name="conveyor_belt_model_5" file="task_conveyor_pick/conveyor_belt/model_5.obj" scale="0.7 0.7 0.7" />
+    <mesh name="region_60457e30da8441e9" file="regions/60457e30da8441e9.obj" />
+  </asset>
+  <worldbody>
+    <body name="abc_conveyor">
+      <body name="source" pos="9.57480321e-10 9.09646276e-10 0.0399000012">
+        <geom name="conveyor_visual_0" type="mesh" mesh="conveyor_belt_model_0" material="conveyor_00_borracha_001" group="2" contype="0" conaffinity="0" density="0" />
+        <geom name="conveyor_visual_1" type="mesh" mesh="conveyor_belt_model_1" material="conveyor_06_rolete" group="2" contype="0" conaffinity="0" density="0" />
+        <geom name="conveyor_visual_2" type="mesh" mesh="conveyor_belt_model_2" material="conveyor_03_metal_pintado_002" group="2" contype="0" conaffinity="0" density="0" />
+        <geom name="conveyor_visual_3" type="mesh" mesh="conveyor_belt_model_3" material="conveyor_04_parto_do_motor" group="2" contype="0" conaffinity="0" density="0" />
+        <geom name="conveyor_visual_4" type="mesh" mesh="conveyor_belt_model_4" material="conveyor_02_metal_motor_001" group="2" contype="0" conaffinity="0" density="0" />
+        <geom name="conveyor_visual_5" type="mesh" mesh="conveyor_belt_model_5" material="conveyor_05_plastico_preto_001" group="2" contype="0" conaffinity="0" density="0" />
+        <geom name="conveyor_belt_surface" type="box" size="0.0665 0.35 0.0105" pos="0 0 0.0021" rgba="0.05 0.75 1.0 0.35" group="3" friction="3.0 0.1 0.01" condim="6" priority="2" solref="0.004 1" solimp="0.998 0.998 0.001" margin="0" gap="0" />
+        <geom name="conveyor_left_rail" type="box" size="0.0084 0.364 0.0315" pos="-0.0805 0 0.0315" rgba="0 0 0 0" group="3" friction="0.8 0.05 0.01" />
+        <geom name="conveyor_right_rail" type="box" size="0.0084 0.364 0.0315" pos="0.0805 0 0.0315" rgba="0 0 0 0" group="3" friction="0.8 0.05 0.01" />
+        <body name="conveyor_infeed_roller" pos="0 0.364 0.0056">
+          <joint name="conveyor_infeed_roller_joint" type="hinge" axis="1 0 0" damping="0.01" />
+          <geom name="conveyor_infeed_roller_geom" type="cylinder" size="0.0245 0.0735" quat="0.707107 0 0.707107 0" rgba="0 0 0 0" group="3" contype="0" conaffinity="0" />
+        </body>
+        <body name="conveyor_outfeed_roller" pos="0 -0.364 0.0056">
+          <joint name="conveyor_outfeed_roller_joint" type="hinge" axis="1 0 0" damping="0.01" />
+          <geom name="conveyor_outfeed_roller_geom" type="cylinder" size="0.0245 0.0735" quat="0.707107 0 0.707107 0" rgba="0 0 0 0" group="3" contype="0" conaffinity="0" />
+        </body>
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.0514500006" size="0.0909999986 0.364000001 0.0514500006" />
+      <geom type="box" pos="-0.078 -0.33 0.01575" size=".010 .024 .01575" group="3" rgba="0 0 0 0" mass=".05" friction="1 .01 .001" />
+      <geom type="box" pos="-0.078 0.33 0.01575" size=".010 .024 .01575" group="3" rgba="0 0 0 0" mass=".05" friction="1 .01 .001" />
+      <geom type="box" pos="0.078 -0.33 0.01575" size=".010 .024 .01575" group="3" rgba="0 0 0 0" mass=".05" friction="1 .01 .001" />
+      <geom type="box" pos="0.078 0.33 0.01575" size=".010 .024 .01575" group="3" rgba="0 0 0 0" mass=".05" friction="1 .01 .001" />
+      <geom name="place:top" class="place" type="mesh" pos="0 0 0.0525000012" mesh="region_60457e30da8441e9" />
+    </body>
+  </worldbody>
+</mujoco>

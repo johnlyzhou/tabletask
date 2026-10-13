@@ -1,0 +1,19 @@
+{
+  "id": "robolab-cubes_and_blocks_in_bin",
+  "instruction": "Put all the cubes and blocks in the bin.",
+  "objects": {"red_block": {"asset": "red_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "rubiks_cube": {"asset": "rubiks_cube", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "birdhouse": {"asset": "birdhouse", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_block": {"asset": "yellow_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "grey_bin": {"asset": "grey_bin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "rubiks_cube_2": {"asset": "rubiks_cube", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "grey_bin", "table"],
+    ["on", "birdhouse", "table"],
+    ["on", "yellow_block", "table"],
+    ["on", "red_block", "table"],
+    ["on", "rubiks_cube", "table"],
+    ["on", "rubiks_cube_2", "table"]
+  ],
+  "goal": [
+    ["inside", "yellow_block", "grey_bin"],
+    ["inside", "red_block", "grey_bin"],
+    ["inside", "rubiks_cube", "grey_bin"],
+    ["inside", "rubiks_cube_2", "grey_bin"]
+  ]
+}

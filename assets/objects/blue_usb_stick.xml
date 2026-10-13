@@ -1,0 +1,58 @@
+<mujoco model="blue_usb_stick">
+  <!-- blue_usb_stick, converted from the MolmoSpaces Objaverse library (uid 1379cfdc210c46cf91afcaf4f91fa002; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/blue_usb_stick" texturedir="../mesh/blue_usb_stick"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_usb_stick_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="blue_usb_stick_0_tex" type="2d" file="0.png"/>
+    <material name="blue_usb_stick_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="blue_usb_stick_0_tex" role="rgb"/>
+    </material>
+    <mesh name="blue_usb_stick_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="blue_usb_stick_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="blue_usb_stick">
+      <geom type="mesh" mesh="blue_usb_stick_0_mesh" material="blue_usb_stick_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_00" rgba="0 0 0 0" group="3" mass="0.0111728021" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_01" rgba="0 0 0 0" group="3" mass="2.39309061e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_02" rgba="0 0 0 0" group="3" mass="4.46356991e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_03" rgba="0 0 0 0" group="3" mass="5.79657223e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_04" rgba="0 0 0 0" group="3" mass="2.39309061e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_05" rgba="0 0 0 0" group="3" mass="5.44197611e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_06" rgba="0 0 0 0" group="3" mass="6.09983188e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_07" rgba="0 0 0 0" group="3" mass="3.46303118e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_08" rgba="0 0 0 0" group="3" mass="5.74958468e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_09" rgba="0 0 0 0" group="3" mass="2.55533678e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_10" rgba="0 0 0 0" group="3" mass="0.000296294745" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_11" rgba="0 0 0 0" group="3" mass="6.317616e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_12" rgba="0 0 0 0" group="3" mass="2.65049809e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_13" rgba="0 0 0 0" group="3" mass="2.39309061e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_14" rgba="0 0 0 0" group="3" mass="2.39309061e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_15" rgba="0 0 0 0" group="3" mass="2.39309061e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_usb_stick_hull_16" rgba="0 0 0 0" group="3" mass="2.39309061e-05" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0301 0.0122 0.0050" pos="0.0000 0.0000 0.0050"/>
+      <geom name="place:top" class="place" type="mesh" mesh="blue_usb_stick_top"/>
+    </body>
+  </worldbody>
+</mujoco>

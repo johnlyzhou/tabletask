@@ -1,0 +1,18 @@
+{
+  "id": "robolab-balls_in_the_basket",
+  "instruction": "Put the balls in the basket, leave the pin where it is.",
+  "objects": {"golf_ball": {"asset": "golf_ball", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "bowling_pin": {"asset": "bowling_pin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "baseball": {"asset": "baseball", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "woven_basket": {"asset": "woven_basket", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_tennis_ball": {"asset": "yellow_tennis_ball", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "woven_basket", "table"],
+    ["on", "yellow_tennis_ball", "table"],
+    ["on", "baseball", "table"],
+    ["on", "golf_ball", "table"],
+    ["on", "bowling_pin", "table"]
+  ],
+  "goal": [
+    ["inside", "yellow_tennis_ball", "woven_basket"],
+    ["inside", "baseball", "woven_basket"],
+    ["inside", "golf_ball", "woven_basket"],
+    ["at_start", "bowling_pin"]
+  ]
+}

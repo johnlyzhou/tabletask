@@ -1,0 +1,76 @@
+<mujoco model="white_queen">
+  <!-- white_queen, converted from the MolmoSpaces Objaverse library (uid 2a76a326977c472ab3ed37c51cf51979; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/white_queen" texturedir="../mesh/white_queen"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_queen_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="white_queen_0_tex" type="2d" file="0.png"/>
+    <material name="white_queen_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="white_queen_0_tex" role="rgb"/>
+    </material>
+    <mesh name="white_queen_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_25" file="hulls/h25.obj" maxhullvert="128"/>
+    <mesh name="white_queen_hull_26" file="hulls/h26.obj" maxhullvert="128"/>
+  </asset>
+  <worldbody>
+    <body name="white_queen">
+      <geom type="mesh" mesh="white_queen_0_mesh" material="white_queen_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_00" rgba="0 0 0 0" group="3" mass="0.00264911011" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_01" rgba="0 0 0 0" group="3" mass="0.00469538672" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_02" rgba="0 0 0 0" group="3" mass="0.000271799314" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_03" rgba="0 0 0 0" group="3" mass="0.00662674113" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_04" rgba="0 0 0 0" group="3" mass="0.0165933082" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_05" rgba="0 0 0 0" group="3" mass="0.0185241213" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_06" rgba="0 0 0 0" group="3" mass="0.00316994356" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_07" rgba="0 0 0 0" group="3" mass="0.00799117618" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_08" rgba="0 0 0 0" group="3" mass="0.00448883865" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_09" rgba="0 0 0 0" group="3" mass="0.000268064766" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_10" rgba="0 0 0 0" group="3" mass="0.000408108966" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_11" rgba="0 0 0 0" group="3" mass="0.000425506065" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_12" rgba="0 0 0 0" group="3" mass="0.000244089525" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_13" rgba="0 0 0 0" group="3" mass="0.000196386711" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_14" rgba="0 0 0 0" group="3" mass="0.00014632503" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_15" rgba="0 0 0 0" group="3" mass="0.00065554761" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_16" rgba="0 0 0 0" group="3" mass="0.000806489255" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_17" rgba="0 0 0 0" group="3" mass="0.00104610657" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_18" rgba="0 0 0 0" group="3" mass="0.00014632503" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_19" rgba="0 0 0 0" group="3" mass="0.00105940505" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_20" rgba="0 0 0 0" group="3" mass="0.000826907376" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_21" rgba="0 0 0 0" group="3" mass="0.00014632503" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_22" rgba="0 0 0 0" group="3" mass="0.000313067379" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_23" rgba="0 0 0 0" group="3" mass="0.000724460554" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_24" rgba="0 0 0 0" group="3" mass="0.000695289053" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_25" rgba="0 0 0 0" group="3" mass="0.000157526746" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="white_queen_hull_26" rgba="0 0 0 0" group="3" mass="0.00014632503" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0232 0.0256 0.0500" pos="0.0000 0.0000 0.0500"/>
+    </body>
+  </worldbody>
+</mujoco>

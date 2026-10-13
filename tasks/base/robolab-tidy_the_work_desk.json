@@ -1,0 +1,19 @@
+{
+  "id": "robolab-tidy_the_work_desk",
+  "instruction": "Put the pencil and pen in the tumbler, then move the mouse to the right of the laptop.",
+  "objects": {"laptop": {"asset": "desk_laptop", "fixed": true, "sample": {"rel": "table/top", "offset": [0.002, 0.02, 0], "rotation": [0, 0, -90], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "speaker": {"asset": "bookshelf_speaker", "fixed": true, "sample": {"rel": "table/top", "offset": [0.11, 0.32, 0], "rotation": [0, 0, -90], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "tumbler": {"asset": "speckled_tumbler", "fixed": true, "sample": {"rel": "table/top", "offset": [0.074, -0.273, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "coffee": {"asset": "white_mug", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.185, 0.307, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "pencil": {"asset": "yellow_pencil", "sample": {"rel": "table/top", "offset": [-0.25, -0.06, 0], "rotation": [0, 0, 45], "jitter": {"xy": [0.0, 0.023], "yaw": 25}}}, "pen": {"asset": "teal_pen", "sample": {"rel": "table/top", "offset": [-0.25, -0.213, 0], "rotation": [0, 0, -10], "jitter": {"xy": [0.0, 0.023], "yaw": 25}}}, "mouse": {"asset": "black_red_mouse", "sample": {"rel": "table/top", "offset": [-0.243, 0.147, 0], "rotation": [0, 0, 90], "jitter": {"xy": [0.007, 0.023], "yaw": 25}}}, "phone": {"asset": "smartphone", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.056, -0.32, 0], "rotation": [0, 0, 5], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}},
+  "start": [
+    ["on", "laptop", "table"],
+    ["on", "speaker", "table"],
+    ["on", "tumbler", "table"],
+    ["on", "coffee", "table"],
+    ["on", "pencil", "table"],
+    ["on", "pen", "table"],
+    ["on", "mouse", "table"],
+    ["on", "phone", "table"],
+    ["open", "laptop/lid"]
+  ],
+  "goal": [
+    ["then", ["and", ["inside", "pencil", "tumbler"], ["inside", "pen", "tumbler"]], ["and", ["right_of", "mouse", "laptop"], ["near", "mouse", "laptop", 0.3], ["on", "mouse", "table"]]]
+  ]
+}

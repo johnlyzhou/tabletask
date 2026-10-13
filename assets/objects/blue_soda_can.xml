@@ -1,0 +1,24 @@
+<mujoco model="blue_soda_can">
+  <compiler angle="radian" meshdir="../mesh/blue_soda_can" texturedir="../mesh/blue_soda_can" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_soda_can_0_mesh" file="0.obj" inertia="shell" />
+    <texture name="blue_soda_can_0_tex" type="2d" file="0.png" />
+    <material name="blue_soda_can_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="blue_soda_can_0_tex" role="rgb" />
+    </material>
+    <mesh name="blue_soda_can_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="blue_soda_can">
+      <geom type="mesh" mesh="blue_soda_can_0_mesh" material="blue_soda_can_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0316 0.0316 0.0600" pos="0.0000 0.0000 0.0600" />
+      <geom name="place:top" class="place" type="mesh" mesh="blue_soda_can_top" />
+      <geom type="cylinder" size="0.03165 0.06000" pos="-0.0000 -0.0000 0.0600" rgba="0 0 0 0" group="3" mass="0.0967735703" condim="4" friction="0.9 0.01 0.002" />
+    </body>
+  </worldbody>
+</mujoco>

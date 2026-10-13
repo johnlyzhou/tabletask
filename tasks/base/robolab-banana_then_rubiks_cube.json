@@ -1,0 +1,16 @@
+{
+  "id": "robolab-banana_then_rubiks_cube",
+  "instruction": "Put the banana then the cube in the bowl.",
+  "objects": {"banana": {"asset": "banana", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "rubiks_cube": {"asset": "rubiks_cube", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "bowl": {"asset": "bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "rubiks_cube", "table"],
+    ["on", "banana", "table"],
+    ["on", "bowl", "table"]
+  ],
+  "goal": [
+    ["then", ["inside", "banana", "bowl"], ["inside", "rubiks_cube", "bowl"]]
+  ],
+  "always": [
+    ["or", ["not", ["inside", "rubiks_cube", "bowl"]], ["inside", "banana", "bowl"]]
+  ]
+}

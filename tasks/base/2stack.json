@@ -1,0 +1,12 @@
+{
+  "id": "2stack",
+  "instruction": "Stack one block on the other.",
+  "objects": {"red_block": {"asset": "red_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_block": {"asset": "blue_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "red_block", "table"],
+    ["on", "blue_block", "table"]
+  ],
+  "goal": [
+    ["at_least", ["tally", [["on", "red_block", "blue_block"], ["on", "blue_block", "red_block"]]], 1]
+  ]
+}

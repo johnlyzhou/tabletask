@@ -1,0 +1,74 @@
+<mujoco model="clay_teapot">
+  <!-- clay_teapot, converted from the MolmoSpaces Objaverse library (uid 03f6e8e3277c4969bed2f1c4ddeb710b; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/clay_teapot" texturedir="../mesh/clay_teapot"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="clay_teapot_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="clay_teapot_0_tex" type="2d" file="0.png"/>
+    <material name="clay_teapot_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="clay_teapot_0_tex" role="rgb"/>
+    </material>
+    <mesh name="clay_teapot_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
+    <mesh name="clay_teapot_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="clay_teapot">
+      <geom type="mesh" mesh="clay_teapot_0_mesh" material="clay_teapot_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_00" rgba="0 0 0 0" group="3" mass="0.0182781742" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_01" rgba="0 0 0 0" group="3" mass="0.140588966" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_02" rgba="0 0 0 0" group="3" mass="0.00499462263" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_03" rgba="0 0 0 0" group="3" mass="0.00499239427" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_04" rgba="0 0 0 0" group="3" mass="0.00199616625" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_05" rgba="0 0 0 0" group="3" mass="0.00586161886" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_06" rgba="0 0 0 0" group="3" mass="0.0117316822" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_07" rgba="0 0 0 0" group="3" mass="0.00981860386" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_08" rgba="0 0 0 0" group="3" mass="0.316095565" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_09" rgba="0 0 0 0" group="3" mass="0.00861537055" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_10" rgba="0 0 0 0" group="3" mass="0.00642215786" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_11" rgba="0 0 0 0" group="3" mass="0.00361543692" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_12" rgba="0 0 0 0" group="3" mass="0.0053375667" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_13" rgba="0 0 0 0" group="3" mass="0.0458329926" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_14" rgba="0 0 0 0" group="3" mass="0.309622483" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_15" rgba="0 0 0 0" group="3" mass="0.00199616625" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_16" rgba="0 0 0 0" group="3" mass="0.00598584708" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_17" rgba="0 0 0 0" group="3" mass="0.00581204721" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_18" rgba="0 0 0 0" group="3" mass="0.00486400606" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_19" rgba="0 0 0 0" group="3" mass="0.00486410471" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_20" rgba="0 0 0 0" group="3" mass="0.00566780542" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_21" rgba="0 0 0 0" group="3" mass="0.0208432988" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_22" rgba="0 0 0 0" group="3" mass="0.0521705915" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_23" rgba="0 0 0 0" group="3" mass="0.00199616625" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="clay_teapot_hull_24" rgba="0 0 0 0" group="3" mass="0.00199616625" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.1191 0.1121 0.0750" pos="0.0000 0.0000 0.0750"/>
+      <geom name="place:top" class="place" type="mesh" mesh="clay_teapot_top"/>
+    </body>
+  </worldbody>
+</mujoco>

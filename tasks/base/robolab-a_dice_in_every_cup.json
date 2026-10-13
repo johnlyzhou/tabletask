@@ -1,0 +1,18 @@
+{
+  "id": "robolab-a_dice_in_every_cup",
+  "instruction": "Drop one dice in each of the three cups.",
+  "objects": {"red_party_cup": {"asset": "red_party_cup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_teacup": {"asset": "yellow_teacup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_die": {"asset": "red_die", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "clear_plastic_cup": {"asset": "clear_plastic_cup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "white_die": {"asset": "white_die", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_die": {"asset": "blue_die", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "red_party_cup", "table"],
+    ["on", "clear_plastic_cup", "table"],
+    ["on", "yellow_teacup", "table"],
+    ["on", "white_die", "table"],
+    ["on", "blue_die", "table"],
+    ["on", "red_die", "table"]
+  ],
+  "goal": [
+    ["or", ["inside", "white_die", "red_party_cup"], ["inside", "blue_die", "red_party_cup"], ["inside", "red_die", "red_party_cup"]],
+    ["or", ["inside", "white_die", "clear_plastic_cup"], ["inside", "blue_die", "clear_plastic_cup"], ["inside", "red_die", "clear_plastic_cup"]],
+    ["or", ["inside", "white_die", "yellow_teacup"], ["inside", "blue_die", "yellow_teacup"], ["inside", "red_die", "yellow_teacup"]]
+  ]
+}

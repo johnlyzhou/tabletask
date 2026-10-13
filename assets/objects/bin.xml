@@ -1,0 +1,55 @@
+<mujoco model="bin">
+  <compiler angle="radian" meshdir="../mesh/bin" texturedir="../mesh/bin" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="bin_a06_0_mesh" file="0.obj" />
+    <texture name="bin_a06_0_tex" type="2d" file="0.png" />
+    <texture name="bin_a06_0_normal" type="2d" file="0_normal.png" />
+    <texture name="bin_a06_0_occlusion" type="2d" file="0_occlusion.png" />
+    <texture name="bin_a06_0_roughness" type="2d" file="0_roughness.png" />
+    <texture name="bin_a06_0_metallic" type="2d" file="0_metallic.png" />
+    <material name="bin_a06_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="bin_a06_0_tex" role="rgb" />
+      <layer texture="bin_a06_0_normal" role="normal" />
+      <layer texture="bin_a06_0_occlusion" role="occlusion" />
+      <layer texture="bin_a06_0_roughness" role="roughness" />
+      <layer texture="bin_a06_0_metallic" role="metallic" />
+    </material>
+    <mesh name="bin_a06_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="bin_a06_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="bin_a06_inside" file="inside.obj" />
+    <mesh name="bin_a06_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="bin">
+      <geom type="mesh" mesh="bin_a06_0_mesh" material="bin_a06_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_00" rgba="0 0 0 0" group="3" mass="0.0595279343" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_01" rgba="0 0 0 0" group="3" mass="0.0666741612" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_02" rgba="0 0 0 0" group="3" mass="0.0670510817" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_03" rgba="0 0 0 0" group="3" mass="0.0647138923" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_04" rgba="0 0 0 0" group="3" mass="0.0493810151" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_05" rgba="0 0 0 0" group="3" mass="0.0343238877" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_06" rgba="0 0 0 0" group="3" mass="0.0386014316" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_07" rgba="0 0 0 0" group="3" mass="0.0633276496" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_08" rgba="0 0 0 0" group="3" mass="0.0436584849" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_09" rgba="0 0 0 0" group="3" mass="0.0478627586" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bin_a06_hull_10" rgba="0 0 0 0" group="3" mass="0.0755764648" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1779 0.1050 0.0655" pos="0.0000 0.0000 0.0655" />
+      <geom name="place:inside" class="place" type="mesh" mesh="bin_a06_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="bin_a06_top" />
+    </body>
+  </worldbody>
+</mujoco>

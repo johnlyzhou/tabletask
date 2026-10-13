@@ -1,0 +1,15 @@
+{
+  "id": "robolab-banana_on_plate",
+  "instruction": "Pick up the banana and put it on the plate.",
+  "objects": {"bagel": {"asset": "bagel", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "large_plate": {"asset": "large_plate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "banana": {"asset": "banana", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "bowl": {"asset": "bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "bagel_2": {"asset": "bagel", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "bagel", "table"],
+    ["on", "bagel_2", "table"],
+    ["on", "banana", "table"],
+    ["on", "bowl", "table"],
+    ["on", "large_plate", "table"]
+  ],
+  "goal": [
+    ["on", "banana", "large_plate"]
+  ]
+}

@@ -1,0 +1,94 @@
+<mujoco model="solid_gripper">
+  <compiler angle="radian" autolimits="true" meshdir="" />
+  <option integrator="implicitfast" />
+  <default>
+    <default class="solid_gripper">
+      <geom friction="1 0.005 0.0001" condim="4" solref="0.004 1" solimp="0.95 0.99 0.001" group="2" />
+      <joint type="slide" range="0 0.04" damping="5" armature="0.01" />
+      <position kp="1500" kv="15" ctrlrange="0 0.04" forcerange="-20 20" />
+    </default>
+  </default>
+  <asset>
+    <material name="charcoal" rgba=".035 .12 .24 1" metallic=".35" roughness=".4" />
+    <material name="aluminum" rgba=".72 .76 .8 1" metallic=".85" roughness=".24" />
+    <material name="elastomer" rgba=".66 .82 .76 1" roughness=".47" specular=".22" shininess=".08" texrepeat="3 3" metallic="0" />
+    <material name="rubber" rgba=".55 .72 .65 1" roughness=".65" specular=".22" shininess=".08" texrepeat="3 3" metallic="0" />
+    <material name="housing" rgba=".065 .075 .085 1" roughness=".32" metallic=".45" />
+    <mesh name="finger" file="finger.obj" />
+    <mesh name="pad" file="pad.obj" />
+    <mesh name="palm" file="palm.obj" />
+    <mesh name="carriage" file="carriage.obj" />
+    <texture name="rubber_grain" type="2d" file="rubber.png" />
+    <texture name="rubber_normal" type="2d" file="rubber-normal.png" />
+    <mesh name="rail" file="rail.obj" />
+    <material name="accent" rgba=".06 .07 .08 1" metallic="0" roughness=".62" />
+    <material name="hardware" rgba=".09 .10 .12 1" metallic=".65" roughness=".4" />
+    <mesh name="finger_back" file="finger_back.obj" />
+    <mesh name="finger_root" file="finger_root.obj" />
+    <mesh name="finger_rib_0" file="finger_rib_0.obj" />
+    <mesh name="finger_rib_1" file="finger_rib_1.obj" />
+    <mesh name="finger_rib_2" file="finger_rib_2.obj" />
+    <mesh name="finger_rib_3" file="finger_rib_3.obj" />
+    <mesh name="finger_rib_4" file="finger_rib_4.obj" />
+    <mesh name="wrist_motor" file="wrist_motor.obj" />
+  </asset>
+  <worldbody>
+    <body name="target" mocap="true" />
+    <body name="base" childclass="solid_gripper" gravcomp="1">
+      <freejoint name="free" />
+      <geom name="palm" type="mesh" material="housing" mass=".13" mesh="palm" />
+      <geom name="rail" type="mesh" material="hardware" mass=".055" mesh="rail" />
+      <geom name="camera_housing" type="box" pos="0 .026 -.003" size=".012 .010 .010" material="housing" mass=".02" />
+      <camera name="wrist" pos="0 .036 .009" xyaxes="-1 0 0 0 .90152 .43273" fovy="65" />
+      <site name="tcp" pos="0 0 .084" size=".002" group="4" />
+      <body name="left_finger" pos="0 0 .025" gravcomp="1">
+        <joint name="left_slide" axis="1 0 0" />
+        <geom name="left_carriage" type="mesh" material="accent" mass=".012" mesh="carriage" />
+        <geom name="left_tip" type="mesh" mesh="finger" material="elastomer" mass=".008" />
+        <geom name="left_pad" type="mesh" mesh="pad" material="rubber" mass=".003" friction="1.2 .005 .0001" solref=".005 1" solimp=".85 .95 .001" priority="1" />
+        <geom name="left_finger_back" type="mesh" mesh="finger_back" material="elastomer" mass=".0015" />
+        <geom name="left_finger_root" type="mesh" mesh="finger_root" material="elastomer" mass=".0015" />
+        <geom name="left_finger_rib_0" type="mesh" mesh="finger_rib_0" material="elastomer" mass=".0015" />
+        <geom name="left_finger_rib_1" type="mesh" mesh="finger_rib_1" material="elastomer" mass=".0015" />
+        <geom name="left_finger_rib_2" type="mesh" mesh="finger_rib_2" material="elastomer" mass=".0015" />
+        <geom name="left_finger_rib_3" type="mesh" mesh="finger_rib_3" material="elastomer" mass=".0015" />
+        <geom name="left_finger_rib_4" type="mesh" mesh="finger_rib_4" material="elastomer" mass=".0015" />
+        <geom type="cylinder" pos=".014 -0.005 -.0005" size=".0011 .0005" material="hardware" mass=".0001" />
+        <geom type="cylinder" pos=".014 0.005 -.0005" size=".0011 .0005" material="hardware" mass=".0001" />
+      </body>
+      <body name="right_finger" pos="0 0 .025" quat="0 0 0 1" gravcomp="1">
+        <joint name="right_slide" axis="1 0 0" />
+        <geom name="right_carriage" type="mesh" material="accent" mass=".012" mesh="carriage" />
+        <geom name="right_tip" type="mesh" mesh="finger" material="elastomer" mass=".008" />
+        <geom name="right_pad" type="mesh" mesh="pad" material="rubber" mass=".003" friction="1.2 .005 .0001" solref=".005 1" solimp=".85 .95 .001" priority="1" />
+        <geom name="right_finger_back" type="mesh" mesh="finger_back" material="elastomer" mass=".0015" />
+        <geom name="right_finger_root" type="mesh" mesh="finger_root" material="elastomer" mass=".0015" />
+        <geom name="right_finger_rib_0" type="mesh" mesh="finger_rib_0" material="elastomer" mass=".0015" />
+        <geom name="right_finger_rib_1" type="mesh" mesh="finger_rib_1" material="elastomer" mass=".0015" />
+        <geom name="right_finger_rib_2" type="mesh" mesh="finger_rib_2" material="elastomer" mass=".0015" />
+        <geom name="right_finger_rib_3" type="mesh" mesh="finger_rib_3" material="elastomer" mass=".0015" />
+        <geom name="right_finger_rib_4" type="mesh" mesh="finger_rib_4" material="elastomer" mass=".0015" />
+        <geom type="cylinder" pos=".014 -0.005 -.0005" size=".0011 .0005" material="hardware" mass=".0001" />
+        <geom type="cylinder" pos=".014 0.005 -.0005" size=".0011 .0005" material="hardware" mass=".0001" />
+      </body>
+      <geom name="guide_track" type="box" pos="0 0 .016" size=".051 .004 .001" material="hardware" mass=".005" />
+      <geom name="wrist_motor" type="mesh" mesh="wrist_motor" material="housing" mass=".045" />
+      <geom name="wrist_ring" type="cylinder" pos="0 0 -.050" size=".020 .0028" material="aluminum" mass=".01" />
+      <geom name="wrist_cap" type="cylinder" pos="0 0 -.054" size=".0188 .0015" material="housing" mass=".008" />
+      <geom type="box" pos="0 -0.0146 -.004" size=".008 .0003 .0012" material="charcoal" mass=".0001" />
+      <geom type="cylinder" pos="-0.04 -0.0146 .001" quat=".70710678 .70710678 0 0" size=".0014 .0003" material="hardware" mass=".0001" />
+      <geom type="cylinder" pos="0.04 -0.0146 .001" quat=".70710678 .70710678 0 0" size=".0014 .0003" material="hardware" mass=".0001" />
+      <geom type="box" pos="0 0.0146 -.004" size=".008 .0003 .0012" material="charcoal" mass=".0001" />
+      <geom type="cylinder" pos="-0.04 0.0146 .001" quat=".70710678 .70710678 0 0" size=".0014 .0003" material="hardware" mass=".0001" />
+      <geom type="cylinder" pos="0.04 0.0146 .001" quat=".70710678 .70710678 0 0" size=".0014 .0003" material="hardware" mass=".0001" />
+    </body>
+    <camera name="external" pos=".01 -.52 1.28" fovy="71" xyaxes=".630592625 -.776114 0 .3904367 .3172298 .8642479" />
+  </worldbody>
+  <equality>
+    <weld body1="target" body2="base" solref="0.01 1" />
+  </equality>
+  <actuator>
+    <position name="left_actuator" class="solid_gripper" joint="left_slide" />
+    <position name="right_actuator" class="solid_gripper" joint="right_slide" />
+  </actuator>
+</mujoco>

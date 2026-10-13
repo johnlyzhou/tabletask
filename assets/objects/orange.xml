@@ -1,0 +1,33 @@
+<mujoco model="orange">
+  <compiler angle="radian" meshdir="../mesh/orange" texturedir="../mesh/orange" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="orange2_0_mesh" file="0.obj" />
+    <texture name="orange2_0_tex" type="2d" file="0.png" />
+    <texture name="orange2_0_normal" type="2d" file="0_normal.png" />
+    <texture name="orange2_0_roughness" type="2d" file="0_roughness.png" />
+    <material name="orange2_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="orange2_0_tex" role="rgb" />
+      <layer texture="orange2_0_normal" role="normal" />
+      <layer texture="orange2_0_roughness" role="roughness" />
+    </material>
+    <mesh name="orange2_1_mesh" file="1.obj" />
+    <texture name="orange2_1_tex" type="2d" file="1.png" />
+    <material name="orange2_1_skin" specular="0.2" shininess="0.3" roughness="1">
+      <layer texture="orange2_1_tex" role="rgb" />
+    </material>
+    <mesh name="orange_hull_00" file="orange_hulls/h00.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="orange">
+      <geom type="mesh" mesh="orange2_0_mesh" material="orange2_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="orange2_1_mesh" material="orange2_1_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0359 0.0359 0.0368" pos="0.0000 0.0000 0.0368" />
+      <geom type="mesh" mesh="orange_hull_00" rgba="0 0 0 0" group="3" mass="0.13" condim="4" friction="0.9 0.01 0.002" />
+    </body>
+  </worldbody>
+</mujoco>

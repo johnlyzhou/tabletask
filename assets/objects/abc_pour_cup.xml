@@ -1,0 +1,119 @@
+<mujoco model="abc_pour_cup">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="mug_1_color" specular="0.5" shininess="0.003" rgba="0.172 0.780 0.435 0.3" />
+    <mesh name="source_cup_col_0" file="cup_stacking/Cup_Blue/Cup_Blue_collision_0.obj" />
+    <mesh name="source_cup_col_1" file="cup_stacking/Cup_Blue/Cup_Blue_collision_1.obj" />
+    <mesh name="source_cup_col_10" file="cup_stacking/Cup_Blue/Cup_Blue_collision_10.obj" />
+    <mesh name="source_cup_col_11" file="cup_stacking/Cup_Blue/Cup_Blue_collision_11.obj" />
+    <mesh name="source_cup_col_12" file="cup_stacking/Cup_Blue/Cup_Blue_collision_12.obj" />
+    <mesh name="source_cup_col_13" file="cup_stacking/Cup_Blue/Cup_Blue_collision_13.obj" />
+    <mesh name="source_cup_col_14" file="cup_stacking/Cup_Blue/Cup_Blue_collision_14.obj" />
+    <mesh name="source_cup_col_15" file="cup_stacking/Cup_Blue/Cup_Blue_collision_15.obj" />
+    <mesh name="source_cup_col_16" file="cup_stacking/Cup_Blue/Cup_Blue_collision_16.obj" />
+    <mesh name="source_cup_col_17" file="cup_stacking/Cup_Blue/Cup_Blue_collision_17.obj" />
+    <mesh name="source_cup_col_18" file="cup_stacking/Cup_Blue/Cup_Blue_collision_18.obj" />
+    <mesh name="source_cup_col_19" file="cup_stacking/Cup_Blue/Cup_Blue_collision_19.obj" />
+    <mesh name="source_cup_col_2" file="cup_stacking/Cup_Blue/Cup_Blue_collision_2.obj" />
+    <mesh name="source_cup_col_20" file="cup_stacking/Cup_Blue/Cup_Blue_collision_20.obj" />
+    <mesh name="source_cup_col_21" file="cup_stacking/Cup_Blue/Cup_Blue_collision_21.obj" />
+    <mesh name="source_cup_col_22" file="cup_stacking/Cup_Blue/Cup_Blue_collision_22.obj" />
+    <mesh name="source_cup_col_23" file="cup_stacking/Cup_Blue/Cup_Blue_collision_23.obj" />
+    <mesh name="source_cup_col_24" file="cup_stacking/Cup_Blue/Cup_Blue_collision_24.obj" />
+    <mesh name="source_cup_col_25" file="cup_stacking/Cup_Blue/Cup_Blue_collision_25.obj" />
+    <mesh name="source_cup_col_26" file="cup_stacking/Cup_Blue/Cup_Blue_collision_26.obj" />
+    <mesh name="source_cup_col_27" file="cup_stacking/Cup_Blue/Cup_Blue_collision_27.obj" />
+    <mesh name="source_cup_col_28" file="cup_stacking/Cup_Blue/Cup_Blue_collision_28.obj" />
+    <mesh name="source_cup_col_29" file="cup_stacking/Cup_Blue/Cup_Blue_collision_29.obj" />
+    <mesh name="source_cup_col_3" file="cup_stacking/Cup_Blue/Cup_Blue_collision_3.obj" />
+    <mesh name="source_cup_col_30" file="cup_stacking/Cup_Blue/Cup_Blue_collision_30.obj" />
+    <mesh name="source_cup_col_31" file="cup_stacking/Cup_Blue/Cup_Blue_collision_31.obj" />
+    <mesh name="source_cup_col_32" file="cup_stacking/Cup_Blue/Cup_Blue_collision_32.obj" />
+    <mesh name="source_cup_col_33" file="cup_stacking/Cup_Blue/Cup_Blue_collision_33.obj" />
+    <mesh name="source_cup_col_34" file="cup_stacking/Cup_Blue/Cup_Blue_collision_34.obj" />
+    <mesh name="source_cup_col_35" file="cup_stacking/Cup_Blue/Cup_Blue_collision_35.obj" />
+    <mesh name="source_cup_col_36" file="cup_stacking/Cup_Blue/Cup_Blue_collision_36.obj" />
+    <mesh name="source_cup_col_37" file="cup_stacking/Cup_Blue/Cup_Blue_collision_37.obj" />
+    <mesh name="source_cup_col_38" file="cup_stacking/Cup_Blue/Cup_Blue_collision_38.obj" />
+    <mesh name="source_cup_col_39" file="cup_stacking/Cup_Blue/Cup_Blue_collision_39.obj" />
+    <mesh name="source_cup_col_4" file="cup_stacking/Cup_Blue/Cup_Blue_collision_4.obj" />
+    <mesh name="source_cup_col_40" file="cup_stacking/Cup_Blue/Cup_Blue_collision_40.obj" />
+    <mesh name="source_cup_col_41" file="cup_stacking/Cup_Blue/Cup_Blue_collision_41.obj" />
+    <mesh name="source_cup_col_42" file="cup_stacking/Cup_Blue/Cup_Blue_collision_42.obj" />
+    <mesh name="source_cup_col_43" file="cup_stacking/Cup_Blue/Cup_Blue_collision_43.obj" />
+    <mesh name="source_cup_col_44" file="cup_stacking/Cup_Blue/Cup_Blue_collision_44.obj" />
+    <mesh name="source_cup_col_45" file="cup_stacking/Cup_Blue/Cup_Blue_collision_45.obj" />
+    <mesh name="source_cup_col_46" file="cup_stacking/Cup_Blue/Cup_Blue_collision_46.obj" />
+    <mesh name="source_cup_col_47" file="cup_stacking/Cup_Blue/Cup_Blue_collision_47.obj" />
+    <mesh name="source_cup_col_5" file="cup_stacking/Cup_Blue/Cup_Blue_collision_5.obj" />
+    <mesh name="source_cup_col_6" file="cup_stacking/Cup_Blue/Cup_Blue_collision_6.obj" />
+    <mesh name="source_cup_col_7" file="cup_stacking/Cup_Blue/Cup_Blue_collision_7.obj" />
+    <mesh name="source_cup_col_8" file="cup_stacking/Cup_Blue/Cup_Blue_collision_8.obj" />
+    <mesh name="source_cup_col_9" file="cup_stacking/Cup_Blue/Cup_Blue_collision_9.obj" />
+    <mesh name="source_cup_vis" file="cup_stacking/Cup_Blue/Cup_Blue.obj" />
+    <mesh name="region_99d913b0a2b2241d" file="regions/99d913b0a2b2241d.obj" />
+  </asset>
+  <worldbody>
+    <body name="abc_pour_cup">
+      <body name="source" pos="-1.40413729e-10 4.97286441e-10 0.0400000011">
+        <geom type="mesh" mesh="source_cup_vis" pos="0 0 -0.04" material="mug_1_color" mass="0.04" density="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_0" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_1" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_2" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_3" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_4" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_5" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_6" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_7" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_8" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_9" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_10" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_11" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_12" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_13" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_14" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_15" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_16" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_17" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_18" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_19" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_20" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_21" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_22" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_23" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_24" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_25" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_26" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_27" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_28" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_29" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_30" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_31" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_32" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_33" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_34" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_35" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_36" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_37" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_38" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_39" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_40" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_41" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_42" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_43" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_44" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_45" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_46" pos="0 0 -0.04" />
+        <geom type="mesh" condim="6" friction="3.0 0.03 0.003" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" contype="3" conaffinity="3" mesh="source_cup_col_47" pos="0 0 -0.04" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.0515000006" size="0.0434999987 0.0434999994 0.0515000006" />
+      <geom name="place:inside" class="place" type="mesh" pos="0 0 0.053" mesh="region_99d913b0a2b2241d" />
+      <geom name="place:fill" class="place" type="cylinder" pos="0 0 0.053" size="0.034 0.044" />
+    </body>
+  </worldbody>
+</mujoco>

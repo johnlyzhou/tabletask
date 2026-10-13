@@ -1,0 +1,32 @@
+<mujoco model="burger">
+  <!-- burger, converted from the MolmoSpaces Objaverse library (uid 6bf2dc6ffc594a8598bcf84f5d0325f1; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/burger" texturedir="../mesh/burger"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="burger_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="burger_0_tex" type="2d" file="0.png"/>
+    <material name="burger_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="burger_0_tex" role="rgb"/>
+    </material>
+    <mesh name="burger_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="burger_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="burger_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="burger_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="burger_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+  </asset>
+  <worldbody>
+    <body name="burger">
+      <geom type="mesh" mesh="burger_0_mesh" material="burger_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="burger_hull_00" rgba="0 0 0 0" group="3" mass="0.0862541625" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="burger_hull_01" rgba="0 0 0 0" group="3" mass="0.0265898074" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="burger_hull_02" rgba="0 0 0 0" group="3" mass="0.107817889" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="burger_hull_03" rgba="0 0 0 0" group="3" mass="0.0259047737" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="burger_hull_04" rgba="0 0 0 0" group="3" mass="0.0390002245" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0504 0.0440 0.0375" pos="0.0000 0.0000 0.0375"/>
+    </body>
+  </worldbody>
+</mujoco>

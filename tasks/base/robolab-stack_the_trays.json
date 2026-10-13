@@ -1,0 +1,15 @@
+{
+  "id": "robolab-stack_the_trays",
+  "instruction": "Stack the trays, the wooden one on the bottom.",
+  "objects": {"red_tray": {"asset": "red_tray", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "green_tennis_ball": {"asset": "green_tennis_ball", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wooden_tray": {"asset": "wooden_tray", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_tray": {"asset": "blue_tray", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "wooden_tray", "table"],
+    ["on", "red_tray", "table"],
+    ["on", "blue_tray", "table"],
+    ["on", "green_tennis_ball", "table"]
+  ],
+  "goal": [
+    ["on", "red_tray", "wooden_tray"],
+    ["on", "blue_tray", "red_tray"]
+  ]
+}

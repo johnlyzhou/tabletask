@@ -1,0 +1,29 @@
+<mujoco model="lime">
+  <compiler angle="radian" meshdir="../mesh/lime" texturedir="../mesh/lime" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="lime01_0_mesh" file="0.obj" />
+    <texture name="lime01_0_tex" type="2d" file="0.png" />
+    <texture name="lime01_0_normal" type="2d" file="0_normal.png" />
+    <texture name="lime01_0_roughness" type="2d" file="0_roughness.png" />
+    <material name="lime01_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="lime01_0_tex" role="rgb" />
+      <layer texture="lime01_0_normal" role="normal" />
+      <layer texture="lime01_0_roughness" role="roughness" />
+    </material>
+    <mesh name="lime_hull_00" file="lime_hulls/h00.obj" maxhullvert="128" />
+    <mesh name="lime_hull_01" file="lime_hulls/h01.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="lime">
+      <geom type="mesh" mesh="lime01_0_mesh" material="lime01_0_skin" contype="0" conaffinity="0" mass="0" condim="4" pos="0.0000 -0.0024 0.0000" />
+      <geom name="place:bounds" class="place" type="box" size="0.0378 0.0307 0.0300" pos="0.0000 0.0000 0.0300" />
+      <geom type="mesh" mesh="lime_hull_00" rgba="0 0 0 0" group="3" mass="0.142726461" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="lime_hull_01" rgba="0 0 0 0" group="3" mass="0.00124235723" condim="4" friction="0.9 0.01 0.002" />
+    </body>
+  </worldbody>
+</mujoco>

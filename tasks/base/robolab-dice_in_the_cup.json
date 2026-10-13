@@ -1,0 +1,19 @@
+{
+  "id": "robolab-dice_in_the_cup",
+  "instruction": "Collect all the dice in the red cup.",
+  "objects": {"red_party_cup": {"asset": "red_party_cup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "ivory_die": {"asset": "ivory_die", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "gold_coin": {"asset": "gold_coin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "white_die": {"asset": "white_die", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_die": {"asset": "blue_die", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "small_white_die": {"asset": "small_white_die", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "red_party_cup", "table"],
+    ["on", "white_die", "table"],
+    ["on", "blue_die", "table"],
+    ["on", "ivory_die", "table"],
+    ["on", "small_white_die", "table"],
+    ["on", "gold_coin", "table"]
+  ],
+  "goal": [
+    ["inside", "white_die", "red_party_cup"],
+    ["inside", "blue_die", "red_party_cup"],
+    ["inside", "ivory_die", "red_party_cup"],
+    ["inside", "small_white_die", "red_party_cup"]
+  ]
+}

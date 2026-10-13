@@ -1,0 +1,15 @@
+{
+  "id": "abc-conveyor_pick_static",
+  "instruction": "Move all three fruits from the stopped conveyor into the box.",
+  "objects": {"belt": {"asset": "abc_conveyor", "sample": {"rel": "table/top", "offset": [-0.21, 0.0, 0], "jitter": {"xy": [0.004, 0.004], "yaw": 0}}, "fixed": true}, "bin": {"asset": "abc_clutter_box", "sample": {"rel": "table/top", "offset": [0.11, 0.0, 0], "jitter": {"xy": [0.0, 0.004], "yaw": 0}}, "fixed": true}, "apple": {"asset": "apple", "tags": ["items"], "sample": "belt/top"}, "lemon": {"asset": "lemon", "tags": ["items"], "sample": "belt/top"}, "orange": {"asset": "orange", "tags": ["items"], "sample": "belt/top"}},
+  "start": [
+    ["on", "belt", "table"],
+    ["on", "bin", "table"],
+    ["on", "apple", "belt/top"],
+    ["on", "lemon", "belt/top"],
+    ["on", "orange", "belt/top"]
+  ],
+  "goal": [
+    ["every", "#items", ["inside", "it", "bin/inside", 0]]
+  ]
+}

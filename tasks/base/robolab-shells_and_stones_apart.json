@@ -1,0 +1,19 @@
+{
+  "id": "robolab-shells_and_stones_apart",
+  "instruction": "Shells in the wicker basket, stones in the red-lined bowl.",
+  "objects": {"clam_shell": {"asset": "clam_shell", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_lined_bowl": {"asset": "red_lined_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "scallop_shell": {"asset": "scallop_shell", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "round_wicker_basket": {"asset": "round_wicker_basket", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "beige_stone": {"asset": "beige_stone", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "pink_rock": {"asset": "pink_rock", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "round_wicker_basket", "table"],
+    ["on", "red_lined_bowl", "table"],
+    ["on", "clam_shell", "table"],
+    ["on", "scallop_shell", "table"],
+    ["on", "pink_rock", "table"],
+    ["on", "beige_stone", "table"]
+  ],
+  "goal": [
+    ["inside", "clam_shell", "round_wicker_basket"],
+    ["inside", "scallop_shell", "round_wicker_basket"],
+    ["inside", "pink_rock", "red_lined_bowl"],
+    ["inside", "beige_stone", "red_lined_bowl"]
+  ]
+}

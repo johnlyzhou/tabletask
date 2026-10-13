@@ -1,0 +1,14 @@
+{
+  "id": "peg_in_hole",
+  "instruction": "Put the blue peg in the hole.",
+  "objects": {"board": {"asset": "peg_board", "sample": {"rel": "table/top", "offset": [-0.05, 0.0, 0.0], "jitter": {"xy": [0.1, 0.22], "yaw": 45}}, "fixed": true}, "peg": {"asset": "square_peg", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}},
+  "start": [
+    ["on", "board", "table"],
+    ["on", "peg", "table"],
+    ["upright", "peg"]
+  ],
+  "goal": [
+    ["inside", "peg", "board/hole"],
+    ["at_most", ["offset", "peg", "board", "z"], 0.015]
+  ]
+}

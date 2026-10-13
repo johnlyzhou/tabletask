@@ -1,0 +1,51 @@
+<mujoco model="abc_mug_tree">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="mug_tree_mat" texture="mug_tree_tex" specular="0.3" shininess="0.3" />
+    <mesh name="mug_tree" file="mug_tree/model.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_0" file="mug_tree/model_collision_0.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_1" file="mug_tree/model_collision_1.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_10" file="mug_tree/model_collision_10.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_2" file="mug_tree/model_collision_2.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_3" file="mug_tree/model_collision_3.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_4" file="mug_tree/model_collision_4.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_5" file="mug_tree/model_collision_5.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_6" file="mug_tree/model_collision_6.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_7" file="mug_tree/model_collision_7.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_8" file="mug_tree/model_collision_8.obj" scale="0.15 0.15 0.15" />
+    <mesh name="mug_tree_col_9" file="mug_tree/model_collision_9.obj" scale="0.15 0.15 0.15" />
+    <texture name="mug_tree_tex" type="2d" file="mug_tree/texture.png" />
+    <mesh name="region_736817ce4f247208" file="regions/736817ce4f247208.obj" />
+  </asset>
+  <worldbody>
+    <body name="abc_mug_tree">
+      <body name="source" pos="0.0179988414 0.000168353842 0.151753172" euler="1.5708 0 0">
+        <geom name="mug_tree_vis" type="mesh" mesh="mug_tree" material="mug_tree_mat" mass="1.0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="mug_tree_col_0" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_1" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_2" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_3" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_4" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_5" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_6" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_7" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_8" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_9" group="3" rgba="0 0 0 0" />
+        <geom type="mesh" mesh="mug_tree_col_10" group="3" rgba="0 0 0 0" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.151618558" size="0.0922093905 0.0839545979 0.151618558" />
+      <geom name="place:hanging" class="place" type="mesh" pos="0 0 0.215" mesh="region_736817ce4f247208" />
+      <geom name="place:peg1" class="place" type="cylinder" size="0.01 0.0371" pos="-0.0558 0.0002 0.1477" quat="0.848507794 -0.00194272342 -0.529176701 0.0016640544" />
+      <geom name="place:peg2" class="place" type="cylinder" size="0.01 0.0425" pos="0.0445 0.0002 0.1455" quat="0.834307322 -0.00943896891 0.551150205 -0.00869766361" />
+      <geom name="place:peg3" class="place" type="cylinder" size="0.01 0.0372" pos="-0.01 -0.0488 0.2096" quat="0.832599274 0.552794199 -0.013387223 -0.0319030506" />
+      <geom name="place:peg4" class="place" type="cylinder" size="0.01 0.0371" pos="-0.0101 0.0486 0.2101" quat="0.831090092 -0.554983855 -0.0135451903 0.033146754" />
+      <geom name="place:peg5" class="place" type="cylinder" size="0.01 0.0378" pos="-0.0566 0.0001 0.2844" quat="0.829739886 0.0200870208 -0.557476442 -0.0186614398" />
+      <geom name="place:peg6" class="place" type="cylinder" size="0.01 0.04205" pos="0.0513 0.0003 0.2871" quat="0.814077101 -0.00750680975 0.580664894 -0.00709942819" />
+    </body>
+  </worldbody>
+</mujoco>

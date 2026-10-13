@@ -1,0 +1,19 @@
+{
+  "id": "robolab-pack_a_picnic",
+  "instruction": "Pack the sandwich, apple, and soda into the basket, leaving the serving dishes on the counter.",
+  "objects": {"basket": {"asset": "round_wicker_basket", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.059, 0.32, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "plate": {"asset": "peach_plate", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.043, -0.19, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "sandwich": {"asset": "club_sandwich", "sample": {"rel": "plate/top", "offset": [0, 0, 0], "rotation": [0, 0, 20], "jitter": {"xy": 0.01, "yaw": 6}}}, "apple": {"asset": "apple", "sample": {"rel": "table/top", "offset": [-0.25, -0.107, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.0, 0.032], "yaw": 25}}}, "soda": {"asset": "orange_soda_can", "sample": {"rel": "table/top", "offset": [-0.235, -0.32, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.015, 0.0], "yaw": 25}}}, "bowl": {"asset": "white_bowl", "fixed": true, "sample": {"rel": "table/top", "offset": [0.11, 0.042, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "orange": {"asset": "orange", "fixed": true, "sample": {"rel": "bowl/inside", "offset": [0, 0, 0], "rotation": [0, 0, 0], "jitter": {"xy": 0, "yaw": 0}}}},
+  "start": [
+    ["on", "basket", "table"],
+    ["on", "plate", "table"],
+    ["on", "sandwich", "plate"],
+    ["on", "apple", "table"],
+    ["on", "soda", "table"],
+    ["on", "bowl", "table"],
+    ["inside", "orange", "bowl"]
+  ],
+  "goal": [
+    ["inside", "sandwich", "basket"],
+    ["inside", "apple", "basket"],
+    ["inside", "soda", "basket"]
+  ]
+}

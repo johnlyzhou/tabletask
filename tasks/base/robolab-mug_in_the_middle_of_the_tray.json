@@ -1,0 +1,14 @@
+{
+  "id": "robolab-mug_in_the_middle_of_the_tray",
+  "instruction": "Put the mug in the centre of the tray.",
+  "objects": {"green_mug": {"asset": "green_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "bamboo_tray": {"asset": "bamboo_tray", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_soda_can": {"asset": "blue_soda_can", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "bamboo_tray", "table"],
+    ["on", "green_mug", "table"],
+    ["on", "blue_soda_can", "table"]
+  ],
+  "goal": [
+    ["at", "green_mug", "bamboo_tray", 0.04],
+    ["touching", "green_mug", "bamboo_tray"]
+  ]
+}

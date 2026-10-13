@@ -1,0 +1,32 @@
+<mujoco model="red_bowling_pin">
+  <!-- red_bowling_pin, converted from the MolmoSpaces Objaverse library (uid 6f4789c7c0f74c55adfedc57c73dba60; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/red_bowling_pin" texturedir="../mesh/red_bowling_pin"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_bowling_pin_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="red_bowling_pin_0_tex" type="2d" file="0.png"/>
+    <material name="red_bowling_pin_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="red_bowling_pin_0_tex" role="rgb"/>
+    </material>
+    <mesh name="red_bowling_pin_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="red_bowling_pin_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="red_bowling_pin_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="red_bowling_pin_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="red_bowling_pin_hull_04" file="hulls/h04.obj" maxhullvert="32"/>
+  </asset>
+  <worldbody>
+    <body name="red_bowling_pin">
+      <geom type="mesh" mesh="red_bowling_pin_0_mesh" material="red_bowling_pin_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="red_bowling_pin_hull_00" rgba="0 0 0 0" group="3" mass="0.0390252323" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bowling_pin_hull_01" rgba="0 0 0 0" group="3" mass="0.00759113001" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bowling_pin_hull_02" rgba="0 0 0 0" group="3" mass="0.00622618421" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bowling_pin_hull_03" rgba="0 0 0 0" group="3" mass="0.217591502" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bowling_pin_hull_04" rgba="0 0 0 0" group="3" mass="0.0135383772" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0286 0.0286 0.0950" pos="0.0000 0.0000 0.0950"/>
+    </body>
+  </worldbody>
+</mujoco>

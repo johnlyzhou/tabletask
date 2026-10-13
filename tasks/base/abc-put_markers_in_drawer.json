@@ -1,0 +1,17 @@
+{
+  "id": "abc-put_markers_in_drawer",
+  "instruction": "Put both markers in the {drawer} drawer.",
+  "objects": {"cabinet": {"asset": "abc_drawers", "sample": {"rel": "table/top", "offset": [0.11, -0.12, 0], "jitter": {"xy": [0.0, 0.004], "yaw": 0}}, "fixed": true}, "marker1": {"asset": "abc_marker", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}, "tags": ["markers"]}, "marker2": {"asset": "abc_marker", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}, "tags": ["markers"]}},
+  "start": [
+    ["on", "cabinet", "table"],
+    ["on", "marker1", "table"],
+    ["on", "marker2", "table"],
+    ["closed", "cabinet/joint_top_drawer_low"],
+    ["closed", "cabinet/joint_middle_drawer_low"],
+    ["closed", "cabinet/joint_bottom_drawer_low"]
+  ],
+  "goal": [
+    ["every", "#markers", ["inside", "it", "cabinet/{drawer}", 0]]
+  ],
+  "variables": {"drawer": {"one_of": ["top", "middle", "bottom"]}}
+}

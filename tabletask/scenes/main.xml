@@ -1,0 +1,77 @@
+<mujoco model="main">
+  <compiler angle="radian" meshdir="main" texturedir="main" boundmass="1e-6" boundinertia="1e-8" />
+  <!-- multiccd: two convex meshes otherwise meet at a single point, and a
+       block set on a block balances on a corner and walks off. Elliptic cone
+       and impratio as in the plain rig, so a stack creeps the same on both. -->
+  <!-- The sampler parks everything it has not placed yet in one spot, and a
+       crowded scene at that instant makes a few thousand contacts: more than
+       mujoco's default arena holds, and the ones it drops are the ones that
+       keep things apart. -->
+  <size memory="64M"/>
+  <option integrator="implicitfast" cone="elliptic" impratio="10">
+    <flag multiccd="enable"/>
+  </option>
+  <visual>
+    <global azimuth="120" elevation="-20" offwidth="1920" offheight="1080" />
+    <quality shadowsize="16384" offsamples="16" />
+    <headlight ambient="0.28 0.28 0.28" diffuse="0.55 0.55 0.55" specular="0.15 0.15 0.15" />
+    <rgba haze="1.0 1.0 1.0 1" />
+    <map znear="0.0005" zfar="50" shadowscale="0.4" shadowclip="1.5" />
+  </visual>
+  <default>
+    <!-- Contacts a quarter as soft as MuJoCo's default (20ms): under the
+         default, any load carried by a single hull vertex sinks ~4mm at 1g
+         (rest penetration is g*timeconst^2/impratio-ish, independent of
+         mass), and stacked light objects writhe on those springs forever.
+         5ms keeps rest penetration under half a millimetre and stays well
+         clear of the 2*timestep=4ms stability floor. -->
+    <geom solref="0.005 1" />
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="black" rgba="0.12 0.12 0.12 1" />
+    <material name="white" rgba="0.9 0.9 0.9 1" />
+    <material name="wall_white" rgba="1 1 1 1" emission="0.6" />
+    <mesh name="camera_d405" file="d405.stl" />
+    <texture type="skybox" builtin="gradient" rgb1="1.0 1.0 1.0" rgb2="0.98 0.98 0.98" width="512" height="3072" />
+    <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.55 0.55 0.55" rgb2="0.50 0.50 0.50" markrgb="0.6 0.6 0.6" width="300" height="300" />
+    <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2" />
+    <texture name="tiles" type="2d" builtin="checker" width="512" height="512" rgb1="0.66 0.68 0.66" rgb2="0.56 0.60 0.58" mark="none" />
+    <texture name="walnut" type="2d" file="walnut.png" />
+    <material name="floor" texture="tiles" rgba="1 1 1 1" texrepeat="2 2" texuniform="true" specular="0.05" shininess="0.1" reflectance="0.02" />
+    <material name="tabletop" texture="walnut" rgba="1 1 1 1" texrepeat="2 2" texuniform="true" specular="0.15" shininess="0.2" />
+  </asset>
+  <worldbody>
+    <light name="over_table" pos="0.35 0.35 2.2" dir="0.22 -0.22 -1" directional="true" diffuse="0.50 0.50 0.50" specular="0.25 0.25 0.25" castshadow="true" />
+    <geom name="floor" size="0 0 0.05" type="plane" material="floor" rgba="1 1 1 1" />
+    <body name="top_bar_center" pos="0.045 -0.005 1.70941">
+      <body name="top_camera_d405" pos="0.08600512 -0.009 0.03932053" quat="0.183012 0.683013 0.683013 0.183012">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" density="0.001" mass="0.001" rgba="0 0 0 0" mesh="camera_d405" />
+        <body name="top_camera_frame" pos="0.009 0 0" quat="0 0 0 1">
+          <camera name="top" pos="0 0 0" quat="0 1 0 0" fovy="70" />
+        </body>
+      </body>
+    </body>
+    <body name="play_table">
+      <geom name="table_border" size="0.3625 0.511905 0.0049" pos="0.6 0 0.7449" type="box" group="2" contype="0" conaffinity="0" rgba="0 0 0 1" />
+      <geom name="table_top" size="0.35 0.5 0.005" pos="0.6 0 0.745" type="box" group="2" contype="0" conaffinity="0" material="tabletop" rgba="1 1 1 1" />
+      <geom name="table/place:top" class="place" type="box" pos="0.6 0 0.81" size="0.335 0.485 0.06" />
+      <geom name="table/place:center" class="place" type="box" pos="0.6125 0 0.81" size="0.08125 0.0892857 0.06" />
+      <geom name="table/place:left" class="place" type="box" pos="0.6125 0.214286 0.81" size="0.125 0.0892857 0.06" />
+      <geom name="table/place:right" class="place" type="box" pos="0.6125 -0.214286 0.81" size="0.125 0.0892857 0.06" />
+      <geom name="table/place:front" class="place" type="box" pos="0.475 0 0.81" size="0.05625 0.238095 0.06" />
+      <geom name="table/place:back" class="place" type="box" pos="0.7875 0 0.81" size="0.05625 0.238095 0.06" />
+    </body>
+    <camera name="preview" pos="-0.620 0.000 1.550" xyaxes="0.0000 -1.0000 0.0000 0.5337 0.0000 0.8457" fovy="38" />
+    <camera name="dashboard" pos="0.110334 -0.005 1.326795" xyaxes="0 -1 0 0.694658 0 0.719340" fovy="70" />
+    <!-- The tabletop things stand on is a box, not a plane: MuJoCo meets a mesh
+         with a plane at its deepest vertex and two neighbours only, a sliver a
+         wide flat bottom rocks on forever, while a box gets the same spread of
+         contacts as a mesh on a mesh. Its top is the table surface at 0.75, and
+         it reaches the floor: a box pushes out through its nearest face, and a
+         thing spawned deeper than a thin slab's middle went out the bottom. -->
+    <geom name="table_plane" type="box" size="0.35 0.5 0.375" pos="0.6 0 0.375" rgba="0 0 0 0" group="3" friction="0.9 0.005 0.0001" priority="1" />
+  </worldbody>
+</mujoco>

@@ -1,0 +1,90 @@
+<mujoco model="club_sandwich">
+  <!-- club_sandwich, converted from the MolmoSpaces Objaverse library (uid 4fe6d72f20aa4c62bf5dc38f5a66f3a8; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/club_sandwich" texturedir="../mesh/club_sandwich"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="club_sandwich_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="club_sandwich_0_tex" type="2d" file="0.png"/>
+    <material name="club_sandwich_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="club_sandwich_0_tex" role="rgb"/>
+    </material>
+    <mesh name="club_sandwich_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_25" file="hulls/h25.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_26" file="hulls/h26.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_27" file="hulls/h27.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_28" file="hulls/h28.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_29" file="hulls/h29.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_30" file="hulls/h30.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_31" file="hulls/h31.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_hull_32" file="hulls/h32.obj" maxhullvert="128"/>
+    <mesh name="club_sandwich_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="club_sandwich">
+      <geom type="mesh" mesh="club_sandwich_0_mesh" material="club_sandwich_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_00" rgba="0 0 0 0" group="3" mass="0.0641198856" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_01" rgba="0 0 0 0" group="3" mass="0.0152134756" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_02" rgba="0 0 0 0" group="3" mass="0.0641457531" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_03" rgba="0 0 0 0" group="3" mass="0.00539290578" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_04" rgba="0 0 0 0" group="3" mass="0.0110588223" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_05" rgba="0 0 0 0" group="3" mass="0.00143852986" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_06" rgba="0 0 0 0" group="3" mass="0.00516330605" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_07" rgba="0 0 0 0" group="3" mass="0.00368249916" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_08" rgba="0 0 0 0" group="3" mass="0.0177385499" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_09" rgba="0 0 0 0" group="3" mass="0.0146752588" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_10" rgba="0 0 0 0" group="3" mass="0.00162176626" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_11" rgba="0 0 0 0" group="3" mass="0.00155015222" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_12" rgba="0 0 0 0" group="3" mass="0.00287950012" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_13" rgba="0 0 0 0" group="3" mass="0.0063396109" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_14" rgba="0 0 0 0" group="3" mass="0.000990164679" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_15" rgba="0 0 0 0" group="3" mass="0.00328850661" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_16" rgba="0 0 0 0" group="3" mass="0.00815922471" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_17" rgba="0 0 0 0" group="3" mass="0.00788714405" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_18" rgba="0 0 0 0" group="3" mass="0.00331615335" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_19" rgba="0 0 0 0" group="3" mass="0.00231212083" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_20" rgba="0 0 0 0" group="3" mass="0.00159521409" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_21" rgba="0 0 0 0" group="3" mass="0.000542526384" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_22" rgba="0 0 0 0" group="3" mass="0.00310887058" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_23" rgba="0 0 0 0" group="3" mass="0.00213563712" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_24" rgba="0 0 0 0" group="3" mass="0.00212155326" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_25" rgba="0 0 0 0" group="3" mass="0.00120742468" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_26" rgba="0 0 0 0" group="3" mass="0.000869137767" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_27" rgba="0 0 0 0" group="3" mass="0.000542526384" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_28" rgba="0 0 0 0" group="3" mass="0.00105729534" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_29" rgba="0 0 0 0" group="3" mass="0.00141407875" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_30" rgba="0 0 0 0" group="3" mass="0.00767020315" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_31" rgba="0 0 0 0" group="3" mass="0.00650712032" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="club_sandwich_hull_32" rgba="0 0 0 0" group="3" mass="0.00182343541" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0576 0.0733 0.0187" pos="0.0000 0.0000 0.0187"/>
+      <geom name="place:top" class="place" type="mesh" mesh="club_sandwich_top"/>
+    </body>
+  </worldbody>
+</mujoco>

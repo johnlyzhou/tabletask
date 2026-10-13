@@ -1,0 +1,124 @@
+<mujoco model="blue_floral_bowl">
+  <!-- blue_floral_bowl, converted from the MolmoSpaces Objaverse library (uid 01ec7658fef64e18b69d68cf8b06548b; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/blue_floral_bowl" texturedir="../mesh/blue_floral_bowl"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_floral_bowl_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="blue_floral_bowl_0_tex" type="2d" file="0.png"/>
+    <material name="blue_floral_bowl_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="blue_floral_bowl_0_tex" role="rgb"/>
+    </material>
+    <mesh name="blue_floral_bowl_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_25" file="hulls/h25.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_26" file="hulls/h26.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_27" file="hulls/h27.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_28" file="hulls/h28.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_29" file="hulls/h29.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_30" file="hulls/h30.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_31" file="hulls/h31.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_32" file="hulls/h32.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_33" file="hulls/h33.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_34" file="hulls/h34.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_35" file="hulls/h35.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_36" file="hulls/h36.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_37" file="hulls/h37.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_38" file="hulls/h38.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_39" file="hulls/h39.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_40" file="hulls/h40.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_41" file="hulls/h41.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_42" file="hulls/h42.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_43" file="hulls/h43.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_44" file="hulls/h44.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_45" file="hulls/h45.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_46" file="hulls/h46.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_47" file="hulls/h47.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_hull_48" file="hulls/h48.obj" maxhullvert="128"/>
+    <mesh name="blue_floral_bowl_inside" file="inside.obj"/>
+    <mesh name="blue_floral_bowl_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="blue_floral_bowl">
+      <geom type="mesh" mesh="blue_floral_bowl_0_mesh" material="blue_floral_bowl_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_00" rgba="0 0 0 0" group="3" mass="0.00646288407" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_01" rgba="0 0 0 0" group="3" mass="0.00534692191" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_02" rgba="0 0 0 0" group="3" mass="0.00443772877" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_03" rgba="0 0 0 0" group="3" mass="0.00525732139" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_04" rgba="0 0 0 0" group="3" mass="0.00198264256" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_05" rgba="0 0 0 0" group="3" mass="0.00370363562" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_06" rgba="0 0 0 0" group="3" mass="0.00587464522" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_07" rgba="0 0 0 0" group="3" mass="0.00472985828" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_08" rgba="0 0 0 0" group="3" mass="0.00563125792" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_09" rgba="0 0 0 0" group="3" mass="0.00419467937" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_10" rgba="0 0 0 0" group="3" mass="0.00313980264" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_11" rgba="0 0 0 0" group="3" mass="0.00308896834" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_12" rgba="0 0 0 0" group="3" mass="0.00343617747" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_13" rgba="0 0 0 0" group="3" mass="0.00258016123" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_14" rgba="0 0 0 0" group="3" mass="0.00208726469" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_15" rgba="0 0 0 0" group="3" mass="0.00273409976" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_16" rgba="0 0 0 0" group="3" mass="0.00175849493" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_17" rgba="0 0 0 0" group="3" mass="0.0194466229" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_18" rgba="0 0 0 0" group="3" mass="0.0162910585" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_19" rgba="0 0 0 0" group="3" mass="0.000794326083" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_20" rgba="0 0 0 0" group="3" mass="0.00211009853" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_21" rgba="0 0 0 0" group="3" mass="0.00241589298" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_22" rgba="0 0 0 0" group="3" mass="0.00342372603" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_23" rgba="0 0 0 0" group="3" mass="0.00227153247" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_24" rgba="0 0 0 0" group="3" mass="0.0019938272" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_25" rgba="0 0 0 0" group="3" mass="0.00406154644" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_26" rgba="0 0 0 0" group="3" mass="0.0028481721" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_27" rgba="0 0 0 0" group="3" mass="0.00197260375" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_28" rgba="0 0 0 0" group="3" mass="0.0029621362" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_29" rgba="0 0 0 0" group="3" mass="0.0020872227" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_30" rgba="0 0 0 0" group="3" mass="0.0122513403" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_31" rgba="0 0 0 0" group="3" mass="0.00183394519" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_32" rgba="0 0 0 0" group="3" mass="0.0128870739" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_33" rgba="0 0 0 0" group="3" mass="0.00242494649" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_34" rgba="0 0 0 0" group="3" mass="0.00200870449" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_35" rgba="0 0 0 0" group="3" mass="0.0134829603" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_36" rgba="0 0 0 0" group="3" mass="0.0130955082" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_37" rgba="0 0 0 0" group="3" mass="0.0152033996" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_38" rgba="0 0 0 0" group="3" mass="0.0160438584" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_39" rgba="0 0 0 0" group="3" mass="0.00335369229" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_40" rgba="0 0 0 0" group="3" mass="0.0020211941" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_41" rgba="0 0 0 0" group="3" mass="0.00262166051" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_42" rgba="0 0 0 0" group="3" mass="0.00769288242" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_43" rgba="0 0 0 0" group="3" mass="0.00686672948" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_44" rgba="0 0 0 0" group="3" mass="0.00976691864" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_45" rgba="0 0 0 0" group="3" mass="0.000509469939" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_46" rgba="0 0 0 0" group="3" mass="0.000832933752" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_47" rgba="0 0 0 0" group="3" mass="0.00283014002" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_floral_bowl_hull_48" rgba="0 0 0 0" group="3" mass="0.000509469939" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0734 0.0734 0.0200" pos="0.0000 0.0000 0.0200"/>
+      <geom name="place:inside" class="place" type="mesh" mesh="blue_floral_bowl_inside"/>
+      <geom name="place:top" class="place" type="mesh" mesh="blue_floral_bowl_top"/>
+    </body>
+  </worldbody>
+</mujoco>

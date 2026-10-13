@@ -1,0 +1,15 @@
+{
+  "id": "cube_to_bowl",
+  "instruction": "Put the Rubik's cube in the bowl.",
+  "objects": {
+    "cube": {"asset": "rubiks_cube", "sample": {"rel": "table/top", "offset": [-0.13, 0.0, 0.0], "jitter": {"xy": [0.15, 0.44], "yaw": 180}}},
+    "bowl": {"asset": "bowl", "sample": {"rel": "table/top", "offset": [-0.13, 0.0, 0.0], "jitter": {"xy": [0.15, 0.44], "yaw": 180}}}
+  },
+  "start": [
+    ["on", "cube", "table"],
+    ["on", "bowl", "table"]
+  ],
+  "goal": [
+    ["inside", "cube", "bowl"]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "robolab-headphones_on_the_speaker",
+  "instruction": "Hang the headphones on top of the speaker.",
+  "objects": {"bookshelf_speaker": {"asset": "bookshelf_speaker", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_remote": {"asset": "red_remote", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "orange_headphones": {"asset": "orange_headphones", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "bookshelf_speaker", "table"],
+    ["on", "orange_headphones", "table"],
+    ["on", "red_remote", "table"]
+  ],
+  "goal": [
+    ["on", "orange_headphones", "bookshelf_speaker"]
+  ]
+}

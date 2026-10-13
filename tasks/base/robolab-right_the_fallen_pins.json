@@ -1,0 +1,19 @@
+{
+  "id": "robolab-right_the_fallen_pins",
+  "instruction": "Stand the three knocked-over bowling pins back up.",
+  "objects": {"blue_bowling_pin": {"asset": "blue_bowling_pin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_bowling_pin": {"asset": "red_bowling_pin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "bowling_pin": {"asset": "bowling_pin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "basketball": {"asset": "basketball", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "bowling_pin", "table"],
+    ["lying", "bowling_pin"],
+    ["on", "blue_bowling_pin", "table"],
+    ["lying", "blue_bowling_pin"],
+    ["on", "red_bowling_pin", "table"],
+    ["lying", "red_bowling_pin"],
+    ["on", "basketball", "table"]
+  ],
+  "goal": [
+    ["upright", "bowling_pin"],
+    ["upright", "blue_bowling_pin"],
+    ["upright", "red_bowling_pin"]
+  ]
+}

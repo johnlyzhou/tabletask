@@ -1,0 +1,24 @@
+<mujoco model="white_die">
+  <compiler angle="radian" meshdir="../mesh/white_die" texturedir="../mesh/white_die" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_die_0_mesh" file="0.obj" inertia="shell" />
+    <texture name="white_die_0_tex" type="2d" file="0.png" />
+    <material name="white_die_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="white_die_0_tex" role="rgb" />
+    </material>
+    <mesh name="white_die_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="white_die">
+      <geom type="mesh" mesh="white_die_0_mesh" material="white_die_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0100 0.0100 0.0100" pos="0.0000 0.0000 0.0100" />
+      <geom name="place:top" class="place" type="mesh" mesh="white_die_top" />
+      <geom type="box" size="0.01000 0.01000 0.01000" pos="0.0000 0.0000 0.0100" rgba="0 0 0 0" group="3" mass="0.01" condim="4" friction="0.9 0.01 0.002" />
+    </body>
+  </worldbody>
+</mujoco>

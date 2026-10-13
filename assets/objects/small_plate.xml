@@ -1,0 +1,139 @@
+<mujoco model="small_plate">
+  <compiler angle="radian" meshdir="../mesh/small_plate" texturedir="../mesh/small_plate" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="plate_small_0_mesh" file="0.obj" />
+    <texture name="plate_small_0_tex" type="2d" file="0.png" />
+    <texture name="plate_small_0_normal" type="2d" file="0_normal.png" />
+    <texture name="plate_small_0_roughness" type="2d" file="0_roughness.png" />
+    <texture name="plate_small_0_metallic" type="2d" file="0_metallic.png" />
+    <material name="plate_small_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="plate_small_0_tex" role="rgb" />
+      <layer texture="plate_small_0_normal" role="normal" />
+      <layer texture="plate_small_0_roughness" role="roughness" />
+      <layer texture="plate_small_0_metallic" role="metallic" />
+    </material>
+    <mesh name="plate_small_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="plate_small_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="plate_small_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="small_plate">
+      <geom type="mesh" mesh="plate_small_0_mesh" material="plate_small_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_00" rgba="0 0 0 0" group="3" mass="0.00452402648" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_01" rgba="0 0 0 0" group="3" mass="0.00509004407" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_02" rgba="0 0 0 0" group="3" mass="0.00358461689" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_03" rgba="0 0 0 0" group="3" mass="0.00928268943" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_04" rgba="0 0 0 0" group="3" mass="0.00651242552" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_05" rgba="0 0 0 0" group="3" mass="0.00584091783" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_06" rgba="0 0 0 0" group="3" mass="0.00723602834" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_07" rgba="0 0 0 0" group="3" mass="0.00395203875" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_08" rgba="0 0 0 0" group="3" mass="0.00540109697" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_09" rgba="0 0 0 0" group="3" mass="0.00376655405" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_10" rgba="0 0 0 0" group="3" mass="0.00415999554" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_11" rgba="0 0 0 0" group="3" mass="0.00614874103" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_12" rgba="0 0 0 0" group="3" mass="0.00767281685" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_13" rgba="0 0 0 0" group="3" mass="0.00559189471" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_14" rgba="0 0 0 0" group="3" mass="0.00719081404" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_15" rgba="0 0 0 0" group="3" mass="0.00556382887" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_16" rgba="0 0 0 0" group="3" mass="0.00764793825" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_17" rgba="0 0 0 0" group="3" mass="0.00113019674" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_18" rgba="0 0 0 0" group="3" mass="0.00289379061" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_19" rgba="0 0 0 0" group="3" mass="0.00120332945" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_20" rgba="0 0 0 0" group="3" mass="0.00302299878" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_21" rgba="0 0 0 0" group="3" mass="0.00112538997" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_22" rgba="0 0 0 0" group="3" mass="0.0031597385" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_23" rgba="0 0 0 0" group="3" mass="0.00300324295" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_24" rgba="0 0 0 0" group="3" mass="0.0113463246" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_25" rgba="0 0 0 0" group="3" mass="0.00223672615" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_26" rgba="0 0 0 0" group="3" mass="0.00602165008" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_27" rgba="0 0 0 0" group="3" mass="0.00111292362" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_28" rgba="0 0 0 0" group="3" mass="0.00329489381" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_29" rgba="0 0 0 0" group="3" mass="0.00119195669" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_30" rgba="0 0 0 0" group="3" mass="0.00630799747" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_31" rgba="0 0 0 0" group="3" mass="0.00326031797" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_32" rgba="0 0 0 0" group="3" mass="0.00371234336" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_33" rgba="0 0 0 0" group="3" mass="0.011350321" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_34" rgba="0 0 0 0" group="3" mass="0.00284682612" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_35" rgba="0 0 0 0" group="3" mass="0.00266624878" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_36" rgba="0 0 0 0" group="3" mass="0.0131135168" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_37" rgba="0 0 0 0" group="3" mass="0.00613591639" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_38" rgba="0 0 0 0" group="3" mass="0.00617739371" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_39" rgba="0 0 0 0" group="3" mass="0.000520824459" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_40" rgba="0 0 0 0" group="3" mass="0.000520824459" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_41" rgba="0 0 0 0" group="3" mass="0.000541078742" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_42" rgba="0 0 0 0" group="3" mass="0.00600544911" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_43" rgba="0 0 0 0" group="3" mass="0.00238321923" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_44" rgba="0 0 0 0" group="3" mass="0.00600130302" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_45" rgba="0 0 0 0" group="3" mass="0.00217675013" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_46" rgba="0 0 0 0" group="3" mass="0.000593893929" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_47" rgba="0 0 0 0" group="3" mass="0.00701049902" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_48" rgba="0 0 0 0" group="3" mass="0.00519069411" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_49" rgba="0 0 0 0" group="3" mass="0.00606381609" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_50" rgba="0 0 0 0" group="3" mass="0.00534543967" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_51" rgba="0 0 0 0" group="3" mass="0.00571281936" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_52" rgba="0 0 0 0" group="3" mass="0.00691835089" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_53" rgba="0 0 0 0" group="3" mass="0.00757328526" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plate_small_hull_54" rgba="0 0 0 0" group="3" mass="0.00240823501" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1488 0.1488 0.0106" pos="0.0000 0.0000 0.0106" />
+      <geom name="place:top" class="place" type="mesh" mesh="plate_small_top" />
+    </body>
+  </worldbody>
+</mujoco>

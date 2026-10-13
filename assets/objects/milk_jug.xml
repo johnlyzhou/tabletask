@@ -1,0 +1,46 @@
+<mujoco model="milk_jug">
+  <compiler angle="radian" meshdir="../mesh/milk_jug" texturedir="../mesh/milk_jug" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="milkjug_a01_0_mesh" file="0.obj" />
+    <material name="milkjug_a01_0_skin" rgba="1.0000 1.0000 1.0000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="milkjug_a01_1_mesh" file="1.obj" />
+    <texture name="milkjug_a01_1_tex" type="2d" file="1.png" />
+    <material name="milkjug_a01_1_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="milkjug_a01_1_tex" role="rgb" />
+    </material>
+    <mesh name="milkjug_a01_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="milkjug_a01_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="milk_jug">
+      <geom type="mesh" mesh="milkjug_a01_0_mesh" material="milkjug_a01_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_1_mesh" material="milkjug_a01_1_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_00" rgba="0 0 0 0" group="3" mass="0.00544523253" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_01" rgba="0 0 0 0" group="3" mass="0.0228031236" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_02" rgba="0 0 0 0" group="3" mass="0.0912171979" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_03" rgba="0 0 0 0" group="3" mass="0.330158005" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_04" rgba="0 0 0 0" group="3" mass="0.00328910075" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_05" rgba="0 0 0 0" group="3" mass="0.00391066155" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_06" rgba="0 0 0 0" group="3" mass="0.00258025766" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_07" rgba="0 0 0 0" group="3" mass="0.00411014198" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_08" rgba="0 0 0 0" group="3" mass="0.0319525542" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_09" rgba="0 0 0 0" group="3" mass="0.0391149213" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milkjug_a01_hull_10" rgba="0 0 0 0" group="3" mass="0.0545141229" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0384 0.0383 0.0862" pos="0.0000 0.0000 0.0862" />
+    </body>
+  </worldbody>
+</mujoco>

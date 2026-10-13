@@ -1,0 +1,19 @@
+{
+  "id": "robolab-take_spatula_off_shelf",
+  "instruction": "Take the spatula off the shelf and put it on the table.",
+  "objects": {"small_spatula": {"asset": "small_spatula"}, "small_plate": {"asset": "small_plate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "big_fork": {"asset": "big_fork"}, "small_fork": {"asset": "small_fork", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "white_mug": {"asset": "white_mug"}, "red_mug": {"asset": "red_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wire_shelf": {"asset": "wire_shelf"}, "ceramic_mug": {"asset": "ceramic_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["at", "wire_shelf", "table/left"],
+    ["oriented", "wire_shelf", "upright"],
+    ["on", "small_spatula", "wire_shelf"],
+    ["on", "small_plate", "table"],
+    ["on", "big_fork", "small_plate"],
+    ["on", "small_fork", "table"],
+    ["on", "ceramic_mug", "table"],
+    ["on", "red_mug", "table"],
+    ["on", "white_mug", "small_plate"]
+  ],
+  "goal": [
+    ["on", "small_spatula", "table"]
+  ]
+}

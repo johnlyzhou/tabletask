@@ -1,0 +1,15 @@
+{
+  "id": "abc-load_plates_into_dish_rack",
+  "instruction": "Stand both plates vertically in the wire slots of the dish rack.",
+  "objects": {"rack": {"asset": "abc_dish_rack", "sample": {"rel": "table/top", "offset": [-0.02, -0.23, 0], "jitter": {"xy": [0.004, 0.004], "yaw": 0}}, "fixed": true}, "plate1": {"asset": "abc_plate", "sample": {"rel": "table/top", "offset": [-0.15, 0.25, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}, "tags": ["plates"]}, "plate2": {"asset": "abc_plate", "sample": {"rel": "table/top", "offset": [0.11, 0.25, 0], "jitter": {"xy": [0.0, 0.008], "yaw": 8}}, "tags": ["plates"]}},
+  "start": [
+    ["on", "rack", "table"],
+    ["on", "plate1", "table"],
+    ["on", "plate2", "table"]
+  ],
+  "goal": [
+    ["and", ["overlapping", "plate1/center", "rack/slots"], ["lying", "plate1", 33.36], ["touching", "plate1", "rack"]],
+    ["and", ["overlapping", "plate2/center", "rack/slots"], ["lying", "plate2", 33.36], ["touching", "plate2", "rack"]],
+    ["at_least", ["gap", "plate1", "plate2", "y"], 0.03]
+  ]
+}

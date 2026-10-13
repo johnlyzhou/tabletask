@@ -1,0 +1,25 @@
+<mujoco model="abc_bolt">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="bolt_steel" rgba="0.38 0.42 0.48 1" specular="0.48" shininess="0.32" />
+    <mesh name="m20_bolt_watertight" file="task_nuts_bolts/m20_bolt_watertight.obj" scale="0.72 0.72 0.72" />
+  </asset>
+  <worldbody>
+    <body name="abc_bolt">
+      <body name="source" pos="-2.6426689e-11 2.72830947e-10 0.0108" quat="0.707107 0 0.707107 0">
+        <inertial pos="0 0 -0.0047" mass="0.033" diaginertia="0.0000065 0.0000065 0.0000016" />
+        <geom name="bolt_1_visual" type="mesh" mesh="m20_bolt_watertight" material="bolt_steel" contype="0" conaffinity="0" density="0" group="2" />
+        <geom density="2500" condim="6" friction="1.35 0.025 0.0025" solimp="0.995 0.998 0.001" solref="0.008 1" type="cylinder" size="0.00684 0.0162" pos="0 0 0.0072" group="3" rgba="0 0 0 0" />
+        <geom density="2500" condim="6" friction="1.35 0.025 0.0025" solimp="0.995 0.998 0.001" solref="0.008 1" type="box" size="0.0108 0.00414 0.0072" pos="0 0 -0.0162" euler="0 0 0" group="3" rgba="0 0 0 0" />
+        <geom density="2500" condim="6" friction="1.35 0.025 0.0025" solimp="0.995 0.998 0.001" solref="0.008 1" type="box" size="0.0108 0.00414 0.0072" pos="0 0 -0.0162" euler="0 0 1.0472" group="3" rgba="0 0 0 0" />
+        <geom density="2500" condim="6" friction="1.35 0.025 0.0025" solimp="0.995 0.998 0.001" solref="0.008 1" type="box" size="0.0108 0.00414 0.0072" pos="0 0 -0.0162" euler="0 0 2.0944" group="3" rgba="0 0 0 0" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.0108000001" size="0.0234 0.0124707674 0.0108000001" />
+    </body>
+  </worldbody>
+</mujoco>

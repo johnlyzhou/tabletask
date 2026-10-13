@@ -1,0 +1,17 @@
+{
+  "id": "robolab-donut_then_muffin_on_plate",
+  "instruction": "Put the donut on the plate, then the muffin.",
+  "objects": {"chocolate_donut": {"asset": "chocolate_donut", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "lattice_pie": {"asset": "lattice_pie", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "chocolate_chip_muffin": {"asset": "chocolate_chip_muffin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "large_plate": {"asset": "large_plate", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "large_plate", "table"],
+    ["on", "chocolate_donut", "table"],
+    ["on", "chocolate_chip_muffin", "table"],
+    ["on", "lattice_pie", "table"]
+  ],
+  "goal": [
+    ["then", ["on", "chocolate_donut", "large_plate"], ["on", "chocolate_chip_muffin", "large_plate"]]
+  ],
+  "always": [
+    ["or", ["not", ["on", "chocolate_chip_muffin", "large_plate"]], ["on", "chocolate_donut", "large_plate"]]
+  ]
+}

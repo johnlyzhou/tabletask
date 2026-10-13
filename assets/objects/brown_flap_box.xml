@@ -1,0 +1,112 @@
+<mujoco model="brown_flap_box">
+  <!-- brown_flap_box, converted from an AI2-THOR prefab via MolmoSpaces (Box_24; Apache-2.0, AI2). -->
+  <compiler angle="radian" meshdir="../mesh/brown_flap_box" texturedir="../mesh/brown_flap_box"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="brown_flap_box_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="brown_flap_box_0_tex" type="2d" file="0.png"/>
+    <material name="brown_flap_box_0_skin" rgba="0.6324 0.3168 0.0744 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="brown_flap_box_0_tex" role="rgb"/>
+    </material>
+    <mesh name="brown_flap_box_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_flap_inner_0_mesh" file="flap_inner_0.obj" inertia="shell"/>
+    <texture name="brown_flap_box_flap_inner_0_tex" type="2d" file="flap_inner_0.png"/>
+    <material name="brown_flap_box_flap_inner_0_skin" rgba="0.6324 0.3168 0.0744 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="brown_flap_box_flap_inner_0_tex" role="rgb"/>
+    </material>
+    <mesh name="brown_flap_box_flap_inner_hull_00" file="flap_inner_hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_flap_outer_0_mesh" file="flap_outer_0.obj" inertia="shell"/>
+    <texture name="brown_flap_box_flap_outer_0_tex" type="2d" file="flap_outer_0.png"/>
+    <material name="brown_flap_box_flap_outer_0_skin" rgba="0.6324 0.3168 0.0744 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="brown_flap_box_flap_outer_0_tex" role="rgb"/>
+    </material>
+    <mesh name="brown_flap_box_flap_outer_hull_00" file="flap_outer_hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_flap_inner_2_0_mesh" file="flap_inner_2_0.obj" inertia="shell"/>
+    <texture name="brown_flap_box_flap_inner_2_0_tex" type="2d" file="flap_inner_2_0.png"/>
+    <material name="brown_flap_box_flap_inner_2_0_skin" rgba="0.6324 0.3168 0.0744 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="brown_flap_box_flap_inner_2_0_tex" role="rgb"/>
+    </material>
+    <mesh name="brown_flap_box_flap_inner_2_hull_00" file="flap_inner_2_hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_flap_outer_2_0_mesh" file="flap_outer_2_0.obj" inertia="shell"/>
+    <texture name="brown_flap_box_flap_outer_2_0_tex" type="2d" file="flap_outer_2_0.png"/>
+    <material name="brown_flap_box_flap_outer_2_0_skin" rgba="0.6324 0.3168 0.0744 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="brown_flap_box_flap_outer_2_0_tex" role="rgb"/>
+    </material>
+    <mesh name="brown_flap_box_flap_outer_2_hull_00" file="flap_outer_2_hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="brown_flap_box_inside" file="inside.obj"/>
+    <mesh name="brown_flap_box_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="brown_flap_box">
+      <geom type="mesh" mesh="brown_flap_box_0_mesh" material="brown_flap_box_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_00" rgba="0 0 0 0" group="3" mass="0.0368" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_01" rgba="0 0 0 0" group="3" mass="0.0054" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_02" rgba="0 0 0 0" group="3" mass="0.0059" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_03" rgba="0 0 0 0" group="3" mass="0.0371" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_04" rgba="0 0 0 0" group="3" mass="0.0320" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_05" rgba="0 0 0 0" group="3" mass="0.0387" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_06" rgba="0 0 0 0" group="3" mass="0.0385" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_07" rgba="0 0 0 0" group="3" mass="0.0297" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_08" rgba="0 0 0 0" group="3" mass="0.0450" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_09" rgba="0 0 0 0" group="3" mass="0.0346" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_10" rgba="0 0 0 0" group="3" mass="0.0335" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_11" rgba="0 0 0 0" group="3" mass="0.0437" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_12" rgba="0 0 0 0" group="3" mass="0.0012" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_13" rgba="0 0 0 0" group="3" mass="0.0018" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_14" rgba="0 0 0 0" group="3" mass="0.0020" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_15" rgba="0 0 0 0" group="3" mass="0.0313" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="brown_flap_box_hull_16" rgba="0 0 0 0" group="3" mass="0.0327" friction="0.9 0.01 0.002" condim="4"/>
+      <body name="flap_inner" pos="0.00454 -0.10530 0.21403" quat="0.707101 0.707113 0.000000 0.000000">
+        <joint name="flap_inner" type="hinge" axis="1 -0 -0" range="0.0000 1.9012" damping="0.002" frictionloss="0.002"/>
+        <geom type="mesh" mesh="brown_flap_box_flap_inner_0_mesh" material="brown_flap_box_flap_inner_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+        <geom type="mesh" mesh="brown_flap_box_flap_inner_hull_00" rgba="0 0 0 0" group="3" mass="0.0600" friction="0.9 0.01 0.002" condim="4"/>
+      </body>
+      <body name="flap_outer" pos="-0.10354 -0.00037 0.21556" quat="0.707107 0.707107 0.000003 -0.000003">
+        <joint name="flap_outer" type="hinge" axis="0 0 1" range="0.0000 1.8633" damping="0.005" frictionloss="0.005"/>
+        <geom type="mesh" mesh="brown_flap_box_flap_outer_0_mesh" material="brown_flap_box_flap_outer_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+        <geom type="mesh" mesh="brown_flap_box_flap_outer_hull_00" rgba="0 0 0 0" group="3" mass="0.0600" friction="0.9 0.01 0.002" condim="4"/>
+      </body>
+      <body name="flap_inner_2" pos="0.00454 0.10435 0.21403" quat="0.707114 0.707100 0.000000 0.000000">
+        <joint name="flap_inner_2" type="hinge" axis="-1 0 0" range="0.0000 1.9032" damping="0.002" frictionloss="0.002"/>
+        <geom type="mesh" mesh="brown_flap_box_flap_inner_2_0_mesh" material="brown_flap_box_flap_inner_2_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+        <geom type="mesh" mesh="brown_flap_box_flap_inner_2_hull_00" rgba="0 0 0 0" group="3" mass="0.0600" friction="0.9 0.01 0.002" condim="4"/>
+      </body>
+      <body name="flap_outer_2" pos="0.11263 -0.00037 0.21556" quat="0.707107 0.707107 -0.000001 0.000001">
+        <joint name="flap_outer_2" type="hinge" axis="-0 -0 -1" range="0.0000 1.8680" damping="0.005" frictionloss="0.005"/>
+        <geom type="mesh" mesh="brown_flap_box_flap_outer_2_0_mesh" material="brown_flap_box_flap_outer_2_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+        <geom type="mesh" mesh="brown_flap_box_flap_outer_2_hull_00" rgba="0 0 0 0" group="3" mass="0.0600" friction="0.9 0.01 0.002" condim="4"/>
+      </body>
+      <geom name="place:bounds" class="place" type="box" size="0.1364 0.1320 0.1346" pos="0.0050 -0.0004 0.1346"/>
+      <geom name="place:inside" class="place" type="mesh" mesh="brown_flap_box_inside"/>
+      <geom name="place:top" class="place" type="mesh" mesh="brown_flap_box_top"/>
+    </body>
+  </worldbody>
+  <contact>
+    <exclude body1="flap_inner" body2="flap_outer"/>
+    <exclude body1="flap_inner" body2="flap_inner_2"/>
+    <exclude body1="flap_inner" body2="flap_outer_2"/>
+    <exclude body1="flap_outer" body2="flap_inner_2"/>
+    <exclude body1="flap_outer" body2="flap_outer_2"/>
+    <exclude body1="flap_inner_2" body2="flap_outer_2"/>
+  </contact>
+</mujoco>

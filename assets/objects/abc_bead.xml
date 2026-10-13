@@ -1,0 +1,18 @@
+<mujoco model="abc_bead">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset />
+  <worldbody>
+    <body name="abc_bead">
+      <body name="source" pos="-0 -0 0.008">
+        <geom name="bead_1_geom" type="sphere" size="0.008" rgba="0.9 0.15 0.1 1" mass="0.003" friction="0.02 0.005 0.001" condim="3" priority="2" contype="1" conaffinity="1" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.008" size="0.008 0.008 0.008" />
+      <geom name="place:center" class="place" type="box" pos="0 0 0.008" size="0.001 0.001 0.001" />
+    </body>
+  </worldbody>
+</mujoco>

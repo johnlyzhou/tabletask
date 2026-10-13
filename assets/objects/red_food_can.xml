@@ -1,0 +1,24 @@
+<mujoco model="red_food_can">
+  <compiler angle="radian" meshdir="../mesh/red_food_can" texturedir="../mesh/red_food_can" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_food_can_0_mesh" file="0.obj" inertia="shell" scale="0.75 0.75 0.75" />
+    <texture name="red_food_can_0_tex" type="2d" file="0.png" />
+    <material name="red_food_can_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="red_food_can_0_tex" role="rgb" />
+    </material>
+    <mesh name="red_food_can_top" file="top.obj" scale="0.75 0.75 0.75" />
+  </asset>
+  <worldbody>
+    <body name="red_food_can">
+      <geom type="mesh" mesh="red_food_can_0_mesh" material="red_food_can_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.03345 0.03345 0.045" pos="0 0 0.045" />
+      <geom name="place:top" class="place" type="mesh" mesh="red_food_can_top" />
+      <geom type="cylinder" size="0.033465 0.045" pos="0 0 0.045" rgba="0 0 0 0" group="3" mass="0.309013" condim="4" friction="0.9 0.01 0.002" />
+    </body>
+  </worldbody>
+</mujoco>

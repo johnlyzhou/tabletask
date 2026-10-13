@@ -1,0 +1,16 @@
+{
+  "id": "robolab-blocks_in_a_tower_in_order",
+  "instruction": "Stack the blocks in the order from bottom to top: red, blue, green, yellow.",
+  "objects": {"red_block": {"asset": "red_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "green_block": {"asset": "green_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_block": {"asset": "blue_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_block": {"asset": "yellow_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "red_block", "table"],
+    ["on", "blue_block", "table"],
+    ["on", "green_block", "table"],
+    ["on", "yellow_block", "table"]
+  ],
+  "goal": [
+    ["on", "blue_block", "red_block"],
+    ["on", "green_block", "blue_block"],
+    ["on", "yellow_block", "green_block"]
+  ]
+}

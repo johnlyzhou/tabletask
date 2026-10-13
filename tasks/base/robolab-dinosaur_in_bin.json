@@ -1,0 +1,19 @@
+{
+  "id": "robolab-dinosaur_in_bin",
+  "instruction": "Put the dinosaur away in the bin.",
+  "objects": {"dinosaur": {"asset": "dinosaur", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "glasses": {"asset": "glasses", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "ceramic_mug": {"asset": "ceramic_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wooden_bowl": {"asset": "wooden_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yogurt_cup": {"asset": "yogurt_cup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "grey_bin": {"asset": "grey_bin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "big_spoon": {"asset": "big_spoon"}, "smartphone": {"asset": "smartphone", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "marker": {"asset": "marker", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "ceramic_mug", "table"],
+    ["on", "glasses", "table"],
+    ["on", "dinosaur", "table"],
+    ["on", "marker", "table"],
+    ["on", "smartphone", "table"],
+    ["on", "wooden_bowl", "table"],
+    ["on", "big_spoon", "wooden_bowl"],
+    ["on", "yogurt_cup", "table"],
+    ["on", "grey_bin", "table"]
+  ],
+  "goal": [
+    ["inside", "dinosaur", "grey_bin"]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "robolab-all_the_mugs_upright",
+  "instruction": "Reorient all the mugs upright so that the opening is facing upwards.",
+  "objects": {"sideways_white_mug": {"asset": "white_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "upright_white_mug": {"asset": "white_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "cordless_drill": {"asset": "cordless_drill", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "measuring_cup": {"asset": "measuring_cup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "bowl": {"asset": "bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_mug": {"asset": "red_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "ceramic_mug": {"asset": "ceramic_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "red_mug", "table"],
+    ["upside_down", "red_mug"],
+    ["on", "bowl", "table"],
+    ["on", "ceramic_mug", "table"],
+    ["lying", "ceramic_mug"],
+    ["on", "upright_white_mug", "table"],
+    ["on", "sideways_white_mug", "table"],
+    ["lying", "sideways_white_mug"],
+    ["on", "cordless_drill", "table"],
+    ["on", "measuring_cup", "table"],
+    ["upside_down", "measuring_cup"]
+  ],
+  "goal": [
+    ["upright", "red_mug", 25],
+    ["upright", "ceramic_mug", 25],
+    ["upright", "sideways_white_mug", 25],
+    ["upright", "upright_white_mug", 25]
+  ]
+}

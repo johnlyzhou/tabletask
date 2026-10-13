@@ -1,0 +1,20 @@
+{
+  "id": "citrus_fruits_on_plate",
+  "instruction": "Put the citrus fruits on the plate.",
+  "objects": {"plate": {"asset": "large_plate", "sample": {"rel": "table/top", "offset": [-0.07, 0.28, 0.0], "jitter": {"xy": [0.04, 0.03], "yaw": 30}}}, "orange": {"asset": "orange", "sample": {"rel": "table/top", "offset": [-0.05, -0.17, 0.0], "jitter": {"xy": [0.15, 0.13], "yaw": 180}}}, "lemon": {"asset": "lemon", "sample": {"rel": "table/top", "offset": [-0.05, -0.17, 0.0], "jitter": {"xy": [0.15, 0.13], "yaw": 180}}}, "banana": {"asset": "banana", "sample": {"rel": "table/top", "offset": [-0.05, -0.17, 0.0], "jitter": {"xy": [0.15, 0.13], "yaw": 180}}}, "apple": {"asset": "apple", "sample": {"rel": "table/top", "offset": [-0.05, -0.17, 0.0], "jitter": {"xy": [0.15, 0.13], "yaw": 180}}}},
+  "start": [
+    ["on", "plate", "table"],
+    ["on", "orange", "table"],
+    ["on", "lemon", "table"],
+    ["on", "banana", "table"],
+    ["on", "apple", "table"]
+  ],
+  "goal": [
+    ["inside", "orange", "plate/top"],
+    ["inside", "lemon", "plate/top"]
+  ],
+  "always": [
+    ["not", ["on", "banana", "plate"]],
+    ["not", ["on", "apple", "plate"]]
+  ]
+}

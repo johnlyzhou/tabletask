@@ -1,0 +1,16 @@
+{
+  "id": "robolab-empty_the_tray",
+  "instruction": "Take everything off the tray and set it on the table.",
+  "objects": {"red_tray": {"asset": "red_tray", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.01, 0.17]}}}, "green_mug": {"asset": "green_mug"}, "black_calculator": {"asset": "black_calculator"}, "yellow_apple": {"asset": "yellow_apple"}},
+  "start": [
+    ["on", "red_tray", "table"],
+    ["on", "green_mug", "red_tray"],
+    ["on", "yellow_apple", "red_tray"],
+    ["on", "black_calculator", "red_tray"]
+  ],
+  "goal": [
+    ["on", "green_mug", "table"],
+    ["on", "yellow_apple", "table"],
+    ["on", "black_calculator", "table"]
+  ]
+}

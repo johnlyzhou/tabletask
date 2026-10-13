@@ -1,0 +1,17 @@
+{
+  "id": "robolab-bowl_on_the_closed_box",
+  "instruction": "Set the bowl on top of the box.",
+  "objects": {"brown_flap_box": {"asset": "brown_flap_box", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_apple": {"asset": "yellow_apple", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "floral_dish": {"asset": "floral_dish", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "brown_flap_box", "table"],
+    ["closed", "brown_flap_box/flap_inner"],
+    ["closed", "brown_flap_box/flap_inner_2"],
+    ["closed", "brown_flap_box/flap_outer"],
+    ["closed", "brown_flap_box/flap_outer_2"],
+    ["on", "floral_dish", "table"],
+    ["on", "yellow_apple", "table"]
+  ],
+  "goal": [
+    ["on", "floral_dish", "brown_flap_box"]
+  ]
+}

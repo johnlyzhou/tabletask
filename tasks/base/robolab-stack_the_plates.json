@@ -1,0 +1,14 @@
+{
+  "id": "robolab-stack_the_plates",
+  "instruction": "Stack the three plates.",
+  "objects": {"rainbow_plate": {"asset": "rainbow_plate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "peach_plate": {"asset": "peach_plate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wooden_handled_fork": {"asset": "wooden_handled_fork", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "green_rimmed_plate": {"asset": "green_rimmed_plate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "peach_plate", "table"],
+    ["on", "green_rimmed_plate", "table"],
+    ["on", "rainbow_plate", "table"],
+    ["on", "wooden_handled_fork", "table"]
+  ],
+  "goal": [
+    ["at_least", ["tally", [["on", "peach_plate", "green_rimmed_plate"], ["on", "peach_plate", "rainbow_plate"], ["on", "green_rimmed_plate", "peach_plate"], ["on", "green_rimmed_plate", "rainbow_plate"], ["on", "rainbow_plate", "peach_plate"], ["on", "rainbow_plate", "green_rimmed_plate"]]], 2]
+  ]
+}

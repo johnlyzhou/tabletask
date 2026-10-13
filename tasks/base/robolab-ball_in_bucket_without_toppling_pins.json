@@ -1,0 +1,18 @@
+{
+  "id": "robolab-ball_in_bucket_without_toppling_pins",
+  "instruction": "Put the ball in the bucket without knocking over any pin.",
+  "objects": {"blue_bowling_pin": {"asset": "blue_bowling_pin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_bucket": {"asset": "blue_bucket", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "bowling_pin": {"asset": "bowling_pin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "soccer_ball": {"asset": "soccer_ball", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_bowling_pin": {"asset": "red_bowling_pin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "blue_bucket", "table"],
+    ["on", "soccer_ball", "table"],
+    ["on", "bowling_pin", "table"],
+    ["on", "blue_bowling_pin", "table"],
+    ["on", "red_bowling_pin", "table"]
+  ],
+  "goal": [
+    ["inside", "soccer_ball", "blue_bucket"],
+    ["upright", "bowling_pin", 20],
+    ["upright", "blue_bowling_pin", 20],
+    ["upright", "red_bowling_pin", 20]
+  ]
+}

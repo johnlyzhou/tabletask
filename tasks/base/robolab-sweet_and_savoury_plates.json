@@ -1,0 +1,20 @@
+{
+  "id": "robolab-sweet_and_savoury_plates",
+  "instruction": "Sweets on the plate, the sandwich and burger on the tray.",
+  "objects": {"pink_cupcake": {"asset": "pink_cupcake", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "burger": {"asset": "burger", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "sprinkle_donut": {"asset": "sprinkle_donut", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "large_plate": {"asset": "large_plate", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "club_sandwich": {"asset": "club_sandwich", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "purple_tray": {"asset": "purple_tray", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "large_plate", "table"],
+    ["on", "purple_tray", "table"],
+    ["oriented", "purple_tray", [0.0, 0.0, 0.0]],
+    ["on", "sprinkle_donut", "table"],
+    ["on", "pink_cupcake", "table"],
+    ["on", "club_sandwich", "table"],
+    ["on", "burger", "table"]
+  ],
+  "goal": [
+    ["on", "sprinkle_donut", "large_plate"],
+    ["on", "pink_cupcake", "large_plate"],
+    ["on", "club_sandwich", "purple_tray"],
+    ["on", "burger", "purple_tray"]
+  ]
+}

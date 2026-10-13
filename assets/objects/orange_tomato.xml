@@ -1,0 +1,25 @@
+<mujoco model="orange_tomato">
+  <compiler angle="radian" meshdir="../mesh/orange_tomato" texturedir="../mesh/orange_tomato" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="orange_tomato_0_mesh" file="0.obj" inertia="shell" />
+    <texture name="orange_tomato_0_tex" type="2d" file="0.png" />
+    <material name="orange_tomato_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="orange_tomato_0_tex" role="rgb" />
+    </material>
+    <mesh name="orange_tomato_hull_00" file="orange_tomato_hulls/h00.obj" maxhullvert="128" />
+    <mesh name="orange_tomato_hull_01" file="orange_tomato_hulls/h01.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="orange_tomato">
+      <geom type="mesh" mesh="orange_tomato_0_mesh" material="orange_tomato_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0348 0.0345 0.0300" pos="0.0000 0.0000 0.0300" />
+      <geom type="mesh" mesh="orange_tomato_hull_00" rgba="0 0 0 0" group="3" mass="0.142427589" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="orange_tomato_hull_01" rgba="0 0 0 0" group="3" mass="0.0122507616" condim="4" friction="0.9 0.01 0.002" />
+    </body>
+  </worldbody>
+</mujoco>

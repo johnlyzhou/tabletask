@@ -1,0 +1,17 @@
+{
+  "id": "robolab-pens_in_the_tumbler",
+  "instruction": "Put the pens and pencils in the tumbler.",
+  "objects": {"wooden_ruler": {"asset": "wooden_ruler", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "orange_ballpoint": {"asset": "orange_ballpoint", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_pencil": {"asset": "yellow_pencil", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "speckled_tumbler": {"asset": "speckled_tumbler", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "teal_pen": {"asset": "teal_pen", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "speckled_tumbler", "table"],
+    ["on", "yellow_pencil", "table"],
+    ["on", "orange_ballpoint", "table"],
+    ["on", "teal_pen", "table"],
+    ["on", "wooden_ruler", "table"]
+  ],
+  "goal": [
+    ["inside", "yellow_pencil", "speckled_tumbler"],
+    ["inside", "orange_ballpoint", "speckled_tumbler"],
+    ["inside", "teal_pen", "speckled_tumbler"]
+  ]
+}

@@ -1,0 +1,129 @@
+<mujoco model="red_mug">
+  <compiler angle="radian" meshdir="../mesh/red_mug" texturedir="../mesh/red_mug" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_mug_0_mesh" file="0.obj" />
+    <texture name="red_mug_0_tex" type="2d" file="0.png" />
+    <material name="red_mug_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="red_mug_0_tex" role="rgb" />
+    </material>
+    <mesh name="red_mug_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="red_mug_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="red_mug_inside" file="inside.obj" />
+    <mesh name="red_mug_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="red_mug">
+      <geom type="mesh" mesh="red_mug_0_mesh" material="red_mug_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_00" rgba="0 0 0 0" group="3" mass="0.00384244335" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_01" rgba="0 0 0 0" group="3" mass="0.00646314393" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_02" rgba="0 0 0 0" group="3" mass="0.00224268892" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_03" rgba="0 0 0 0" group="3" mass="0.00147885033" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_04" rgba="0 0 0 0" group="3" mass="0.00152372629" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_05" rgba="0 0 0 0" group="3" mass="0.00193467903" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_06" rgba="0 0 0 0" group="3" mass="0.00309311327" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_07" rgba="0 0 0 0" group="3" mass="0.00329671925" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_08" rgba="0 0 0 0" group="3" mass="0.00371679313" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_09" rgba="0 0 0 0" group="3" mass="0.003150429" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_10" rgba="0 0 0 0" group="3" mass="0.00250650528" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_11" rgba="0 0 0 0" group="3" mass="0.00146144985" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_12" rgba="0 0 0 0" group="3" mass="0.00128926918" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_13" rgba="0 0 0 0" group="3" mass="0.00120741227" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_14" rgba="0 0 0 0" group="3" mass="0.00288823441" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_15" rgba="0 0 0 0" group="3" mass="0.00312965519" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_16" rgba="0 0 0 0" group="3" mass="0.00261279355" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_17" rgba="0 0 0 0" group="3" mass="0.00101800524" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_18" rgba="0 0 0 0" group="3" mass="0.0006699311" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_19" rgba="0 0 0 0" group="3" mass="0.00442460884" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_20" rgba="0 0 0 0" group="3" mass="0.00114558221" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_21" rgba="0 0 0 0" group="3" mass="0.00102682957" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_22" rgba="0 0 0 0" group="3" mass="0.000808443928" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_23" rgba="0 0 0 0" group="3" mass="0.0094557193" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_24" rgba="0 0 0 0" group="3" mass="0.00152526588" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_25" rgba="0 0 0 0" group="3" mass="0.00364078115" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_26" rgba="0 0 0 0" group="3" mass="0.00109716443" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_27" rgba="0 0 0 0" group="3" mass="0.00202360317" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_28" rgba="0 0 0 0" group="3" mass="0.00114312939" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_29" rgba="0 0 0 0" group="3" mass="0.0119146306" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_30" rgba="0 0 0 0" group="3" mass="0.0148237774" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_31" rgba="0 0 0 0" group="3" mass="0.0137629666" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_32" rgba="0 0 0 0" group="3" mass="0.020574098" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_33" rgba="0 0 0 0" group="3" mass="0.000419731031" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_34" rgba="0 0 0 0" group="3" mass="0.0159557026" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_35" rgba="0 0 0 0" group="3" mass="0.00830531078" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_36" rgba="0 0 0 0" group="3" mass="0.000777888224" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_37" rgba="0 0 0 0" group="3" mass="0.000812325095" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_38" rgba="0 0 0 0" group="3" mass="0.00100413834" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_39" rgba="0 0 0 0" group="3" mass="0.000718557353" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_40" rgba="0 0 0 0" group="3" mass="0.000591198817" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_41" rgba="0 0 0 0" group="3" mass="0.000756007993" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_42" rgba="0 0 0 0" group="3" mass="0.000455763778" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_43" rgba="0 0 0 0" group="3" mass="0.000952578201" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_44" rgba="0 0 0 0" group="3" mass="0.00194028008" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_45" rgba="0 0 0 0" group="3" mass="0.00473710589" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_46" rgba="0 0 0 0" group="3" mass="0.00729500221" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_47" rgba="0 0 0 0" group="3" mass="0.000878353516" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_48" rgba="0 0 0 0" group="3" mass="0.000812703806" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_49" rgba="0 0 0 0" group="3" mass="0.010143196" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_50" rgba="0 0 0 0" group="3" mass="0.00701377492" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_mug_hull_51" rgba="0 0 0 0" group="3" mass="0.0102475988" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0585 0.0465 0.0407" pos="0.0000 0.0000 0.0407" />
+      <geom name="place:inside" class="place" type="mesh" mesh="red_mug_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="red_mug_top" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,16 @@
+{
+  "id": "robolab-tumblers_upside_down_on_tray",
+  "instruction": "Put both tumblers upside down on the tray to drain.",
+  "objects": {"speckled_tumbler": {"asset": "speckled_tumbler", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "stoneware_tumbler": {"asset": "stoneware_tumbler", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wooden_tray": {"asset": "wooden_tray", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "wooden_tray", "table"],
+    ["on", "speckled_tumbler", "table"],
+    ["on", "stoneware_tumbler", "table"]
+  ],
+  "goal": [
+    ["on", "speckled_tumbler", "wooden_tray"],
+    ["upside_down", "speckled_tumbler"],
+    ["on", "stoneware_tumbler", "wooden_tray"],
+    ["upside_down", "stoneware_tumbler"]
+  ]
+}

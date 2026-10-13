@@ -1,0 +1,64 @@
+<mujoco model="sprinkle_donut">
+  <!-- sprinkle_donut, converted from the MolmoSpaces Objaverse library (uid 04a319096cd1428a9c5af4dde414a7d7; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/sprinkle_donut" texturedir="../mesh/sprinkle_donut"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="sprinkle_donut_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="sprinkle_donut_0_tex" type="2d" file="0.png"/>
+    <material name="sprinkle_donut_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="sprinkle_donut_0_tex" role="rgb"/>
+    </material>
+    <mesh name="sprinkle_donut_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="sprinkle_donut_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="sprinkle_donut">
+      <geom type="mesh" mesh="sprinkle_donut_0_mesh" material="sprinkle_donut_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_00" rgba="0 0 0 0" group="3" mass="0.0173153525" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_01" rgba="0 0 0 0" group="3" mass="0.00837690009" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_02" rgba="0 0 0 0" group="3" mass="0.00907416281" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_03" rgba="0 0 0 0" group="3" mass="0.0157602752" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_04" rgba="0 0 0 0" group="3" mass="0.0124972254" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_05" rgba="0 0 0 0" group="3" mass="0.0116249265" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_06" rgba="0 0 0 0" group="3" mass="0.00937727663" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_07" rgba="0 0 0 0" group="3" mass="0.013173205" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_08" rgba="0 0 0 0" group="3" mass="0.0145158595" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_09" rgba="0 0 0 0" group="3" mass="0.0150371818" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_10" rgba="0 0 0 0" group="3" mass="0.016243988" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_11" rgba="0 0 0 0" group="3" mass="0.0455548984" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_12" rgba="0 0 0 0" group="3" mass="0.0160334047" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_13" rgba="0 0 0 0" group="3" mass="0.0146569365" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_14" rgba="0 0 0 0" group="3" mass="0.0350681998" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_15" rgba="0 0 0 0" group="3" mass="0.0267274909" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_16" rgba="0 0 0 0" group="3" mass="0.0388951804" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_17" rgba="0 0 0 0" group="3" mass="0.0122825334" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_18" rgba="0 0 0 0" group="3" mass="0.00126972745" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="sprinkle_donut_hull_19" rgba="0 0 0 0" group="3" mass="0.00124706864" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0616 0.0619 0.0200" pos="0.0000 0.0000 0.0200"/>
+      <geom name="place:top" class="place" type="mesh" mesh="sprinkle_donut_top"/>
+    </body>
+  </worldbody>
+</mujoco>

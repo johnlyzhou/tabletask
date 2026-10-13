@@ -1,0 +1,24 @@
+<mujoco model="chocolate_chip_cookie">
+  <compiler angle="radian" meshdir="../mesh/chocolate_chip_cookie" texturedir="../mesh/chocolate_chip_cookie" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="chocolate_chip_cookie_0_mesh" file="0.obj" inertia="shell" />
+    <texture name="chocolate_chip_cookie_0_tex" type="2d" file="0.png" />
+    <material name="chocolate_chip_cookie_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="chocolate_chip_cookie_0_tex" role="rgb" />
+    </material>
+    <mesh name="chocolate_chip_cookie_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="chocolate_chip_cookie">
+      <geom type="mesh" mesh="chocolate_chip_cookie_0_mesh" material="chocolate_chip_cookie_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0319 0.0321 0.0050" pos="0.0000 0.0000 0.0050" />
+      <geom name="place:top" class="place" type="mesh" mesh="chocolate_chip_cookie_top" />
+      <geom type="cylinder" size="0.03203 0.00500" pos="-0.0000 -0.0000 0.0050" rgba="0 0 0 0" group="3" mass="0.0268356561" condim="4" friction="0.9 0.01 0.002" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,20 @@
+{
+  "id": "robolab-three_boxes_in_the_bin",
+  "instruction": "Pack boxed foods into the bin.",
+  "objects": {"spam_can": {"asset": "spam_can", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "mustard": {"asset": "mustard"}, "cheez_it": {"asset": "cheez_it", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "chocolate_pudding": {"asset": "chocolate_pudding", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "tomato_soup_can": {"asset": "tomato_soup_can"}, "bin": {"asset": "bin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "sugar_box": {"asset": "sugar_box", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "tuna_can": {"asset": "tuna_can", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "bin", "table"],
+    ["on", "cheez_it", "table"],
+    ["on", "chocolate_pudding", "table"],
+    ["inside", "mustard", "bin"],
+    ["on", "spam_can", "table"],
+    ["on", "sugar_box", "table"],
+    ["on", "tomato_soup_can", "chocolate_pudding"],
+    ["on", "tuna_can", "table"]
+  ],
+  "goal": [
+    ["inside", "cheez_it", "bin"],
+    ["inside", "chocolate_pudding", "bin"],
+    ["inside", "sugar_box", "bin"]
+  ]
+}

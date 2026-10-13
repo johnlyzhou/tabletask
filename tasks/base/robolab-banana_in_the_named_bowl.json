@@ -1,0 +1,15 @@
+{
+  "id": "robolab-banana_in_the_named_bowl",
+  "instruction": "Put the banana in the {bowl} bowl.",
+  "objects": {"red": {"asset": "bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}, "blue": {"asset": "blue_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}, "green": {"asset": "green_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}, "banana": {"asset": "banana", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}},
+  "start": [
+    ["on", "banana", "table"],
+    ["on", "red", "table"],
+    ["on", "blue", "table"],
+    ["on", "green", "table"]
+  ],
+  "goal": [
+    ["inside", "banana", "{bowl}"]
+  ],
+  "variables": {"bowl": {"one_of": ["red", "blue", "green"]}}
+}

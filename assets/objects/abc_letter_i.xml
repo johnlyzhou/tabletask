@@ -1,0 +1,27 @@
+<mujoco model="abc_letter_i">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <custom>
+    <text name="label" data="I" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="block_mat" texture="block_tex" specular="0.3" shininess="0.3" />
+    <mesh name="block_I" file="blocks/block_I.obj" scale="0.15 0.15 0.15" />
+    <texture name="block_tex" type="2d" file="blocks/texture.png" />
+    <mesh name="region_a0aafcccabc99aea" file="regions/a0aafcccabc99aea.obj" />
+  </asset>
+  <worldbody>
+    <body name="abc_letter_i">
+      <body name="source" pos="1.13621356e-09 -0 0.0150000025" quat="0.707 0 0.707 0">
+        <geom type="mesh" contype="0" conaffinity="0" density="0" group="2" name="block_I_vis" mesh="block_I" material="block_mat" />
+        <geom name="block_I_col" type="box" size="0.015 0.015 0.015" condim="6" friction="3.0 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" mass="0.005" group="3" rgba="0 0 0 0" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.0150000025" size="0.0150000011 0.0150000025 0.0150000025" />
+      <geom name="place:top" class="place" type="mesh" pos="0 0 0.03" mesh="region_a0aafcccabc99aea" />
+    </body>
+  </worldbody>
+</mujoco>

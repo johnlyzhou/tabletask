@@ -1,0 +1,34 @@
+<mujoco model="abc_marker">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="marker_mat" texture="marker_texture" />
+    <mesh name="marker_visual" file="marker/meshes/marker.obj" />
+    <texture type="2d" name="marker_texture" file="marker/materials/4k_textures/marker_4k_BaseColor.png" />
+    <mesh name="abc_marker_hull_00" file="abc_marker_hulls/h00.obj" maxhullvert="128" />
+    <mesh name="abc_marker_hull_01" file="abc_marker_hulls/h01.obj" maxhullvert="128" />
+    <mesh name="abc_marker_hull_02" file="abc_marker_hulls/h02.obj" maxhullvert="128" />
+    <mesh name="abc_marker_hull_03" file="abc_marker_hulls/h03.obj" maxhullvert="128" />
+    <mesh name="abc_marker_hull_04" file="abc_marker_hulls/h04.obj" maxhullvert="128" />
+    <mesh name="abc_marker_hull_05" file="abc_marker_hulls/h05.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="abc_marker">
+      <body name="source" pos="-0.0650414683 -8.11511149e-07 0.0108933774" quat="0.707 0 0.707 0">
+        <inertial pos="0 0 0.054" mass="0.01" diaginertia="0.00001 0.00001 0.000001" />
+        <geom name="marker_1_visual" type="mesh" mesh="marker_visual" euler="0 1.5708 1.5708" group="2" density="0" contype="0" conaffinity="0" material="marker_mat" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="6.9388939e-18 0 0.0108951887" size="0.0649935232 0.0108951881 0.0108951887" />
+      <geom type="mesh" mesh="abc_marker_hull_00" rgba="0 0 0 0" group="3" mass="0" condim="6" friction="3.0 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" />
+      <geom type="mesh" mesh="abc_marker_hull_01" rgba="0 0 0 0" group="3" mass="0" condim="6" friction="3.0 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" />
+      <geom type="mesh" mesh="abc_marker_hull_02" rgba="0 0 0 0" group="3" mass="0" condim="6" friction="3.0 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" />
+      <geom type="mesh" mesh="abc_marker_hull_03" rgba="0 0 0 0" group="3" mass="0" condim="6" friction="3.0 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" />
+      <geom type="mesh" mesh="abc_marker_hull_04" rgba="0 0 0 0" group="3" mass="0" condim="6" friction="3.0 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" />
+      <geom type="mesh" mesh="abc_marker_hull_05" rgba="0 0 0 0" group="3" mass="0" condim="6" friction="3.0 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" />
+    </body>
+  </worldbody>
+</mujoco>

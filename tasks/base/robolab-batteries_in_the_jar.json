@@ -1,0 +1,19 @@
+{
+  "id": "robolab-batteries_in_the_jar",
+  "instruction": "Put all the batteries in the pink jar.",
+  "objects": {"pink_jar": {"asset": "pink_jar", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_usb_stick": {"asset": "blue_usb_stick", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "d_cell_battery": {"asset": "d_cell_battery", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "green_battery": {"asset": "green_battery", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_battery": {"asset": "yellow_battery", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "orange_battery": {"asset": "orange_battery", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "pink_jar", "table"],
+    ["on", "orange_battery", "table"],
+    ["on", "yellow_battery", "table"],
+    ["on", "green_battery", "table"],
+    ["on", "d_cell_battery", "table"],
+    ["on", "blue_usb_stick", "table"]
+  ],
+  "goal": [
+    ["inside", "orange_battery", "pink_jar"],
+    ["inside", "yellow_battery", "pink_jar"],
+    ["inside", "green_battery", "pink_jar"],
+    ["inside", "d_cell_battery", "pink_jar"]
+  ]
+}

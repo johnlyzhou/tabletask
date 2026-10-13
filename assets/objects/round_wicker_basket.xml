@@ -1,0 +1,142 @@
+<mujoco model="round_wicker_basket">
+  <!-- round_wicker_basket, converted from the MolmoSpaces Objaverse library (uid 5e7074a522a7423690efab5f9227e5a6; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/round_wicker_basket" texturedir="../mesh/round_wicker_basket"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="round_wicker_basket_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="round_wicker_basket_0_tex" type="2d" file="0.png"/>
+    <material name="round_wicker_basket_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="round_wicker_basket_0_tex" role="rgb"/>
+    </material>
+    <mesh name="round_wicker_basket_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_25" file="hulls/h25.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_26" file="hulls/h26.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_27" file="hulls/h27.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_28" file="hulls/h28.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_29" file="hulls/h29.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_30" file="hulls/h30.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_31" file="hulls/h31.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_32" file="hulls/h32.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_33" file="hulls/h33.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_34" file="hulls/h34.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_35" file="hulls/h35.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_36" file="hulls/h36.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_37" file="hulls/h37.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_38" file="hulls/h38.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_39" file="hulls/h39.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_40" file="hulls/h40.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_41" file="hulls/h41.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_42" file="hulls/h42.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_43" file="hulls/h43.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_44" file="hulls/h44.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_45" file="hulls/h45.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_46" file="hulls/h46.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_47" file="hulls/h47.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_48" file="hulls/h48.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_49" file="hulls/h49.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_50" file="hulls/h50.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_51" file="hulls/h51.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_52" file="hulls/h52.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_53" file="hulls/h53.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_54" file="hulls/h54.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_55" file="hulls/h55.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_56" file="hulls/h56.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_hull_57" file="hulls/h57.obj" maxhullvert="128"/>
+    <mesh name="round_wicker_basket_inside" file="inside.obj"/>
+    <mesh name="round_wicker_basket_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="round_wicker_basket">
+      <geom type="mesh" mesh="round_wicker_basket_0_mesh" material="round_wicker_basket_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_00" rgba="0 0 0 0" group="3" mass="0.0164270634" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_01" rgba="0 0 0 0" group="3" mass="0.0134290946" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_02" rgba="0 0 0 0" group="3" mass="0.0272040286" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_03" rgba="0 0 0 0" group="3" mass="0.0208181808" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_04" rgba="0 0 0 0" group="3" mass="0.0203377491" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_05" rgba="0 0 0 0" group="3" mass="0.0126928188" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_06" rgba="0 0 0 0" group="3" mass="0.0242862396" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_07" rgba="0 0 0 0" group="3" mass="0.0181137242" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_08" rgba="0 0 0 0" group="3" mass="0.0185674538" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_09" rgba="0 0 0 0" group="3" mass="0.0140036493" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_10" rgba="0 0 0 0" group="3" mass="0.0179562165" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_11" rgba="0 0 0 0" group="3" mass="0.0134458245" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_12" rgba="0 0 0 0" group="3" mass="0.0176765232" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_13" rgba="0 0 0 0" group="3" mass="0.0135876703" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_14" rgba="0 0 0 0" group="3" mass="0.0127350396" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_15" rgba="0 0 0 0" group="3" mass="0.0136745155" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_16" rgba="0 0 0 0" group="3" mass="0.0251901193" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_17" rgba="0 0 0 0" group="3" mass="0.0182420675" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_18" rgba="0 0 0 0" group="3" mass="0.0201831358" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_19" rgba="0 0 0 0" group="3" mass="0.0296877096" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_20" rgba="0 0 0 0" group="3" mass="0.0138160258" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_21" rgba="0 0 0 0" group="3" mass="0.0189413514" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_22" rgba="0 0 0 0" group="3" mass="0.0252792245" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_23" rgba="0 0 0 0" group="3" mass="0.0207083527" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_24" rgba="0 0 0 0" group="3" mass="0.0166205701" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_25" rgba="0 0 0 0" group="3" mass="0.0162009948" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_26" rgba="0 0 0 0" group="3" mass="0.0198165257" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_27" rgba="0 0 0 0" group="3" mass="0.013530646" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_28" rgba="0 0 0 0" group="3" mass="0.0141365521" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_29" rgba="0 0 0 0" group="3" mass="0.0136436886" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_30" rgba="0 0 0 0" group="3" mass="0.0213935155" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_31" rgba="0 0 0 0" group="3" mass="0.0164823576" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_32" rgba="0 0 0 0" group="3" mass="0.0167367825" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_33" rgba="0 0 0 0" group="3" mass="0.0257803477" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_34" rgba="0 0 0 0" group="3" mass="0.029946095" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_35" rgba="0 0 0 0" group="3" mass="0.0119273096" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_36" rgba="0 0 0 0" group="3" mass="0.0239502091" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_37" rgba="0 0 0 0" group="3" mass="0.0211795577" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_38" rgba="0 0 0 0" group="3" mass="0.0120098246" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_39" rgba="0 0 0 0" group="3" mass="0.0135393808" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_40" rgba="0 0 0 0" group="3" mass="0.0218588514" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_41" rgba="0 0 0 0" group="3" mass="0.0220118763" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_42" rgba="0 0 0 0" group="3" mass="0.0138723477" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_43" rgba="0 0 0 0" group="3" mass="0.0177784535" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_44" rgba="0 0 0 0" group="3" mass="0.0138233805" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_45" rgba="0 0 0 0" group="3" mass="0.0121824251" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_46" rgba="0 0 0 0" group="3" mass="0.0138204112" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_47" rgba="0 0 0 0" group="3" mass="0.0135039725" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_48" rgba="0 0 0 0" group="3" mass="0.014546089" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_49" rgba="0 0 0 0" group="3" mass="0.0226317515" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_50" rgba="0 0 0 0" group="3" mass="0.0145134865" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_51" rgba="0 0 0 0" group="3" mass="0.0195946558" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_52" rgba="0 0 0 0" group="3" mass="0.0153842353" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_53" rgba="0 0 0 0" group="3" mass="0.0137534557" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_54" rgba="0 0 0 0" group="3" mass="0.0069067602" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_55" rgba="0 0 0 0" group="3" mass="0.00831789214" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_56" rgba="0 0 0 0" group="3" mass="0.0105993521" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="round_wicker_basket_hull_57" rgba="0 0 0 0" group="3" mass="0.0110024676" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.1324 0.1322 0.0936" pos="0.0000 0.0000 0.0936"/>
+      <geom name="place:inside" class="place" type="mesh" mesh="round_wicker_basket_inside"/>
+      <geom name="place:top" class="place" type="mesh" mesh="round_wicker_basket_top"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,15 @@
+{
+  "id": "robolab-rubiks_cube_left_of_bowl",
+  "instruction": "Put the rubiks cube to the left of the bowl.",
+  "objects": {"banana": {"asset": "banana", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "rubiks_cube": {"asset": "rubiks_cube", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "bowl": {"asset": "bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "rubiks_cube", "table"],
+    ["on", "banana", "table"],
+    ["on", "bowl", "table"],
+    ["not", ["and", ["left_of", "rubiks_cube", "bowl"]]]
+  ],
+  "goal": [
+    ["left_of", "rubiks_cube", "bowl"],
+    ["on", "rubiks_cube", "table"]
+  ]
+}

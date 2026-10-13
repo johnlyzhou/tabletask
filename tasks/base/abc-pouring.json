@@ -1,0 +1,23 @@
+{
+  "id": "abc-pouring",
+  "instruction": "Pour at least nine of the ten red beads from the tall cup into the mug.",
+  "objects": {"source": {"asset": "abc_pour_cup", "sample": {"rel": "table/top", "offset": [-0.1, 0.19, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}}, "receiver": {"asset": "abc_receiving_cup", "sample": {"rel": "table/top", "offset": [0.1, -0.19, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}}, "bead1": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [-0.014, -0.014, 0.0], "jitter": {"xy": 0, "yaw": 0}}}, "bead2": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [0.014, -0.014, 0.0], "jitter": {"xy": 0, "yaw": 0}}}, "bead3": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [-0.014, 0.014, 0.0], "jitter": {"xy": 0, "yaw": 0}}}, "bead4": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [0.014, 0.014, 0.0], "jitter": {"xy": 0, "yaw": 0}}}, "bead5": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [-0.014, -0.014, 0.034], "jitter": {"xy": 0, "yaw": 0}}}, "bead6": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [0.014, -0.014, 0.034], "jitter": {"xy": 0, "yaw": 0}}}, "bead7": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [-0.014, 0.014, 0.034], "jitter": {"xy": 0, "yaw": 0}}}, "bead8": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [0.014, 0.014, 0.034], "jitter": {"xy": 0, "yaw": 0}}}, "bead9": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [-0.014, -0.014, 0.068], "jitter": {"xy": 0, "yaw": 0}}}, "bead10": {"asset": "abc_bead", "tags": ["beads"], "sample": {"rel": "source/fill", "offset": [0.014, -0.014, 0.068], "jitter": {"xy": 0, "yaw": 0}}}},
+  "start": [
+    ["on", "source", "table"],
+    ["on", "receiver", "table"],
+    ["inside", "bead1/center", "source/inside", 0],
+    ["inside", "bead2/center", "source/inside", 0],
+    ["inside", "bead3/center", "source/inside", 0],
+    ["inside", "bead4/center", "source/inside", 0],
+    ["inside", "bead5/center", "source/inside", 0],
+    ["inside", "bead6/center", "source/inside", 0],
+    ["inside", "bead7/center", "source/inside", 0],
+    ["inside", "bead8/center", "source/inside", 0],
+    ["inside", "bead9/center", "source/inside", 0],
+    ["inside", "bead10/center", "source/inside", 0]
+  ],
+  "goal": [
+    ["between", ["tally", [["inside", "bead1/center", "receiver/inside", 0], ["inside", "bead2/center", "receiver/inside", 0], ["inside", "bead3/center", "receiver/inside", 0], ["inside", "bead4/center", "receiver/inside", 0], ["inside", "bead5/center", "receiver/inside", 0], ["inside", "bead6/center", "receiver/inside", 0], ["inside", "bead7/center", "receiver/inside", 0], ["inside", "bead8/center", "receiver/inside", 0], ["inside", "bead9/center", "receiver/inside", 0], ["inside", "bead10/center", "receiver/inside", 0]]], 9, 10],
+    ["upright", "receiver", 60]
+  ]
+}

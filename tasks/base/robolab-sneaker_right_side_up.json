@@ -1,0 +1,13 @@
+{
+  "id": "robolab-sneaker_right_side_up",
+  "instruction": "Turn the sneaker right side up.",
+  "objects": {"blue_sneaker": {"asset": "blue_sneaker", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "white_sneaker": {"asset": "white_sneaker", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "white_sneaker", "table"],
+    ["lying", "white_sneaker"],
+    ["on", "blue_sneaker", "table"]
+  ],
+  "goal": [
+    ["upright", "white_sneaker"]
+  ]
+}

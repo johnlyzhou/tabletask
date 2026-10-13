@@ -1,0 +1,137 @@
+<mujoco model="bagel">
+  <compiler angle="radian" meshdir="../mesh/bagel" texturedir="../mesh/bagel" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="bagel_00_0_mesh" file="0.obj" />
+    <texture name="bagel_00_0_tex" type="2d" file="0.png" />
+    <material name="bagel_00_0_skin" specular="0.2" shininess="0.3" roughness="0.75" metallic="0">
+      <layer texture="bagel_00_0_tex" role="rgb" />
+    </material>
+    <mesh name="bagel_00_1_mesh" file="1.obj" />
+    <material name="bagel_00_1_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_2_mesh" file="2.obj" />
+    <material name="bagel_00_2_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_3_mesh" file="3.obj" />
+    <material name="bagel_00_3_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_4_mesh" file="4.obj" />
+    <material name="bagel_00_4_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_5_mesh" file="5.obj" />
+    <material name="bagel_00_5_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_6_mesh" file="6.obj" />
+    <material name="bagel_00_6_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_7_mesh" file="7.obj" />
+    <material name="bagel_00_7_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_8_mesh" file="8.obj" />
+    <material name="bagel_00_8_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_9_mesh" file="9.obj" />
+    <material name="bagel_00_9_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_10_mesh" file="10.obj" />
+    <material name="bagel_00_10_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_11_mesh" file="11.obj" />
+    <material name="bagel_00_11_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_12_mesh" file="12.obj" />
+    <material name="bagel_00_12_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_13_mesh" file="13.obj" />
+    <material name="bagel_00_13_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_14_mesh" file="14.obj" />
+    <material name="bagel_00_14_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_15_mesh" file="15.obj" />
+    <material name="bagel_00_15_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_16_mesh" file="16.obj" />
+    <material name="bagel_00_16_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_17_mesh" file="17.obj" />
+    <material name="bagel_00_17_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_18_mesh" file="18.obj" />
+    <material name="bagel_00_18_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_19_mesh" file="19.obj" />
+    <material name="bagel_00_19_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_20_mesh" file="20.obj" />
+    <material name="bagel_00_20_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_21_mesh" file="21.obj" />
+    <material name="bagel_00_21_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_22_mesh" file="22.obj" />
+    <material name="bagel_00_22_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_23_mesh" file="23.obj" />
+    <material name="bagel_00_23_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_24_mesh" file="24.obj" />
+    <material name="bagel_00_24_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_25_mesh" file="25.obj" />
+    <material name="bagel_00_25_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_26_mesh" file="26.obj" />
+    <material name="bagel_00_26_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_27_mesh" file="27.obj" />
+    <material name="bagel_00_27_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_28_mesh" file="28.obj" />
+    <material name="bagel_00_28_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_29_mesh" file="29.obj" />
+    <material name="bagel_00_29_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_30_mesh" file="30.obj" />
+    <material name="bagel_00_30_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_31_mesh" file="31.obj" />
+    <material name="bagel_00_31_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_32_mesh" file="32.obj" />
+    <material name="bagel_00_32_skin" rgba="0.8000 0.8000 0.8000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <mesh name="bagel_00_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="bagel_00_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="bagel_00_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="bagel_00_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="bagel_00_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="bagel_00_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="bagel_00_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="bagel_00_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="bagel_00_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="bagel_00_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="bagel">
+      <geom type="mesh" mesh="bagel_00_0_mesh" material="bagel_00_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_1_mesh" material="bagel_00_1_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_2_mesh" material="bagel_00_2_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_3_mesh" material="bagel_00_3_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_4_mesh" material="bagel_00_4_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_5_mesh" material="bagel_00_5_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_6_mesh" material="bagel_00_6_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_7_mesh" material="bagel_00_7_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_8_mesh" material="bagel_00_8_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_9_mesh" material="bagel_00_9_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_10_mesh" material="bagel_00_10_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_11_mesh" material="bagel_00_11_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_12_mesh" material="bagel_00_12_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_13_mesh" material="bagel_00_13_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_14_mesh" material="bagel_00_14_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_15_mesh" material="bagel_00_15_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_16_mesh" material="bagel_00_16_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_17_mesh" material="bagel_00_17_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_18_mesh" material="bagel_00_18_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_19_mesh" material="bagel_00_19_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_20_mesh" material="bagel_00_20_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_21_mesh" material="bagel_00_21_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_22_mesh" material="bagel_00_22_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_23_mesh" material="bagel_00_23_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_24_mesh" material="bagel_00_24_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_25_mesh" material="bagel_00_25_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_26_mesh" material="bagel_00_26_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_27_mesh" material="bagel_00_27_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_28_mesh" material="bagel_00_28_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_29_mesh" material="bagel_00_29_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_30_mesh" material="bagel_00_30_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_31_mesh" material="bagel_00_31_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_32_mesh" material="bagel_00_32_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_00" rgba="0 0 0 0" group="3" mass="0.00744164303" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_01" rgba="0 0 0 0" group="3" mass="0.00692345976" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_02" rgba="0 0 0 0" group="3" mass="0.0182501404" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_03" rgba="0 0 0 0" group="3" mass="0.0150213702" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_04" rgba="0 0 0 0" group="3" mass="0.0317220683" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_05" rgba="0 0 0 0" group="3" mass="0.0304445133" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_06" rgba="0 0 0 0" group="3" mass="0.00395641645" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_07" rgba="0 0 0 0" group="3" mass="0.00796235749" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_08" rgba="0 0 0 0" group="3" mass="0.0259773491" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bagel_00_hull_09" rgba="0 0 0 0" group="3" mass="0.0327851326" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0500 0.0474 0.0156" pos="0.0000 0.0000 0.0156" />
+    </body>
+  </worldbody>
+</mujoco>

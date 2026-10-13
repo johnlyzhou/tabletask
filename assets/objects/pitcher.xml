@@ -1,0 +1,119 @@
+<mujoco model="pitcher">
+  <compiler angle="radian" meshdir="../mesh/pitcher" texturedir="../mesh/pitcher" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pitcher_0_mesh" file="0.obj" />
+    <texture name="pitcher_0_tex" type="2d" file="0.png" />
+    <material name="pitcher_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pitcher_0_tex" role="rgb" />
+    </material>
+    <mesh name="pitcher_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="pitcher_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="pitcher_inside" file="inside.obj" />
+    <mesh name="pitcher_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="pitcher">
+      <geom type="mesh" mesh="pitcher_0_mesh" material="pitcher_0_skin" contype="0" conaffinity="0" mass="0" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_00" rgba="0 0 0 0" group="3" mass="0.00635727345" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_01" rgba="0 0 0 0" group="3" mass="0.0176679993" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_02" rgba="0 0 0 0" group="3" mass="0.0222739503" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_03" rgba="0 0 0 0" group="3" mass="0.000639643389" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_04" rgba="0 0 0 0" group="3" mass="0.00346388761" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_05" rgba="0 0 0 0" group="3" mass="0.00536072004" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_06" rgba="0 0 0 0" group="3" mass="0.000668541631" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_07" rgba="0 0 0 0" group="3" mass="0.00841851959" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_08" rgba="0 0 0 0" group="3" mass="0.00581718018" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_09" rgba="0 0 0 0" group="3" mass="0.0103970463" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_10" rgba="0 0 0 0" group="3" mass="0.00875328678" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_11" rgba="0 0 0 0" group="3" mass="0.00958854187" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_12" rgba="0 0 0 0" group="3" mass="0.00713984325" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_13" rgba="0 0 0 0" group="3" mass="0.0130297281" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_14" rgba="0 0 0 0" group="3" mass="0.000841067243" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_15" rgba="0 0 0 0" group="3" mass="0.00277835819" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_16" rgba="0 0 0 0" group="3" mass="0.00576704524" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_17" rgba="0 0 0 0" group="3" mass="0.0021984313" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_18" rgba="0 0 0 0" group="3" mass="0.00226005811" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_19" rgba="0 0 0 0" group="3" mass="0.00558818346" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_20" rgba="0 0 0 0" group="3" mass="0.00188805604" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_21" rgba="0 0 0 0" group="3" mass="0.00504747612" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_22" rgba="0 0 0 0" group="3" mass="0.00461445435" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_23" rgba="0 0 0 0" group="3" mass="0.00557846059" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_24" rgba="0 0 0 0" group="3" mass="0.00337389055" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_25" rgba="0 0 0 0" group="3" mass="0.000839560932" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_26" rgba="0 0 0 0" group="3" mass="0.00122437559" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_27" rgba="0 0 0 0" group="3" mass="0.00241630606" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_28" rgba="0 0 0 0" group="3" mass="0.000867454407" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_29" rgba="0 0 0 0" group="3" mass="0.000867482016" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_30" rgba="0 0 0 0" group="3" mass="0.00268473389" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_31" rgba="0 0 0 0" group="3" mass="0.00301465143" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_32" rgba="0 0 0 0" group="3" mass="0.00157824921" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_33" rgba="0 0 0 0" group="3" mass="0.0015181002" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_34" rgba="0 0 0 0" group="3" mass="0.00567752985" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_35" rgba="0 0 0 0" group="3" mass="0.00579279449" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_36" rgba="0 0 0 0" group="3" mass="0.00277958496" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_37" rgba="0 0 0 0" group="3" mass="0.00208380413" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_38" rgba="0 0 0 0" group="3" mass="0.00359727911" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_39" rgba="0 0 0 0" group="3" mass="0.00348001501" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_40" rgba="0 0 0 0" group="3" mass="0.00548359957" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_41" rgba="0 0 0 0" group="3" mass="0.00594971692" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_42" rgba="0 0 0 0" group="3" mass="0.00323739972" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_43" rgba="0 0 0 0" group="3" mass="0.00260632893" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_44" rgba="0 0 0 0" group="3" mass="0.00390912422" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_45" rgba="0 0 0 0" group="3" mass="0.00343635862" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom type="mesh" mesh="pitcher_hull_46" rgba="0 0 0 0" group="3" mass="0.00332872616" friction="0.9 0.01 0.002" condim="4" pos="0.0161 -0.0019 0.0000" />
+      <geom name="place:bounds" class="place" type="box" size="0.0679 0.0499 0.0837" pos="0.0000 0.0000 0.0837" />
+      <geom name="place:inside" class="place" type="mesh" mesh="pitcher_inside" pos="0.0161 -0.0019 0.0000" />
+      <geom name="place:top" class="place" type="mesh" mesh="pitcher_top" pos="0.0161 -0.0019 0.0000" />
+    </body>
+  </worldbody>
+</mujoco>

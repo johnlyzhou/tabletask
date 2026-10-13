@@ -1,0 +1,15 @@
+{
+  "id": "abc-throw_plastic_bottles_in_bin",
+  "instruction": "Throw all four plastic bottles into the bin.",
+  "objects": {"bin": {"asset": "abc_throw_bin", "sample": {"rel": "table/top", "offset": [0.11, 0.0, 0], "jitter": {"xy": [0.0, 0.004], "yaw": 0}}, "fixed": true}, "bottle1": {"asset": "abc_throw_bottle", "sample": {"rel": "table/top", "offset": [-0.24, -0.32, 0], "jitter": {"xy": [0.008, 0.0], "yaw": 8}}, "tags": ["bottles"]}, "bottle2": {"asset": "abc_throw_bottle", "sample": {"rel": "table/top", "offset": [-0.24, -0.107, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}, "tags": ["bottles"]}, "bottle3": {"asset": "abc_throw_bottle", "sample": {"rel": "table/top", "offset": [-0.24, 0.107, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}, "tags": ["bottles"]}, "bottle4": {"asset": "abc_throw_bottle", "sample": {"rel": "table/top", "offset": [-0.24, 0.32, 0], "jitter": {"xy": [0.008, 0.0], "yaw": 8}}, "tags": ["bottles"]}},
+  "start": [
+    ["on", "bin", "table"],
+    ["on", "bottle1", "table"],
+    ["on", "bottle2", "table"],
+    ["on", "bottle3", "table"],
+    ["on", "bottle4", "table"]
+  ],
+  "goal": [
+    ["every", "#bottles", ["inside", "it", "bin/inside", 0]]
+  ]
+}

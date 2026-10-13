@@ -1,0 +1,23 @@
+{
+  "id": "abc-sort_nuts_and_bolts",
+  "instruction": "Sort all nuts into the teal bin and all bolts into the orange bin.",
+  "objects": {"nuts_bin": {"asset": "abc_nuts_bin", "sample": {"rel": "table/top", "offset": [0.11, 0.25, 0], "rotation": [0, 0, -90], "jitter": {"xy": [0.0, 0.008], "yaw": 8}}}, "bolts_bin": {"asset": "abc_bolts_bin", "sample": {"rel": "table/top", "offset": [0.11, -0.25, 0], "rotation": [0, 0, -90], "jitter": {"xy": [0.0, 0.008], "yaw": 8}}}, "nut1": {"asset": "abc_nut", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["nuts"]}, "bolt1": {"asset": "abc_bolt", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["bolts"]}, "nut2": {"asset": "abc_nut", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["nuts"]}, "bolt2": {"asset": "abc_bolt", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["bolts"]}, "nut3": {"asset": "abc_nut", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["nuts"]}, "bolt3": {"asset": "abc_bolt", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["bolts"]}, "nut4": {"asset": "abc_nut", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["nuts"]}, "bolt4": {"asset": "abc_bolt", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["bolts"]}, "nut5": {"asset": "abc_nut", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["nuts"]}, "bolt5": {"asset": "abc_bolt", "sample": {"rel": "table/top", "offset": [-0.198, 0.013, 0], "jitter": {"xy": [0.052, 0.307], "yaw": 180}}, "tags": ["bolts"]}},
+  "start": [
+    ["on", "nuts_bin", "table"],
+    ["on", "bolts_bin", "table"],
+    ["on", "nut1", "table"],
+    ["on", "bolt1", "table"],
+    ["on", "nut2", "table"],
+    ["on", "bolt2", "table"],
+    ["on", "nut3", "table"],
+    ["on", "bolt3", "table"],
+    ["on", "nut4", "table"],
+    ["on", "bolt4", "table"],
+    ["on", "nut5", "table"],
+    ["on", "bolt5", "table"]
+  ],
+  "goal": [
+    ["every", "#nuts", ["inside", "it", "nuts_bin/inside", 0]],
+    ["every", "#bolts", ["inside", "it", "bolts_bin/inside", 0]]
+  ]
+}

@@ -1,0 +1,52 @@
+<mujoco model="smiley_cookie">
+  <!-- smiley_cookie, converted from the MolmoSpaces Objaverse library (uid 9e5d8b381821442f93c319607c12e18f; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/smiley_cookie" texturedir="../mesh/smiley_cookie"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="smiley_cookie_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="smiley_cookie_0_tex" type="2d" file="0.png"/>
+    <material name="smiley_cookie_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="smiley_cookie_0_tex" role="rgb"/>
+    </material>
+    <mesh name="smiley_cookie_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="smiley_cookie_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="smiley_cookie">
+      <geom type="mesh" mesh="smiley_cookie_0_mesh" material="smiley_cookie_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_00" rgba="0 0 0 0" group="3" mass="0.0419659845" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_01" rgba="0 0 0 0" group="3" mass="0.000305071174" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_02" rgba="0 0 0 0" group="3" mass="0.00230984421" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_03" rgba="0 0 0 0" group="3" mass="0.0095724034" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_04" rgba="0 0 0 0" group="3" mass="0.000132815896" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_05" rgba="0 0 0 0" group="3" mass="0.000132815896" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_06" rgba="0 0 0 0" group="3" mass="0.00130962408" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_07" rgba="0 0 0 0" group="3" mass="0.00130661092" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_08" rgba="0 0 0 0" group="3" mass="0.000132815896" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_09" rgba="0 0 0 0" group="3" mass="0.00380201818" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_10" rgba="0 0 0 0" group="3" mass="0.000180269919" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_11" rgba="0 0 0 0" group="3" mass="0.000233926333" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_12" rgba="0 0 0 0" group="3" mass="0.000199975334" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="smiley_cookie_hull_13" rgba="0 0 0 0" group="3" mass="0.00492584939" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0401 0.0398 0.0100" pos="0.0000 0.0000 0.0100"/>
+      <geom name="place:top" class="place" type="mesh" mesh="smiley_cookie_top"/>
+    </body>
+  </worldbody>
+</mujoco>

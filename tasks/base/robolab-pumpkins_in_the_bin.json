@@ -1,0 +1,28 @@
+{
+  "id": "robolab-pumpkins_in_the_bin",
+  "instruction": "Put all the pumpkins away in the bin.",
+  "objects": {"orange": {"asset": "orange", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "lime": {"asset": "lime", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "lime_2": {"asset": "lime", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "small_white_bottle": {"asset": "small_white_bottle", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "milk_jug": {"asset": "milk_jug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "lemon": {"asset": "lemon", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "large_pumpkin": {"asset": "large_pumpkin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "pomegranate": {"asset": "pomegranate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "small_lemon": {"asset": "small_lemon", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "serving_bowl": {"asset": "serving_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "pen_holder": {"asset": "pen_holder", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "small_pumpkin": {"asset": "small_pumpkin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "large_orange": {"asset": "large_orange", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "small_jug": {"asset": "small_jug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "avocado": {"asset": "avocado", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "right_bin": {"asset": "right_bin", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_onion": {"asset": "red_onion", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "lemon", "table"],
+    ["on", "small_lemon", "table"],
+    ["on", "lime", "table"],
+    ["on", "lime_2", "table"],
+    ["on", "large_orange", "table"],
+    ["on", "orange", "table"],
+    ["on", "pomegranate", "table"],
+    ["on", "large_pumpkin", "table"],
+    ["on", "small_pumpkin", "table"],
+    ["on", "red_onion", "table"],
+    ["on", "small_white_bottle", "table"],
+    ["on", "avocado", "table"],
+    ["on", "pen_holder", "table"],
+    ["on", "milk_jug", "table"],
+    ["on", "serving_bowl", "table"],
+    ["on", "small_jug", "table"],
+    ["on", "right_bin", "table"]
+  ],
+  "goal": [
+    ["inside", "large_pumpkin", "right_bin"],
+    ["inside", "small_pumpkin", "right_bin"]
+  ]
+}

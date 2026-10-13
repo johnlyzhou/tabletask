@@ -1,0 +1,159 @@
+<mujoco model="grey_bin">
+  <compiler angle="radian" meshdir="../mesh/grey_bin" texturedir="../mesh/grey_bin" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="grey_bin_0_mesh" file="0.obj" />
+    <texture name="grey_bin_0_tex" type="2d" file="0.png" />
+    <texture name="grey_bin_0_normal" type="2d" file="0_normal.png" />
+    <texture name="grey_bin_0_occlusion" type="2d" file="0_occlusion.png" />
+    <texture name="grey_bin_0_roughness" type="2d" file="0_roughness.png" />
+    <texture name="grey_bin_0_metallic" type="2d" file="0_metallic.png" />
+    <material name="grey_bin_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="grey_bin_0_tex" role="rgb" />
+      <layer texture="grey_bin_0_normal" role="normal" />
+      <layer texture="grey_bin_0_occlusion" role="occlusion" />
+      <layer texture="grey_bin_0_roughness" role="roughness" />
+      <layer texture="grey_bin_0_metallic" role="metallic" />
+    </material>
+    <mesh name="grey_bin_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="grey_bin_hull_62" file="hulls/h62.obj" maxhullvert="128" />
+    <mesh name="grey_bin_inside" file="inside.obj" />
+    <mesh name="grey_bin_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="grey_bin">
+      <geom type="mesh" mesh="grey_bin_0_mesh" material="grey_bin_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_00" rgba="0 0 0 0" group="3" mass="0.0304286852" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_01" rgba="0 0 0 0" group="3" mass="0.0676653796" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_02" rgba="0 0 0 0" group="3" mass="0.0266815097" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_03" rgba="0 0 0 0" group="3" mass="0.0345201298" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_04" rgba="0 0 0 0" group="3" mass="0.028699642" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_05" rgba="0 0 0 0" group="3" mass="0.0281090413" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_06" rgba="0 0 0 0" group="3" mass="0.0340804871" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_07" rgba="0 0 0 0" group="3" mass="0.0436914306" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_08" rgba="0 0 0 0" group="3" mass="0.055853699" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_09" rgba="0 0 0 0" group="3" mass="0.0222796169" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_10" rgba="0 0 0 0" group="3" mass="0.0278535407" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_11" rgba="0 0 0 0" group="3" mass="0.0174282135" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_12" rgba="0 0 0 0" group="3" mass="0.00965615883" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_13" rgba="0 0 0 0" group="3" mass="0.0161592149" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_14" rgba="0 0 0 0" group="3" mass="0.0137888422" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_15" rgba="0 0 0 0" group="3" mass="0.0107315362" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_16" rgba="0 0 0 0" group="3" mass="0.00932621303" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_17" rgba="0 0 0 0" group="3" mass="0.00198690785" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_18" rgba="0 0 0 0" group="3" mass="0.0134699838" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_19" rgba="0 0 0 0" group="3" mass="0.013004941" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_20" rgba="0 0 0 0" group="3" mass="0.0127471206" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_21" rgba="0 0 0 0" group="3" mass="0.0073046259" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_22" rgba="0 0 0 0" group="3" mass="0.00514385719" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_23" rgba="0 0 0 0" group="3" mass="0.0124741247" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_24" rgba="0 0 0 0" group="3" mass="0.0556999736" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_25" rgba="0 0 0 0" group="3" mass="0.0146995942" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_26" rgba="0 0 0 0" group="3" mass="0.020387505" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_27" rgba="0 0 0 0" group="3" mass="0.0175735908" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_28" rgba="0 0 0 0" group="3" mass="0.026224348" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_29" rgba="0 0 0 0" group="3" mass="0.0154308808" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_30" rgba="0 0 0 0" group="3" mass="0.00373869795" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_31" rgba="0 0 0 0" group="3" mass="0.00198690785" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_32" rgba="0 0 0 0" group="3" mass="0.0152275881" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_33" rgba="0 0 0 0" group="3" mass="0.0122351432" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_34" rgba="0 0 0 0" group="3" mass="0.0206834914" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_35" rgba="0 0 0 0" group="3" mass="0.00518790305" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_36" rgba="0 0 0 0" group="3" mass="0.00737840689" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_37" rgba="0 0 0 0" group="3" mass="0.00845134575" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_38" rgba="0 0 0 0" group="3" mass="0.00419865326" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_39" rgba="0 0 0 0" group="3" mass="0.00801771573" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_40" rgba="0 0 0 0" group="3" mass="0.0133286927" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_41" rgba="0 0 0 0" group="3" mass="0.00901428908" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_42" rgba="0 0 0 0" group="3" mass="0.0189533303" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_43" rgba="0 0 0 0" group="3" mass="0.00450399037" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_44" rgba="0 0 0 0" group="3" mass="0.0205471321" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_45" rgba="0 0 0 0" group="3" mass="0.00198690785" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_46" rgba="0 0 0 0" group="3" mass="0.00198690785" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_47" rgba="0 0 0 0" group="3" mass="0.0197695676" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_48" rgba="0 0 0 0" group="3" mass="0.01332132" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_49" rgba="0 0 0 0" group="3" mass="0.0125516325" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_50" rgba="0 0 0 0" group="3" mass="0.0132031397" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_51" rgba="0 0 0 0" group="3" mass="0.00465691605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_52" rgba="0 0 0 0" group="3" mass="0.00220786155" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_53" rgba="0 0 0 0" group="3" mass="0.00198690785" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_54" rgba="0 0 0 0" group="3" mass="0.00327787058" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_55" rgba="0 0 0 0" group="3" mass="0.00198690785" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_56" rgba="0 0 0 0" group="3" mass="0.0112573839" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_57" rgba="0 0 0 0" group="3" mass="0.0120237574" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_58" rgba="0 0 0 0" group="3" mass="0.0102962382" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_59" rgba="0 0 0 0" group="3" mass="0.0196004101" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_60" rgba="0 0 0 0" group="3" mass="0.00511095474" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_61" rgba="0 0 0 0" group="3" mass="0.00198690785" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_bin_hull_62" rgba="0 0 0 0" group="3" mass="0.0162343264" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.2100 0.1400 0.0525" pos="0.0000 0.0000 0.0525" />
+      <geom name="place:inside" class="place" type="mesh" mesh="grey_bin_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="grey_bin_top" />
+    </body>
+  </worldbody>
+</mujoco>

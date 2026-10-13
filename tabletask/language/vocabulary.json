@@ -1,0 +1,730 @@
+{
+  "inside": {
+    "of": [
+      "a",
+      "b",
+      [
+        "slack",
+        0.01
+      ]
+    ],
+    "is": {
+      "contained": [
+        "a",
+        "b",
+        "slack"
+      ]
+    }
+  },
+  "on": {
+    "of": [
+      "a",
+      "b",
+      [
+        "sag",
+        -0.01
+      ]
+    ],
+    "is": {
+      "and": [
+        {
+          "touching": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "at_least": [
+            {
+              "clearance": [
+                "a",
+                "b"
+              ]
+            },
+            "sag"
+          ]
+        }
+      ]
+    }
+  },
+  "at": {
+    "of": [
+      "a",
+      "b",
+      [
+        "distance",
+        0.02
+      ]
+    ],
+    "is": {
+      "and": [
+        {
+          "at_most": [
+            {
+              "gap": [
+                "a",
+                "b",
+                "xy"
+              ]
+            },
+            "distance"
+          ]
+        },
+        {
+          "within": [
+            "a",
+            "b",
+            0.02
+          ]
+        }
+      ]
+    }
+  },
+  "near": {
+    "of": [
+      "a",
+      "b",
+      [
+        "distance",
+        0.08
+      ]
+    ],
+    "is": {
+      "at_most": [
+        {
+          "gap": [
+            "a",
+            "b",
+            "xy"
+          ]
+        },
+        "distance"
+      ]
+    }
+  },
+  "covering": {
+    "of": [
+      "a",
+      "b",
+      [
+        "radius",
+        0.05
+      ]
+    ],
+    "is": {
+      "and": [
+        {
+          "at_most": [
+            {
+              "gap": [
+                "a",
+                "b",
+                "xy"
+              ]
+            },
+            "radius"
+          ]
+        },
+        {
+          "at_least": [
+            {
+              "offset": [
+                "a",
+                "b",
+                "z"
+              ]
+            },
+            0
+          ]
+        },
+        {
+          "at_most": [
+            {
+              "clearance": [
+                "a",
+                "b"
+              ]
+            },
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "above": {
+    "of": [
+      "a",
+      "b"
+    ],
+    "is": {
+      "at_least": [
+        {
+          "clearance": [
+            "a",
+            "b"
+          ]
+        },
+        0
+      ]
+    }
+  },
+  "below": {
+    "of": [
+      "a",
+      "b"
+    ],
+    "is": {
+      "at_least": [
+        {
+          "depth": [
+            "a",
+            "b"
+          ]
+        },
+        0
+      ]
+    }
+  },
+  "lifted": {
+    "of": [
+      "a",
+      "height",
+      "base"
+    ],
+    "is": {
+      "at_least": [
+        {
+          "clearance": [
+            "a",
+            "base"
+          ]
+        },
+        "height"
+      ]
+    }
+  },
+  "left_of": {
+    "of": [
+      "a",
+      "b",
+      [
+        "margin",
+        0.02
+      ]
+    ],
+    "is": {
+      "and": [
+        {
+          "at_least": [
+            {
+              "offset": [
+                "a",
+                "b",
+                "y"
+              ]
+            },
+            "margin"
+          ]
+        },
+        {
+          "at_least": [
+            {
+              "offset": [
+                "a",
+                "b",
+                "y"
+              ]
+            },
+            {
+              "*": [
+                0.7071,
+                {
+                  "gap": [
+                    "a",
+                    "b",
+                    "xy"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "right_of": {
+    "of": [
+      "a",
+      "b",
+      [
+        "margin",
+        0.02
+      ]
+    ],
+    "is": {
+      "and": [
+        {
+          "at_most": [
+            {
+              "offset": [
+                "a",
+                "b",
+                "y"
+              ]
+            },
+            {
+              "-": [
+                0,
+                "margin"
+              ]
+            }
+          ]
+        },
+        {
+          "at_most": [
+            {
+              "offset": [
+                "a",
+                "b",
+                "y"
+              ]
+            },
+            {
+              "-": [
+                0,
+                {
+                  "*": [
+                    0.7071,
+                    {
+                      "gap": [
+                        "a",
+                        "b",
+                        "xy"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "in_front_of": {
+    "of": [
+      "a",
+      "b",
+      [
+        "margin",
+        0.02
+      ]
+    ],
+    "is": {
+      "and": [
+        {
+          "at_most": [
+            {
+              "offset": [
+                "a",
+                "b",
+                "x"
+              ]
+            },
+            {
+              "-": [
+                0,
+                "margin"
+              ]
+            }
+          ]
+        },
+        {
+          "at_most": [
+            {
+              "offset": [
+                "a",
+                "b",
+                "x"
+              ]
+            },
+            {
+              "-": [
+                0,
+                {
+                  "*": [
+                    0.7071,
+                    {
+                      "gap": [
+                        "a",
+                        "b",
+                        "xy"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "behind": {
+    "of": [
+      "a",
+      "b",
+      [
+        "margin",
+        0.02
+      ]
+    ],
+    "is": {
+      "and": [
+        {
+          "at_least": [
+            {
+              "offset": [
+                "a",
+                "b",
+                "x"
+              ]
+            },
+            "margin"
+          ]
+        },
+        {
+          "at_least": [
+            {
+              "offset": [
+                "a",
+                "b",
+                "x"
+              ]
+            },
+            {
+              "*": [
+                0.7071,
+                {
+                  "gap": [
+                    "a",
+                    "b",
+                    "xy"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "aligned": {
+    "of": [
+      "names",
+      [
+        "axis",
+        "y"
+      ],
+      [
+        "within",
+        0.03
+      ]
+    ],
+    "is": {
+      "at_most": [
+        {
+          "spread": [
+            "names",
+            "axis"
+          ]
+        },
+        "within"
+      ]
+    }
+  },
+  "ordered": {
+    "of": [
+      "names",
+      [
+        "axis",
+        "y"
+      ],
+      [
+        "margin",
+        0.02
+      ]
+    ],
+    "is": {
+      "at_least": [
+        {
+          "step": [
+            "names",
+            "axis"
+          ]
+        },
+        "margin"
+      ]
+    }
+  },
+  "upright": {
+    "of": [
+      "a",
+      [
+        "degrees",
+        15
+      ]
+    ],
+    "is": {
+      "at_most": [
+        {
+          "tilt": [
+            "a"
+          ]
+        },
+        "degrees"
+      ]
+    }
+  },
+  "lying": {
+    "of": [
+      "a",
+      [
+        "degrees",
+        20
+      ]
+    ],
+    "is": {
+      "between": [
+        {
+          "tilt": [
+            "a"
+          ]
+        },
+        {
+          "-": [
+            90,
+            "degrees"
+          ]
+        },
+        {
+          "+": [
+            90,
+            "degrees"
+          ]
+        }
+      ]
+    }
+  },
+  "facing": {
+    "of": [
+      "a",
+      "b",
+      [
+        "degrees",
+        30
+      ]
+    ],
+    "is": {
+      "at_most": [
+        {
+          "heading": [
+            "a",
+            "b"
+          ]
+        },
+        "degrees"
+      ]
+    }
+  },
+  "oriented": {
+    "of": [
+      "a",
+      "rotation",
+      [
+        "degrees",
+        15
+      ],
+      [
+        "symmetry",
+        0
+      ]
+    ],
+    "is": {
+      "at_most": [
+        {
+          "turn": [
+            "a",
+            "rotation",
+            "symmetry"
+          ]
+        },
+        "degrees"
+      ]
+    }
+  },
+  "oriented_like": {
+    "of": [
+      "a",
+      "b",
+      [
+        "degrees",
+        15
+      ],
+      [
+        "symmetry",
+        0
+      ]
+    ],
+    "is": {
+      "at_most": [
+        {
+          "twist": [
+            "a",
+            "b",
+            "symmetry"
+          ]
+        },
+        "degrees"
+      ]
+    }
+  },
+  "joint": {
+    "of": [
+      "name",
+      "low",
+      "high"
+    ],
+    "is": {
+      "between": [
+        {
+          "value": [
+            "name"
+          ]
+        },
+        "low",
+        "high"
+      ]
+    }
+  },
+  "open": {
+    "of": [
+      "name",
+      [
+        "part",
+        0.5
+      ]
+    ],
+    "is": {
+      "at_least": [
+        {
+          "fraction": [
+            "name"
+          ]
+        },
+        "part"
+      ]
+    }
+  },
+  "closed": {
+    "of": [
+      "name",
+      [
+        "part",
+        0.05
+      ]
+    ],
+    "is": {
+      "at_most": [
+        {
+          "fraction": [
+            "name"
+          ]
+        },
+        "part"
+      ]
+    }
+  },
+  "at_start": {
+    "of": [
+      "a",
+      [
+        "of_what",
+        "a"
+      ],
+      [
+        "distance",
+        0.03
+      ]
+    ],
+    "is": {
+      "at_most": [
+        {
+          "drift": [
+            "a",
+            "of_what"
+          ]
+        },
+        "distance"
+      ]
+    }
+  },
+  "count_in": {
+    "of": [
+      "names",
+      "container",
+      "least",
+      "most",
+      [
+        "slack",
+        0.01
+      ]
+    ],
+    "is": {
+      "between": [
+        {
+          "tally": [
+            {
+              "each": [
+                "names",
+                {
+                  "contained": [
+                    "it",
+                    "container",
+                    "slack"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "least",
+        "most"
+      ]
+    }
+  },
+  "upside_down": {
+    "of": [
+      "a",
+      [
+        "degrees",
+        30
+      ]
+    ],
+    "is": {
+      "at_least": [
+        {
+          "tilt": [
+            "a"
+          ]
+        },
+        {
+          "-": [
+            180,
+            "degrees"
+          ]
+        }
+      ]
+    }
+  }
+}

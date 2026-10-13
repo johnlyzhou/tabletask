@@ -1,0 +1,26 @@
+<mujoco model="orange_ballpoint">
+  <!-- orange_ballpoint, converted from the MolmoSpaces Objaverse library (uid b8e18a57f2634023bfb6ff122905fdd9; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/orange_ballpoint" texturedir="../mesh/orange_ballpoint"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="orange_ballpoint_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="orange_ballpoint_0_tex" type="2d" file="0.png"/>
+    <material name="orange_ballpoint_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="orange_ballpoint_0_tex" role="rgb"/>
+    </material>
+    <mesh name="orange_ballpoint_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="orange_ballpoint_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="orange_ballpoint">
+      <geom type="mesh" mesh="orange_ballpoint_0_mesh" material="orange_ballpoint_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="orange_ballpoint_hull_00" rgba="0 0 0 0" group="3" mass="0.0185034993" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0886 0.0058 0.0050" pos="0.0000 0.0000 0.0050"/>
+      <geom name="place:top" class="place" type="mesh" mesh="orange_ballpoint_top"/>
+    </body>
+  </worldbody>
+</mujoco>

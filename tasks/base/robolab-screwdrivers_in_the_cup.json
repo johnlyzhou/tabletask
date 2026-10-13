@@ -1,0 +1,16 @@
+{
+  "id": "robolab-screwdrivers_in_the_cup",
+  "instruction": "Stand the screwdrivers in the wicker cup; leave the ruler.",
+  "objects": {"wooden_ruler": {"asset": "wooden_ruler", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_screwdriver": {"asset": "blue_screwdriver", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_screwdriver": {"asset": "yellow_screwdriver", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "wicker_cup": {"asset": "wicker_cup", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "wicker_cup", "table"],
+    ["on", "yellow_screwdriver", "table"],
+    ["on", "blue_screwdriver", "table"],
+    ["on", "wooden_ruler", "table"]
+  ],
+  "goal": [
+    ["inside", "yellow_screwdriver", "wicker_cup"],
+    ["inside", "blue_screwdriver", "wicker_cup"],
+    ["on", "wooden_ruler", "table"]
+  ]
+}

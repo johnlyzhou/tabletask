@@ -1,0 +1,146 @@
+<mujoco model="red_bucket">
+  <!-- red_bucket, converted from the MolmoSpaces Objaverse library (uid 4712f95b38524c57b8dfc9d882122314; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/red_bucket" texturedir="../mesh/red_bucket"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_bucket_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="red_bucket_0_tex" type="2d" file="0.png"/>
+    <material name="red_bucket_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="red_bucket_0_tex" role="rgb"/>
+    </material>
+    <mesh name="red_bucket_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_25" file="hulls/h25.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_26" file="hulls/h26.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_27" file="hulls/h27.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_28" file="hulls/h28.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_29" file="hulls/h29.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_30" file="hulls/h30.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_31" file="hulls/h31.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_32" file="hulls/h32.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_33" file="hulls/h33.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_34" file="hulls/h34.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_35" file="hulls/h35.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_36" file="hulls/h36.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_37" file="hulls/h37.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_38" file="hulls/h38.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_39" file="hulls/h39.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_40" file="hulls/h40.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_41" file="hulls/h41.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_42" file="hulls/h42.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_43" file="hulls/h43.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_44" file="hulls/h44.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_45" file="hulls/h45.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_46" file="hulls/h46.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_47" file="hulls/h47.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_48" file="hulls/h48.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_49" file="hulls/h49.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_50" file="hulls/h50.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_51" file="hulls/h51.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_52" file="hulls/h52.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_53" file="hulls/h53.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_54" file="hulls/h54.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_55" file="hulls/h55.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_56" file="hulls/h56.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_57" file="hulls/h57.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_58" file="hulls/h58.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_hull_59" file="hulls/h59.obj" maxhullvert="128"/>
+    <mesh name="red_bucket_inside" file="inside.obj"/>
+    <mesh name="red_bucket_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="red_bucket">
+      <geom type="mesh" mesh="red_bucket_0_mesh" material="red_bucket_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_00" rgba="0 0 0 0" group="3" mass="0.0092" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_01" rgba="0 0 0 0" group="3" mass="0.0094" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_02" rgba="0 0 0 0" group="3" mass="0.0093" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_03" rgba="0 0 0 0" group="3" mass="0.0092" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_04" rgba="0 0 0 0" group="3" mass="0.0042" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_05" rgba="0 0 0 0" group="3" mass="0.0061" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_06" rgba="0 0 0 0" group="3" mass="0.0061" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_07" rgba="0 0 0 0" group="3" mass="0.0068" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_08" rgba="0 0 0 0" group="3" mass="0.0062" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_09" rgba="0 0 0 0" group="3" mass="0.0066" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_10" rgba="0 0 0 0" group="3" mass="0.0105" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_11" rgba="0 0 0 0" group="3" mass="0.0013" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_12" rgba="0 0 0 0" group="3" mass="0.0024" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_13" rgba="0 0 0 0" group="3" mass="0.0035" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_14" rgba="0 0 0 0" group="3" mass="0.0036" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_15" rgba="0 0 0 0" group="3" mass="0.0011" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_16" rgba="0 0 0 0" group="3" mass="0.0024" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_17" rgba="0 0 0 0" group="3" mass="0.0029" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_18" rgba="0 0 0 0" group="3" mass="0.0052" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_19" rgba="0 0 0 0" group="3" mass="0.0072" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_20" rgba="0 0 0 0" group="3" mass="0.0052" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_21" rgba="0 0 0 0" group="3" mass="0.0056" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_22" rgba="0 0 0 0" group="3" mass="0.0044" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_23" rgba="0 0 0 0" group="3" mass="0.0069" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_24" rgba="0 0 0 0" group="3" mass="0.0054" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_25" rgba="0 0 0 0" group="3" mass="0.0022" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_26" rgba="0 0 0 0" group="3" mass="0.0054" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_27" rgba="0 0 0 0" group="3" mass="0.0038" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_28" rgba="0 0 0 0" group="3" mass="0.0082" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_29" rgba="0 0 0 0" group="3" mass="0.0060" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_30" rgba="0 0 0 0" group="3" mass="0.0027" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_31" rgba="0 0 0 0" group="3" mass="0.0072" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_32" rgba="0 0 0 0" group="3" mass="0.0075" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_33" rgba="0 0 0 0" group="3" mass="0.0066" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_34" rgba="0 0 0 0" group="3" mass="0.0071" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_35" rgba="0 0 0 0" group="3" mass="0.0085" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_36" rgba="0 0 0 0" group="3" mass="0.0011" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_37" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_38" rgba="0 0 0 0" group="3" mass="0.0031" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_39" rgba="0 0 0 0" group="3" mass="0.0012" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_40" rgba="0 0 0 0" group="3" mass="0.0021" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_41" rgba="0 0 0 0" group="3" mass="0.0016" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_42" rgba="0 0 0 0" group="3" mass="0.0006" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_43" rgba="0 0 0 0" group="3" mass="0.0009" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_44" rgba="0 0 0 0" group="3" mass="0.0011" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_45" rgba="0 0 0 0" group="3" mass="0.0016" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_46" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_47" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_48" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_49" rgba="0 0 0 0" group="3" mass="0.0013" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_50" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_51" rgba="0 0 0 0" group="3" mass="0.0010" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_52" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_53" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_54" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_55" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_56" rgba="0 0 0 0" group="3" mass="0.0018" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_57" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_58" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="red_bucket_hull_59" rgba="0 0 0 0" group="3" mass="0.0223" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.1318 0.1310 0.1336" pos="0.0000 0.0000 0.1336"/>
+      <geom name="place:inside" class="place" type="mesh" mesh="red_bucket_inside"/>
+      <geom name="place:top" class="place" type="mesh" mesh="red_bucket_top"/>
+    </body>
+  </worldbody>
+</mujoco>

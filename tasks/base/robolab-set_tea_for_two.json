@@ -1,0 +1,24 @@
+{
+  "id": "robolab-set_tea_for_two",
+  "instruction": "Set both teacups on the serving tray and put the three cookies on the plate.",
+  "objects": {"tray": {"asset": "wooden_tray", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.09, 0.2, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "plate": {"asset": "peach_plate", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.12, -0.22, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "teapot": {"asset": "clay_teapot", "fixed": true, "sample": {"rel": "table/top", "offset": [0.23, 0.28, 0], "rotation": [0, 0, -90], "jitter": {"xy": [0.0, 0.0], "yaw": 0}}}, "cup_left": {"asset": "yellow_teacup", "sample": {"rel": "table/top", "offset": [0.1, -0.115, 0], "rotation": [0, 0, 60], "jitter": {"xy": [0.012, 0.012], "yaw": 25}}}, "cup_right": {"asset": "yellow_teacup", "sample": {"rel": "table/top", "offset": [0.1, -0.31, 0], "rotation": [0, 0, 105], "jitter": {"xy": [0.012, 0.012], "yaw": 25}}}, "cookie_1": {"asset": "chocolate_chip_cookie", "sample": {"rel": "table/top", "offset": [-0.23, -0.035, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.006, 0.0], "yaw": 25}}}, "cookie_2": {"asset": "chocolate_chip_cookie", "sample": {"rel": "table/top", "offset": [-0.15, -0.035, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.006, 0.0], "yaw": 25}}}, "cookie_3": {"asset": "chocolate_chip_cookie", "sample": {"rel": "table/top", "offset": [-0.07, -0.035, 0], "rotation": [0, 0, 0], "jitter": {"xy": [0.006, 0.0], "yaw": 25}}}},
+  "start": [
+    ["on", "tray", "table"],
+    ["on", "plate", "table"],
+    ["on", "teapot", "table"],
+    ["on", "cup_left", "table"],
+    ["on", "cup_right", "table"],
+    ["on", "cookie_1", "table"],
+    ["on", "cookie_2", "table"],
+    ["on", "cookie_3", "table"]
+  ],
+  "goal": [
+    ["on", "cup_left", "tray"],
+    ["on", "cup_right", "tray"],
+    ["inside", "cookie_1", "plate/top"],
+    ["inside", "cookie_2", "plate/top"],
+    ["inside", "cookie_3", "plate/top"],
+    ["upright", "cup_left"],
+    ["upright", "cup_right"]
+  ]
+}

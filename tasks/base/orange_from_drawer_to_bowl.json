@@ -1,0 +1,16 @@
+{
+  "id": "orange_from_drawer_to_bowl",
+  "instruction": "Put the orange from the drawer in the bowl.",
+  "objects": {"cabinet": {"asset": "tea_cabinet", "sample": {"rel": "table/top", "offset": [0.11, 0.0, 0], "jitter": {"xy": [0.05, 0.25], "yaw": 20}}, "fixed": true}, "orange": {"asset": "orange", "sample": {"rel": "cabinet/utensils", "jitter": {"xy": 0.03, "yaw": 180}}}, "bowl": {"asset": "bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}},
+  "start": [
+    ["on", "cabinet", "table"],
+    ["on", "bowl", "table"],
+    ["inside", "orange", "cabinet/utensils", 0],
+    ["closed", "cabinet/tea"],
+    ["closed", "cabinet/tools"],
+    ["not", ["and", ["at_most", ["offset", "bowl", "cabinet", "x"], -0.1], ["between", ["offset", "bowl", "cabinet", "y"], -0.27, 0.27]]]
+  ],
+  "goal": [
+    ["inside", "orange", "bowl"]
+  ]
+}

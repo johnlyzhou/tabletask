@@ -1,0 +1,13 @@
+{
+  "id": "robolab-lay_the_bottle_down",
+  "instruction": "Lay the tall bottle down on its side.",
+  "objects": {"jam_jar": {"asset": "jam_jar", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "teal_bottle": {"asset": "teal_bottle", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "teal_bottle", "table"],
+    ["on", "jam_jar", "table"]
+  ],
+  "goal": [
+    ["lying", "teal_bottle"],
+    ["on", "teal_bottle", "table"]
+  ]
+}

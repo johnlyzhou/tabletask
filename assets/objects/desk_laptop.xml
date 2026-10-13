@@ -1,0 +1,177 @@
+<mujoco model="desk_laptop">
+  <!-- silver_laptop, converted from an AI2-THOR prefab via MolmoSpaces (Laptop_1; Apache-2.0, AI2). -->
+  <compiler angle="radian" meshdir="../mesh/silver_laptop" texturedir="../mesh/silver_laptop" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="silver_laptop_0_mesh" file="0.obj" inertia="shell" />
+    <material name="silver_laptop_0_skin" rgba="0.0056 0.0056 0.0056 1.0000" specular="0.2" shininess="0.3" />
+    <mesh name="silver_laptop_1_mesh" file="1.obj" inertia="shell" />
+    <texture name="silver_laptop_1_tex" type="2d" file="1.png" />
+    <material name="silver_laptop_1_skin" rgba=".10 .11 .13 1" specular="0.2" shininess="0.3" />
+    <mesh name="silver_laptop_2_mesh" file="2.obj" inertia="shell" />
+    <material name="silver_laptop_2_skin" rgba="0.0056 0.0056 0.0056 1.0000" specular="0.2" shininess="0.3" />
+    <mesh name="silver_laptop_3_mesh" file="3.obj" inertia="shell" />
+    <texture name="silver_laptop_3_tex" type="2d" file="3.png" />
+    <material name="silver_laptop_3_skin" rgba="0.5654 0.5899 0.6103 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="silver_laptop_3_tex" role="rgb" />
+    </material>
+    <mesh name="silver_laptop_4_mesh" file="4.obj" inertia="shell" />
+    <texture name="silver_laptop_4_tex" type="2d" file="4.png" />
+    <material name="silver_laptop_4_skin" rgba="0.2794 0.2794 0.2794 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="silver_laptop_4_tex" role="rgb" />
+    </material>
+    <mesh name="silver_laptop_5_mesh" file="5.obj" inertia="shell" />
+    <texture name="silver_laptop_5_tex" type="2d" file="5.png" />
+    <material name="silver_laptop_5_skin" rgba="0.8088 0.8088 0.8088 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="silver_laptop_5_tex" role="rgb" />
+    </material>
+    <mesh name="silver_laptop_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_0_mesh" file="lid_0.obj" inertia="shell" />
+    <material name="silver_laptop_lid_0_skin" rgba=".055 .085 .12 1" specular="0.2" shininess="0.3" />
+    <mesh name="silver_laptop_lid_1_mesh" file="lid_1.obj" inertia="shell" />
+    <texture name="silver_laptop_lid_1_tex" type="2d" file="lid_1.png" />
+    <material name="silver_laptop_lid_1_skin" rgba="1.0000 1.0000 1.0000 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="silver_laptop_lid_1_tex" role="rgb" />
+    </material>
+    <mesh name="silver_laptop_lid_2_mesh" file="lid_2.obj" inertia="shell" />
+    <material name="silver_laptop_lid_2_skin" rgba="0.0056 0.0056 0.0056 1.0000" specular="0.2" shininess="0.3" />
+    <mesh name="silver_laptop_lid_3_mesh" file="lid_3.obj" inertia="shell" />
+    <texture name="silver_laptop_lid_3_tex" type="2d" file="lid_3.png" />
+    <material name="silver_laptop_lid_3_skin" rgba="0.2794 0.2794 0.2794 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="silver_laptop_lid_3_tex" role="rgb" />
+    </material>
+    <mesh name="silver_laptop_lid_4_mesh" file="lid_4.obj" inertia="shell" />
+    <texture name="silver_laptop_lid_4_tex" type="2d" file="lid_4.png" />
+    <material name="silver_laptop_lid_4_skin" rgba="0.2794 0.2794 0.2794 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="silver_laptop_lid_4_tex" role="rgb" />
+    </material>
+    <mesh name="silver_laptop_lid_5_mesh" file="lid_5.obj" inertia="shell" />
+    <texture name="silver_laptop_lid_5_tex" type="2d" file="lid_5.png" />
+    <material name="silver_laptop_lid_5_skin" rgba="0.8088 0.8088 0.8088 1.0000" specular="0.2" shininess="0.3">
+      <layer texture="silver_laptop_lid_5_tex" role="rgb" />
+    </material>
+    <mesh name="silver_laptop_lid_hull_00" file="lid_hulls/h00.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_01" file="lid_hulls/h01.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_02" file="lid_hulls/h02.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_03" file="lid_hulls/h03.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_04" file="lid_hulls/h04.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_05" file="lid_hulls/h05.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_06" file="lid_hulls/h06.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_07" file="lid_hulls/h07.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_08" file="lid_hulls/h08.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_09" file="lid_hulls/h09.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_10" file="lid_hulls/h10.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_11" file="lid_hulls/h11.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_12" file="lid_hulls/h12.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_13" file="lid_hulls/h13.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_14" file="lid_hulls/h14.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_15" file="lid_hulls/h15.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_16" file="lid_hulls/h16.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_lid_hull_17" file="lid_hulls/h17.obj" maxhullvert="128" />
+    <mesh name="silver_laptop_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="desk_laptop">
+      <geom type="mesh" mesh="silver_laptop_0_mesh" material="silver_laptop_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_1_mesh" material="silver_laptop_1_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_2_mesh" material="silver_laptop_2_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_3_mesh" material="silver_laptop_3_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_4_mesh" material="silver_laptop_4_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_5_mesh" material="silver_laptop_5_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_hull_00" rgba="0 0 0 0" group="3" mass="0.1309" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_hull_01" rgba="0 0 0 0" group="3" mass="0.2901" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_hull_02" rgba="0 0 0 0" group="3" mass="0.0090" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_hull_03" rgba="0 0 0 0" group="3" mass="0.0064" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_hull_04" rgba="0 0 0 0" group="3" mass="0.0037" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_hull_05" rgba="0 0 0 0" group="3" mass="0.0040" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="silver_laptop_hull_06" rgba="0 0 0 0" group="3" mass="0.0059" friction="0.9 0.01 0.002" condim="4" />
+      <body name="lid" pos="0.00000 0.11914 0.02809" quat="0.707105 0.707108 0.000000 0.000000">
+        <joint name="lid" type="hinge" axis="-1 -0 -0" range="0.0000 1.5708" damping="0.1" frictionloss="0.5" solimplimit="0.99 0.9999 0.001" solreflimit="0.004 1" />
+        <geom type="mesh" mesh="silver_laptop_lid_0_mesh" material="silver_laptop_lid_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_1_mesh" material="silver_laptop_lid_1_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_2_mesh" material="silver_laptop_lid_2_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_3_mesh" material="silver_laptop_lid_3_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_4_mesh" material="silver_laptop_lid_4_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_5_mesh" material="silver_laptop_lid_5_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_00" rgba="0 0 0 0" group="3" mass="0.0017" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_01" rgba="0 0 0 0" group="3" mass="0.0025" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_02" rgba="0 0 0 0" group="3" mass="0.0052" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_03" rgba="0 0 0 0" group="3" mass="0.0013" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_04" rgba="0 0 0 0" group="3" mass="0.0040" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_05" rgba="0 0 0 0" group="3" mass="0.0037" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_06" rgba="0 0 0 0" group="3" mass="0.0019" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_07" rgba="0 0 0 0" group="3" mass="0.0049" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_08" rgba="0 0 0 0" group="3" mass="0.0045" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_09" rgba="0 0 0 0" group="3" mass="0.0069" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_10" rgba="0 0 0 0" group="3" mass="0.0005" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_11" rgba="0 0 0 0" group="3" mass="0.0008" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_12" rgba="0 0 0 0" group="3" mass="0.0072" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_13" rgba="0 0 0 0" group="3" mass="0.0004" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_14" rgba="0 0 0 0" group="3" mass="0.0009" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_15" rgba="0 0 0 0" group="3" mass="0.0008" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_16" rgba="0 0 0 0" group="3" mass="0.0017" friction="0.9 0.01 0.002" condim="4" />
+        <geom type="mesh" mesh="silver_laptop_lid_hull_17" rgba="0 0 0 0" group="3" mass="0.0111" friction="0.9 0.01 0.002" condim="4" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" size="0.1743 0.1314 0.0175" pos="0.0000 -0.0049 0.0175" />
+      <geom name="place:top" class="place" type="mesh" mesh="silver_laptop_top" />
+      <geom name="key_0_0" type="box" pos="-0.1430 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_1" type="box" pos="-0.1170 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_2" type="box" pos="-0.0910 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_3" type="box" pos="-0.0650 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_4" type="box" pos="-0.0390 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_5" type="box" pos="-0.0130 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_6" type="box" pos="0.0130 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_7" type="box" pos="0.0390 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_8" type="box" pos="0.0650 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_9" type="box" pos="0.0910 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_10" type="box" pos="0.1170 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_0_11" type="box" pos="0.1430 -0.0180 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_0" type="box" pos="-0.1430 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_1" type="box" pos="-0.1170 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_2" type="box" pos="-0.0910 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_3" type="box" pos="-0.0650 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_4" type="box" pos="-0.0390 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_5" type="box" pos="-0.0130 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_6" type="box" pos="0.0130 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_7" type="box" pos="0.0390 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_8" type="box" pos="0.0650 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_9" type="box" pos="0.0910 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_10" type="box" pos="0.1170 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_1_11" type="box" pos="0.1430 0.0080 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_0" type="box" pos="-0.1430 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_1" type="box" pos="-0.1170 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_2" type="box" pos="-0.0910 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_3" type="box" pos="-0.0650 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_4" type="box" pos="-0.0390 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_5" type="box" pos="-0.0130 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_6" type="box" pos="0.0130 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_7" type="box" pos="0.0390 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_8" type="box" pos="0.0650 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_9" type="box" pos="0.0910 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_10" type="box" pos="0.1170 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_2_11" type="box" pos="0.1430 0.0340 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_0" type="box" pos="-0.1430 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_1" type="box" pos="-0.1170 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_2" type="box" pos="-0.0910 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_3" type="box" pos="-0.0650 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_4" type="box" pos="-0.0390 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_5" type="box" pos="-0.0130 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_6" type="box" pos="0.0130 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_7" type="box" pos="0.0390 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_8" type="box" pos="0.0650 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_9" type="box" pos="0.0910 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_10" type="box" pos="0.1170 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+      <geom name="key_3_11" type="box" pos="0.1430 0.0600 .0294" size=".011 .010 .0006" rgba=".20 .21 .23 1" contype="0" conaffinity="0" mass="0" />
+    </body>
+  </worldbody>
+</mujoco>

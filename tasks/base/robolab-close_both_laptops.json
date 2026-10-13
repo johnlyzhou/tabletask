@@ -1,0 +1,16 @@
+{
+  "id": "robolab-close_both_laptops",
+  "instruction": "Close both laptops.",
+  "objects": {"silver_laptop": {"asset": "silver_laptop", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "white_laptop": {"asset": "white_laptop", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "cyan_headphones": {"asset": "cyan_headphones", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "silver_laptop", "table"],
+    ["open", "silver_laptop/lid"],
+    ["on", "white_laptop", "table"],
+    ["open", "white_laptop/lid"],
+    ["on", "cyan_headphones", "table"]
+  ],
+  "goal": [
+    ["closed", "silver_laptop/lid"],
+    ["closed", "white_laptop/lid"]
+  ]
+}

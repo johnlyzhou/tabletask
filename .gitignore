@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ruff_cache/
+.ipynb_checkpoints/
+dist/
+
+# Outputs: pictures, exports, model runs
+build/
+*.mp4
+MUJOCO_LOG.TXT
+
+# Temporary files left by mesh tools
+tetgen-tmpfile*
+
+# Local files that are never published
+.local/

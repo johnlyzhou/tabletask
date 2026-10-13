@@ -1,0 +1,47 @@
+<mujoco model="oatmeal_raisin_cookies">
+  <compiler angle="radian" meshdir="../mesh/oatmeal_raisin_cookies" texturedir="../mesh/oatmeal_raisin_cookies" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="oatmeal_raisin_cookies_0_mesh" file="0.obj" />
+    <texture name="oatmeal_raisin_cookies_0_tex" type="2d" file="0.png" />
+    <material name="oatmeal_raisin_cookies_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="oatmeal_raisin_cookies_0_tex" role="rgb" />
+    </material>
+    <mesh name="oatmeal_raisin_cookies_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="oatmeal_raisin_cookies_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="oatmeal_raisin_cookies">
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_0_mesh" material="oatmeal_raisin_cookies_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_00" rgba="0 0 0 0" group="3" mass="0.0395004492" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_01" rgba="0 0 0 0" group="3" mass="0.0602384631" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_02" rgba="0 0 0 0" group="3" mass="0.0698541821" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_03" rgba="0 0 0 0" group="3" mass="0.111498718" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_04" rgba="0 0 0 0" group="3" mass="0.159368684" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_05" rgba="0 0 0 0" group="3" mass="0.0907576062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_06" rgba="0 0 0 0" group="3" mass="0.0386135551" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_07" rgba="0 0 0 0" group="3" mass="0.0401783204" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_08" rgba="0 0 0 0" group="3" mass="0.144707629" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_09" rgba="0 0 0 0" group="3" mass="0.0509423302" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_10" rgba="0 0 0 0" group="3" mass="0.00306022458" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oatmeal_raisin_cookies_hull_11" rgba="0 0 0 0" group="3" mass="0.00376911909" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0201 0.0614 0.0836" pos="0.0000 0.0000 0.0836" />
+      <geom name="place:top" class="place" type="mesh" mesh="oatmeal_raisin_cookies_top" />
+    </body>
+  </worldbody>
+</mujoco>

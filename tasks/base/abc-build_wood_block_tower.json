@@ -1,0 +1,16 @@
+{
+  "id": "abc-build_wood_block_tower",
+  "instruction": "Build a wood house: stand the two arches on edge, side by side or one on the other, and rest the wedge on top as a roof.",
+  "objects": {"arch1": {"asset": "abc_wood_arch", "sample": {"rel": "table/top", "offset": [-0.16, -0.23, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}}, "arch2": {"asset": "abc_wood_arch", "sample": {"rel": "table/top", "offset": [0.11, -0.19, 0], "jitter": {"xy": [0.0, 0.008], "yaw": 8}}}, "block": {"asset": "abc_wood_cube", "sample": {"rel": "table/top", "offset": [-0.02, 0.23, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}}},
+  "start": [
+    ["on", "arch1", "table"],
+    ["on", "arch2", "table"],
+    ["on", "block", "table"]
+  ],
+  "goal": [
+    ["oriented", "arch1", [90, 0, 0], 20, 15],
+    ["oriented", "arch2", [90, 0, 0], 20, 15],
+    ["lying", "block", 20],
+    ["or", ["and", ["on", "arch1", "table"], ["on", "arch2", "table"], ["or", ["overlapping", "arch1/end_right", "arch2/end_left"], ["overlapping", "arch1/end_left", "arch2/end_right"]], ["or", ["overlapping", "block/base", "arch1/ridge"], ["overlapping", "block/slope_left", "arch1/ridge"], ["overlapping", "block/slope_right", "arch1/ridge"]], ["or", ["overlapping", "block/base", "arch2/ridge"], ["overlapping", "block/slope_left", "arch2/ridge"], ["overlapping", "block/slope_right", "arch2/ridge"]]], ["or", ["and", ["on", "arch1", "table"], ["overlapping", "arch2/feet", "arch1/ridge"], ["or", ["overlapping", "block/base", "arch2/ridge"], ["overlapping", "block/slope_left", "arch2/ridge"], ["overlapping", "block/slope_right", "arch2/ridge"]]], ["and", ["on", "arch2", "table"], ["overlapping", "arch1/feet", "arch2/ridge"], ["or", ["overlapping", "block/base", "arch1/ridge"], ["overlapping", "block/slope_left", "arch1/ridge"], ["overlapping", "block/slope_right", "arch1/ridge"]]]]]
+  ]
+}

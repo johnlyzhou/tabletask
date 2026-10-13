@@ -1,0 +1,13 @@
+{
+  "id": "orange_in_bowl_then_bowl_on_tray",
+  "instruction": "Put the orange in the bowl, then put the bowl on the tray.",
+  "objects": {"tray": {"asset": "wooden_tray", "sample": {"rel": "table/top", "offset": [-0.07, 0.22, 0.0], "jitter": {"xy": [0.06, 0.06], "yaw": 25}}}, "bowl": {"asset": "bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.16, 0.3], "yaw": 180}}}, "orange": {"asset": "orange", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.16, 0.3], "yaw": 180}}}},
+  "start": [
+    ["on", "orange", "table"],
+    ["on", "bowl", "table"],
+    ["on", "tray", "table"]
+  ],
+  "goal": [
+    ["then", ["inside", "orange", "bowl"], ["on", "bowl", "tray"]]
+  ]
+}

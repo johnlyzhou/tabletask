@@ -1,0 +1,14 @@
+{
+  "id": "robolab-cover_the_cookie_with_the_bowl",
+  "instruction": "Turn the bowl over the cookie so it is covered.",
+  "objects": {"chocolate_chip_cookie": {"asset": "chocolate_chip_cookie", "fixed": true}, "white_bowl": {"asset": "white_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "smiley_cookie": {"asset": "smiley_cookie", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "chocolate_chip_cookie", "table/center"],
+    ["on", "white_bowl", "table"],
+    ["on", "smiley_cookie", "table"]
+  ],
+  "goal": [
+    ["covering", "white_bowl", "chocolate_chip_cookie", 0.04],
+    ["upside_down", "white_bowl"]
+  ]
+}

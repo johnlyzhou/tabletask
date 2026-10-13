@@ -1,0 +1,54 @@
+<mujoco model="abc_plate">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <material name="material_0" texture="texture" specular="0.5" shininess="0.5" />
+    <mesh file="task_dishrack/plate/plate_0/model.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_0.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_1.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_10.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_11.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_12.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_13.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_14.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_15.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_2.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_3.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_4.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_5.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_6.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_7.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_8.obj" />
+    <mesh file="task_dishrack/plate/plate_0/model_collision_9.obj" />
+    <texture type="2d" name="texture" file="task_dishrack/plate/plate_0/texture.png" />
+  </asset>
+  <worldbody>
+    <body name="abc_plate">
+      <body name="source" pos="-1.39999264e-05 7.51798926e-05 0.00103667015">
+        <geom group="2" type="mesh" contype="0" conaffinity="0" density="0" material="material_0" mesh="model" mass="0.075" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_0" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_1" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_2" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_3" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_4" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_5" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_6" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_7" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_8" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_9" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_10" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_11" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_12" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_13" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_14" rgba="0 0 0 0" />
+        <geom group="3" type="mesh" density="0" friction="0.6 0.03 0.003" solref="0.004 1" solimp="0.998 0.998 0.001" condim="6" priority="1" mesh="model_collision_15" rgba="0 0 0 0" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.0151744105" size="0.111688279 0.111710447 0.0151744105" />
+      <geom name="place:center" class="place" type="box" pos="0 0 0.015" size="0.001 0.001 0.001" />
+    </body>
+  </worldbody>
+</mujoco>

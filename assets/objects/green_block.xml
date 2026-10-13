@@ -1,0 +1,28 @@
+<mujoco model="green_block">
+  <compiler angle="radian" meshdir="../mesh/green_block" texturedir="../mesh/green_block" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="green_block_0_mesh" file="0.obj" />
+    <texture name="green_block_0_tex" type="2d" file="0.png" />
+    <texture name="green_block_0_normal" type="2d" file="0_normal.png" />
+    <texture name="green_block_0_roughness" type="2d" file="0_roughness.png" />
+    <material name="green_block_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="green_block_0_tex" role="rgb" />
+      <layer texture="green_block_0_normal" role="normal" />
+      <layer texture="green_block_0_roughness" role="roughness" />
+    </material>
+    <mesh name="green_block_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="green_block">
+      <geom type="mesh" mesh="green_block_0_mesh" material="green_block_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0235 0.0235 0.0235" pos="0.0000 0.0000 0.0235" />
+      <geom name="place:top" class="place" type="mesh" mesh="green_block_top" />
+      <geom type="box" size="0.02350 0.02350 0.02350" pos="0.0000 0.0000 0.0235" rgba="0 0 0 0" group="3" mass="0.107085739" condim="4" friction="0.9 0.01 0.002" />
+    </body>
+  </worldbody>
+</mujoco>

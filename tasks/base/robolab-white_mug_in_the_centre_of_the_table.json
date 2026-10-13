@@ -1,0 +1,17 @@
+{
+  "id": "robolab-white_mug_in_the_centre_of_the_table",
+  "instruction": "Put the white mug in the centre of the table.",
+  "objects": {"alphabet_soup_can": {"asset": "alphabet_soup_can", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "white_mug": {"asset": "white_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "smartphone": {"asset": "smartphone", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "rubiks_cube": {"asset": "rubiks_cube", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["not", ["at", "white_mug", "table", 0.15]],
+    ["on", "white_mug", "table"],
+    ["on", "alphabet_soup_can", "table"],
+    ["on", "smartphone", "table"],
+    ["upside_down", "smartphone"],
+    ["on", "rubiks_cube", "table"]
+  ],
+  "goal": [
+    ["inside", "white_mug", "table/center"],
+    ["on", "white_mug", "table"]
+  ]
+}

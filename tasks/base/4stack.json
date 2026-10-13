@@ -1,0 +1,14 @@
+{
+  "id": "4stack",
+  "instruction": "Stack the blocks into a tower.",
+  "objects": {"red_block": {"asset": "red_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_block": {"asset": "blue_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "green_block": {"asset": "green_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yellow_block": {"asset": "yellow_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "red_block", "table"],
+    ["on", "blue_block", "table"],
+    ["on", "green_block", "table"],
+    ["on", "yellow_block", "table"]
+  ],
+  "goal": [
+    ["at_least", ["tally", [["on", "red_block", "blue_block"], ["on", "red_block", "green_block"], ["on", "red_block", "yellow_block"], ["on", "blue_block", "red_block"], ["on", "blue_block", "green_block"], ["on", "blue_block", "yellow_block"], ["on", "green_block", "red_block"], ["on", "green_block", "blue_block"], ["on", "green_block", "yellow_block"], ["on", "yellow_block", "red_block"], ["on", "yellow_block", "blue_block"], ["on", "yellow_block", "green_block"]]], 3]
+  ]
+}

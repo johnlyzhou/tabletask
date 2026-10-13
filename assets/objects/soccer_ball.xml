@@ -1,0 +1,23 @@
+<mujoco model="soccer_ball">
+  <!-- soccer_ball, converted from the MolmoSpaces Objaverse library (uid 00ad7478cf0447f3b3494c00e7037177; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/soccer_ball" texturedir="../mesh/soccer_ball"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="soccer_ball_0_mesh" file="0.obj" inertia="shell" scale="0.5 0.5 0.5"/>
+    <texture name="soccer_ball_0_tex" type="2d" file="0.png"/>
+    <material name="soccer_ball_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="soccer_ball_0_tex" role="rgb"/>
+    </material>
+  </asset>
+  <worldbody>
+    <body name="soccer_ball">
+      <geom type="mesh" mesh="soccer_ball_0_mesh" material="soccer_ball_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="sphere" size="0.02750" pos="-0.0000 -0.0000 0.0275" rgba="0 0 0 0" group="3" mass="0.0135" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0273 0.0276 0.0275" pos="0.0000 0.0000 0.0275"/>
+    </body>
+  </worldbody>
+</mujoco>

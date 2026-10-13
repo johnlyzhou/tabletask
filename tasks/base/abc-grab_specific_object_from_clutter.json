@@ -1,0 +1,20 @@
+{
+  "id": "abc-grab_specific_object_from_clutter",
+  "instruction": "Find the {target} among the clutter and put it in the box.",
+  "objects": {"box": {"asset": "abc_clutter_box", "sample": {"rel": "table/top", "offset": [0.05, 0.29, 0], "jitter": {"xy": [0.004, 0.004], "yaw": 0}}, "fixed": true}, "apple": {"asset": "apple", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "lemon": {"asset": "lemon", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "orange": {"asset": "orange", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "tomato": {"asset": "tomato", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "mustard": {"asset": "mustard", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "yogurt_cup": {"asset": "yogurt_cup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "canned_tuna": {"asset": "canned_tuna", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "orange_soda_can": {"asset": "orange_soda_can", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "box", "table"],
+    ["on", "apple", "table"],
+    ["on", "lemon", "table"],
+    ["on", "orange", "table"],
+    ["on", "tomato", "table"],
+    ["on", "mustard", "table"],
+    ["on", "yogurt_cup", "table"],
+    ["on", "canned_tuna", "table"],
+    ["on", "orange_soda_can", "table"]
+  ],
+  "goal": [
+    ["inside", "{target}", "box/inside", 0]
+  ],
+  "variables": {"target": {"one_of": ["apple", "lemon", "orange", "tomato", "mustard", "yogurt_cup", "canned_tuna", "orange_soda_can"]}}
+}

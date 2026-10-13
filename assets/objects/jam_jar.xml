@@ -1,0 +1,32 @@
+<mujoco model="jam_jar">
+  <!-- Original Blender visual; collision geometry from MolmoSpaces Objaverse uid 4911919955ff4f788b60950e64c0a61f, ODC-By 1.0. -->
+  <compiler angle="radian" meshdir="../mesh/jam_jar" texturedir="../mesh/jam_jar" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="jam_jar_0_mesh" file="0.obj" inertia="shell" />
+    <texture name="jam_jar_0_tex" type="2d" file="0.png" />
+    <material name="jam_jar_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="jam_jar_0_tex" role="rgb" />
+      <layer role="normal" texture="jam_jar_normal" />
+      <layer role="roughness" texture="jam_jar_roughness" />
+      <layer role="metallic" texture="jam_jar_metallic" />
+    </material>
+    <mesh name="jam_jar_top" file="top.obj" />
+    <texture name="jam_jar_normal" type="2d" file="normal.png" />
+    <texture name="jam_jar_roughness" type="2d" file="roughness.png" />
+    <texture name="jam_jar_metallic" type="2d" file="metallic.png" />
+  </asset>
+  <worldbody>
+    <body name="jam_jar">
+      <geom type="mesh" mesh="jam_jar_0_mesh" material="jam_jar_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="cylinder" size="0.0587 0.0650" pos="0 0 0.0650" rgba="0 0 0 0" group="3" mass="0.84854" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="cylinder" size="0.0620 0.0104" pos="0 0 0.1404" rgba="0 0 0 0" group="3" mass="0.15146" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0628 0.0628 0.0750" pos="0.0000 0.0000 0.0750" />
+      <geom name="place:top" class="place" type="mesh" mesh="jam_jar_top" />
+    </body>
+  </worldbody>
+</mujoco>

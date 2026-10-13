@@ -1,0 +1,15 @@
+{
+  "id": "robolab-dumbbells_in_the_crate",
+  "instruction": "Put the dumbbells in the crate.",
+  "objects": {"yellow_storage_crate": {"asset": "yellow_storage_crate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_kettlebell": {"asset": "red_kettlebell", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_dumbbell": {"asset": "blue_dumbbell", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "green_dumbbell": {"asset": "green_dumbbell", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "yellow_storage_crate", "table"],
+    ["on", "blue_dumbbell", "table"],
+    ["on", "green_dumbbell", "table"],
+    ["on", "red_kettlebell", "table"]
+  ],
+  "goal": [
+    ["inside", "blue_dumbbell", "yellow_storage_crate"],
+    ["inside", "green_dumbbell", "yellow_storage_crate"]
+  ]
+}

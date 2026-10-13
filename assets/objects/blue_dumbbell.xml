@@ -1,0 +1,28 @@
+<mujoco model="blue_dumbbell">
+  <!-- blue_dumbbell, converted from the MolmoSpaces Objaverse library (uid 6ab43fefeca843c4bad35122dc9bdad7; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/blue_dumbbell" texturedir="../mesh/blue_dumbbell"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_dumbbell_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="blue_dumbbell_0_tex" type="2d" file="0.png"/>
+    <material name="blue_dumbbell_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="blue_dumbbell_0_tex" role="rgb"/>
+    </material>
+    <mesh name="blue_dumbbell_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="blue_dumbbell_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="blue_dumbbell_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+  </asset>
+  <worldbody>
+    <body name="blue_dumbbell">
+      <geom type="mesh" mesh="blue_dumbbell_0_mesh" material="blue_dumbbell_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="blue_dumbbell_hull_00" rgba="0 0 0 0" group="3" mass="0.167712468" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_dumbbell_hull_01" rgba="0 0 0 0" group="3" mass="0.154490878" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="blue_dumbbell_hull_02" rgba="0 0 0 0" group="3" mass="0.156737962" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.1037 0.0347 0.0347" pos="0.0000 0.0000 0.0347"/>
+    </body>
+  </worldbody>
+</mujoco>

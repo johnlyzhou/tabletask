@@ -1,0 +1,13 @@
+{
+  "id": "abc-turn_mug_right_side_up",
+  "instruction": "Turn every upside-down mug right side up and set it on the table.",
+  "objects": {"mug1": {"asset": "abc_mug", "sample": {"rel": "table/top", "offset": [-0.12, -0.16, 0], "rotation": [180, 0, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}, "tags": ["mugs"]}, "mug2": {"asset": "abc_mug", "sample": {"rel": "table/top", "offset": [-0.12, 0.16, 0], "rotation": [180, 0, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}, "tags": ["mugs"]}},
+  "start": [
+    ["on", "mug1", "table"],
+    ["on", "mug2", "table"],
+    ["every", "#mugs", ["upside_down", "it", 15]]
+  ],
+  "goal": [
+    ["every", "#mugs", ["and", ["upright", "it", 25], ["on", "it", "table"]]]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pick_mug",
+  "instruction": "Pick up the mug.",
+  "objects": {"mug": {"asset": "red_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}},
+  "start": [
+    ["on", "mug", "table"]
+  ],
+  "goal": {"stages": {"lifted": {"condition": ["lifted", "mug", 0.02, "table"], "hold": 0.5}}}
+}

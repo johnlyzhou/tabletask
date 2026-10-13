@@ -1,0 +1,32 @@
+<mujoco model="abc_throw_bin">
+  <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="region_14530254bab43520" file="regions/14530254bab43520.obj" />
+  </asset>
+  <worldbody>
+    <body name="abc_throw_bin">
+      <body name="source" pos="-0 -0 0.003">
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.18" name="bin_bottom" type="cylinder" size="0.13 0.003" pos="0 0 0" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_0" type="box" size="0.008 0.033 0.09" pos="0.120 0 0.093" quat="1 0 0 0" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_30" type="box" size="0.008 0.033 0.09" pos="0.104 0.060 0.093" quat="0.9659 0 0 0.2588" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_60" type="box" size="0.008 0.033 0.09" pos="0.060 0.104 0.093" quat="0.8660 0 0 0.5" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_90" type="box" size="0.008 0.033 0.09" pos="0 0.120 0.093" quat="0.7071 0 0 0.7071" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_120" type="box" size="0.008 0.033 0.09" pos="-0.060 0.104 0.093" quat="0.5 0 0 0.8660" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_150" type="box" size="0.008 0.033 0.09" pos="-0.104 0.060 0.093" quat="0.2588 0 0 0.9659" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_180" type="box" size="0.008 0.033 0.09" pos="-0.120 0 0.093" quat="0 0 0 1" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_210" type="box" size="0.008 0.033 0.09" pos="-0.104 -0.060 0.093" quat="-0.2588 0 0 0.9659" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_240" type="box" size="0.008 0.033 0.09" pos="-0.060 -0.104 0.093" quat="-0.5 0 0 0.8660" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_270" type="box" size="0.008 0.033 0.09" pos="0 -0.120 0.093" quat="-0.7071 0 0 0.7071" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_300" type="box" size="0.008 0.033 0.09" pos="0.060 -0.104 0.093" quat="-0.8660 0 0 0.5" rgba="0.95 0.55 0.15 1" />
+        <geom friction="1.5 0.005 0.001" solref="0.004 1" solimp="0.998 0.998 0.001" mass="0.02" name="bin_wall_330" type="box" size="0.008 0.033 0.09" pos="0.104 -0.060 0.093" quat="-0.9659 0 0 0.2588" rgba="0.95 0.55 0.15 1" />
+      </body>
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.093" size="0.13 0.13 0.093" />
+      <geom name="place:inside" class="place" type="mesh" pos="0 0 0.0955" mesh="region_14530254bab43520" />
+    </body>
+  </worldbody>
+</mujoco>

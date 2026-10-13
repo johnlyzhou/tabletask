@@ -1,0 +1,138 @@
+<mujoco model="floral_dish">
+  <!-- floral_dish, converted from the MolmoSpaces Objaverse library (uid 0f1f3038a3144ab88d39739cc980fdc1; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/floral_dish" texturedir="../mesh/floral_dish"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="floral_dish_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="floral_dish_0_tex" type="2d" file="0.png"/>
+    <material name="floral_dish_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="floral_dish_0_tex" role="rgb"/>
+    </material>
+    <mesh name="floral_dish_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_25" file="hulls/h25.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_26" file="hulls/h26.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_27" file="hulls/h27.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_28" file="hulls/h28.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_29" file="hulls/h29.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_30" file="hulls/h30.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_31" file="hulls/h31.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_32" file="hulls/h32.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_33" file="hulls/h33.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_34" file="hulls/h34.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_35" file="hulls/h35.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_36" file="hulls/h36.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_37" file="hulls/h37.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_38" file="hulls/h38.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_39" file="hulls/h39.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_40" file="hulls/h40.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_41" file="hulls/h41.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_42" file="hulls/h42.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_43" file="hulls/h43.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_44" file="hulls/h44.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_45" file="hulls/h45.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_46" file="hulls/h46.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_47" file="hulls/h47.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_48" file="hulls/h48.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_49" file="hulls/h49.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_50" file="hulls/h50.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_51" file="hulls/h51.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_52" file="hulls/h52.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_53" file="hulls/h53.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_54" file="hulls/h54.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_hull_55" file="hulls/h55.obj" maxhullvert="128"/>
+    <mesh name="floral_dish_inside" file="inside.obj"/>
+    <mesh name="floral_dish_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="floral_dish">
+      <geom type="mesh" mesh="floral_dish_0_mesh" material="floral_dish_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_00" rgba="0 0 0 0" group="3" mass="0.0112226779" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_01" rgba="0 0 0 0" group="3" mass="0.00390401023" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_02" rgba="0 0 0 0" group="3" mass="0.00853056275" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_03" rgba="0 0 0 0" group="3" mass="0.00330191274" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_04" rgba="0 0 0 0" group="3" mass="0.00472020995" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_05" rgba="0 0 0 0" group="3" mass="0.00414774677" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_06" rgba="0 0 0 0" group="3" mass="0.00532614028" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_07" rgba="0 0 0 0" group="3" mass="0.00387845414" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_08" rgba="0 0 0 0" group="3" mass="0.00154735657" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_09" rgba="0 0 0 0" group="3" mass="0.00924876114" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_10" rgba="0 0 0 0" group="3" mass="0.00524140466" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_11" rgba="0 0 0 0" group="3" mass="0.00465050885" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_12" rgba="0 0 0 0" group="3" mass="0.00161846922" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_13" rgba="0 0 0 0" group="3" mass="0.00585795171" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_14" rgba="0 0 0 0" group="3" mass="0.00520974018" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_15" rgba="0 0 0 0" group="3" mass="0.00429815879" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_16" rgba="0 0 0 0" group="3" mass="0.00549039601" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_17" rgba="0 0 0 0" group="3" mass="0.00499379876" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_18" rgba="0 0 0 0" group="3" mass="0.00427283738" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_19" rgba="0 0 0 0" group="3" mass="0.00572697042" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_20" rgba="0 0 0 0" group="3" mass="0.00206648174" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_21" rgba="0 0 0 0" group="3" mass="0.00281683686" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_22" rgba="0 0 0 0" group="3" mass="0.00225758372" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_23" rgba="0 0 0 0" group="3" mass="0.00490891082" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_24" rgba="0 0 0 0" group="3" mass="0.00463337447" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_25" rgba="0 0 0 0" group="3" mass="0.00236631524" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_26" rgba="0 0 0 0" group="3" mass="0.00733241316" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_27" rgba="0 0 0 0" group="3" mass="0.0034899418" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_28" rgba="0 0 0 0" group="3" mass="0.0034246297" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_29" rgba="0 0 0 0" group="3" mass="0.00315201121" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_30" rgba="0 0 0 0" group="3" mass="0.003911005" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_31" rgba="0 0 0 0" group="3" mass="0.0031402204" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_32" rgba="0 0 0 0" group="3" mass="0.00268282671" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_33" rgba="0 0 0 0" group="3" mass="0.00216991303" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_34" rgba="0 0 0 0" group="3" mass="0.00427968078" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_35" rgba="0 0 0 0" group="3" mass="0.00339812615" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_36" rgba="0 0 0 0" group="3" mass="0.00157952679" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_37" rgba="0 0 0 0" group="3" mass="0.00802642339" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_38" rgba="0 0 0 0" group="3" mass="0.00553430527" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_39" rgba="0 0 0 0" group="3" mass="0.0036319365" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_40" rgba="0 0 0 0" group="3" mass="0.00169173297" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_41" rgba="0 0 0 0" group="3" mass="0.00258141683" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_42" rgba="0 0 0 0" group="3" mass="0.00370794263" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_43" rgba="0 0 0 0" group="3" mass="0.00240414634" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_44" rgba="0 0 0 0" group="3" mass="0.00225848294" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_45" rgba="0 0 0 0" group="3" mass="0.00410764381" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_46" rgba="0 0 0 0" group="3" mass="0.00207113593" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_47" rgba="0 0 0 0" group="3" mass="0.00294772121" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_48" rgba="0 0 0 0" group="3" mass="0.0034711704" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_49" rgba="0 0 0 0" group="3" mass="0.00249861555" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_50" rgba="0 0 0 0" group="3" mass="0.00266984835" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_51" rgba="0 0 0 0" group="3" mass="0.0030836251" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_52" rgba="0 0 0 0" group="3" mass="0.00571270693" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_53" rgba="0 0 0 0" group="3" mass="0.00111951206" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_54" rgba="0 0 0 0" group="3" mass="0.00124586341" friction="0.9 0.01 0.002" condim="4"/>
+      <geom type="mesh" mesh="floral_dish_hull_55" rgba="0 0 0 0" group="3" mass="0.00119549861" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0983 0.0966 0.0250" pos="0.0000 0.0000 0.0250"/>
+      <geom name="place:inside" class="place" type="mesh" mesh="floral_dish_inside"/>
+      <geom name="place:top" class="place" type="mesh" mesh="floral_dish_top"/>
+    </body>
+  </worldbody>
+</mujoco>

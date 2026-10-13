@@ -1,0 +1,19 @@
+{
+  "id": "robolab-a_cupcake_on_every_plate",
+  "instruction": "Put a cupcake on each plate.",
+  "objects": {"pink_cupcake": {"asset": "pink_cupcake", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "green_rimmed_plate": {"asset": "green_rimmed_plate", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "teal_cupcake": {"asset": "teal_cupcake", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "swirl_cupcake": {"asset": "swirl_cupcake", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "rainbow_plate": {"asset": "rainbow_plate", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "peach_plate": {"asset": "peach_plate", "fixed": true, "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_cupcake": {"asset": "red_cupcake", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "peach_plate", "table"],
+    ["on", "green_rimmed_plate", "table"],
+    ["on", "rainbow_plate", "table"],
+    ["on", "red_cupcake", "table"],
+    ["on", "pink_cupcake", "table"],
+    ["on", "swirl_cupcake", "table"],
+    ["on", "teal_cupcake", "table"]
+  ],
+  "goal": [
+    ["or", ["on", "red_cupcake", "peach_plate"], ["on", "pink_cupcake", "peach_plate"], ["on", "swirl_cupcake", "peach_plate"], ["on", "teal_cupcake", "peach_plate"]],
+    ["or", ["on", "red_cupcake", "green_rimmed_plate"], ["on", "pink_cupcake", "green_rimmed_plate"], ["on", "swirl_cupcake", "green_rimmed_plate"], ["on", "teal_cupcake", "green_rimmed_plate"]],
+    ["or", ["on", "red_cupcake", "rainbow_plate"], ["on", "pink_cupcake", "rainbow_plate"], ["on", "swirl_cupcake", "rainbow_plate"], ["on", "teal_cupcake", "rainbow_plate"]]
+  ]
+}

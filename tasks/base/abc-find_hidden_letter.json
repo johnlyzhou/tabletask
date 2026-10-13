@@ -1,0 +1,22 @@
+{
+  "id": "abc-find_hidden_letter",
+  "instruction": "Find the {letter} block hidden in the drawers and put it in the bin.",
+  "objects": {"cabinet": {"asset": "abc_search_cabinet", "sample": {"rel": "table/top", "offset": [0.11, -0.12, -0.0012], "jitter": {"xy": [0.0, 0.004], "yaw": 0}}, "fixed": true}, "bin": {"asset": "abc_clutter_box", "sample": {"rel": "table/top", "offset": [-0.19, 0.28, 0], "jitter": {"xy": [0.008, 0.008], "yaw": 8}}}, "a": {"asset": "abc_letter_a", "sample": {"rel": "cabinet/spawn_{slot_a}", "jitter": {"xy": 0.05, "yaw": 3}}}, "b": {"asset": "abc_letter_b", "sample": {"rel": "cabinet/spawn_{slot_b}", "jitter": {"xy": 0.05, "yaw": 3}}}, "c": {"asset": "abc_letter_c", "sample": {"rel": "cabinet/spawn_{slot_c}", "jitter": {"xy": 0.05, "yaw": 3}}}, "d": {"asset": "abc_letter_d", "sample": {"rel": "cabinet/spawn_{slot_d}", "jitter": {"xy": 0.05, "yaw": 3}}}, "e": {"asset": "abc_letter_e", "sample": {"rel": "cabinet/spawn_{slot_e}", "jitter": {"xy": 0.05, "yaw": 3}}}, "f": {"asset": "abc_letter_f", "sample": {"rel": "cabinet/spawn_{slot_f}", "jitter": {"xy": 0.05, "yaw": 3}}}},
+  "start": [
+    ["on", "cabinet", "table"],
+    ["on", "bin", "table"],
+    ["closed", "cabinet/joint_top_drawer_low"],
+    ["closed", "cabinet/joint_middle_drawer_low"],
+    ["closed", "cabinet/joint_bottom_drawer_low"],
+    ["inside", "a", "cabinet/{slot_a}", 0],
+    ["inside", "b", "cabinet/{slot_b}", 0],
+    ["inside", "c", "cabinet/{slot_c}", 0],
+    ["inside", "d", "cabinet/{slot_d}", 0],
+    ["inside", "e", "cabinet/{slot_e}", 0],
+    ["inside", "f", "cabinet/{slot_f}", 0]
+  ],
+  "goal": [
+    ["inside", "{letter}", "bin/inside", 0]
+  ],
+  "variables": {"letter": {"one_of": ["a", "b", "c", "d", "e", "f"]}, "slot_a": {"one_of": ["top", "middle", "bottom"], "apart": "first"}, "slot_b": {"one_of": ["top", "middle", "bottom"], "apart": "first"}, "slot_c": {"one_of": ["top", "middle", "bottom"], "apart": "first"}, "slot_d": {"one_of": ["top", "middle", "bottom"], "apart": "second"}, "slot_e": {"one_of": ["top", "middle", "bottom"], "apart": "second"}, "slot_f": {"one_of": ["top", "middle", "bottom"], "apart": "second"}}
+}

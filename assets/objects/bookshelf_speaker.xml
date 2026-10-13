@@ -1,0 +1,26 @@
+<mujoco model="bookshelf_speaker">
+  <!-- bookshelf_speaker, converted from the MolmoSpaces Objaverse library (uid 277db5efa378494882aaa820abb84437; ODC-By 1.0). -->
+  <compiler angle="radian" meshdir="../mesh/bookshelf_speaker" texturedir="../mesh/bookshelf_speaker"/>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+    </default>
+  </default>
+  <asset>
+    <mesh name="bookshelf_speaker_0_mesh" file="0.obj" inertia="shell"/>
+    <texture name="bookshelf_speaker_0_tex" type="2d" file="0.png"/>
+    <material name="bookshelf_speaker_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="bookshelf_speaker_0_tex" role="rgb"/>
+    </material>
+    <mesh name="bookshelf_speaker_top" file="top.obj"/>
+  </asset>
+  <worldbody>
+    <body name="bookshelf_speaker">
+      <geom type="mesh" mesh="bookshelf_speaker_0_mesh" material="bookshelf_speaker_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
+      <geom type="box" size="0.0676 0.0638 0.1125" pos="0 0 0.1125" rgba="0 0 0 0" group="3" mass="1" friction="0.9 0.01 0.002" condim="4"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0676 0.0638 0.1125" pos="0.0000 0.0000 0.1125"/>
+      <geom name="place:inside" class="place" type="box" size="0.0541 0.0510 0.1013" pos="0 0 0.1125"/>
+      <geom name="place:top" class="place" type="mesh" mesh="bookshelf_speaker_top"/>
+    </body>
+  </worldbody>
+</mujoco>

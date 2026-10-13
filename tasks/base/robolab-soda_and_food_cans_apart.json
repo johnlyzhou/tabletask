@@ -1,0 +1,19 @@
+{
+  "id": "robolab-soda_and_food_cans_apart",
+  "instruction": "Soda cans in the blue bucket, food cans in the red bucket.",
+  "objects": {"blue_bucket": {"asset": "blue_bucket", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "teal_food_can": {"asset": "teal_food_can", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "orange_soda_can": {"asset": "orange_soda_can", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_bucket": {"asset": "red_bucket", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "red_food_can": {"asset": "red_food_can", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}, "blue_soda_can": {"asset": "blue_soda_can", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "blue_bucket", "table"],
+    ["on", "red_bucket", "table"],
+    ["on", "blue_soda_can", "table"],
+    ["on", "orange_soda_can", "table"],
+    ["on", "red_food_can", "table"],
+    ["on", "teal_food_can", "table"]
+  ],
+  "goal": [
+    ["inside", "blue_soda_can", "blue_bucket"],
+    ["inside", "orange_soda_can", "blue_bucket"],
+    ["inside", "red_food_can", "red_bucket"],
+    ["inside", "teal_food_can", "red_bucket"]
+  ]
+}

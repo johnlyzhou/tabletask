@@ -1,0 +1,95 @@
+<mujoco model="serving_bowl">
+  <compiler angle="radian" meshdir="../mesh/serving_bowl" texturedir="../mesh/serving_bowl" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="serving_bowl_0_mesh" file="0.obj" />
+    <texture name="serving_bowl_0_tex" type="2d" file="0.png" />
+    <texture name="serving_bowl_0_normal" type="2d" file="0_normal.png" />
+    <texture name="serving_bowl_0_roughness" type="2d" file="0_roughness.png" />
+    <texture name="serving_bowl_0_metallic" type="2d" file="0_metallic.png" />
+    <material name="serving_bowl_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="serving_bowl_0_tex" role="rgb" />
+      <layer texture="serving_bowl_0_normal" role="normal" />
+      <layer texture="serving_bowl_0_roughness" role="roughness" />
+      <layer texture="serving_bowl_0_metallic" role="metallic" />
+    </material>
+    <mesh name="serving_bowl_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="serving_bowl_inside" file="inside.obj" />
+    <mesh name="serving_bowl_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="serving_bowl">
+      <geom type="mesh" mesh="serving_bowl_0_mesh" material="serving_bowl_0_skin" contype="0" conaffinity="0" mass="0" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_00" rgba="0 0 0 0" group="3" mass="0.0236061482" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_01" rgba="0 0 0 0" group="3" mass="0.0233209494" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_02" rgba="0 0 0 0" group="3" mass="0.00550998587" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_03" rgba="0 0 0 0" group="3" mass="0.00371687139" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_04" rgba="0 0 0 0" group="3" mass="0.00354754578" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_05" rgba="0 0 0 0" group="3" mass="0.00549419122" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_06" rgba="0 0 0 0" group="3" mass="0.00495409023" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_07" rgba="0 0 0 0" group="3" mass="0.00540674534" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_08" rgba="0 0 0 0" group="3" mass="0.00522464307" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_09" rgba="0 0 0 0" group="3" mass="0.00443852043" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_10" rgba="0 0 0 0" group="3" mass="0.0061748919" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_11" rgba="0 0 0 0" group="3" mass="0.00393431148" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_12" rgba="0 0 0 0" group="3" mass="0.00467567681" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_13" rgba="0 0 0 0" group="3" mass="0.00529556283" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_14" rgba="0 0 0 0" group="3" mass="0.00378588396" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_15" rgba="0 0 0 0" group="3" mass="0.00514692471" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_16" rgba="0 0 0 0" group="3" mass="0.00449298651" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_17" rgba="0 0 0 0" group="3" mass="0.00609755492" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_18" rgba="0 0 0 0" group="3" mass="0.0055621639" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_19" rgba="0 0 0 0" group="3" mass="0.00495836505" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_20" rgba="0 0 0 0" group="3" mass="0.00641645221" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_21" rgba="0 0 0 0" group="3" mass="0.00510796787" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_22" rgba="0 0 0 0" group="3" mass="0.00260048729" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_23" rgba="0 0 0 0" group="3" mass="0.00409666157" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_24" rgba="0 0 0 0" group="3" mass="0.0026019087" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_25" rgba="0 0 0 0" group="3" mass="0.00402360317" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_26" rgba="0 0 0 0" group="3" mass="0.00468661347" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_27" rgba="0 0 0 0" group="3" mass="0.00240176573" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_28" rgba="0 0 0 0" group="3" mass="0.00366750497" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_29" rgba="0 0 0 0" group="3" mass="0.0036442186" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_30" rgba="0 0 0 0" group="3" mass="0.00215283027" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom type="mesh" mesh="serving_bowl_hull_31" rgba="0 0 0 0" group="3" mass="0.00372271952" friction="0.9 0.01 0.002" condim="4" pos="0.0000 0.0002 0.0000" />
+      <geom name="place:bounds" class="place" type="box" size="0.0798 0.0798 0.0260" pos="0.0000 0.0000 0.0260" />
+      <geom name="place:inside" class="place" type="mesh" mesh="serving_bowl_inside" pos="0.0000 0.0002 0.0000" />
+      <geom name="place:top" class="place" type="mesh" mesh="serving_bowl_top" pos="0.0000 0.0002 0.0000" />
+    </body>
+  </worldbody>
+</mujoco>
