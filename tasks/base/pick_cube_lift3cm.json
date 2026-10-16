@@ -1,0 +1,9 @@
+{
+  "id": "pick_cube_lift3cm",
+  "instruction": "Pick up the cube.",
+  "objects": {"cube": {"asset": "red_block", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32]}}}},
+  "start": [
+    ["on", "cube", "table"]
+  ],
+  "goal": {"stages": {"lifted": {"condition": ["lifted", "cube", 0.03, "table"], "hold": 0.0, "held": true}}}
+}

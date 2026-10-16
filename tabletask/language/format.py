@@ -88,6 +88,7 @@ class StageDocument(msgspec.Struct, forbid_unknown_fields=True):
     after: list[str] = []
     hold: float = 0.5
     maintain: bool = False
+    held: bool = False  # the stage counts while the robot still holds the object
 
 
 def tasks(tier: str | None = None) -> list[str]:
@@ -492,7 +493,7 @@ def _parse_goal(goal, parser: _ConditionParser) -> dict:
     if isinstance(goal, dict):
         if set(goal) != {"stages"} or not isinstance(goal["stages"], dict):
             raise ValueError(
-                "an explicit goal is {stages: {name: {condition, after, hold, maintain}}}"
+                "an explicit goal is {stages: {name: {condition, after, hold, maintain, held}}}"
             )
         for name, spec in goal["stages"].items():
             stage = msgspec.convert(spec, type=StageDocument)
@@ -503,6 +504,7 @@ def _parse_goal(goal, parser: _ConditionParser) -> dict:
                 "after": stage.after,
                 "hold": stage.hold,
                 "maintain": stage.maintain,
+                "held": stage.held,
             }
     else:
         if goal and isinstance(goal[0], str):

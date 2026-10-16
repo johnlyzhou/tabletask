@@ -144,7 +144,7 @@ class Monitor:
                     return self.status
                 continue
             # an object the robot still touches, or that is still moving, is not yet placed
-            holding = true_now and not (handled & self._placed[name])
+            holding = true_now and (stage.held or not (handled & self._placed[name]))
             eligible = all(p in completed for p in stage.after)
             if eligible and holding:
                 self._held[name] = self._held[name] + dt if self._previous[name] else 0.0

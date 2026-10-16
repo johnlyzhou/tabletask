@@ -129,6 +129,7 @@ class Stage(msgspec.Struct, omit_defaults=True):
     after: list[str] = []
     hold: float = 0.5
     maintain: bool = False
+    held: bool = False  # counts while the robot still holds the object (a lift, a carry)
 
 
 class Goal(msgspec.Struct, omit_defaults=True):
