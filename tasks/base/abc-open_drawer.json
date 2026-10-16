@@ -1,0 +1,12 @@
+{
+  "id": "abc-open_drawer",
+  "instruction": "Open the drawer.",
+  "objects": {"cabinet": {"asset": "abc_single_drawer", "sample": {"rel": "table/top", "offset": [0.11, -0.12, -0.0012], "jitter": {"xy": [0.0, 0.004], "yaw": 0}}, "fixed": true}},
+  "start": [
+    ["on", "cabinet", "table"],
+    ["closed", "cabinet/joint_drawer"]
+  ],
+  "goal": [
+    ["open", "cabinet/joint_drawer"]
+  ]
+}

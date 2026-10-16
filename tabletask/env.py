@@ -42,7 +42,7 @@ class Env:
         self.robot = None
         self.cameras = True
         self.end_on_fall = True
-        self.image_size = (320, 240)
+        self.image_size = (640, 368)  # 16:9, the shape of DROID's camera frames
         self.renderer = None
 
     @property

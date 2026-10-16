@@ -10,7 +10,7 @@ from ...language.rotation import unit_quaternions
 from ...robots.base import Robot
 from .ik import PoseIK
 
-CLOSED_DRIVER_ANGLE = 0.8102  # finger driver joint angle when the gripper is closed, radians
+CLOSED_DRIVER_ANGLE = 0.824033  # finger driver joint angle when the gripper is closed, radians
 GRIPPER_CTRL_MAX = 255  # finger actuator control for a fully closed gripper
 STAND_MIN_HEIGHT = 0.04  # base height above which a pedestal is added under the arm, metres
 
@@ -51,7 +51,7 @@ class Droid(Robot):
 
     model = Path(__file__).parent / "assets/droid/model.xml"
     cameras = ("wrist", "external")
-    home = (0.0, -0.2 * np.pi, 0.0, -0.8 * np.pi, 0.0, 0.6 * np.pi, 0.0)  # joints, radians
+    home = (0.0, -0.7853, 0.0, -2.35619, 0.0, 1.57079, 0.0)  # joints, radians: DROID home, as molmospaces
     action_shape = (8,)
 
     def __init__(
