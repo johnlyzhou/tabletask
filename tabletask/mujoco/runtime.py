@@ -31,6 +31,7 @@ DROPPED = 0.1  # depth below the table top at which an object counts as fallen, 
 UPRIGHT = 0.5  # min upward component of a contact normal for the contact to support
 SEAM = 0.004  # max distance between opposing contacts that count as a pinch, in metres
 MAX_REACH = 1.0  # distance cap for region overlap queries, in metres
+ARTICULATIONS = (mujoco.mjtJoint.mjJNT_HINGE, mujoco.mjtJoint.mjJNT_SLIDE)
 
 
 @lru_cache(maxsize=2)  # a compiled model is ~150 MB; starts rarely repeat a scene exactly
@@ -255,6 +256,59 @@ class Runtime:
         if tops or near:
             return max(tops or near)
         return float(self.pose(name)[0][2] if region is not None else self.aabb(name)[1][2])
+
+    def velocity(self, name: str) -> np.ndarray:
+        """World-frame linear then angular velocity of a body's origin, (6,)."""
+        rotational_linear = np.zeros(6)
+        mujoco.mj_objectVelocity(
+            self.model, self.data, mujoco.mjtObj.mjOBJ_BODY, self.body(name), rotational_linear, 0
+        )
+        return np.r_[rotational_linear[3:], rotational_linear[:3]]
+
+    def articulation(self, name: str) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+        """Positions, lower and upper limits of an object's hinge and slide joints, model order.
+
+        All three are empty for a rigid object. An unlimited hinge reads wrapped to [-π, π)
+        with those limits; an unlimited slide gets limits of ±1 m.
+        """
+        key = ("articulation", name)
+        if key not in self._cache:
+            body = self.body(name)
+            self._cache[key] = np.array(
+                [
+                    j
+                    for j in range(self.model.njnt)
+                    if self.model.jnt_type[j] in ARTICULATIONS
+                    and self.root_body(self.model.jnt_bodyid[j]) == body
+                ],
+                dtype=int,
+            )
+        joints = self._cache[key]
+        positions = self.data.qpos[self.model.jnt_qposadr[joints]].copy()
+        limits = self.model.jnt_range[joints].copy()
+        for k, j in enumerate(joints):
+            if self.model.jnt_limited[j]:
+                continue
+            if self.model.jnt_type[j] == mujoco.mjtJoint.mjJNT_HINGE:
+                positions[k] = (positions[k] + np.pi) % (2 * np.pi) - np.pi
+                limits[k] = (-np.pi, np.pi)
+            else:
+                limits[k] = (-1.0, 1.0)
+        return positions, limits[:, 0], limits[:, 1]
+
+    def grasped(self, name: str) -> bool:
+        """Whether every finger of the robot touches an object; False for a fingerless robot."""
+        fingers = self.robot.fingers if self.robot is not None else ()
+        mine, touching = set(self._geoms_of(name)), set()
+        contact = self.data.contact
+        for c in range(self.data.ncon):
+            g1, g2 = int(contact.geom1[c]), int(contact.geom2[c])
+            other = g2 if g1 in mine else g1 if g2 in mine else None
+            if other is None:
+                continue
+            body = int(self.model.geom_bodyid[other])
+            touching.update(i for i, finger in enumerate(fingers) if body in finger)
+        return bool(fingers) and len(touching) == len(fingers)
 
     def joint(self, name: str) -> float:
         """Current value of a named joint."""

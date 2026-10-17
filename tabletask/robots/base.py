@@ -17,6 +17,10 @@ class Robot(ABC):
     robot's MJCF is attached to the scene under the namespace ``<name>/``, so every
     element of the robot is addressed as ``qualified(element_name)``.
 
+    A robot with an arm also sets ``limits``, each arm joint's (lower, upper) range, and
+    ``speed_limits``, each arm joint's top speed; one that senses grasps sets ``fingers``,
+    the body ids of each finger in the bound model.
+
     Args:
         name: Scene namespace for the robot: letters, digits, underscores or hyphens,
             not starting with a digit or hyphen.
@@ -29,6 +33,9 @@ class Robot(ABC):
 
     model: Path  # MJCF file of the robot
     cameras: tuple[str, ...] = ()  # camera names in the robot's MJCF, unqualified
+    fingers: tuple[frozenset[int], ...] = ()
+    limits: np.ndarray = np.zeros((0, 2))
+    speed_limits: np.ndarray = np.zeros(0)
 
     def __init__(self, name, position=(0, 0, 0.75), quaternion=(1, 0, 0, 0)):
         if not isinstance(name, str) or not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_-]*", name):

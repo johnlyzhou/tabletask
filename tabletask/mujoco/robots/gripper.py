@@ -28,6 +28,7 @@ class Gripper(Robot):
     - ``joint_position``: empty array; the gripper has no arm joints.
     - ``joint_velocity``: empty array.
     - ``gripper``: closure in [0, 1] (0 open, 1 closed).
+    - ``gripper_command``: commanded closure in [0, 1].
     - ``tcp_pose``: (7,) world-frame TCP position and wxyz quaternion.
 
     For a pair, the observation is ``{"left": ..., "right": ...}`` with one such
@@ -140,7 +141,9 @@ class Gripper(Robot):
         self.opening = np.array([[joint.range[1] for joint in row] for row in joints])
         self.tcp = np.array([model.site(p + "tcp").id for p in prefixes])
         self.tcp_offset = model.site_pos[self.tcp].copy()
-        if self.count == 2:
+        if self.count == 1:
+            self.fingers = tuple(frozenset({model.jnt_bodyid[joint.id]}) for joint in joints[0])
+        else:
             model.mat_rgba[model.mat(prefixes[1] + "charcoal").id] = RIGHT_MARKER_RGBA
 
     def _bases(self, positions, quaternions):
@@ -195,18 +198,20 @@ class Gripper(Robot):
         data.ctrl[self.gripper_actuators] = self.opening * (1 - actions[:, 7, None])
 
     def observe(self):
-        """Return gripper closure and TCP pose per gripper; see the class docstring."""
+        """Return gripper closure and command and TCP pose per gripper; see the class docstring."""
         data = self.runtime.data
         states = []
         for i, tcp in enumerate(self.tcp):
             quaternion = np.zeros(4)
             mujoco.mju_mat2Quat(quaternion, data.site_xmat[tcp])
             opening = data.qpos[self.gripper_joints[i]] / self.opening[i]
+            command = data.ctrl[self.gripper_actuators[i]] / self.opening[i]
             states.append(
                 {
                     "joint_position": np.zeros(0),
                     "joint_velocity": np.zeros(0),
                     "gripper": float(np.clip(1 - np.mean(opening), 0, 1)),
+                    "gripper_command": float(1 - np.mean(command)),
                     "tcp_pose": np.r_[data.site_xpos[tcp], quaternion],
                 }
             )

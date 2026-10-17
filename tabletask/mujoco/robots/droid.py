@@ -27,13 +27,15 @@ class Droid(Robot):
       metres; converted to joint targets by inverse kinematics (requires ``mink``
       and ``daqp``).
 
-    Joint targets are clipped to the joint limits.
+    Joint targets are clipped to the joint limits. Joint speed limits are the FR3's, in
+    radians per second.
 
     Observations are a dict with:
 
     - ``joint_position``: (7,) arm joint positions, radians.
     - ``joint_velocity``: (7,) arm joint velocities, radians per second.
     - ``gripper``: closure in [0, 1] (0 open, 1 closed).
+    - ``gripper_command``: commanded closure in [0, 1].
     - ``tcp_pose``: (7,) world-frame TCP position and wxyz quaternion.
 
     Cameras: ``wrist`` and ``external``.
@@ -53,6 +55,7 @@ class Droid(Robot):
     cameras = ("wrist", "external")
     home = (0.0, -0.2 * np.pi, 0.0, -0.8 * np.pi, 0.0, 0.6 * np.pi, 0.0)
     action_shape = (8,)
+    speed_limits = np.array((2.62, 2.62, 2.62, 2.62, 5.26, 4.18, 5.26))
 
     def __init__(
         self,
@@ -124,6 +127,12 @@ class Droid(Robot):
         self.gripper_actuator = model.actuator(self.qualified("fingers_actuator")).id
         self.gripper_joint = model.joint(self.qualified("right_driver_joint")).qposadr[0]
         self.tcp = model.site(self.qualified("tcp")).id
+        self.fingers = tuple(
+            frozenset(
+                model.body(self.qualified(f"{side}_{part}")).id for part in ("pad", "follower")
+            )
+            for side in ("left", "right")
+        )
         if self.action_space == "cartesian_pose":
             self.ik = PoseIK(self.model)
             self.base = model.body(self.qualified("link0")).id
@@ -174,7 +183,7 @@ class Droid(Robot):
         data.ctrl[self.gripper_actuator] = GRIPPER_CTRL_MAX * action[7]
 
     def observe(self):
-        """Return joint state, gripper closure and TCP pose; see the class docstring."""
+        """Return joint state, gripper closure and command and TCP pose; see the class docstring."""
         data = self.runtime.data
         tcp_quaternion = np.zeros(4)
         mujoco.mju_mat2Quat(tcp_quaternion, data.site_xmat[self.tcp])
@@ -182,5 +191,6 @@ class Droid(Robot):
             "joint_position": data.qpos[self.qadr].copy(),
             "joint_velocity": data.qvel[self.vadr].copy(),
             "gripper": float(np.clip(data.qpos[self.gripper_joint] / CLOSED_DRIVER_ANGLE, 0, 1)),
+            "gripper_command": float(data.ctrl[self.gripper_actuator] / GRIPPER_CTRL_MAX),
             "tcp_pose": np.concatenate((data.site_xpos[self.tcp], tcp_quaternion)),
         }

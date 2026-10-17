@@ -7,6 +7,7 @@ from numbers import Integral
 
 from .language.monitor import Monitor, Status
 from .language.schema import Task
+from .privileged import privileged_state
 from .robots import Robot
 from .sampling import build
 
@@ -174,7 +175,9 @@ class Env:
 
         Returns:
             A dict with "time", "objects" (name -> (position, wxyz quaternion)), "robot"
-            (the robot's own observation) and, when cameras are rendered, "images".
+            (the robot's own observation), "priv_combined" (the privileged state, see
+            `tabletask.privileged`; single-arm robots only) and, when cameras are rendered,
+            "images".
         """
         self._require_reset()
         cameras = self.cameras if cameras is None else cameras
@@ -187,6 +190,10 @@ class Env:
         }
         if runtime.robot is not None:
             observation["robot"] = runtime.robot.observe()
+            if "tcp_pose" in observation["robot"]:
+                observation["priv_combined"] = privileged_state(
+                    runtime, observation["robot"], self.status.time
+                )
 
         available = runtime.robot.cameras if runtime.robot is not None else ()
         if cameras is True:
