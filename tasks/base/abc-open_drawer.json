@@ -6,7 +6,5 @@
     ["on", "cabinet", "table"],
     ["closed", "cabinet/joint_drawer"]
   ],
-  "goal": [
-    ["open", "cabinet/joint_drawer"]
-  ]
+  "goal": {"stages": {"open": {"condition": ["open", "cabinet/joint_drawer"], "held": true}}}
 }
