@@ -51,7 +51,7 @@ class Droid(Robot):
 
     model = Path(__file__).parent / "assets/droid/model.xml"
     cameras = ("wrist", "external")
-    home = (0.0, -0.7853, 0.0, -2.35619, 0.0, 1.57079, 0.0)  # joints, radians: DROID home, as molmospaces
+    home = (0.0, -0.2 * np.pi, 0.0, -0.8 * np.pi, 0.0, 0.6 * np.pi, 0.0)
     action_shape = (8,)
 
     def __init__(
