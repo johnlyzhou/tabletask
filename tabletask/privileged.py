@@ -19,14 +19,16 @@ while the robot and the objects stay in the workspace; nothing is clipped. In or
   - 1 when both fingers touch it, else 0
 
 The workspace is the table top widened by ``WORKSPACE_MARGIN`` on each side, from
-``WORKSPACE_DEPTH`` below its surface to ``WORKSPACE_HEIGHT`` above, in metres. Orientations
-are the first two columns of the rotation matrix (six values), which, unlike a quaternion,
-change continuously with the rotation.
+``WORKSPACE_DEPTH`` below its surface to ``WORKSPACE_HEIGHT`` above, in metres.
+
+Every orientation is MuJoCo's rotation matrix for the frame (``xmat`` for a body, ``site_xmat``
+for the TCP site): its columns are the frame's own x, y and z axes in world coordinates. It
+appears as its first two columns, the x and y axes in world coordinates (six values); the z
+axis is left out, since it is the cross product of x and y. Unlike a quaternion, these change
+continuously with the rotation.
 """
 
 import numpy as np
-
-from .language.rotation import mat
 
 WORKSPACE_MARGIN = 0.15
 WORKSPACE_DEPTH = 0.1
@@ -47,28 +49,29 @@ def privileged_state(runtime, robot, time):
         A float32 vector laid out as the module docstring describes.
     """
     limit = runtime.task.time_limit
-    arm = runtime.robot
+    arm, data = runtime.robot, runtime.data
     low, high = workspace(runtime)
-    eef_position = robot["tcp_pose"][:3]
-    eef_rotation = mat(robot["tcp_pose"][3:])
+    eef_position = data.site_xpos[arm.tcp].reshape(3)
+    eef_rotation = data.site_xmat[arm.tcp].reshape(3, 3)
     parts = [
         [time / limit if limit else 0.0],
         _scaled(robot["joint_position"], arm.limits[:, 0], arm.limits[:, 1]),
         robot["joint_velocity"] / arm.speed_limits,
         [robot["gripper"], robot["gripper_command"]],
         _scaled(eef_position, low, high),
-        _columns(eef_rotation),
+        _rot6(eef_rotation),
     ]
     for name in runtime.task.scene.objects:
-        position, quaternion = runtime.pose(name)
-        rotation = mat(quaternion)
+        body = runtime.body(name)
+        position = data.xpos[body]
+        rotation = data.xmat[body].reshape(3, 3)
         velocity = runtime.velocity(name)
         joints, joint_low, joint_high = runtime.articulation(name)
         parts += [
             _scaled(position, low, high),
-            _columns(rotation),
+            _rot6(rotation),
             (position - eef_position) / (high - low),
-            _columns(eef_rotation.T @ rotation),
+            _rot6(eef_rotation.T @ rotation),
             velocity[:3] / LINEAR_SPEED,
             velocity[3:] / ANGULAR_SPEED,
             _scaled(joints, joint_low, joint_high),
@@ -92,6 +95,6 @@ def _scaled(values, low, high):
     return 2 * (np.asarray(values) - low) / (high - low) - 1
 
 
-def _columns(rotation):
-    """The first two columns of a rotation matrix, as six values."""
+def _rot6(rotation):
+    """A rotation matrix's first two columns, its x and y axes, as six values; z is x cross y."""
     return rotation[:, :2].T.ravel()

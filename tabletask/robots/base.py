@@ -19,7 +19,8 @@ class Robot(ABC):
 
     A robot with an arm also sets ``limits``, each arm joint's (lower, upper) range, and
     ``speed_limits``, each arm joint's top speed; one that senses grasps sets ``fingers``,
-    the body ids of each finger in the bound model.
+    the body ids of each finger in the bound model. ``setup`` sets ``tcp``, the id of the
+    end-effector site.
 
     Args:
         name: Scene namespace for the robot: letters, digits, underscores or hyphens,
