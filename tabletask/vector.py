@@ -11,6 +11,7 @@ import os
 import random
 import subprocess
 import sys
+from contextlib import suppress
 
 import numpy as np
 
@@ -233,15 +234,26 @@ class Envs:
         return self._ask("observe", kwargs)
 
     def close(self) -> None:
-        """Stop every worker."""
+        """Close environments concurrently and wait for every worker to exit."""
+        pending = []
         for pipe in self._pipes:
             try:
                 pipe.send(("close", None))
-                pipe.recv()
             except (EOFError, BrokenPipeError, OSError):
                 pass
+            else:
+                pending.append(pipe)
+
+        # Let renderer cleanup overlap before collecting acknowledgements.
+        for pipe in pending:
+            with suppress(EOFError, BrokenPipeError, OSError):
+                pipe.recv()
+        for pipe in self._pipes:
+            pipe.close()
+
         for process in self._processes:
             process.join(timeout=5)
             if process.is_alive():
                 process.kill()
+                process.join()
         self._pipes, self._processes = [], []
