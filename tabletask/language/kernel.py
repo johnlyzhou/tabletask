@@ -73,7 +73,7 @@ def contained(s, a, b, slack=0.0):
     This covers a bottle lying in a bin (origin at one end), a pencil standing in a
     shallow drawer (taller than the drawer), and fruit piled in a basket.
     """
-    seen, pending = set(), [a]
+    seen, pending = {b.split("/")[0]}, [a]
     while pending:
         name = pending.pop()
         if name in seen:

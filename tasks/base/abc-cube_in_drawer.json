@@ -1,0 +1,13 @@
+{
+  "id": "abc-cube_in_drawer",
+  "instruction": "Open the drawer and put the red cube in it.",
+  "objects": {"cabinet": {"asset": "abc_single_drawer", "sample": {"rel": "table/top", "offset": [0.11, -0.12, -0.0012], "jitter": {"xy": [0.0, 0.004], "yaw": 0}}, "fixed": true}, "red_block": {"asset": "red_block", "sample": {"rel": "table/top", "offset": [-0.05, 0.14, 0.0], "jitter": {"xy": [0.05, 0.06]}}}},
+  "start": [
+    ["on", "cabinet", "table"],
+    ["on", "red_block", "table"],
+    ["closed", "cabinet/joint_drawer"]
+  ],
+  "goal": [
+    ["inside", "red_block", "cabinet"]
+  ]
+}
