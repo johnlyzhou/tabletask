@@ -1,0 +1,53 @@
+<mujoco model="white_drawer">
+  <compiler angle="radian" meshdir="../mesh/white_drawer" texturedir="../mesh/white_drawer" />
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+    <default class="frame">
+      <geom type="box" condim="6" friction="1.5 0.1 0.01" density="0" solref="0.004 1" solimp="0.998 0.998 0.001" priority="1" group="3" rgba="0 0 0 0" />
+    </default>
+    <default class="tray_visual">
+      <geom type="box" material="white_plastic" group="2" contype="0" conaffinity="0" density="0" />
+    </default>
+  </default>
+  <asset>
+    <texture name="housing" type="2d" file="housing.png" />
+    <texture name="drawer_front" type="2d" file="drawer_front.png" />
+    <material name="housing" texture="housing" specular="0.2" shininess="0.3" />
+    <material name="drawer_front" texture="drawer_front" specular="0.2" shininess="0.3" />
+    <material name="white_plastic" rgba="0.76 0.76 0.76 1" specular="0.2" shininess="0.3" />
+    <mesh name="housing" file="housing.obj" />
+    <mesh name="drawer_front" file="drawer_front.obj" />
+  </asset>
+  <worldbody>
+    <body name="white_drawer">
+      <geom name="housing_visual" type="mesh" mesh="housing" material="housing" group="2" contype="0" conaffinity="0" density="0" />
+      <geom name="top_collision" class="frame" pos="0.021945 0 0.12879" size="0.07469 0.070686 0.0005775" />
+      <geom name="bottom_collision" class="frame" pos="0.021945 0 0.0018865" size="0.07469 0.070686 0.0018865" />
+      <geom name="left_collision" class="frame" pos="0.021945 0.070266 0.06468" size="0.07469 0.0004235 0.06468" />
+      <geom name="right_collision" class="frame" pos="0.021945 -0.070266 0.06468" size="0.07469 0.0004235 0.06468" />
+      <geom name="back_collision" class="frame" pos="0.094598 0 0.06468" size="0.0021945 0.070686 0.06468" />
+      <geom name="shelf_collision" class="frame" pos="0.019635 0 0.086856" size="0.07238 0.069839 0.0018095" />
+      <body name="link_drawer">
+        <inertial pos="0.0154 0 0.10395" mass="0.1" diaginertia="0.00015 0.0002 0.0003" />
+        <joint name="joint_drawer" type="slide" axis="-1 0 0" range="0 0.115" damping="3.5" frictionloss="0.15" />
+        <geom name="drawer_front_visual" type="mesh" mesh="drawer_front" material="drawer_front" group="2" contype="0" conaffinity="0" density="0" />
+        <geom name="tray_bottom_visual" class="tray_visual" pos="0.01694 0 0.089397" size="0.069685 0.06776 0.0005775" />
+        <geom name="tray_left_visual" class="tray_visual" pos="0.01694 0.067182 0.1078" size="0.069685 0.0005775 0.017902" />
+        <geom name="tray_right_visual" class="tray_visual" pos="0.01694 -0.067182 0.1078" size="0.069685 0.0005775 0.017902" />
+        <geom name="tray_back_visual" class="tray_visual" pos="0.086051 0 0.1078" size="0.0005775 0.06776 0.017902" />
+        <geom name="front_collision" class="frame" pos="-0.055633 0 0.10665" size="0.0028875 0.067375 0.02002" />
+        <geom name="tray_bottom_collision" class="frame" pos="0.01694 0 0.089397" size="0.069685 0.06776 0.0005775" />
+        <geom name="tray_left_collision" class="frame" pos="0.01694 0.067182 0.1078" size="0.069685 0.0005775 0.017902" />
+        <geom name="tray_right_collision" class="frame" pos="0.01694 -0.067182 0.1078" size="0.069685 0.0005775 0.017902" />
+        <geom name="tray_back_collision" class="frame" pos="0.086051 0 0.1078" size="0.0005775 0.06776 0.017902" />
+        <geom name="strap_collision" class="frame" pos="-0.062177 0.010665 0.10649" size="0.0032725 0.02618 0.013667" friction="3.0 0.1 0.01" priority="2" />
+        <geom name="tab_collision" class="frame" pos="-0.081123 -0.006622 0.10684" size="0.015669 0.0079695 0.014322" friction="3.0 0.1 0.01" priority="2" />
+        <geom name="place:inside" class="place" type="box" pos="0.01694 0 0.10761" size="0.067375 0.06545 0.017325" />
+      </body>
+      <geom name="place:top" class="place" type="box" pos="0.021945 0 0.13321" size="0.07469 0.070686 0.00385" />
+      <geom name="place:bounds" class="place" type="box" pos="0 0 0.06468" size="0.096789 0.070686 0.06468" />
+    </body>
+  </worldbody>
+</mujoco>

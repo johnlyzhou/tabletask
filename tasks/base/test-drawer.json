@@ -1,0 +1,10 @@
+{
+  "id": "test-drawer",
+  "instruction": "Open the drawer.",
+  "objects": {"drawer": {"asset": "white_drawer", "sample": {"rel": "table/top", "offset": [0.08, 0.0, 0.0], "jitter": {"xy": [0.05, 0.22], "yaw": 20}}, "fixed": true}},
+  "start": [
+    ["on", "drawer", "table"],
+    ["closed", "drawer/joint_drawer"]
+  ],
+  "goal": {"stages": {"open": {"condition": ["open", "drawer/joint_drawer"], "held": true}}}
+}
