@@ -138,7 +138,7 @@ def main(argv=None):
 
     out = Path(args.out or Path("build/pi") / datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ"))
     policy = Pi(args.host, args.port, args.chunk)
-    env = tabletask.make(args.task).add(Droid(action_space="joint_position"))
+    env = tabletask.make(args.task, robot=Droid(action_space="joint_position"))
     played = []
     try:
         for episode in range(args.first, args.first + args.episodes):

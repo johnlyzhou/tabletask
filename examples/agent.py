@@ -259,7 +259,7 @@ def main():
             parser.error("API key cannot be empty")
         args["api_key"] = api_key
     task, episode = args.pop("task"), args.pop("episode")
-    env = tabletask.make(task).add(Droid(action_space="cartesian_pose"))
+    env = tabletask.make(task, robot=Droid(action_space="cartesian_pose"))
     env.reset(episode)
     try:
         print(json.dumps(run(env, **args), indent=2))

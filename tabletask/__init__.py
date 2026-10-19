@@ -35,7 +35,7 @@ def make(
     source,
     *,
     num_envs=None,
-    robot=None,
+    robot="droid",
     gpus=None,
     renderer=None,
     scene=None,
@@ -49,8 +49,7 @@ def make(
         source: A task id from `tasks()`, a path to a task file, a JSON string, or a dict.
         num_envs: If given, make this many environments, each in its own process, and
             return them as one `Envs`.
-        robot: With `num_envs`, the robot each environment gets (an `Env` takes one with
-            `.add(...)` instead).
+        robot: The robot that acts in the scene: "droid", "gripper", a `Robot`, or None.
         gpus: With `num_envs`, CUDA GPU indices the environments render on, in turn.
         renderer: None to rasterise images, or "rtx" to path-trace them.
         scene: A scene XML file to use in place of the task's own.
@@ -59,8 +58,7 @@ def make(
         backend: The simulator; only "mujoco" is provided.
 
     Returns:
-        An `Env` (add a robot with `.add(...)`, then call `reset()`), or with `num_envs`
-        an `Envs`, ready to `reset()`.
+        An `Env`, or with `num_envs` an `Envs`, ready to `reset()`.
     """
     if num_envs is not None:
         return Envs(
@@ -74,11 +72,22 @@ def make(
             monitor_interval=monitor_interval,
             backend=backend,
         )
-    if robot is not None or gpus is not None:
-        raise ValueError("robot and gpus go with num_envs; a single Env takes a robot with .add()")
+    if gpus is not None:
+        raise ValueError("gpus go with num_envs")
     env = Env(load(source), scene, bindings, monitor_interval=monitor_interval, backend=backend)
     env.renderer = renderer
-    return env
+    if isinstance(robot, str):
+        robot = _robot(robot)
+    return env if robot is None else env.add(robot)
+
+
+def _robot(name):
+    from . import robots
+
+    names = {"droid": "Droid", "gripper": "Gripper"}
+    if name not in names:
+        raise ValueError(f"unknown robot {name!r}; choose from {sorted(names)}")
+    return getattr(robots, names[name])()
 
 
 def preview(source, samples=10, out=None, **kwargs):

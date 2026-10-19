@@ -316,7 +316,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
 
     robot = Gripper() if args.robot == "gripper" else Droid(action_space="cartesian_pose")
-    env = tabletask.make(args.task).add(robot)
+    env = tabletask.make(args.task, robot=robot)
     env.reset(args.episode)
     try:
         teleoperate(

@@ -63,9 +63,7 @@ def _trim_memory() -> None:
 def _worker(pipe, source, robot, options) -> None:
     from . import make
 
-    env = make(source, **options)
-    if robot is not None:
-        env.add(robot)
+    env = make(source, robot=robot, **options)
     try:
         while True:
             command, data = pipe.recv()
@@ -130,13 +128,13 @@ class Envs:
     Args:
         source: The task, as `make` accepts it (a task id, file, JSON string or dict).
         num_envs: How many environments to run.
-        robot: The robot each environment gets, or None for none.
+        robot: The robot each environment gets, as `make` accepts it.
         gpus: CUDA GPU indices to render on, one per worker in turn; None renders on
             whatever MUJOCO_EGL_DEVICE_ID or the driver chooses.
         **options: Passed to `make` (`renderer`, `scene`, `bindings`, ...).
     """
 
-    def __init__(self, source, num_envs: int, *, robot=None, gpus=None, **options):
+    def __init__(self, source, num_envs: int, *, robot="droid", gpus=None, **options):
         if not isinstance(num_envs, int) or num_envs < 1:
             raise ValueError("num_envs must be a positive integer")
         self.num_envs = num_envs

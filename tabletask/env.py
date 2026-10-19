@@ -15,7 +15,7 @@ from .sampling import build
 class Env:
     """An episode of a task, with `reset` and `step` shaped like Gymnasium's.
 
-    Make one with `tabletask.make(...)`, add a robot, then `reset()` and `step()`.
+    Make one with `tabletask.make(...)`, then `reset()` and `step()`.
 
     Attributes:
         task: The concrete task of the current episode (the template before `reset`).

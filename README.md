@@ -38,9 +38,8 @@ pip install "tabletask[rtx]"
 
 ```python
 import tabletask
-from tabletask.robots import Droid
 
-env = tabletask.make("robolab-banana_in_bowl").add(Droid())
+env = tabletask.make("robolab-banana_in_bowl")
 obs, info = env.reset(seed=0)
 
 for _ in range(600):
@@ -56,7 +55,7 @@ env.close()
 Several environments at once, each in its own process and renderer:
 
 ```python
-envs = tabletask.make("robolab-banana_in_bowl", num_envs=8, robot=Droid(), gpus=[0])
+envs = tabletask.make("robolab-banana_in_bowl", num_envs=8, gpus=[0])
 observations, infos = envs.reset(episodes=range(8))
 observations, rewards, terminated, truncated, infos = envs.step(actions)
 envs.close()

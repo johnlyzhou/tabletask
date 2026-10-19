@@ -81,7 +81,7 @@ def make_renderer(model, width: int, height: int) -> mujoco.Renderer:
 
 
 def camera_view(runtime, camera, azimuth=AZIMUTH, elevation=ELEVATION, focus=None):
-    """The named model camera, a given free camera, or an `orbit` view when it is None or not in the model."""
+    """The named model camera, a given free camera, or an `orbit` view if neither applies."""
     if isinstance(camera, mujoco.MjvCamera):
         return camera
     camera_id = (

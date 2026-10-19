@@ -73,7 +73,7 @@ import tabletask
 from tabletask.robots import Droid
 from examples.agent import run
 
-env = tabletask.make("robolab-cube_in_the_bowl").add(Droid(action_space="cartesian_pose"))
+env = tabletask.make("robolab-cube_in_the_bowl", robot=Droid(action_space="cartesian_pose"))
 env.reset(0)
 
 try:
@@ -281,7 +281,7 @@ import tabletask
 from tabletask.robots import Droid
 from examples.teleop import teleoperate
 
-env = tabletask.make("robolab-banana_in_bowl").add(Droid(action_space="cartesian_pose"))
+env = tabletask.make("robolab-banana_in_bowl", robot=Droid(action_space="cartesian_pose"))
 env.reset(6)
 try:
     solved, played = teleoperate(env, scale=2.0)
