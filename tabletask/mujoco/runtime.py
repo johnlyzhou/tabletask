@@ -326,6 +326,11 @@ class Runtime:
         self.data.qvel[self.model.jnt_dofadr[jid]] = 0
         self.refresh()
 
+    @property
+    def path_traced(self) -> bool:
+        """Whether pictures are path-traced by RTX rather than rasterised."""
+        return self._rtx is not None
+
     def use_rtx(self, width: int = 960, height: int = 540, *, session=None) -> bool:
         """Switch to RTX path tracing; warn and keep rasterising if unavailable.
 
@@ -340,7 +345,7 @@ class Runtime:
         self, camera=DEFAULT_CAMERA, width: int = 960, height: int = 540, **kwargs
     ) -> np.ndarray:
         """Render the current state; extra keyword arguments go to the renderer in use."""
-        camera = self.camera(camera) if camera else camera
+        camera = self.camera(camera) if isinstance(camera, str) else camera
         if self._rtx is not None:
             try:
                 return self._rtx.frame(camera, width, height, **kwargs)

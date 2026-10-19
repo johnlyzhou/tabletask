@@ -81,7 +81,9 @@ def make_renderer(model, width: int, height: int) -> mujoco.Renderer:
 
 
 def camera_view(runtime, camera, azimuth=AZIMUTH, elevation=ELEVATION, focus=None):
-    """The named model camera, or an `orbit` view when it is None or not in the model."""
+    """The named model camera, a given free camera, or an `orbit` view when it is None or not in the model."""
+    if isinstance(camera, mujoco.MjvCamera):
+        return camera
     camera_id = (
         -1
         if camera is None
@@ -110,7 +112,8 @@ def scene_options(runtime, regions=False, collision=False, focus=None):
 
     Args:
         runtime: The `Runtime` to render.
-        regions: True to highlight every region, or an iterable of region names.
+        regions: True to highlight every region, an iterable of region names, or a dict
+            from region names to the RGBA colour each is painted.
         collision: Show collision geoms (meshes as convex hulls) instead of visual geoms.
         focus: Object name or names to colour per convex piece in the collision view.
     """
@@ -139,12 +142,17 @@ def scene_options(runtime, regions=False, collision=False, focus=None):
                     )
         if regions:
             options.geomgroup[REGION_GROUP] = 1
-            chosen = None if regions is True else {runtime.region(name) for name in regions}
+            colours = regions if isinstance(regions, dict) else {}
+            chosen = (
+                None
+                if regions is True
+                else {runtime.region(name): colours.get(name, REGION_RGBA) for name in regions}
+            )
             for gid in range(runtime.model.ngeom):
                 if runtime.model.geom_group[gid] == REGION_GROUP and (
                     chosen is None or gid in chosen
                 ):
-                    runtime.model.geom_rgba[gid] = REGION_RGBA
+                    runtime.model.geom_rgba[gid] = REGION_RGBA if chosen is None else chosen[gid]
         yield options
     finally:
         if saved_rgba is not None:
@@ -168,7 +176,8 @@ def frame(
         runtime: The `Runtime` to render.
         width: Image width in pixels.
         height: Image height in pixels.
-        camera: Model camera name; None (or an unknown name) uses an orbit view.
+        camera: Model camera name or a free `mujoco.MjvCamera`; None (or an unknown name)
+            uses an orbit view.
         azimuth: Orbit azimuth in degrees.
         elevation: Orbit elevation in degrees.
         regions: True to paint every region translucent blue, or an iterable of region names.

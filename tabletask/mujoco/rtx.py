@@ -225,19 +225,22 @@ class Renderer:
         azimuth=AZIMUTH,
         elevation=ELEVATION,
         regions=False,
+        collision=False,
         focus=None,
         skybox=None,
     ):
         """Render one path-traced RGB frame.
 
         Args:
-            camera: Model camera name; None or an unknown name uses an orbit view.
+            camera: Model camera name or a free `mujoco.MjvCamera`; None or an unknown
+                name uses an orbit view.
             width: Image width in pixels; defaults to the last width used.
             height: Image height in pixels; defaults to the last height used.
             samples: Number of path-tracing steps to accumulate.
             azimuth: Orbit-view azimuth, in degrees.
             elevation: Orbit-view elevation, in degrees.
-            regions: True to highlight every region, or an iterable of region names.
+            regions: As in `scene_options`.
+            collision: Show the collision geoms instead of the visual ones.
             focus: Object name or names the orbit view frames.
             skybox: Sky image path; None uses the scene's own sky and False uses none.
                 An explicit sky hides the floor geom.
@@ -270,7 +273,7 @@ class Renderer:
         try:
             if skybox and custom_sky and floor >= 0:
                 self.runtime.model.geom_rgba[floor, 3] = 0
-            with scene_options(self.runtime, regions) as options:
+            with scene_options(self.runtime, regions, collision, focus) as options:
                 scene = self._scene.stage(
                     camera, options, azimuth, elevation, focus, skybox, width, height
                 )
@@ -278,7 +281,7 @@ class Renderer:
             if rgba is not None:
                 self.runtime.model.geom_rgba[floor] = rgba
         if self._live is not None:
-            self._sync(scene, regions, skybox)
+            self._sync(scene, (regions, collision), skybox)
         else:
             self._rtx.open_usd_from_string(scene.GetRootLayer().ExportToString())
         for _ in range(samples):
