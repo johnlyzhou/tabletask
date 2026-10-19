@@ -1,5 +1,5 @@
 {
-  "id": "test-drawer",
+  "id": "john_drawer",
   "instruction": "Open the drawer.",
   "objects": {"drawer": {"asset": "white_drawer", "sample": {"rel": "table/top", "offset": [0.08, 0.0, 0.0], "jitter": {"xy": [0.05, 0.22], "yaw": 20}}, "fixed": true}},
   "start": [
