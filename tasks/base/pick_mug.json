@@ -5,5 +5,5 @@
   "start": [
     ["on", "mug", "table"]
   ],
-  "goal": {"stages": {"lifted": {"condition": ["lifted", "mug", 0.02, "table"], "hold": 0.5}}}
+  "goal": {"stages": {"lifted": {"condition": ["lifted", "mug", 0.02, "table"], "hold": 0.5, "held": true}}}
 }
