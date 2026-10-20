@@ -17,6 +17,7 @@ from .appearance import apply_appearance
 from .render import bounds
 
 PLACE_CLASS = "place"  # MJCF default class of region geoms
+QUARTER_TURN = 1e-6  # how far a rotation matrix entry may be from 0 or 1 for a quarter turn
 STAGING_HEIGHT = 5.0  # height at which object bodies are created before placement, metres
 
 
@@ -25,7 +26,8 @@ def mjcf(task: Task, rng=None, robot=None) -> str:
 
     Args:
         task: The task whose scene and objects to assemble.
-        rng: Random generator for appearance; None leaves the scene's textures as is.
+        rng: Random generator for appearance and object scales; None leaves the scene's
+            textures as is and gives each scale range its middle.
         robot: Optional robot to attach to the scene.
 
     Returns:
@@ -54,7 +56,153 @@ def mjcf(task: Task, rng=None, robot=None) -> str:
         world.append(_body(name, obj))
     if robot is not None:
         robot.attach(mj)
-    return ET.tostring(mj, encoding="unicode")
+    text = ET.tostring(mj, encoding="unicode")
+    scaled = {name: obj.scale for name, obj in task.scene.objects.items() if obj.scale != 1}
+    if not scaled:
+        return text
+    # Scales get their own stream, drawn from only by tasks that scale an object.
+    sizes = np.random.default_rng(int(rng.integers(2**63))) if rng is not None else None
+    spec = mujoco.MjSpec.from_string(text)
+    for name, scale in scaled.items():
+        scale_object(spec, name, draw_scale(scale, sizes))
+    spec.compile()
+    _absolute_files(spec, mj)
+    return spec.to_xml()
+
+
+def _absolute_files(spec: mujoco.MjSpec, mj: ET.Element) -> None:
+    """Point attached models' files at absolute paths, which the spec's flat XML needs."""
+    models = {m.get("name"): Path(m.get("file")) for m in mj.find("asset").findall("model")}
+    folders = {}
+    for attach in mj.iter("attach"):
+        path = models[attach.get("model")]
+        compiler = ET.parse(path).getroot().find("compiler")
+        folders[attach.get("prefix")] = (path.parent, fetching.asset_dirs(compiler))
+    for kind, elements in (("mesh", spec.meshes), ("texture", spec.textures)):
+        for element in elements:
+            prefix = element.name.split("/")[0] + "/"
+            if element.file and prefix in folders and not Path(element.file).is_absolute():
+                base, dirs = folders[prefix]
+                element.file = str((base / dirs[kind] / element.file).resolve())
+
+
+def draw_scale(scale, rng=None) -> np.ndarray:
+    """An object's scale along x, y and z, drawn from its ranges (their middle without `rng`).
+
+    Args:
+        scale: A factor, a `[low, high]` range for one factor on every axis, or three
+            entries, one per axis, each a factor or a `[low, high]` range.
+        rng: Random generator, or None.
+    """
+
+    def pick(value) -> float:
+        if not isinstance(value, list):
+            return float(value)
+        low, high = value
+        return float(rng.uniform(low, high)) if rng is not None else (low + high) / 2
+
+    if not isinstance(scale, list):
+        return np.full(3, float(scale))
+    if len(scale) == 2:
+        return np.full(3, pick(scale))
+    return np.array([pick(value) for value in scale])
+
+
+def scale_object(spec: mujoco.MjSpec, name: str, scale: np.ndarray) -> None:
+    """Scale a task object along its own x, y and z axes: meshes, shapes, frames and masses.
+
+    Raises:
+        ValueError: If an uneven scale meets a part turned by other than quarter turns, or a
+            round shape it would make oval.
+    """
+    even = np.ptp(scale) < 1e-12
+    degrees = bool(spec.compiler.degree)
+    sequence = "".join(spec.compiler.eulerseq) or "xyz"
+    volume = float(np.prod(scale))
+
+    def along(rotation: np.ndarray, what: str) -> np.ndarray:
+        turns = np.abs(rotation)
+        if not even and not np.allclose(turns, np.round(turns), atol=QUARTER_TURN):
+            raise ValueError(f"{name}: {what} is turned by other than quarter turns")
+        return turns.T @ scale
+
+    def walk(body, frame: np.ndarray) -> None:
+        local = along(frame, f"body {body.name!r}")
+        for geom in body.geoms:
+            geom.pos = geom.pos * local
+            own = along(frame @ _rotation(geom, degrees, sequence), f"geom {geom.name!r}")
+            _scale_shape(spec, geom, own, even, name)
+            if geom.mass > 0:
+                geom.mass *= volume
+        for site in body.sites:
+            site.pos = site.pos * local
+        for joint in body.joints:
+            joint.pos = joint.pos * local
+            if joint.type == mujoco.mjtJoint.mjJNT_SLIDE:
+                joint.range = joint.range * float(
+                    np.abs(joint.axis) @ local / np.linalg.norm(joint.axis)
+                )
+        if body.explicitinertial:
+            body.ipos = body.ipos * local
+            widths = along(frame @ _matrix(body.iquat), f"body {body.name!r} inertia")
+            squares = np.maximum(6 / body.mass * (body.inertia.sum() - 2 * body.inertia), 0)
+            body.mass *= volume
+            squares *= widths**2
+            body.inertia = body.mass / 12 * (squares.sum() - squares)
+        for child in body.bodies:
+            child.pos = child.pos * local
+            walk(child, frame @ _rotation(child, degrees, sequence))
+
+    walk(spec.body(name), np.eye(3))
+
+
+def _scale_shape(spec, geom, own: np.ndarray, even: bool, name: str) -> None:
+    """Scale a geom's mesh or primitive size along its own axes."""
+    if geom.type == mujoco.mjtGeom.mjGEOM_MESH:
+        mesh = spec.mesh(geom.meshname)
+        turns = np.abs(_matrix(mesh.refquat))
+        if not even and not np.allclose(turns, np.round(turns), atol=QUARTER_TURN):
+            raise ValueError(f"{name}: mesh {mesh.name!r} is turned by other than quarter turns")
+        mesh.scale = mesh.scale * (turns.T @ own)
+        return
+    if not np.isnan(geom.fromto[0]):
+        raise ValueError(f"{name}: geom {geom.name!r} is placed by fromto")
+    size = np.array(geom.size)
+    if geom.type in (mujoco.mjtGeom.mjGEOM_BOX, mujoco.mjtGeom.mjGEOM_ELLIPSOID):
+        size *= own
+    elif geom.type in (mujoco.mjtGeom.mjGEOM_CYLINDER, mujoco.mjtGeom.mjGEOM_CAPSULE):
+        if not even and abs(own[0] - own[1]) > 1e-12:
+            raise ValueError(f"{name}: geom {geom.name!r} would turn oval")
+        size[:2] *= own[[0, 2]]
+    elif geom.type == mujoco.mjtGeom.mjGEOM_SPHERE:
+        if not even:
+            raise ValueError(f"{name}: geom {geom.name!r} is a sphere")
+        size[0] *= own[0]
+    geom.size = size
+
+
+def _rotation(element, degrees: bool, sequence: str) -> np.ndarray:
+    """An element's rotation matrix relative to its parent, from its quat or euler angles."""
+    alt = element.alt
+    if alt.type == mujoco.mjtOrientation.mjORIENTATION_EULER:
+        quat = np.zeros(4)
+        mujoco.mju_euler2Quat(quat, np.radians(alt.euler) if degrees else alt.euler, sequence)
+        return _matrix(quat)
+    if alt.type == mujoco.mjtOrientation.mjORIENTATION_AXISANGLE:
+        quat = np.zeros(4)
+        angle = np.radians(alt.axisangle[3]) if degrees else alt.axisangle[3]
+        mujoco.mju_axisAngle2Quat(
+            quat, alt.axisangle[:3] / np.linalg.norm(alt.axisangle[:3]), angle
+        )
+        return _matrix(quat)
+    return _matrix(element.quat)
+
+
+def _matrix(quat) -> np.ndarray:
+    """The rotation matrix of a (w, x, y, z) quaternion, which need not be normalized."""
+    matrix = np.zeros(9)
+    mujoco.mju_quat2Mat(matrix, np.asarray(quat, dtype=float) / np.linalg.norm(quat))
+    return matrix.reshape(3, 3)
 
 
 def _exclude_joint_parent_contacts(mj: ET.Element, name: str, path: Path) -> None:

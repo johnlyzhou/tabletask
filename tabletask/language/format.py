@@ -77,6 +77,7 @@ class ObjectDocument(msgspec.Struct, forbid_unknown_fields=True):
     properties: dict[str, Any] = {}
     fixed: bool = False
     count: int | tuple[int, int] = 1
+    scale: float | list[float | list[float]] = 1.0
     sample: schema.Frame | str | None = None
     regions: dict[str, schema.Region] = {}
 
@@ -375,6 +376,7 @@ def _parse_objects(document: Document, entries: dict[str, ObjectDocument]) -> di
         bounds = (count, count) if isinstance(count, int) else count
         if bounds[0] < 1 or bounds[1] < bounds[0]:
             raise ValueError(f"{name}: count must be positive and ordered")
+        _check_scale(name, entry.scale)
         asset = document.assets.get(name, entry.asset)
         if asset and not Path(asset).suffix:
             asset = f"{document.library}/objects/{asset}.xml"
@@ -386,9 +388,26 @@ def _parse_objects(document: Document, entries: dict[str, ObjectDocument]) -> di
             "properties": entry.properties,
             "fixed": entry.fixed,
             "count": entry.count,
+            "scale": entry.scale,
             "regions": msgspec.to_builtins(entry.regions),
         }
     return objects
+
+
+def _check_scale(name: str, scale) -> None:
+    """Reject a scale that is not a factor, a `[low, high]` range, or one of either per axis."""
+    if not isinstance(scale, list):
+        ranges = [[scale, scale]]
+    elif len(scale) == 2 and not any(isinstance(entry, list) for entry in scale):
+        ranges = [scale]
+    elif len(scale) == 3:
+        ranges = [entry if isinstance(entry, list) else [entry, entry] for entry in scale]
+    else:
+        ranges = []
+    if not ranges or any(len(r) != 2 or not 0 < r[0] <= r[1] for r in ranges):
+        raise ValueError(
+            f"{name}: scale is a positive factor, a [low, high] range, or one of either per axis"
+        )
 
 
 def _parse_start(

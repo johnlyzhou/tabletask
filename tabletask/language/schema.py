@@ -120,6 +120,7 @@ class Object(msgspec.Struct, omit_defaults=True):
     properties: dict[str, Any] = {}
     fixed: bool = False
     count: int | tuple[int, int] = 1
+    scale: float | list[float | list[float]] = 1.0  # see `mujoco.model.draw_scale`
 
 
 class Stage(msgspec.Struct, omit_defaults=True):
