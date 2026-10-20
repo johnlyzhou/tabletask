@@ -38,6 +38,7 @@ def make(
     robot="droid",
     gpus=None,
     renderer=None,
+    reward="success",
     scene=None,
     bindings=None,
     monitor_interval=0.01,
@@ -52,6 +53,7 @@ def make(
         robot: The robot that acts in the scene: "droid", "gripper", a `Robot`, or None.
         gpus: With `num_envs`, CUDA GPU indices the environments render on, in turn.
         renderer: None to rasterise images, or "rtx" to path-trace them.
+        reward: "success" for 1.0 on success, or "subtasks" for 1.0 at each new milestone.
         scene: A scene XML file to use in place of the task's own.
         bindings: Assets for abstract objects, as {name: {"asset": path, "properties": {...}}}.
         monitor_interval: How often, in simulated seconds, task conditions are checked.
@@ -67,6 +69,7 @@ def make(
             robot=robot,
             gpus=gpus,
             renderer=renderer,
+            reward=reward,
             scene=scene,
             bindings=bindings,
             monitor_interval=monitor_interval,
@@ -76,6 +79,7 @@ def make(
         raise ValueError("gpus go with num_envs")
     env = Env(load(source), scene, bindings, monitor_interval=monitor_interval, backend=backend)
     env.renderer = renderer
+    env.reward = reward
     if isinstance(robot, str):
         robot = _robot(robot)
     return env if robot is None else env.add(robot)

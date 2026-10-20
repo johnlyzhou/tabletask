@@ -26,6 +26,7 @@ class Env:
         end_on_fall: Whether an object falling off the table ends the episode.
         image_size: Observation image size as (width, height).
         renderer: None to rasterise images, or "rtx" to path-trace them.
+        reward: "success" or "subtasks", as `step` describes.
     """
 
     def __init__(
@@ -45,6 +46,7 @@ class Env:
         self.end_on_fall = True
         self.image_size = (640, 368)  # 16:9, the shape of DROID's camera frames
         self.renderer = None
+        self.reward = "success"
 
     @property
     def monitor_interval(self) -> float:
@@ -84,6 +86,8 @@ class Env:
         """
         if self.renderer not in (None, "rtx"):
             raise ValueError(f"unknown renderer {self.renderer!r}; use None or 'rtx'")
+        if self.reward not in ("success", "subtasks"):
+            raise ValueError(f"unknown reward {self.reward!r}; use 'success' or 'subtasks'")
         self.close()
         episode = episode if seed is None else seed
         if self.robot is not None and hasattr(self.robot, "start_pose"):
@@ -103,6 +107,7 @@ class Env:
                 self.runtime.use_rtx(*self.image_size)
             self.monitor = Monitor(self.task)
             self.status = self.monitor.reset(self.runtime)
+            self._best = self.status.progress
             return self.observe(), self._info()
         except BaseException:
             self.close()
@@ -120,8 +125,10 @@ class Env:
 
         Returns:
             (observation, reward, terminated, truncated, info). The reward is 1.0 once
-            the task has succeeded. An episode terminates on success or on a broken
-            always condition, and is truncated at the task's `time_limit`, if it has one.
+            the task has succeeded; with `reward` set to "subtasks", it is 1.0 at each step
+            that first reaches a new milestone (see `Monitor`), and never paid twice. An
+            episode terminates on success or on a broken always condition, and is truncated
+            at the task's `time_limit`, if it has one.
         """
         self._require_reset()
         if self.robot is None and action is not None:
@@ -147,7 +154,11 @@ class Env:
         succeeded = self.status.succeeded(self.task)
         terminated = succeeded or bool(self.status.violated)
         truncated = bool(self.status.timed_out)
-        return self.observe(), float(succeeded), terminated, truncated, self._info()
+        reward = float(succeeded)
+        if self.reward == "subtasks":
+            reward = float(max(self.status.progress - self._best, 0))
+            self._best = max(self._best, self.status.progress)
+        return self.observe(), reward, terminated, truncated, self._info()
 
     def _info(self) -> dict:
         return {

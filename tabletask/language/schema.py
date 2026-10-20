@@ -186,6 +186,7 @@ class Task(msgspec.Struct, omit_defaults=True):
     states: dict[str, dict[str, Any]] = {}
     time_limit: float | None = None
     source: Any = msgspec.field(default=None, name="__source__")
+    milestones: dict[str, Any] = msgspec.field(default_factory=dict, name="__milestones__")
 
     @property
     def root(self) -> Path:

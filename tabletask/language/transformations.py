@@ -153,6 +153,12 @@ def inline(task: Task) -> Task:
 
 
 def _expand_definitions(task: Task, words: dict) -> Task:
+    return _transform_conditions(task, _definitions(words))
+
+
+def _definitions(words: dict):
+    """A function that expands the given words in a condition."""
+
     def fill(node, bindings):
         if isinstance(node, str):
             if node in bindings:
@@ -201,11 +207,16 @@ def _expand_definitions(task: Task, words: dict) -> Task:
             return {name: [args[0], walk(args[1]), *args[2:]]}
         return {name: [walk(a) for a in args]}
 
-    return _transform_conditions(task, walk)
+    return walk
 
 
 def expand(task: Task) -> Task:
     """Expand `#tag` groups and quantifiers into conditions on named objects."""
+    return _transform_conditions(task, _quantifiers(task))
+
+
+def _quantifiers(task: Task):
+    """A function that expands a task's `#tag` groups and quantifiers in a condition."""
 
     def rename(node, names: dict):
         if isinstance(node, str):
@@ -249,10 +260,27 @@ def expand(task: Task) -> Task:
             return {name: walk(args)}
         return {name: [members(a) if str(a).startswith("#") else walk(a) for a in args]}
 
-    return _transform_conditions(task, walk)
+    return walk
 
 
 def concrete(task: Task) -> Task:
-    """Groups, quantifiers and defined words all expanded, ready to evaluate."""
+    """Groups, quantifiers and defined words all expanded, ready to evaluate.
+
+    The stage conditions as they were before their words were expanded are kept in
+    `milestones`, for counting progress.
+    """
+    grouped = expand(task)
     # expand again after inlining: a defined word's body can hold quantifiers too
-    return expand(inline(expand(task)))
+    result = expand(inline(grouped))
+    if not result.milestones:
+        result.milestones = {name: s.condition for name, s in grouped.goal.stages.items()}
+    return result
+
+
+def concrete_condition(task: Task, condition):
+    """One of a task's conditions expanded as `concrete` expands the task's own."""
+    grow = _quantifiers(task)
+    condition = grow(condition)
+    if task.states:
+        condition = _definitions(task.states)(condition)
+    return grow(_definitions(VOCABULARY)(condition))

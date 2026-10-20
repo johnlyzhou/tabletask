@@ -8,7 +8,7 @@ from dataclasses import dataclass, field
 from .evaluation import evaluate, observe_history, unpack_expression
 from .modules import require_capabilities
 from .schema import Task
-from .transformations import concrete
+from .transformations import concrete, concrete_condition
 from .vocabulary import CONNECTIVES
 
 # An object that moved more than this between two checks is still moving.
@@ -24,6 +24,7 @@ class Status:
     done: list[str] = field(default_factory=list)
     violated: str = ""
     timed_out: bool = False
+    progress: int = 0
 
     @property
     def failed(self) -> bool:
@@ -57,11 +58,52 @@ def _placed_in(tree) -> list[str]:
     return [args[0]] if isinstance(args[0], str) else []
 
 
+def _milestones(tree, task: Task):
+    """A condition as the milestones it counts: its words, joined as the goal joins them."""
+    name, args = unpack_expression(tree)
+    if name == "and":
+        return ("all", [_milestones(a, task) for a in args])
+    if name == "or":
+        return ("any", [_milestones(a, task) for a in args])
+    if name in ("at_least", "between") and isinstance(args[0], dict) and "tally" in args[0]:
+        _, (parts,) = unpack_expression(args[0])
+        return ("count", [_milestones(p, task) for p in parts], int(args[1]))
+    placed = {n.split("/")[0] for n in _placed_in(tree)}
+    return ("word", concrete_condition(task, tree), placed)
+
+
+def _most(node) -> int:
+    """How many milestones a node counts in all."""
+    if node[0] == "all":
+        return sum(_most(n) for n in node[1])
+    if node[0] == "any":
+        return max((_most(n) for n in node[1]), default=0)
+    if node[0] == "count":
+        return node[2]
+    return 1
+
+
+def _reached(node, state, history, handled) -> int:
+    """How many of a node's milestones hold now, with none of their objects handled."""
+    if node[0] == "all":
+        return sum(_reached(n, state, history, handled) for n in node[1])
+    if node[0] == "any":
+        return max((_reached(n, state, history, handled) for n in node[1]), default=0)
+    if node[0] == "count":
+        return min(sum(_reached(n, state, history, handled) for n in node[1]), node[2])
+    _, condition, placed = node
+    return int(not handled & placed and evaluate(condition, state, history))
+
+
 class Monitor:
     """Evaluates a concrete task's stages and always conditions as an episode runs.
 
     A stage completes once its condition has held for `hold` seconds while none of
     the objects it places is touched by the robot or still moving.
+
+    Progress counts the milestones reached the same way: each word of a stage's
+    condition, with `and` adding, `or` taking the best and `at_least` of a `tally`
+    counting up to its bound. Milestones that hold at the start count from the start.
     """
 
     def __init__(self, task: Task):
@@ -73,6 +115,10 @@ class Monitor:
         self._placed = {
             name: {n.split("/")[0] for n in _placed_in(stage.condition)}
             for name, stage in self.task.goal.stages.items()
+        }
+        self._milestones = {
+            name: _milestones(condition, self.task)
+            for name, condition in self.task.milestones.items()
         }
 
     def _moved(self, state) -> set[str]:
@@ -104,6 +150,7 @@ class Monitor:
         self.status = Status()
         self.history = {}
         self._held = dict.fromkeys(self.task.goal.stages, 0.0)
+        self._levels = {name: [math.inf] * _most(tree) for name, tree in self._milestones.items()}
         self._previous = dict.fromkeys(self.task.goal.stages, False)
         self._started = True
         self._finished_at = None
@@ -153,6 +200,7 @@ class Monitor:
             else:
                 self._held[name] = 0.0
             self._previous[name] = eligible and holding
+        self.status.progress = self._progress(state, dt, handled)
         if self.status.succeeded(self.task) and self._finished_at is None:
             self._finished_at = time
         if self.task.time_limit is not None and time > self.task.time_limit:
@@ -160,3 +208,26 @@ class Monitor:
                 self._finished_at is None or self._finished_at > self.task.time_limit
             )
         return self.status
+
+    def _progress(self, state, dt: float, handled: set) -> int:
+        """The milestones reached, each held for its stage's `hold` seconds."""
+        total = 0
+        for name, stage in self.task.goal.stages.items():
+            levels = self._levels[name]
+            if name in self.status.done:
+                total += len(levels)
+                continue
+            eligible = all(p in self.status.done for p in stage.after)
+            tree = self._milestones[name]
+            reached = (
+                _reached(tree, state, self.history, set() if stage.held else handled)
+                if eligible
+                else 0
+            )
+            for level, held in enumerate(levels):
+                if reached <= level:
+                    levels[level] = None
+                else:
+                    levels[level] = 0.0 if held is None else held + dt
+            total += sum(held is not None and held + 1e-9 >= stage.hold for held in levels)
+        return total
