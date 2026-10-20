@@ -46,6 +46,7 @@ class Droid(Robot):
         position: Arm base position (x, y, z) in the world frame, in metres. A base
             higher than 4 cm stands on a pedestal that reaches the floor.
         quaternion: Arm base orientation as a (w, x, y, z) quaternion.
+        home_noise: The most each arm joint starts away from home in an episode, radians.
 
     Raises:
         ValueError: If ``action_space`` is not one of the supported values.
@@ -64,7 +65,7 @@ class Droid(Robot):
         name="droid",
         position=(0.05, 0, 0.75),
         quaternion=(1, 0, 0, 0),
-        home_noise=0.0,
+        home_noise=0.2,
     ):
         super().__init__(name, position, quaternion)
         if action_space not in ("joint_position", "joint_delta", "cartesian_pose"):

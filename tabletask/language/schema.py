@@ -96,7 +96,7 @@ class Appearance(msgspec.Struct, omit_defaults=True):
     sky: str | None = None
     floor: bool = False
     repeat: tuple[float, float] = (2.0, 2.0)
-    table_height: float = 0.0  # metres: each episode raises or lowers the table by up to this much
+    table_height: float = 0.1  # metres: each episode raises or lowers the table by up to this much
 
 
 class Region(msgspec.Struct, omit_defaults=True):
