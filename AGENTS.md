@@ -212,7 +212,9 @@ follows the body. `then` is a goal shorthand for stages in sequence.
 ```
 
 An object declares `asset`, `fixed`, `count`, `tags`, `properties`, `sample` and
-`regions`. `count` is an integer or an inclusive range; copies are
+`regions`. `asset` may be a list, a pool: each copy draws a different asset from it.
+An instruction may name an object or copy, `{item1}`, to say its asset's label (or the
+asset's name with spaces). `count` is an integer or an inclusive range; copies are
 named `piece1`, `piece2`, ... (even when a range draws one) and keep the `piece` tag,
 so conditions refer to them all as `#piece`; a start such as `on piece table` places
 every copy (a counted object's start can only place it `on` or `inside` something and

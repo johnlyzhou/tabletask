@@ -72,7 +72,7 @@ class Document(msgspec.Struct, forbid_unknown_fields=True):
 class ObjectDocument(msgspec.Struct, forbid_unknown_fields=True):
     """An entry in a task file's `objects`."""
 
-    asset: str | None = None
+    asset: str | list[str] | None = None
     tags: list[str] = []
     properties: dict[str, Any] = {}
     fixed: bool = False
@@ -378,8 +378,12 @@ def _parse_objects(document: Document, entries: dict[str, ObjectDocument]) -> di
             raise ValueError(f"{name}: count must be positive and ordered")
         _check_scale(name, entry.scale)
         asset = document.assets.get(name, entry.asset)
-        if asset and not Path(asset).suffix:
-            asset = f"{document.library}/objects/{asset}.xml"
+        if isinstance(asset, list):
+            if len(asset) < bounds[1]:
+                raise ValueError(f"{name}: {len(asset)} assets cannot give {bounds[1]} copies")
+            asset = [_asset_path(document, a) for a in asset]
+        elif asset:
+            asset = _asset_path(document, asset)
         sample = msgspec.to_builtins(entry.sample) if entry.sample is not None else "table/top"
         objects[name] = {
             "sample": {"rel": sample} if isinstance(sample, str) else sample,
@@ -392,6 +396,11 @@ def _parse_objects(document: Document, entries: dict[str, ObjectDocument]) -> di
             "regions": msgspec.to_builtins(entry.regions),
         }
     return objects
+
+
+def _asset_path(document: Document, asset: str) -> str:
+    """An asset name resolved to its file in the task's library; a path stays as written."""
+    return asset if Path(asset).suffix else f"{document.library}/objects/{asset}.xml"
 
 
 def _check_scale(name: str, scale) -> None:

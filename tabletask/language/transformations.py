@@ -44,9 +44,11 @@ def multiply(task: Task, rng=None) -> Task:
     """Draw each object's count and make numbered copies tagged with its name.
 
     An object with a count other than 1 always becomes `name1`, `name2`, ..., even when
-    a range draws a single copy, so conditions can name the copies reliably.
+    a range draws a single copy, so conditions can name the copies reliably. An object
+    whose asset is a pool gives each copy a different asset drawn from it.
     """
-    if all(obj.count == 1 for obj in task.scene.objects.values()):
+    objects = task.scene.objects.values()
+    if all(obj.count == 1 and not isinstance(obj.asset, list) for obj in objects):
         return task
 
     def copies(record):
@@ -55,17 +57,28 @@ def multiply(task: Task, rng=None) -> Task:
             count = _sample_count(obj.count, rng)
             written = record["scene"]["objects"][name]
             written.pop("count", None)
+            assets = _draw_assets(obj.asset, count, rng)
             if obj.count == 1:
-                objects[name] = written
+                objects[name] = {**written, "asset": assets[0]}
                 continue
             for i in range(1, count + 1):
                 duplicate = copy.deepcopy(written)
+                duplicate["asset"] = assets[i - 1]
                 duplicate["tags"] = sorted({*duplicate.get("tags", []), name})
                 objects[f"{name}{i}"] = duplicate
         record["scene"]["objects"] = objects
         return record
 
     return transform_task(task, copies)
+
+
+def _draw_assets(asset, count: int, rng) -> list:
+    """Each copy's asset: a pool gives distinct assets in random order; one asset repeats."""
+    if not isinstance(asset, list):
+        return [asset] * count
+    if rng is None:
+        return asset[:count]
+    return [asset[i] for i in rng.choice(len(asset), count, replace=False)]
 
 
 def _sample_count(count, rng) -> int:

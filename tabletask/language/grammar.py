@@ -41,9 +41,21 @@ def check_task(task: Task) -> Task:
     task.goal.order()
     for text in _strings(msgspec.to_builtins(task, enc_hook=str)):
         for name in PLACEHOLDER.findall(text):
-            if name not in task.variables:
+            spoken = text == task.instruction and _names_object(task, name)
+            if name not in task.variables and not spoken:
                 raise ValueError(f"{task.id}: {{{name}}} is used but not declared in variables")
     return task
+
+
+def _names_object(task: Task, name: str) -> bool:
+    """Whether a name is one of the task's objects, or a copy `mug1` of a counted object."""
+    for obj_name, obj in task.scene.objects.items():
+        if name == obj_name:
+            return True
+        suffix = name[len(obj_name) :]
+        if obj.count != 1 and name.startswith(obj_name) and suffix.isdigit():
+            return True
+    return False
 
 
 def _check_states(task: Task) -> dict[str, dict]:

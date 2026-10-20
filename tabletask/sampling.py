@@ -12,6 +12,7 @@ from .language.format import load
 from .language.modules import require_capabilities
 from .language.schema import Task
 from .language.transformations import bind, concrete, draw, multiply, transform_task
+from .language.vocabulary import PLACEHOLDER
 
 BACKENDS = ("mujoco",)
 DRAWS = 12  # draws of the variables and counts per episode, each placed up to STARTS times
@@ -37,24 +38,47 @@ def labels(task: Task) -> dict[str, str]:
     """
     names = {}
     for name, obj in task.scene.objects.items():
-        names[name] = name.replace("_", " ")
-        if not obj.asset:
-            continue
-        try:
-            path = fetching.resolve(obj.asset, task.root)
-            label = ET.parse(path).getroot().find("custom/text[@name='label']")
-        except (OSError, ET.ParseError):
-            continue
-        if label is not None and label.get("data"):
-            names[name] = label.get("data")
+        names[name] = _asset_label(task, obj.asset) or name.replace("_", " ")
     return names
+
+
+def _asset_label(task: Task, asset) -> str | None:
+    """The label an asset file declares, if it names one."""
+    if not isinstance(asset, str):
+        return None
+    try:
+        path = fetching.resolve(asset, task.root)
+        label = ET.parse(path).getroot().find("custom/text[@name='label']")
+    except (OSError, ET.ParseError):
+        return None
+    return label.get("data") if label is not None and label.get("data") else None
+
+
+def _speak(task: Task) -> Task:
+    """Name objects in the instruction: `{mug1}` becomes its asset's label, or the asset's name."""
+    names = {
+        name: _asset_label(task, obj.asset) or Path(obj.asset).stem.replace("_", " ")
+        for name, obj in task.scene.objects.items()
+        if obj.asset
+    }
+    if not PLACEHOLDER.search(task.instruction):
+        return task
+    return transform_task(
+        task,
+        lambda record: {
+            **record,
+            "instruction": PLACEHOLDER.sub(
+                lambda m: names.get(m.group(1), m.group(0)), record["instruction"]
+            ),
+        },
+    )
 
 
 def _instantiate(task: Task, rng, bindings=None) -> Task:
     result = bind(task, draw(task, rng), labels(task))
     if bindings:  # before copies are made, so a counted object's copies share its binding
         result = _attach(result, bindings)
-    return concrete(multiply(result, rng))
+    return _speak(concrete(multiply(result, rng)))
 
 
 def _attach(task: Task, bindings: dict) -> Task:

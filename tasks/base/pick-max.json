@@ -1,0 +1,15 @@
+{
+  "id": "pick-max",
+  "instruction": "Pick up the {item1}.",
+  "objects": {
+    "item": {
+      "count": [1, 5],
+      "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}},
+      "asset": ["abc_bead", "abc_bolt", "abc_letter_a", "abc_letter_b", "abc_letter_c", "abc_letter_d", "abc_letter_e", "abc_letter_f", "abc_letter_g", "abc_letter_h", "abc_letter_i", "abc_letter_j", "abc_letter_k", "abc_letter_l", "abc_letter_m", "abc_letter_n", "abc_letter_o", "abc_letter_p", "abc_letter_q", "abc_letter_r", "abc_letter_s", "abc_letter_t", "abc_letter_u", "abc_letter_v", "abc_letter_w", "abc_letter_x", "abc_letter_y", "abc_letter_z", "abc_marker", "abc_mug", "abc_receiving_cup", "abc_throw_bottle", "abc_wood_arch", "abc_wood_cube", "alphabet_soup_can", "apple", "avocado", "baseball", "beige_stone", "big_fork", "big_spoon", "black_red_mouse", "blue_block", "blue_bowling_pin", "blue_die", "blue_dumbbell", "blue_race_car", "blue_screwdriver", "blue_soda_can", "bowling_pin", "canned_tuna", "cheez_it", "chocolate_chip_muffin", "corn", "cyan_headphones", "d_cell_battery", "golf_ball", "granola_bars", "green_battery", "green_block", "green_tennis_ball", "ivory_die", "kitchen_knife", "large_orange", "lemon", "lemon_fruit", "lime", "marker", "mustard", "oatmeal_raisin_cookies", "orange", "orange_battery", "orange_soda_can", "orange_tomato", "orange_toy_dinosaur", "orange_toy_truck", "pen_holder", "pill_bottle", "pink_cupcake", "pink_rock", "purple_mouse", "red_block", "red_bowling_pin", "red_die", "red_food_can", "red_knight", "red_onion", "red_pawn", "red_remote", "red_tomato", "rubiks_cube", "scallop_shell", "small_jug", "small_lemon", "small_white_bottle", "small_white_die", "soccer_ball", "spam_can", "square_peg", "sugar_box", "teal_bottle", "teal_food_can", "tennis_ball", "tomato", "tomato_soup_can", "white_bishop", "white_die", "white_queen", "wooden_handled_fork", "yellow_apple", "yellow_battery", "yellow_block", "yellow_potato", "yellow_screwdriver", "yellow_tennis_ball", "yogurt_cup"]
+    }
+  },
+  "start": [
+    ["on", "item", "table"]
+  ],
+  "goal": {"stages": {"lifted": {"condition": ["lifted", "item1", 0.05, "table"], "hold": 0.5, "held": true}}}
+}

@@ -113,7 +113,7 @@ class Object(msgspec.Struct, omit_defaults=True):
     """An object in the scene: its asset, where it is placed, and how it is grouped."""
 
     sample: Frame
-    asset: str | None = None
+    asset: str | list[str] | None = None  # a list is a pool: each copy draws a different asset
     joints: dict[str, float | tuple[float, float] | str] = {}  # start values by joint name
     regions: dict[str, Region] = {}
     tags: list[str] = []
