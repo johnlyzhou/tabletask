@@ -92,6 +92,8 @@ class Env:
         episode = episode if seed is None else seed
         if self.robot is not None and hasattr(self.robot, "start_pose"):
             self.robot.start = self.robot.start_pose(episode)
+        if self.robot is not None and hasattr(self.robot, "place"):
+            self.robot.place(episode)
         self.runtime = build(
             self.template,
             episode,
