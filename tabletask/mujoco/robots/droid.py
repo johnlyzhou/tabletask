@@ -41,6 +41,11 @@ class Droid(Robot):
 
     Cameras: ``wrist`` and ``external``.
 
+    Another arm can stand in for the Panda and 2F-85 by subclassing and setting ``model``,
+    ``home`` and ``finger_bodies``: its MJCF must name the arm joints and their actuators
+    ``joint1``..``joint7``, the gripper's ``right_driver_joint`` and ``fingers_actuator``,
+    the ``tcp`` site, the ``link0`` base body and the ``wrist`` and ``external`` cameras.
+
     Args:
         action_space: ``"joint_position"``, ``"joint_delta"`` or ``"cartesian_pose"``.
         name: Scene namespace for the robot.
@@ -69,6 +74,8 @@ class Droid(Robot):
     model = Path(__file__).parent / "assets/droid/model.xml"
     cameras = ("wrist", "external")
     home = (0.0, -0.2 * np.pi, 0.0, -0.8 * np.pi, 0.0, 0.6 * np.pi, 0.0)
+    # bodies of each finger, unqualified; a grasp is both fingers touching the object
+    finger_bodies = (("left_pad", "left_follower"), ("right_pad", "right_follower"))
     action_shape = (8,)
     speed_limits = np.array((2.62, 2.62, 2.62, 2.62, 5.26, 4.18, 5.26))
 
@@ -225,10 +232,8 @@ class Droid(Robot):
         self.gripper_joint = model.joint(self.qualified("right_driver_joint")).qposadr[0]
         self.tcp = model.site(self.qualified("tcp")).id
         self.fingers = tuple(
-            frozenset(
-                model.body(self.qualified(f"{side}_{part}")).id for part in ("pad", "follower")
-            )
-            for side in ("left", "right")
+            frozenset(model.body(self.qualified(body)).id for body in finger)
+            for finger in self.finger_bodies
         )
         self._place_camera(model)
         if self.action_space == "cartesian_pose":
