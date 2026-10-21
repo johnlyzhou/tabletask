@@ -1,0 +1,10 @@
+{
+  "id": "pen_in_cup",
+  "instruction": "Put the {pen} in the pencil cup.",
+  "objects": {
+    "pen": {"asset": ["fountain_pen", "yellow_ballpoint_pen", "yellow_blue_pen", "red_patterned_pencil", "green_striped_pencil"], "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
+    "cup": {"asset": "pencil_cup", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
+  },
+  "start": [["on", "pen", "table"], ["on", "cup", "table"]],
+  "goal": [["inside", "pen", "cup"]]
+}

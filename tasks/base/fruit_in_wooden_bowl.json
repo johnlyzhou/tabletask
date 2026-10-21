@@ -1,0 +1,10 @@
+{
+  "id": "fruit_in_wooden_bowl",
+  "instruction": "Put the {fruit} in the wooden bowl.",
+  "objects": {
+    "fruit": {"asset": ["striped_apple", "ripe_avocado", "kiwi", "key_lime", "lychee", "asian_pear", "yellow_onion", "sweet_potato", "ginger_root"], "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
+    "bowl": {"asset": "large_wooden_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
+  },
+  "start": [["on", "fruit", "table"], ["on", "bowl", "table"]],
+  "goal": [["inside", "fruit", "bowl"]]
+}

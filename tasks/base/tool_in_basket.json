@@ -1,0 +1,10 @@
+{
+  "id": "tool_in_basket",
+  "instruction": "Put the {tool} in the basket.",
+  "objects": {
+    "tool": {"asset": ["pliers", "combination_wrench", "flathead_screwdriver", "red_screwdriver", "long_screwdriver", "ratchet_wrench", "tape_measure", "adjustable_wrench", "claw_hammer"], "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
+    "basket": {"asset": "shallow_wicker_basket", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
+  },
+  "start": [["on", "tool", "table"], ["on", "basket", "table"]],
+  "goal": [["inside", "tool", "basket"]]
+}

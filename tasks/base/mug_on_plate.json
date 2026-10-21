@@ -1,0 +1,10 @@
+{
+  "id": "mug_on_plate",
+  "instruction": "Put the mug on the plate.",
+  "objects": {
+    "mug": {"asset": "plain_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
+    "plate": {"asset": "plain_plate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
+  },
+  "start": [["on", "mug", "table"], ["on", "plate", "table"]],
+  "goal": [["on", "mug", "plate"]]
+}

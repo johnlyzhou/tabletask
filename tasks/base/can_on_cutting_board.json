@@ -1,0 +1,10 @@
+{
+  "id": "can_on_cutting_board",
+  "instruction": "Put the {can} on the cutting board.",
+  "objects": {
+    "can": {"asset": ["can_of_beans", "can_of_tomatoes", "condensed_milk_can", "rusty_tin_can", "sardine_tin", "flat_fish_tin", "salt_box", "milk_carton"], "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
+    "board": {"asset": "cutting_board", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
+  },
+  "start": [["on", "can", "table"], ["on", "board", "table"]],
+  "goal": [["on", "can", "board"]]
+}
