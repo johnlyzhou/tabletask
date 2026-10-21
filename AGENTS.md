@@ -131,6 +131,16 @@ unreachable targets raise `ValueError` before anything moves. The DROID model
 adapts the Panda and Robotiq assembly from
 [EgoGym](https://github.com/omarrayyann/EgoGym).
 
+Each episode randomizes the Droid setup, seeded by the episode: joints start up to
+`home_noise` (0.2 rad) from home; the base shifts up to `base_xy_noise` (5 cm) along x
+and y and turns up to `base_yaw_noise` (0.15 rad); with chance `table_extension` (0.5)
+the table top continues under the arm as a visual only, when the table is no higher than
+the base. The external camera moves to the arm's other side with chance `camera_mirror`
+(0.5), swings up to `camera_azimuth_noise` (45°) around the point it looks at, moves up
+to `camera_distance_noise` and `camera_height_noise` (20 cm) and re-aims at that point
+moved up to `camera_target_noise` (5 cm); its field of view changes up to
+`camera_fov_noise` (4°). Set any of these to 0 to turn it off.
+
 `Gripper()` is a floating parallel gripper with rigid tapered rib fingers and an
 80 mm opening, for when reach and joint limits should not matter. It takes the same
 eight values as `cartesian_pose`: the pose moves a mocap target the gripper is
@@ -374,6 +384,10 @@ and the rest were written here.
 - Table and sky textures are PNGs in `assets/looks/surface/` and `assets/looks/sky/`, listed
   by name in `tabletask/scenes/textures.json`; episodes draw only from that list, so add a
   new texture to both.
+- Scene `appearance` also varies each episode: `table_height` (0.1 m) raises or lowers the
+  table, and `lighting` (1; 0 turns it off) turns each light up to ~57° while keeping it
+  aimed down, scales its brightness 0.4–1.6×, tints each colour channel up to ±0.15 and
+  turns its shadows off with chance 0.5.
 
 Edit regions from the command line:
 
