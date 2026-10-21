@@ -205,7 +205,7 @@ class Env:
             observation["robot"] = runtime.robot.observe()
             if "tcp_pose" in observation["robot"]:
                 observation["priv_combined"] = privileged_state(
-                    runtime, observation["robot"], self.status.time
+                    runtime, observation["robot"], self.status.time, self.template
                 )
 
         available = runtime.robot.cameras if runtime.robot is not None else ()
