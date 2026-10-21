@@ -1,0 +1,30 @@
+<mujoco model="yellow_onion">
+  <compiler angle="radian" meshdir="../mesh/yellow_onion" texturedir="../mesh/yellow_onion" />
+  <custom>
+    <text name="label" data="yellow onion" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="yellow_onion_0_mesh" file="0.obj" />
+    <material name="yellow_onion_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="yellow_onion_0_tex" role="rgb" />
+    </material>
+    <texture name="yellow_onion_0_tex" type="2d" file="0.png" />
+    <mesh name="yellow_onion_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="yellow_onion_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="yellow_onion_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="yellow_onion">
+      <geom type="mesh" mesh="yellow_onion_0_mesh" material="yellow_onion_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="yellow_onion_hull_00" rgba="0 0 0 0" group="3" mass="0.148012033" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_onion_hull_01" rgba="0 0 0 0" group="3" mass="0.00124052763" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_onion_hull_02" rgba="0 0 0 0" group="3" mass="0.000747439396" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0378 0.0358 0.0450" pos="0.0000 0.0000 0.0450" />
+    </body>
+  </worldbody>
+</mujoco>

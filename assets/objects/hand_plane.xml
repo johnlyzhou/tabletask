@@ -1,0 +1,88 @@
+<mujoco model="hand_plane">
+  <compiler angle="radian" meshdir="../mesh/hand_plane" texturedir="../mesh/hand_plane" />
+  <custom>
+    <text name="label" data="hand plane" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="hand_plane_0_mesh" file="0.obj" />
+    <material name="hand_plane_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="hand_plane_0_tex" role="rgb" />
+    </material>
+    <texture name="hand_plane_0_tex" type="2d" file="0.png" />
+    <mesh name="hand_plane_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="hand_plane_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="hand_plane">
+      <geom type="mesh" mesh="hand_plane_0_mesh" material="hand_plane_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_00" rgba="0 0 0 0" group="3" mass="0.0635810662" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_01" rgba="0 0 0 0" group="3" mass="0.0350688104" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_02" rgba="0 0 0 0" group="3" mass="0.0202439561" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_03" rgba="0 0 0 0" group="3" mass="0.0533194105" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_04" rgba="0 0 0 0" group="3" mass="0.046641473" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_05" rgba="0 0 0 0" group="3" mass="0.0353206515" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_06" rgba="0 0 0 0" group="3" mass="0.0308664498" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_07" rgba="0 0 0 0" group="3" mass="0.0173552595" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_08" rgba="0 0 0 0" group="3" mass="0.013706548" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_09" rgba="0 0 0 0" group="3" mass="0.0381382434" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_10" rgba="0 0 0 0" group="3" mass="0.0317701891" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_11" rgba="0 0 0 0" group="3" mass="0.0342854959" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_12" rgba="0 0 0 0" group="3" mass="0.0221570007" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_13" rgba="0 0 0 0" group="3" mass="0.0258949835" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_14" rgba="0 0 0 0" group="3" mass="0.0130575962" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_15" rgba="0 0 0 0" group="3" mass="0.0170850754" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_16" rgba="0 0 0 0" group="3" mass="0.00374187353" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_17" rgba="0 0 0 0" group="3" mass="0.042142169" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_18" rgba="0 0 0 0" group="3" mass="0.00282692635" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_19" rgba="0 0 0 0" group="3" mass="0.0102929786" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_20" rgba="0 0 0 0" group="3" mass="0.0352291817" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_21" rgba="0 0 0 0" group="3" mass="0.0170824876" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_22" rgba="0 0 0 0" group="3" mass="0.0440803041" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_23" rgba="0 0 0 0" group="3" mass="0.0347031075" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_24" rgba="0 0 0 0" group="3" mass="0.0301019419" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_25" rgba="0 0 0 0" group="3" mass="0.00646254567" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_26" rgba="0 0 0 0" group="3" mass="0.0261114969" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_27" rgba="0 0 0 0" group="3" mass="0.00199670516" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_28" rgba="0 0 0 0" group="3" mass="0.0114165486" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_29" rgba="0 0 0 0" group="3" mass="0.0102128308" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_30" rgba="0 0 0 0" group="3" mass="0.0460894173" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="hand_plane_hull_31" rgba="0 0 0 0" group="3" mass="0.179017276" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1250 0.0319 0.0747" pos="0.0000 0.0000 0.0747" />
+    </body>
+  </worldbody>
+</mujoco>

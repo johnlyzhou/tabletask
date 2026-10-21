@@ -1,0 +1,26 @@
+<mujoco model="salt_box">
+  <compiler angle="radian" meshdir="../mesh/salt_box" texturedir="../mesh/salt_box" />
+  <custom>
+    <text name="label" data="salt box" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="salt_box_0_mesh" file="0.obj" />
+    <material name="salt_box_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="salt_box_0_tex" role="rgb" />
+    </material>
+    <texture name="salt_box_0_tex" type="2d" file="0.png" />
+    <mesh name="salt_box_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="salt_box">
+      <geom type="mesh" mesh="salt_box_0_mesh" material="salt_box_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="salt_box_hull_00" rgba="0 0 0 0" group="3" mass="0.3" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0197 0.0157 0.0500" pos="0.0000 0.0000 0.0500" />
+    </body>
+  </worldbody>
+</mujoco>

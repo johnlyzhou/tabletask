@@ -1,0 +1,135 @@
+<mujoco model="plain_mug">
+  <compiler angle="radian" meshdir="../mesh/white_mug" texturedir="../mesh/white_mug" />
+  <custom>
+    <text name="label" data="mug" />
+    <text name="color" data="free" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="mug_01_0_mesh" file="0.obj" />
+    <texture name="mug_01_0_tex" type="2d" file="0.png" />
+    <material name="mug_01_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="mug_01_0_tex" role="rgb" />
+    </material>
+    <mesh name="mug_01_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="mug_01_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="mug_01_inside" file="inside.obj" />
+    <mesh name="mug_01_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="plain_mug">
+      <geom type="mesh" mesh="mug_01_0_mesh" material="mug_01_0_skin" contype="0" conaffinity="0" mass="0" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_00" rgba="0 0 0 0" group="3" mass="0.00363268364" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_01" rgba="0 0 0 0" group="3" mass="0.00229717763" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_02" rgba="0 0 0 0" group="3" mass="0.00143433007" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_03" rgba="0 0 0 0" group="3" mass="0.00256799318" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_04" rgba="0 0 0 0" group="3" mass="0.0027087704" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_05" rgba="0 0 0 0" group="3" mass="0.00347621745" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_06" rgba="0 0 0 0" group="3" mass="0.00120153357" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_07" rgba="0 0 0 0" group="3" mass="0.00325376761" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_08" rgba="0 0 0 0" group="3" mass="0.00110852354" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_09" rgba="0 0 0 0" group="3" mass="0.0023506523" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_10" rgba="0 0 0 0" group="3" mass="0.00303108011" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_11" rgba="0 0 0 0" group="3" mass="0.00164751875" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_12" rgba="0 0 0 0" group="3" mass="0.00633295557" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_13" rgba="0 0 0 0" group="3" mass="0.00573544562" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_14" rgba="0 0 0 0" group="3" mass="0.000493358318" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_15" rgba="0 0 0 0" group="3" mass="0.000964688047" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_16" rgba="0 0 0 0" group="3" mass="0.00307650102" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_17" rgba="0 0 0 0" group="3" mass="0.00308482972" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_18" rgba="0 0 0 0" group="3" mass="0.00398496513" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_19" rgba="0 0 0 0" group="3" mass="0.00171684244" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_20" rgba="0 0 0 0" group="3" mass="0.00104417025" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_21" rgba="0 0 0 0" group="3" mass="0.00259537332" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_22" rgba="0 0 0 0" group="3" mass="0.00475336561" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_23" rgba="0 0 0 0" group="3" mass="0.00187646159" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_24" rgba="0 0 0 0" group="3" mass="0.00629748734" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_25" rgba="0 0 0 0" group="3" mass="0.00138785577" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_26" rgba="0 0 0 0" group="3" mass="0.00334873369" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_27" rgba="0 0 0 0" group="3" mass="0.00696561584" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_28" rgba="0 0 0 0" group="3" mass="0.0034458352" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_29" rgba="0 0 0 0" group="3" mass="0.00460119601" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_30" rgba="0 0 0 0" group="3" mass="0.000639840582" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_31" rgba="0 0 0 0" group="3" mass="0.00210414493" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_32" rgba="0 0 0 0" group="3" mass="0.00311225262" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_33" rgba="0 0 0 0" group="3" mass="0.00260669738" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_34" rgba="0 0 0 0" group="3" mass="0.000648130381" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_35" rgba="0 0 0 0" group="3" mass="0.00319946394" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_36" rgba="0 0 0 0" group="3" mass="0.00517328406" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_37" rgba="0 0 0 0" group="3" mass="0.00921457894" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_38" rgba="0 0 0 0" group="3" mass="0.00752595054" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_39" rgba="0 0 0 0" group="3" mass="0.005318242" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_40" rgba="0 0 0 0" group="3" mass="0.00804745068" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_41" rgba="0 0 0 0" group="3" mass="0.00836728789" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_42" rgba="0 0 0 0" group="3" mass="0.00997687088" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_43" rgba="0 0 0 0" group="3" mass="0.000951454898" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_44" rgba="0 0 0 0" group="3" mass="0.00198705898" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_45" rgba="0 0 0 0" group="3" mass="0.00165830077" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_46" rgba="0 0 0 0" group="3" mass="0.00183174632" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_47" rgba="0 0 0 0" group="3" mass="0.00130291873" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_48" rgba="0 0 0 0" group="3" mass="0.00149835491" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_49" rgba="0 0 0 0" group="3" mass="0.0013732133" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_50" rgba="0 0 0 0" group="3" mass="0.00355993308" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_51" rgba="0 0 0 0" group="3" mass="0.000981801692" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom type="mesh" mesh="mug_01_hull_52" rgba="0 0 0 0" group="3" mass="0.00149714594" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
+      <geom name="place:bounds" class="place" type="box" size="0.0581 0.0454 0.0458" pos="0.0000 0.0000 0.0458" />
+      <geom name="place:inside" class="place" type="mesh" mesh="mug_01_inside" pos="0.0095 0.0024 0.0000" />
+      <geom name="place:top" class="place" type="mesh" mesh="mug_01_top" pos="0.0095 0.0024 0.0000" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,70 @@
+<mujoco model="opera_glasses">
+  <compiler angle="radian" meshdir="../mesh/opera_glasses" texturedir="../mesh/opera_glasses" />
+  <custom>
+    <text name="label" data="opera glasses" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="opera_glasses_0_mesh" file="0.obj" />
+    <material name="opera_glasses_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="opera_glasses_0_tex" role="rgb" />
+    </material>
+    <texture name="opera_glasses_0_tex" type="2d" file="0.png" />
+    <mesh name="opera_glasses_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="opera_glasses_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="opera_glasses">
+      <geom type="mesh" mesh="opera_glasses_0_mesh" material="opera_glasses_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_00" rgba="0 0 0 0" group="3" mass="0.0188577671" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_01" rgba="0 0 0 0" group="3" mass="0.00616807972" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_02" rgba="0 0 0 0" group="3" mass="0.00681850501" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_03" rgba="0 0 0 0" group="3" mass="0.070853562" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_04" rgba="0 0 0 0" group="3" mass="0.0602020331" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_05" rgba="0 0 0 0" group="3" mass="0.00059915402" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_06" rgba="0 0 0 0" group="3" mass="0.0209094085" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_07" rgba="0 0 0 0" group="3" mass="0.00131461503" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_08" rgba="0 0 0 0" group="3" mass="0.00130879684" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_09" rgba="0 0 0 0" group="3" mass="0.00296434231" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_10" rgba="0 0 0 0" group="3" mass="0.00122279112" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_11" rgba="0 0 0 0" group="3" mass="0.00461305784" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_12" rgba="0 0 0 0" group="3" mass="0.00641311814" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_13" rgba="0 0 0 0" group="3" mass="0.0091090516" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_14" rgba="0 0 0 0" group="3" mass="0.0351773008" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_15" rgba="0 0 0 0" group="3" mass="0.00139218773" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_16" rgba="0 0 0 0" group="3" mass="0.0104954969" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_17" rgba="0 0 0 0" group="3" mass="0.0176224253" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_18" rgba="0 0 0 0" group="3" mass="0.00156145684" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_19" rgba="0 0 0 0" group="3" mass="0.0112245702" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_20" rgba="0 0 0 0" group="3" mass="0.0085442428" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_21" rgba="0 0 0 0" group="3" mass="0.0013151967" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="opera_glasses_hull_22" rgba="0 0 0 0" group="3" mass="0.00131284051" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0682 0.0700 0.0240" pos="0.0000 0.0000 0.0240" />
+    </body>
+  </worldbody>
+</mujoco>

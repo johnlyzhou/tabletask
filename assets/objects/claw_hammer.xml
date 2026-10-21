@@ -1,0 +1,42 @@
+<mujoco model="claw_hammer">
+  <compiler angle="radian" meshdir="../mesh/claw_hammer" texturedir="../mesh/claw_hammer" />
+  <custom>
+    <text name="label" data="claw hammer" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="claw_hammer_0_mesh" file="0.obj" />
+    <material name="claw_hammer_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="claw_hammer_0_tex" role="rgb" />
+    </material>
+    <texture name="claw_hammer_0_tex" type="2d" file="0.png" />
+    <mesh name="claw_hammer_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="claw_hammer_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="claw_hammer_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="claw_hammer_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="claw_hammer_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="claw_hammer_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="claw_hammer_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="claw_hammer_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="claw_hammer_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="claw_hammer">
+      <geom type="mesh" mesh="claw_hammer_0_mesh" material="claw_hammer_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="claw_hammer_hull_00" rgba="0 0 0 0" group="3" mass="0.0263952052" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="claw_hammer_hull_01" rgba="0 0 0 0" group="3" mass="0.0153827056" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="claw_hammer_hull_02" rgba="0 0 0 0" group="3" mass="0.0445013786" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="claw_hammer_hull_03" rgba="0 0 0 0" group="3" mass="0.00832790469" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="claw_hammer_hull_04" rgba="0 0 0 0" group="3" mass="0.00465395464" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="claw_hammer_hull_05" rgba="0 0 0 0" group="3" mass="0.0218885981" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="claw_hammer_hull_06" rgba="0 0 0 0" group="3" mass="0.0702095755" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="claw_hammer_hull_07" rgba="0 0 0 0" group="3" mass="0.208640678" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1300 0.0521 0.0109" pos="0.0000 0.0000 0.0109" />
+      <geom name="place:top" class="place" type="mesh" mesh="claw_hammer_top" />
+    </body>
+  </worldbody>
+</mujoco>

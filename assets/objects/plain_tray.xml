@@ -1,0 +1,201 @@
+<mujoco model="plain_tray">
+  <compiler angle="radian" meshdir="../mesh/blue_tray" texturedir="../mesh/blue_tray" />
+  <custom>
+    <text name="label" data="tray" />
+    <text name="color" data="free" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_tray_0_mesh" file="0.obj" inertia="shell" />
+    <texture name="blue_tray_0_tex" type="2d" file="0.png" />
+    <material name="blue_tray_0_skin" specular="0.2" shininess="0.3">
+      <layer texture="blue_tray_0_tex" role="rgb" />
+    </material>
+    <mesh name="blue_tray_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_62" file="hulls/h62.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_63" file="hulls/h63.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_64" file="hulls/h64.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_65" file="hulls/h65.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_66" file="hulls/h66.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_67" file="hulls/h67.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_68" file="hulls/h68.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_69" file="hulls/h69.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_70" file="hulls/h70.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_71" file="hulls/h71.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_72" file="hulls/h72.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_73" file="hulls/h73.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_74" file="hulls/h74.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_75" file="hulls/h75.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_76" file="hulls/h76.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_77" file="hulls/h77.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_78" file="hulls/h78.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_79" file="hulls/h79.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_80" file="hulls/h80.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_81" file="hulls/h81.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_82" file="hulls/h82.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_83" file="hulls/h83.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_84" file="hulls/h84.obj" maxhullvert="128" />
+    <mesh name="blue_tray_hull_85" file="hulls/h85.obj" maxhullvert="128" />
+    <mesh name="blue_tray_inside" file="inside.obj" />
+    <mesh name="blue_tray_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="plain_tray">
+      <geom type="mesh" mesh="blue_tray_0_mesh" material="blue_tray_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_00" rgba="0 0 0 0" group="3" mass="0.0282835412" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_01" rgba="0 0 0 0" group="3" mass="0.00774785478" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_02" rgba="0 0 0 0" group="3" mass="0.0399884617" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_03" rgba="0 0 0 0" group="3" mass="0.0236564226" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_04" rgba="0 0 0 0" group="3" mass="0.0111937155" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_05" rgba="0 0 0 0" group="3" mass="0.00674061339" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_06" rgba="0 0 0 0" group="3" mass="0.042070265" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_07" rgba="0 0 0 0" group="3" mass="0.00820794517" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_08" rgba="0 0 0 0" group="3" mass="0.0151691349" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_09" rgba="0 0 0 0" group="3" mass="0.029163793" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_10" rgba="0 0 0 0" group="3" mass="0.0251471745" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_11" rgba="0 0 0 0" group="3" mass="0.00735431812" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_12" rgba="0 0 0 0" group="3" mass="0.0112896797" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_13" rgba="0 0 0 0" group="3" mass="0.0341543074" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_14" rgba="0 0 0 0" group="3" mass="0.0209468209" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_15" rgba="0 0 0 0" group="3" mass="0.00404413569" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_16" rgba="0 0 0 0" group="3" mass="0.0128950378" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_17" rgba="0 0 0 0" group="3" mass="0.0145799996" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_18" rgba="0 0 0 0" group="3" mass="0.0239285921" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_19" rgba="0 0 0 0" group="3" mass="0.0257425513" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_20" rgba="0 0 0 0" group="3" mass="0.0261382481" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_21" rgba="0 0 0 0" group="3" mass="0.01091454" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_22" rgba="0 0 0 0" group="3" mass="0.00563070121" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_23" rgba="0 0 0 0" group="3" mass="0.0123902744" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_24" rgba="0 0 0 0" group="3" mass="0.0044699455" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_25" rgba="0 0 0 0" group="3" mass="0.0157501158" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_26" rgba="0 0 0 0" group="3" mass="0.00897941658" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_27" rgba="0 0 0 0" group="3" mass="0.00935143076" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_28" rgba="0 0 0 0" group="3" mass="0.00539184712" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_29" rgba="0 0 0 0" group="3" mass="0.00705785527" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_30" rgba="0 0 0 0" group="3" mass="0.0145870179" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_31" rgba="0 0 0 0" group="3" mass="0.00236863632" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_32" rgba="0 0 0 0" group="3" mass="0.00631405875" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_33" rgba="0 0 0 0" group="3" mass="0.0239073773" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_34" rgba="0 0 0 0" group="3" mass="0.00498140082" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_35" rgba="0 0 0 0" group="3" mass="0.00591408553" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_36" rgba="0 0 0 0" group="3" mass="0.00964892281" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_37" rgba="0 0 0 0" group="3" mass="0.0232402756" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_38" rgba="0 0 0 0" group="3" mass="0.0224723746" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_39" rgba="0 0 0 0" group="3" mass="0.00482938001" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_40" rgba="0 0 0 0" group="3" mass="0.0208438245" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_41" rgba="0 0 0 0" group="3" mass="0.00731602854" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_42" rgba="0 0 0 0" group="3" mass="0.0269414393" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_43" rgba="0 0 0 0" group="3" mass="0.00817269552" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_44" rgba="0 0 0 0" group="3" mass="0.00899385833" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_45" rgba="0 0 0 0" group="3" mass="0.017914872" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_46" rgba="0 0 0 0" group="3" mass="0.00774816184" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_47" rgba="0 0 0 0" group="3" mass="0.00729374787" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_48" rgba="0 0 0 0" group="3" mass="0.00612629147" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_49" rgba="0 0 0 0" group="3" mass="0.0151543988" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_50" rgba="0 0 0 0" group="3" mass="0.020864936" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_51" rgba="0 0 0 0" group="3" mass="0.0189715016" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_52" rgba="0 0 0 0" group="3" mass="0.0116015976" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_53" rgba="0 0 0 0" group="3" mass="0.00331676886" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_54" rgba="0 0 0 0" group="3" mass="0.00756734098" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_55" rgba="0 0 0 0" group="3" mass="0.00345149167" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_56" rgba="0 0 0 0" group="3" mass="0.00626276495" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_57" rgba="0 0 0 0" group="3" mass="0.00847819673" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_58" rgba="0 0 0 0" group="3" mass="0.00342877915" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_59" rgba="0 0 0 0" group="3" mass="0.0233287007" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_60" rgba="0 0 0 0" group="3" mass="0.0117495176" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_61" rgba="0 0 0 0" group="3" mass="0.0123915747" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_62" rgba="0 0 0 0" group="3" mass="0.00537464376" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_63" rgba="0 0 0 0" group="3" mass="0.0095907289" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_64" rgba="0 0 0 0" group="3" mass="0.00621803633" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_65" rgba="0 0 0 0" group="3" mass="0.00721072435" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_66" rgba="0 0 0 0" group="3" mass="0.0158883012" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_67" rgba="0 0 0 0" group="3" mass="0.001991893" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_68" rgba="0 0 0 0" group="3" mass="0.001991893" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_69" rgba="0 0 0 0" group="3" mass="0.00663660805" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_70" rgba="0 0 0 0" group="3" mass="0.00391659648" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_71" rgba="0 0 0 0" group="3" mass="0.00551351274" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_72" rgba="0 0 0 0" group="3" mass="0.00227190061" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_73" rgba="0 0 0 0" group="3" mass="0.00383525532" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_74" rgba="0 0 0 0" group="3" mass="0.00297548625" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_75" rgba="0 0 0 0" group="3" mass="0.001991893" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_76" rgba="0 0 0 0" group="3" mass="0.00775718743" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_77" rgba="0 0 0 0" group="3" mass="0.010979791" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_78" rgba="0 0 0 0" group="3" mass="0.00229547452" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_79" rgba="0 0 0 0" group="3" mass="0.001991893" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_80" rgba="0 0 0 0" group="3" mass="0.001991893" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_81" rgba="0 0 0 0" group="3" mass="0.001991893" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_82" rgba="0 0 0 0" group="3" mass="0.00665684789" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_83" rgba="0 0 0 0" group="3" mass="0.0101988095" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_84" rgba="0 0 0 0" group="3" mass="0.00228259568" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_tray_hull_85" rgba="0 0 0 0" group="3" mass="0.00388538477" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1274 0.1783 0.0150" pos="0.0000 0.0000 0.0150" />
+      <geom name="place:inside" class="place" type="mesh" mesh="blue_tray_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="blue_tray_top" />
+    </body>
+  </worldbody>
+</mujoco>

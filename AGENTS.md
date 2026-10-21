@@ -378,6 +378,11 @@ and the rest were written here.
   tilt after settling; both should be about 0.
 - Every asset names itself in plain English, `<custom><text name="label" data="red mug"/></custom>`,
   distinct from every other asset's label; instructions and the dashboard use it.
+- An asset whose colour does not matter declares `<text name="color" data="free"/>` in the same
+  `<custom>`: each episode then tints all its materials one random colour (any hue, saturation
+  0.25–0.85, value 0.45–0.95), unless the scene's `appearance.vary` is false. Leave colour words
+  out of its label. `plain_plate`, `plain_bowl`, `plain_mug`, `plain_tray`, `plain_bucket`
+  and `plain_jug` are free-colour variants that share another asset's meshes.
 - Regions are geoms named `place:<region>` in class `place`, inside the body:
   `place:inside` (the cavity), `place:top` (where something rests on it) and
   `place:bounds` (a box around the visible mesh). Any other name is a custom

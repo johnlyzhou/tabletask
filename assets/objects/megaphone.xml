@@ -1,0 +1,88 @@
+<mujoco model="megaphone">
+  <compiler angle="radian" meshdir="../mesh/megaphone" texturedir="../mesh/megaphone" />
+  <custom>
+    <text name="label" data="megaphone" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="megaphone_0_mesh" file="0.obj" />
+    <material name="megaphone_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="megaphone_0_tex" role="rgb" />
+    </material>
+    <texture name="megaphone_0_tex" type="2d" file="0.png" />
+    <mesh name="megaphone_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="megaphone_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="megaphone">
+      <geom type="mesh" mesh="megaphone_0_mesh" material="megaphone_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_00" rgba="0 0 0 0" group="3" mass="0.00447337436" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_01" rgba="0 0 0 0" group="3" mass="0.0199428395" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_02" rgba="0 0 0 0" group="3" mass="0.00554101937" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_03" rgba="0 0 0 0" group="3" mass="0.0272349884" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_04" rgba="0 0 0 0" group="3" mass="0.00990308103" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_05" rgba="0 0 0 0" group="3" mass="0.00550598596" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_06" rgba="0 0 0 0" group="3" mass="0.017457059" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_07" rgba="0 0 0 0" group="3" mass="0.00590355373" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_08" rgba="0 0 0 0" group="3" mass="0.0693084692" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_09" rgba="0 0 0 0" group="3" mass="0.0134584437" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_10" rgba="0 0 0 0" group="3" mass="0.00618882051" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_11" rgba="0 0 0 0" group="3" mass="0.00733482588" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_12" rgba="0 0 0 0" group="3" mass="0.003299443" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_13" rgba="0 0 0 0" group="3" mass="0.243665885" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_14" rgba="0 0 0 0" group="3" mass="0.00678806652" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_15" rgba="0 0 0 0" group="3" mass="0.0132577415" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_16" rgba="0 0 0 0" group="3" mass="0.00818563685" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_17" rgba="0 0 0 0" group="3" mass="0.00542618512" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_18" rgba="0 0 0 0" group="3" mass="0.00714965852" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_19" rgba="0 0 0 0" group="3" mass="0.0296247844" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_20" rgba="0 0 0 0" group="3" mass="0.00512408365" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_21" rgba="0 0 0 0" group="3" mass="0.00405589872" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_22" rgba="0 0 0 0" group="3" mass="0.00607761498" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_23" rgba="0 0 0 0" group="3" mass="0.00119857125" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_24" rgba="0 0 0 0" group="3" mass="0.00602189678" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_25" rgba="0 0 0 0" group="3" mass="0.01737403" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_26" rgba="0 0 0 0" group="3" mass="0.0160193719" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_27" rgba="0 0 0 0" group="3" mass="0.00643024912" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_28" rgba="0 0 0 0" group="3" mass="0.0120419003" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_29" rgba="0 0 0 0" group="3" mass="0.00300681828" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_30" rgba="0 0 0 0" group="3" mass="0.00911665053" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="megaphone_hull_31" rgba="0 0 0 0" group="3" mass="0.00388305306" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1500 0.0925 0.1214" pos="0.0000 0.0000 0.1214" />
+    </body>
+  </worldbody>
+</mujoco>

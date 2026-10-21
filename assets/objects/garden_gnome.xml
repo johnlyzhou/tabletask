@@ -1,0 +1,88 @@
+<mujoco model="garden_gnome">
+  <compiler angle="radian" meshdir="../mesh/garden_gnome" texturedir="../mesh/garden_gnome" />
+  <custom>
+    <text name="label" data="garden gnome" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="garden_gnome_0_mesh" file="0.obj" />
+    <material name="garden_gnome_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="garden_gnome_0_tex" role="rgb" />
+    </material>
+    <texture name="garden_gnome_0_tex" type="2d" file="0.png" />
+    <mesh name="garden_gnome_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="garden_gnome_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="garden_gnome">
+      <geom type="mesh" mesh="garden_gnome_0_mesh" material="garden_gnome_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_00" rgba="0 0 0 0" group="3" mass="0.0650693018" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_01" rgba="0 0 0 0" group="3" mass="0.0287037601" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_02" rgba="0 0 0 0" group="3" mass="0.0184517781" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_03" rgba="0 0 0 0" group="3" mass="0.0861546984" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_04" rgba="0 0 0 0" group="3" mass="0.0294510181" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_05" rgba="0 0 0 0" group="3" mass="0.0294447472" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_06" rgba="0 0 0 0" group="3" mass="0.0676056471" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_07" rgba="0 0 0 0" group="3" mass="0.0184492037" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_08" rgba="0 0 0 0" group="3" mass="0.00731321409" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_09" rgba="0 0 0 0" group="3" mass="0.00952665573" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_10" rgba="0 0 0 0" group="3" mass="0.0138305561" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_11" rgba="0 0 0 0" group="3" mass="0.0540881579" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_12" rgba="0 0 0 0" group="3" mass="0.00603453286" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_13" rgba="0 0 0 0" group="3" mass="0.0222037195" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_14" rgba="0 0 0 0" group="3" mass="0.108370301" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_15" rgba="0 0 0 0" group="3" mass="0.10827327" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_16" rgba="0 0 0 0" group="3" mass="0.0184726697" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_17" rgba="0 0 0 0" group="3" mass="0.00159789275" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_18" rgba="0 0 0 0" group="3" mass="0.0111271632" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_19" rgba="0 0 0 0" group="3" mass="0.00291778706" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_20" rgba="0 0 0 0" group="3" mass="0.0158184133" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_21" rgba="0 0 0 0" group="3" mass="0.00374079847" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_22" rgba="0 0 0 0" group="3" mass="0.00259362167" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_23" rgba="0 0 0 0" group="3" mass="0.0159918451" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_24" rgba="0 0 0 0" group="3" mass="0.00538449059" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_25" rgba="0 0 0 0" group="3" mass="0.0030720394" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_26" rgba="0 0 0 0" group="3" mass="0.00199849868" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_27" rgba="0 0 0 0" group="3" mass="0.00227559042" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_28" rgba="0 0 0 0" group="3" mass="0.00400399245" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_29" rgba="0 0 0 0" group="3" mass="0.00302507236" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_30" rgba="0 0 0 0" group="3" mass="0.00723814021" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="garden_gnome_hull_31" rgba="0 0 0 0" group="3" mass="0.0277714232" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0538 0.0438 0.1250" pos="0.0000 0.0000 0.1250" />
+    </body>
+  </worldbody>
+</mujoco>

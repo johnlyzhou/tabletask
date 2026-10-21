@@ -1,0 +1,34 @@
+<mujoco model="cutting_board">
+  <compiler angle="radian" meshdir="../mesh/cutting_board" texturedir="../mesh/cutting_board" />
+  <custom>
+    <text name="label" data="cutting board" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="cutting_board_0_mesh" file="0.obj" />
+    <material name="cutting_board_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="cutting_board_0_tex" role="rgb" />
+    </material>
+    <texture name="cutting_board_0_tex" type="2d" file="0.png" />
+    <mesh name="cutting_board_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="cutting_board_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="cutting_board_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="cutting_board_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="cutting_board_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="cutting_board">
+      <geom type="mesh" mesh="cutting_board_0_mesh" material="cutting_board_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="cutting_board_hull_00" rgba="0 0 0 0" group="3" mass="0.157452478" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cutting_board_hull_01" rgba="0 0 0 0" group="3" mass="0.155293489" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cutting_board_hull_02" rgba="0 0 0 0" group="3" mass="0.157344758" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cutting_board_hull_03" rgba="0 0 0 0" group="3" mass="0.129909275" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1750 0.0959 0.0160" pos="0.0000 0.0000 0.0160" />
+      <geom name="place:top" class="place" type="mesh" mesh="cutting_board_top" />
+    </body>
+  </worldbody>
+</mujoco>

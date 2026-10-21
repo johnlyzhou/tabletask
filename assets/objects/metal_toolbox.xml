@@ -1,0 +1,90 @@
+<mujoco model="metal_toolbox">
+  <compiler angle="radian" meshdir="../mesh/metal_toolbox" texturedir="../mesh/metal_toolbox" />
+  <custom>
+    <text name="label" data="metal toolbox" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="metal_toolbox_0_mesh" file="0.obj" />
+    <material name="metal_toolbox_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="metal_toolbox_0_tex" role="rgb" />
+    </material>
+    <texture name="metal_toolbox_0_tex" type="2d" file="0.png" />
+    <mesh name="metal_toolbox_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="metal_toolbox_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="metal_toolbox">
+      <geom type="mesh" mesh="metal_toolbox_0_mesh" material="metal_toolbox_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_00" rgba="0 0 0 0" group="3" mass="0.0115775948" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_01" rgba="0 0 0 0" group="3" mass="0.0117411816" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_02" rgba="0 0 0 0" group="3" mass="0.0384859378" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_03" rgba="0 0 0 0" group="3" mass="0.0193948409" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_04" rgba="0 0 0 0" group="3" mass="0.0220725554" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_05" rgba="0 0 0 0" group="3" mass="0.0497560866" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_06" rgba="0 0 0 0" group="3" mass="0.00298345241" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_07" rgba="0 0 0 0" group="3" mass="0.0341530096" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_08" rgba="0 0 0 0" group="3" mass="0.0288676158" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_09" rgba="0 0 0 0" group="3" mass="0.0117912024" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_10" rgba="0 0 0 0" group="3" mass="0.0255685518" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_11" rgba="0 0 0 0" group="3" mass="0.379402895" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_12" rgba="0 0 0 0" group="3" mass="0.453470867" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_13" rgba="0 0 0 0" group="3" mass="0.053414248" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_14" rgba="0 0 0 0" group="3" mass="0.00476875396" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_15" rgba="0 0 0 0" group="3" mass="0.0180730385" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_16" rgba="0 0 0 0" group="3" mass="0.00326458812" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_17" rgba="0 0 0 0" group="3" mass="0.00515826405" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_18" rgba="0 0 0 0" group="3" mass="0.0109095146" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_19" rgba="0 0 0 0" group="3" mass="0.0146906441" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_20" rgba="0 0 0 0" group="3" mass="0.0113337851" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_21" rgba="0 0 0 0" group="3" mass="0.0298682592" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_22" rgba="0 0 0 0" group="3" mass="0.0128702228" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_23" rgba="0 0 0 0" group="3" mass="0.05850022" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_24" rgba="0 0 0 0" group="3" mass="0.0175269246" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_25" rgba="0 0 0 0" group="3" mass="0.00298345241" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_26" rgba="0 0 0 0" group="3" mass="0.00298345241" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_27" rgba="0 0 0 0" group="3" mass="0.00336799113" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_28" rgba="0 0 0 0" group="3" mass="0.00298345241" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_29" rgba="0 0 0 0" group="3" mass="0.0781429932" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_30" rgba="0 0 0 0" group="3" mass="0.00477192499" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_31" rgba="0 0 0 0" group="3" mass="0.00298345241" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="metal_toolbox_hull_32" rgba="0 0 0 0" group="3" mass="0.0721390272" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1500 0.1014 0.1143" pos="0.0000 0.0000 0.1143" />
+    </body>
+  </worldbody>
+</mujoco>

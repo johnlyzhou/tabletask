@@ -1,0 +1,54 @@
+<mujoco model="pitted_rock">
+  <compiler angle="radian" meshdir="../mesh/pitted_rock" texturedir="../mesh/pitted_rock" />
+  <custom>
+    <text name="label" data="pitted rock" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pitted_rock_0_mesh" file="0.obj" />
+    <material name="pitted_rock_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pitted_rock_0_tex" role="rgb" />
+    </material>
+    <texture name="pitted_rock_0_tex" type="2d" file="0.png" />
+    <mesh name="pitted_rock_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="pitted_rock_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="pitted_rock">
+      <geom type="mesh" mesh="pitted_rock_0_mesh" material="pitted_rock_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_00" rgba="0 0 0 0" group="3" mass="0.0200878653" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_01" rgba="0 0 0 0" group="3" mass="0.00931622776" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_02" rgba="0 0 0 0" group="3" mass="0.0108644486" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_03" rgba="0 0 0 0" group="3" mass="0.0326079613" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_04" rgba="0 0 0 0" group="3" mass="0.0125118566" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_05" rgba="0 0 0 0" group="3" mass="0.0373454293" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_06" rgba="0 0 0 0" group="3" mass="0.0289492792" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_07" rgba="0 0 0 0" group="3" mass="0.00986456954" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_08" rgba="0 0 0 0" group="3" mass="0.0105211104" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_09" rgba="0 0 0 0" group="3" mass="0.0108914704" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_10" rgba="0 0 0 0" group="3" mass="0.0213671288" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_11" rgba="0 0 0 0" group="3" mass="0.0382381268" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_12" rgba="0 0 0 0" group="3" mass="0.00126732855" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_13" rgba="0 0 0 0" group="3" mass="0.00958002949" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pitted_rock_hull_14" rgba="0 0 0 0" group="3" mass="0.0465871679" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0550 0.0423 0.0286" pos="0.0000 0.0000 0.0286" />
+    </body>
+  </worldbody>
+</mujoco>
