@@ -1,5 +1,8 @@
 <mujoco model="wire_shelf">
   <compiler angle="radian" meshdir="../mesh/wire_shelf" texturedir="../mesh/wire_shelf" />
+  <custom>
+    <text name="label" data="wire shelf" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

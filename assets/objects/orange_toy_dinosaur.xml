@@ -1,6 +1,9 @@
 <mujoco model="orange_toy_dinosaur">
   <!-- orange_toy_dinosaur, converted from the MolmoSpaces Objaverse library (uid 26dc0c0a081144af91a962494c147ad1; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/orange_toy_dinosaur" texturedir="../mesh/orange_toy_dinosaur"/>
+  <custom>
+    <text name="label" data="orange toy dinosaur" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

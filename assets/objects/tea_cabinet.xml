@@ -1,5 +1,8 @@
 <mujoco model="tea_cabinet">
   <compiler angle="radian" meshdir="../mesh/tea_station" texturedir="../mesh/tea_station" />
+  <custom>
+    <text name="label" data="brown cabinet" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" group="4" mass="0" rgba="0 0 0 0" />

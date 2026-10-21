@@ -1,6 +1,9 @@
 <mujoco model="teal_cupcake">
   <!-- teal_cupcake, converted from the MolmoSpaces Objaverse library (uid 922cb0e832ea46748761c0f4033b33ad; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/teal_cupcake" texturedir="../mesh/teal_cupcake"/>
+  <custom>
+    <text name="label" data="teal cupcake" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

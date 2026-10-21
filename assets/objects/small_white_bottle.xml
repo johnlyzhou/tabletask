@@ -1,5 +1,8 @@
 <mujoco model="small_white_bottle">
   <compiler angle="radian" meshdir="../mesh/small_white_bottle" texturedir="../mesh/small_white_bottle" />
+  <custom>
+    <text name="label" data="small white bottle" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

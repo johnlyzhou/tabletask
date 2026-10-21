@@ -1,6 +1,9 @@
 <mujoco model="bookshelf_speaker">
   <!-- bookshelf_speaker, converted from the MolmoSpaces Objaverse library (uid 277db5efa378494882aaa820abb84437; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/bookshelf_speaker" texturedir="../mesh/bookshelf_speaker"/>
+  <custom>
+    <text name="label" data="speaker" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,6 +1,9 @@
 <mujoco model="black_calculator">
   <!-- black_calculator, converted from the MolmoSpaces Objaverse library (uid 7547b73ba9e54c4d89bfa47ba5d6f23f; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/black_calculator" texturedir="../mesh/black_calculator"/>
+  <custom>
+    <text name="label" data="calculator" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

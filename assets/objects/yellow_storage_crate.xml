@@ -1,6 +1,9 @@
 <mujoco model="yellow_storage_crate">
   <!-- yellow_storage_crate, converted from the MolmoSpaces Objaverse library (uid 1e1e77108edb45308123a0ec81faf4d3; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/yellow_storage_crate" texturedir="../mesh/yellow_storage_crate"/>
+  <custom>
+    <text name="label" data="yellow crate" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,6 +1,9 @@
 <mujoco model="orange_ballpoint">
   <!-- orange_ballpoint, converted from the MolmoSpaces Objaverse library (uid b8e18a57f2634023bfb6ff122905fdd9; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/orange_ballpoint" texturedir="../mesh/orange_ballpoint"/>
+  <custom>
+    <text name="label" data="yellow pen" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

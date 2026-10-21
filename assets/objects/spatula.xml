@@ -1,5 +1,8 @@
 <mujoco model="spatula">
   <compiler angle="radian" meshdir="../mesh/spatula" texturedir="../mesh/spatula" />
+  <custom>
+    <text name="label" data="red spatula" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

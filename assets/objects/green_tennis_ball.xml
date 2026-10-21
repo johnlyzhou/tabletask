@@ -1,6 +1,9 @@
 <mujoco model="green_tennis_ball">
   <!-- green_tennis_ball, converted from the MolmoSpaces Objaverse library (uid b3e9fd64f19f4274a6bab8eeaa5dce2a; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/green_tennis_ball" texturedir="../mesh/green_tennis_ball"/>
+  <custom>
+    <text name="label" data="green tennis ball" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

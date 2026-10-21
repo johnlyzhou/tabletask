@@ -1,6 +1,9 @@
 <mujoco model="clear_plastic_cup">
   <!-- clear_plastic_cup, converted from the MolmoSpaces Objaverse library (uid 5963fe22b9db4553a9d7bf5d513b109a; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/clear_plastic_cup" texturedir="../mesh/clear_plastic_cup"/>
+  <custom>
+    <text name="label" data="plastic cup" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

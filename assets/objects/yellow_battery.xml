@@ -1,5 +1,8 @@
 <mujoco model="yellow_battery">
   <compiler angle="radian" meshdir="../mesh/yellow_battery" texturedir="../mesh/yellow_battery" />
+  <custom>
+    <text name="label" data="yellow battery" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

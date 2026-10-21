@@ -1,6 +1,9 @@
 <mujoco model="soccer_ball">
   <!-- soccer_ball, converted from the MolmoSpaces Objaverse library (uid 00ad7478cf0447f3b3494c00e7037177; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/soccer_ball" texturedir="../mesh/soccer_ball"/>
+  <custom>
+    <text name="label" data="soccer ball" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,6 +1,9 @@
 <mujoco model="brown_flap_box">
   <!-- brown_flap_box, converted from an AI2-THOR prefab via MolmoSpaces (Box_24; Apache-2.0, AI2). -->
   <compiler angle="radian" meshdir="../mesh/brown_flap_box" texturedir="../mesh/brown_flap_box"/>
+  <custom>
+    <text name="label" data="cardboard box" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

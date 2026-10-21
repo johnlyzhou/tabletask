@@ -1,6 +1,9 @@
 <mujoco model="burger">
   <!-- burger, converted from the MolmoSpaces Objaverse library (uid 6bf2dc6ffc594a8598bcf84f5d0325f1; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/burger" texturedir="../mesh/burger"/>
+  <custom>
+    <text name="label" data="burger" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

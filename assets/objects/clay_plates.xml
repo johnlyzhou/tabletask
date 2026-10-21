@@ -1,5 +1,8 @@
 <mujoco model="clay_plates">
   <compiler angle="radian" meshdir="../mesh/clay_plates" texturedir="../mesh/clay_plates" />
+  <custom>
+    <text name="label" data="clay plate" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

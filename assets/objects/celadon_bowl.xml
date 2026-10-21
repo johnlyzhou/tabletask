@@ -1,6 +1,9 @@
 <mujoco model="celadon_bowl">
   <!-- celadon_bowl, converted from the MolmoSpaces Objaverse library (uid 0950c31b557548ee9cedc94587a8fc10; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/celadon_bowl" texturedir="../mesh/celadon_bowl"/>
+  <custom>
+    <text name="label" data="small white bowl" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,5 +1,8 @@
 <mujoco model="blue_hammer">
   <compiler angle="radian" meshdir="../mesh/blue_hammer" texturedir="../mesh/blue_hammer" />
+  <custom>
+    <text name="label" data="blue hammer" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

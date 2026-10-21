@@ -1,6 +1,9 @@
 <mujoco model="scallop_shell">
   <!-- scallop_shell, converted from the MolmoSpaces Objaverse library (uid 26563b2166ce49d6a80b77d02983357d; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/scallop_shell" texturedir="../mesh/scallop_shell"/>
+  <custom>
+    <text name="label" data="brown seashell" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

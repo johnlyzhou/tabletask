@@ -1,6 +1,9 @@
 <mujoco model="club_sandwich">
   <!-- club_sandwich, converted from the MolmoSpaces Objaverse library (uid 4fe6d72f20aa4c62bf5dc38f5a66f3a8; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/club_sandwich" texturedir="../mesh/club_sandwich"/>
+  <custom>
+    <text name="label" data="sandwich" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

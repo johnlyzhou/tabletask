@@ -1,5 +1,8 @@
 <mujoco model="small_jug">
   <compiler angle="radian" meshdir="../mesh/small_jug" texturedir="../mesh/small_jug" />
+  <custom>
+    <text name="label" data="white jug" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

@@ -1,5 +1,8 @@
 <mujoco model="cheez_it">
   <compiler angle="radian" meshdir="../mesh/cheez_it" texturedir="../mesh/cheez_it" />
+  <custom>
+    <text name="label" data="box of crackers" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

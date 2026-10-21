@@ -1,5 +1,8 @@
 <mujoco model="oatmeal_raisin_cookies">
   <compiler angle="radian" meshdir="../mesh/oatmeal_raisin_cookies" texturedir="../mesh/oatmeal_raisin_cookies" />
+  <custom>
+    <text name="label" data="box of cookies" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

@@ -1,5 +1,8 @@
 <mujoco model="pen_holder">
   <compiler angle="radian" meshdir="../mesh/pen_holder" texturedir="../mesh/pen_holder" />
+  <custom>
+    <text name="label" data="crab pen holder" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

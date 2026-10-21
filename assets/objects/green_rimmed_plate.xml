@@ -1,6 +1,9 @@
 <mujoco model="green_rimmed_plate">
   <!-- green_rimmed_plate, converted from the MolmoSpaces Objaverse library (uid 8697941e9cbd494ca9545505991e8f16; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/green_rimmed_plate" texturedir="../mesh/green_rimmed_plate"/>
+  <custom>
+    <text name="label" data="green plate" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

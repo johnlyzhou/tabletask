@@ -1,5 +1,8 @@
 <mujoco model="abc_mug_tree">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
+  <custom>
+    <text name="label" data="mug tree" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

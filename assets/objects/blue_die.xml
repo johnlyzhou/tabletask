@@ -1,6 +1,9 @@
 <mujoco model="blue_die">
   <!-- blue_die, converted from the MolmoSpaces Objaverse library (uid 4cfea83fea564d99a14c9cb93d9e0ddf; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_die" texturedir="../mesh/blue_die"/>
+  <custom>
+    <text name="label" data="blue die" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,5 +1,8 @@
 <mujoco model="cordless_drill">
   <compiler angle="radian" meshdir="../mesh/cordless_drill" texturedir="../mesh/cordless_drill" />
+  <custom>
+    <text name="label" data="drill" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

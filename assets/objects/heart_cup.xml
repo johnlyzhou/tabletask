@@ -1,6 +1,9 @@
 <mujoco model="heart_cup">
   <!-- heart_cup, converted from the MolmoSpaces Objaverse library (uid 659aebc5e657442c9807598f77c7d419; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/heart_cup" texturedir="../mesh/heart_cup"/>
+  <custom>
+    <text name="label" data="printed mug" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

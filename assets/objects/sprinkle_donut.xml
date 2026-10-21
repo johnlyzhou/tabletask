@@ -1,6 +1,9 @@
 <mujoco model="sprinkle_donut">
   <!-- sprinkle_donut, converted from the MolmoSpaces Objaverse library (uid 04a319096cd1428a9c5af4dde414a7d7; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/sprinkle_donut" texturedir="../mesh/sprinkle_donut"/>
+  <custom>
+    <text name="label" data="donut with sprinkles" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

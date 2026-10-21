@@ -1,6 +1,9 @@
 <mujoco model="blue_bucket">
   <!-- blue_bucket, converted from the MolmoSpaces Objaverse library (uid 53e3310475974512b39dc46f3a3d7dd5; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_bucket" texturedir="../mesh/blue_bucket"/>
+  <custom>
+    <text name="label" data="speckled bucket" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

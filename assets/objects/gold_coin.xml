@@ -1,6 +1,9 @@
 <mujoco model="gold_coin">
   <!-- gold_coin, converted from the MolmoSpaces Objaverse library (uid 2a3709978a6b4c209569f97c997d4cb0; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/gold_coin" texturedir="../mesh/gold_coin"/>
+  <custom>
+    <text name="label" data="gold coin" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

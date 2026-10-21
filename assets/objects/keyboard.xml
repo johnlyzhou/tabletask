@@ -1,5 +1,8 @@
 <mujoco model="keyboard">
   <compiler angle="radian" meshdir="../mesh/keyboard" texturedir="../mesh/keyboard" />
+  <custom>
+    <text name="label" data="keyboard" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

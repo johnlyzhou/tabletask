@@ -1,6 +1,9 @@
 <mujoco model="red_cupcake">
   <!-- red_cupcake, converted from the MolmoSpaces Objaverse library (uid 1b832a6fb7614493b893f9592f39e9ea; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_cupcake" texturedir="../mesh/red_cupcake"/>
+  <custom>
+    <text name="label" data="red cupcake" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,6 +1,9 @@
 <mujoco model="yellow_potato">
   <!-- yellow_potato, converted from the MolmoSpaces Objaverse library (uid 0f4be86441694633b42c764a4574fd41; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/yellow_potato" texturedir="../mesh/yellow_potato" />
+  <custom>
+    <text name="label" data="potato" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

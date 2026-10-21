@@ -1,6 +1,9 @@
 <mujoco model="blue_race_car">
   <!-- blue_race_car, converted from the MolmoSpaces Objaverse library (uid 23866496c388470a9ac8ad28bbe5ba38; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_race_car" texturedir="../mesh/blue_race_car"/>
+  <custom>
+    <text name="label" data="blue toy car" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

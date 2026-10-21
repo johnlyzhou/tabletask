@@ -1,6 +1,9 @@
 <mujoco model="smiley_cookie">
   <!-- smiley_cookie, converted from the MolmoSpaces Objaverse library (uid 9e5d8b381821442f93c319607c12e18f; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/smiley_cookie" texturedir="../mesh/smiley_cookie"/>
+  <custom>
+    <text name="label" data="cookie" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

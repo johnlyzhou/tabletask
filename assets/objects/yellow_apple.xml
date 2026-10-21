@@ -1,6 +1,9 @@
 <mujoco model="yellow_apple">
   <!-- yellow_apple, converted from the MolmoSpaces Objaverse library (uid 1c3a06cd8b8d4fd1bf63f55c0b37dca4; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/yellow_apple" texturedir="../mesh/yellow_apple"/>
+  <custom>
+    <text name="label" data="green apple" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

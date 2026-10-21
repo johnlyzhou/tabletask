@@ -1,6 +1,9 @@
 <mujoco model="purple_mouse">
   <!-- purple_mouse, converted from the MolmoSpaces Objaverse library (uid 18ff36dbb00e4ab49731159c811ddf70; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/purple_mouse" texturedir="../mesh/purple_mouse"/>
+  <custom>
+    <text name="label" data="purple mouse" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

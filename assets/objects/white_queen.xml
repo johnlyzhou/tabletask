@@ -1,6 +1,9 @@
 <mujoco model="white_queen">
   <!-- white_queen, converted from the MolmoSpaces Objaverse library (uid 2a76a326977c472ab3ed37c51cf51979; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/white_queen" texturedir="../mesh/white_queen"/>
+  <custom>
+    <text name="label" data="white queen" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

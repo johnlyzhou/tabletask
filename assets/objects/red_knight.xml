@@ -1,6 +1,9 @@
 <mujoco model="red_knight">
   <!-- red_knight, converted from the MolmoSpaces Objaverse library (uid 4a56150cd5344dfead2db47326f6fc3a; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_knight" texturedir="../mesh/red_knight"/>
+  <custom>
+    <text name="label" data="red knight" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

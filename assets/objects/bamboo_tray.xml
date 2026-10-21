@@ -1,6 +1,9 @@
 <mujoco model="bamboo_tray">
   <!-- bamboo_tray, converted from the MolmoSpaces Objaverse library (uid 4a169f8834274183b376490cfb89985f; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/bamboo_tray" texturedir="../mesh/bamboo_tray" />
+  <custom>
+    <text name="label" data="bamboo tray" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

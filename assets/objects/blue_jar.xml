@@ -1,6 +1,9 @@
 <mujoco model="blue_jar">
   <!-- blue_jar, converted from the MolmoSpaces Objaverse library (uid 4e43eb29aa144bdbada1ec500d218a81; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_jar" texturedir="../mesh/blue_jar"/>
+  <custom>
+    <text name="label" data="jar with a yellow lid" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

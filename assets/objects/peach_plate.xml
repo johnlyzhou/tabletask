@@ -1,6 +1,9 @@
 <mujoco model="peach_plate">
   <!-- peach_plate, converted from the MolmoSpaces Objaverse library (uid d908887c14a54382a2384db2d50ab9d2; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/peach_plate" texturedir="../mesh/peach_plate"/>
+  <custom>
+    <text name="label" data="white plate" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

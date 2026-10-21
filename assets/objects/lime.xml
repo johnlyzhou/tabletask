@@ -1,5 +1,8 @@
 <mujoco model="lime">
   <compiler angle="radian" meshdir="../mesh/lime" texturedir="../mesh/lime" />
+  <custom>
+    <text name="label" data="lime" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

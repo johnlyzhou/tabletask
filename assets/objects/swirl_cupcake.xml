@@ -1,6 +1,9 @@
 <mujoco model="swirl_cupcake">
   <!-- swirl_cupcake, converted from the MolmoSpaces Objaverse library (uid 5c019bf89c544987b0ce6643f73a41c2; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/swirl_cupcake" texturedir="../mesh/swirl_cupcake"/>
+  <custom>
+    <text name="label" data="pink cupcake" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

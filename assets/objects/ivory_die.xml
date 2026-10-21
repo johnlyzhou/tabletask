@@ -1,5 +1,8 @@
 <mujoco model="ivory_die">
   <compiler angle="radian" meshdir="../mesh/ivory_die" texturedir="../mesh/ivory_die" />
+  <custom>
+    <text name="label" data="ivory die" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

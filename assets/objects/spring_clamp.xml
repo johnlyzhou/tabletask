@@ -1,5 +1,8 @@
 <mujoco model="spring_clamp">
   <compiler angle="radian" meshdir="../mesh/spring_clamp" texturedir="../mesh/spring_clamp" />
+  <custom>
+    <text name="label" data="spring clamp" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

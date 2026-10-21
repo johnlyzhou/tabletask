@@ -1,6 +1,9 @@
 <mujoco model="red_tray">
   <!-- red_tray, converted from the MolmoSpaces Objaverse library (uid 3b0baa42581b4836a30e218540b1d9e8; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_tray" texturedir="../mesh/red_tray"/>
+  <custom>
+    <text name="label" data="red tray" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

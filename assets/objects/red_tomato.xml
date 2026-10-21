@@ -1,5 +1,8 @@
 <mujoco model="red_tomato">
   <compiler angle="radian" meshdir="../mesh/red_tomato" texturedir="../mesh/red_tomato" />
+  <custom>
+    <text name="label" data="tomato with a stem" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

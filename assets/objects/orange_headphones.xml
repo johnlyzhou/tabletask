@@ -1,6 +1,9 @@
 <mujoco model="orange_headphones">
   <!-- orange_headphones, converted from the MolmoSpaces Objaverse library (uid 1e44bec35a2c4c8cb29af45f84102b3c; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/orange_headphones" texturedir="../mesh/orange_headphones"/>
+  <custom>
+    <text name="label" data="orange headphones" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

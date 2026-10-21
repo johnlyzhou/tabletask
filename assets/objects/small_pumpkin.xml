@@ -1,5 +1,8 @@
 <mujoco model="small_pumpkin">
   <compiler angle="radian" meshdir="../mesh/small_pumpkin" texturedir="../mesh/small_pumpkin" />
+  <custom>
+    <text name="label" data="small pumpkin" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

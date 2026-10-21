@@ -1,6 +1,9 @@
 <mujoco model="pink_jar">
   <!-- pink_jar, converted from the MolmoSpaces Objaverse library (uid e1586d45a933453ea41d3b9fdb308c9c; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/pink_jar" texturedir="../mesh/pink_jar"/>
+  <custom>
+    <text name="label" data="pink striped jar" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,5 +1,8 @@
 <mujoco model="white_drawer">
   <compiler angle="radian" meshdir="../mesh/white_drawer" texturedir="../mesh/white_drawer" />
+  <custom>
+    <text name="label" data="white drawer" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

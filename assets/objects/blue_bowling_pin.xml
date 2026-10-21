@@ -1,6 +1,9 @@
 <mujoco model="blue_bowling_pin">
   <!-- blue_bowling_pin, converted from the MolmoSpaces Objaverse library (uid 40a52bb7b68b41658f0f657805752468; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_bowling_pin" texturedir="../mesh/blue_bowling_pin"/>
+  <custom>
+    <text name="label" data="blue bowling pin" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

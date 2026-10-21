@@ -1,5 +1,8 @@
 <mujoco model="blue_block">
   <compiler angle="radian" meshdir="../mesh/blue_block" texturedir="../mesh/blue_block" />
+  <custom>
+    <text name="label" data="blue block" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

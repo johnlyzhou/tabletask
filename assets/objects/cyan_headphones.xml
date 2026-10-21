@@ -1,6 +1,9 @@
 <mujoco model="cyan_headphones">
   <!-- cyan_headphones, converted from the MolmoSpaces Objaverse library (uid 00a662d84667451e87b061f4cf808b5b; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/cyan_headphones" texturedir="../mesh/cyan_headphones"/>
+  <custom>
+    <text name="label" data="blue headphones" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,6 +1,9 @@
 <mujoco model="red_remote">
   <!-- red_remote, converted from the MolmoSpaces Objaverse library (uid 31d2e78b579f4cae91e358976504a98e; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_remote" texturedir="../mesh/red_remote"/>
+  <custom>
+    <text name="label" data="remote" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

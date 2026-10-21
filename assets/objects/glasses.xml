@@ -1,5 +1,8 @@
 <mujoco model="glasses">
   <compiler angle="radian" meshdir="../mesh/glasses" texturedir="../mesh/glasses" />
+  <custom>
+    <text name="label" data="sunglasses" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

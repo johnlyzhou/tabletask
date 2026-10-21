@@ -1,6 +1,9 @@
 <mujoco model="green_mug">
   <!-- green_mug, converted from the MolmoSpaces Objaverse library (uid 30e8e48221074f19a558f7b2050e8874; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/green_mug" texturedir="../mesh/green_mug"/>
+  <custom>
+    <text name="label" data="white cup" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

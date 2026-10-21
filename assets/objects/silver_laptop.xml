@@ -1,6 +1,9 @@
 <mujoco model="silver_laptop">
   <!-- silver_laptop, converted from an AI2-THOR prefab via MolmoSpaces (Laptop_1; Apache-2.0, AI2). -->
   <compiler angle="radian" meshdir="../mesh/silver_laptop" texturedir="../mesh/silver_laptop"/>
+  <custom>
+    <text name="label" data="silver laptop" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

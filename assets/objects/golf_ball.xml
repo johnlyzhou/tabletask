@@ -1,6 +1,9 @@
 <mujoco model="golf_ball">
   <!-- golf_ball, converted from the MolmoSpaces Objaverse library (uid 3afbc0fe153146ccac248659acba9591; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/golf_ball" texturedir="../mesh/golf_ball"/>
+  <custom>
+    <text name="label" data="golf ball" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

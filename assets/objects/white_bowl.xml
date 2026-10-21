@@ -1,6 +1,9 @@
 <mujoco model="white_bowl">
   <!-- white_bowl, converted from the MolmoSpaces Objaverse library (uid 005f5630a54b442291aeb0a5d487353b; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/white_bowl" texturedir="../mesh/white_bowl"/>
+  <custom>
+    <text name="label" data="white bowl" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

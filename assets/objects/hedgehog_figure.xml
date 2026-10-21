@@ -1,6 +1,9 @@
 <mujoco model="hedgehog_figure">
   <!-- hedgehog_figure, converted from the MolmoSpaces Objaverse library (uid 1e395b4a15254ded8a430e1bbbd4054c; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/hedgehog_figure" texturedir="../mesh/hedgehog_figure"/>
+  <custom>
+    <text name="label" data="hedgehog" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,6 +1,9 @@
 <mujoco model="red_die">
   <!-- red_die, converted from the MolmoSpaces Objaverse library (uid 728f588069f1486188208e071dc9e847; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_die" texturedir="../mesh/red_die"/>
+  <custom>
+    <text name="label" data="red die" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,5 +1,8 @@
 <mujoco model="bowl">
   <compiler angle="radian" meshdir="../mesh/bowl" texturedir="../mesh/bowl" />
+  <custom>
+    <text name="label" data="dark red bowl" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

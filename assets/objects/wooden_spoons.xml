@@ -1,5 +1,8 @@
 <mujoco model="wooden_spoons">
   <compiler angle="radian" meshdir="../mesh/wooden_spoons" texturedir="../mesh/wooden_spoons" />
+  <custom>
+    <text name="label" data="wooden spoon" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

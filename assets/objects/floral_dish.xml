@@ -1,6 +1,9 @@
 <mujoco model="floral_dish">
   <!-- floral_dish, converted from the MolmoSpaces Objaverse library (uid 0f1f3038a3144ab88d39739cc980fdc1; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/floral_dish" texturedir="../mesh/floral_dish"/>
+  <custom>
+    <text name="label" data="floral dish" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

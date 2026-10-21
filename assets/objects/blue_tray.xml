@@ -1,6 +1,9 @@
 <mujoco model="blue_tray">
   <!-- blue_tray, converted from the MolmoSpaces Objaverse library (uid 3e7747b1db4b44a4952d6d94488ee16e; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_tray" texturedir="../mesh/blue_tray"/>
+  <custom>
+    <text name="label" data="light blue tray" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

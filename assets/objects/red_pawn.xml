@@ -1,6 +1,9 @@
 <mujoco model="red_pawn">
   <!-- red_pawn, converted from the MolmoSpaces Objaverse library (uid 0503854981b44725b6dc998fbe2859b3; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_pawn" texturedir="../mesh/red_pawn"/>
+  <custom>
+    <text name="label" data="red pawn" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

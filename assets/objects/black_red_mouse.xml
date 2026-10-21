@@ -1,6 +1,9 @@
 <mujoco model="black_red_mouse">
   <!-- black_red_mouse, converted from the MolmoSpaces Objaverse library (uid 3d53925857e945168a669642e68495a2; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/black_red_mouse" texturedir="../mesh/black_red_mouse"/>
+  <custom>
+    <text name="label" data="black and red mouse" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

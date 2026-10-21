@@ -1,5 +1,8 @@
 <mujoco model="d_cell_battery">
   <compiler angle="radian" meshdir="../mesh/d_cell_battery" texturedir="../mesh/d_cell_battery" />
+  <custom>
+    <text name="label" data="large battery" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

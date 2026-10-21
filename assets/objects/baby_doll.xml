@@ -1,5 +1,8 @@
 <mujoco model="baby_doll">
   <compiler angle="radian" meshdir="../mesh/baby_doll" texturedir="../mesh/baby_doll" />
+  <custom>
+    <text name="label" data="baby doll" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

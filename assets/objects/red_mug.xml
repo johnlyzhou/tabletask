@@ -1,5 +1,8 @@
 <mujoco model="red_mug">
   <compiler angle="radian" meshdir="../mesh/red_mug" texturedir="../mesh/red_mug" />
+  <custom>
+    <text name="label" data="dark red cup" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

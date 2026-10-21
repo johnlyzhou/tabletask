@@ -1,5 +1,8 @@
 <mujoco model="bin">
   <compiler angle="radian" meshdir="../mesh/bin" texturedir="../mesh/bin" />
+  <custom>
+    <text name="label" data="blue box" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

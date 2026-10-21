@@ -1,6 +1,9 @@
 <mujoco model="jam_jar">
   <!-- Original Blender visual; collision geometry from MolmoSpaces Objaverse uid 4911919955ff4f788b60950e64c0a61f, ODC-By 1.0. -->
   <compiler angle="radian" meshdir="../mesh/jam_jar" texturedir="../mesh/jam_jar" />
+  <custom>
+    <text name="label" data="jar of jam" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

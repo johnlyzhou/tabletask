@@ -1,5 +1,8 @@
 <mujoco model="corn">
   <compiler angle="radian" meshdir="../mesh/corn" texturedir="../mesh/corn" />
+  <custom>
+    <text name="label" data="corn" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

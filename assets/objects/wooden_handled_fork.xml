@@ -1,6 +1,9 @@
 <mujoco model="wooden_handled_fork">
   <!-- wooden_handled_fork, converted from the MolmoSpaces Objaverse library (uid 1332dcafbe5448a697b27a49797bb1bf; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/wooden_handled_fork" texturedir="../mesh/wooden_handled_fork"/>
+  <custom>
+    <text name="label" data="fork with a wooden handle" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

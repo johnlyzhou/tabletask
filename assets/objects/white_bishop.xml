@@ -1,6 +1,9 @@
 <mujoco model="white_bishop">
   <!-- white_bishop, converted from the MolmoSpaces Objaverse library (uid 05d96b692c5a412c996236496a08517c; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/white_bishop" texturedir="../mesh/white_bishop"/>
+  <custom>
+    <text name="label" data="white bishop" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

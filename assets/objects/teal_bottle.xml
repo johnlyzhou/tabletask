@@ -1,6 +1,9 @@
 <mujoco model="teal_bottle">
   <!-- teal_bottle, converted from the MolmoSpaces Objaverse library (uid 2a2bec5619764218bfdd715ee1148362; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/teal_bottle" texturedir="../mesh/teal_bottle"/>
+  <custom>
+    <text name="label" data="teal bottle" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

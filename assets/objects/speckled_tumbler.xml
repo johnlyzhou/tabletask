@@ -1,6 +1,9 @@
 <mujoco model="speckled_tumbler">
   <!-- speckled_tumbler, converted from the MolmoSpaces Objaverse library (uid b990394563af493fbe5a0f3515a6df73; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/speckled_tumbler" texturedir="../mesh/speckled_tumbler"/>
+  <custom>
+    <text name="label" data="blue tumbler" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

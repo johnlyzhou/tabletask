@@ -1,6 +1,9 @@
 <mujoco model="blue_sneaker">
   <!-- blue_sneaker, converted from the MolmoSpaces Objaverse library (uid 0070d09cecd94178b4217e244dd72efc; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_sneaker" texturedir="../mesh/blue_sneaker"/>
+  <custom>
+    <text name="label" data="blue sneaker" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

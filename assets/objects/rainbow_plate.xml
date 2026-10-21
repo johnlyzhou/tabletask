@@ -1,6 +1,9 @@
 <mujoco model="rainbow_plate">
   <!-- rainbow_plate, converted from the MolmoSpaces Objaverse library (uid e123c4c29606400fa1b7f03716c5aa48; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/rainbow_plate" texturedir="../mesh/rainbow_plate"/>
+  <custom>
+    <text name="label" data="striped plate" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

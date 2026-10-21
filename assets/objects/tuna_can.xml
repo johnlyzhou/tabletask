@@ -1,5 +1,8 @@
 <mujoco model="tuna_can">
   <compiler angle="radian" meshdir="../mesh/tuna_can" texturedir="../mesh/tuna_can" />
+  <custom>
+    <text name="label" data="can of tuna" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

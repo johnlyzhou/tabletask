@@ -1,5 +1,8 @@
 <mujoco model="milk_jug">
   <compiler angle="radian" meshdir="../mesh/milk_jug" texturedir="../mesh/milk_jug" />
+  <custom>
+    <text name="label" data="milk bottle" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

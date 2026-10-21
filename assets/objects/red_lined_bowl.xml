@@ -1,6 +1,9 @@
 <mujoco model="red_lined_bowl">
   <!-- red_lined_bowl, converted from the MolmoSpaces Objaverse library (uid 0abdb5517f7843fbacb488468cfff1b7; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_lined_bowl" texturedir="../mesh/red_lined_bowl"/>
+  <custom>
+    <text name="label" data="patterned bowl" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,6 +1,9 @@
 <mujoco model="blue_dumbbell">
   <!-- blue_dumbbell, converted from the MolmoSpaces Objaverse library (uid 6ab43fefeca843c4bad35122dc9bdad7; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_dumbbell" texturedir="../mesh/blue_dumbbell"/>
+  <custom>
+    <text name="label" data="blue dumbbell" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

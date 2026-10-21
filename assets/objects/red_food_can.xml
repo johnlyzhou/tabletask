@@ -1,5 +1,8 @@
 <mujoco model="red_food_can">
   <compiler angle="radian" meshdir="../mesh/red_food_can" texturedir="../mesh/red_food_can" />
+  <custom>
+    <text name="label" data="red food can" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

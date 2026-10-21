@@ -1,6 +1,9 @@
 <mujoco model="red_kettlebell">
   <!-- red_kettlebell, converted from the MolmoSpaces Objaverse library (uid 1cc5f925c20f4b619af7161698f9bfcf; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_kettlebell" texturedir="../mesh/red_kettlebell"/>
+  <custom>
+    <text name="label" data="kettlebell" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,6 +1,9 @@
 <mujoco model="blue_screwdriver">
   <!-- blue_screwdriver, converted from the MolmoSpaces Objaverse library (uid 1ac9141218ff46fb804ffc386d002179; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_screwdriver" texturedir="../mesh/blue_screwdriver"/>
+  <custom>
+    <text name="label" data="blue screwdriver" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

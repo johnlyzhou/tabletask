@@ -1,6 +1,9 @@
 <mujoco model="stoneware_tumbler">
   <!-- stoneware_tumbler, converted from the MolmoSpaces Objaverse library (uid dde060cbc53a40e2ba7ca9353c21fe91; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/stoneware_tumbler" texturedir="../mesh/stoneware_tumbler"/>
+  <custom>
+    <text name="label" data="stone cup" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

@@ -1,6 +1,9 @@
 <mujoco model="wooden_ruler">
   <!-- wooden_ruler, converted from the MolmoSpaces Objaverse library (uid 64d300bbdb734f44afd6cfcf00be665a; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/wooden_ruler" texturedir="../mesh/wooden_ruler"/>
+  <custom>
+    <text name="label" data="ruler" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

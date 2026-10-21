@@ -1,5 +1,8 @@
 <mujoco model="yellow_block">
   <compiler angle="radian" meshdir="../mesh/yellow_block" texturedir="../mesh/yellow_block" />
+  <custom>
+    <text name="label" data="yellow block" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

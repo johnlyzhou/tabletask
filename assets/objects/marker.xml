@@ -1,5 +1,8 @@
 <mujoco model="marker">
   <compiler angle="radian" meshdir="../mesh/marker" texturedir="../mesh/marker" />
+  <custom>
+    <text name="label" data="black marker" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

@@ -1,6 +1,9 @@
 <mujoco model="tin_pail">
   <!-- tin_pail, converted from the MolmoSpaces Objaverse library (uid 186c3d0657a44e2ca04ea9544c453437; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/tin_pail" texturedir="../mesh/tin_pail"/>
+  <custom>
+    <text name="label" data="metal bucket" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

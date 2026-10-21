@@ -1,5 +1,8 @@
 <mujoco model="grey_bin">
   <compiler angle="radian" meshdir="../mesh/grey_bin" texturedir="../mesh/grey_bin" />
+  <custom>
+    <text name="label" data="grey tub" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

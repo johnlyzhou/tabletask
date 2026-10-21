@@ -1,5 +1,8 @@
 <mujoco model="red_onion">
   <compiler angle="radian" meshdir="../mesh/red_onion" texturedir="../mesh/red_onion" />
+  <custom>
+    <text name="label" data="red onion" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

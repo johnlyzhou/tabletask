@@ -1,6 +1,9 @@
 <mujoco model="beige_stone">
   <!-- beige_stone, converted from the MolmoSpaces Objaverse library (uid 0366f2d2441342d8b1ca050d053f9f51; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/beige_stone" texturedir="../mesh/beige_stone"/>
+  <custom>
+    <text name="label" data="grey stone" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

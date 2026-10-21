@@ -1,6 +1,9 @@
 <mujoco model="pill_bottle">
   <!-- pill_bottle, converted from the MolmoSpaces Objaverse library (uid 7339a87dac884f1e8aeed3bf80dc0a5f; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/pill_bottle" texturedir="../mesh/pill_bottle"/>
+  <custom>
+    <text name="label" data="pill bottle" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

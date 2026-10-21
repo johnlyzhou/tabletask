@@ -1,5 +1,8 @@
 <mujoco model="storage_box">
   <compiler angle="radian" meshdir="../mesh/storage_box" texturedir="../mesh/storage_box" />
+  <custom>
+    <text name="label" data="wooden box" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />

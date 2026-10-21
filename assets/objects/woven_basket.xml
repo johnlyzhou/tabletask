@@ -1,6 +1,9 @@
 <mujoco model="woven_basket">
   <!-- woven_basket, converted from the MolmoSpaces Objaverse library (uid 13e2e288ceb6419ebd68c3eb8c29237b; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/woven_basket" texturedir="../mesh/woven_basket"/>
+  <custom>
+    <text name="label" data="woven basket" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>

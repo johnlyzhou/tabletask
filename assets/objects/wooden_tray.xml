@@ -1,6 +1,9 @@
 <mujoco model="wooden_tray">
   <!-- wooden_tray, converted from the MolmoSpaces Objaverse library (uid 1c7bf217a78646c7acc4ab510ded3aeb; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/wooden_tray" texturedir="../mesh/wooden_tray"/>
+  <custom>
+    <text name="label" data="wooden tray" />
+  </custom>
   <default>
     <default class="place">
       <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
