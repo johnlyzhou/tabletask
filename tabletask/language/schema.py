@@ -89,7 +89,7 @@ class Grid(msgspec.Struct, omit_defaults=True):
 
 
 class Appearance(msgspec.Struct, omit_defaults=True):
-    """The table and sky textures, and whether the floor is shown."""
+    """The table and sky textures, the lighting, and whether the floor is shown."""
 
     vary: bool = True
     surface: str | None = None
@@ -97,6 +97,7 @@ class Appearance(msgspec.Struct, omit_defaults=True):
     floor: bool = False
     repeat: tuple[float, float] = (2.0, 2.0)
     table_height: float = 0.1  # metres: each episode raises or lowers the table by up to this much
+    lighting: float = 1.0  # how much each episode varies the lights: 0 not at all, 1 fully
 
 
 class Region(msgspec.Struct, omit_defaults=True):

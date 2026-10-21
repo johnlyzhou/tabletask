@@ -1,4 +1,4 @@
-"""Table and sky textures drawn per episode."""
+"""Table and sky textures and lighting drawn per episode."""
 
 from __future__ import annotations
 
@@ -7,6 +7,8 @@ import warnings
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+import numpy as np
+
 from .. import fetching
 from ..language.schema import Appearance
 from .sky import CUBE_LAYOUT
@@ -14,6 +16,13 @@ from .sky import CUBE_LAYOUT
 # The textures a scene can draw from, by kind. Listed in the package so a checkout and an
 # installed package choose alike; an installed package downloads the one it picks.
 INDEX = json.loads((Path(__file__).parents[1] / "scenes/textures.json").read_text())
+
+# Lighting ranges at full variation.
+LIGHT_TILT = 1.0  # the most a light's direction turns, radians
+LIGHT_BRIGHTNESS = 0.6  # the most a light's brightness changes, as a fraction
+LIGHT_TINT = 0.15  # the most each colour channel of a light changes
+LIGHT_MIN_DROP = 0.2  # the least downward component of a light's direction
+SHADOW_OFF = 0.5  # the chance a light that casts shadows does not
 
 
 def pool(textures: Path, kind: str) -> tuple[Path, ...]:
@@ -59,7 +68,7 @@ def _select_texture(textures: Path, kind: str, named: str | None, rng) -> Path |
 
 
 def apply_appearance(mj: ET.Element, appearance, rng, textures: Path) -> None:
-    """Apply sampled or named table and sky textures to the scene XML in place.
+    """Apply sampled or named table and sky textures and sampled lighting to the scene XML.
 
     Args:
         mj: Root `<mujoco>` element of the scene.
@@ -85,6 +94,59 @@ def apply_appearance(mj: ET.Element, appearance, rng, textures: Path) -> None:
     sky = _select_texture(textures, "sky", appearance.sky, pick)
     if sky is not None:
         _replace_skybox(asset, {"file": str(sky), "gridsize": "3 4", "gridlayout": CUBE_LAYOUT})
+    if appearance.lighting > 0 and rng is not None:
+        _vary_lights(mj, appearance.lighting, rng)
+
+
+def _vary_lights(mj: ET.Element, amount: float, rng) -> None:
+    """Turn each light and the headlight, and change their brightness and colour, in place.
+
+    `amount` scales the ranges: each light turns about a random axis by up to `LIGHT_TILT`,
+    staying aimed down, its colours are scaled by up to `LIGHT_BRIGHTNESS` and shifted per
+    channel by up to `LIGHT_TINT`, and its shadows are turned off with chance `amount *
+    SHADOW_OFF`.
+    """
+    lights = list(mj.iter("light"))
+    headlight = mj.find("visual/headlight")
+    for light in [*lights, headlight]:
+        if light is None:
+            continue
+        if light is not headlight:
+            light.set("dir", _join(_tilt(_values(light, "dir", (0, 0, -1)), amount, rng)))
+            if rng.random() < amount * SHADOW_OFF:
+                light.set("castshadow", "false")
+        brightness = 1 + amount * rng.uniform(-LIGHT_BRIGHTNESS, LIGHT_BRIGHTNESS)
+        tint = amount * rng.uniform(-LIGHT_TINT, LIGHT_TINT, 3)
+        for key, default in (("ambient", (0, 0, 0)), ("diffuse", (0.7, 0.7, 0.7))):
+            if light.get(key) is not None or key == "diffuse":
+                colour = np.clip(_values(light, key, default) * brightness + tint, 0, 1)
+                light.set(key, _join(colour))
+
+
+def _tilt(direction: np.ndarray, amount: float, rng) -> np.ndarray:
+    """`direction` turned about a random axis by up to `amount * LIGHT_TILT`, kept aimed down."""
+    direction = direction / np.linalg.norm(direction)
+    axis = rng.normal(size=3)
+    axis /= np.linalg.norm(axis)
+    angle = amount * rng.uniform(-LIGHT_TILT, LIGHT_TILT)
+    turned = (
+        direction * np.cos(angle)
+        + np.cross(axis, direction) * np.sin(angle)
+        + axis * axis.dot(direction) * (1 - np.cos(angle))
+    )
+    turned[2] = min(turned[2], -LIGHT_MIN_DROP)
+    return turned / np.linalg.norm(turned)
+
+
+def _values(element: ET.Element, key: str, default) -> np.ndarray:
+    """A numeric vector attribute, or `default` when it is absent."""
+    text = element.get(key)
+    return np.array([float(v) for v in text.split()] if text else default, dtype=float)
+
+
+def _join(values) -> str:
+    """Numbers as an MJCF attribute."""
+    return " ".join(f"{value:.4g}" for value in values)
 
 
 def _shift_table(world: ET.Element, dz: float) -> None:
