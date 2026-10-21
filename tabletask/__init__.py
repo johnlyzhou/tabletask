@@ -10,7 +10,7 @@ from .language.schema import Task
 from .sampling import instantiate
 from .vector import Envs
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 __all__ = [
     "Env",
