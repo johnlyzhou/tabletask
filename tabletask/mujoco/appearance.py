@@ -117,7 +117,8 @@ def _vary_lights(mj: ET.Element, amount: float, rng) -> None:
                 light.set("castshadow", "false")
         brightness = 1 + amount * rng.uniform(-LIGHT_BRIGHTNESS, LIGHT_BRIGHTNESS)
         tint = amount * rng.uniform(-LIGHT_TINT, LIGHT_TINT, 3)
-        for key, default in (("ambient", (0, 0, 0)), ("diffuse", (0.7, 0.7, 0.7))):
+        diffuse = (0.4,) * 3 if light is headlight else (0.7,) * 3  # MuJoCo's defaults
+        for key, default in (("ambient", (0, 0, 0)), ("diffuse", diffuse)):
             if light.get(key) is not None or key == "diffuse":
                 colour = np.clip(_values(light, key, default) * brightness + tint, 0, 1)
                 light.set(key, _join(colour))
