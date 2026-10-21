@@ -376,6 +376,8 @@ and the rest were written here.
 - Metres and z up in the XML, with the origin at the base: the object rests on the
   table at z=0. `look` reports the origin's height above the lowest point and the
   tilt after settling; both should be about 0.
+- Every asset names itself in plain English, `<custom><text name="label" data="red mug"/></custom>`,
+  distinct from every other asset's label; instructions and the dashboard use it.
 - Regions are geoms named `place:<region>` in class `place`, inside the body:
   `place:inside` (the cavity), `place:top` (where something rests on it) and
   `place:bounds` (a box around the visible mesh). Any other name is a custom
