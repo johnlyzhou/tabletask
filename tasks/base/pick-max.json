@@ -11,5 +11,8 @@
   "start": [
     ["on", "item", "table"]
   ],
+  "always": [
+    ["at_most", ["tally", ["each", "#item", ["lifted", "it", 0.03, "table"]]], ["tally", [["lifted", "item1", 0.03, "table"]]]]
+  ],
   "goal": {"stages": {"lifted": {"condition": ["lifted", "item1", 0.05, "table"], "hold": 0.5, "held": true}}}
 }
