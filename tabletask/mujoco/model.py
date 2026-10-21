@@ -19,6 +19,8 @@ from .render import bounds
 PLACE_CLASS = "place"  # MJCF default class of region geoms
 QUARTER_TURN = 1e-6  # how far a rotation matrix entry may be from 0 or 1 for a quarter turn
 STAGING_HEIGHT = 5.0  # height at which object bodies are created before placement, metres
+FREE_SATURATION = (0.25, 0.85)  # HSV saturation range of a free-colour asset's colour
+FREE_VALUE = (0.45, 0.95)  # HSV value range of a free-colour asset's colour
 
 
 def mjcf(task: Task, rng=None, robot=None) -> str:
@@ -26,8 +28,8 @@ def mjcf(task: Task, rng=None, robot=None) -> str:
 
     Args:
         task: The task whose scene and objects to assemble.
-        rng: Random generator for appearance and object scales; None leaves the scene's
-            textures as is and gives each scale range its middle.
+        rng: Random generator for appearance, free colours and object scales; None leaves
+            the scene's textures and colours as is and gives each scale range its middle.
         robot: Optional robot to attach to the scene.
 
     Returns:
@@ -37,6 +39,7 @@ def mjcf(task: Task, rng=None, robot=None) -> str:
     mj = ET.parse(scene_path).getroot()
     absolutize(mj, scene_path.parent)
     asset, world = mj.find("asset"), mj.find("worldbody")
+    textures = None
     if rng is not None:
         # Textures get their own stream, seeded by one draw that is always made, so the
         # placement draws after it are the same whether or not textures are available.
@@ -47,10 +50,14 @@ def mjcf(task: Task, rng=None, robot=None) -> str:
             textures,
             fetching.resolve(task.scene.library or ".", task.root) / "looks",
         )
+    vary = task.scene.appearance is None or task.scene.appearance.vary
+    colors = {}
     for name, obj in task.scene.objects.items():
         if obj.asset:
             path = fetching.resolve(obj.asset, task.root)
             asset.append(ET.Element("model", {"name": f"asset:{name}", "file": str(path)}))
+            if textures is not None and vary and free_color(path):
+                colors[name] = _draw_color(textures)
             if obj.fixed:
                 _exclude_joint_parent_contacts(mj, name, path)
         world.append(_body(name, obj))
@@ -58,13 +65,18 @@ def mjcf(task: Task, rng=None, robot=None) -> str:
         robot.attach(mj)
     text = ET.tostring(mj, encoding="unicode")
     scaled = {name: obj.scale for name, obj in task.scene.objects.items() if obj.scale != 1}
-    if not scaled:
+    if not scaled and not colors:
         return text
-    # Scales get their own stream, drawn from only by tasks that scale an object.
-    sizes = np.random.default_rng(int(rng.integers(2**63))) if rng is not None else None
     spec = mujoco.MjSpec.from_string(text)
-    for name, scale in scaled.items():
-        scale_object(spec, name, draw_scale(scale, sizes))
+    if scaled:
+        # Scales get their own stream, drawn from only by tasks that scale an object.
+        sizes = np.random.default_rng(int(rng.integers(2**63))) if rng is not None else None
+        for name, scale in scaled.items():
+            scale_object(spec, name, draw_scale(scale, sizes))
+    for name, color in colors.items():
+        for material in spec.materials:
+            if material.name.startswith(f"{name}/"):
+                material.rgba = [*color, material.rgba[3]]
     spec.compile()
     _absolute_files(spec, mj)
     return spec.to_xml()
@@ -84,6 +96,23 @@ def _absolute_files(spec: mujoco.MjSpec, mj: ET.Element) -> None:
             if element.file and prefix in folders and not Path(element.file).is_absolute():
                 base, dirs = folders[prefix]
                 element.file = str((base / dirs[kind] / element.file).resolve())
+
+
+def free_color(path: Path) -> bool:
+    """Whether an asset declares its colour free, `<custom><text name="color" data="free"/>`."""
+    try:
+        color = ET.parse(path).getroot().find("custom/text[@name='color']")
+    except (OSError, ET.ParseError):
+        return False
+    return color is not None and color.get("data") == "free"
+
+
+def _draw_color(rng) -> np.ndarray:
+    """A random colour, as RGB: any hue, mid to strong saturation, never near black."""
+    hue = rng.uniform(0, 1)
+    saturation, value = rng.uniform(*FREE_SATURATION), rng.uniform(*FREE_VALUE)
+    channel = np.clip(np.abs((hue * 6 + np.array([0, 4, 2])) % 6 - 3) - 1, 0, 1)
+    return value * (1 - saturation + saturation * channel)
 
 
 def draw_scale(scale, rng=None) -> np.ndarray:

@@ -29,6 +29,7 @@ from .surface import (
 MAX_REORIENTATIONS = 3  # times an import re-orients a mesh that falls over
 IMPORT_MAX_TILT = 15.0  # degrees of tilt after settling that make an import re-orient
 MAX_HULL_VERTICES = 128  # vertex limit per collision hull (MuJoCo maxhullvert)
+MAX_HULLS = 32  # collision hulls per asset; CoACD merges the closest pieces beyond this
 DECOMPOSITION_THRESHOLDS = (0.10, 0.07, 0.05, 0.035, 0.02)  # CoACD concavity, coarse to fine
 MIN_VOLUME_IMPROVEMENT = 0.001  # volume saved per extra hull, as a fraction of the convex hull
 MIN_HULL_VOLUME = 1e-9  # cubic metres; smaller hulls are dropped
@@ -100,8 +101,13 @@ def decompose_collision(points: np.ndarray, triangles: np.ndarray, folder: Path)
         pieces = [
             trimesh.Trimesh(np.asarray(v), np.asarray(f), process=False).convex_hull
             for v, f in coacd.run_coacd(
-                collision_mesh, threshold=threshold, preprocess_mode="auto", merge=True
+                collision_mesh,
+                threshold=threshold,
+                preprocess_mode="auto",
+                merge=True,
+                max_convex_hull=MAX_HULLS,
             )
+            if len(v) >= 4
         ]
         pieces = [p for p in pieces if p.volume >= MIN_HULL_VOLUME]
         if not pieces:
