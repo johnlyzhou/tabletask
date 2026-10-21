@@ -109,6 +109,7 @@ class Droid(Robot):
         self.camera = (False, 0.0, 0.0, 0.0, np.zeros(3), 0.0)
         self.nominal = (self.position.copy(), self.quaternion.copy())
         self.extended = False
+        self.camera_nominal = None
         self.start = None
 
     def start_pose(self, episode):
@@ -240,13 +241,21 @@ class Droid(Robot):
         The point is where the camera's nominal view axis meets the base's horizontal plane. The
         camera keeps its distance and height from it, mirrored across the base's xz plane on the
         other side, then swings around it, moves in or out and up or down, and looks at it again
-        after it moves.
+        after it moves. The nominal pose is read once, so placing the camera again gives the same
+        pose.
         """
         mirrored, azimuth, distance, height, aim, fov = self.camera
         camera = model.camera(self.qualified("external")).id
-        position = model.cam_pos[camera].copy()
+        if self.camera_nominal is None:
+            self.camera_nominal = (
+                model.cam_pos[camera].copy(),
+                model.cam_quat[camera].copy(),
+                float(model.cam_fovy[camera]),
+            )
+        position, nominal_quaternion, fovy = self.camera_nominal
+        position = position.copy()
         rotation = np.zeros(9)
-        mujoco.mju_quat2Mat(rotation, model.cam_quat[camera])
+        mujoco.mju_quat2Mat(rotation, nominal_quaternion)
         forward = -rotation.reshape(3, 3)[:, 2]
         target = position + forward * (-position[2] / forward[2])
         offset = position - target
@@ -265,7 +274,7 @@ class Droid(Robot):
         mujoco.mju_mat2Quat(quaternion, frame.ravel())
         model.cam_pos[camera] = position
         model.cam_quat[camera] = quaternion
-        model.cam_fovy[camera] += fov
+        model.cam_fovy[camera] = fovy + fov
 
     def reset(self):
         """Move the arm to its start pose, hold it there and open the gripper."""
