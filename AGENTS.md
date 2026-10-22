@@ -408,9 +408,11 @@ from its own stream and `tabletask/generation.py` writes the asset to
 the model and body after the file, so sampling, conditions, regions and the privileged state
 see an ordinary asset. A generator follows the asset conventions (front to -x, origin at the
 base, a label, `place:` regions) and keeps its joint names and count fixed.
-`assets/generators/drawer.py` builds a drawer in a box frame with a varied handle, paint or
-library textures (joint `drawer`, regions
-`inside`, `top`, `handle`); `drawers-max` uses it.
+`assets/generators/drawer.py` builds a drawer in a box frame (joint `drawer`, regions
+`inside`, `top`, `handle`) and `cabinet.py` a cabinet with one door hinged left or right
+(joint `door`, regions `inside`, `shelf` when it has one, `top`, `handle`); both draw a
+handle of five kinds placed anywhere on the front, and paint or library textures, from
+`furniture.py`. `drawers-max` and `cabinet-max` use them.
 
 Edit regions from the command line:
 

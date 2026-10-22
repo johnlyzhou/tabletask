@@ -1,0 +1,12 @@
+{
+  "id": "cabinet-max",
+  "instruction": "Open the cabinet.",
+  "objects": {
+    "cabinet": {"asset": {"generate": "cabinet"}, "fixed": true, "sample": {"rel": "table/top", "offset": [0.12, 0.0, 0.0], "jitter": {"xy": [0.04, 0.15], "yaw": 15}}}
+  },
+  "start": [
+    ["on", "cabinet", "table"],
+    ["closed", "cabinet/door"]
+  ],
+  "goal": {"stages": {"open": {"condition": ["open", "cabinet/door"], "held": true}}}
+}

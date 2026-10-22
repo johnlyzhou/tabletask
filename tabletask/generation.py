@@ -1,6 +1,7 @@
 """Procedural assets: generator scripts that write an asset's MJCF from drawn parameters.
 
-A generator is a Python file in the library's `generators/` folder with two names:
+A generator is a Python file in the library's `generators/` folder (it may import the
+modules beside it) with two names:
 `PARAMS`, each parameter's fixed value, `[low, high]` range or list of choices, and
 `build(params) -> str`, the MJCF of one asset (one top-level body) for one set of drawn
 values. A task's object
@@ -14,6 +15,7 @@ from __future__ import annotations
 import hashlib
 import importlib.util
 import os
+import sys
 import xml.etree.ElementTree as ET
 from functools import cache
 from pathlib import Path
@@ -34,7 +36,11 @@ def generator(path: Path):
     """The generator module at `path`, loaded once."""
     spec = importlib.util.spec_from_file_location(f"tabletask_generator_{path.stem}", path)
     module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
+    sys.path.insert(0, str(path.parent))  # a generator may import the modules beside it
+    try:
+        spec.loader.exec_module(module)
+    finally:
+        sys.path.remove(str(path.parent))
     if not isinstance(getattr(module, "PARAMS", None), dict) or not callable(
         getattr(module, "build", None)
     ):
