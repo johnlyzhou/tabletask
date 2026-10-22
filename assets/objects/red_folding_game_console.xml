@@ -1,0 +1,44 @@
+<mujoco model="red_folding_game_console">
+  <compiler angle="radian" meshdir="../mesh/red_folding_game_console" texturedir="../mesh/red_folding_game_console" />
+  <custom>
+    <text name="label" data="red folding game console" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_folding_game_console_0_mesh" file="0.obj" />
+    <material name="red_folding_game_console_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="red_folding_game_console_0_tex" role="rgb" />
+    </material>
+    <texture name="red_folding_game_console_0_tex" type="2d" file="0.png" />
+    <mesh name="red_folding_game_console_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="red_folding_game_console_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="red_folding_game_console_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="red_folding_game_console_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="red_folding_game_console_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="red_folding_game_console_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="red_folding_game_console_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="red_folding_game_console_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="red_folding_game_console_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="red_folding_game_console_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="red_folding_game_console">
+      <geom type="mesh" mesh="red_folding_game_console_0_mesh" material="red_folding_game_console_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_00" rgba="0 0 0 0" group="3" mass="0.101600181" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_01" rgba="0 0 0 0" group="3" mass="0.0124217166" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_02" rgba="0 0 0 0" group="3" mass="0.183377431" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_03" rgba="0 0 0 0" group="3" mass="0.00858047607" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_04" rgba="0 0 0 0" group="3" mass="0.0109783396" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_05" rgba="0 0 0 0" group="3" mass="0.00682217146" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_06" rgba="0 0 0 0" group="3" mass="0.0127990126" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_07" rgba="0 0 0 0" group="3" mass="0.00413633523" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_08" rgba="0 0 0 0" group="3" mass="0.00273701365" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_folding_game_console_hull_09" rgba="0 0 0 0" group="3" mass="0.122547322" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0780 0.0672 0.0463" pos="0.0000 0.0000 0.0463" />
+    </body>
+  </worldbody>
+</mujoco>

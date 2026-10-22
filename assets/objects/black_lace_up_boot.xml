@@ -1,0 +1,90 @@
+<mujoco model="black_lace_up_boot">
+  <compiler angle="radian" meshdir="../mesh/black_lace_up_boot" texturedir="../mesh/black_lace_up_boot" />
+  <custom>
+    <text name="label" data="black lace-up boot" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="black_lace_up_boot_0_mesh" file="0.obj" />
+    <material name="black_lace_up_boot_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="black_lace_up_boot_0_tex" role="rgb" />
+    </material>
+    <texture name="black_lace_up_boot_0_tex" type="2d" file="0.png" />
+    <mesh name="black_lace_up_boot_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="black_lace_up_boot_inside" file="inside.obj" />
+    <mesh name="black_lace_up_boot_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="black_lace_up_boot">
+      <geom type="mesh" mesh="black_lace_up_boot_0_mesh" material="black_lace_up_boot_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_00" rgba="0 0 0 0" group="3" mass="0.0528048871" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_01" rgba="0 0 0 0" group="3" mass="0.298745301" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_02" rgba="0 0 0 0" group="3" mass="0.033104031" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_03" rgba="0 0 0 0" group="3" mass="0.0328637033" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_04" rgba="0 0 0 0" group="3" mass="0.0227906913" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_05" rgba="0 0 0 0" group="3" mass="0.0330314089" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_06" rgba="0 0 0 0" group="3" mass="0.0961558342" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_07" rgba="0 0 0 0" group="3" mass="0.0160521619" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_08" rgba="0 0 0 0" group="3" mass="0.0269443696" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_09" rgba="0 0 0 0" group="3" mass="0.0165617297" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_10" rgba="0 0 0 0" group="3" mass="0.0124431439" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_11" rgba="0 0 0 0" group="3" mass="0.0794256004" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_12" rgba="0 0 0 0" group="3" mass="0.0128279514" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_13" rgba="0 0 0 0" group="3" mass="0.0124625471" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_14" rgba="0 0 0 0" group="3" mass="0.00415793479" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_15" rgba="0 0 0 0" group="3" mass="0.0116324453" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_16" rgba="0 0 0 0" group="3" mass="0.0124464963" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_17" rgba="0 0 0 0" group="3" mass="0.0284280871" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_18" rgba="0 0 0 0" group="3" mass="0.00460861726" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_19" rgba="0 0 0 0" group="3" mass="0.00707171721" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_20" rgba="0 0 0 0" group="3" mass="0.00456065561" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_21" rgba="0 0 0 0" group="3" mass="0.00430586795" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_22" rgba="0 0 0 0" group="3" mass="0.010454072" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_23" rgba="0 0 0 0" group="3" mass="0.00815783117" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_24" rgba="0 0 0 0" group="3" mass="0.00415160287" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_25" rgba="0 0 0 0" group="3" mass="0.00885742471" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_26" rgba="0 0 0 0" group="3" mass="0.0247288498" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_27" rgba="0 0 0 0" group="3" mass="0.00708504353" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_28" rgba="0 0 0 0" group="3" mass="0.0404290326" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_29" rgba="0 0 0 0" group="3" mass="0.00276265249" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_lace_up_boot_hull_30" rgba="0 0 0 0" group="3" mass="0.0799483086" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1240 0.0454 0.0934" pos="0.0000 0.0000 0.0934" />
+      <geom name="place:inside" class="place" type="mesh" mesh="black_lace_up_boot_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="black_lace_up_boot_top" />
+    </body>
+  </worldbody>
+</mujoco>

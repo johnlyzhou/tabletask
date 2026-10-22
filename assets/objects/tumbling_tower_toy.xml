@@ -1,0 +1,90 @@
+<mujoco model="tumbling_tower_toy">
+  <compiler angle="radian" meshdir="../mesh/tumbling_tower_toy" texturedir="../mesh/tumbling_tower_toy" />
+  <custom>
+    <text name="label" data="tumbling tower toy" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="tumbling_tower_toy_0_mesh" file="0.obj" />
+    <material name="tumbling_tower_toy_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="tumbling_tower_toy_0_tex" role="rgb" />
+    </material>
+    <texture name="tumbling_tower_toy_0_tex" type="2d" file="0.png" />
+    <mesh name="tumbling_tower_toy_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="tumbling_tower_toy_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="tumbling_tower_toy">
+      <geom type="mesh" mesh="tumbling_tower_toy_0_mesh" material="tumbling_tower_toy_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_00" rgba="0 0 0 0" group="3" mass="0.070208124" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_01" rgba="0 0 0 0" group="3" mass="0.070366158" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_02" rgba="0 0 0 0" group="3" mass="0.0748397667" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_03" rgba="0 0 0 0" group="3" mass="0.0238356002" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_04" rgba="0 0 0 0" group="3" mass="0.0704896583" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_05" rgba="0 0 0 0" group="3" mass="0.0647557438" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_06" rgba="0 0 0 0" group="3" mass="0.00424355671" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_07" rgba="0 0 0 0" group="3" mass="0.0707555059" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_08" rgba="0 0 0 0" group="3" mass="0.0172988148" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_09" rgba="0 0 0 0" group="3" mass="0.0161936173" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_10" rgba="0 0 0 0" group="3" mass="0.0155710082" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_11" rgba="0 0 0 0" group="3" mass="0.0240779051" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_12" rgba="0 0 0 0" group="3" mass="0.00168174654" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_13" rgba="0 0 0 0" group="3" mass="0.00168174654" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_14" rgba="0 0 0 0" group="3" mass="0.00561230161" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_15" rgba="0 0 0 0" group="3" mass="0.00315454057" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_16" rgba="0 0 0 0" group="3" mass="0.00168174654" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_17" rgba="0 0 0 0" group="3" mass="0.0234761804" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_18" rgba="0 0 0 0" group="3" mass="0.00861616405" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_19" rgba="0 0 0 0" group="3" mass="0.0440231389" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_20" rgba="0 0 0 0" group="3" mass="0.00325684305" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_21" rgba="0 0 0 0" group="3" mass="0.00168174654" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_22" rgba="0 0 0 0" group="3" mass="0.00415224345" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_23" rgba="0 0 0 0" group="3" mass="0.0145000163" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_24" rgba="0 0 0 0" group="3" mass="0.0166935489" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_25" rgba="0 0 0 0" group="3" mass="0.00257663949" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_26" rgba="0 0 0 0" group="3" mass="0.00168174654" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_27" rgba="0 0 0 0" group="3" mass="0.00508618126" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_28" rgba="0 0 0 0" group="3" mass="0.0159562358" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_29" rgba="0 0 0 0" group="3" mass="0.0122231332" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_30" rgba="0 0 0 0" group="3" mass="0.011612156" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_31" rgba="0 0 0 0" group="3" mass="0.0151240608" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tumbling_tower_toy_hull_32" rgba="0 0 0 0" group="3" mass="0.128892424" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0945 0.0412 0.1134" pos="0.0000 0.0000 0.1134" />
+    </body>
+  </worldbody>
+</mujoco>

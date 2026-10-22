@@ -1,0 +1,82 @@
+<mujoco model="brown_wedge_boot">
+  <compiler angle="radian" meshdir="../mesh/brown_wedge_boot" texturedir="../mesh/brown_wedge_boot" />
+  <custom>
+    <text name="label" data="brown wedge boot" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="brown_wedge_boot_0_mesh" file="0.obj" />
+    <material name="brown_wedge_boot_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="brown_wedge_boot_0_tex" role="rgb" />
+    </material>
+    <texture name="brown_wedge_boot_0_tex" type="2d" file="0.png" />
+    <mesh name="brown_wedge_boot_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="brown_wedge_boot_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="brown_wedge_boot">
+      <geom type="mesh" mesh="brown_wedge_boot_0_mesh" material="brown_wedge_boot_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_00" rgba="0 0 0 0" group="3" mass="0.26676472" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_01" rgba="0 0 0 0" group="3" mass="0.00671725718" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_02" rgba="0 0 0 0" group="3" mass="0.00517231991" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_03" rgba="0 0 0 0" group="3" mass="0.115717502" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_04" rgba="0 0 0 0" group="3" mass="0.0923010802" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_05" rgba="0 0 0 0" group="3" mass="0.0178715055" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_06" rgba="0 0 0 0" group="3" mass="0.0735499751" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_07" rgba="0 0 0 0" group="3" mass="0.00491132796" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_08" rgba="0 0 0 0" group="3" mass="0.0178658586" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_09" rgba="0 0 0 0" group="3" mass="0.0077749706" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_10" rgba="0 0 0 0" group="3" mass="0.128269207" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_11" rgba="0 0 0 0" group="3" mass="0.08279876" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_12" rgba="0 0 0 0" group="3" mass="0.00366161353" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_13" rgba="0 0 0 0" group="3" mass="0.00202263606" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_14" rgba="0 0 0 0" group="3" mass="0.00292126979" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_15" rgba="0 0 0 0" group="3" mass="0.00293714277" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_16" rgba="0 0 0 0" group="3" mass="0.00495304842" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_17" rgba="0 0 0 0" group="3" mass="0.00308671147" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_18" rgba="0 0 0 0" group="3" mass="0.0090845414" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_19" rgba="0 0 0 0" group="3" mass="0.0034173076" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_20" rgba="0 0 0 0" group="3" mass="0.00875245314" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_21" rgba="0 0 0 0" group="3" mass="0.0664574044" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_22" rgba="0 0 0 0" group="3" mass="0.00202263606" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_23" rgba="0 0 0 0" group="3" mass="0.00498585307" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_24" rgba="0 0 0 0" group="3" mass="0.0125817879" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_25" rgba="0 0 0 0" group="3" mass="0.00202263606" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_26" rgba="0 0 0 0" group="3" mass="0.00202263606" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_27" rgba="0 0 0 0" group="3" mass="0.00202263606" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_wedge_boot_hull_28" rgba="0 0 0 0" group="3" mass="0.0623332025" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0436 0.1206 0.1004" pos="0.0000 0.0000 0.1004" />
+    </body>
+  </worldbody>
+</mujoco>

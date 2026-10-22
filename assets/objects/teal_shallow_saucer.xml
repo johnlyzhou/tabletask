@@ -1,0 +1,94 @@
+<mujoco model="teal_shallow_saucer">
+  <compiler angle="radian" meshdir="../mesh/teal_shallow_saucer" texturedir="../mesh/teal_shallow_saucer" />
+  <custom>
+    <text name="label" data="teal shallow saucer" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="teal_shallow_saucer_0_mesh" file="0.obj" />
+    <material name="teal_shallow_saucer_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="teal_shallow_saucer_0_tex" role="rgb" />
+    </material>
+    <texture name="teal_shallow_saucer_0_tex" type="2d" file="0.png" />
+    <mesh name="teal_shallow_saucer_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="teal_shallow_saucer_inside" file="inside.obj" />
+    <mesh name="teal_shallow_saucer_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="teal_shallow_saucer">
+      <geom type="mesh" mesh="teal_shallow_saucer_0_mesh" material="teal_shallow_saucer_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_00" rgba="0 0 0 0" group="3" mass="0.0131605062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_01" rgba="0 0 0 0" group="3" mass="0.0119414215" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_02" rgba="0 0 0 0" group="3" mass="0.0113539925" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_03" rgba="0 0 0 0" group="3" mass="0.01227063" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_04" rgba="0 0 0 0" group="3" mass="0.00656247042" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_05" rgba="0 0 0 0" group="3" mass="0.00575548453" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_06" rgba="0 0 0 0" group="3" mass="0.00611974833" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_07" rgba="0 0 0 0" group="3" mass="0.00604355163" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_08" rgba="0 0 0 0" group="3" mass="0.00622548499" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_09" rgba="0 0 0 0" group="3" mass="0.00681125498" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_10" rgba="0 0 0 0" group="3" mass="0.00635723025" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_11" rgba="0 0 0 0" group="3" mass="0.0152858529" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_12" rgba="0 0 0 0" group="3" mass="0.0178149774" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_13" rgba="0 0 0 0" group="3" mass="0.0178837376" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_14" rgba="0 0 0 0" group="3" mass="0.011857451" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_15" rgba="0 0 0 0" group="3" mass="0.0152952902" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_16" rgba="0 0 0 0" group="3" mass="0.0161056027" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_17" rgba="0 0 0 0" group="3" mass="0.0167478192" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_18" rgba="0 0 0 0" group="3" mass="0.0155913168" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_19" rgba="0 0 0 0" group="3" mass="0.00628212025" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_20" rgba="0 0 0 0" group="3" mass="0.00508671982" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_21" rgba="0 0 0 0" group="3" mass="0.00634798071" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_22" rgba="0 0 0 0" group="3" mass="0.00553472095" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_23" rgba="0 0 0 0" group="3" mass="0.00264062916" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_24" rgba="0 0 0 0" group="3" mass="0.00251521431" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_25" rgba="0 0 0 0" group="3" mass="0.00256622686" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_26" rgba="0 0 0 0" group="3" mass="0.006358109" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_27" rgba="0 0 0 0" group="3" mass="0.0026207702" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_28" rgba="0 0 0 0" group="3" mass="0.00231604814" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_29" rgba="0 0 0 0" group="3" mass="0.00252515436" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_30" rgba="0 0 0 0" group="3" mass="0.00261902282" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_31" rgba="0 0 0 0" group="3" mass="0.00263103032" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_shallow_saucer_hull_32" rgba="0 0 0 0" group="3" mass="0.19677243" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1209 0.1210 0.0166" pos="0.0000 0.0000 0.0166" />
+      <geom name="place:inside" class="place" type="mesh" mesh="teal_shallow_saucer_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="teal_shallow_saucer_top" />
+    </body>
+  </worldbody>
+</mujoco>
