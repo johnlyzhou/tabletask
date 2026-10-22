@@ -93,7 +93,7 @@ def _slots(task, template):
     slots = []
     for name, obj in template.scene.objects.items():
         pool = obj.asset if isinstance(obj.asset, list) else [obj.asset]
-        joints = max(_joints(_file(a, template.root)) if a else 0 for a in pool)
+        joints = max(_asset_joints(a, template.root) if a else 0 for a in pool)
         if obj.count == 1:
             slots.append((name, joints))
             continue
@@ -102,6 +102,19 @@ def _slots(task, template):
             copy = f"{name}{i}"
             slots.append((copy if copy in task.scene.objects else None, joints))
     return slots
+
+
+def _asset_joints(asset, root) -> int:
+    """How many hinge and slide joints an asset has; a library asset's count is cached, as
+    resolving its file every step is slow for large pools."""
+    if isinstance(asset, Generate):
+        return _joints(_file(asset, root))
+    return _library_joints(asset, root)
+
+
+@cache
+def _library_joints(asset: str, root) -> int:
+    return _joints(_file(asset, root))
 
 
 def _file(asset, root) -> Path:
