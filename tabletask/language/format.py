@@ -72,7 +72,7 @@ class Document(msgspec.Struct, forbid_unknown_fields=True):
 class ObjectDocument(msgspec.Struct, forbid_unknown_fields=True):
     """An entry in a task file's `objects`."""
 
-    asset: str | list[str] | None = None
+    asset: str | list[str] | schema.Generate | None = None
     tags: list[str] = []
     properties: dict[str, Any] = {}
     fixed: bool = False
@@ -382,6 +382,8 @@ def _parse_objects(document: Document, entries: dict[str, ObjectDocument]) -> di
             if len(asset) < bounds[1]:
                 raise ValueError(f"{name}: {len(asset)} assets cannot give {bounds[1]} copies")
             asset = [_asset_path(document, a) for a in asset]
+        elif isinstance(asset, schema.Generate):
+            asset = {"generate": _generator_path(document, asset.generate), "params": asset.params}
         elif asset:
             asset = _asset_path(document, asset)
         sample = msgspec.to_builtins(entry.sample) if entry.sample is not None else "table/top"
@@ -396,6 +398,11 @@ def _parse_objects(document: Document, entries: dict[str, ObjectDocument]) -> di
             "regions": msgspec.to_builtins(entry.regions),
         }
     return objects
+
+
+def _generator_path(document: Document, name: str) -> str:
+    """A generator name resolved to its script in the task's library; a path stays as written."""
+    return name if Path(name).suffix else f"{document.library}/generators/{name}.py"
 
 
 def _asset_path(document: Document, asset: str) -> str:

@@ -7,6 +7,7 @@ from pathlib import Path
 import numpy as np
 
 from . import fetching
+from .generation import realize_task
 from .language.errors import SamplingError, UnsupportedError
 from .language.format import load
 from .language.modules import require_capabilities
@@ -78,7 +79,7 @@ def _instantiate(task: Task, rng, bindings=None) -> Task:
     result = bind(task, draw(task, rng), labels(task))
     if bindings:  # before copies are made, so a counted object's copies share its binding
         result = _attach(result, bindings)
-    return _speak(concrete(multiply(result, rng)))
+    return _speak(concrete(realize_task(multiply(result, rng), rng)))
 
 
 def _attach(task: Task, bindings: dict) -> Task:

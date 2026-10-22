@@ -110,11 +110,23 @@ class Region(msgspec.Struct, omit_defaults=True):
     grid: Grid | None = None
 
 
+class Generate(msgspec.Struct, omit_defaults=True, forbid_unknown_fields=True):
+    """A procedural asset: a generator script and the parameters each episode draws from.
+
+    A parameter is a fixed value, a `[low, high]` range drawn uniformly, or a list of
+    choices; it narrows the generator's own `PARAMS`.
+    """
+
+    generate: str
+    params: dict[str, Any] = {}
+
+
 class Object(msgspec.Struct, omit_defaults=True):
     """An object in the scene: its asset, where it is placed, and how it is grouped."""
 
     sample: Frame
-    asset: str | list[str] | None = None  # a list is a pool: each copy draws a different asset
+    # a list is a pool, each copy drawing a different asset; a Generate is built per episode
+    asset: str | list[str] | Generate | None = None
     joints: dict[str, float | tuple[float, float] | str] = {}  # start values by joint name
     regions: dict[str, Region] = {}
     tags: list[str] = []

@@ -35,10 +35,13 @@ continuously with the rotation.
 
 import xml.etree.ElementTree as ET
 from functools import cache
+from pathlib import Path
 
 import numpy as np
 
 from . import fetching
+from .generation import realize
+from .language.schema import Generate
 
 WORKSPACE_MARGIN = 0.15
 WORKSPACE_DEPTH = 0.1
@@ -90,7 +93,7 @@ def _slots(task, template):
     slots = []
     for name, obj in template.scene.objects.items():
         pool = obj.asset if isinstance(obj.asset, list) else [obj.asset]
-        joints = max(_joints(fetching.resolve(a, template.root)) if a else 0 for a in pool)
+        joints = max(_joints(_file(a, template.root)) if a else 0 for a in pool)
         if obj.count == 1:
             slots.append((name, joints))
             continue
@@ -99,6 +102,13 @@ def _slots(task, template):
             copy = f"{name}{i}"
             slots.append((copy if copy in task.scene.objects else None, joints))
     return slots
+
+
+def _file(asset, root) -> Path:
+    """An asset's file; a generator's is its middle draw, as generators keep their joints fixed."""
+    if isinstance(asset, Generate):
+        return Path(realize(asset, root))
+    return fetching.resolve(asset, root)
 
 
 @cache

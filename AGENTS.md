@@ -396,6 +396,21 @@ and the rest were written here.
   aimed down, scales its brightness 0.4–1.6×, tints each colour channel up to ±0.15 and
   turns its shadows off with chance 0.5.
 
+### Procedural assets
+
+An object's asset may be a generator instead of a file:
+`"asset": {"generate": "cabinet", "params": {"width": [0.3, 0.4], "handle": ["knob"]}}`.
+A generator is `assets/generators/<name>.py` with `PARAMS` (each parameter's fixed value,
+`[low, high]` range or list of choices) and `build(params) -> str`, the MJCF of one asset
+with one top-level body. A task's `params` narrow `PARAMS`. Each episode draws the values
+from its own stream and `tabletask/generation.py` writes the asset to
+`~/.cache/tabletask/generated/<name>-<hash>.xml` (`TABLETASK_GENERATED` moves it), naming
+the model and body after the file, so sampling, conditions, regions and the privileged state
+see an ordinary asset. A generator follows the asset conventions (front to -x, origin at the
+base, a label, `place:` regions) and keeps its joint names and count fixed.
+`assets/generators/cabinet.py` builds a drawer over a hinged door (`drawer`, `door`);
+`drawers-max` uses it.
+
 Edit regions from the command line:
 
 ```sh
