@@ -1,20 +1,12 @@
 {
   "id": "drawers-max",
-  "instruction": "Open the {part}.",
+  "instruction": "Open the drawer.",
   "objects": {
-    "cabinet": {"asset": {"generate": "cabinet"}, "fixed": true, "sample": {"rel": "table/top", "offset": [0.12, 0.0, 0.0], "jitter": {"xy": [0.04, 0.15], "yaw": 15}}}
+    "drawer": {"asset": {"generate": "drawer"}, "fixed": true, "sample": {"rel": "table/top", "offset": [0.12, 0.0, 0.0], "jitter": {"xy": [0.04, 0.15], "yaw": 15}}}
   },
   "start": [
-    ["on", "cabinet", "table"],
-    ["closed", "cabinet/drawer"],
-    ["closed", "cabinet/door"]
+    ["on", "drawer", "table"],
+    ["closed", "drawer/drawer"]
   ],
-  "always": [
-    ["not", ["open", "cabinet/{other}", 0.25]]
-  ],
-  "goal": {"stages": {"open": {"condition": ["open", "cabinet/{part}"], "held": true}}},
-  "variables": {
-    "part": {"one_of": ["drawer", "door"], "apart": "part"},
-    "other": {"one_of": ["drawer", "door"], "apart": "part"}
-  }
+  "goal": {"stages": {"open": {"condition": ["open", "drawer/drawer"], "held": true}}}
 }
