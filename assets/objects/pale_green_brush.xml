@@ -1,0 +1,54 @@
+<mujoco model="pale_green_brush">
+  <compiler angle="radian" meshdir="../mesh/pale_green_brush" texturedir="../mesh/pale_green_brush" />
+  <custom>
+    <text name="label" data="pale green brush" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pale_green_brush_0_mesh" file="0.obj" />
+    <material name="pale_green_brush_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pale_green_brush_0_tex" role="rgb" />
+    </material>
+    <texture name="pale_green_brush_0_tex" type="2d" file="0.png" />
+    <mesh name="pale_green_brush_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="pale_green_brush_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="pale_green_brush">
+      <geom type="mesh" mesh="pale_green_brush_0_mesh" material="pale_green_brush_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_00" rgba="0 0 0 0" group="3" mass="0.00530540925" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_01" rgba="0 0 0 0" group="3" mass="0.00213546769" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_02" rgba="0 0 0 0" group="3" mass="0.00879470505" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_03" rgba="0 0 0 0" group="3" mass="0.00753239913" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_04" rgba="0 0 0 0" group="3" mass="0.00545283903" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_05" rgba="0 0 0 0" group="3" mass="0.00209173955" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_06" rgba="0 0 0 0" group="3" mass="0.00179690835" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_07" rgba="0 0 0 0" group="3" mass="0.0167308" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_08" rgba="0 0 0 0" group="3" mass="0.0033279971" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_09" rgba="0 0 0 0" group="3" mass="0.00238277956" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_10" rgba="0 0 0 0" group="3" mass="0.00361058252" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_11" rgba="0 0 0 0" group="3" mass="0.00280244451" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_12" rgba="0 0 0 0" group="3" mass="0.00201367482" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_brush_hull_13" rgba="0 0 0 0" group="3" mass="0.0100222534" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0203 0.0182 0.0820" pos="0.0000 0.0000 0.0820" />
+      <geom name="place:top" class="place" type="mesh" mesh="pale_green_brush_top" />
+    </body>
+  </worldbody>
+</mujoco>

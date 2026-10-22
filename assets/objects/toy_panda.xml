@@ -1,0 +1,48 @@
+<mujoco model="toy_panda">
+  <compiler angle="radian" meshdir="../mesh/toy_panda" texturedir="../mesh/toy_panda" />
+  <custom>
+    <text name="label" data="toy panda" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="toy_panda_0_mesh" file="0.obj" />
+    <material name="toy_panda_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="toy_panda_0_tex" role="rgb" />
+    </material>
+    <texture name="toy_panda_0_tex" type="2d" file="0.png" />
+    <mesh name="toy_panda_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="toy_panda_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="toy_panda">
+      <geom type="mesh" mesh="toy_panda_0_mesh" material="toy_panda_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_00" rgba="0 0 0 0" group="3" mass="0.00974650923" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_01" rgba="0 0 0 0" group="3" mass="0.0198939606" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_02" rgba="0 0 0 0" group="3" mass="0.00292832972" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_03" rgba="0 0 0 0" group="3" mass="0.00328406388" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_04" rgba="0 0 0 0" group="3" mass="0.00193602498" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_05" rgba="0 0 0 0" group="3" mass="0.00310141826" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_06" rgba="0 0 0 0" group="3" mass="0.0114513802" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_07" rgba="0 0 0 0" group="3" mass="0.011337617" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_08" rgba="0 0 0 0" group="3" mass="0.0111057219" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_09" rgba="0 0 0 0" group="3" mass="0.0211996796" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_10" rgba="0 0 0 0" group="3" mass="0.00104075254" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_panda_hull_11" rgba="0 0 0 0" group="3" mass="0.019974542" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0604 0.0258 0.0323" pos="0.0000 0.0000 0.0323" />
+    </body>
+  </worldbody>
+</mujoco>

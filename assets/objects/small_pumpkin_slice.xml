@@ -1,0 +1,70 @@
+<mujoco model="small_pumpkin_slice">
+  <compiler angle="radian" meshdir="../mesh/small_pumpkin_slice" texturedir="../mesh/small_pumpkin_slice" />
+  <custom>
+    <text name="label" data="small pumpkin slice" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="small_pumpkin_slice_0_mesh" file="0.obj" />
+    <material name="small_pumpkin_slice_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="small_pumpkin_slice_0_tex" role="rgb" />
+    </material>
+    <texture name="small_pumpkin_slice_0_tex" type="2d" file="0.png" />
+    <mesh name="small_pumpkin_slice_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="small_pumpkin_slice_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="small_pumpkin_slice">
+      <geom type="mesh" mesh="small_pumpkin_slice_0_mesh" material="small_pumpkin_slice_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_00" rgba="0 0 0 0" group="3" mass="0.000567172973" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_01" rgba="0 0 0 0" group="3" mass="0.00192528627" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_02" rgba="0 0 0 0" group="3" mass="0.00085457483" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_03" rgba="0 0 0 0" group="3" mass="0.000920495485" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_04" rgba="0 0 0 0" group="3" mass="0.00047795979" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_05" rgba="0 0 0 0" group="3" mass="0.00071567353" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_06" rgba="0 0 0 0" group="3" mass="0.000518435147" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_07" rgba="0 0 0 0" group="3" mass="0.00084290071" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_08" rgba="0 0 0 0" group="3" mass="0.000167835987" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_09" rgba="0 0 0 0" group="3" mass="0.00020511703" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_10" rgba="0 0 0 0" group="3" mass="0.000143897011" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_11" rgba="0 0 0 0" group="3" mass="0.000233637053" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_12" rgba="0 0 0 0" group="3" mass="9.64931392e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_13" rgba="0 0 0 0" group="3" mass="0.000230253462" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_14" rgba="0 0 0 0" group="3" mass="0.000170998998" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_15" rgba="0 0 0 0" group="3" mass="0.000408612659" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_16" rgba="0 0 0 0" group="3" mass="0.000283269808" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_17" rgba="0 0 0 0" group="3" mass="0.000107727173" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_18" rgba="0 0 0 0" group="3" mass="0.000119958629" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_19" rgba="0 0 0 0" group="3" mass="0.000278392435" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_20" rgba="0 0 0 0" group="3" mass="0.000123262954" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_21" rgba="0 0 0 0" group="3" mass="0.000149811071" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_pumpkin_slice_hull_22" rgba="0 0 0 0" group="3" mass="0.00245823385" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0136 0.0275 0.0189" pos="0.0000 0.0000 0.0189" />
+    </body>
+  </worldbody>
+</mujoco>

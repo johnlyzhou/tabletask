@@ -1,0 +1,50 @@
+<mujoco model="green_burrito">
+  <compiler angle="radian" meshdir="../mesh/green_burrito" texturedir="../mesh/green_burrito" />
+  <custom>
+    <text name="label" data="green burrito" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="green_burrito_0_mesh" file="0.obj" />
+    <material name="green_burrito_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="green_burrito_0_tex" role="rgb" />
+    </material>
+    <texture name="green_burrito_0_tex" type="2d" file="0.png" />
+    <mesh name="green_burrito_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="green_burrito_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="green_burrito">
+      <geom type="mesh" mesh="green_burrito_0_mesh" material="green_burrito_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_00" rgba="0 0 0 0" group="3" mass="0.0557688761" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_01" rgba="0 0 0 0" group="3" mass="0.0459667583" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_02" rgba="0 0 0 0" group="3" mass="0.0108857211" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_03" rgba="0 0 0 0" group="3" mass="0.0223291809" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_04" rgba="0 0 0 0" group="3" mass="0.00398491399" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_05" rgba="0 0 0 0" group="3" mass="0.00651960836" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_06" rgba="0 0 0 0" group="3" mass="0.00370845479" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_07" rgba="0 0 0 0" group="3" mass="0.0135079026" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_08" rgba="0 0 0 0" group="3" mass="0.0286578236" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_09" rgba="0 0 0 0" group="3" mass="0.0161438019" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_10" rgba="0 0 0 0" group="3" mass="0.0168013964" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_11" rgba="0 0 0 0" group="3" mass="0.00562882711" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_burrito_hull_12" rgba="0 0 0 0" group="3" mass="0.0160967348" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0188 0.1003 0.0363" pos="0.0000 0.0000 0.0363" />
+    </body>
+  </worldbody>
+</mujoco>

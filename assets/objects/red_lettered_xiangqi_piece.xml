@@ -1,0 +1,30 @@
+<mujoco model="red_lettered_xiangqi_piece">
+  <compiler angle="radian" meshdir="../mesh/red_lettered_xiangqi_piece" texturedir="../mesh/red_lettered_xiangqi_piece" />
+  <custom>
+    <text name="label" data="red-lettered xiangqi piece" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_lettered_xiangqi_piece_0_mesh" file="0.obj" />
+    <material name="red_lettered_xiangqi_piece_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="red_lettered_xiangqi_piece_0_tex" role="rgb" />
+    </material>
+    <texture name="red_lettered_xiangqi_piece_0_tex" type="2d" file="0.png" />
+    <mesh name="red_lettered_xiangqi_piece_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="red_lettered_xiangqi_piece_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="red_lettered_xiangqi_piece_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="red_lettered_xiangqi_piece">
+      <geom type="mesh" mesh="red_lettered_xiangqi_piece_0_mesh" material="red_lettered_xiangqi_piece_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="red_lettered_xiangqi_piece_hull_00" rgba="0 0 0 0" group="3" mass="0.00292394197" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_lettered_xiangqi_piece_hull_01" rgba="0 0 0 0" group="3" mass="0.00507605803" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0076 0.0168 0.0167" pos="0.0000 0.0000 0.0167" />
+      <geom name="place:top" class="place" type="mesh" mesh="red_lettered_xiangqi_piece_top" />
+    </body>
+  </worldbody>
+</mujoco>

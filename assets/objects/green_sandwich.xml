@@ -1,0 +1,36 @@
+<mujoco model="green_sandwich">
+  <compiler angle="radian" meshdir="../mesh/green_sandwich" texturedir="../mesh/green_sandwich" />
+  <custom>
+    <text name="label" data="green sandwich" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="green_sandwich_0_mesh" file="0.obj" />
+    <material name="green_sandwich_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="green_sandwich_0_tex" role="rgb" />
+    </material>
+    <texture name="green_sandwich_0_tex" type="2d" file="0.png" />
+    <mesh name="green_sandwich_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="green_sandwich_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="green_sandwich_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="green_sandwich_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="green_sandwich_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="green_sandwich_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="green_sandwich">
+      <geom type="mesh" mesh="green_sandwich_0_mesh" material="green_sandwich_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="green_sandwich_hull_00" rgba="0 0 0 0" group="3" mass="0.0116197273" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_sandwich_hull_01" rgba="0 0 0 0" group="3" mass="0.0132709644" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_sandwich_hull_02" rgba="0 0 0 0" group="3" mass="0.0134484" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_sandwich_hull_03" rgba="0 0 0 0" group="3" mass="0.0141061729" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_sandwich_hull_04" rgba="0 0 0 0" group="3" mass="0.00855473542" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0440 0.0338 0.0274" pos="0.0000 0.0000 0.0274" />
+      <geom name="place:top" class="place" type="mesh" mesh="green_sandwich_top" />
+    </body>
+  </worldbody>
+</mujoco>

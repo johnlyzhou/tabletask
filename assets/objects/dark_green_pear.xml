@@ -1,0 +1,32 @@
+<mujoco model="dark_green_pear">
+  <compiler angle="radian" meshdir="../mesh/dark_green_pear" texturedir="../mesh/dark_green_pear" />
+  <custom>
+    <text name="label" data="dark green pear" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="dark_green_pear_0_mesh" file="0.obj" />
+    <material name="dark_green_pear_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="dark_green_pear_0_tex" role="rgb" />
+    </material>
+    <texture name="dark_green_pear_0_tex" type="2d" file="0.png" />
+    <mesh name="dark_green_pear_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="dark_green_pear_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="dark_green_pear_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="dark_green_pear_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="dark_green_pear">
+      <geom type="mesh" mesh="dark_green_pear_0_mesh" material="dark_green_pear_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="dark_green_pear_hull_00" rgba="0 0 0 0" group="3" mass="0.0557381008" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_pear_hull_01" rgba="0 0 0 0" group="3" mass="0.0350205101" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_pear_hull_02" rgba="0 0 0 0" group="3" mass="0.00080229867" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_pear_hull_03" rgba="0 0 0 0" group="3" mass="0.0014390905" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0298 0.0281 0.0286" pos="0.0000 0.0000 0.0286" />
+    </body>
+  </worldbody>
+</mujoco>

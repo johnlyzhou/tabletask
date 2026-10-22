@@ -1,0 +1,38 @@
+<mujoco model="brown_steamed_bun">
+  <compiler angle="radian" meshdir="../mesh/brown_steamed_bun" texturedir="../mesh/brown_steamed_bun" />
+  <custom>
+    <text name="label" data="brown steamed bun" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="brown_steamed_bun_0_mesh" file="0.obj" />
+    <material name="brown_steamed_bun_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="brown_steamed_bun_0_tex" role="rgb" />
+    </material>
+    <texture name="brown_steamed_bun_0_tex" type="2d" file="0.png" />
+    <mesh name="brown_steamed_bun_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="brown_steamed_bun_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="brown_steamed_bun_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="brown_steamed_bun_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="brown_steamed_bun_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="brown_steamed_bun_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="brown_steamed_bun_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="brown_steamed_bun">
+      <geom type="mesh" mesh="brown_steamed_bun_0_mesh" material="brown_steamed_bun_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="brown_steamed_bun_hull_00" rgba="0 0 0 0" group="3" mass="0.0421264645" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_steamed_bun_hull_01" rgba="0 0 0 0" group="3" mass="0.00264278084" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_steamed_bun_hull_02" rgba="0 0 0 0" group="3" mass="0.00449616737" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_steamed_bun_hull_03" rgba="0 0 0 0" group="3" mass="0.00558486287" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_steamed_bun_hull_04" rgba="0 0 0 0" group="3" mass="0.00260171029" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_steamed_bun_hull_05" rgba="0 0 0 0" group="3" mass="0.00655942186" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_steamed_bun_hull_06" rgba="0 0 0 0" group="3" mass="0.00998859224" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0342 0.0413 0.0252" pos="0.0000 0.0000 0.0252" />
+    </body>
+  </worldbody>
+</mujoco>

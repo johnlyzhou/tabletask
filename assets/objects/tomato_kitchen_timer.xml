@@ -1,0 +1,44 @@
+<mujoco model="tomato_kitchen_timer">
+  <compiler angle="radian" meshdir="../mesh/tomato_kitchen_timer" texturedir="../mesh/tomato_kitchen_timer" />
+  <custom>
+    <text name="label" data="tomato kitchen timer" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="tomato_kitchen_timer_0_mesh" file="0.obj" />
+    <material name="tomato_kitchen_timer_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="tomato_kitchen_timer_0_tex" role="rgb" />
+    </material>
+    <texture name="tomato_kitchen_timer_0_tex" type="2d" file="0.png" />
+    <mesh name="tomato_kitchen_timer_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="tomato_kitchen_timer_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="tomato_kitchen_timer_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="tomato_kitchen_timer_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="tomato_kitchen_timer_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="tomato_kitchen_timer_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="tomato_kitchen_timer_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="tomato_kitchen_timer_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="tomato_kitchen_timer_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="tomato_kitchen_timer_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="tomato_kitchen_timer">
+      <geom type="mesh" mesh="tomato_kitchen_timer_0_mesh" material="tomato_kitchen_timer_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="tomato_kitchen_timer_hull_00" rgba="0 0 0 0" group="3" mass="0.0113231846" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tomato_kitchen_timer_hull_01" rgba="0 0 0 0" group="3" mass="0.00927088569" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tomato_kitchen_timer_hull_02" rgba="0 0 0 0" group="3" mass="0.0110462594" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tomato_kitchen_timer_hull_03" rgba="0 0 0 0" group="3" mass="0.011262226" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tomato_kitchen_timer_hull_04" rgba="0 0 0 0" group="3" mass="0.00187372338" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tomato_kitchen_timer_hull_05" rgba="0 0 0 0" group="3" mass="0.00727153" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tomato_kitchen_timer_hull_06" rgba="0 0 0 0" group="3" mass="0.00501793132" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tomato_kitchen_timer_hull_07" rgba="0 0 0 0" group="3" mass="0.00524245708" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tomato_kitchen_timer_hull_08" rgba="0 0 0 0" group="3" mass="0.00669180254" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0338 0.0339 0.0251" pos="0.0000 0.0000 0.0251" />
+      <geom name="place:top" class="place" type="mesh" mesh="tomato_kitchen_timer_top" />
+    </body>
+  </worldbody>
+</mujoco>

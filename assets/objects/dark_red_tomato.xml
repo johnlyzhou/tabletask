@@ -1,0 +1,90 @@
+<mujoco model="dark_red_tomato">
+  <compiler angle="radian" meshdir="../mesh/dark_red_tomato" texturedir="../mesh/dark_red_tomato" />
+  <custom>
+    <text name="label" data="dark red tomato" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="dark_red_tomato_0_mesh" file="0.obj" />
+    <material name="dark_red_tomato_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="dark_red_tomato_0_tex" role="rgb" />
+    </material>
+    <texture name="dark_red_tomato_0_tex" type="2d" file="0.png" />
+    <mesh name="dark_red_tomato_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="dark_red_tomato_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="dark_red_tomato">
+      <geom type="mesh" mesh="dark_red_tomato_0_mesh" material="dark_red_tomato_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_00" rgba="0 0 0 0" group="3" mass="0.0042141989" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_01" rgba="0 0 0 0" group="3" mass="0.000464314368" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_02" rgba="0 0 0 0" group="3" mass="0.00190328815" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_03" rgba="0 0 0 0" group="3" mass="0.00499844668" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_04" rgba="0 0 0 0" group="3" mass="0.00217689052" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_05" rgba="0 0 0 0" group="3" mass="0.00044839969" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_06" rgba="0 0 0 0" group="3" mass="0.000253149124" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_07" rgba="0 0 0 0" group="3" mass="0.000186109457" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_08" rgba="0 0 0 0" group="3" mass="0.00711520212" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_09" rgba="0 0 0 0" group="3" mass="0.00103630925" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_10" rgba="0 0 0 0" group="3" mass="0.000595297868" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_11" rgba="0 0 0 0" group="3" mass="0.000157708442" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_12" rgba="0 0 0 0" group="3" mass="0.000700003566" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_13" rgba="0 0 0 0" group="3" mass="0.00202649149" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_14" rgba="0 0 0 0" group="3" mass="0.00057221054" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_15" rgba="0 0 0 0" group="3" mass="0.00653678875" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_16" rgba="0 0 0 0" group="3" mass="0.00235148633" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_17" rgba="0 0 0 0" group="3" mass="0.00204474889" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_18" rgba="0 0 0 0" group="3" mass="0.000244059488" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_19" rgba="0 0 0 0" group="3" mass="0.00217321261" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_20" rgba="0 0 0 0" group="3" mass="0.00198109968" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_21" rgba="0 0 0 0" group="3" mass="0.00013782679" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_22" rgba="0 0 0 0" group="3" mass="0.00128768942" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_23" rgba="0 0 0 0" group="3" mass="0.0028654719" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_24" rgba="0 0 0 0" group="3" mass="0.00280870036" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_25" rgba="0 0 0 0" group="3" mass="0.00107146739" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_26" rgba="0 0 0 0" group="3" mass="0.00659792128" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_27" rgba="0 0 0 0" group="3" mass="0.000121779131" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_28" rgba="0 0 0 0" group="3" mass="0.0023589641" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_29" rgba="0 0 0 0" group="3" mass="0.0011460276" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_30" rgba="0 0 0 0" group="3" mass="0.000121779131" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_tomato_hull_31" rgba="0 0 0 0" group="3" mass="0.000302956991" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0327 0.0327 0.0158" pos="0.0000 0.0000 0.0158" />
+      <geom name="place:top" class="place" type="mesh" mesh="dark_red_tomato_top" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,44 @@
+<mujoco model="large_dark_red_onion">
+  <compiler angle="radian" meshdir="../mesh/large_dark_red_onion" texturedir="../mesh/large_dark_red_onion" />
+  <custom>
+    <text name="label" data="large dark red onion" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="large_dark_red_onion_0_mesh" file="0.obj" />
+    <material name="large_dark_red_onion_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="large_dark_red_onion_0_tex" role="rgb" />
+    </material>
+    <texture name="large_dark_red_onion_0_tex" type="2d" file="0.png" />
+    <mesh name="large_dark_red_onion_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="large_dark_red_onion_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="large_dark_red_onion_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="large_dark_red_onion_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="large_dark_red_onion_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="large_dark_red_onion_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="large_dark_red_onion_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="large_dark_red_onion_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="large_dark_red_onion_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="large_dark_red_onion_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="large_dark_red_onion">
+      <geom type="mesh" mesh="large_dark_red_onion_0_mesh" material="large_dark_red_onion_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_00" rgba="0 0 0 0" group="3" mass="0.00411132027" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_01" rgba="0 0 0 0" group="3" mass="0.0112343048" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_02" rgba="0 0 0 0" group="3" mass="0.022801003" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_03" rgba="0 0 0 0" group="3" mass="0.00643074435" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_04" rgba="0 0 0 0" group="3" mass="0.023345223" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_05" rgba="0 0 0 0" group="3" mass="0.00643891864" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_06" rgba="0 0 0 0" group="3" mass="0.0161291299" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_07" rgba="0 0 0 0" group="3" mass="0.00867367733" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_08" rgba="0 0 0 0" group="3" mass="0.0053971506" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_dark_red_onion_hull_09" rgba="0 0 0 0" group="3" mass="0.0294385282" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0386 0.0483 0.0203" pos="0.0000 0.0000 0.0203" />
+    </body>
+  </worldbody>
+</mujoco>

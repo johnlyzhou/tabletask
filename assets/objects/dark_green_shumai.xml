@@ -1,0 +1,62 @@
+<mujoco model="dark_green_shumai">
+  <compiler angle="radian" meshdir="../mesh/dark_green_shumai" texturedir="../mesh/dark_green_shumai" />
+  <custom>
+    <text name="label" data="dark green shumai" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="dark_green_shumai_0_mesh" file="0.obj" />
+    <material name="dark_green_shumai_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="dark_green_shumai_0_tex" role="rgb" />
+    </material>
+    <texture name="dark_green_shumai_0_tex" type="2d" file="0.png" />
+    <mesh name="dark_green_shumai_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="dark_green_shumai_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="dark_green_shumai">
+      <geom type="mesh" mesh="dark_green_shumai_0_mesh" material="dark_green_shumai_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_00" rgba="0 0 0 0" group="3" mass="0.0045341916" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_01" rgba="0 0 0 0" group="3" mass="0.000462951532" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_02" rgba="0 0 0 0" group="3" mass="0.0119342786" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_03" rgba="0 0 0 0" group="3" mass="0.000393523936" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_04" rgba="0 0 0 0" group="3" mass="0.00096462238" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_05" rgba="0 0 0 0" group="3" mass="0.00175525676" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_06" rgba="0 0 0 0" group="3" mass="0.00252099558" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_07" rgba="0 0 0 0" group="3" mass="0.00924516227" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_08" rgba="0 0 0 0" group="3" mass="0.00552884812" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_09" rgba="0 0 0 0" group="3" mass="0.000150445201" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_10" rgba="0 0 0 0" group="3" mass="0.000180582696" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_11" rgba="0 0 0 0" group="3" mass="0.00280333189" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_12" rgba="0 0 0 0" group="3" mass="0.00445762585" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_13" rgba="0 0 0 0" group="3" mass="0.00202963079" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_14" rgba="0 0 0 0" group="3" mass="0.000625088838" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_15" rgba="0 0 0 0" group="3" mass="0.000133688006" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_16" rgba="0 0 0 0" group="3" mass="0.000270250006" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_17" rgba="0 0 0 0" group="3" mass="0.00126667562" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_green_shumai_hull_18" rgba="0 0 0 0" group="3" mass="0.0137428503" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0296 0.0262 0.0259" pos="0.0000 0.0000 0.0259" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,44 @@
+<mujoco model="yellow_apple_2">
+  <compiler angle="radian" meshdir="../mesh/yellow_apple_2" texturedir="../mesh/yellow_apple_2" />
+  <custom>
+    <text name="label" data="yellow apple" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="yellow_apple_2_0_mesh" file="0.obj" />
+    <material name="yellow_apple_2_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="yellow_apple_2_0_tex" role="rgb" />
+    </material>
+    <texture name="yellow_apple_2_0_tex" type="2d" file="0.png" />
+    <mesh name="yellow_apple_2_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="yellow_apple_2_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="yellow_apple_2_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="yellow_apple_2_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="yellow_apple_2_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="yellow_apple_2_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="yellow_apple_2_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="yellow_apple_2_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="yellow_apple_2_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="yellow_apple_2_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="yellow_apple_2">
+      <geom type="mesh" mesh="yellow_apple_2_0_mesh" material="yellow_apple_2_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_00" rgba="0 0 0 0" group="3" mass="0.00345796502" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_01" rgba="0 0 0 0" group="3" mass="0.0190482698" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_02" rgba="0 0 0 0" group="3" mass="0.0265700013" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_03" rgba="0 0 0 0" group="3" mass="0.0552408151" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_04" rgba="0 0 0 0" group="3" mass="0.0261338795" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_05" rgba="0 0 0 0" group="3" mass="0.0150323935" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_06" rgba="0 0 0 0" group="3" mass="0.00857037652" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_07" rgba="0 0 0 0" group="3" mass="0.0506143855" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_08" rgba="0 0 0 0" group="3" mass="0.00958606811" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_apple_2_hull_09" rgba="0 0 0 0" group="3" mass="0.00774584571" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0409 0.0416 0.0418" pos="0.0000 0.0000 0.0418" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,68 @@
+<mujoco model="pale_yellow_and_pale_green_dumpling">
+  <compiler angle="radian" meshdir="../mesh/pale_yellow_and_pale_green_dumpling" texturedir="../mesh/pale_yellow_and_pale_green_dumpling" />
+  <custom>
+    <text name="label" data="pale yellow and pale green dumpling" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pale_yellow_and_pale_green_dumpling_0_mesh" file="0.obj" />
+    <material name="pale_yellow_and_pale_green_dumpling_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pale_yellow_and_pale_green_dumpling_0_tex" role="rgb" />
+    </material>
+    <texture name="pale_yellow_and_pale_green_dumpling_0_tex" type="2d" file="0.png" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_and_pale_green_dumpling_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="pale_yellow_and_pale_green_dumpling">
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_0_mesh" material="pale_yellow_and_pale_green_dumpling_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_00" rgba="0 0 0 0" group="3" mass="0.00488728058" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_01" rgba="0 0 0 0" group="3" mass="0.000694753701" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_02" rgba="0 0 0 0" group="3" mass="0.00366875234" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_03" rgba="0 0 0 0" group="3" mass="0.000267908207" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_04" rgba="0 0 0 0" group="3" mass="0.000563665226" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_05" rgba="0 0 0 0" group="3" mass="0.00232331059" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_06" rgba="0 0 0 0" group="3" mass="0.000334343711" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_07" rgba="0 0 0 0" group="3" mass="0.00457305196" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_08" rgba="0 0 0 0" group="3" mass="0.000494322035" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_09" rgba="0 0 0 0" group="3" mass="0.000126170409" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_10" rgba="0 0 0 0" group="3" mass="0.000757952061" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_11" rgba="0 0 0 0" group="3" mass="0.000808083947" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_12" rgba="0 0 0 0" group="3" mass="0.000106657748" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_13" rgba="0 0 0 0" group="3" mass="0.000108309259" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_14" rgba="0 0 0 0" group="3" mass="0.00067198386" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_15" rgba="0 0 0 0" group="3" mass="4.38612162e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_16" rgba="0 0 0 0" group="3" mass="0.000405956354" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_17" rgba="0 0 0 0" group="3" mass="0.000357041676" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_18" rgba="0 0 0 0" group="3" mass="0.000575255835" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_19" rgba="0 0 0 0" group="3" mass="4.38612162e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_20" rgba="0 0 0 0" group="3" mass="8.97515406e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_and_pale_green_dumpling_hull_21" rgba="0 0 0 0" group="3" mass="9.77265314e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0158 0.0266 0.0181" pos="0.0000 0.0000 0.0181" />
+    </body>
+  </worldbody>
+</mujoco>

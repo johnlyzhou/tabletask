@@ -1,0 +1,34 @@
+<mujoco model="large_brown_peanut">
+  <compiler angle="radian" meshdir="../mesh/large_brown_peanut" texturedir="../mesh/large_brown_peanut" />
+  <custom>
+    <text name="label" data="large brown peanut" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="large_brown_peanut_0_mesh" file="0.obj" />
+    <material name="large_brown_peanut_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="large_brown_peanut_0_tex" role="rgb" />
+    </material>
+    <texture name="large_brown_peanut_0_tex" type="2d" file="0.png" />
+    <mesh name="large_brown_peanut_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="large_brown_peanut_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="large_brown_peanut_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="large_brown_peanut_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="large_brown_peanut_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="large_brown_peanut">
+      <geom type="mesh" mesh="large_brown_peanut_0_mesh" material="large_brown_peanut_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="large_brown_peanut_hull_00" rgba="0 0 0 0" group="3" mass="0.00154483903" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_brown_peanut_hull_01" rgba="0 0 0 0" group="3" mass="0.00016501544" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_brown_peanut_hull_02" rgba="0 0 0 0" group="3" mass="0.00103268208" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_brown_peanut_hull_03" rgba="0 0 0 0" group="3" mass="0.00225746344" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0066 0.0155 0.0069" pos="0.0000 0.0000 0.0069" />
+      <geom name="place:top" class="place" type="mesh" mesh="large_brown_peanut_top" />
+    </body>
+  </worldbody>
+</mujoco>

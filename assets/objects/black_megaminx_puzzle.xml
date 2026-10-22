@@ -1,0 +1,28 @@
+<mujoco model="black_megaminx_puzzle">
+  <compiler angle="radian" meshdir="../mesh/black_megaminx_puzzle" texturedir="../mesh/black_megaminx_puzzle" />
+  <custom>
+    <text name="label" data="black megaminx puzzle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="black_megaminx_puzzle_0_mesh" file="0.obj" />
+    <material name="black_megaminx_puzzle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="black_megaminx_puzzle_0_tex" role="rgb" />
+    </material>
+    <texture name="black_megaminx_puzzle_0_tex" type="2d" file="0.png" />
+    <mesh name="black_megaminx_puzzle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="black_megaminx_puzzle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="black_megaminx_puzzle">
+      <geom type="mesh" mesh="black_megaminx_puzzle_0_mesh" material="black_megaminx_puzzle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="black_megaminx_puzzle_hull_00" rgba="0 0 0 0" group="3" mass="0.0597632939" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_megaminx_puzzle_hull_01" rgba="0 0 0 0" group="3" mass="0.0632367061" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0435 0.0409 0.0382" pos="0.0000 0.0000 0.0382" />
+    </body>
+  </worldbody>
+</mujoco>

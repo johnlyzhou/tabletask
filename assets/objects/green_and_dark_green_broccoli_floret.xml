@@ -1,0 +1,88 @@
+<mujoco model="green_and_dark_green_broccoli_floret">
+  <compiler angle="radian" meshdir="../mesh/green_and_dark_green_broccoli_floret" texturedir="../mesh/green_and_dark_green_broccoli_floret" />
+  <custom>
+    <text name="label" data="green and dark green broccoli floret" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="green_and_dark_green_broccoli_floret_0_mesh" file="0.obj" />
+    <material name="green_and_dark_green_broccoli_floret_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="green_and_dark_green_broccoli_floret_0_tex" role="rgb" />
+    </material>
+    <texture name="green_and_dark_green_broccoli_floret_0_tex" type="2d" file="0.png" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="green_and_dark_green_broccoli_floret_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="green_and_dark_green_broccoli_floret">
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_0_mesh" material="green_and_dark_green_broccoli_floret_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_00" rgba="0 0 0 0" group="3" mass="0.00256806111" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_01" rgba="0 0 0 0" group="3" mass="0.000366450201" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_02" rgba="0 0 0 0" group="3" mass="7.37822148e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_03" rgba="0 0 0 0" group="3" mass="0.000106828807" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_04" rgba="0 0 0 0" group="3" mass="0.000657734718" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_05" rgba="0 0 0 0" group="3" mass="0.00038670301" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_06" rgba="0 0 0 0" group="3" mass="7.37822148e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_07" rgba="0 0 0 0" group="3" mass="0.00158142097" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_08" rgba="0 0 0 0" group="3" mass="0.0017022209" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_09" rgba="0 0 0 0" group="3" mass="0.0017902963" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_10" rgba="0 0 0 0" group="3" mass="0.00171516542" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_11" rgba="0 0 0 0" group="3" mass="0.00300361985" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_12" rgba="0 0 0 0" group="3" mass="0.00112780576" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_13" rgba="0 0 0 0" group="3" mass="0.000675992728" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_14" rgba="0 0 0 0" group="3" mass="0.000398160615" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_15" rgba="0 0 0 0" group="3" mass="0.00109883831" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_16" rgba="0 0 0 0" group="3" mass="0.000506130434" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_17" rgba="0 0 0 0" group="3" mass="0.00127130999" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_18" rgba="0 0 0 0" group="3" mass="0.00126056105" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_19" rgba="0 0 0 0" group="3" mass="0.00241442864" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_20" rgba="0 0 0 0" group="3" mass="0.00312943042" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_21" rgba="0 0 0 0" group="3" mass="0.00158681133" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_22" rgba="0 0 0 0" group="3" mass="0.000897561127" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_23" rgba="0 0 0 0" group="3" mass="0.000803043751" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_24" rgba="0 0 0 0" group="3" mass="0.000557957707" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_25" rgba="0 0 0 0" group="3" mass="0.000551142403" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_26" rgba="0 0 0 0" group="3" mass="0.000145979512" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_27" rgba="0 0 0 0" group="3" mass="0.0028946812" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_28" rgba="0 0 0 0" group="3" mass="0.00151340772" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_29" rgba="0 0 0 0" group="3" mass="0.000348399429" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_30" rgba="0 0 0 0" group="3" mass="0.00136396495" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_and_dark_green_broccoli_floret_hull_31" rgba="0 0 0 0" group="3" mass="0.000428327216" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0262 0.0381 0.0309" pos="-0.0000 0.0000 0.0309" />
+    </body>
+  </worldbody>
+</mujoco>

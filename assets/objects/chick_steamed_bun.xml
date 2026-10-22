@@ -1,0 +1,28 @@
+<mujoco model="chick_steamed_bun">
+  <compiler angle="radian" meshdir="../mesh/chick_steamed_bun" texturedir="../mesh/chick_steamed_bun" />
+  <custom>
+    <text name="label" data="chick steamed bun" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="chick_steamed_bun_0_mesh" file="0.obj" />
+    <material name="chick_steamed_bun_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="chick_steamed_bun_0_tex" role="rgb" />
+    </material>
+    <texture name="chick_steamed_bun_0_tex" type="2d" file="0.png" />
+    <mesh name="chick_steamed_bun_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="chick_steamed_bun_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="chick_steamed_bun">
+      <geom type="mesh" mesh="chick_steamed_bun_0_mesh" material="chick_steamed_bun_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="chick_steamed_bun_hull_00" rgba="0 0 0 0" group="3" mass="0.0188169442" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="chick_steamed_bun_hull_01" rgba="0 0 0 0" group="3" mass="0.0151830558" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0254 0.0300 0.0265" pos="0.0000 0.0000 0.0265" />
+    </body>
+  </worldbody>
+</mujoco>

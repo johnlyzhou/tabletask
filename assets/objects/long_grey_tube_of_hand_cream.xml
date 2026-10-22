@@ -1,0 +1,30 @@
+<mujoco model="long_grey_tube_of_hand_cream">
+  <compiler angle="radian" meshdir="../mesh/long_grey_tube_of_hand_cream" texturedir="../mesh/long_grey_tube_of_hand_cream" />
+  <custom>
+    <text name="label" data="long grey tube of hand cream" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="long_grey_tube_of_hand_cream_0_mesh" file="0.obj" />
+    <material name="long_grey_tube_of_hand_cream_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="long_grey_tube_of_hand_cream_0_tex" role="rgb" />
+    </material>
+    <texture name="long_grey_tube_of_hand_cream_0_tex" type="2d" file="0.png" />
+    <mesh name="long_grey_tube_of_hand_cream_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="long_grey_tube_of_hand_cream_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="long_grey_tube_of_hand_cream_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="long_grey_tube_of_hand_cream">
+      <geom type="mesh" mesh="long_grey_tube_of_hand_cream_0_mesh" material="long_grey_tube_of_hand_cream_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="long_grey_tube_of_hand_cream_hull_00" rgba="0 0 0 0" group="3" mass="0.038571942" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="long_grey_tube_of_hand_cream_hull_01" rgba="0 0 0 0" group="3" mass="0.00187881666" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="long_grey_tube_of_hand_cream_hull_02" rgba="0 0 0 0" group="3" mass="0.00154924135" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0123 0.0195 0.0573" pos="0.0000 0.0000 0.0573" />
+    </body>
+  </worldbody>
+</mujoco>

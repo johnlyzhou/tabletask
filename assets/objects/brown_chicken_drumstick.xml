@@ -1,0 +1,88 @@
+<mujoco model="brown_chicken_drumstick">
+  <compiler angle="radian" meshdir="../mesh/brown_chicken_drumstick" texturedir="../mesh/brown_chicken_drumstick" />
+  <custom>
+    <text name="label" data="brown chicken drumstick" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="brown_chicken_drumstick_0_mesh" file="0.obj" />
+    <material name="brown_chicken_drumstick_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="brown_chicken_drumstick_0_tex" role="rgb" />
+    </material>
+    <texture name="brown_chicken_drumstick_0_tex" type="2d" file="0.png" />
+    <mesh name="brown_chicken_drumstick_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="brown_chicken_drumstick_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="brown_chicken_drumstick">
+      <geom type="mesh" mesh="brown_chicken_drumstick_0_mesh" material="brown_chicken_drumstick_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_00" rgba="0 0 0 0" group="3" mass="0.00679290877" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_01" rgba="0 0 0 0" group="3" mass="0.00166913593" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_02" rgba="0 0 0 0" group="3" mass="0.00726146245" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_03" rgba="0 0 0 0" group="3" mass="0.00340907201" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_04" rgba="0 0 0 0" group="3" mass="0.00226746328" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_05" rgba="0 0 0 0" group="3" mass="0.00110944379" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_06" rgba="0 0 0 0" group="3" mass="0.00164344396" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_07" rgba="0 0 0 0" group="3" mass="0.00339386936" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_08" rgba="0 0 0 0" group="3" mass="0.0160492328" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_09" rgba="0 0 0 0" group="3" mass="0.00114059739" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_10" rgba="0 0 0 0" group="3" mass="0.00126999407" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_11" rgba="0 0 0 0" group="3" mass="0.00102506835" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_12" rgba="0 0 0 0" group="3" mass="0.00220793559" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_13" rgba="0 0 0 0" group="3" mass="0.000415988243" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_14" rgba="0 0 0 0" group="3" mass="0.00223731365" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_15" rgba="0 0 0 0" group="3" mass="0.00148532693" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_16" rgba="0 0 0 0" group="3" mass="0.000405270326" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_17" rgba="0 0 0 0" group="3" mass="0.00075833146" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_18" rgba="0 0 0 0" group="3" mass="0.00384999695" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_19" rgba="0 0 0 0" group="3" mass="0.00949195771" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_20" rgba="0 0 0 0" group="3" mass="0.0183322281" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_21" rgba="0 0 0 0" group="3" mass="0.0150347295" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_22" rgba="0 0 0 0" group="3" mass="0.0144953014" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_23" rgba="0 0 0 0" group="3" mass="0.00701010625" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_24" rgba="0 0 0 0" group="3" mass="0.00307358114" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_25" rgba="0 0 0 0" group="3" mass="0.00498896944" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_26" rgba="0 0 0 0" group="3" mass="0.00702241515" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_27" rgba="0 0 0 0" group="3" mass="0.00167941149" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_28" rgba="0 0 0 0" group="3" mass="0.000696310553" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_29" rgba="0 0 0 0" group="3" mass="0.00263712592" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_30" rgba="0 0 0 0" group="3" mass="0.00263894322" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_chicken_drumstick_hull_31" rgba="0 0 0 0" group="3" mass="0.00150706484" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0243 0.0391 0.0547" pos="0.0000 0.0000 0.0547" />
+    </body>
+  </worldbody>
+</mujoco>

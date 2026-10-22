@@ -1,0 +1,68 @@
+<mujoco model="small_dark_orange_cream_puff">
+  <compiler angle="radian" meshdir="../mesh/small_dark_orange_cream_puff" texturedir="../mesh/small_dark_orange_cream_puff" />
+  <custom>
+    <text name="label" data="small dark orange cream puff" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="small_dark_orange_cream_puff_0_mesh" file="0.obj" />
+    <material name="small_dark_orange_cream_puff_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="small_dark_orange_cream_puff_0_tex" role="rgb" />
+    </material>
+    <texture name="small_dark_orange_cream_puff_0_tex" type="2d" file="0.png" />
+    <mesh name="small_dark_orange_cream_puff_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="small_dark_orange_cream_puff_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="small_dark_orange_cream_puff">
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_0_mesh" material="small_dark_orange_cream_puff_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_00" rgba="0 0 0 0" group="3" mass="0.00161592028" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_01" rgba="0 0 0 0" group="3" mass="0.000992897698" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_02" rgba="0 0 0 0" group="3" mass="0.0014058947" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_03" rgba="0 0 0 0" group="3" mass="0.00189713991" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_04" rgba="0 0 0 0" group="3" mass="0.00106992206" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_05" rgba="0 0 0 0" group="3" mass="0.00050091519" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_06" rgba="0 0 0 0" group="3" mass="0.00243567172" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_07" rgba="0 0 0 0" group="3" mass="0.0015151707" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_08" rgba="0 0 0 0" group="3" mass="6.16650297e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_09" rgba="0 0 0 0" group="3" mass="0.00160286235" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_10" rgba="0 0 0 0" group="3" mass="0.000306165431" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_11" rgba="0 0 0 0" group="3" mass="0.0001168189" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_12" rgba="0 0 0 0" group="3" mass="0.000254962818" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_13" rgba="0 0 0 0" group="3" mass="0.000208494866" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_14" rgba="0 0 0 0" group="3" mass="0.000498233643" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_15" rgba="0 0 0 0" group="3" mass="0.00073139326" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_16" rgba="0 0 0 0" group="3" mass="0.00113125535" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_17" rgba="0 0 0 0" group="3" mass="0.00062962811" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_18" rgba="0 0 0 0" group="3" mass="0.000177159568" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_19" rgba="0 0 0 0" group="3" mass="0.000155691671" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_20" rgba="0 0 0 0" group="3" mass="0.000273724144" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_dark_orange_cream_puff_hull_21" rgba="0 0 0 0" group="3" mass="0.0034184126" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0276 0.0291 0.0225" pos="0.0000 0.0000 0.0225" />
+    </body>
+  </worldbody>
+</mujoco>

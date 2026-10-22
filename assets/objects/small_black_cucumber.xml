@@ -1,0 +1,36 @@
+<mujoco model="small_black_cucumber">
+  <compiler angle="radian" meshdir="../mesh/small_black_cucumber" texturedir="../mesh/small_black_cucumber" />
+  <custom>
+    <text name="label" data="small black cucumber" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="small_black_cucumber_0_mesh" file="0.obj" />
+    <material name="small_black_cucumber_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="small_black_cucumber_0_tex" role="rgb" />
+    </material>
+    <texture name="small_black_cucumber_0_tex" type="2d" file="0.png" />
+    <mesh name="small_black_cucumber_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="small_black_cucumber_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="small_black_cucumber_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="small_black_cucumber_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="small_black_cucumber_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="small_black_cucumber_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="small_black_cucumber">
+      <geom type="mesh" mesh="small_black_cucumber_0_mesh" material="small_black_cucumber_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="small_black_cucumber_hull_00" rgba="0 0 0 0" group="3" mass="0.107574099" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_cucumber_hull_01" rgba="0 0 0 0" group="3" mass="0.0336019292" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_cucumber_hull_02" rgba="0 0 0 0" group="3" mass="0.0172731069" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_cucumber_hull_03" rgba="0 0 0 0" group="3" mass="0.00342347206" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_cucumber_hull_04" rgba="0 0 0 0" group="3" mass="0.0041273926" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0208 0.0228 0.0807" pos="0.0000 0.0000 0.0807" />
+      <geom name="place:top" class="place" type="mesh" mesh="small_black_cucumber_top" />
+    </body>
+  </worldbody>
+</mujoco>

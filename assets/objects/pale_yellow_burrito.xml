@@ -1,0 +1,66 @@
+<mujoco model="pale_yellow_burrito">
+  <compiler angle="radian" meshdir="../mesh/pale_yellow_burrito" texturedir="../mesh/pale_yellow_burrito" />
+  <custom>
+    <text name="label" data="pale yellow burrito" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pale_yellow_burrito_0_mesh" file="0.obj" />
+    <material name="pale_yellow_burrito_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pale_yellow_burrito_0_tex" role="rgb" />
+    </material>
+    <texture name="pale_yellow_burrito_0_tex" type="2d" file="0.png" />
+    <mesh name="pale_yellow_burrito_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="pale_yellow_burrito_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="pale_yellow_burrito">
+      <geom type="mesh" mesh="pale_yellow_burrito_0_mesh" material="pale_yellow_burrito_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_00" rgba="0 0 0 0" group="3" mass="0.0317472618" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_01" rgba="0 0 0 0" group="3" mass="0.00850926626" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_02" rgba="0 0 0 0" group="3" mass="0.00245042397" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_03" rgba="0 0 0 0" group="3" mass="0.00562660183" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_04" rgba="0 0 0 0" group="3" mass="0.01322167" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_05" rgba="0 0 0 0" group="3" mass="0.00610325619" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_06" rgba="0 0 0 0" group="3" mass="0.00186611248" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_07" rgba="0 0 0 0" group="3" mass="0.0063147645" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_08" rgba="0 0 0 0" group="3" mass="0.00051151653" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_09" rgba="0 0 0 0" group="3" mass="0.000442288221" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_10" rgba="0 0 0 0" group="3" mass="0.00179337373" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_11" rgba="0 0 0 0" group="3" mass="0.00221351624" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_12" rgba="0 0 0 0" group="3" mass="0.00359067839" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_13" rgba="0 0 0 0" group="3" mass="0.00626009673" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_14" rgba="0 0 0 0" group="3" mass="0.00148958776" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_15" rgba="0 0 0 0" group="3" mass="0.00346179289" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_16" rgba="0 0 0 0" group="3" mass="0.000577295122" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_17" rgba="0 0 0 0" group="3" mass="0.000333009486" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_18" rgba="0 0 0 0" group="3" mass="0.000193796505" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_yellow_burrito_hull_19" rgba="0 0 0 0" group="3" mass="0.000293691286" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0549 0.0320 0.0197" pos="0.0000 0.0000 0.0197" />
+      <geom name="place:top" class="place" type="mesh" mesh="pale_yellow_burrito_top" />
+    </body>
+  </worldbody>
+</mujoco>

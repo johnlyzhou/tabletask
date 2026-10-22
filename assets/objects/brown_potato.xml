@@ -1,0 +1,28 @@
+<mujoco model="brown_potato">
+  <compiler angle="radian" meshdir="../mesh/brown_potato" texturedir="../mesh/brown_potato" />
+  <custom>
+    <text name="label" data="brown potato" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="brown_potato_0_mesh" file="0.obj" />
+    <material name="brown_potato_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="brown_potato_0_tex" role="rgb" />
+    </material>
+    <texture name="brown_potato_0_tex" type="2d" file="0.png" />
+    <mesh name="brown_potato_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="brown_potato_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="brown_potato">
+      <geom type="mesh" mesh="brown_potato_0_mesh" material="brown_potato_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="brown_potato_hull_00" rgba="0 0 0 0" group="3" mass="0.0162225421" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_potato_hull_01" rgba="0 0 0 0" group="3" mass="0.0127774579" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0159 0.0347 0.0190" pos="-0.0000 0.0000 0.0190" />
+    </body>
+  </worldbody>
+</mujoco>

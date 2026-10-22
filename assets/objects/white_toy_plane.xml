@@ -1,0 +1,66 @@
+<mujoco model="white_toy_plane">
+  <compiler angle="radian" meshdir="../mesh/white_toy_plane" texturedir="../mesh/white_toy_plane" />
+  <custom>
+    <text name="label" data="white toy plane" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_toy_plane_0_mesh" file="0.obj" />
+    <material name="white_toy_plane_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_toy_plane_0_tex" role="rgb" />
+    </material>
+    <texture name="white_toy_plane_0_tex" type="2d" file="0.png" />
+    <mesh name="white_toy_plane_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="white_toy_plane_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="white_toy_plane">
+      <geom type="mesh" mesh="white_toy_plane_0_mesh" material="white_toy_plane_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_00" rgba="0 0 0 0" group="3" mass="0.00256858328" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_01" rgba="0 0 0 0" group="3" mass="0.000726813645" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_02" rgba="0 0 0 0" group="3" mass="0.000100805621" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_03" rgba="0 0 0 0" group="3" mass="0.000525613983" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_04" rgba="0 0 0 0" group="3" mass="0.000484772556" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_05" rgba="0 0 0 0" group="3" mass="0.000383273802" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_06" rgba="0 0 0 0" group="3" mass="0.000232462289" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_07" rgba="0 0 0 0" group="3" mass="0.000470419215" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_08" rgba="0 0 0 0" group="3" mass="0.000190789449" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_09" rgba="0 0 0 0" group="3" mass="0.000363783091" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_10" rgba="0 0 0 0" group="3" mass="0.00190186186" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_11" rgba="0 0 0 0" group="3" mass="0.000124735009" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_12" rgba="0 0 0 0" group="3" mass="0.000119257254" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_13" rgba="0 0 0 0" group="3" mass="0.000146647259" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_14" rgba="0 0 0 0" group="3" mass="0.000211964885" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_15" rgba="0 0 0 0" group="3" mass="3.99826533e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_16" rgba="0 0 0 0" group="3" mass="0.000261139771" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_17" rgba="0 0 0 0" group="3" mass="7.99627133e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_18" rgba="0 0 0 0" group="3" mass="0.00459241252" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_19" rgba="0 0 0 0" group="3" mass="0.00164555207" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_toy_plane_hull_20" rgba="0 0 0 0" group="3" mass="0.00482916707" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0343 0.0340 0.0163" pos="0.0000 0.0000 0.0163" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,36 @@
+<mujoco model="large_pale_green_brush">
+  <compiler angle="radian" meshdir="../mesh/large_pale_green_brush" texturedir="../mesh/large_pale_green_brush" />
+  <custom>
+    <text name="label" data="large pale green brush" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="large_pale_green_brush_0_mesh" file="0.obj" />
+    <material name="large_pale_green_brush_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="large_pale_green_brush_0_tex" role="rgb" />
+    </material>
+    <texture name="large_pale_green_brush_0_tex" type="2d" file="0.png" />
+    <mesh name="large_pale_green_brush_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="large_pale_green_brush_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="large_pale_green_brush_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="large_pale_green_brush_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="large_pale_green_brush_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="large_pale_green_brush_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="large_pale_green_brush">
+      <geom type="mesh" mesh="large_pale_green_brush_0_mesh" material="large_pale_green_brush_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="large_pale_green_brush_hull_00" rgba="0 0 0 0" group="3" mass="0.0421897414" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_green_brush_hull_01" rgba="0 0 0 0" group="3" mass="0.0383961649" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_green_brush_hull_02" rgba="0 0 0 0" group="3" mass="0.0143296332" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_green_brush_hull_03" rgba="0 0 0 0" group="3" mass="0.000829778" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_green_brush_hull_04" rgba="0 0 0 0" group="3" mass="0.00425468246" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0169 0.0234 0.1108" pos="0.0000 0.0000 0.1108" />
+      <geom name="place:top" class="place" type="mesh" mesh="large_pale_green_brush_top" />
+    </body>
+  </worldbody>
+</mujoco>

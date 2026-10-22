@@ -1,0 +1,44 @@
+<mujoco model="grey_plug_adapter">
+  <compiler angle="radian" meshdir="../mesh/grey_plug_adapter" texturedir="../mesh/grey_plug_adapter" />
+  <custom>
+    <text name="label" data="grey plug adapter" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="grey_plug_adapter_0_mesh" file="0.obj" />
+    <material name="grey_plug_adapter_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="grey_plug_adapter_0_tex" role="rgb" />
+    </material>
+    <texture name="grey_plug_adapter_0_tex" type="2d" file="0.png" />
+    <mesh name="grey_plug_adapter_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="grey_plug_adapter_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="grey_plug_adapter_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="grey_plug_adapter_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="grey_plug_adapter_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="grey_plug_adapter_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="grey_plug_adapter_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="grey_plug_adapter_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="grey_plug_adapter_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="grey_plug_adapter_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="grey_plug_adapter">
+      <geom type="mesh" mesh="grey_plug_adapter_0_mesh" material="grey_plug_adapter_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="grey_plug_adapter_hull_00" rgba="0 0 0 0" group="3" mass="0.000155426278" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_plug_adapter_hull_01" rgba="0 0 0 0" group="3" mass="0.00017209565" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_plug_adapter_hull_02" rgba="0 0 0 0" group="3" mass="0.012398406" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_plug_adapter_hull_03" rgba="0 0 0 0" group="3" mass="5.99365035e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_plug_adapter_hull_04" rgba="0 0 0 0" group="3" mass="0.00796585859" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_plug_adapter_hull_05" rgba="0 0 0 0" group="3" mass="0.00066980963" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_plug_adapter_hull_06" rgba="0 0 0 0" group="3" mass="0.000507949257" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_plug_adapter_hull_07" rgba="0 0 0 0" group="3" mass="0.00102964912" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_plug_adapter_hull_08" rgba="0 0 0 0" group="3" mass="0.00704086895" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0223 0.0142 0.0137" pos="0.0000 0.0000 0.0137" />
+      <geom name="place:top" class="place" type="mesh" mesh="grey_plug_adapter_top" />
+    </body>
+  </worldbody>
+</mujoco>

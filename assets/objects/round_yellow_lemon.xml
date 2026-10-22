@@ -1,0 +1,38 @@
+<mujoco model="round_yellow_lemon">
+  <compiler angle="radian" meshdir="../mesh/round_yellow_lemon" texturedir="../mesh/round_yellow_lemon" />
+  <custom>
+    <text name="label" data="round yellow lemon" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="round_yellow_lemon_0_mesh" file="0.obj" />
+    <material name="round_yellow_lemon_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="round_yellow_lemon_0_tex" role="rgb" />
+    </material>
+    <texture name="round_yellow_lemon_0_tex" type="2d" file="0.png" />
+    <mesh name="round_yellow_lemon_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="round_yellow_lemon_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="round_yellow_lemon_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="round_yellow_lemon_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="round_yellow_lemon_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="round_yellow_lemon_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="round_yellow_lemon_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="round_yellow_lemon">
+      <geom type="mesh" mesh="round_yellow_lemon_0_mesh" material="round_yellow_lemon_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="round_yellow_lemon_hull_00" rgba="0 0 0 0" group="3" mass="0.0510685501" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_yellow_lemon_hull_01" rgba="0 0 0 0" group="3" mass="0.00137458157" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_yellow_lemon_hull_02" rgba="0 0 0 0" group="3" mass="0.0203936002" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_yellow_lemon_hull_03" rgba="0 0 0 0" group="3" mass="0.00195391174" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_yellow_lemon_hull_04" rgba="0 0 0 0" group="3" mass="0.00158404355" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_yellow_lemon_hull_05" rgba="0 0 0 0" group="3" mass="0.00692594652" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_yellow_lemon_hull_06" rgba="0 0 0 0" group="3" mass="0.00269936633" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0299 0.0293 0.0298" pos="0.0000 0.0000 0.0298" />
+    </body>
+  </worldbody>
+</mujoco>

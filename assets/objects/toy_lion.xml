@@ -1,0 +1,60 @@
+<mujoco model="toy_lion">
+  <compiler angle="radian" meshdir="../mesh/toy_lion" texturedir="../mesh/toy_lion" />
+  <custom>
+    <text name="label" data="toy lion" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="toy_lion_0_mesh" file="0.obj" />
+    <material name="toy_lion_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="toy_lion_0_tex" role="rgb" />
+    </material>
+    <texture name="toy_lion_0_tex" type="2d" file="0.png" />
+    <mesh name="toy_lion_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="toy_lion">
+      <geom type="mesh" mesh="toy_lion_0_mesh" material="toy_lion_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_00" rgba="0 0 0 0" group="3" mass="0.00569130361" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_01" rgba="0 0 0 0" group="3" mass="0.00459467968" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_02" rgba="0 0 0 0" group="3" mass="0.0669945097" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_03" rgba="0 0 0 0" group="3" mass="0.00548261477" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_04" rgba="0 0 0 0" group="3" mass="0.00618406886" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_05" rgba="0 0 0 0" group="3" mass="0.0688233025" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_06" rgba="0 0 0 0" group="3" mass="0.024607386" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_07" rgba="0 0 0 0" group="3" mass="0.0191898154" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_08" rgba="0 0 0 0" group="3" mass="0.00582734035" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_09" rgba="0 0 0 0" group="3" mass="0.000693173469" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_10" rgba="0 0 0 0" group="3" mass="0.009937791" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_11" rgba="0 0 0 0" group="3" mass="0.000694999693" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_12" rgba="0 0 0 0" group="3" mass="0.00207036484" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_13" rgba="0 0 0 0" group="3" mass="0.00240643628" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_14" rgba="0 0 0 0" group="3" mass="0.00520311271" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_15" rgba="0 0 0 0" group="3" mass="0.00356995565" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_16" rgba="0 0 0 0" group="3" mass="0.00356402591" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_17" rgba="0 0 0 0" group="3" mass="0.0594651196" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1061 0.0557 0.0350" pos="0.0000 -0.0000 0.0350" />
+    </body>
+  </worldbody>
+</mujoco>

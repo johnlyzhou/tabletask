@@ -1,0 +1,90 @@
+<mujoco model="small_grey_toy_motorcycle">
+  <compiler angle="radian" meshdir="../mesh/small_grey_toy_motorcycle" texturedir="../mesh/small_grey_toy_motorcycle" />
+  <custom>
+    <text name="label" data="small grey toy motorcycle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="small_grey_toy_motorcycle_0_mesh" file="0.obj" />
+    <material name="small_grey_toy_motorcycle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="small_grey_toy_motorcycle_0_tex" role="rgb" />
+    </material>
+    <texture name="small_grey_toy_motorcycle_0_tex" type="2d" file="0.png" />
+    <mesh name="small_grey_toy_motorcycle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="small_grey_toy_motorcycle_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="small_grey_toy_motorcycle">
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_0_mesh" material="small_grey_toy_motorcycle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_00" rgba="0 0 0 0" group="3" mass="0.000365213025" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_01" rgba="0 0 0 0" group="3" mass="0.000152051333" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_02" rgba="0 0 0 0" group="3" mass="0.000540190327" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_03" rgba="0 0 0 0" group="3" mass="0.0001760869" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_04" rgba="0 0 0 0" group="3" mass="0.000518341172" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_05" rgba="0 0 0 0" group="3" mass="3.1932385e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_06" rgba="0 0 0 0" group="3" mass="0.000630494187" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_07" rgba="0 0 0 0" group="3" mass="0.000260669073" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_08" rgba="0 0 0 0" group="3" mass="0.000807835857" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_09" rgba="0 0 0 0" group="3" mass="0.0011153329" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_10" rgba="0 0 0 0" group="3" mass="0.0001801574" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_11" rgba="0 0 0 0" group="3" mass="0.000795215123" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_12" rgba="0 0 0 0" group="3" mass="0.000353211004" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_13" rgba="0 0 0 0" group="3" mass="0.000265711923" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_14" rgba="0 0 0 0" group="3" mass="0.000146827872" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_15" rgba="0 0 0 0" group="3" mass="0.00027466479" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_16" rgba="0 0 0 0" group="3" mass="3.1932385e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_17" rgba="0 0 0 0" group="3" mass="0.000401742735" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_18" rgba="0 0 0 0" group="3" mass="0.000380902891" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_19" rgba="0 0 0 0" group="3" mass="0.000120999609" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_20" rgba="0 0 0 0" group="3" mass="0.000526581312" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_21" rgba="0 0 0 0" group="3" mass="0.000292631505" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_22" rgba="0 0 0 0" group="3" mass="0.000451267439" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_23" rgba="0 0 0 0" group="3" mass="0.000229819431" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_24" rgba="0 0 0 0" group="3" mass="0.00078866484" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_25" rgba="0 0 0 0" group="3" mass="0.0001467589" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_26" rgba="0 0 0 0" group="3" mass="0.000123167085" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_27" rgba="0 0 0 0" group="3" mass="0.000123795428" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_28" rgba="0 0 0 0" group="3" mass="0.000752850617" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_29" rgba="0 0 0 0" group="3" mass="3.1932385e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_30" rgba="0 0 0 0" group="3" mass="0.000129555974" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_31" rgba="0 0 0 0" group="3" mass="0.000161002176" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_grey_toy_motorcycle_hull_32" rgba="0 0 0 0" group="3" mass="0.00469246002" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0343 0.0149 0.0197" pos="0.0000 0.0000 0.0197" />
+    </body>
+  </worldbody>
+</mujoco>

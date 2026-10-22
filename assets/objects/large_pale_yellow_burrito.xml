@@ -1,0 +1,38 @@
+<mujoco model="large_pale_yellow_burrito">
+  <compiler angle="radian" meshdir="../mesh/large_pale_yellow_burrito" texturedir="../mesh/large_pale_yellow_burrito" />
+  <custom>
+    <text name="label" data="large pale yellow burrito" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="large_pale_yellow_burrito_0_mesh" file="0.obj" />
+    <material name="large_pale_yellow_burrito_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="large_pale_yellow_burrito_0_tex" role="rgb" />
+    </material>
+    <texture name="large_pale_yellow_burrito_0_tex" type="2d" file="0.png" />
+    <mesh name="large_pale_yellow_burrito_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="large_pale_yellow_burrito_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="large_pale_yellow_burrito_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="large_pale_yellow_burrito_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="large_pale_yellow_burrito_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="large_pale_yellow_burrito_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="large_pale_yellow_burrito_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="large_pale_yellow_burrito">
+      <geom type="mesh" mesh="large_pale_yellow_burrito_0_mesh" material="large_pale_yellow_burrito_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="large_pale_yellow_burrito_hull_00" rgba="0 0 0 0" group="3" mass="0.101729515" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_yellow_burrito_hull_01" rgba="0 0 0 0" group="3" mass="0.0563374339" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_yellow_burrito_hull_02" rgba="0 0 0 0" group="3" mass="0.00817724448" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_yellow_burrito_hull_03" rgba="0 0 0 0" group="3" mass="0.00243907824" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_yellow_burrito_hull_04" rgba="0 0 0 0" group="3" mass="0.00666915184" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_yellow_burrito_hull_05" rgba="0 0 0 0" group="3" mass="0.00236923416" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_pale_yellow_burrito_hull_06" rgba="0 0 0 0" group="3" mass="0.00527834263" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0265 0.0907 0.0203" pos="0.0000 0.0000 0.0203" />
+    </body>
+  </worldbody>
+</mujoco>

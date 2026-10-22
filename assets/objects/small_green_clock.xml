@@ -1,0 +1,86 @@
+<mujoco model="small_green_clock">
+  <compiler angle="radian" meshdir="../mesh/small_green_clock" texturedir="../mesh/small_green_clock" />
+  <custom>
+    <text name="label" data="small green clock" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="small_green_clock_0_mesh" file="0.obj" />
+    <material name="small_green_clock_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="small_green_clock_0_tex" role="rgb" />
+    </material>
+    <texture name="small_green_clock_0_tex" type="2d" file="0.png" />
+    <mesh name="small_green_clock_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="small_green_clock_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="small_green_clock">
+      <geom type="mesh" mesh="small_green_clock_0_mesh" material="small_green_clock_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_00" rgba="0 0 0 0" group="3" mass="0.0190010826" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_01" rgba="0 0 0 0" group="3" mass="0.0443684864" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_02" rgba="0 0 0 0" group="3" mass="0.0486402009" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_03" rgba="0 0 0 0" group="3" mass="0.00204555966" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_04" rgba="0 0 0 0" group="3" mass="0.00376927572" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_05" rgba="0 0 0 0" group="3" mass="0.00151942229" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_06" rgba="0 0 0 0" group="3" mass="0.00251644189" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_07" rgba="0 0 0 0" group="3" mass="0.00208915672" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_08" rgba="0 0 0 0" group="3" mass="0.0129826378" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_09" rgba="0 0 0 0" group="3" mass="0.00271928251" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_10" rgba="0 0 0 0" group="3" mass="0.0460411433" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_11" rgba="0 0 0 0" group="3" mass="0.00360241933" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_12" rgba="0 0 0 0" group="3" mass="0.00627206109" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_13" rgba="0 0 0 0" group="3" mass="0.0192553252" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_14" rgba="0 0 0 0" group="3" mass="0.00166353369" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_15" rgba="0 0 0 0" group="3" mass="0.00332378875" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_16" rgba="0 0 0 0" group="3" mass="0.00312606854" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_17" rgba="0 0 0 0" group="3" mass="0.00322930833" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_18" rgba="0 0 0 0" group="3" mass="0.00106186478" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_19" rgba="0 0 0 0" group="3" mass="0.00321641925" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_20" rgba="0 0 0 0" group="3" mass="0.000579105459" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_21" rgba="0 0 0 0" group="3" mass="0.00131799422" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_22" rgba="0 0 0 0" group="3" mass="0.00985692882" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_23" rgba="0 0 0 0" group="3" mass="0.00719389503" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_24" rgba="0 0 0 0" group="3" mass="0.0073652071" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_25" rgba="0 0 0 0" group="3" mass="0.00238625548" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_26" rgba="0 0 0 0" group="3" mass="0.00208523746" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_27" rgba="0 0 0 0" group="3" mass="0.00454561838" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_28" rgba="0 0 0 0" group="3" mass="0.00429944062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_29" rgba="0 0 0 0" group="3" mass="0.00149555593" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_clock_hull_30" rgba="0 0 0 0" group="3" mass="0.0184312827" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0231 0.0541 0.0688" pos="0.0000 0.0000 0.0688" />
+    </body>
+  </worldbody>
+</mujoco>

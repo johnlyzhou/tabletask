@@ -1,0 +1,38 @@
+<mujoco model="pale_green_razor">
+  <compiler angle="radian" meshdir="../mesh/pale_green_razor" texturedir="../mesh/pale_green_razor" />
+  <custom>
+    <text name="label" data="pale green razor" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pale_green_razor_0_mesh" file="0.obj" />
+    <material name="pale_green_razor_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pale_green_razor_0_tex" role="rgb" />
+    </material>
+    <texture name="pale_green_razor_0_tex" type="2d" file="0.png" />
+    <mesh name="pale_green_razor_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pale_green_razor_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pale_green_razor_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pale_green_razor_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="pale_green_razor_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="pale_green_razor_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="pale_green_razor_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="pale_green_razor">
+      <geom type="mesh" mesh="pale_green_razor_0_mesh" material="pale_green_razor_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="pale_green_razor_hull_00" rgba="0 0 0 0" group="3" mass="0.00114428707" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_razor_hull_01" rgba="0 0 0 0" group="3" mass="0.0151836791" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_razor_hull_02" rgba="0 0 0 0" group="3" mass="0.00142701942" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_razor_hull_03" rgba="0 0 0 0" group="3" mass="0.00286548363" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_razor_hull_04" rgba="0 0 0 0" group="3" mass="0.00120538225" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_green_razor_hull_05" rgba="0 0 0 0" group="3" mass="0.00217414857" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0108 0.0204 0.0514" pos="0.0000 0.0000 0.0514" />
+      <geom name="place:top" class="place" type="mesh" mesh="pale_green_razor_top" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,46 @@
+<mujoco model="orange_apple">
+  <compiler angle="radian" meshdir="../mesh/orange_apple" texturedir="../mesh/orange_apple" />
+  <custom>
+    <text name="label" data="orange apple" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="orange_apple_0_mesh" file="0.obj" />
+    <material name="orange_apple_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="orange_apple_0_tex" role="rgb" />
+    </material>
+    <texture name="orange_apple_0_tex" type="2d" file="0.png" />
+    <mesh name="orange_apple_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="orange_apple_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="orange_apple">
+      <geom type="mesh" mesh="orange_apple_0_mesh" material="orange_apple_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_00" rgba="0 0 0 0" group="3" mass="0.0219593406" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_01" rgba="0 0 0 0" group="3" mass="0.0192494212" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_02" rgba="0 0 0 0" group="3" mass="0.023278034" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_03" rgba="0 0 0 0" group="3" mass="0.0219069636" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_04" rgba="0 0 0 0" group="3" mass="0.0369107354" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_05" rgba="0 0 0 0" group="3" mass="0.00301793992" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_06" rgba="0 0 0 0" group="3" mass="0.00401386176" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_07" rgba="0 0 0 0" group="3" mass="0.0397199202" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_08" rgba="0 0 0 0" group="3" mass="0.0169848438" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_09" rgba="0 0 0 0" group="3" mass="0.0481110023" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_apple_hull_10" rgba="0 0 0 0" group="3" mass="0.0108479372" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0458 0.0417 0.0400" pos="0.0000 0.0000 0.0400" />
+    </body>
+  </worldbody>
+</mujoco>

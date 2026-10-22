@@ -1,0 +1,38 @@
+<mujoco model="yellow_ear_of_corn">
+  <compiler angle="radian" meshdir="../mesh/yellow_ear_of_corn" texturedir="../mesh/yellow_ear_of_corn" />
+  <custom>
+    <text name="label" data="yellow ear of corn" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="yellow_ear_of_corn_0_mesh" file="0.obj" />
+    <material name="yellow_ear_of_corn_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="yellow_ear_of_corn_0_tex" role="rgb" />
+    </material>
+    <texture name="yellow_ear_of_corn_0_tex" type="2d" file="0.png" />
+    <mesh name="yellow_ear_of_corn_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="yellow_ear_of_corn_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="yellow_ear_of_corn_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="yellow_ear_of_corn_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="yellow_ear_of_corn_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="yellow_ear_of_corn_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="yellow_ear_of_corn_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="yellow_ear_of_corn">
+      <geom type="mesh" mesh="yellow_ear_of_corn_0_mesh" material="yellow_ear_of_corn_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="yellow_ear_of_corn_hull_00" rgba="0 0 0 0" group="3" mass="0.0660091765" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_ear_of_corn_hull_01" rgba="0 0 0 0" group="3" mass="0.0739405596" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_ear_of_corn_hull_02" rgba="0 0 0 0" group="3" mass="0.0625677233" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_ear_of_corn_hull_03" rgba="0 0 0 0" group="3" mass="0.00167516728" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_ear_of_corn_hull_04" rgba="0 0 0 0" group="3" mass="0.0267123572" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_ear_of_corn_hull_05" rgba="0 0 0 0" group="3" mass="0.0250950161" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0291 0.0289 0.0886" pos="0.0000 0.0000 0.0886" />
+      <geom name="place:top" class="place" type="mesh" mesh="yellow_ear_of_corn_top" />
+    </body>
+  </worldbody>
+</mujoco>

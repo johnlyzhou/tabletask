@@ -1,0 +1,40 @@
+<mujoco model="round_black_mangosteen">
+  <compiler angle="radian" meshdir="../mesh/round_black_mangosteen" texturedir="../mesh/round_black_mangosteen" />
+  <custom>
+    <text name="label" data="round black mangosteen" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="round_black_mangosteen_0_mesh" file="0.obj" />
+    <material name="round_black_mangosteen_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="round_black_mangosteen_0_tex" role="rgb" />
+    </material>
+    <texture name="round_black_mangosteen_0_tex" type="2d" file="0.png" />
+    <mesh name="round_black_mangosteen_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="round_black_mangosteen_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="round_black_mangosteen_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="round_black_mangosteen_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="round_black_mangosteen_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="round_black_mangosteen_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="round_black_mangosteen_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="round_black_mangosteen_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="round_black_mangosteen">
+      <geom type="mesh" mesh="round_black_mangosteen_0_mesh" material="round_black_mangosteen_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="round_black_mangosteen_hull_00" rgba="0 0 0 0" group="3" mass="0.0871788756" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_black_mangosteen_hull_01" rgba="0 0 0 0" group="3" mass="0.000201002189" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_black_mangosteen_hull_02" rgba="0 0 0 0" group="3" mass="0.00164325627" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_black_mangosteen_hull_03" rgba="0 0 0 0" group="3" mass="0.000535977165" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_black_mangosteen_hull_04" rgba="0 0 0 0" group="3" mass="0.00145725861" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_black_mangosteen_hull_05" rgba="0 0 0 0" group="3" mass="0.000654415261" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_black_mangosteen_hull_06" rgba="0 0 0 0" group="3" mass="0.0012425062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_black_mangosteen_hull_07" rgba="0 0 0 0" group="3" mass="0.00208670871" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0294 0.0287 0.0346" pos="0.0000 0.0000 0.0346" />
+    </body>
+  </worldbody>
+</mujoco>

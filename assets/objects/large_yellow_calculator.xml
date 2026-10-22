@@ -1,0 +1,38 @@
+<mujoco model="large_yellow_calculator">
+  <compiler angle="radian" meshdir="../mesh/large_yellow_calculator" texturedir="../mesh/large_yellow_calculator" />
+  <custom>
+    <text name="label" data="large yellow calculator" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="large_yellow_calculator_0_mesh" file="0.obj" />
+    <material name="large_yellow_calculator_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="large_yellow_calculator_0_tex" role="rgb" />
+    </material>
+    <texture name="large_yellow_calculator_0_tex" type="2d" file="0.png" />
+    <mesh name="large_yellow_calculator_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="large_yellow_calculator_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="large_yellow_calculator_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="large_yellow_calculator_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="large_yellow_calculator_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="large_yellow_calculator_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="large_yellow_calculator_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="large_yellow_calculator">
+      <geom type="mesh" mesh="large_yellow_calculator_0_mesh" material="large_yellow_calculator_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="large_yellow_calculator_hull_00" rgba="0 0 0 0" group="3" mass="0.00274924829" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_calculator_hull_01" rgba="0 0 0 0" group="3" mass="0.0253137066" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_calculator_hull_02" rgba="0 0 0 0" group="3" mass="0.00697146794" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_calculator_hull_03" rgba="0 0 0 0" group="3" mass="0.0126885878" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_calculator_hull_04" rgba="0 0 0 0" group="3" mass="0.00506678408" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_calculator_hull_05" rgba="0 0 0 0" group="3" mass="0.0132102054" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0082 0.0376 0.0604" pos="0.0000 0.0000 0.0604" />
+      <geom name="place:top" class="place" type="mesh" mesh="large_yellow_calculator_top" />
+    </body>
+  </worldbody>
+</mujoco>

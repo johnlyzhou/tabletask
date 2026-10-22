@@ -1,0 +1,40 @@
+<mujoco model="large_yellow_ear_of_corn">
+  <compiler angle="radian" meshdir="../mesh/large_yellow_ear_of_corn" texturedir="../mesh/large_yellow_ear_of_corn" />
+  <custom>
+    <text name="label" data="large yellow ear of corn" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="large_yellow_ear_of_corn_0_mesh" file="0.obj" />
+    <material name="large_yellow_ear_of_corn_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="large_yellow_ear_of_corn_0_tex" role="rgb" />
+    </material>
+    <texture name="large_yellow_ear_of_corn_0_tex" type="2d" file="0.png" />
+    <mesh name="large_yellow_ear_of_corn_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="large_yellow_ear_of_corn_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="large_yellow_ear_of_corn_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="large_yellow_ear_of_corn_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="large_yellow_ear_of_corn_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="large_yellow_ear_of_corn_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="large_yellow_ear_of_corn_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="large_yellow_ear_of_corn_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="large_yellow_ear_of_corn">
+      <geom type="mesh" mesh="large_yellow_ear_of_corn_0_mesh" material="large_yellow_ear_of_corn_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="large_yellow_ear_of_corn_hull_00" rgba="0 0 0 0" group="3" mass="0.167345629" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_ear_of_corn_hull_01" rgba="0 0 0 0" group="3" mass="0.0474011702" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_ear_of_corn_hull_02" rgba="0 0 0 0" group="3" mass="0.000555061467" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_ear_of_corn_hull_03" rgba="0 0 0 0" group="3" mass="0.00530090699" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_ear_of_corn_hull_04" rgba="0 0 0 0" group="3" mass="0.0142173665" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_ear_of_corn_hull_05" rgba="0 0 0 0" group="3" mass="0.0086821573" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_ear_of_corn_hull_06" rgba="0 0 0 0" group="3" mass="0.0186403442" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_ear_of_corn_hull_07" rgba="0 0 0 0" group="3" mass="0.00485736419" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0412 0.0615 0.0798" pos="0.0000 0.0000 0.0798" />
+    </body>
+  </worldbody>
+</mujoco>

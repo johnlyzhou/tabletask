@@ -1,0 +1,32 @@
+<mujoco model="long_yellow_medicine_bottle">
+  <compiler angle="radian" meshdir="../mesh/long_yellow_medicine_bottle" texturedir="../mesh/long_yellow_medicine_bottle" />
+  <custom>
+    <text name="label" data="long yellow medicine bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="long_yellow_medicine_bottle_0_mesh" file="0.obj" />
+    <material name="long_yellow_medicine_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="long_yellow_medicine_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="long_yellow_medicine_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="long_yellow_medicine_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="long_yellow_medicine_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="long_yellow_medicine_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="long_yellow_medicine_bottle_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="long_yellow_medicine_bottle">
+      <geom type="mesh" mesh="long_yellow_medicine_bottle_0_mesh" material="long_yellow_medicine_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="long_yellow_medicine_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.00524805323" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="long_yellow_medicine_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.0235811172" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="long_yellow_medicine_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.00217082953" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0169 0.0170 0.0510" pos="0.0000 0.0000 0.0510" />
+      <geom name="place:top" class="place" type="mesh" mesh="long_yellow_medicine_bottle_top" />
+    </body>
+  </worldbody>
+</mujoco>
