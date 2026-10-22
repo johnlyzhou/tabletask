@@ -47,43 +47,105 @@
     <mesh name="bull_figure_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="bull_figure_hull_31" file="hulls/h31.obj" maxhullvert="128" />
     <mesh name="bull_figure_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_62" file="hulls/h62.obj" maxhullvert="128" />
+    <mesh name="bull_figure_hull_63" file="hulls/h63.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="bull_figure">
       <geom type="mesh" mesh="bull_figure_0_mesh" material="bull_figure_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.0015417568" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.00138968466" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.000228479322" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.01398892" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.000497890702" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.000636891408" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.0105306381" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.00331240693" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.00646110103" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.0157327758" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.000834552634" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.000285476508" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.00276215114" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.00213500925" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.0022265503" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.000228479322" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.000808029267" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.000370455656" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.00481104248" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.00601767785" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.00294323429" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.00340180388" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_22" rgba="0 0 0 0" group="3" mass="0.000228479322" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_23" rgba="0 0 0 0" group="3" mass="0.000303936074" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_24" rgba="0 0 0 0" group="3" mass="0.006309339" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_25" rgba="0 0 0 0" group="3" mass="0.000355797304" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_26" rgba="0 0 0 0" group="3" mass="0.00647245157" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_27" rgba="0 0 0 0" group="3" mass="0.00428606109" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_28" rgba="0 0 0 0" group="3" mass="0.000925587781" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_29" rgba="0 0 0 0" group="3" mass="0.000730952689" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_30" rgba="0 0 0 0" group="3" mass="0.000228479322" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_31" rgba="0 0 0 0" group="3" mass="0.000971102043" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bull_figure_hull_32" rgba="0 0 0 0" group="3" mass="0.0130428065" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bull_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.000476203917" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.000750711701" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.000628688869" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.000782823573" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.000758977887" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.0322260003" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.00872916802" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.000568273132" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.000390094739" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.000395260112" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.000613718873" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.000826820168" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.00125450572" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.00150647112" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.000985418166" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.00139160787" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.000448069692" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.00276009783" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_22" rgba="0 0 0 0" group="3" mass="0.000354905043" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_23" rgba="0 0 0 0" group="3" mass="0.000487585121" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_24" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_25" rgba="0 0 0 0" group="3" mass="0.0025916504" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_26" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_27" rgba="0 0 0 0" group="3" mass="0.00156952982" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_28" rgba="0 0 0 0" group="3" mass="0.000784000788" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_29" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_30" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_31" rgba="0 0 0 0" group="3" mass="0.00479477392" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_32" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_33" rgba="0 0 0 0" group="3" mass="0.010592548" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_34" rgba="0 0 0 0" group="3" mass="0.000249424546" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_35" rgba="0 0 0 0" group="3" mass="0.000286674344" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_36" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_37" rgba="0 0 0 0" group="3" mass="0.00259872297" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_38" rgba="0 0 0 0" group="3" mass="0.00124392884" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_39" rgba="0 0 0 0" group="3" mass="0.0030916128" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_40" rgba="0 0 0 0" group="3" mass="0.000605505184" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_41" rgba="0 0 0 0" group="3" mass="0.000853348617" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_42" rgba="0 0 0 0" group="3" mass="0.000844649404" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_43" rgba="0 0 0 0" group="3" mass="0.000880220696" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_44" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_45" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_46" rgba="0 0 0 0" group="3" mass="0.000568019186" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_47" rgba="0 0 0 0" group="3" mass="0.000872723323" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_48" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_49" rgba="0 0 0 0" group="3" mass="0.00103111984" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_50" rgba="0 0 0 0" group="3" mass="0.00336896365" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_51" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_52" rgba="0 0 0 0" group="3" mass="0.000738394981" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_53" rgba="0 0 0 0" group="3" mass="0.000520024576" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_54" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_55" rgba="0 0 0 0" group="3" mass="0.000656554474" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_56" rgba="0 0 0 0" group="3" mass="0.00178004643" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_57" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_58" rgba="0 0 0 0" group="3" mass="0.00274557059" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_59" rgba="0 0 0 0" group="3" mass="0.00262084135" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_60" rgba="0 0 0 0" group="3" mass="0.00141933776" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_61" rgba="0 0 0 0" group="3" mass="0.00255826872" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_62" rgba="0 0 0 0" group="3" mass="0.00496845547" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="bull_figure_hull_63" rgba="0 0 0 0" group="3" mass="0.000225275732" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0219 0.0672 0.0408" pos="0.0000 0.0000 0.0408" />
     </body>
   </worldbody>

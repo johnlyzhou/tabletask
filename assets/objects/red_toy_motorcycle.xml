@@ -47,43 +47,105 @@
     <mesh name="red_toy_motorcycle_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="red_toy_motorcycle_hull_31" file="hulls/h31.obj" maxhullvert="128" />
     <mesh name="red_toy_motorcycle_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_62" file="hulls/h62.obj" maxhullvert="128" />
+    <mesh name="red_toy_motorcycle_hull_63" file="hulls/h63.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="red_toy_motorcycle">
       <geom type="mesh" mesh="red_toy_motorcycle_0_mesh" material="red_toy_motorcycle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_00" rgba="0 0 0 0" group="3" mass="0.00259596345" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_01" rgba="0 0 0 0" group="3" mass="0.000804108769" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_02" rgba="0 0 0 0" group="3" mass="0.0157849494" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_03" rgba="0 0 0 0" group="3" mass="0.00458794687" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_04" rgba="0 0 0 0" group="3" mass="0.000224052224" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_05" rgba="0 0 0 0" group="3" mass="0.000212704093" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_06" rgba="0 0 0 0" group="3" mass="0.000223700806" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_07" rgba="0 0 0 0" group="3" mass="0.00381476687" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_08" rgba="0 0 0 0" group="3" mass="0.00438949433" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_09" rgba="0 0 0 0" group="3" mass="0.000113415421" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_10" rgba="0 0 0 0" group="3" mass="0.00021891552" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_11" rgba="0 0 0 0" group="3" mass="0.000419923898" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_12" rgba="0 0 0 0" group="3" mass="0.00200454024" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_13" rgba="0 0 0 0" group="3" mass="0.00344591983" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_14" rgba="0 0 0 0" group="3" mass="0.00053846629" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_15" rgba="0 0 0 0" group="3" mass="0.00231450859" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_16" rgba="0 0 0 0" group="3" mass="0.000902974883" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_17" rgba="0 0 0 0" group="3" mass="0.000848011563" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_18" rgba="0 0 0 0" group="3" mass="0.000713338761" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_19" rgba="0 0 0 0" group="3" mass="0.000231106056" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_20" rgba="0 0 0 0" group="3" mass="0.000235175013" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_21" rgba="0 0 0 0" group="3" mass="0.000114898346" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_22" rgba="0 0 0 0" group="3" mass="0.000113415421" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_23" rgba="0 0 0 0" group="3" mass="0.000766898387" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_24" rgba="0 0 0 0" group="3" mass="0.000977977291" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_25" rgba="0 0 0 0" group="3" mass="0.00104189186" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_26" rgba="0 0 0 0" group="3" mass="0.000403019295" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_27" rgba="0 0 0 0" group="3" mass="0.000230199529" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_28" rgba="0 0 0 0" group="3" mass="0.000113415421" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_29" rgba="0 0 0 0" group="3" mass="0.000222729914" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_30" rgba="0 0 0 0" group="3" mass="0.000539144247" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_31" rgba="0 0 0 0" group="3" mass="0.000424202211" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_toy_motorcycle_hull_32" rgba="0 0 0 0" group="3" mass="0.00742822516" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_00" rgba="0 0 0 0" group="3" mass="0.00110809427" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_01" rgba="0 0 0 0" group="3" mass="0.00188953691" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_02" rgba="0 0 0 0" group="3" mass="0.00337141412" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_03" rgba="0 0 0 0" group="3" mass="0.000584871663" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_04" rgba="0 0 0 0" group="3" mass="0.000636204741" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_05" rgba="0 0 0 0" group="3" mass="0.00294917816" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_06" rgba="0 0 0 0" group="3" mass="0.000249282912" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_07" rgba="0 0 0 0" group="3" mass="0.000448978234" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_08" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_09" rgba="0 0 0 0" group="3" mass="0.00335676344" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_10" rgba="0 0 0 0" group="3" mass="0.00458323961" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_11" rgba="0 0 0 0" group="3" mass="0.000868144758" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_12" rgba="0 0 0 0" group="3" mass="0.00086298794" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_13" rgba="0 0 0 0" group="3" mass="0.000659556456" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_14" rgba="0 0 0 0" group="3" mass="0.00159055199" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_15" rgba="0 0 0 0" group="3" mass="0.00113884041" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_16" rgba="0 0 0 0" group="3" mass="0.000337356292" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_17" rgba="0 0 0 0" group="3" mass="0.00101850576" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_18" rgba="0 0 0 0" group="3" mass="0.000586143989" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_19" rgba="0 0 0 0" group="3" mass="0.00211270717" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_20" rgba="0 0 0 0" group="3" mass="0.000145651261" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_21" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_22" rgba="0 0 0 0" group="3" mass="0.000886030736" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_23" rgba="0 0 0 0" group="3" mass="0.000855630938" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_24" rgba="0 0 0 0" group="3" mass="0.000140996138" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_25" rgba="0 0 0 0" group="3" mass="0.00100680533" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_26" rgba="0 0 0 0" group="3" mass="0.00163012279" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_27" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_28" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_29" rgba="0 0 0 0" group="3" mass="0.0010581153" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_30" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_31" rgba="0 0 0 0" group="3" mass="0.00118720642" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_32" rgba="0 0 0 0" group="3" mass="0.000247883261" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_33" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_34" rgba="0 0 0 0" group="3" mass="0.00045969032" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_35" rgba="0 0 0 0" group="3" mass="0.000596391202" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_36" rgba="0 0 0 0" group="3" mass="0.000538414123" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_37" rgba="0 0 0 0" group="3" mass="0.000360663441" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_38" rgba="0 0 0 0" group="3" mass="0.000252425543" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_39" rgba="0 0 0 0" group="3" mass="0.00048003002" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_40" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_41" rgba="0 0 0 0" group="3" mass="0.0001196892" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_42" rgba="0 0 0 0" group="3" mass="0.000289430101" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_43" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_44" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_45" rgba="0 0 0 0" group="3" mass="0.00122821731" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_46" rgba="0 0 0 0" group="3" mass="0.00015753934" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_47" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_48" rgba="0 0 0 0" group="3" mass="0.000212424496" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_49" rgba="0 0 0 0" group="3" mass="0.000154518919" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_50" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_51" rgba="0 0 0 0" group="3" mass="0.00100863707" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_52" rgba="0 0 0 0" group="3" mass="0.00139884622" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_53" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_54" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_55" rgba="0 0 0 0" group="3" mass="0.000339662332" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_56" rgba="0 0 0 0" group="3" mass="0.0107106133" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_57" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_58" rgba="0 0 0 0" group="3" mass="0.000713150985" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_59" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_60" rgba="0 0 0 0" group="3" mass="0.000252485551" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_61" rgba="0 0 0 0" group="3" mass="0.000112416481" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_62" rgba="0 0 0 0" group="3" mass="0.000254364207" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="red_toy_motorcycle_hull_63" rgba="0 0 0 0" group="3" mass="0.000163341548" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0554 0.0179 0.0309" pos="0.0000 0.0000 0.0309" />
     </body>
   </worldbody>

@@ -38,34 +38,114 @@
     <mesh name="plastic_crate_hull_21" file="hulls/h21.obj" maxhullvert="128" />
     <mesh name="plastic_crate_hull_22" file="hulls/h22.obj" maxhullvert="128" />
     <mesh name="plastic_crate_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_62" file="hulls/h62.obj" maxhullvert="128" />
+    <mesh name="plastic_crate_hull_63" file="hulls/h63.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="plastic_crate">
       <geom type="mesh" mesh="plastic_crate_0_mesh" material="plastic_crate_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_00" rgba="0 0 0 0" group="3" mass="0.0581597272" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_01" rgba="0 0 0 0" group="3" mass="0.0417440211" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_02" rgba="0 0 0 0" group="3" mass="0.00957140609" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_03" rgba="0 0 0 0" group="3" mass="0.0378713784" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_04" rgba="0 0 0 0" group="3" mass="0.0494497686" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_05" rgba="0 0 0 0" group="3" mass="0.0306016442" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_06" rgba="0 0 0 0" group="3" mass="0.0180370186" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_07" rgba="0 0 0 0" group="3" mass="0.00174032053" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_08" rgba="0 0 0 0" group="3" mass="0.030936185" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_09" rgba="0 0 0 0" group="3" mass="0.0438768517" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_10" rgba="0 0 0 0" group="3" mass="0.0134485609" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_11" rgba="0 0 0 0" group="3" mass="0.016310791" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_12" rgba="0 0 0 0" group="3" mass="0.0114830028" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_13" rgba="0 0 0 0" group="3" mass="0.00901307983" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_14" rgba="0 0 0 0" group="3" mass="0.0340749353" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_15" rgba="0 0 0 0" group="3" mass="0.0398790309" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_16" rgba="0 0 0 0" group="3" mass="0.0100624987" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_17" rgba="0 0 0 0" group="3" mass="0.019506484" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_18" rgba="0 0 0 0" group="3" mass="0.003900419" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_19" rgba="0 0 0 0" group="3" mass="0.00788281641" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_20" rgba="0 0 0 0" group="3" mass="0.0151325548" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_21" rgba="0 0 0 0" group="3" mass="0.00289564897" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_22" rgba="0 0 0 0" group="3" mass="0.00276636195" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="plastic_crate_hull_23" rgba="0 0 0 0" group="3" mass="0.0916554939" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="plastic_crate_hull_00" rgba="0 0 0 0" group="3" mass="0.0461806109" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_01" rgba="0 0 0 0" group="3" mass="0.0742654919" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_02" rgba="0 0 0 0" group="3" mass="0.0163180264" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_03" rgba="0 0 0 0" group="3" mass="0.0301970221" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_04" rgba="0 0 0 0" group="3" mass="0.0114445967" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_05" rgba="0 0 0 0" group="3" mass="0.0124227493" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_06" rgba="0 0 0 0" group="3" mass="0.00118849371" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_07" rgba="0 0 0 0" group="3" mass="0.023241409" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_08" rgba="0 0 0 0" group="3" mass="0.00598313288" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_09" rgba="0 0 0 0" group="3" mass="0.0220979431" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_10" rgba="0 0 0 0" group="3" mass="0.0141397169" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_11" rgba="0 0 0 0" group="3" mass="0.02039962" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_12" rgba="0 0 0 0" group="3" mass="0.0172958199" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_13" rgba="0 0 0 0" group="3" mass="0.00118849371" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_14" rgba="0 0 0 0" group="3" mass="0.00597598043" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_15" rgba="0 0 0 0" group="3" mass="0.00923528622" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_16" rgba="0 0 0 0" group="3" mass="0.0167075091" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_17" rgba="0 0 0 0" group="3" mass="0.0113306815" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_18" rgba="0 0 0 0" group="3" mass="0.00794109221" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_19" rgba="0 0 0 0" group="3" mass="0.00346346975" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_20" rgba="0 0 0 0" group="3" mass="0.00718894297" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_21" rgba="0 0 0 0" group="3" mass="0.0211987056" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_22" rgba="0 0 0 0" group="3" mass="0.00984798564" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_23" rgba="0 0 0 0" group="3" mass="0.00543649404" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_24" rgba="0 0 0 0" group="3" mass="0.00575642955" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_25" rgba="0 0 0 0" group="3" mass="0.0107641659" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_26" rgba="0 0 0 0" group="3" mass="0.00610258494" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_27" rgba="0 0 0 0" group="3" mass="0.00781227924" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_28" rgba="0 0 0 0" group="3" mass="0.00229442345" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_29" rgba="0 0 0 0" group="3" mass="0.00585176393" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_30" rgba="0 0 0 0" group="3" mass="0.00118849371" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_31" rgba="0 0 0 0" group="3" mass="0.00278560988" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_32" rgba="0 0 0 0" group="3" mass="0.00767016465" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_33" rgba="0 0 0 0" group="3" mass="0.00122018692" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_34" rgba="0 0 0 0" group="3" mass="0.0144250172" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_35" rgba="0 0 0 0" group="3" mass="0.00631165222" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_36" rgba="0 0 0 0" group="3" mass="0.00448930609" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_37" rgba="0 0 0 0" group="3" mass="0.00260185075" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_38" rgba="0 0 0 0" group="3" mass="0.0113581311" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_39" rgba="0 0 0 0" group="3" mass="0.0132998608" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_40" rgba="0 0 0 0" group="3" mass="0.0119651932" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_41" rgba="0 0 0 0" group="3" mass="0.00198199036" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_42" rgba="0 0 0 0" group="3" mass="0.00118849371" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_43" rgba="0 0 0 0" group="3" mass="0.00955929871" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_44" rgba="0 0 0 0" group="3" mass="0.00118849371" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_45" rgba="0 0 0 0" group="3" mass="0.0217523993" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_46" rgba="0 0 0 0" group="3" mass="0.00210775733" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_47" rgba="0 0 0 0" group="3" mass="0.00497132764" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_48" rgba="0 0 0 0" group="3" mass="0.00118849371" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_49" rgba="0 0 0 0" group="3" mass="0.00211494016" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_50" rgba="0 0 0 0" group="3" mass="0.00187766987" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_51" rgba="0 0 0 0" group="3" mass="0.00118849371" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_52" rgba="0 0 0 0" group="3" mass="0.0022246662" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_53" rgba="0 0 0 0" group="3" mass="0.00118849371" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_54" rgba="0 0 0 0" group="3" mass="0.00209865174" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_55" rgba="0 0 0 0" group="3" mass="0.00288280387" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_56" rgba="0 0 0 0" group="3" mass="0.001260245" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_57" rgba="0 0 0 0" group="3" mass="0.00163118733" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_58" rgba="0 0 0 0" group="3" mass="0.00826309427" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_59" rgba="0 0 0 0" group="3" mass="0.00731973021" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_60" rgba="0 0 0 0" group="3" mass="0.00875335716" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_61" rgba="0 0 0 0" group="3" mass="0.00181394971" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_62" rgba="0 0 0 0" group="3" mass="0.00166958111" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="plastic_crate_hull_63" rgba="0 0 0 0" group="3" mass="0.00118849371" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.1169 0.1600 0.1036" pos="0.0000 0.0000 0.1036" />
     </body>
   </worldbody>

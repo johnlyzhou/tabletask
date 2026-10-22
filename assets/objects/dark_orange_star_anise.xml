@@ -40,36 +40,110 @@
     <mesh name="dark_orange_star_anise_hull_23" file="hulls/h23.obj" maxhullvert="128" />
     <mesh name="dark_orange_star_anise_hull_24" file="hulls/h24.obj" maxhullvert="128" />
     <mesh name="dark_orange_star_anise_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="dark_orange_star_anise_hull_62" file="hulls/h62.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="dark_orange_star_anise">
       <geom type="mesh" mesh="dark_orange_star_anise_0_mesh" material="dark_orange_star_anise_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_00" rgba="0 0 0 0" group="3" mass="0.000128733256" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_01" rgba="0 0 0 0" group="3" mass="0.000143407215" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_02" rgba="0 0 0 0" group="3" mass="0.000438005911" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_03" rgba="0 0 0 0" group="3" mass="0.000307639013" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_04" rgba="0 0 0 0" group="3" mass="0.000138326241" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_05" rgba="0 0 0 0" group="3" mass="9.87317712e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_06" rgba="0 0 0 0" group="3" mass="0.000431090347" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_07" rgba="0 0 0 0" group="3" mass="0.000428942591" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_08" rgba="0 0 0 0" group="3" mass="0.000262522781" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_09" rgba="0 0 0 0" group="3" mass="0.000255700817" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_10" rgba="0 0 0 0" group="3" mass="0.000257679784" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_11" rgba="0 0 0 0" group="3" mass="0.000168004053" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_12" rgba="0 0 0 0" group="3" mass="4.66354662e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_13" rgba="0 0 0 0" group="3" mass="0.000158285442" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_14" rgba="0 0 0 0" group="3" mass="0.000120284091" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_15" rgba="0 0 0 0" group="3" mass="1.99095105e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_16" rgba="0 0 0 0" group="3" mass="0.000219338072" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_17" rgba="0 0 0 0" group="3" mass="0.000206632889" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_18" rgba="0 0 0 0" group="3" mass="2.52066508e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_19" rgba="0 0 0 0" group="3" mass="0.000103926478" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_20" rgba="0 0 0 0" group="3" mass="0.000183287789" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_21" rgba="0 0 0 0" group="3" mass="0.000196635074" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_22" rgba="0 0 0 0" group="3" mass="9.55264616e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_23" rgba="0 0 0 0" group="3" mass="0.000159138443" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_24" rgba="0 0 0 0" group="3" mass="0.000189132341" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_orange_star_anise_hull_25" rgba="0 0 0 0" group="3" mass="0.000217277514" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_00" rgba="0 0 0 0" group="3" mass="0.000333074663" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_01" rgba="0 0 0 0" group="3" mass="0.000133844409" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_02" rgba="0 0 0 0" group="3" mass="0.000143495337" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_03" rgba="0 0 0 0" group="3" mass="8.1171331e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_04" rgba="0 0 0 0" group="3" mass="3.38251943e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_05" rgba="0 0 0 0" group="3" mass="4.1486438e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_06" rgba="0 0 0 0" group="3" mass="1.19793155e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_07" rgba="0 0 0 0" group="3" mass="0.000141312404" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_08" rgba="0 0 0 0" group="3" mass="0.000126396566" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_09" rgba="0 0 0 0" group="3" mass="2.18776125e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_10" rgba="0 0 0 0" group="3" mass="1.99493667e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_11" rgba="0 0 0 0" group="3" mass="8.60254183e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_12" rgba="0 0 0 0" group="3" mass="3.2633542e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_13" rgba="0 0 0 0" group="3" mass="0.000302955344" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_14" rgba="0 0 0 0" group="3" mass="5.3334576e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_15" rgba="0 0 0 0" group="3" mass="0.000105955741" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_16" rgba="0 0 0 0" group="3" mass="2.30417793e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_17" rgba="0 0 0 0" group="3" mass="6.94018968e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_18" rgba="0 0 0 0" group="3" mass="1.90622114e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_19" rgba="0 0 0 0" group="3" mass="2.06933768e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_20" rgba="0 0 0 0" group="3" mass="8.01846746e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_21" rgba="0 0 0 0" group="3" mass="1.69215362e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_22" rgba="0 0 0 0" group="3" mass="0.000147243455" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_23" rgba="0 0 0 0" group="3" mass="0.00020087548" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_24" rgba="0 0 0 0" group="3" mass="8.98907658e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_25" rgba="0 0 0 0" group="3" mass="6.26757777e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_26" rgba="0 0 0 0" group="3" mass="8.35402245e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_27" rgba="0 0 0 0" group="3" mass="3.42482297e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_28" rgba="0 0 0 0" group="3" mass="0.000108920554" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_29" rgba="0 0 0 0" group="3" mass="0.000104659768" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_30" rgba="0 0 0 0" group="3" mass="9.9505403e-06" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_31" rgba="0 0 0 0" group="3" mass="1.63647817e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_32" rgba="0 0 0 0" group="3" mass="9.6748291e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_33" rgba="0 0 0 0" group="3" mass="9.9505403e-06" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_34" rgba="0 0 0 0" group="3" mass="0.000150719567" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_35" rgba="0 0 0 0" group="3" mass="1.39116007e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_36" rgba="0 0 0 0" group="3" mass="9.07491717e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_37" rgba="0 0 0 0" group="3" mass="5.71661006e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_38" rgba="0 0 0 0" group="3" mass="0.000115899249" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_39" rgba="0 0 0 0" group="3" mass="7.46182654e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_40" rgba="0 0 0 0" group="3" mass="0.000195980624" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_41" rgba="0 0 0 0" group="3" mass="0.000132497275" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_42" rgba="0 0 0 0" group="3" mass="1.13515501e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_43" rgba="0 0 0 0" group="3" mass="9.9505403e-06" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_44" rgba="0 0 0 0" group="3" mass="0.000242954013" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_45" rgba="0 0 0 0" group="3" mass="5.30471926e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_46" rgba="0 0 0 0" group="3" mass="1.13766252e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_47" rgba="0 0 0 0" group="3" mass="5.35972406e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_48" rgba="0 0 0 0" group="3" mass="3.74993046e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_49" rgba="0 0 0 0" group="3" mass="4.84930453e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_50" rgba="0 0 0 0" group="3" mass="2.8051865e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_51" rgba="0 0 0 0" group="3" mass="9.9505403e-06" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_52" rgba="0 0 0 0" group="3" mass="2.67018978e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_53" rgba="0 0 0 0" group="3" mass="0.000117376054" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_54" rgba="0 0 0 0" group="3" mass="0.000156821128" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_55" rgba="0 0 0 0" group="3" mass="0.000100285504" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_56" rgba="0 0 0 0" group="3" mass="0.000204174075" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_57" rgba="0 0 0 0" group="3" mass="9.9505403e-06" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_58" rgba="0 0 0 0" group="3" mass="3.22426027e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_59" rgba="0 0 0 0" group="3" mass="9.9505403e-06" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_60" rgba="0 0 0 0" group="3" mass="6.45749708e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_61" rgba="0 0 0 0" group="3" mass="1.28068845e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="dark_orange_star_anise_hull_62" rgba="0 0 0 0" group="3" mass="6.36108924e-05" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0108 0.0223 0.0102" pos="0.0000 0.0000 0.0102" />
     </body>
   </worldbody>

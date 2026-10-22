@@ -32,28 +32,120 @@
     <mesh name="carrot_cake_hull_15" file="hulls/h15.obj" maxhullvert="128" />
     <mesh name="carrot_cake_hull_16" file="hulls/h16.obj" maxhullvert="128" />
     <mesh name="carrot_cake_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_62" file="hulls/h62.obj" maxhullvert="128" />
+    <mesh name="carrot_cake_hull_63" file="hulls/h63.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="carrot_cake">
       <geom type="mesh" mesh="carrot_cake_0_mesh" material="carrot_cake_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_00" rgba="0 0 0 0" group="3" mass="0.0427464827" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_01" rgba="0 0 0 0" group="3" mass="0.123988452" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_02" rgba="0 0 0 0" group="3" mass="0.11605225" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_03" rgba="0 0 0 0" group="3" mass="0.00985298518" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_04" rgba="0 0 0 0" group="3" mass="0.0188471728" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_05" rgba="0 0 0 0" group="3" mass="0.0348044527" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_06" rgba="0 0 0 0" group="3" mass="0.0289912752" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_07" rgba="0 0 0 0" group="3" mass="0.0302165276" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_08" rgba="0 0 0 0" group="3" mass="0.11136765" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_09" rgba="0 0 0 0" group="3" mass="0.0970850368" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_10" rgba="0 0 0 0" group="3" mass="0.00972928275" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_11" rgba="0 0 0 0" group="3" mass="0.0100853313" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_12" rgba="0 0 0 0" group="3" mass="0.0136536325" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_13" rgba="0 0 0 0" group="3" mass="0.0349688975" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_14" rgba="0 0 0 0" group="3" mass="0.0272316335" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_15" rgba="0 0 0 0" group="3" mass="0.0070556853" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_16" rgba="0 0 0 0" group="3" mass="0.0131854002" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="carrot_cake_hull_17" rgba="0 0 0 0" group="3" mass="0.0701378517" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="carrot_cake_hull_00" rgba="0 0 0 0" group="3" mass="0.0218562676" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_01" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_02" rgba="0 0 0 0" group="3" mass="0.0131558308" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_03" rgba="0 0 0 0" group="3" mass="0.0232776871" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_04" rgba="0 0 0 0" group="3" mass="0.101535793" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_05" rgba="0 0 0 0" group="3" mass="0.00865374272" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_06" rgba="0 0 0 0" group="3" mass="0.00425305151" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_07" rgba="0 0 0 0" group="3" mass="0.00326133504" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_08" rgba="0 0 0 0" group="3" mass="0.0155806549" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_09" rgba="0 0 0 0" group="3" mass="0.0043694572" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_10" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_11" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_12" rgba="0 0 0 0" group="3" mass="0.0659583523" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_13" rgba="0 0 0 0" group="3" mass="0.0111713087" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_14" rgba="0 0 0 0" group="3" mass="0.00893476527" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_15" rgba="0 0 0 0" group="3" mass="0.0639646445" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_16" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_17" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_18" rgba="0 0 0 0" group="3" mass="0.0036937551" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_19" rgba="0 0 0 0" group="3" mass="0.0353038686" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_20" rgba="0 0 0 0" group="3" mass="0.0200464837" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_21" rgba="0 0 0 0" group="3" mass="0.00193180193" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_22" rgba="0 0 0 0" group="3" mass="0.0368376808" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_23" rgba="0 0 0 0" group="3" mass="0.0112883847" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_24" rgba="0 0 0 0" group="3" mass="0.00516461987" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_25" rgba="0 0 0 0" group="3" mass="0.00818893603" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_26" rgba="0 0 0 0" group="3" mass="0.0210440546" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_27" rgba="0 0 0 0" group="3" mass="0.0131977501" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_28" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_29" rgba="0 0 0 0" group="3" mass="0.00247715295" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_30" rgba="0 0 0 0" group="3" mass="0.0175061631" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_31" rgba="0 0 0 0" group="3" mass="0.0449959274" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_32" rgba="0 0 0 0" group="3" mass="0.0262450682" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_33" rgba="0 0 0 0" group="3" mass="0.00220737862" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_34" rgba="0 0 0 0" group="3" mass="0.0447027418" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_35" rgba="0 0 0 0" group="3" mass="0.00197708094" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_36" rgba="0 0 0 0" group="3" mass="0.00688235799" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_37" rgba="0 0 0 0" group="3" mass="0.00210816484" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_38" rgba="0 0 0 0" group="3" mass="0.00300118147" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_39" rgba="0 0 0 0" group="3" mass="0.00337361706" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_40" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_41" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_42" rgba="0 0 0 0" group="3" mass="0.00564198685" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_43" rgba="0 0 0 0" group="3" mass="0.00158722815" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_44" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_45" rgba="0 0 0 0" group="3" mass="0.0057843026" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_46" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_47" rgba="0 0 0 0" group="3" mass="0.00196651657" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_48" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_49" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_50" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_51" rgba="0 0 0 0" group="3" mass="0.0179944915" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_52" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_53" rgba="0 0 0 0" group="3" mass="0.00172633708" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_54" rgba="0 0 0 0" group="3" mass="0.00198298581" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_55" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_56" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_57" rgba="0 0 0 0" group="3" mass="0.00236027611" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_58" rgba="0 0 0 0" group="3" mass="0.0468898152" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_59" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_60" rgba="0 0 0 0" group="3" mass="0.00210974891" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_61" rgba="0 0 0 0" group="3" mass="0.0015613349" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_62" rgba="0 0 0 0" group="3" mass="0.00457285469" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="carrot_cake_hull_63" rgba="0 0 0 0" group="3" mass="0.0211323675" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.1100 0.1100 0.0476" pos="0.0000 0.0000 0.0476" />
     </body>
   </worldbody>

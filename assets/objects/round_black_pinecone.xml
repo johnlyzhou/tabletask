@@ -47,43 +47,105 @@
     <mesh name="round_black_pinecone_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="round_black_pinecone_hull_31" file="hulls/h31.obj" maxhullvert="128" />
     <mesh name="round_black_pinecone_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_62" file="hulls/h62.obj" maxhullvert="128" />
+    <mesh name="round_black_pinecone_hull_63" file="hulls/h63.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="round_black_pinecone">
       <geom type="mesh" mesh="round_black_pinecone_0_mesh" material="round_black_pinecone_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_00" rgba="0 0 0 0" group="3" mass="0.000165668695" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_01" rgba="0 0 0 0" group="3" mass="0.00498114603" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_02" rgba="0 0 0 0" group="3" mass="0.000171982835" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_03" rgba="0 0 0 0" group="3" mass="0.000215178517" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_04" rgba="0 0 0 0" group="3" mass="0.000477314995" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_05" rgba="0 0 0 0" group="3" mass="0.000955860803" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_06" rgba="0 0 0 0" group="3" mass="0.00155586395" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_07" rgba="0 0 0 0" group="3" mass="0.00130737545" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_08" rgba="0 0 0 0" group="3" mass="0.00064601364" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_09" rgba="0 0 0 0" group="3" mass="4.57134659e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_10" rgba="0 0 0 0" group="3" mass="0.00309815114" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_11" rgba="0 0 0 0" group="3" mass="0.000528873917" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_12" rgba="0 0 0 0" group="3" mass="0.000882966429" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_13" rgba="0 0 0 0" group="3" mass="7.81730363e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_14" rgba="0 0 0 0" group="3" mass="0.000356629896" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_15" rgba="0 0 0 0" group="3" mass="0.000156826342" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_16" rgba="0 0 0 0" group="3" mass="0.000439539678" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_17" rgba="0 0 0 0" group="3" mass="0.0016881162" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_18" rgba="0 0 0 0" group="3" mass="4.57134659e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_19" rgba="0 0 0 0" group="3" mass="0.000343552735" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_20" rgba="0 0 0 0" group="3" mass="0.000274336695" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_21" rgba="0 0 0 0" group="3" mass="0.00137521941" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_22" rgba="0 0 0 0" group="3" mass="0.000177271914" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_23" rgba="0 0 0 0" group="3" mass="0.000354101373" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_24" rgba="0 0 0 0" group="3" mass="0.000280350927" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_25" rgba="0 0 0 0" group="3" mass="5.47561355e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_26" rgba="0 0 0 0" group="3" mass="4.57134659e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_27" rgba="0 0 0 0" group="3" mass="9.75946978e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_28" rgba="0 0 0 0" group="3" mass="0.000132910137" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_29" rgba="0 0 0 0" group="3" mass="4.57134659e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_30" rgba="0 0 0 0" group="3" mass="4.57134659e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_31" rgba="0 0 0 0" group="3" mass="4.57134659e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_black_pinecone_hull_32" rgba="0 0 0 0" group="3" mass="0.00192994364" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_00" rgba="0 0 0 0" group="3" mass="0.000152143647" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_01" rgba="0 0 0 0" group="3" mass="8.61483174e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_02" rgba="0 0 0 0" group="3" mass="0.000359814182" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_03" rgba="0 0 0 0" group="3" mass="6.06689867e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_04" rgba="0 0 0 0" group="3" mass="0.000213035674" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_05" rgba="0 0 0 0" group="3" mass="0.00018458151" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_06" rgba="0 0 0 0" group="3" mass="0.000207319234" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_07" rgba="0 0 0 0" group="3" mass="0.000432818598" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_08" rgba="0 0 0 0" group="3" mass="0.00010852587" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_09" rgba="0 0 0 0" group="3" mass="0.00134327897" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_10" rgba="0 0 0 0" group="3" mass="0.000102174086" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_11" rgba="0 0 0 0" group="3" mass="0.000555166372" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_12" rgba="0 0 0 0" group="3" mass="0.000171034011" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_13" rgba="0 0 0 0" group="3" mass="9.02363589e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_14" rgba="0 0 0 0" group="3" mass="0.000184849202" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_15" rgba="0 0 0 0" group="3" mass="5.75552736e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_16" rgba="0 0 0 0" group="3" mass="9.94181604e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_17" rgba="0 0 0 0" group="3" mass="5.95530344e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_18" rgba="0 0 0 0" group="3" mass="0.000160893094" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_19" rgba="0 0 0 0" group="3" mass="0.000291411923" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_20" rgba="0 0 0 0" group="3" mass="0.00338143066" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_21" rgba="0 0 0 0" group="3" mass="0.000112428484" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_22" rgba="0 0 0 0" group="3" mass="0.000231991238" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_23" rgba="0 0 0 0" group="3" mass="0.000202870364" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_24" rgba="0 0 0 0" group="3" mass="4.58344887e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_25" rgba="0 0 0 0" group="3" mass="0.000174302381" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_26" rgba="0 0 0 0" group="3" mass="6.28700427e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_27" rgba="0 0 0 0" group="3" mass="0.000103600839" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_28" rgba="0 0 0 0" group="3" mass="0.00082206895" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_29" rgba="0 0 0 0" group="3" mass="0.000211364743" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_30" rgba="0 0 0 0" group="3" mass="7.27646622e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_31" rgba="0 0 0 0" group="3" mass="0.000371950458" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_32" rgba="0 0 0 0" group="3" mass="0.000131053418" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_33" rgba="0 0 0 0" group="3" mass="0.00195401403" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_34" rgba="0 0 0 0" group="3" mass="0.000185751013" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_35" rgba="0 0 0 0" group="3" mass="0.000609287217" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_36" rgba="0 0 0 0" group="3" mass="0.000705637959" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_37" rgba="0 0 0 0" group="3" mass="0.000249374885" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_38" rgba="0 0 0 0" group="3" mass="5.25352095e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_39" rgba="0 0 0 0" group="3" mass="9.30770954e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_40" rgba="0 0 0 0" group="3" mass="0.000143625536" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_41" rgba="0 0 0 0" group="3" mass="0.000383187843" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_42" rgba="0 0 0 0" group="3" mass="0.000191870695" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_43" rgba="0 0 0 0" group="3" mass="0.000163697268" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_44" rgba="0 0 0 0" group="3" mass="0.00020512538" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_45" rgba="0 0 0 0" group="3" mass="4.98520407e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_46" rgba="0 0 0 0" group="3" mass="0.000100741762" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_47" rgba="0 0 0 0" group="3" mass="6.60276719e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_48" rgba="0 0 0 0" group="3" mass="0.000168422445" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_49" rgba="0 0 0 0" group="3" mass="7.09614712e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_50" rgba="0 0 0 0" group="3" mass="0.000454998118" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_51" rgba="0 0 0 0" group="3" mass="0.000285218339" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_52" rgba="0 0 0 0" group="3" mass="4.58344887e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_53" rgba="0 0 0 0" group="3" mass="0.000262241442" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_54" rgba="0 0 0 0" group="3" mass="0.000360687311" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_55" rgba="0 0 0 0" group="3" mass="0.00012869725" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_56" rgba="0 0 0 0" group="3" mass="0.000104358662" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_57" rgba="0 0 0 0" group="3" mass="0.000137097927" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_58" rgba="0 0 0 0" group="3" mass="4.58344887e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_59" rgba="0 0 0 0" group="3" mass="0.000272884452" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_60" rgba="0 0 0 0" group="3" mass="0.000171110601" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_61" rgba="0 0 0 0" group="3" mass="0.00192332212" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_62" rgba="0 0 0 0" group="3" mass="0.00252353357" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="round_black_pinecone_hull_63" rgba="0 0 0 0" group="3" mass="4.58344887e-05" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0254 0.0257 0.0238" pos="-0.0000 0.0000 0.0238" />
     </body>
   </worldbody>

@@ -47,43 +47,105 @@
     <mesh name="grey_seashell_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="grey_seashell_hull_31" file="hulls/h31.obj" maxhullvert="128" />
     <mesh name="grey_seashell_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_62" file="hulls/h62.obj" maxhullvert="128" />
+    <mesh name="grey_seashell_hull_63" file="hulls/h63.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="grey_seashell">
       <geom type="mesh" mesh="grey_seashell_0_mesh" material="grey_seashell_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_00" rgba="0 0 0 0" group="3" mass="0.0001932329" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_01" rgba="0 0 0 0" group="3" mass="4.45518253e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_02" rgba="0 0 0 0" group="3" mass="0.00288778067" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_03" rgba="0 0 0 0" group="3" mass="0.000363206244" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_04" rgba="0 0 0 0" group="3" mass="0.00272748562" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_05" rgba="0 0 0 0" group="3" mass="0.000418816422" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_06" rgba="0 0 0 0" group="3" mass="0.000153902441" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_07" rgba="0 0 0 0" group="3" mass="7.52907908e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_08" rgba="0 0 0 0" group="3" mass="0.000283009067" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_09" rgba="0 0 0 0" group="3" mass="0.00027824429" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_10" rgba="0 0 0 0" group="3" mass="0.00153695128" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_11" rgba="0 0 0 0" group="3" mass="0.000324018908" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_12" rgba="0 0 0 0" group="3" mass="0.000108383921" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_13" rgba="0 0 0 0" group="3" mass="0.000113574078" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_14" rgba="0 0 0 0" group="3" mass="3.38003446e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_15" rgba="0 0 0 0" group="3" mass="3.38003446e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_16" rgba="0 0 0 0" group="3" mass="0.00024997856" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_17" rgba="0 0 0 0" group="3" mass="3.38003446e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_18" rgba="0 0 0 0" group="3" mass="4.00185195e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_19" rgba="0 0 0 0" group="3" mass="7.21020569e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_20" rgba="0 0 0 0" group="3" mass="3.95133892e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_21" rgba="0 0 0 0" group="3" mass="3.38003446e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_22" rgba="0 0 0 0" group="3" mass="3.38003446e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_23" rgba="0 0 0 0" group="3" mass="7.81871042e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_24" rgba="0 0 0 0" group="3" mass="0.000234162975" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_25" rgba="0 0 0 0" group="3" mass="5.11814471e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_26" rgba="0 0 0 0" group="3" mass="0.000114096007" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_27" rgba="0 0 0 0" group="3" mass="0.000189435872" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_28" rgba="0 0 0 0" group="3" mass="0.000191143357" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_29" rgba="0 0 0 0" group="3" mass="0.000276321026" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_30" rgba="0 0 0 0" group="3" mass="3.38003446e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_31" rgba="0 0 0 0" group="3" mass="3.38003446e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_seashell_hull_32" rgba="0 0 0 0" group="3" mass="0.00571880882" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_seashell_hull_00" rgba="0 0 0 0" group="3" mass="5.6170445e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_01" rgba="0 0 0 0" group="3" mass="0.000340341523" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_02" rgba="0 0 0 0" group="3" mass="3.5715469e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_03" rgba="0 0 0 0" group="3" mass="0.000136973208" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_04" rgba="0 0 0 0" group="3" mass="6.22519178e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_05" rgba="0 0 0 0" group="3" mass="0.000518504157" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_06" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_07" rgba="0 0 0 0" group="3" mass="0.00149285852" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_08" rgba="0 0 0 0" group="3" mass="8.39512105e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_09" rgba="0 0 0 0" group="3" mass="9.42592131e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_10" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_11" rgba="0 0 0 0" group="3" mass="4.0040017e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_12" rgba="0 0 0 0" group="3" mass="5.66682977e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_13" rgba="0 0 0 0" group="3" mass="5.79679149e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_14" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_15" rgba="0 0 0 0" group="3" mass="4.6177598e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_16" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_17" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_18" rgba="0 0 0 0" group="3" mass="9.21070131e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_19" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_20" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_21" rgba="0 0 0 0" group="3" mass="6.01991483e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_22" rgba="0 0 0 0" group="3" mass="0.000168998178" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_23" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_24" rgba="0 0 0 0" group="3" mass="0.000215331967" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_25" rgba="0 0 0 0" group="3" mass="0.000284089623" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_26" rgba="0 0 0 0" group="3" mass="0.000205898041" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_27" rgba="0 0 0 0" group="3" mass="0.000422619884" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_28" rgba="0 0 0 0" group="3" mass="0.00430237992" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_29" rgba="0 0 0 0" group="3" mass="0.000129621425" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_30" rgba="0 0 0 0" group="3" mass="0.000120388329" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_31" rgba="0 0 0 0" group="3" mass="0.000397469935" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_32" rgba="0 0 0 0" group="3" mass="0.00177492768" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_33" rgba="0 0 0 0" group="3" mass="0.000153866145" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_34" rgba="0 0 0 0" group="3" mass="0.000121275587" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_35" rgba="0 0 0 0" group="3" mass="0.000410461247" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_36" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_37" rgba="0 0 0 0" group="3" mass="0.000105373323" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_38" rgba="0 0 0 0" group="3" mass="3.65896242e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_39" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_40" rgba="0 0 0 0" group="3" mass="4.36624002e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_41" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_42" rgba="0 0 0 0" group="3" mass="0.000133680092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_43" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_44" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_45" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_46" rgba="0 0 0 0" group="3" mass="0.000307253727" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_47" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_48" rgba="0 0 0 0" group="3" mass="0.000121242181" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_49" rgba="0 0 0 0" group="3" mass="0.000132594915" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_50" rgba="0 0 0 0" group="3" mass="0.000211952184" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_51" rgba="0 0 0 0" group="3" mass="4.51589656e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_52" rgba="0 0 0 0" group="3" mass="0.000152785743" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_53" rgba="0 0 0 0" group="3" mass="0.0003968649" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_54" rgba="0 0 0 0" group="3" mass="7.90685008e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_55" rgba="0 0 0 0" group="3" mass="9.75043258e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_56" rgba="0 0 0 0" group="3" mass="0.00119955602" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_57" rgba="0 0 0 0" group="3" mass="0.000950701198" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_58" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_59" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_60" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_61" rgba="0 0 0 0" group="3" mass="4.4545069e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_62" rgba="0 0 0 0" group="3" mass="0.000422955122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="grey_seashell_hull_63" rgba="0 0 0 0" group="3" mass="3.35262151e-05" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0148 0.0216 0.0118" pos="0.0000 0.0000 0.0118" />
     </body>
   </worldbody>

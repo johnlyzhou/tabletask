@@ -38,34 +38,106 @@
     <mesh name="beige_toy_car_hull_21" file="hulls/h21.obj" maxhullvert="128" />
     <mesh name="beige_toy_car_hull_22" file="hulls/h22.obj" maxhullvert="128" />
     <mesh name="beige_toy_car_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="beige_toy_car_hull_59" file="hulls/h59.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="beige_toy_car">
       <geom type="mesh" mesh="beige_toy_car_0_mesh" material="beige_toy_car_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_00" rgba="0 0 0 0" group="3" mass="0.0133552538" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_01" rgba="0 0 0 0" group="3" mass="0.000277392188" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_02" rgba="0 0 0 0" group="3" mass="0.0154107721" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_03" rgba="0 0 0 0" group="3" mass="0.00796729139" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_04" rgba="0 0 0 0" group="3" mass="0.00312184574" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_05" rgba="0 0 0 0" group="3" mass="0.00813846216" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_06" rgba="0 0 0 0" group="3" mass="0.00316706831" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_07" rgba="0 0 0 0" group="3" mass="0.00947370991" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_08" rgba="0 0 0 0" group="3" mass="0.00471851075" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_09" rgba="0 0 0 0" group="3" mass="0.000428297841" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_10" rgba="0 0 0 0" group="3" mass="0.00121248863" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_11" rgba="0 0 0 0" group="3" mass="0.00301694203" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_12" rgba="0 0 0 0" group="3" mass="0.0051404792" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_13" rgba="0 0 0 0" group="3" mass="0.00549640831" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_14" rgba="0 0 0 0" group="3" mass="0.00766056714" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_15" rgba="0 0 0 0" group="3" mass="0.00274656932" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_16" rgba="0 0 0 0" group="3" mass="0.00339939317" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_17" rgba="0 0 0 0" group="3" mass="0.00382976098" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_18" rgba="0 0 0 0" group="3" mass="0.000891001706" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_19" rgba="0 0 0 0" group="3" mass="0.00292233279" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_20" rgba="0 0 0 0" group="3" mass="0.00212898781" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_21" rgba="0 0 0 0" group="3" mass="0.00195266621" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_22" rgba="0 0 0 0" group="3" mass="0.00332199319" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_toy_car_hull_23" rgba="0 0 0 0" group="3" mass="0.0152218052" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="beige_toy_car_hull_00" rgba="0 0 0 0" group="3" mass="0.000315783732" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_01" rgba="0 0 0 0" group="3" mass="0.00418376467" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_02" rgba="0 0 0 0" group="3" mass="0.00348789149" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_03" rgba="0 0 0 0" group="3" mass="0.00187254735" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_04" rgba="0 0 0 0" group="3" mass="0.0034925262" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_05" rgba="0 0 0 0" group="3" mass="0.00926428244" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_06" rgba="0 0 0 0" group="3" mass="0.0121637018" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_07" rgba="0 0 0 0" group="3" mass="0.0122258591" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_08" rgba="0 0 0 0" group="3" mass="0.00236632701" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_09" rgba="0 0 0 0" group="3" mass="0.000696963539" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_10" rgba="0 0 0 0" group="3" mass="0.013665389" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_11" rgba="0 0 0 0" group="3" mass="0.000247229137" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_12" rgba="0 0 0 0" group="3" mass="0.000247229137" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_13" rgba="0 0 0 0" group="3" mass="0.00167988202" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_14" rgba="0 0 0 0" group="3" mass="0.000576515159" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_15" rgba="0 0 0 0" group="3" mass="0.00158241661" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_16" rgba="0 0 0 0" group="3" mass="0.00109347492" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_17" rgba="0 0 0 0" group="3" mass="0.000278737923" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_18" rgba="0 0 0 0" group="3" mass="0.000324671263" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_19" rgba="0 0 0 0" group="3" mass="0.000247229137" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_20" rgba="0 0 0 0" group="3" mass="0.00248009052" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_21" rgba="0 0 0 0" group="3" mass="0.00364353545" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_22" rgba="0 0 0 0" group="3" mass="0.0030915938" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_23" rgba="0 0 0 0" group="3" mass="0.00281771029" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_24" rgba="0 0 0 0" group="3" mass="0.000547500492" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_25" rgba="0 0 0 0" group="3" mass="0.00113757118" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_26" rgba="0 0 0 0" group="3" mass="0.000545452777" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_27" rgba="0 0 0 0" group="3" mass="0.000727239008" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_28" rgba="0 0 0 0" group="3" mass="0.00316047606" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_29" rgba="0 0 0 0" group="3" mass="0.00144459307" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_30" rgba="0 0 0 0" group="3" mass="0.00389944887" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_31" rgba="0 0 0 0" group="3" mass="0.000348119707" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_32" rgba="0 0 0 0" group="3" mass="0.000437020213" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_33" rgba="0 0 0 0" group="3" mass="0.00278695383" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_34" rgba="0 0 0 0" group="3" mass="0.00200547685" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_35" rgba="0 0 0 0" group="3" mass="0.00137497587" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_36" rgba="0 0 0 0" group="3" mass="0.00090399095" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_37" rgba="0 0 0 0" group="3" mass="0.00062689719" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_38" rgba="0 0 0 0" group="3" mass="0.00199280392" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_39" rgba="0 0 0 0" group="3" mass="0.000307721087" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_40" rgba="0 0 0 0" group="3" mass="0.00271852195" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_41" rgba="0 0 0 0" group="3" mass="0.00175471854" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_42" rgba="0 0 0 0" group="3" mass="0.00026279514" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_43" rgba="0 0 0 0" group="3" mass="0.00110619546" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_44" rgba="0 0 0 0" group="3" mass="0.000253364156" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_45" rgba="0 0 0 0" group="3" mass="0.000247229137" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_46" rgba="0 0 0 0" group="3" mass="0.000302024847" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_47" rgba="0 0 0 0" group="3" mass="0.00143143898" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_48" rgba="0 0 0 0" group="3" mass="0.000903325568" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_49" rgba="0 0 0 0" group="3" mass="0.000247229137" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_50" rgba="0 0 0 0" group="3" mass="0.000247229137" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_51" rgba="0 0 0 0" group="3" mass="0.00078567015" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_52" rgba="0 0 0 0" group="3" mass="0.000425118025" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_53" rgba="0 0 0 0" group="3" mass="0.000247229137" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_54" rgba="0 0 0 0" group="3" mass="0.000247229137" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_55" rgba="0 0 0 0" group="3" mass="0.00304713305" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_56" rgba="0 0 0 0" group="3" mass="0.00064720377" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_57" rgba="0 0 0 0" group="3" mass="0.00115952408" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_58" rgba="0 0 0 0" group="3" mass="0.00442799859" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="beige_toy_car_hull_59" rgba="0 0 0 0" group="3" mass="0.000247229137" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0453 0.0302 0.0356" pos="0.0000 0.0000 0.0356" />
     </body>
   </worldbody>

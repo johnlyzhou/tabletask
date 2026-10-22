@@ -39,35 +39,79 @@
     <mesh name="brown_horse_figurine_hull_22" file="hulls/h22.obj" maxhullvert="128" />
     <mesh name="brown_horse_figurine_hull_23" file="hulls/h23.obj" maxhullvert="128" />
     <mesh name="brown_horse_figurine_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="brown_horse_figurine_hull_46" file="hulls/h46.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="brown_horse_figurine">
       <geom type="mesh" mesh="brown_horse_figurine_0_mesh" material="brown_horse_figurine_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_00" rgba="0 0 0 0" group="3" mass="0.00796415501" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_01" rgba="0 0 0 0" group="3" mass="0.0252992765" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_02" rgba="0 0 0 0" group="3" mass="0.0568881496" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_03" rgba="0 0 0 0" group="3" mass="0.00329942295" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_04" rgba="0 0 0 0" group="3" mass="0.0035288318" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_05" rgba="0 0 0 0" group="3" mass="0.00810924868" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_06" rgba="0 0 0 0" group="3" mass="0.0234057255" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_07" rgba="0 0 0 0" group="3" mass="0.00824373732" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_08" rgba="0 0 0 0" group="3" mass="0.00938893518" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_09" rgba="0 0 0 0" group="3" mass="0.00270287222" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_10" rgba="0 0 0 0" group="3" mass="0.00371569444" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_11" rgba="0 0 0 0" group="3" mass="0.00522351571" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_12" rgba="0 0 0 0" group="3" mass="0.00367311741" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_13" rgba="0 0 0 0" group="3" mass="0.00318651579" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_14" rgba="0 0 0 0" group="3" mass="0.0400213297" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_15" rgba="0 0 0 0" group="3" mass="0.0735036339" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_16" rgba="0 0 0 0" group="3" mass="0.0422021078" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_17" rgba="0 0 0 0" group="3" mass="0.00721080711" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_18" rgba="0 0 0 0" group="3" mass="0.00546722494" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_19" rgba="0 0 0 0" group="3" mass="0.00158386936" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_20" rgba="0 0 0 0" group="3" mass="0.0554963029" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_21" rgba="0 0 0 0" group="3" mass="0.00175489478" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_22" rgba="0 0 0 0" group="3" mass="0.0289789747" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_23" rgba="0 0 0 0" group="3" mass="0.0232851113" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_horse_figurine_hull_24" rgba="0 0 0 0" group="3" mass="0.0458665453" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_00" rgba="0 0 0 0" group="3" mass="0.00760579213" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_01" rgba="0 0 0 0" group="3" mass="0.020674185" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_02" rgba="0 0 0 0" group="3" mass="0.00616547402" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_03" rgba="0 0 0 0" group="3" mass="0.00217749066" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_04" rgba="0 0 0 0" group="3" mass="0.0011653206" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_05" rgba="0 0 0 0" group="3" mass="0.00225336667" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_06" rgba="0 0 0 0" group="3" mass="0.00222668486" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_07" rgba="0 0 0 0" group="3" mass="0.00352072981" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_08" rgba="0 0 0 0" group="3" mass="0.00367068472" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_09" rgba="0 0 0 0" group="3" mass="0.00292997134" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_10" rgba="0 0 0 0" group="3" mass="0.00364780439" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_11" rgba="0 0 0 0" group="3" mass="0.00264725516" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_12" rgba="0 0 0 0" group="3" mass="0.0392503764" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_13" rgba="0 0 0 0" group="3" mass="0.0239733455" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_14" rgba="0 0 0 0" group="3" mass="0.00511617511" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_15" rgba="0 0 0 0" group="3" mass="0.00450585626" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_16" rgba="0 0 0 0" group="3" mass="0.00409900433" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_17" rgba="0 0 0 0" group="3" mass="0.0483790777" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_18" rgba="0 0 0 0" group="3" mass="0.00578200315" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_19" rgba="0 0 0 0" group="3" mass="0.00632081393" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_20" rgba="0 0 0 0" group="3" mass="0.00159847575" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_21" rgba="0 0 0 0" group="3" mass="0.00102574025" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_22" rgba="0 0 0 0" group="3" mass="0.00137736793" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_23" rgba="0 0 0 0" group="3" mass="0.00230662421" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_24" rgba="0 0 0 0" group="3" mass="0.00467861124" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_25" rgba="0 0 0 0" group="3" mass="0.016522971" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_26" rgba="0 0 0 0" group="3" mass="0.0267334041" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_27" rgba="0 0 0 0" group="3" mass="0.028415506" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_28" rgba="0 0 0 0" group="3" mass="0.00196320163" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_29" rgba="0 0 0 0" group="3" mass="0.00203242621" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_30" rgba="0 0 0 0" group="3" mass="0.0123350479" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_31" rgba="0 0 0 0" group="3" mass="0.00377954456" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_32" rgba="0 0 0 0" group="3" mass="0.000977502687" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_33" rgba="0 0 0 0" group="3" mass="0.0164599448" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_34" rgba="0 0 0 0" group="3" mass="0.0367578587" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_35" rgba="0 0 0 0" group="3" mass="0.00246153705" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_36" rgba="0 0 0 0" group="3" mass="0.00186805225" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_37" rgba="0 0 0 0" group="3" mass="0.000977502687" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_38" rgba="0 0 0 0" group="3" mass="0.000977502687" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_39" rgba="0 0 0 0" group="3" mass="0.0349012972" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_40" rgba="0 0 0 0" group="3" mass="0.0109075706" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_41" rgba="0 0 0 0" group="3" mass="0.00665197889" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_42" rgba="0 0 0 0" group="3" mass="0.0344677543" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_43" rgba="0 0 0 0" group="3" mass="0.0102449821" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_44" rgba="0 0 0 0" group="3" mass="0.00850109083" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_45" rgba="0 0 0 0" group="3" mass="0.0202848862" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="brown_horse_figurine_hull_46" rgba="0 0 0 0" group="3" mass="0.00468020647" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.1155 0.0288 0.0766" pos="0.0000 0.0000 0.0766" />
     </body>
   </worldbody>

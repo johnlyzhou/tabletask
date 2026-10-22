@@ -36,32 +36,106 @@
     <mesh name="toy_giraffe_hull_19" file="hulls/h19.obj" maxhullvert="128" />
     <mesh name="toy_giraffe_hull_20" file="hulls/h20.obj" maxhullvert="128" />
     <mesh name="toy_giraffe_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="toy_giraffe_hull_58" file="hulls/h58.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="toy_giraffe">
       <geom type="mesh" mesh="toy_giraffe_0_mesh" material="toy_giraffe_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_00" rgba="0 0 0 0" group="3" mass="0.0296766754" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_01" rgba="0 0 0 0" group="3" mass="0.00315042018" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_02" rgba="0 0 0 0" group="3" mass="0.00263005275" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_03" rgba="0 0 0 0" group="3" mass="0.0432823646" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_04" rgba="0 0 0 0" group="3" mass="0.0151220081" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_05" rgba="0 0 0 0" group="3" mass="0.00790369436" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_06" rgba="0 0 0 0" group="3" mass="0.00761498703" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_07" rgba="0 0 0 0" group="3" mass="0.00891450734" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_08" rgba="0 0 0 0" group="3" mass="0.0126471849" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_09" rgba="0 0 0 0" group="3" mass="0.0081605953" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_10" rgba="0 0 0 0" group="3" mass="0.00341634706" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_11" rgba="0 0 0 0" group="3" mass="0.0809672128" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_12" rgba="0 0 0 0" group="3" mass="0.0302021545" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_13" rgba="0 0 0 0" group="3" mass="0.00662191938" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_14" rgba="0 0 0 0" group="3" mass="0.00424031745" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_15" rgba="0 0 0 0" group="3" mass="0.00718139578" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_16" rgba="0 0 0 0" group="3" mass="0.00794392952" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_17" rgba="0 0 0 0" group="3" mass="0.0234525417" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_18" rgba="0 0 0 0" group="3" mass="0.0138276919" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_19" rgba="0 0 0 0" group="3" mass="0.00215014674" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_20" rgba="0 0 0 0" group="3" mass="0.00944938951" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_giraffe_hull_21" rgba="0 0 0 0" group="3" mass="0.0224444637" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_giraffe_hull_00" rgba="0 0 0 0" group="3" mass="0.0102503035" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_01" rgba="0 0 0 0" group="3" mass="0.00530538737" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_02" rgba="0 0 0 0" group="3" mass="0.00423743385" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_03" rgba="0 0 0 0" group="3" mass="0.00875568531" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_04" rgba="0 0 0 0" group="3" mass="0.0072622811" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_05" rgba="0 0 0 0" group="3" mass="0.000996100124" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_06" rgba="0 0 0 0" group="3" mass="0.0017759849" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_07" rgba="0 0 0 0" group="3" mass="0.00294780204" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_08" rgba="0 0 0 0" group="3" mass="0.00617419491" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_09" rgba="0 0 0 0" group="3" mass="0.0024385091" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_10" rgba="0 0 0 0" group="3" mass="0.0428751684" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_11" rgba="0 0 0 0" group="3" mass="0.00340521501" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_12" rgba="0 0 0 0" group="3" mass="0.00938000062" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_13" rgba="0 0 0 0" group="3" mass="0.00424197244" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_14" rgba="0 0 0 0" group="3" mass="0.00627044336" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_15" rgba="0 0 0 0" group="3" mass="0.000775166519" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_16" rgba="0 0 0 0" group="3" mass="0.00467978812" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_17" rgba="0 0 0 0" group="3" mass="0.000695629697" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_18" rgba="0 0 0 0" group="3" mass="0.000695629697" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_19" rgba="0 0 0 0" group="3" mass="0.00445538714" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_20" rgba="0 0 0 0" group="3" mass="0.000709231094" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_21" rgba="0 0 0 0" group="3" mass="0.0277218236" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_22" rgba="0 0 0 0" group="3" mass="0.00675915842" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_23" rgba="0 0 0 0" group="3" mass="0.00492421602" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_24" rgba="0 0 0 0" group="3" mass="0.00172524363" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_25" rgba="0 0 0 0" group="3" mass="0.00267832983" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_26" rgba="0 0 0 0" group="3" mass="0.00407783267" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_27" rgba="0 0 0 0" group="3" mass="0.00109815659" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_28" rgba="0 0 0 0" group="3" mass="0.00341554289" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_29" rgba="0 0 0 0" group="3" mass="0.00337955161" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_30" rgba="0 0 0 0" group="3" mass="0.000695629697" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_31" rgba="0 0 0 0" group="3" mass="0.000695629697" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_32" rgba="0 0 0 0" group="3" mass="0.000767803621" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_33" rgba="0 0 0 0" group="3" mass="0.000695629697" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_34" rgba="0 0 0 0" group="3" mass="0.00122227239" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_35" rgba="0 0 0 0" group="3" mass="0.00566891258" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_36" rgba="0 0 0 0" group="3" mass="0.000695629697" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_37" rgba="0 0 0 0" group="3" mass="0.00334025032" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_38" rgba="0 0 0 0" group="3" mass="0.0596412885" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_39" rgba="0 0 0 0" group="3" mass="0.00706968134" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_40" rgba="0 0 0 0" group="3" mass="0.00106059188" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_41" rgba="0 0 0 0" group="3" mass="0.00232695719" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_42" rgba="0 0 0 0" group="3" mass="0.000823315495" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_43" rgba="0 0 0 0" group="3" mass="0.0024470924" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_44" rgba="0 0 0 0" group="3" mass="0.0152504729" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_45" rgba="0 0 0 0" group="3" mass="0.00703794091" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_46" rgba="0 0 0 0" group="3" mass="0.00370672029" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_47" rgba="0 0 0 0" group="3" mass="0.00293623569" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_48" rgba="0 0 0 0" group="3" mass="0.000769430483" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_49" rgba="0 0 0 0" group="3" mass="0.00764914641" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_50" rgba="0 0 0 0" group="3" mass="0.00948851292" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_51" rgba="0 0 0 0" group="3" mass="0.00353176091" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_52" rgba="0 0 0 0" group="3" mass="0.00544086639" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_53" rgba="0 0 0 0" group="3" mass="0.00725876884" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_54" rgba="0 0 0 0" group="3" mass="0.0052693079" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_55" rgba="0 0 0 0" group="3" mass="0.00327212387" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_56" rgba="0 0 0 0" group="3" mass="0.00322434663" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_57" rgba="0 0 0 0" group="3" mass="0.00421088211" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_giraffe_hull_58" rgba="0 0 0 0" group="3" mass="0.000695629697" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0939 0.0278 0.0960" pos="0.0000 0.0000 0.0960" />
     </body>
   </worldbody>

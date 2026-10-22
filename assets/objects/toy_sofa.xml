@@ -36,32 +36,66 @@
     <mesh name="toy_sofa_hull_19" file="hulls/h19.obj" maxhullvert="128" />
     <mesh name="toy_sofa_hull_20" file="hulls/h20.obj" maxhullvert="128" />
     <mesh name="toy_sofa_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="toy_sofa_hull_38" file="hulls/h38.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="toy_sofa">
       <geom type="mesh" mesh="toy_sofa_0_mesh" material="toy_sofa_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_00" rgba="0 0 0 0" group="3" mass="0.0580118892" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_01" rgba="0 0 0 0" group="3" mass="0.0367138208" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_02" rgba="0 0 0 0" group="3" mass="0.0195766779" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_03" rgba="0 0 0 0" group="3" mass="0.0409039273" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_04" rgba="0 0 0 0" group="3" mass="0.00436119781" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_05" rgba="0 0 0 0" group="3" mass="0.00880170252" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_06" rgba="0 0 0 0" group="3" mass="0.0181064011" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_07" rgba="0 0 0 0" group="3" mass="0.0292453455" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_08" rgba="0 0 0 0" group="3" mass="0.0232557975" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_09" rgba="0 0 0 0" group="3" mass="0.0392883388" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_10" rgba="0 0 0 0" group="3" mass="0.0103079412" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_11" rgba="0 0 0 0" group="3" mass="0.0062795257" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_12" rgba="0 0 0 0" group="3" mass="0.00872019857" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_13" rgba="0 0 0 0" group="3" mass="0.019167469" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_14" rgba="0 0 0 0" group="3" mass="0.00199293164" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_15" rgba="0 0 0 0" group="3" mass="0.0102282476" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_16" rgba="0 0 0 0" group="3" mass="0.00946165721" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_17" rgba="0 0 0 0" group="3" mass="0.0105562928" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_18" rgba="0 0 0 0" group="3" mass="0.00944161845" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_19" rgba="0 0 0 0" group="3" mass="0.00493285548" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_20" rgba="0 0 0 0" group="3" mass="0.00225559206" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_sofa_hull_21" rgba="0 0 0 0" group="3" mass="0.0753905719" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_sofa_hull_00" rgba="0 0 0 0" group="3" mass="0.0238369411" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_01" rgba="0 0 0 0" group="3" mass="0.043002672" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_02" rgba="0 0 0 0" group="3" mass="0.0232285501" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_03" rgba="0 0 0 0" group="3" mass="0.044301913" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_04" rgba="0 0 0 0" group="3" mass="0.0165765589" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_05" rgba="0 0 0 0" group="3" mass="0.044652816" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_06" rgba="0 0 0 0" group="3" mass="0.0163288974" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_07" rgba="0 0 0 0" group="3" mass="0.00905063208" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_08" rgba="0 0 0 0" group="3" mass="0.0111993934" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_09" rgba="0 0 0 0" group="3" mass="0.0111254163" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_10" rgba="0 0 0 0" group="3" mass="0.0196940564" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_11" rgba="0 0 0 0" group="3" mass="0.00329858051" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_12" rgba="0 0 0 0" group="3" mass="0.0119243191" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_13" rgba="0 0 0 0" group="3" mass="0.0119129161" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_14" rgba="0 0 0 0" group="3" mass="0.00805679449" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_15" rgba="0 0 0 0" group="3" mass="0.00474692713" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_16" rgba="0 0 0 0" group="3" mass="0.00694804345" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_17" rgba="0 0 0 0" group="3" mass="0.00217945351" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_18" rgba="0 0 0 0" group="3" mass="0.00573687521" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_19" rgba="0 0 0 0" group="3" mass="0.00519485442" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_20" rgba="0 0 0 0" group="3" mass="0.00113909668" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_21" rgba="0 0 0 0" group="3" mass="0.0209090526" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_22" rgba="0 0 0 0" group="3" mass="0.00462205982" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_23" rgba="0 0 0 0" group="3" mass="0.00740338483" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_24" rgba="0 0 0 0" group="3" mass="0.017239387" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_25" rgba="0 0 0 0" group="3" mass="0.00718799308" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_26" rgba="0 0 0 0" group="3" mass="0.00994746946" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_27" rgba="0 0 0 0" group="3" mass="0.00777700702" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_28" rgba="0 0 0 0" group="3" mass="0.0122595345" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_29" rgba="0 0 0 0" group="3" mass="0.0046759777" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_30" rgba="0 0 0 0" group="3" mass="0.00366059953" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_31" rgba="0 0 0 0" group="3" mass="0.0112514379" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_32" rgba="0 0 0 0" group="3" mass="0.00140343316" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_33" rgba="0 0 0 0" group="3" mass="0.00526587582" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_34" rgba="0 0 0 0" group="3" mass="0.00495210494" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_35" rgba="0 0 0 0" group="3" mass="0.000891858977" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_36" rgba="0 0 0 0" group="3" mass="0.00163339855" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_37" rgba="0 0 0 0" group="3" mass="0.000891858977" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_sofa_hull_38" rgba="0 0 0 0" group="3" mass="0.000891858977" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.1048 0.0434 0.0511" pos="0.0000 0.0000 0.0511" />
     </body>
   </worldbody>

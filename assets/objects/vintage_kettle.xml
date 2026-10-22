@@ -47,43 +47,105 @@
     <mesh name="vintage_kettle_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="vintage_kettle_hull_31" file="hulls/h31.obj" maxhullvert="128" />
     <mesh name="vintage_kettle_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_61" file="hulls/h61.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_62" file="hulls/h62.obj" maxhullvert="128" />
+    <mesh name="vintage_kettle_hull_63" file="hulls/h63.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="vintage_kettle">
       <geom type="mesh" mesh="vintage_kettle_0_mesh" material="vintage_kettle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_00" rgba="0 0 0 0" group="3" mass="0.167852751" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_01" rgba="0 0 0 0" group="3" mass="0.0172420819" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_02" rgba="0 0 0 0" group="3" mass="0.0262401307" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_03" rgba="0 0 0 0" group="3" mass="0.0097325814" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_04" rgba="0 0 0 0" group="3" mass="0.0452765214" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_05" rgba="0 0 0 0" group="3" mass="0.0178983724" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_06" rgba="0 0 0 0" group="3" mass="0.018687539" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_07" rgba="0 0 0 0" group="3" mass="0.0107248632" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_08" rgba="0 0 0 0" group="3" mass="0.0358106303" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_09" rgba="0 0 0 0" group="3" mass="0.0384608748" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_10" rgba="0 0 0 0" group="3" mass="0.0442884453" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_11" rgba="0 0 0 0" group="3" mass="0.0199262796" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_12" rgba="0 0 0 0" group="3" mass="0.0214623522" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_13" rgba="0 0 0 0" group="3" mass="0.0396855772" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_14" rgba="0 0 0 0" group="3" mass="0.0307481638" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_15" rgba="0 0 0 0" group="3" mass="0.0421887512" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_16" rgba="0 0 0 0" group="3" mass="0.0124721611" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_17" rgba="0 0 0 0" group="3" mass="0.0472657792" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_18" rgba="0 0 0 0" group="3" mass="0.00971511723" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_19" rgba="0 0 0 0" group="3" mass="0.0138286683" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_20" rgba="0 0 0 0" group="3" mass="0.0250911834" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_21" rgba="0 0 0 0" group="3" mass="0.0213647776" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_22" rgba="0 0 0 0" group="3" mass="0.00774049396" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_23" rgba="0 0 0 0" group="3" mass="0.0137226343" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_24" rgba="0 0 0 0" group="3" mass="0.0137377103" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_25" rgba="0 0 0 0" group="3" mass="0.0161483363" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_26" rgba="0 0 0 0" group="3" mass="0.00459725015" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_27" rgba="0 0 0 0" group="3" mass="0.00585507194" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_28" rgba="0 0 0 0" group="3" mass="0.00773982956" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_29" rgba="0 0 0 0" group="3" mass="0.0170870283" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_30" rgba="0 0 0 0" group="3" mass="0.0113723565" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_31" rgba="0 0 0 0" group="3" mass="0.0125789776" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="vintage_kettle_hull_32" rgba="0 0 0 0" group="3" mass="0.0734567092" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="vintage_kettle_hull_00" rgba="0 0 0 0" group="3" mass="0.0227497658" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_01" rgba="0 0 0 0" group="3" mass="0.125794524" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_02" rgba="0 0 0 0" group="3" mass="0.00288897102" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_03" rgba="0 0 0 0" group="3" mass="0.00464764514" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_04" rgba="0 0 0 0" group="3" mass="0.00366005202" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_05" rgba="0 0 0 0" group="3" mass="0.0148095563" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_06" rgba="0 0 0 0" group="3" mass="0.019357542" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_07" rgba="0 0 0 0" group="3" mass="0.00179626832" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_08" rgba="0 0 0 0" group="3" mass="0.0249970336" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_09" rgba="0 0 0 0" group="3" mass="0.0213629062" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_10" rgba="0 0 0 0" group="3" mass="0.0272476445" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_11" rgba="0 0 0 0" group="3" mass="0.0276887033" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_12" rgba="0 0 0 0" group="3" mass="0.00522673984" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_13" rgba="0 0 0 0" group="3" mass="0.0106937221" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_14" rgba="0 0 0 0" group="3" mass="0.0187750257" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_15" rgba="0 0 0 0" group="3" mass="0.00179626832" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_16" rgba="0 0 0 0" group="3" mass="0.0427836836" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_17" rgba="0 0 0 0" group="3" mass="0.00711107485" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_18" rgba="0 0 0 0" group="3" mass="0.0166296286" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_19" rgba="0 0 0 0" group="3" mass="0.0129593489" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_20" rgba="0 0 0 0" group="3" mass="0.0223245748" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_21" rgba="0 0 0 0" group="3" mass="0.013105187" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_22" rgba="0 0 0 0" group="3" mass="0.00723953893" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_23" rgba="0 0 0 0" group="3" mass="0.0163344104" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_24" rgba="0 0 0 0" group="3" mass="0.00556950519" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_25" rgba="0 0 0 0" group="3" mass="0.0124641643" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_26" rgba="0 0 0 0" group="3" mass="0.0164983319" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_27" rgba="0 0 0 0" group="3" mass="0.00179626832" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_28" rgba="0 0 0 0" group="3" mass="0.00612244162" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_29" rgba="0 0 0 0" group="3" mass="0.00504568004" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_30" rgba="0 0 0 0" group="3" mass="0.0130396026" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_31" rgba="0 0 0 0" group="3" mass="0.00365473072" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_32" rgba="0 0 0 0" group="3" mass="0.0165563064" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_33" rgba="0 0 0 0" group="3" mass="0.00228640942" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_34" rgba="0 0 0 0" group="3" mass="0.0301985917" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_35" rgba="0 0 0 0" group="3" mass="0.021076913" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_36" rgba="0 0 0 0" group="3" mass="0.00732983508" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_37" rgba="0 0 0 0" group="3" mass="0.0121356912" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_38" rgba="0 0 0 0" group="3" mass="0.0128556628" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_39" rgba="0 0 0 0" group="3" mass="0.00649934432" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_40" rgba="0 0 0 0" group="3" mass="0.00540376876" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_41" rgba="0 0 0 0" group="3" mass="0.0127168543" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_42" rgba="0 0 0 0" group="3" mass="0.0240467261" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_43" rgba="0 0 0 0" group="3" mass="0.00531787209" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_44" rgba="0 0 0 0" group="3" mass="0.0164454505" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_45" rgba="0 0 0 0" group="3" mass="0.017847334" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_46" rgba="0 0 0 0" group="3" mass="0.00179626832" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_47" rgba="0 0 0 0" group="3" mass="0.00574606203" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_48" rgba="0 0 0 0" group="3" mass="0.0167089694" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_49" rgba="0 0 0 0" group="3" mass="0.00470557356" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_50" rgba="0 0 0 0" group="3" mass="0.00195323902" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_51" rgba="0 0 0 0" group="3" mass="0.0123372828" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_52" rgba="0 0 0 0" group="3" mass="0.0244689557" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_53" rgba="0 0 0 0" group="3" mass="0.00633330359" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_54" rgba="0 0 0 0" group="3" mass="0.00814075124" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_55" rgba="0 0 0 0" group="3" mass="0.00203629996" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_56" rgba="0 0 0 0" group="3" mass="0.00722344911" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_57" rgba="0 0 0 0" group="3" mass="0.00284102384" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_58" rgba="0 0 0 0" group="3" mass="0.00658542937" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_59" rgba="0 0 0 0" group="3" mass="0.0264718679" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_60" rgba="0 0 0 0" group="3" mass="0.00196043644" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_61" rgba="0 0 0 0" group="3" mass="0.0265697999" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_62" rgba="0 0 0 0" group="3" mass="0.00480147233" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="vintage_kettle_hull_63" rgba="0 0 0 0" group="3" mass="0.0124325167" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.1250 0.0968 0.1187" pos="0.0000 0.0000 0.1187" />
     </body>
   </worldbody>

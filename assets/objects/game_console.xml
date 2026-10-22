@@ -32,28 +32,58 @@
     <mesh name="game_console_hull_15" file="hulls/h15.obj" maxhullvert="128" />
     <mesh name="game_console_hull_16" file="hulls/h16.obj" maxhullvert="128" />
     <mesh name="game_console_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="game_console_hull_32" file="hulls/h32.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="game_console">
       <geom type="mesh" mesh="game_console_0_mesh" material="game_console_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_00" rgba="0 0 0 0" group="3" mass="0.0287135563" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_01" rgba="0 0 0 0" group="3" mass="0.0674739944" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_02" rgba="0 0 0 0" group="3" mass="0.0776063505" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_03" rgba="0 0 0 0" group="3" mass="0.0379079214" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_04" rgba="0 0 0 0" group="3" mass="0.00198798694" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_05" rgba="0 0 0 0" group="3" mass="0.0235157776" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_06" rgba="0 0 0 0" group="3" mass="0.0216538896" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_07" rgba="0 0 0 0" group="3" mass="0.0293665374" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_08" rgba="0 0 0 0" group="3" mass="0.131265076" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_09" rgba="0 0 0 0" group="3" mass="0.117266381" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_10" rgba="0 0 0 0" group="3" mass="0.339480579" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_11" rgba="0 0 0 0" group="3" mass="0.00198798694" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_12" rgba="0 0 0 0" group="3" mass="0.00198798694" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_13" rgba="0 0 0 0" group="3" mass="0.00198798694" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_14" rgba="0 0 0 0" group="3" mass="0.00300153715" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_15" rgba="0 0 0 0" group="3" mass="0.00198798694" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_16" rgba="0 0 0 0" group="3" mass="0.00198798694" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="game_console_hull_17" rgba="0 0 0 0" group="3" mass="0.110820478" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="game_console_hull_00" rgba="0 0 0 0" group="3" mass="0.0425396895" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_01" rgba="0 0 0 0" group="3" mass="0.0865216745" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_02" rgba="0 0 0 0" group="3" mass="0.075538854" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_03" rgba="0 0 0 0" group="3" mass="0.024119722" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_04" rgba="0 0 0 0" group="3" mass="0.00212648404" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_05" rgba="0 0 0 0" group="3" mass="0.0232186729" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_06" rgba="0 0 0 0" group="3" mass="0.0263235118" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_07" rgba="0 0 0 0" group="3" mass="0.131365529" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_08" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_09" rgba="0 0 0 0" group="3" mass="0.00812229904" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_10" rgba="0 0 0 0" group="3" mass="0.0596517065" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_11" rgba="0 0 0 0" group="3" mass="0.0890871673" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_12" rgba="0 0 0 0" group="3" mass="0.012145695" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_13" rgba="0 0 0 0" group="3" mass="0.0199441046" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_14" rgba="0 0 0 0" group="3" mass="0.097086504" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_15" rgba="0 0 0 0" group="3" mass="0.0274728768" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_16" rgba="0 0 0 0" group="3" mass="0.0193550447" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_17" rgba="0 0 0 0" group="3" mass="0.00212843397" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_18" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_19" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_20" rgba="0 0 0 0" group="3" mass="0.00255231306" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_21" rgba="0 0 0 0" group="3" mass="0.00948346448" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_22" rgba="0 0 0 0" group="3" mass="0.0580657913" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_23" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_24" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_25" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_26" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_27" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_28" rgba="0 0 0 0" group="3" mass="0.100888201" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_29" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_30" rgba="0 0 0 0" group="3" mass="0.00197622122" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_31" rgba="0 0 0 0" group="3" mass="0.0588998102" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="game_console_hull_32" rgba="0 0 0 0" group="3" mass="0.00360023731" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.1500 0.1470 0.0463" pos="0.0000 0.0000 0.0463" />
     </body>
   </worldbody>

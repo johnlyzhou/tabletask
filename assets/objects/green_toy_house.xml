@@ -47,43 +47,101 @@
     <mesh name="green_toy_house_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="green_toy_house_hull_31" file="hulls/h31.obj" maxhullvert="128" />
     <mesh name="green_toy_house_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_59" file="hulls/h59.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_60" file="hulls/h60.obj" maxhullvert="128" />
+    <mesh name="green_toy_house_hull_61" file="hulls/h61.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="green_toy_house">
       <geom type="mesh" mesh="green_toy_house_0_mesh" material="green_toy_house_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_00" rgba="0 0 0 0" group="3" mass="0.000739346851" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_01" rgba="0 0 0 0" group="3" mass="0.00427935419" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_02" rgba="0 0 0 0" group="3" mass="0.00725417259" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_03" rgba="0 0 0 0" group="3" mass="0.00181661871" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_04" rgba="0 0 0 0" group="3" mass="0.0008734809" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_05" rgba="0 0 0 0" group="3" mass="0.000257420183" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_06" rgba="0 0 0 0" group="3" mass="0.000228431082" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_07" rgba="0 0 0 0" group="3" mass="0.00141330315" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_08" rgba="0 0 0 0" group="3" mass="0.00131174282" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_09" rgba="0 0 0 0" group="3" mass="0.00413772172" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_10" rgba="0 0 0 0" group="3" mass="0.00220547223" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_11" rgba="0 0 0 0" group="3" mass="0.0021332619" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_12" rgba="0 0 0 0" group="3" mass="0.00272064438" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_13" rgba="0 0 0 0" group="3" mass="0.000437655237" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_14" rgba="0 0 0 0" group="3" mass="0.00242905343" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_15" rgba="0 0 0 0" group="3" mass="0.00216835696" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_16" rgba="0 0 0 0" group="3" mass="0.000728073525" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_17" rgba="0 0 0 0" group="3" mass="0.0116400942" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_18" rgba="0 0 0 0" group="3" mass="0.000491557565" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_19" rgba="0 0 0 0" group="3" mass="0.00130159344" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_20" rgba="0 0 0 0" group="3" mass="0.000198491113" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_21" rgba="0 0 0 0" group="3" mass="0.000143546206" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_22" rgba="0 0 0 0" group="3" mass="0.000143546206" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_23" rgba="0 0 0 0" group="3" mass="0.000256345198" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_24" rgba="0 0 0 0" group="3" mass="0.000588084062" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_25" rgba="0 0 0 0" group="3" mass="0.000577235803" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_26" rgba="0 0 0 0" group="3" mass="0.000681524479" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_27" rgba="0 0 0 0" group="3" mass="0.000457594293" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_28" rgba="0 0 0 0" group="3" mass="0.00101738197" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_29" rgba="0 0 0 0" group="3" mass="0.000387014768" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_30" rgba="0 0 0 0" group="3" mass="0.000832172946" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_31" rgba="0 0 0 0" group="3" mass="0.000931859548" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_house_hull_32" rgba="0 0 0 0" group="3" mass="0.0172178484" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_house_hull_00" rgba="0 0 0 0" group="3" mass="0.00740892352" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_01" rgba="0 0 0 0" group="3" mass="0.000463031949" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_02" rgba="0 0 0 0" group="3" mass="0.0026918551" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_03" rgba="0 0 0 0" group="3" mass="0.00310545979" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_04" rgba="0 0 0 0" group="3" mass="0.000437134546" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_05" rgba="0 0 0 0" group="3" mass="0.000283155761" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_06" rgba="0 0 0 0" group="3" mass="0.000179280046" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_07" rgba="0 0 0 0" group="3" mass="0.000389629717" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_08" rgba="0 0 0 0" group="3" mass="0.00033865148" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_09" rgba="0 0 0 0" group="3" mass="0.000896660801" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_10" rgba="0 0 0 0" group="3" mass="0.00125590179" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_11" rgba="0 0 0 0" group="3" mass="0.00353805919" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_12" rgba="0 0 0 0" group="3" mass="0.0018511778" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_13" rgba="0 0 0 0" group="3" mass="0.000395168084" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_14" rgba="0 0 0 0" group="3" mass="0.000239966874" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_15" rgba="0 0 0 0" group="3" mass="0.00345904677" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_16" rgba="0 0 0 0" group="3" mass="0.00225743138" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_17" rgba="0 0 0 0" group="3" mass="0.000406723498" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_18" rgba="0 0 0 0" group="3" mass="0.000359085043" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_19" rgba="0 0 0 0" group="3" mass="0.00120605249" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_20" rgba="0 0 0 0" group="3" mass="0.00117362162" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_21" rgba="0 0 0 0" group="3" mass="0.000488931051" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_22" rgba="0 0 0 0" group="3" mass="0.000845119342" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_23" rgba="0 0 0 0" group="3" mass="0.00232843406" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_24" rgba="0 0 0 0" group="3" mass="0.000223813855" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_25" rgba="0 0 0 0" group="3" mass="0.000228963544" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_26" rgba="0 0 0 0" group="3" mass="0.00167933662" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_27" rgba="0 0 0 0" group="3" mass="0.000720632117" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_28" rgba="0 0 0 0" group="3" mass="0.000368704181" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_29" rgba="0 0 0 0" group="3" mass="0.000675200952" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_30" rgba="0 0 0 0" group="3" mass="0.000142917959" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_31" rgba="0 0 0 0" group="3" mass="0.0010785034" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_32" rgba="0 0 0 0" group="3" mass="0.000520846801" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_33" rgba="0 0 0 0" group="3" mass="0.00111805856" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_34" rgba="0 0 0 0" group="3" mass="0.000640816501" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_35" rgba="0 0 0 0" group="3" mass="0.000420402952" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_36" rgba="0 0 0 0" group="3" mass="0.000399655082" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_37" rgba="0 0 0 0" group="3" mass="0.000569452483" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_38" rgba="0 0 0 0" group="3" mass="0.000142917959" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_39" rgba="0 0 0 0" group="3" mass="0.00438807343" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_40" rgba="0 0 0 0" group="3" mass="0.000210930922" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_41" rgba="0 0 0 0" group="3" mass="0.000252207841" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_42" rgba="0 0 0 0" group="3" mass="0.000543208947" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_43" rgba="0 0 0 0" group="3" mass="0.00576303226" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_44" rgba="0 0 0 0" group="3" mass="0.00114091289" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_45" rgba="0 0 0 0" group="3" mass="0.0011144833" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_46" rgba="0 0 0 0" group="3" mass="0.00256492067" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_47" rgba="0 0 0 0" group="3" mass="0.000142917959" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_48" rgba="0 0 0 0" group="3" mass="0.00177505255" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_49" rgba="0 0 0 0" group="3" mass="0.00176130978" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_50" rgba="0 0 0 0" group="3" mass="0.000142917959" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_51" rgba="0 0 0 0" group="3" mass="0.000584012422" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_52" rgba="0 0 0 0" group="3" mass="0.00123531641" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_53" rgba="0 0 0 0" group="3" mass="0.000142917959" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_54" rgba="0 0 0 0" group="3" mass="0.000142917959" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_55" rgba="0 0 0 0" group="3" mass="0.000748378134" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_56" rgba="0 0 0 0" group="3" mass="0.000817517358" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_57" rgba="0 0 0 0" group="3" mass="0.000844233658" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_58" rgba="0 0 0 0" group="3" mass="0.000142917959" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_59" rgba="0 0 0 0" group="3" mass="0.000437351815" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_60" rgba="0 0 0 0" group="3" mass="0.000420960852" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="green_toy_house_hull_61" rgba="0 0 0 0" group="3" mass="0.00175478235" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0277 0.0410 0.0359" pos="0.0000 0.0000 0.0359" />
     </body>
   </worldbody>

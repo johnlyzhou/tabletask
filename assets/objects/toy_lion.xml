@@ -32,28 +32,112 @@
     <mesh name="toy_lion_hull_15" file="hulls/h15.obj" maxhullvert="128" />
     <mesh name="toy_lion_hull_16" file="hulls/h16.obj" maxhullvert="128" />
     <mesh name="toy_lion_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_58" file="hulls/h58.obj" maxhullvert="128" />
+    <mesh name="toy_lion_hull_59" file="hulls/h59.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="toy_lion">
       <geom type="mesh" mesh="toy_lion_0_mesh" material="toy_lion_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_00" rgba="0 0 0 0" group="3" mass="0.00569130361" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_01" rgba="0 0 0 0" group="3" mass="0.00459467968" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_02" rgba="0 0 0 0" group="3" mass="0.0669945097" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_03" rgba="0 0 0 0" group="3" mass="0.00548261477" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_04" rgba="0 0 0 0" group="3" mass="0.00618406886" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_05" rgba="0 0 0 0" group="3" mass="0.0688233025" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_06" rgba="0 0 0 0" group="3" mass="0.024607386" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_07" rgba="0 0 0 0" group="3" mass="0.0191898154" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_08" rgba="0 0 0 0" group="3" mass="0.00582734035" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_09" rgba="0 0 0 0" group="3" mass="0.000693173469" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_10" rgba="0 0 0 0" group="3" mass="0.009937791" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_11" rgba="0 0 0 0" group="3" mass="0.000694999693" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_12" rgba="0 0 0 0" group="3" mass="0.00207036484" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_13" rgba="0 0 0 0" group="3" mass="0.00240643628" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_14" rgba="0 0 0 0" group="3" mass="0.00520311271" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_15" rgba="0 0 0 0" group="3" mass="0.00356995565" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_16" rgba="0 0 0 0" group="3" mass="0.00356402591" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_lion_hull_17" rgba="0 0 0 0" group="3" mass="0.0594651196" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_lion_hull_00" rgba="0 0 0 0" group="3" mass="0.00262836741" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_01" rgba="0 0 0 0" group="3" mass="0.00082012023" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_02" rgba="0 0 0 0" group="3" mass="0.00172174237" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_03" rgba="0 0 0 0" group="3" mass="0.00953512683" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_04" rgba="0 0 0 0" group="3" mass="0.00108186093" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_05" rgba="0 0 0 0" group="3" mass="0.00199137903" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_06" rgba="0 0 0 0" group="3" mass="0.00199571454" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_07" rgba="0 0 0 0" group="3" mass="0.062663309" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_08" rgba="0 0 0 0" group="3" mass="0.0311179381" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_09" rgba="0 0 0 0" group="3" mass="0.00542200462" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_10" rgba="0 0 0 0" group="3" mass="0.00174064745" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_11" rgba="0 0 0 0" group="3" mass="0.00280339883" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_12" rgba="0 0 0 0" group="3" mass="0.00488782471" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_13" rgba="0 0 0 0" group="3" mass="0.00310667813" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_14" rgba="0 0 0 0" group="3" mass="0.0037802789" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_15" rgba="0 0 0 0" group="3" mass="0.00128234472" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_16" rgba="0 0 0 0" group="3" mass="0.000583230251" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_17" rgba="0 0 0 0" group="3" mass="0.00151659295" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_18" rgba="0 0 0 0" group="3" mass="0.00746719187" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_19" rgba="0 0 0 0" group="3" mass="0.00610450279" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_20" rgba="0 0 0 0" group="3" mass="0.0103648524" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_21" rgba="0 0 0 0" group="3" mass="0.000893519301" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_22" rgba="0 0 0 0" group="3" mass="0.000583230251" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_23" rgba="0 0 0 0" group="3" mass="0.000926627648" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_24" rgba="0 0 0 0" group="3" mass="0.00211005879" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_25" rgba="0 0 0 0" group="3" mass="0.0128861125" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_26" rgba="0 0 0 0" group="3" mass="0.000583230251" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_27" rgba="0 0 0 0" group="3" mass="0.000583230251" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_28" rgba="0 0 0 0" group="3" mass="0.00738500603" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_29" rgba="0 0 0 0" group="3" mass="0.0053725076" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_30" rgba="0 0 0 0" group="3" mass="0.00180626997" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_31" rgba="0 0 0 0" group="3" mass="0.00503343729" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_32" rgba="0 0 0 0" group="3" mass="0.000583230251" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_33" rgba="0 0 0 0" group="3" mass="0.00214788709" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_34" rgba="0 0 0 0" group="3" mass="0.0227413377" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_35" rgba="0 0 0 0" group="3" mass="0.00338356735" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_36" rgba="0 0 0 0" group="3" mass="0.00110574059" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_37" rgba="0 0 0 0" group="3" mass="0.00165379721" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_38" rgba="0 0 0 0" group="3" mass="0.00212393932" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_39" rgba="0 0 0 0" group="3" mass="0.00139358427" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_40" rgba="0 0 0 0" group="3" mass="0.00230512074" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_41" rgba="0 0 0 0" group="3" mass="0.00108119791" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_42" rgba="0 0 0 0" group="3" mass="0.000744935606" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_43" rgba="0 0 0 0" group="3" mass="0.00204203444" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_44" rgba="0 0 0 0" group="3" mass="0.00355866072" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_45" rgba="0 0 0 0" group="3" mass="0.00297098025" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_46" rgba="0 0 0 0" group="3" mass="0.00476342817" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_47" rgba="0 0 0 0" group="3" mass="0.000605567033" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_48" rgba="0 0 0 0" group="3" mass="0.0110419008" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_49" rgba="0 0 0 0" group="3" mass="0.000583230251" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_50" rgba="0 0 0 0" group="3" mass="0.00454813282" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_51" rgba="0 0 0 0" group="3" mass="0.00373988065" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_52" rgba="0 0 0 0" group="3" mass="0.000583230251" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_53" rgba="0 0 0 0" group="3" mass="0.00260708692" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_54" rgba="0 0 0 0" group="3" mass="0.00105645616" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_55" rgba="0 0 0 0" group="3" mass="0.00806203235" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_56" rgba="0 0 0 0" group="3" mass="0.0060893893" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_57" rgba="0 0 0 0" group="3" mass="0.00145212218" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_58" rgba="0 0 0 0" group="3" mass="0.000583230251" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="toy_lion_hull_59" rgba="0 0 0 0" group="3" mass="0.000669963545" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.1061 0.0557 0.0350" pos="0.0000 -0.0000 0.0350" />
     </body>
   </worldbody>

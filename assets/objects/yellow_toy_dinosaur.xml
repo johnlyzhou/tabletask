@@ -27,23 +27,65 @@
     <mesh name="yellow_toy_dinosaur_hull_10" file="hulls/h10.obj" maxhullvert="128" />
     <mesh name="yellow_toy_dinosaur_hull_11" file="hulls/h11.obj" maxhullvert="128" />
     <mesh name="yellow_toy_dinosaur_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="yellow_toy_dinosaur_hull_33" file="hulls/h33.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="yellow_toy_dinosaur">
       <geom type="mesh" mesh="yellow_toy_dinosaur_0_mesh" material="yellow_toy_dinosaur_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_00" rgba="0 0 0 0" group="3" mass="0.000440526186" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_01" rgba="0 0 0 0" group="3" mass="0.000364776629" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_02" rgba="0 0 0 0" group="3" mass="7.84503996e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_03" rgba="0 0 0 0" group="3" mass="0.000176529444" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_04" rgba="0 0 0 0" group="3" mass="0.000369725529" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_05" rgba="0 0 0 0" group="3" mass="0.000133084536" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_06" rgba="0 0 0 0" group="3" mass="0.000170282067" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_07" rgba="0 0 0 0" group="3" mass="0.00103352668" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_08" rgba="0 0 0 0" group="3" mass="0.000517438384" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_09" rgba="0 0 0 0" group="3" mass="0.00132459281" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_10" rgba="0 0 0 0" group="3" mass="0.000243433141" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_11" rgba="0 0 0 0" group="3" mass="0.000115341501" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_12" rgba="0 0 0 0" group="3" mass="3.2292695e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_00" rgba="0 0 0 0" group="3" mass="0.00025255243" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_01" rgba="0 0 0 0" group="3" mass="0.000172645882" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_02" rgba="0 0 0 0" group="3" mass="0.000389832068" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_03" rgba="0 0 0 0" group="3" mass="0.000180593506" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_04" rgba="0 0 0 0" group="3" mass="1.97890126e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_05" rgba="0 0 0 0" group="3" mass="0.00014437482" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_06" rgba="0 0 0 0" group="3" mass="6.25217046e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_07" rgba="0 0 0 0" group="3" mass="0.000101508337" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_08" rgba="0 0 0 0" group="3" mass="3.37922379e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_09" rgba="0 0 0 0" group="3" mass="9.59005287e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_10" rgba="0 0 0 0" group="3" mass="0.000277379421" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_11" rgba="0 0 0 0" group="3" mass="0.000628801435" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_12" rgba="0 0 0 0" group="3" mass="9.96533637e-06" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_13" rgba="0 0 0 0" group="3" mass="0.000448820266" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_14" rgba="0 0 0 0" group="3" mass="0.000288955276" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_15" rgba="0 0 0 0" group="3" mass="5.23622324e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_16" rgba="0 0 0 0" group="3" mass="0.000237621563" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_17" rgba="0 0 0 0" group="3" mass="0.00014217285" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_18" rgba="0 0 0 0" group="3" mass="7.37987852e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_19" rgba="0 0 0 0" group="3" mass="1.94666125e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_20" rgba="0 0 0 0" group="3" mass="3.32776478e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_21" rgba="0 0 0 0" group="3" mass="0.000128828503" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_22" rgba="0 0 0 0" group="3" mass="9.96533637e-06" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_23" rgba="0 0 0 0" group="3" mass="0.000659296795" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_24" rgba="0 0 0 0" group="3" mass="7.60257808e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_25" rgba="0 0 0 0" group="3" mass="3.22698457e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_26" rgba="0 0 0 0" group="3" mass="6.55330948e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_27" rgba="0 0 0 0" group="3" mass="4.50182014e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_28" rgba="0 0 0 0" group="3" mass="3.79240816e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_29" rgba="0 0 0 0" group="3" mass="9.96533637e-06" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_30" rgba="0 0 0 0" group="3" mass="2.48691906e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_31" rgba="0 0 0 0" group="3" mass="1.44989934e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_32" rgba="0 0 0 0" group="3" mass="2.52980038e-05" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="yellow_toy_dinosaur_hull_33" rgba="0 0 0 0" group="3" mass="0.000204374885" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0065 0.0270 0.0211" pos="0.0000 0.0000 0.0211" />
     </body>
   </worldbody>
