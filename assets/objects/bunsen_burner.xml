@@ -35,34 +35,32 @@
     <mesh name="bunsen_burner_hull_18" file="hulls/h18.obj" maxhullvert="128" />
     <mesh name="bunsen_burner_hull_19" file="hulls/h19.obj" maxhullvert="128" />
     <mesh name="bunsen_burner_hull_20" file="hulls/h20.obj" maxhullvert="128" />
-    <mesh name="bunsen_burner_hull_21" file="hulls/h21.obj" maxhullvert="128" />
     <mesh name="bunsen_burner_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="bunsen_burner">
       <geom type="mesh" mesh="bunsen_burner_0_mesh" material="bunsen_burner_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_00" rgba="0 0 0 0" group="3" mass="0.0175617283" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_01" rgba="0 0 0 0" group="3" mass="0.0506097122" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_02" rgba="0 0 0 0" group="3" mass="0.0148439342" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_03" rgba="0 0 0 0" group="3" mass="0.0175621012" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_04" rgba="0 0 0 0" group="3" mass="0.0121535533" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_05" rgba="0 0 0 0" group="3" mass="0.0162798184" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_06" rgba="0 0 0 0" group="3" mass="0.00566792488" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_07" rgba="0 0 0 0" group="3" mass="0.0127950617" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_08" rgba="0 0 0 0" group="3" mass="0.0148672228" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_09" rgba="0 0 0 0" group="3" mass="0.00382760428" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_10" rgba="0 0 0 0" group="3" mass="0.040612334" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_11" rgba="0 0 0 0" group="3" mass="0.0187389938" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_12" rgba="0 0 0 0" group="3" mass="0.00765364041" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_13" rgba="0 0 0 0" group="3" mass="0.0111333445" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_14" rgba="0 0 0 0" group="3" mass="0.0187389899" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_15" rgba="0 0 0 0" group="3" mass="0.0136867045" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_16" rgba="0 0 0 0" group="3" mass="0.00566825656" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_17" rgba="0 0 0 0" group="3" mass="0.0455540322" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_18" rgba="0 0 0 0" group="3" mass="0.00994357382" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_19" rgba="0 0 0 0" group="3" mass="0.00667568758" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_20" rgba="0 0 0 0" group="3" mass="0.00591199073" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunsen_burner_hull_21" rgba="0 0 0 0" group="3" mass="0.149513791" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_00" rgba="0 0 0 0" group="3" mass="0.0245896665" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_01" rgba="0 0 0 0" group="3" mass="0.0702610063" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_02" rgba="0 0 0 0" group="3" mass="0.0206076997" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_03" rgba="0 0 0 0" group="3" mass="0.0245901845" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_04" rgba="0 0 0 0" group="3" mass="0.0168726683" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_05" rgba="0 0 0 0" group="3" mass="0.0226011248" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_06" rgba="0 0 0 0" group="3" mass="0.0078687289" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_07" rgba="0 0 0 0" group="3" mass="0.0177632686" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_08" rgba="0 0 0 0" group="3" mass="0.0206400311" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_09" rgba="0 0 0 0" group="3" mass="0.00531382844" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_10" rgba="0 0 0 0" group="3" mass="0.0634336387" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_11" rgba="0 0 0 0" group="3" mass="0.0262240202" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_12" rgba="0 0 0 0" group="3" mass="0.0106254798" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_13" rgba="0 0 0 0" group="3" mass="0.0154563215" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_14" rgba="0 0 0 0" group="3" mass="0.0262240149" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_15" rgba="0 0 0 0" group="3" mass="0.0201823346" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_16" rgba="0 0 0 0" group="3" mass="0.00786918938" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_17" rgba="0 0 0 0" group="3" mass="0.0659530562" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_18" rgba="0 0 0 0" group="3" mass="0.0151141225" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_19" rgba="0 0 0 0" group="3" mass="0.00926779676" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunsen_burner_hull_20" rgba="0 0 0 0" group="3" mass="0.00854181837" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0682 0.0682 0.0850" pos="0.0000 0.0000 0.0850" />
       <geom name="place:top" class="place" type="mesh" mesh="bunsen_burner_top" />
     </body>

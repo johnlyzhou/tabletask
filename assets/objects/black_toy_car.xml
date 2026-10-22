@@ -24,22 +24,20 @@
     <mesh name="black_toy_car_hull_07" file="hulls/h07.obj" maxhullvert="128" />
     <mesh name="black_toy_car_hull_08" file="hulls/h08.obj" maxhullvert="128" />
     <mesh name="black_toy_car_hull_09" file="hulls/h09.obj" maxhullvert="128" />
-    <mesh name="black_toy_car_hull_10" file="hulls/h10.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="black_toy_car">
       <geom type="mesh" mesh="black_toy_car_0_mesh" material="black_toy_car_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_00" rgba="0 0 0 0" group="3" mass="0.00710675077" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_01" rgba="0 0 0 0" group="3" mass="0.0180342886" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_02" rgba="0 0 0 0" group="3" mass="0.0304878063" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_03" rgba="0 0 0 0" group="3" mass="0.0113806419" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_04" rgba="0 0 0 0" group="3" mass="0.0261872905" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_05" rgba="0 0 0 0" group="3" mass="0.011551747" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_06" rgba="0 0 0 0" group="3" mass="0.0102895619" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_07" rgba="0 0 0 0" group="3" mass="0.0167737269" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_08" rgba="0 0 0 0" group="3" mass="0.0441746839" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_09" rgba="0 0 0 0" group="3" mass="0.00469279141" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_car_hull_10" rgba="0 0 0 0" group="3" mass="0.0313207109" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_00" rgba="0 0 0 0" group="3" mass="0.00827566836" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_01" rgba="0 0 0 0" group="3" mass="0.0210005664" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_02" rgba="0 0 0 0" group="3" mass="0.0355024373" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_03" rgba="0 0 0 0" group="3" mass="0.0136650795" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_04" rgba="0 0 0 0" group="3" mass="0.0304945731" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_05" rgba="0 0 0 0" group="3" mass="0.0136958326" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_06" rgba="0 0 0 0" group="3" mass="0.0123849887" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_07" rgba="0 0 0 0" group="3" mass="0.0198926034" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_08" rgba="0 0 0 0" group="3" mass="0.051440531" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_car_hull_09" rgba="0 0 0 0" group="3" mass="0.00564771959" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0725 0.0339 0.0299" pos="0.0000 0.0000 0.0299" />
     </body>
   </worldbody>

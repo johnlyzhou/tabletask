@@ -44,42 +44,40 @@
     <mesh name="candy_bar_hull_27" file="hulls/h27.obj" maxhullvert="128" />
     <mesh name="candy_bar_hull_28" file="hulls/h28.obj" maxhullvert="128" />
     <mesh name="candy_bar_hull_29" file="hulls/h29.obj" maxhullvert="128" />
-    <mesh name="candy_bar_hull_30" file="hulls/h30.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="candy_bar">
       <geom type="mesh" mesh="candy_bar_0_mesh" material="candy_bar_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_00" rgba="0 0 0 0" group="3" mass="0.00908846338" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_01" rgba="0 0 0 0" group="3" mass="0.000194560503" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_02" rgba="0 0 0 0" group="3" mass="7.25534216e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_03" rgba="0 0 0 0" group="3" mass="0.000278116976" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_04" rgba="0 0 0 0" group="3" mass="0.000233108874" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_05" rgba="0 0 0 0" group="3" mass="0.00368284062" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_06" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_07" rgba="0 0 0 0" group="3" mass="7.66800408e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_08" rgba="0 0 0 0" group="3" mass="7.39962101e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_09" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_10" rgba="0 0 0 0" group="3" mass="0.000100916662" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_11" rgba="0 0 0 0" group="3" mass="0.000134971195" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_12" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_13" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_14" rgba="0 0 0 0" group="3" mass="0.000134543349" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_15" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_16" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_17" rgba="0 0 0 0" group="3" mass="0.0028624073" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_18" rgba="0 0 0 0" group="3" mass="0.00022463067" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_19" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_20" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_21" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_22" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_23" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_24" rgba="0 0 0 0" group="3" mass="0.000140086457" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_25" rgba="0 0 0 0" group="3" mass="0.0019873605" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_26" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_27" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_28" rgba="0 0 0 0" group="3" mass="0.000112967593" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_29" rgba="0 0 0 0" group="3" mass="6.11654279e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="candy_bar_hull_30" rgba="0 0 0 0" group="3" mass="0.0107454803" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_00" rgba="0 0 0 0" group="3" mass="0.0138161888" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_01" rgba="0 0 0 0" group="3" mass="0.000304160761" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_02" rgba="0 0 0 0" group="3" mass="0.00012136719" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_03" rgba="0 0 0 0" group="3" mass="0.000425809651" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_04" rgba="0 0 0 0" group="3" mass="0.000339587388" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_05" rgba="0 0 0 0" group="3" mass="0.00576048985" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_06" rgba="0 0 0 0" group="3" mass="6.14433763e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_07" rgba="0 0 0 0" group="3" mass="0.000111705635" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_08" rgba="0 0 0 0" group="3" mass="0.000107795895" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_09" rgba="0 0 0 0" group="3" mass="6.14433763e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_10" rgba="0 0 0 0" group="3" mass="0.00014885594" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_11" rgba="0 0 0 0" group="3" mass="0.000225952596" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_12" rgba="0 0 0 0" group="3" mass="6.14433763e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_13" rgba="0 0 0 0" group="3" mass="6.14433763e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_14" rgba="0 0 0 0" group="3" mass="0.000195999508" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_15" rgba="0 0 0 0" group="3" mass="7.5212012e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_16" rgba="0 0 0 0" group="3" mass="8.28237811e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_17" rgba="0 0 0 0" group="3" mass="0.00456790319" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_18" rgba="0 0 0 0" group="3" mass="0.000357783365" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_19" rgba="0 0 0 0" group="3" mass="6.14433763e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_20" rgba="0 0 0 0" group="3" mass="6.59466545e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_21" rgba="0 0 0 0" group="3" mass="6.14433763e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_22" rgba="0 0 0 0" group="3" mass="7.80919554e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_23" rgba="0 0 0 0" group="3" mass="6.14433763e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_24" rgba="0 0 0 0" group="3" mass="0.000204074574" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_25" rgba="0 0 0 0" group="3" mass="0.00321452969" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_26" rgba="0 0 0 0" group="3" mass="6.14433763e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_27" rgba="0 0 0 0" group="3" mass="6.98654805e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_28" rgba="0 0 0 0" group="3" mass="0.000172865716" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="candy_bar_hull_29" rgba="0 0 0 0" group="3" mass="6.14433763e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0841 0.0210 0.0093" pos="0.0000 0.0000 0.0093" />
     </body>
   </worldbody>

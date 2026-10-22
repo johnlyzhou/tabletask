@@ -20,18 +20,16 @@
     <mesh name="slice_of_cake_hull_03" file="hulls/h03.obj" maxhullvert="128" />
     <mesh name="slice_of_cake_hull_04" file="hulls/h04.obj" maxhullvert="128" />
     <mesh name="slice_of_cake_hull_05" file="hulls/h05.obj" maxhullvert="128" />
-    <mesh name="slice_of_cake_hull_06" file="hulls/h06.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="slice_of_cake">
       <geom type="mesh" mesh="slice_of_cake_0_mesh" material="slice_of_cake_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="slice_of_cake_hull_00" rgba="0 0 0 0" group="3" mass="0.00229302274" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="slice_of_cake_hull_01" rgba="0 0 0 0" group="3" mass="0.000963132966" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="slice_of_cake_hull_02" rgba="0 0 0 0" group="3" mass="0.00165668075" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="slice_of_cake_hull_03" rgba="0 0 0 0" group="3" mass="0.00408831274" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="slice_of_cake_hull_04" rgba="0 0 0 0" group="3" mass="0.00198981659" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="slice_of_cake_hull_05" rgba="0 0 0 0" group="3" mass="0.00155160004" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="slice_of_cake_hull_06" rgba="0 0 0 0" group="3" mass="0.00545743417" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="slice_of_cake_hull_00" rgba="0 0 0 0" group="3" mass="0.0034074458" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="slice_of_cake_hull_01" rgba="0 0 0 0" group="3" mass="0.00135501682" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="slice_of_cake_hull_02" rgba="0 0 0 0" group="3" mass="0.00241394082" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="slice_of_cake_hull_03" rgba="0 0 0 0" group="3" mass="0.00555842553" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="slice_of_cake_hull_04" rgba="0 0 0 0" group="3" mass="0.0028647047" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="slice_of_cake_hull_05" rgba="0 0 0 0" group="3" mass="0.00240046633" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0193 0.0377 0.0143" pos="0.0000 0.0000 0.0143" />
     </body>
   </worldbody>

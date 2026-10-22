@@ -45,44 +45,42 @@
     <mesh name="grey_clock_hull_28" file="hulls/h28.obj" maxhullvert="128" />
     <mesh name="grey_clock_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="grey_clock_hull_30" file="hulls/h30.obj" maxhullvert="128" />
-    <mesh name="grey_clock_hull_31" file="hulls/h31.obj" maxhullvert="128" />
     <mesh name="grey_clock_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="grey_clock">
       <geom type="mesh" mesh="grey_clock_0_mesh" material="grey_clock_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_00" rgba="0 0 0 0" group="3" mass="0.0364028028" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_01" rgba="0 0 0 0" group="3" mass="0.0146200066" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_02" rgba="0 0 0 0" group="3" mass="0.0396217181" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_03" rgba="0 0 0 0" group="3" mass="0.0149088736" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_04" rgba="0 0 0 0" group="3" mass="0.0408434389" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_05" rgba="0 0 0 0" group="3" mass="0.0699230132" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_06" rgba="0 0 0 0" group="3" mass="0.00842747819" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_07" rgba="0 0 0 0" group="3" mass="0.000870126679" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_08" rgba="0 0 0 0" group="3" mass="0.0210184086" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_09" rgba="0 0 0 0" group="3" mass="0.00762319816" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_10" rgba="0 0 0 0" group="3" mass="0.000870126679" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_11" rgba="0 0 0 0" group="3" mass="0.0200119324" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_12" rgba="0 0 0 0" group="3" mass="0.00668542347" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_13" rgba="0 0 0 0" group="3" mass="0.0110937238" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_14" rgba="0 0 0 0" group="3" mass="0.00578892771" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_15" rgba="0 0 0 0" group="3" mass="0.00191099836" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_16" rgba="0 0 0 0" group="3" mass="0.00224821817" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_17" rgba="0 0 0 0" group="3" mass="0.00165427029" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_18" rgba="0 0 0 0" group="3" mass="0.00826251665" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_19" rgba="0 0 0 0" group="3" mass="0.0131157193" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_20" rgba="0 0 0 0" group="3" mass="0.0132540067" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_21" rgba="0 0 0 0" group="3" mass="0.0149830792" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_22" rgba="0 0 0 0" group="3" mass="0.00991700095" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_23" rgba="0 0 0 0" group="3" mass="0.000939970365" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_24" rgba="0 0 0 0" group="3" mass="0.0108729978" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_25" rgba="0 0 0 0" group="3" mass="0.00207188985" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_26" rgba="0 0 0 0" group="3" mass="0.00735958653" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_27" rgba="0 0 0 0" group="3" mass="0.00638760663" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_28" rgba="0 0 0 0" group="3" mass="0.00269863874" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_29" rgba="0 0 0 0" group="3" mass="0.000870126679" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_30" rgba="0 0 0 0" group="3" mass="0.0087228112" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_clock_hull_31" rgba="0 0 0 0" group="3" mass="0.0330213638" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_00" rgba="0 0 0 0" group="3" mass="0.0391009472" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_01" rgba="0 0 0 0" group="3" mass="0.0157036289" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_02" rgba="0 0 0 0" group="3" mass="0.0425584458" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_03" rgba="0 0 0 0" group="3" mass="0.0160139065" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_04" rgba="0 0 0 0" group="3" mass="0.0438707195" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_05" rgba="0 0 0 0" group="3" mass="0.0751056468" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_06" rgba="0 0 0 0" group="3" mass="0.00905211563" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_07" rgba="0 0 0 0" group="3" mass="0.000870302904" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_08" rgba="0 0 0 0" group="3" mass="0.0225762749" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_09" rgba="0 0 0 0" group="3" mass="0.00818822306" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_10" rgba="0 0 0 0" group="3" mass="0.000870302904" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_11" rgba="0 0 0 0" group="3" mass="0.0214951996" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_12" rgba="0 0 0 0" group="3" mass="0.00718094132" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_13" rgba="0 0 0 0" group="3" mass="0.0119159811" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_14" rgba="0 0 0 0" group="3" mass="0.00692473332" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_15" rgba="0 0 0 0" group="3" mass="0.00216196405" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_16" rgba="0 0 0 0" group="3" mass="0.0025362119" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_17" rgba="0 0 0 0" group="3" mass="0.00225198304" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_18" rgba="0 0 0 0" group="3" mass="0.00953289677" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_19" rgba="0 0 0 0" group="3" mass="0.0140878452" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_20" rgba="0 0 0 0" group="3" mass="0.0142363823" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_21" rgba="0 0 0 0" group="3" mass="0.0160936122" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_22" rgba="0 0 0 0" group="3" mass="0.0106520405" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_23" rgba="0 0 0 0" group="3" mass="0.00100964016" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_24" rgba="0 0 0 0" group="3" mass="0.0116788951" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_25" rgba="0 0 0 0" group="3" mass="0.00222545654" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_26" rgba="0 0 0 0" group="3" mass="0.00790507276" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_27" rgba="0 0 0 0" group="3" mass="0.00781633776" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_28" rgba="0 0 0 0" group="3" mass="0.00314465087" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_29" rgba="0 0 0 0" group="3" mass="0.000870302904" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_clock_hull_30" rgba="0 0 0 0" group="3" mass="0.00936933848" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0256 0.0772 0.0567" pos="0.0000 0.0000 0.0567" />
       <geom name="place:top" class="place" type="mesh" mesh="grey_clock_top" />
     </body>

@@ -46,44 +46,42 @@
     <mesh name="small_green_toy_car_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="small_green_toy_car_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="small_green_toy_car_hull_31" file="hulls/h31.obj" maxhullvert="128" />
-    <mesh name="small_green_toy_car_hull_32" file="hulls/h32.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="small_green_toy_car">
       <geom type="mesh" mesh="small_green_toy_car_0_mesh" material="small_green_toy_car_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_00" rgba="0 0 0 0" group="3" mass="0.000519704909" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_01" rgba="0 0 0 0" group="3" mass="0.000244064662" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_02" rgba="0 0 0 0" group="3" mass="5.37519066e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_03" rgba="0 0 0 0" group="3" mass="0.000244832745" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_04" rgba="0 0 0 0" group="3" mass="0.000583803408" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_05" rgba="0 0 0 0" group="3" mass="0.000309119454" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_06" rgba="0 0 0 0" group="3" mass="0.000588057502" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_07" rgba="0 0 0 0" group="3" mass="0.000161422598" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_08" rgba="0 0 0 0" group="3" mass="0.000331024898" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_09" rgba="0 0 0 0" group="3" mass="0.000520681846" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_10" rgba="0 0 0 0" group="3" mass="0.000524453297" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_11" rgba="0 0 0 0" group="3" mass="0.000209102668" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_12" rgba="0 0 0 0" group="3" mass="0.000165264734" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_13" rgba="0 0 0 0" group="3" mass="0.00060693274" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_14" rgba="0 0 0 0" group="3" mass="4.88773657e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_15" rgba="0 0 0 0" group="3" mass="0.000111114714" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_16" rgba="0 0 0 0" group="3" mass="0.000726029786" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_17" rgba="0 0 0 0" group="3" mass="0.00104543251" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_18" rgba="0 0 0 0" group="3" mass="3.19573576e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_19" rgba="0 0 0 0" group="3" mass="0.000109251267" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_20" rgba="0 0 0 0" group="3" mass="3.19573576e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_21" rgba="0 0 0 0" group="3" mass="0.000215067175" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_22" rgba="0 0 0 0" group="3" mass="0.000199376724" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_23" rgba="0 0 0 0" group="3" mass="0.000272060893" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_24" rgba="0 0 0 0" group="3" mass="9.47200249e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_25" rgba="0 0 0 0" group="3" mass="0.000215277002" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_26" rgba="0 0 0 0" group="3" mass="0.000242064134" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_27" rgba="0 0 0 0" group="3" mass="9.19486603e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_28" rgba="0 0 0 0" group="3" mass="0.000128812596" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_29" rgba="0 0 0 0" group="3" mass="0.000187755083" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_30" rgba="0 0 0 0" group="3" mass="0.000197361893" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_31" rgba="0 0 0 0" group="3" mass="5.65623765e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_toy_car_hull_32" rgba="0 0 0 0" group="3" mass="0.00693215571" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_00" rgba="0 0 0 0" group="3" mass="0.000988980546" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_01" rgba="0 0 0 0" group="3" mass="0.000420200425" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_02" rgba="0 0 0 0" group="3" mass="9.25434014e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_03" rgba="0 0 0 0" group="3" mass="0.000421522816" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_04" rgba="0 0 0 0" group="3" mass="0.00100512068" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_05" rgba="0 0 0 0" group="3" mass="0.000532203739" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_06" rgba="0 0 0 0" group="3" mass="0.001121419" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_07" rgba="0 0 0 0" group="3" mass="0.000277917514" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_08" rgba="0 0 0 0" group="3" mass="0.000569917831" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_09" rgba="0 0 0 0" group="3" mass="0.000987455575" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_10" rgba="0 0 0 0" group="3" mass="0.000902938985" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_11" rgba="0 0 0 0" group="3" mass="0.000360007176" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_12" rgba="0 0 0 0" group="3" mass="0.00028453243" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_13" rgba="0 0 0 0" group="3" mass="0.00114126797" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_14" rgba="0 0 0 0" group="3" mass="8.41510184e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_15" rgba="0 0 0 0" group="3" mass="0.000191303607" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_16" rgba="0 0 0 0" group="3" mass="0.00124998851" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_17" rgba="0 0 0 0" group="3" mass="0.00179989672" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_18" rgba="0 0 0 0" group="3" mass="3.19824237e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_19" rgba="0 0 0 0" group="3" mass="0.000188095354" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_20" rgba="0 0 0 0" group="3" mass="5.01379698e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_21" rgba="0 0 0 0" group="3" mass="0.000370276128" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_22" rgba="0 0 0 0" group="3" mass="0.000343262247" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_23" rgba="0 0 0 0" group="3" mass="0.000468400882" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_24" rgba="0 0 0 0" group="3" mass="0.000163077253" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_25" rgba="0 0 0 0" group="3" mass="0.000370637384" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_26" rgba="0 0 0 0" group="3" mass="0.000416756162" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_27" rgba="0 0 0 0" group="3" mass="0.00015830586" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_28" rgba="0 0 0 0" group="3" mass="0.000221773637" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_29" rgba="0 0 0 0" group="3" mass="0.000323253539" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_30" rgba="0 0 0 0" group="3" mass="0.000365291087" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_toy_car_hull_31" rgba="0 0 0 0" group="3" mass="9.73821218e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0306 0.0155 0.0114" pos="0.0000 0.0000 0.0114" />
     </body>
   </worldbody>

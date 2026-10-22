@@ -36,34 +36,32 @@
     <mesh name="rat_figure_hull_19" file="hulls/h19.obj" maxhullvert="128" />
     <mesh name="rat_figure_hull_20" file="hulls/h20.obj" maxhullvert="128" />
     <mesh name="rat_figure_hull_21" file="hulls/h21.obj" maxhullvert="128" />
-    <mesh name="rat_figure_hull_22" file="hulls/h22.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="rat_figure">
       <geom type="mesh" mesh="rat_figure_0_mesh" material="rat_figure_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.000576408454" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.000817137973" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.00042138902" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.00383515417" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.002930427" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.000208556495" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.000209275519" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.00051840742" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.00745123662" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.00266187195" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.00467583702" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.00271230024" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.00265346133" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.00473175731" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.00268785774" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.00380794305" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.0159576289" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.00240151816" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.00120384461" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.000735726491" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.00732937412" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.00162435542" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="rat_figure_hull_22" rgba="0 0 0 0" group="3" mass="0.029848531" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.000967719745" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.00140514487" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.000688184896" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.00540534335" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.00413020269" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.000246247121" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.00024803463" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.00085319228" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.0105019226" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.00375169581" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.00659021865" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.00396054449" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.00387230658" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.00666903382" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.00395125864" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.00536699145" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.0224910028" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.00354771882" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.00169672278" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.0010369477" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.0103301671" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rat_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.00228939916" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0162 0.0750 0.0171" pos="0.0000 0.0000 0.0171" />
     </body>
   </worldbody>

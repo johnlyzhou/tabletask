@@ -1,93 +1,90 @@
 <mujoco model="cyan_headphones">
-  <!-- cyan_headphones, converted from the MolmoSpaces Objaverse library (uid 00a662d84667451e87b061f4cf808b5b; ODC-By 1.0). -->
-  <compiler angle="radian" meshdir="../mesh/cyan_headphones" texturedir="../mesh/cyan_headphones"/>
+  <compiler angle="radian" meshdir="../mesh/cyan_headphones" texturedir="../mesh/cyan_headphones" />
   <custom>
     <text name="label" data="blue headphones" />
   </custom>
   <default>
     <default class="place">
-      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0"/>
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
     </default>
   </default>
   <asset>
-    <mesh name="cyan_headphones_0_mesh" file="0.obj" inertia="shell"/>
-    <texture name="cyan_headphones_0_tex" type="2d" file="0.png"/>
+    <mesh name="cyan_headphones_0_mesh" file="0.obj" inertia="shell" />
+    <texture name="cyan_headphones_0_tex" type="2d" file="0.png" />
     <material name="cyan_headphones_0_skin" specular="0.2" shininess="0.3">
-      <layer texture="cyan_headphones_0_tex" role="rgb"/>
+      <layer texture="cyan_headphones_0_tex" role="rgb" />
     </material>
-    <mesh name="cyan_headphones_hull_00" file="hulls/h00.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_01" file="hulls/h01.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_02" file="hulls/h02.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_03" file="hulls/h03.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_04" file="hulls/h04.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_05" file="hulls/h05.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_06" file="hulls/h06.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_07" file="hulls/h07.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_08" file="hulls/h08.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_09" file="hulls/h09.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_10" file="hulls/h10.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_11" file="hulls/h11.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_12" file="hulls/h12.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_13" file="hulls/h13.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_14" file="hulls/h14.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_15" file="hulls/h15.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_16" file="hulls/h16.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_17" file="hulls/h17.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_18" file="hulls/h18.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_19" file="hulls/h19.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_20" file="hulls/h20.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_21" file="hulls/h21.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_22" file="hulls/h22.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_23" file="hulls/h23.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_24" file="hulls/h24.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_25" file="hulls/h25.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_26" file="hulls/h26.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_27" file="hulls/h27.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_28" file="hulls/h28.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_29" file="hulls/h29.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_30" file="hulls/h30.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_31" file="hulls/h31.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_32" file="hulls/h32.obj" maxhullvert="128"/>
-    <mesh name="cyan_headphones_hull_33" file="hulls/h33.obj" maxhullvert="32"/>
+    <mesh name="cyan_headphones_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="cyan_headphones_hull_32" file="hulls/h32.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="cyan_headphones">
-      <geom type="mesh" mesh="cyan_headphones_0_mesh" material="cyan_headphones_0_skin" contype="0" conaffinity="0" mass="0" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_00" rgba="0 0 0 0" group="3" mass="0.0048310701" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_01" rgba="0 0 0 0" group="3" mass="0.00285982038" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_02" rgba="0 0 0 0" group="3" mass="0.00539437935" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_03" rgba="0 0 0 0" group="3" mass="0.00385788172" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_04" rgba="0 0 0 0" group="3" mass="0.00688438931" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_05" rgba="0 0 0 0" group="3" mass="0.00536697113" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_06" rgba="0 0 0 0" group="3" mass="0.0039053479" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_07" rgba="0 0 0 0" group="3" mass="0.00649133581" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_08" rgba="0 0 0 0" group="3" mass="0.00652578598" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_09" rgba="0 0 0 0" group="3" mass="0.00538883899" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_10" rgba="0 0 0 0" group="3" mass="0.00594417753" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_11" rgba="0 0 0 0" group="3" mass="0.0102203674" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_12" rgba="0 0 0 0" group="3" mass="0.0194791376" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_13" rgba="0 0 0 0" group="3" mass="0.00274113043" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_14" rgba="0 0 0 0" group="3" mass="0.014071127" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_15" rgba="0 0 0 0" group="3" mass="0.00807634705" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_16" rgba="0 0 0 0" group="3" mass="0.0131691917" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_17" rgba="0 0 0 0" group="3" mass="0.0146023861" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_18" rgba="0 0 0 0" group="3" mass="0.00377616414" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_19" rgba="0 0 0 0" group="3" mass="0.0121469196" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_20" rgba="0 0 0 0" group="3" mass="0.0169653871" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_21" rgba="0 0 0 0" group="3" mass="0.00275973055" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_22" rgba="0 0 0 0" group="3" mass="0.00270303208" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_23" rgba="0 0 0 0" group="3" mass="0.00160925583" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_24" rgba="0 0 0 0" group="3" mass="0.00973192369" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_25" rgba="0 0 0 0" group="3" mass="0.00500045893" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_26" rgba="0 0 0 0" group="3" mass="0.00277529365" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_27" rgba="0 0 0 0" group="3" mass="0.00216341058" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_28" rgba="0 0 0 0" group="3" mass="0.0029023887" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_29" rgba="0 0 0 0" group="3" mass="0.0123702018" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_30" rgba="0 0 0 0" group="3" mass="0.00291533373" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_31" rgba="0 0 0 0" group="3" mass="0.00902319298" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_32" rgba="0 0 0 0" group="3" mass="0.0095305451" friction="0.9 0.01 0.002" condim="4"/>
-      <geom type="mesh" mesh="cyan_headphones_hull_33" rgba="0 0 0 0" group="3" mass="0.0148269321" friction="0.9 0.01 0.002" condim="4"/>
-      <geom name="place:bounds" class="place" type="box" size="0.0626 0.0309 0.0748" pos="0.0000 0.0000 0.0748"/>
+      <geom type="mesh" mesh="cyan_headphones_0_mesh" material="cyan_headphones_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_00" rgba="0 0 0 0" group="3" mass="0.00513435176" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_01" rgba="0 0 0 0" group="3" mass="0.00303935225" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_02" rgba="0 0 0 0" group="3" mass="0.00573302406" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_03" rgba="0 0 0 0" group="3" mass="0.00410006921" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_04" rgba="0 0 0 0" group="3" mass="0.00731657285" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_05" rgba="0 0 0 0" group="3" mass="0.00570389522" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_06" rgba="0 0 0 0" group="3" mass="0.00415051519" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_07" rgba="0 0 0 0" group="3" mass="0.00689884451" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_08" rgba="0 0 0 0" group="3" mass="0.00693545736" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_09" rgba="0 0 0 0" group="3" mass="0.00572713588" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_10" rgba="0 0 0 0" group="3" mass="0.00631733709" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_11" rgba="0 0 0 0" group="3" mass="0.0108619748" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_12" rgba="0 0 0 0" group="3" mass="0.0207019857" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_13" rgba="0 0 0 0" group="3" mass="0.00291321126" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_14" rgba="0 0 0 0" group="3" mass="0.0149544747" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_15" rgba="0 0 0 0" group="3" mass="0.00858335852" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_16" rgba="0 0 0 0" group="3" mass="0.0139959183" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_17" rgba="0 0 0 0" group="3" mass="0.0155190848" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_18" rgba="0 0 0 0" group="3" mass="0.00401322163" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_19" rgba="0 0 0 0" group="3" mass="0.0129094707" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_20" rgba="0 0 0 0" group="3" mass="0.0180304287" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_21" rgba="0 0 0 0" group="3" mass="0.00293297906" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_22" rgba="0 0 0 0" group="3" mass="0.0028727212" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_23" rgba="0 0 0 0" group="3" mass="0.0017102806" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_24" rgba="0 0 0 0" group="3" mass="0.0103428678" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_25" rgba="0 0 0 0" group="3" mass="0.00531437437" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_26" rgba="0 0 0 0" group="3" mass="0.00294951916" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_27" rgba="0 0 0 0" group="3" mass="0.00229922371" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_28" rgba="0 0 0 0" group="3" mass="0.0030845929" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_29" rgba="0 0 0 0" group="3" mass="0.01314677" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_30" rgba="0 0 0 0" group="3" mass="0.00309835059" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_31" rgba="0 0 0 0" group="3" mass="0.0095896449" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cyan_headphones_hull_32" rgba="0 0 0 0" group="3" mass="0.0101288472" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0626 0.0309 0.0748" pos="0.0000 0.0000 0.0748" />
     </body>
   </worldbody>
 </mujoco>

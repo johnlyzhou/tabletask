@@ -46,45 +46,43 @@
     <mesh name="round_electronic_game_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="round_electronic_game_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="round_electronic_game_hull_31" file="hulls/h31.obj" maxhullvert="128" />
-    <mesh name="round_electronic_game_hull_32" file="hulls/h32.obj" maxhullvert="128" />
     <mesh name="round_electronic_game_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="round_electronic_game">
       <geom type="mesh" mesh="round_electronic_game_0_mesh" material="round_electronic_game_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_00" rgba="0 0 0 0" group="3" mass="0.035062451" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_01" rgba="0 0 0 0" group="3" mass="0.00119715569" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_02" rgba="0 0 0 0" group="3" mass="0.00713728112" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_03" rgba="0 0 0 0" group="3" mass="0.0126837904" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_04" rgba="0 0 0 0" group="3" mass="0.00836341901" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_05" rgba="0 0 0 0" group="3" mass="0.0070427898" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_06" rgba="0 0 0 0" group="3" mass="0.00844078958" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_07" rgba="0 0 0 0" group="3" mass="0.0375345902" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_08" rgba="0 0 0 0" group="3" mass="0.012437514" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_09" rgba="0 0 0 0" group="3" mass="0.013688485" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_10" rgba="0 0 0 0" group="3" mass="0.0134521797" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_11" rgba="0 0 0 0" group="3" mass="0.00119715569" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_12" rgba="0 0 0 0" group="3" mass="0.00999389453" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_13" rgba="0 0 0 0" group="3" mass="0.00842147776" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_14" rgba="0 0 0 0" group="3" mass="0.0104055507" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_15" rgba="0 0 0 0" group="3" mass="0.0183998514" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_16" rgba="0 0 0 0" group="3" mass="0.0284777792" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_17" rgba="0 0 0 0" group="3" mass="0.0180088212" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_18" rgba="0 0 0 0" group="3" mass="0.0285275654" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_19" rgba="0 0 0 0" group="3" mass="0.0242800881" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_20" rgba="0 0 0 0" group="3" mass="0.0175099371" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_21" rgba="0 0 0 0" group="3" mass="0.00767043796" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_22" rgba="0 0 0 0" group="3" mass="0.00290888308" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_23" rgba="0 0 0 0" group="3" mass="0.0068200696" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_24" rgba="0 0 0 0" group="3" mass="0.0265231657" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_25" rgba="0 0 0 0" group="3" mass="0.0257998679" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_26" rgba="0 0 0 0" group="3" mass="0.0145437833" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_27" rgba="0 0 0 0" group="3" mass="0.0130552022" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_28" rgba="0 0 0 0" group="3" mass="0.0326104787" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_29" rgba="0 0 0 0" group="3" mass="0.0103038502" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_30" rgba="0 0 0 0" group="3" mass="0.0030544767" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_31" rgba="0 0 0 0" group="3" mass="0.0113713717" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="round_electronic_game_hull_32" rgba="0 0 0 0" group="3" mass="0.123075846" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_00" rgba="0 0 0 0" group="3" mass="0.0424521507" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_01" rgba="0 0 0 0" group="3" mass="0.00119756384" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_02" rgba="0 0 0 0" group="3" mass="0.0098840757" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_03" rgba="0 0 0 0" group="3" mass="0.0174055577" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_04" rgba="0 0 0 0" group="3" mass="0.0113408237" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_05" rgba="0 0 0 0" group="3" mass="0.009650998" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_06" rgba="0 0 0 0" group="3" mass="0.0114115498" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_07" rgba="0 0 0 0" group="3" mass="0.0499628787" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_08" rgba="0 0 0 0" group="3" mass="0.0168873718" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_09" rgba="0 0 0 0" group="3" mass="0.018916553" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_10" rgba="0 0 0 0" group="3" mass="0.018244618" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_11" rgba="0 0 0 0" group="3" mass="0.00119756384" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_12" rgba="0 0 0 0" group="3" mass="0.0121001899" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_13" rgba="0 0 0 0" group="3" mass="0.0112902585" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_14" rgba="0 0 0 0" group="3" mass="0.0140984916" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_15" rgba="0 0 0 0" group="3" mass="0.0222777713" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_16" rgba="0 0 0 0" group="3" mass="0.0344797051" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_17" rgba="0 0 0 0" group="3" mass="0.0248064905" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_18" rgba="0 0 0 0" group="3" mass="0.0345399842" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_19" rgba="0 0 0 0" group="3" mass="0.0293973161" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_20" rgba="0 0 0 0" group="3" mass="0.0212003003" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_21" rgba="0 0 0 0" group="3" mass="0.00928704578" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_22" rgba="0 0 0 0" group="3" mass="0.00352195409" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_23" rgba="0 0 0 0" group="3" mass="0.0082574553" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_24" rgba="0 0 0 0" group="3" mass="0.0321131408" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_25" rgba="0 0 0 0" group="3" mass="0.0312374021" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_26" rgba="0 0 0 0" group="3" mass="0.0176090052" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_27" rgba="0 0 0 0" group="3" mass="0.0158066933" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_28" rgba="0 0 0 0" group="3" mass="0.039483405" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_29" rgba="0 0 0 0" group="3" mass="0.0124754712" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_30" rgba="0 0 0 0" group="3" mass="0.00369823275" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_electronic_game_hull_31" rgba="0 0 0 0" group="3" mass="0.0137679818" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.1145 0.1144 0.0238" pos="0.0000 0.0000 0.0238" />
       <geom name="place:top" class="place" type="mesh" mesh="round_electronic_game_top" />
     </body>

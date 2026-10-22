@@ -43,42 +43,40 @@
     <mesh name="coil_of_white_cable_hull_26" file="hulls/h26.obj" maxhullvert="128" />
     <mesh name="coil_of_white_cable_hull_27" file="hulls/h27.obj" maxhullvert="128" />
     <mesh name="coil_of_white_cable_hull_28" file="hulls/h28.obj" maxhullvert="128" />
-    <mesh name="coil_of_white_cable_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="coil_of_white_cable_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="coil_of_white_cable">
       <geom type="mesh" mesh="coil_of_white_cable_0_mesh" material="coil_of_white_cable_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_00" rgba="0 0 0 0" group="3" mass="0.0606629106" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_01" rgba="0 0 0 0" group="3" mass="0.0627441879" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_02" rgba="0 0 0 0" group="3" mass="0.0288984371" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_03" rgba="0 0 0 0" group="3" mass="0.0381488807" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_04" rgba="0 0 0 0" group="3" mass="0.0187917103" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_05" rgba="0 0 0 0" group="3" mass="0.0171049773" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_06" rgba="0 0 0 0" group="3" mass="0.0180927647" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_07" rgba="0 0 0 0" group="3" mass="0.0129895331" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_08" rgba="0 0 0 0" group="3" mass="0.013676375" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_09" rgba="0 0 0 0" group="3" mass="0.00517175983" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_10" rgba="0 0 0 0" group="3" mass="0.0148760355" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_11" rgba="0 0 0 0" group="3" mass="0.025135901" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_12" rgba="0 0 0 0" group="3" mass="0.0102919898" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_13" rgba="0 0 0 0" group="3" mass="0.00408902442" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_14" rgba="0 0 0 0" group="3" mass="0.00257696381" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_15" rgba="0 0 0 0" group="3" mass="0.00214105941" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_16" rgba="0 0 0 0" group="3" mass="0.00102699516" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_17" rgba="0 0 0 0" group="3" mass="0.0265656315" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_18" rgba="0 0 0 0" group="3" mass="0.000884384797" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_19" rgba="0 0 0 0" group="3" mass="0.000947196246" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_20" rgba="0 0 0 0" group="3" mass="0.000884384797" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_21" rgba="0 0 0 0" group="3" mass="0.00100780127" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_22" rgba="0 0 0 0" group="3" mass="0.00151758775" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_23" rgba="0 0 0 0" group="3" mass="0.00456430877" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_24" rgba="0 0 0 0" group="3" mass="0.000988490778" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_25" rgba="0 0 0 0" group="3" mass="0.00133500298" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_26" rgba="0 0 0 0" group="3" mass="0.000884384797" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_27" rgba="0 0 0 0" group="3" mass="0.000884384797" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_28" rgba="0 0 0 0" group="3" mass="0.00172467402" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="coil_of_white_cable_hull_29" rgba="0 0 0 0" group="3" mass="0.0653922617" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_00" rgba="0 0 0 0" group="3" mass="0.0714554986" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_01" rgba="0 0 0 0" group="3" mass="0.0726391641" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_02" rgba="0 0 0 0" group="3" mass="0.0339167735" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_03" rgba="0 0 0 0" group="3" mass="0.044567357" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_04" rgba="0 0 0 0" group="3" mass="0.0220630097" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_05" rgba="0 0 0 0" group="3" mass="0.0200729395" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_06" rgba="0 0 0 0" group="3" mass="0.021284605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_07" rgba="0 0 0 0" group="3" mass="0.0150380276" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_08" rgba="0 0 0 0" group="3" mass="0.0162216272" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_09" rgba="0 0 0 0" group="3" mass="0.00634483304" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_10" rgba="0 0 0 0" group="3" mass="0.0176068007" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_11" rgba="0 0 0 0" group="3" mass="0.0290999198" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_12" rgba="0 0 0 0" group="3" mass="0.0119150723" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_13" rgba="0 0 0 0" group="3" mass="0.0048959256" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_14" rgba="0 0 0 0" group="3" mass="0.00320457643" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_15" rgba="0 0 0 0" group="3" mass="0.00273539638" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_16" rgba="0 0 0 0" group="3" mass="0.00129052371" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_17" rgba="0 0 0 0" group="3" mass="0.0307551238" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_18" rgba="0 0 0 0" group="3" mass="0.000885327155" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_19" rgba="0 0 0 0" group="3" mass="0.00123389591" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_20" rgba="0 0 0 0" group="3" mass="0.000885327155" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_21" rgba="0 0 0 0" group="3" mass="0.00128834761" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_22" rgba="0 0 0 0" group="3" mass="0.00188087313" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_23" rgba="0 0 0 0" group="3" mass="0.00590623077" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_24" rgba="0 0 0 0" group="3" mass="0.0011443792" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_25" rgba="0 0 0 0" group="3" mass="0.00154553758" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_26" rgba="0 0 0 0" group="3" mass="0.00101259677" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_27" rgba="0 0 0 0" group="3" mass="0.000885327155" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="coil_of_white_cable_hull_28" rgba="0 0 0 0" group="3" mass="0.00222498338" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0874 0.0874 0.0303" pos="0.0000 0.0000 0.0303" />
       <geom name="place:top" class="place" type="mesh" mesh="coil_of_white_cable_top" />
     </body>

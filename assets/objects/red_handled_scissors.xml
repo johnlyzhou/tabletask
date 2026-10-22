@@ -41,40 +41,38 @@
     <mesh name="red_handled_scissors_hull_24" file="hulls/h24.obj" maxhullvert="128" />
     <mesh name="red_handled_scissors_hull_25" file="hulls/h25.obj" maxhullvert="128" />
     <mesh name="red_handled_scissors_hull_26" file="hulls/h26.obj" maxhullvert="128" />
-    <mesh name="red_handled_scissors_hull_27" file="hulls/h27.obj" maxhullvert="128" />
     <mesh name="red_handled_scissors_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="red_handled_scissors">
       <geom type="mesh" mesh="red_handled_scissors_0_mesh" material="red_handled_scissors_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_00" rgba="0 0 0 0" group="3" mass="0.00225758075" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_01" rgba="0 0 0 0" group="3" mass="0.00162547058" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_02" rgba="0 0 0 0" group="3" mass="0.00101513572" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_03" rgba="0 0 0 0" group="3" mass="0.00116338555" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_04" rgba="0 0 0 0" group="3" mass="0.00122893051" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_05" rgba="0 0 0 0" group="3" mass="0.000777684337" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_06" rgba="0 0 0 0" group="3" mass="0.000274225152" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_07" rgba="0 0 0 0" group="3" mass="0.000706819014" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_08" rgba="0 0 0 0" group="3" mass="0.000412910026" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_09" rgba="0 0 0 0" group="3" mass="0.000855571114" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_10" rgba="0 0 0 0" group="3" mass="0.000312393541" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_11" rgba="0 0 0 0" group="3" mass="0.00157230252" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_12" rgba="0 0 0 0" group="3" mass="0.000653480824" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_13" rgba="0 0 0 0" group="3" mass="0.000887836607" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_14" rgba="0 0 0 0" group="3" mass="0.00077653271" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_15" rgba="0 0 0 0" group="3" mass="0.000737362709" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_16" rgba="0 0 0 0" group="3" mass="0.00100041218" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_17" rgba="0 0 0 0" group="3" mass="0.00017661019" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_18" rgba="0 0 0 0" group="3" mass="0.000111991409" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_19" rgba="0 0 0 0" group="3" mass="0.00233884198" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_20" rgba="0 0 0 0" group="3" mass="0.000618805468" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_21" rgba="0 0 0 0" group="3" mass="0.000380772392" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_22" rgba="0 0 0 0" group="3" mass="0.00109402139" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_23" rgba="0 0 0 0" group="3" mass="0.000876982505" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_24" rgba="0 0 0 0" group="3" mass="0.000426331844" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_25" rgba="0 0 0 0" group="3" mass="0.000459231309" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_26" rgba="0 0 0 0" group="3" mass="0.000931625988" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="red_handled_scissors_hull_27" rgba="0 0 0 0" group="3" mass="0.0323267517" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_00" rgba="0 0 0 0" group="3" mass="0.0058653867" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_01" rgba="0 0 0 0" group="3" mass="0.00394992892" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_02" rgba="0 0 0 0" group="3" mass="0.00241306049" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_03" rgba="0 0 0 0" group="3" mass="0.00261196531" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_04" rgba="0 0 0 0" group="3" mass="0.00292764732" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_05" rgba="0 0 0 0" group="3" mass="0.00187632728" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_06" rgba="0 0 0 0" group="3" mass="0.000733828032" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_07" rgba="0 0 0 0" group="3" mass="0.00169660576" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_08" rgba="0 0 0 0" group="3" mass="0.000981072815" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_09" rgba="0 0 0 0" group="3" mass="0.00195525572" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_10" rgba="0 0 0 0" group="3" mass="0.000749156054" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_11" rgba="0 0 0 0" group="3" mass="0.00360599666" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_12" rgba="0 0 0 0" group="3" mass="0.00155878239" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_13" rgba="0 0 0 0" group="3" mass="0.00208833719" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_14" rgba="0 0 0 0" group="3" mass="0.00165062863" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_15" rgba="0 0 0 0" group="3" mass="0.00164953573" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_16" rgba="0 0 0 0" group="3" mass="0.00224641653" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_17" rgba="0 0 0 0" group="3" mass="0.000419061207" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_18" rgba="0 0 0 0" group="3" mass="0.000298171803" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_19" rgba="0 0 0 0" group="3" mass="0.00564711478" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_20" rgba="0 0 0 0" group="3" mass="0.00146673801" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_21" rgba="0 0 0 0" group="3" mass="0.000898288493" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_22" rgba="0 0 0 0" group="3" mass="0.00245946762" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_23" rgba="0 0 0 0" group="3" mass="0.00202267818" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_24" rgba="0 0 0 0" group="3" mass="0.000975816557" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_25" rgba="0 0 0 0" group="3" mass="0.00109935709" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_handled_scissors_hull_26" rgba="0 0 0 0" group="3" mass="0.00215337477" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0383 0.1048 0.0073" pos="0.0000 0.0000 0.0073" />
       <geom name="place:top" class="place" type="mesh" mesh="red_handled_scissors_top" />
     </body>

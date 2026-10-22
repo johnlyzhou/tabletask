@@ -37,35 +37,33 @@
     <mesh name="green_toy_crocodile_hull_20" file="hulls/h20.obj" maxhullvert="128" />
     <mesh name="green_toy_crocodile_hull_21" file="hulls/h21.obj" maxhullvert="128" />
     <mesh name="green_toy_crocodile_hull_22" file="hulls/h22.obj" maxhullvert="128" />
-    <mesh name="green_toy_crocodile_hull_23" file="hulls/h23.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="green_toy_crocodile">
       <geom type="mesh" mesh="green_toy_crocodile_0_mesh" material="green_toy_crocodile_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_00" rgba="0 0 0 0" group="3" mass="0.0238538619" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_01" rgba="0 0 0 0" group="3" mass="0.00308374313" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_02" rgba="0 0 0 0" group="3" mass="0.0161493815" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_03" rgba="0 0 0 0" group="3" mass="0.00481901675" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_04" rgba="0 0 0 0" group="3" mass="0.0135992901" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_05" rgba="0 0 0 0" group="3" mass="0.00908513181" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_06" rgba="0 0 0 0" group="3" mass="0.00154869696" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_07" rgba="0 0 0 0" group="3" mass="0.00858630773" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_08" rgba="0 0 0 0" group="3" mass="0.00701720555" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_09" rgba="0 0 0 0" group="3" mass="0.00248517868" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_10" rgba="0 0 0 0" group="3" mass="0.0159904089" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_11" rgba="0 0 0 0" group="3" mass="0.00241350395" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_12" rgba="0 0 0 0" group="3" mass="0.00817821711" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_13" rgba="0 0 0 0" group="3" mass="0.00141975192" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_14" rgba="0 0 0 0" group="3" mass="0.016783137" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_15" rgba="0 0 0 0" group="3" mass="0.00457420546" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_16" rgba="0 0 0 0" group="3" mass="0.000387227275" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_17" rgba="0 0 0 0" group="3" mass="0.000686262046" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_18" rgba="0 0 0 0" group="3" mass="0.0076364297" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_19" rgba="0 0 0 0" group="3" mass="0.00280258211" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_20" rgba="0 0 0 0" group="3" mass="0.00649612137" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_21" rgba="0 0 0 0" group="3" mass="0.00250837166" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_22" rgba="0 0 0 0" group="3" mass="0.00038344735" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="green_toy_crocodile_hull_23" rgba="0 0 0 0" group="3" mass="0.03151252" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_00" rgba="0 0 0 0" group="3" mass="0.0283311399" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_01" rgba="0 0 0 0" group="3" mass="0.00366254985" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_02" rgba="0 0 0 0" group="3" mass="0.0191805583" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_03" rgba="0 0 0 0" group="3" mass="0.00572352764" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_04" rgba="0 0 0 0" group="3" mass="0.0161518245" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_05" rgba="0 0 0 0" group="3" mass="0.0110528889" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_06" rgba="0 0 0 0" group="3" mass="0.00183938142" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_07" rgba="0 0 0 0" group="3" mass="0.0104342399" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_08" rgba="0 0 0 0" group="3" mass="0.00859039029" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_09" rgba="0 0 0 0" group="3" mass="0.0030290324" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_10" rgba="0 0 0 0" group="3" mass="0.018991747" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_11" rgba="0 0 0 0" group="3" mass="0.00295709565" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_12" rgba="0 0 0 0" group="3" mass="0.00999553577" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_13" rgba="0 0 0 0" group="3" mass="0.00168623389" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_14" rgba="0 0 0 0" group="3" mass="0.0199332672" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_15" rgba="0 0 0 0" group="3" mass="0.00555854668" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_16" rgba="0 0 0 0" group="3" mass="0.000459908344" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_17" rgba="0 0 0 0" group="3" mass="0.00081507079" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_18" rgba="0 0 0 0" group="3" mass="0.00906975816" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_19" rgba="0 0 0 0" group="3" mass="0.00339840316" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_20" rgba="0 0 0 0" group="3" mass="0.00771541834" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_21" rgba="0 0 0 0" group="3" mass="0.00303999439" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="green_toy_crocodile_hull_22" rgba="0 0 0 0" group="3" mass="0.000383487483" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0986 0.0333 0.0304" pos="0.0000 0.0000 0.0304" />
     </body>
   </worldbody>

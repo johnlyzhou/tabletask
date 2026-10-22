@@ -32,30 +32,28 @@
     <mesh name="orange_pastry_hull_15" file="hulls/h15.obj" maxhullvert="128" />
     <mesh name="orange_pastry_hull_16" file="hulls/h16.obj" maxhullvert="128" />
     <mesh name="orange_pastry_hull_17" file="hulls/h17.obj" maxhullvert="128" />
-    <mesh name="orange_pastry_hull_18" file="hulls/h18.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="orange_pastry">
       <geom type="mesh" mesh="orange_pastry_0_mesh" material="orange_pastry_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_00" rgba="0 0 0 0" group="3" mass="0.00161241548" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_01" rgba="0 0 0 0" group="3" mass="0.000486674069" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_02" rgba="0 0 0 0" group="3" mass="0.000933656292" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_03" rgba="0 0 0 0" group="3" mass="0.000365738862" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_04" rgba="0 0 0 0" group="3" mass="0.00124540359" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_05" rgba="0 0 0 0" group="3" mass="0.00146619138" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_06" rgba="0 0 0 0" group="3" mass="0.000220547832" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_07" rgba="0 0 0 0" group="3" mass="0.00132477359" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_08" rgba="0 0 0 0" group="3" mass="0.00122152352" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_09" rgba="0 0 0 0" group="3" mass="0.00136889485" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_10" rgba="0 0 0 0" group="3" mass="6.82539511e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_11" rgba="0 0 0 0" group="3" mass="0.000578183613" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_12" rgba="0 0 0 0" group="3" mass="3.59904761e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_13" rgba="0 0 0 0" group="3" mass="0.000438570202" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_14" rgba="0 0 0 0" group="3" mass="0.000137287236" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_15" rgba="0 0 0 0" group="3" mass="0.000141000805" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_16" rgba="0 0 0 0" group="3" mass="0.000549173648" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_17" rgba="0 0 0 0" group="3" mass="0.000234087838" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="orange_pastry_hull_18" rgba="0 0 0 0" group="3" mass="0.00557163276" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_00" rgba="0 0 0 0" group="3" mass="0.002561001" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_01" rgba="0 0 0 0" group="3" mass="0.000658922279" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_02" rgba="0 0 0 0" group="3" mass="0.00133632489" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_03" rgba="0 0 0 0" group="3" mass="0.00049518456" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_04" rgba="0 0 0 0" group="3" mass="0.00176945662" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_05" rgba="0 0 0 0" group="3" mass="0.00210021149" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_06" rgba="0 0 0 0" group="3" mass="0.00029860617" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_07" rgba="0 0 0 0" group="3" mass="0.00191057282" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_08" rgba="0 0 0 0" group="3" mass="0.00174595338" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_09" rgba="0 0 0 0" group="3" mass="0.00197807198" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_10" rgba="0 0 0 0" group="3" mass="9.24110238e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_11" rgba="0 0 0 0" group="3" mass="0.000854907497" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_12" rgba="0 0 0 0" group="3" mass="4.22812227e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_13" rgba="0 0 0 0" group="3" mass="0.000593793045" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_14" rgba="0 0 0 0" group="3" mass="0.00018587721" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_15" rgba="0 0 0 0" group="3" mass="0.000215904304" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_16" rgba="0 0 0 0" group="3" mass="0.000843582111" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_pastry_hull_17" rgba="0 0 0 0" group="3" mass="0.000316938382" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0202 0.0372 0.0137" pos="0.0000 0.0000 0.0137" />
     </body>
   </worldbody>

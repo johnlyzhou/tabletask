@@ -45,43 +45,41 @@
     <mesh name="small_green_broccoli_floret_hull_28" file="hulls/h28.obj" maxhullvert="128" />
     <mesh name="small_green_broccoli_floret_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="small_green_broccoli_floret_hull_30" file="hulls/h30.obj" maxhullvert="128" />
-    <mesh name="small_green_broccoli_floret_hull_31" file="hulls/h31.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="small_green_broccoli_floret">
       <geom type="mesh" mesh="small_green_broccoli_floret_0_mesh" material="small_green_broccoli_floret_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_00" rgba="0 0 0 0" group="3" mass="0.000927313401" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_01" rgba="0 0 0 0" group="3" mass="0.000942606514" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_02" rgba="0 0 0 0" group="3" mass="0.000905777968" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_03" rgba="0 0 0 0" group="3" mass="6.93700663e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_04" rgba="0 0 0 0" group="3" mass="0.00020470933" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_05" rgba="0 0 0 0" group="3" mass="0.000121518663" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_06" rgba="0 0 0 0" group="3" mass="0.0013910493" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_07" rgba="0 0 0 0" group="3" mass="0.000337016492" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_08" rgba="0 0 0 0" group="3" mass="0.000297323455" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_09" rgba="0 0 0 0" group="3" mass="0.000270699195" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_10" rgba="0 0 0 0" group="3" mass="0.000108345835" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_11" rgba="0 0 0 0" group="3" mass="2.59555979e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_12" rgba="0 0 0 0" group="3" mass="6.60561566e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_13" rgba="0 0 0 0" group="3" mass="0.000183420809" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_14" rgba="0 0 0 0" group="3" mass="0.000142867806" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_15" rgba="0 0 0 0" group="3" mass="0.000755449483" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_16" rgba="0 0 0 0" group="3" mass="2.59555979e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_17" rgba="0 0 0 0" group="3" mass="0.00062474355" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_18" rgba="0 0 0 0" group="3" mass="0.000199277337" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_19" rgba="0 0 0 0" group="3" mass="0.000670506882" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_20" rgba="0 0 0 0" group="3" mass="0.000135838613" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_21" rgba="0 0 0 0" group="3" mass="2.59555979e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_22" rgba="0 0 0 0" group="3" mass="3.89151784e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_23" rgba="0 0 0 0" group="3" mass="0.000329468713" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_24" rgba="0 0 0 0" group="3" mass="0.000238510905" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_25" rgba="0 0 0 0" group="3" mass="0.000181065249" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_26" rgba="0 0 0 0" group="3" mass="0.000156093585" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_27" rgba="0 0 0 0" group="3" mass="0.000179991968" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_28" rgba="0 0 0 0" group="3" mass="0.00015521191" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_29" rgba="0 0 0 0" group="3" mass="8.03516599e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_30" rgba="0 0 0 0" group="3" mass="8.44093622e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_green_broccoli_floret_hull_31" rgba="0 0 0 0" group="3" mass="0.00312422382" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_00" rgba="0 0 0 0" group="3" mass="0.00118223143" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_01" rgba="0 0 0 0" group="3" mass="0.00133369697" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_02" rgba="0 0 0 0" group="3" mass="0.00121034666" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_03" rgba="0 0 0 0" group="3" mass="8.84398657e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_04" rgba="0 0 0 0" group="3" mass="0.000260983832" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_05" rgba="0 0 0 0" group="3" mass="0.000154924088" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_06" rgba="0 0 0 0" group="3" mass="0.00192098025" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_07" rgba="0 0 0 0" group="3" mass="0.000429662171" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_08" rgba="0 0 0 0" group="3" mass="0.000379057537" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_09" rgba="0 0 0 0" group="3" mass="0.00034511428" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_10" rgba="0 0 0 0" group="3" mass="0.000138130055" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_11" rgba="0 0 0 0" group="3" mass="2.59860204e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_12" rgba="0 0 0 0" group="3" mass="8.42149638e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_13" rgba="0 0 0 0" group="3" mass="0.000233843105" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_14" rgba="0 0 0 0" group="3" mass="0.0001821421" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_15" rgba="0 0 0 0" group="3" mass="0.000963122199" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_16" rgba="0 0 0 0" group="3" mass="2.59860204e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_17" rgba="0 0 0 0" group="3" mass="0.000796485265" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_18" rgba="0 0 0 0" group="3" mass="0.000254058586" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_19" rgba="0 0 0 0" group="3" mass="0.00088219467" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_20" rgba="0 0 0 0" group="3" mass="0.000173180585" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_21" rgba="0 0 0 0" group="3" mass="2.59860204e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_22" rgba="0 0 0 0" group="3" mass="5.92603301e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_23" rgba="0 0 0 0" group="3" mass="0.000420039511" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_24" rgba="0 0 0 0" group="3" mass="0.000304077443" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_25" rgba="0 0 0 0" group="3" mass="0.000230840003" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_26" rgba="0 0 0 0" group="3" mass="0.000237715836" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_27" rgba="0 0 0 0" group="3" mass="0.000229471678" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_28" rgba="0 0 0 0" group="3" mass="0.000197879592" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_29" rgba="0 0 0 0" group="3" mass="0.000122335472" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_green_broccoli_floret_hull_30" rgba="0 0 0 0" group="3" mass="0.000107613457" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0202 0.0229 0.0191" pos="0.0000 0.0000 0.0191" />
     </body>
   </worldbody>

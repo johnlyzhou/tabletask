@@ -46,44 +46,42 @@
     <mesh name="grey_triceratops_figure_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="grey_triceratops_figure_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="grey_triceratops_figure_hull_31" file="hulls/h31.obj" maxhullvert="128" />
-    <mesh name="grey_triceratops_figure_hull_32" file="hulls/h32.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="grey_triceratops_figure">
       <geom type="mesh" mesh="grey_triceratops_figure_0_mesh" material="grey_triceratops_figure_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.00451495436" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.00383785011" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.00528735975" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.00331500555" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.00935599338" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.0103342277" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.0522566185" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.00331068432" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.00361613096" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.0211475538" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.00626157873" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.00693843427" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.00473789162" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.00172838933" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.0275044572" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.00163471579" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.0100105411" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.00480984153" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.0076329655" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.0108234784" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.00506202554" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.0338416265" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_22" rgba="0 0 0 0" group="3" mass="0.00653009772" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_23" rgba="0 0 0 0" group="3" mass="0.0494220898" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_24" rgba="0 0 0 0" group="3" mass="0.00138582851" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_25" rgba="0 0 0 0" group="3" mass="0.0597852598" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_26" rgba="0 0 0 0" group="3" mass="0.00190214472" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_27" rgba="0 0 0 0" group="3" mass="0.00193444426" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_28" rgba="0 0 0 0" group="3" mass="0.078430481" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_29" rgba="0 0 0 0" group="3" mass="0.00685195519" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_30" rgba="0 0 0 0" group="3" mass="0.00199994089" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_31" rgba="0 0 0 0" group="3" mass="0.00567548249" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="grey_triceratops_figure_hull_32" rgba="0 0 0 0" group="3" mass="0.0491199518" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.00497434312" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.00479528884" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.00582533943" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.00415254677" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.0111888828" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.0125795365" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.0575736387" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.0036475407" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.00398406601" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.0232992806" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.00689868349" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.00764440791" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.00521996386" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.00190424994" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.0303029879" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.00180104528" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.0110290963" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.00529923455" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.00840960648" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.0119247485" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.00557707785" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.0372849532" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_22" rgba="0 0 0 0" group="3" mass="0.00719452382" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_23" rgba="0 0 0 0" group="3" mass="0.0544507017" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_24" rgba="0 0 0 0" group="3" mass="0.00152683415" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_25" rgba="0 0 0 0" group="3" mass="0.0658683062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_26" rgba="0 0 0 0" group="3" mass="0.00209568464" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_27" rgba="0 0 0 0" group="3" mass="0.00213127061" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_28" rgba="0 0 0 0" group="3" mass="0.0864106462" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_29" rgba="0 0 0 0" group="3" mass="0.00754912973" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_30" rgba="0 0 0 0" group="3" mass="0.00220343141" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_triceratops_figure_hull_31" rgba="0 0 0 0" group="3" mass="0.00625295298" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.1099 0.0423 0.0562" pos="0.0000 0.0000 0.0562" />
     </body>
   </worldbody>

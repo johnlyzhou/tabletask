@@ -18,16 +18,14 @@
     <mesh name="yellow_and_dark_yellow_banana_hull_01" file="hulls/h01.obj" maxhullvert="128" />
     <mesh name="yellow_and_dark_yellow_banana_hull_02" file="hulls/h02.obj" maxhullvert="128" />
     <mesh name="yellow_and_dark_yellow_banana_hull_03" file="hulls/h03.obj" maxhullvert="128" />
-    <mesh name="yellow_and_dark_yellow_banana_hull_04" file="hulls/h04.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="yellow_and_dark_yellow_banana">
       <geom type="mesh" mesh="yellow_and_dark_yellow_banana_0_mesh" material="yellow_and_dark_yellow_banana_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="yellow_and_dark_yellow_banana_hull_00" rgba="0 0 0 0" group="3" mass="0.0259323784" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_and_dark_yellow_banana_hull_01" rgba="0 0 0 0" group="3" mass="0.00734032767" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_and_dark_yellow_banana_hull_02" rgba="0 0 0 0" group="3" mass="0.155741683" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_and_dark_yellow_banana_hull_03" rgba="0 0 0 0" group="3" mass="0.0309219592" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="yellow_and_dark_yellow_banana_hull_04" rgba="0 0 0 0" group="3" mass="0.0870636504" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_and_dark_yellow_banana_hull_00" rgba="0 0 0 0" group="3" mass="0.0365247373" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_and_dark_yellow_banana_hull_01" rgba="0 0 0 0" group="3" mass="0.0106627554" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_and_dark_yellow_banana_hull_02" rgba="0 0 0 0" group="3" mass="0.216750922" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_and_dark_yellow_banana_hull_03" rgba="0 0 0 0" group="3" mass="0.0430615844" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0879 0.0753 0.0198" pos="0.0000 0.0000 0.0198" />
     </body>
   </worldbody>

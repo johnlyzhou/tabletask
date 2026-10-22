@@ -46,46 +46,44 @@
     <mesh name="av_cable_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="av_cable_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="av_cable_hull_31" file="hulls/h31.obj" maxhullvert="128" />
-    <mesh name="av_cable_hull_32" file="hulls/h32.obj" maxhullvert="128" />
     <mesh name="av_cable_inside" file="inside.obj" />
     <mesh name="av_cable_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="av_cable">
       <geom type="mesh" mesh="av_cable_0_mesh" material="av_cable_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_00" rgba="0 0 0 0" group="3" mass="0.000895723287" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_01" rgba="0 0 0 0" group="3" mass="0.000147357232" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_02" rgba="0 0 0 0" group="3" mass="0.000368879128" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_03" rgba="0 0 0 0" group="3" mass="0.00103082174" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_04" rgba="0 0 0 0" group="3" mass="0.000437491565" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_05" rgba="0 0 0 0" group="3" mass="0.000430479603" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_06" rgba="0 0 0 0" group="3" mass="7.05559324e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_07" rgba="0 0 0 0" group="3" mass="0.00142790664" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_08" rgba="0 0 0 0" group="3" mass="0.000274450871" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_09" rgba="0 0 0 0" group="3" mass="0.00333743626" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_10" rgba="0 0 0 0" group="3" mass="0.00017229454" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_11" rgba="0 0 0 0" group="3" mass="0.000626915587" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_12" rgba="0 0 0 0" group="3" mass="0.000927187201" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_13" rgba="0 0 0 0" group="3" mass="5.5830891e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_14" rgba="0 0 0 0" group="3" mass="0.000861738303" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_15" rgba="0 0 0 0" group="3" mass="5.5830891e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_16" rgba="0 0 0 0" group="3" mass="0.000160751586" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_17" rgba="0 0 0 0" group="3" mass="0.000338096126" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_18" rgba="0 0 0 0" group="3" mass="0.0003043002" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_19" rgba="0 0 0 0" group="3" mass="0.000311410418" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_20" rgba="0 0 0 0" group="3" mass="0.000148756154" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_21" rgba="0 0 0 0" group="3" mass="0.000113794612" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_22" rgba="0 0 0 0" group="3" mass="0.000128824702" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_23" rgba="0 0 0 0" group="3" mass="6.85468183e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_24" rgba="0 0 0 0" group="3" mass="5.5830891e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_25" rgba="0 0 0 0" group="3" mass="0.000104872551" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_26" rgba="0 0 0 0" group="3" mass="0.000276375759" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_27" rgba="0 0 0 0" group="3" mass="5.5830891e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_28" rgba="0 0 0 0" group="3" mass="0.000226332303" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_29" rgba="0 0 0 0" group="3" mass="5.80805583e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_30" rgba="0 0 0 0" group="3" mass="0.0014918873" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_31" rgba="0 0 0 0" group="3" mass="0.000115893444" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="av_cable_hull_32" rgba="0 0 0 0" group="3" mass="0.012919516" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_00" rgba="0 0 0 0" group="3" mass="0.00176843453" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_01" rgba="0 0 0 0" group="3" mass="0.000321694152" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_02" rgba="0 0 0 0" group="3" mass="0.000690481776" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_03" rgba="0 0 0 0" group="3" mass="0.00208191264" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_04" rgba="0 0 0 0" group="3" mass="0.000904634799" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_05" rgba="0 0 0 0" group="3" mass="0.000855711268" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_06" rgba="0 0 0 0" group="3" mass="0.000123318847" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_07" rgba="0 0 0 0" group="3" mass="0.00249571928" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_08" rgba="0 0 0 0" group="3" mass="0.000554206482" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_09" rgba="0 0 0 0" group="3" mass="0.0062837406" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_10" rgba="0 0 0 0" group="3" mass="0.0003011393" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_11" rgba="0 0 0 0" group="3" mass="0.00109573362" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_12" rgba="0 0 0 0" group="3" mass="0.00162055341" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_13" rgba="0 0 0 0" group="3" mass="8.17168713e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_14" rgba="0 0 0 0" group="3" mass="0.00150616072" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_15" rgba="0 0 0 0" group="3" mass="5.59180165e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_16" rgba="0 0 0 0" group="3" mass="0.00028096433" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_17" rgba="0 0 0 0" group="3" mass="0.000657082226" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_18" rgba="0 0 0 0" group="3" mass="0.000613249002" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_19" rgba="0 0 0 0" group="3" mass="0.000544288374" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_20" rgba="0 0 0 0" group="3" mass="0.000309062715" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_21" rgba="0 0 0 0" group="3" mass="0.00019889214" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_22" rgba="0 0 0 0" group="3" mass="0.000225161984" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_23" rgba="0 0 0 0" group="3" mass="0.000119807284" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_24" rgba="0 0 0 0" group="3" mass="6.58372118e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_25" rgba="0 0 0 0" group="3" mass="0.000183298012" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_26" rgba="0 0 0 0" group="3" mass="0.000587381958" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_27" rgba="0 0 0 0" group="3" mass="9.37958235e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_28" rgba="0 0 0 0" group="3" mass="0.000446528231" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_29" rgba="0 0 0 0" group="3" mass="0.000123468122" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_30" rgba="0 0 0 0" group="3" mass="0.00260754575" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="av_cable_hull_31" rgba="0 0 0 0" group="3" mass="0.000202560514" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0493 0.0239 0.0124" pos="0.0000 0.0000 0.0124" />
       <geom name="place:inside" class="place" type="mesh" mesh="av_cable_inside" />
       <geom name="place:top" class="place" type="mesh" mesh="av_cable_top" />

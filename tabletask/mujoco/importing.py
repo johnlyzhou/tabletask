@@ -86,7 +86,7 @@ def decompose_collision(points: np.ndarray, triangles: np.ndarray, folder: Path)
     """Write convex collision hulls, refining until the volume saved per hull is too small.
 
     Returns:
-        Paths of the written hull `.obj` files, including a flattened base hull if any.
+        Paths of the written hull `.obj` files.
     """
     import coacd
     import trimesh
@@ -124,34 +124,43 @@ def decompose_collision(points: np.ndarray, triangles: np.ndarray, folder: Path)
     if not best:
         raise ValueError("collision decomposition produced no usable hulls")
     written = []
-    for hull in [*best, base_hull(points, best)]:
-        if hull is not None:
-            written.append(folder / f"h{len(written):02d}.obj")
-            hull.export(written[-1])
+    for hull in flatten_base(points, best):
+        written.append(folder / f"h{len(written):02d}.obj")
+        hull.export(written[-1])
     return written
 
 
-def base_hull(points: np.ndarray, pieces: list):
-    """Flattened support hull under the mesh, or None when the base is too narrow."""
+def flatten_base(points: np.ndarray, pieces: list) -> list:
+    """Flatten the bottoms of the hulls the mesh rests on, so it sits flat.
+
+    Each hull's vertices near the lowest point drop to one floor, so the seat stays
+    inside the object's outline; nothing changes when the contact patch is too narrow.
+    """
     import trimesh
 
     low = points[:, 2].min()
-    base = points[points[:, 2] < low + BASE_DEPTH].copy()
+    base = points[points[:, 2] < low + BASE_DEPTH]
     seat = base[:, 2] < low + BASE_FLATTEN_DEPTH
     if seat.sum() < 3 or len(base) < 4:
-        return None
+        return pieces
     span_seat, span_base = np.ptp(base[seat, :2], axis=0), np.ptp(base[:, :2], axis=0)
     if np.any(span_seat < 0.01) or np.any(span_seat < 0.7 * span_base):
-        return None  # The contact patch is too narrow to flatten.
-    floor = min(p.vertices[:, 2].min() for p in pieces) - 0.0005 if pieces else low
-    base[seat, 2] = floor
-    if np.linalg.matrix_rank(base - base[0]) < 3:
-        return None
-    try:
-        hull = trimesh.convex.convex_hull(base)
-    except (QhullError, ValueError):
-        return None
-    return hull if hull.volume >= MIN_HULL_VOLUME else None
+        return pieces  # The contact patch is too narrow to flatten.
+    floor = min(p.vertices[:, 2].min() for p in pieces)
+    flattened = []
+    for piece in pieces:
+        vertices = piece.vertices.copy()
+        low_vertices = vertices[:, 2] < floor + BASE_FLATTEN_DEPTH
+        if low_vertices.any():
+            vertices[low_vertices, 2] = floor
+            try:
+                flat = trimesh.convex.convex_hull(vertices)
+            except (QhullError, ValueError):
+                flat = None
+            if flat is not None and flat.volume >= 0.5 * piece.volume:
+                piece = flat  # a hull lying within the seat would flatten to a sheet
+        flattened.append(piece)
+    return flattened
 
 
 def _colliders(path: Path, root) -> list[ET.Element]:

@@ -46,44 +46,42 @@
     <mesh name="allosaurus_figure_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="allosaurus_figure_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="allosaurus_figure_hull_31" file="hulls/h31.obj" maxhullvert="128" />
-    <mesh name="allosaurus_figure_hull_32" file="hulls/h32.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="allosaurus_figure">
       <geom type="mesh" mesh="allosaurus_figure_0_mesh" material="allosaurus_figure_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.0114556082" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.0291910588" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.00843253841" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.00917565694" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.00168454416" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.00211568668" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.0119381771" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.0420097461" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.00265827275" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.0154242288" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.127641643" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.00340989814" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.00165508792" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.0267085349" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.0125765086" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.00351866896" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.00179594502" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.00356636365" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.00147750227" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.00378789394" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.00136324177" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.00336095435" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_22" rgba="0 0 0 0" group="3" mass="0.00778324125" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_23" rgba="0 0 0 0" group="3" mass="0.00288318851" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_24" rgba="0 0 0 0" group="3" mass="0.0030401418" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_25" rgba="0 0 0 0" group="3" mass="0.0101510787" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_26" rgba="0 0 0 0" group="3" mass="0.00346295891" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_27" rgba="0 0 0 0" group="3" mass="0.00113612366" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_28" rgba="0 0 0 0" group="3" mass="0.013503329" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_29" rgba="0 0 0 0" group="3" mass="0.00302599264" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_30" rgba="0 0 0 0" group="3" mass="0.0167299059" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_31" rgba="0 0 0 0" group="3" mass="0.00138613552" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="allosaurus_figure_hull_32" rgba="0 0 0 0" group="3" mass="0.0379501436" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.0124752879" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.0317893959" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.0095668597" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.0106212889" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.00204223051" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.00277811054" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.013000811" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.0457490925" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.00309250158" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.0167971611" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.139003205" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.00420809524" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.00210148582" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.029085899" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.0136959613" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.00383187062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.00233105374" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.00388381068" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.00195721442" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.00412505969" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.00148458583" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.00366011761" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_22" rgba="0 0 0 0" group="3" mass="0.00847603846" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_23" rgba="0 0 0 0" group="3" mass="0.00313982516" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_24" rgba="0 0 0 0" group="3" mass="0.00331074908" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_25" rgba="0 0 0 0" group="3" mass="0.0110546404" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_26" rgba="0 0 0 0" group="3" mass="0.00377120174" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_27" rgba="0 0 0 0" group="3" mass="0.00123725162" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_28" rgba="0 0 0 0" group="3" mass="0.0147052792" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_29" rgba="0 0 0 0" group="3" mass="0.00329534049" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_30" rgba="0 0 0 0" group="3" mass="0.0182190583" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="allosaurus_figure_hull_31" rgba="0 0 0 0" group="3" mass="0.00150951738" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0337 0.1114 0.0592" pos="0.0000 0.0000 0.0592" />
     </body>
   </worldbody>

@@ -46,44 +46,42 @@
     <mesh name="toy_bee_pull_toy_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="toy_bee_pull_toy_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="toy_bee_pull_toy_hull_31" file="hulls/h31.obj" maxhullvert="128" />
-    <mesh name="toy_bee_pull_toy_hull_32" file="hulls/h32.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="toy_bee_pull_toy">
       <geom type="mesh" mesh="toy_bee_pull_toy_0_mesh" material="toy_bee_pull_toy_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_00" rgba="0 0 0 0" group="3" mass="0.00587154492" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_01" rgba="0 0 0 0" group="3" mass="0.00148453156" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_02" rgba="0 0 0 0" group="3" mass="0.250951542" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_03" rgba="0 0 0 0" group="3" mass="0.0104489848" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_04" rgba="0 0 0 0" group="3" mass="0.00584609173" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_05" rgba="0 0 0 0" group="3" mass="0.00148453156" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_06" rgba="0 0 0 0" group="3" mass="0.00155365697" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_07" rgba="0 0 0 0" group="3" mass="0.00148453156" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_08" rgba="0 0 0 0" group="3" mass="0.0110356616" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_09" rgba="0 0 0 0" group="3" mass="0.00148453156" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_10" rgba="0 0 0 0" group="3" mass="0.00148453156" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_11" rgba="0 0 0 0" group="3" mass="0.00195830799" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_12" rgba="0 0 0 0" group="3" mass="0.0209999732" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_13" rgba="0 0 0 0" group="3" mass="0.0111700542" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_14" rgba="0 0 0 0" group="3" mass="0.001516595" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_15" rgba="0 0 0 0" group="3" mass="0.00282068679" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_16" rgba="0 0 0 0" group="3" mass="0.00921729768" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_17" rgba="0 0 0 0" group="3" mass="0.00736345022" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_18" rgba="0 0 0 0" group="3" mass="0.00561660211" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_19" rgba="0 0 0 0" group="3" mass="0.115751738" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_20" rgba="0 0 0 0" group="3" mass="0.0300412705" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_21" rgba="0 0 0 0" group="3" mass="0.0297635585" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_22" rgba="0 0 0 0" group="3" mass="0.00148453156" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_23" rgba="0 0 0 0" group="3" mass="0.0062390284" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_24" rgba="0 0 0 0" group="3" mass="0.00948015105" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_25" rgba="0 0 0 0" group="3" mass="0.00428301982" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_26" rgba="0 0 0 0" group="3" mass="0.00148453156" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_27" rgba="0 0 0 0" group="3" mass="0.00531561006" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_28" rgba="0 0 0 0" group="3" mass="0.00690961716" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_29" rgba="0 0 0 0" group="3" mass="0.00369000178" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_30" rgba="0 0 0 0" group="3" mass="0.00371332571" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_31" rgba="0 0 0 0" group="3" mass="0.0375918659" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_bee_pull_toy_hull_32" rgba="0 0 0 0" group="3" mass="0.135458642" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_00" rgba="0 0 0 0" group="3" mass="0.00709753749" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_01" rgba="0 0 0 0" group="3" mass="0.00148750799" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_02" rgba="0 0 0 0" group="3" mass="0.30977217" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_03" rgba="0 0 0 0" group="3" mass="0.0126307578" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_04" rgba="0 0 0 0" group="3" mass="0.00706676961" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_05" rgba="0 0 0 0" group="3" mass="0.0019419268" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_06" rgba="0 0 0 0" group="3" mass="0.00187806425" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_07" rgba="0 0 0 0" group="3" mass="0.00148750799" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_08" rgba="0 0 0 0" group="3" mass="0.013339934" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_09" rgba="0 0 0 0" group="3" mass="0.00202353995" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_10" rgba="0 0 0 0" group="3" mass="0.00148750799" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_11" rgba="0 0 0 0" group="3" mass="0.00277518724" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_12" rgba="0 0 0 0" group="3" mass="0.0264318658" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_13" rgba="0 0 0 0" group="3" mass="0.0135023881" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_14" rgba="0 0 0 0" group="3" mass="0.00183326365" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_15" rgba="0 0 0 0" group="3" mass="0.00340965292" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_16" rgba="0 0 0 0" group="3" mass="0.0111418914" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_17" rgba="0 0 0 0" group="3" mass="0.00890095617" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_18" rgba="0 0 0 0" group="3" mass="0.00678936201" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_19" rgba="0 0 0 0" group="3" mass="0.139920977" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_20" rgba="0 0 0 0" group="3" mass="0.0363139593" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_21" rgba="0 0 0 0" group="3" mass="0.0359782604" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_22" rgba="0 0 0 0" group="3" mass="0.00148750799" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_23" rgba="0 0 0 0" group="3" mass="0.00851681902" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_24" rgba="0 0 0 0" group="3" mass="0.0114596292" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_25" rgba="0 0 0 0" group="3" mass="0.00517732456" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_26" rgba="0 0 0 0" group="3" mass="0.00197954917" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_27" rgba="0 0 0 0" group="3" mass="0.0064255221" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_28" rgba="0 0 0 0" group="3" mass="0.00835236168" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_29" rgba="0 0 0 0" group="3" mass="0.00446048295" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_30" rgba="0 0 0 0" group="3" mass="0.00448867697" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_bee_pull_toy_hull_31" rgba="0 0 0 0" group="3" mass="0.045441137" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.1029 0.0674 0.0560" pos="0.0000 0.0000 0.0560" />
     </body>
   </worldbody>

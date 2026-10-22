@@ -28,27 +28,25 @@
     <mesh name="roll_of_green_tape_hull_11" file="hulls/h11.obj" maxhullvert="128" />
     <mesh name="roll_of_green_tape_hull_12" file="hulls/h12.obj" maxhullvert="128" />
     <mesh name="roll_of_green_tape_hull_13" file="hulls/h13.obj" maxhullvert="128" />
-    <mesh name="roll_of_green_tape_hull_14" file="hulls/h14.obj" maxhullvert="128" />
     <mesh name="roll_of_green_tape_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="roll_of_green_tape">
       <geom type="mesh" mesh="roll_of_green_tape_0_mesh" material="roll_of_green_tape_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_00" rgba="0 0 0 0" group="3" mass="0.00662573305" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_01" rgba="0 0 0 0" group="3" mass="0.00389474444" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_02" rgba="0 0 0 0" group="3" mass="0.00275996863" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_03" rgba="0 0 0 0" group="3" mass="0.0030891437" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_04" rgba="0 0 0 0" group="3" mass="0.00199980817" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_05" rgba="0 0 0 0" group="3" mass="0.00559146906" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_06" rgba="0 0 0 0" group="3" mass="0.00547772331" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_07" rgba="0 0 0 0" group="3" mass="0.0050325515" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_08" rgba="0 0 0 0" group="3" mass="0.00236009221" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_09" rgba="0 0 0 0" group="3" mass="0.00242169851" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_10" rgba="0 0 0 0" group="3" mass="0.00267665938" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_11" rgba="0 0 0 0" group="3" mass="0.00224343798" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_12" rgba="0 0 0 0" group="3" mass="0.00281378422" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_13" rgba="0 0 0 0" group="3" mass="0.00254768051" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="roll_of_green_tape_hull_14" rgba="0 0 0 0" group="3" mass="0.0284655053" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_00" rgba="0 0 0 0" group="3" mass="0.0102759078" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_01" rgba="0 0 0 0" group="3" mass="0.00612349005" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_02" rgba="0 0 0 0" group="3" mass="0.00424606673" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_03" rgba="0 0 0 0" group="3" mass="0.00494140754" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_04" rgba="0 0 0 0" group="3" mass="0.00308258208" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_05" rgba="0 0 0 0" group="3" mass="0.00888498763" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_06" rgba="0 0 0 0" group="3" mass="0.00863775119" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_07" rgba="0 0 0 0" group="3" mass="0.00808831815" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_08" rgba="0 0 0 0" group="3" mass="0.0036868965" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_09" rgba="0 0 0 0" group="3" mass="0.0038863831" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_10" rgba="0 0 0 0" group="3" mass="0.0041523983" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_11" rgba="0 0 0 0" group="3" mass="0.00359226323" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_12" rgba="0 0 0 0" group="3" mass="0.00433864067" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="roll_of_green_tape_hull_13" rgba="0 0 0 0" group="3" mass="0.00406290697" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0554 0.0552 0.0133" pos="0.0000 0.0000 0.0133" />
       <geom name="place:top" class="place" type="mesh" mesh="roll_of_green_tape_top" />
     </body>

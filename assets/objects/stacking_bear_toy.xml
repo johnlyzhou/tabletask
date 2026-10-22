@@ -33,31 +33,29 @@
     <mesh name="stacking_bear_toy_hull_16" file="hulls/h16.obj" maxhullvert="128" />
     <mesh name="stacking_bear_toy_hull_17" file="hulls/h17.obj" maxhullvert="128" />
     <mesh name="stacking_bear_toy_hull_18" file="hulls/h18.obj" maxhullvert="128" />
-    <mesh name="stacking_bear_toy_hull_19" file="hulls/h19.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="stacking_bear_toy">
       <geom type="mesh" mesh="stacking_bear_toy_0_mesh" material="stacking_bear_toy_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_00" rgba="0 0 0 0" group="3" mass="0.277203431" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_01" rgba="0 0 0 0" group="3" mass="0.0639291178" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_02" rgba="0 0 0 0" group="3" mass="0.0138224453" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_03" rgba="0 0 0 0" group="3" mass="0.0157892895" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_04" rgba="0 0 0 0" group="3" mass="0.00810773016" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_05" rgba="0 0 0 0" group="3" mass="0.00318244826" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_06" rgba="0 0 0 0" group="3" mass="0.00297679794" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_07" rgba="0 0 0 0" group="3" mass="0.00697503998" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_08" rgba="0 0 0 0" group="3" mass="0.0022507536" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_09" rgba="0 0 0 0" group="3" mass="0.00233256204" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_10" rgba="0 0 0 0" group="3" mass="0.00256579417" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_11" rgba="0 0 0 0" group="3" mass="0.00860491637" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_12" rgba="0 0 0 0" group="3" mass="0.00224259258" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_13" rgba="0 0 0 0" group="3" mass="0.00227218936" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_14" rgba="0 0 0 0" group="3" mass="0.00268507491" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_15" rgba="0 0 0 0" group="3" mass="0.00414289665" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_16" rgba="0 0 0 0" group="3" mass="0.00215857033" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_17" rgba="0 0 0 0" group="3" mass="0.0052872279" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_18" rgba="0 0 0 0" group="3" mass="0.00190270482" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="stacking_bear_toy_hull_19" rgba="0 0 0 0" group="3" mass="0.0385684174" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_00" rgba="0 0 0 0" group="3" mass="0.300630181" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_01" rgba="0 0 0 0" group="3" mass="0.069331834" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_02" rgba="0 0 0 0" group="3" mass="0.0149905945" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_03" rgba="0 0 0 0" group="3" mass="0.0171236588" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_04" rgba="0 0 0 0" group="3" mass="0.00879292286" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_05" rgba="0 0 0 0" group="3" mass="0.00381429874" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_06" rgba="0 0 0 0" group="3" mass="0.00341220538" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_07" rgba="0 0 0 0" group="3" mass="0.00756450786" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_08" rgba="0 0 0 0" group="3" mass="0.00257784676" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_09" rgba="0 0 0 0" group="3" mass="0.00287465981" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_10" rgba="0 0 0 0" group="3" mass="0.00300869975" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_11" rgba="0 0 0 0" group="3" mass="0.00933212679" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_12" rgba="0 0 0 0" group="3" mass="0.00266462229" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_13" rgba="0 0 0 0" group="3" mass="0.00279255581" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_14" rgba="0 0 0 0" group="3" mass="0.00291199338" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_15" rgba="0 0 0 0" group="3" mass="0.0047067965" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_16" rgba="0 0 0 0" group="3" mass="0.00244147146" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_17" rgba="0 0 0 0" group="3" mass="0.00573405702" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_bear_toy_hull_18" rgba="0 0 0 0" group="3" mass="0.00229496746" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0540 0.0506 0.0890" pos="0.0000 0.0000 0.0890" />
     </body>
   </worldbody>

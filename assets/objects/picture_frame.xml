@@ -33,31 +33,29 @@
     <mesh name="picture_frame_hull_16" file="hulls/h16.obj" maxhullvert="128" />
     <mesh name="picture_frame_hull_17" file="hulls/h17.obj" maxhullvert="128" />
     <mesh name="picture_frame_hull_18" file="hulls/h18.obj" maxhullvert="128" />
-    <mesh name="picture_frame_hull_19" file="hulls/h19.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="picture_frame">
       <geom type="mesh" mesh="picture_frame_0_mesh" material="picture_frame_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_00" rgba="0 0 0 0" group="3" mass="0.0214901968" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_01" rgba="0 0 0 0" group="3" mass="0.00575567533" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_02" rgba="0 0 0 0" group="3" mass="0.0163716285" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_03" rgba="0 0 0 0" group="3" mass="0.0164908706" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_04" rgba="0 0 0 0" group="3" mass="0.00434673814" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_05" rgba="0 0 0 0" group="3" mass="0.0233884551" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_06" rgba="0 0 0 0" group="3" mass="0.0226985499" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_07" rgba="0 0 0 0" group="3" mass="0.0220449718" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_08" rgba="0 0 0 0" group="3" mass="0.00117247037" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_09" rgba="0 0 0 0" group="3" mass="0.00276894098" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_10" rgba="0 0 0 0" group="3" mass="0.00799813985" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_11" rgba="0 0 0 0" group="3" mass="0.000602652698" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_12" rgba="0 0 0 0" group="3" mass="0.0276730073" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_13" rgba="0 0 0 0" group="3" mass="0.0401034455" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_14" rgba="0 0 0 0" group="3" mass="0.0431617605" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_15" rgba="0 0 0 0" group="3" mass="0.00132137764" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_16" rgba="0 0 0 0" group="3" mass="0.00186631464" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_17" rgba="0 0 0 0" group="3" mass="0.0102069359" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_18" rgba="0 0 0 0" group="3" mass="0.000917563017" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="picture_frame_hull_19" rgba="0 0 0 0" group="3" mass="0.0296203056" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_00" rgba="0 0 0 0" group="3" mass="0.0249139422" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_01" rgba="0 0 0 0" group="3" mass="0.00629023797" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_02" rgba="0 0 0 0" group="3" mass="0.0195848124" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_03" rgba="0 0 0 0" group="3" mass="0.0180224725" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_04" rgba="0 0 0 0" group="3" mass="0.00475044468" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_05" rgba="0 0 0 0" group="3" mass="0.0255606752" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_06" rgba="0 0 0 0" group="3" mass="0.0248066946" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_07" rgba="0 0 0 0" group="3" mass="0.0246084883" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_08" rgba="0 0 0 0" group="3" mass="0.00128136443" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_09" rgba="0 0 0 0" group="3" mass="0.00302610843" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_10" rgba="0 0 0 0" group="3" mass="0.00961300584" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_11" rgba="0 0 0 0" group="3" mass="0.000658624516" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_12" rgba="0 0 0 0" group="3" mass="0.0302431585" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_13" rgba="0 0 0 0" group="3" mass="0.0438280828" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_14" rgba="0 0 0 0" group="3" mass="0.0471704412" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_15" rgba="0 0 0 0" group="3" mass="0.00144410157" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_16" rgba="0 0 0 0" group="3" mass="0.00203965001" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_17" rgba="0 0 0 0" group="3" mass="0.0111549126" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="picture_frame_hull_18" rgba="0 0 0 0" group="3" mass="0.00100278237" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0402 0.0804 0.1000" pos="0.0000 0.0000 0.1000" />
     </body>
   </worldbody>

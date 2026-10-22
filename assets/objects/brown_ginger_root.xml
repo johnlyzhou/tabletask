@@ -23,21 +23,19 @@
     <mesh name="brown_ginger_root_hull_06" file="hulls/h06.obj" maxhullvert="128" />
     <mesh name="brown_ginger_root_hull_07" file="hulls/h07.obj" maxhullvert="128" />
     <mesh name="brown_ginger_root_hull_08" file="hulls/h08.obj" maxhullvert="128" />
-    <mesh name="brown_ginger_root_hull_09" file="hulls/h09.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="brown_ginger_root">
       <geom type="mesh" mesh="brown_ginger_root_0_mesh" material="brown_ginger_root_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_00" rgba="0 0 0 0" group="3" mass="0.0110591742" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_01" rgba="0 0 0 0" group="3" mass="0.00312835558" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_02" rgba="0 0 0 0" group="3" mass="0.00071852964" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_03" rgba="0 0 0 0" group="3" mass="0.00226947374" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_04" rgba="0 0 0 0" group="3" mass="0.000153108952" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_05" rgba="0 0 0 0" group="3" mass="0.00152555003" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_06" rgba="0 0 0 0" group="3" mass="0.000280978075" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_07" rgba="0 0 0 0" group="3" mass="0.000222264384" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_08" rgba="0 0 0 0" group="3" mass="0.00046733571" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="brown_ginger_root_hull_09" rgba="0 0 0 0" group="3" mass="0.00717522972" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_ginger_root_hull_00" rgba="0 0 0 0" group="3" mass="0.0150166884" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_ginger_root_hull_01" rgba="0 0 0 0" group="3" mass="0.00428302032" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_ginger_root_hull_02" rgba="0 0 0 0" group="3" mass="0.000985465164" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_ginger_root_hull_03" rgba="0 0 0 0" group="3" mass="0.00313340547" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_ginger_root_hull_04" rgba="0 0 0 0" group="3" mass="0.000198296228" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_ginger_root_hull_05" rgba="0 0 0 0" group="3" mass="0.00203551966" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_ginger_root_hull_06" rgba="0 0 0 0" group="3" mass="0.000391936251" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_ginger_root_hull_07" rgba="0 0 0 0" group="3" mass="0.000302925707" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_ginger_root_hull_08" rgba="0 0 0 0" group="3" mass="0.000652742788" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0209 0.0260 0.0132" pos="0.0000 0.0000 0.0132" />
     </body>
   </worldbody>

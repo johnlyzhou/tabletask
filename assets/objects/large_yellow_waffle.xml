@@ -46,44 +46,42 @@
     <mesh name="large_yellow_waffle_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="large_yellow_waffle_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="large_yellow_waffle_hull_31" file="hulls/h31.obj" maxhullvert="128" />
-    <mesh name="large_yellow_waffle_hull_32" file="hulls/h32.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="large_yellow_waffle">
       <geom type="mesh" mesh="large_yellow_waffle_0_mesh" material="large_yellow_waffle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_00" rgba="0 0 0 0" group="3" mass="0.00304269003" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_01" rgba="0 0 0 0" group="3" mass="0.0031608965" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_02" rgba="0 0 0 0" group="3" mass="0.000359751075" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_03" rgba="0 0 0 0" group="3" mass="0.00214020184" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_04" rgba="0 0 0 0" group="3" mass="0.000350050041" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_05" rgba="0 0 0 0" group="3" mass="0.000909931342" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_06" rgba="0 0 0 0" group="3" mass="0.000371047488" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_07" rgba="0 0 0 0" group="3" mass="0.00062221864" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_08" rgba="0 0 0 0" group="3" mass="0.000432589436" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_09" rgba="0 0 0 0" group="3" mass="0.000636748276" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_10" rgba="0 0 0 0" group="3" mass="0.000922473123" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_11" rgba="0 0 0 0" group="3" mass="0.000988120881" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_12" rgba="0 0 0 0" group="3" mass="0.000838823189" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_13" rgba="0 0 0 0" group="3" mass="0.00112613015" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_14" rgba="0 0 0 0" group="3" mass="0.000394639928" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_15" rgba="0 0 0 0" group="3" mass="0.000363150384" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_16" rgba="0 0 0 0" group="3" mass="0.000771133026" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_17" rgba="0 0 0 0" group="3" mass="0.000233503503" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_18" rgba="0 0 0 0" group="3" mass="0.000305507807" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_19" rgba="0 0 0 0" group="3" mass="0.000300139183" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_20" rgba="0 0 0 0" group="3" mass="0.000349623095" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_21" rgba="0 0 0 0" group="3" mass="0.000344703727" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_22" rgba="0 0 0 0" group="3" mass="0.000333584468" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_23" rgba="0 0 0 0" group="3" mass="0.000220105962" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_24" rgba="0 0 0 0" group="3" mass="0.000246660854" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_25" rgba="0 0 0 0" group="3" mass="0.000519624552" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_26" rgba="0 0 0 0" group="3" mass="0.000240987383" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_27" rgba="0 0 0 0" group="3" mass="0.000557565215" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_28" rgba="0 0 0 0" group="3" mass="0.000279640172" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_29" rgba="0 0 0 0" group="3" mass="0.000345304105" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_30" rgba="0 0 0 0" group="3" mass="0.000368818327" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_31" rgba="0 0 0 0" group="3" mass="0.000702027235" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="large_yellow_waffle_hull_32" rgba="0 0 0 0" group="3" mass="0.0132216091" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_00" rgba="0 0 0 0" group="3" mass="0.00461334531" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_01" rgba="0 0 0 0" group="3" mass="0.00479479007" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_02" rgba="0 0 0 0" group="3" mass="0.000555233223" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_03" rgba="0 0 0 0" group="3" mass="0.0034501762" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_04" rgba="0 0 0 0" group="3" mass="0.00055900923" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_05" rgba="0 0 0 0" group="3" mass="0.00154643329" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_06" rgba="0 0 0 0" group="3" mass="0.000618809136" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_07" rgba="0 0 0 0" group="3" mass="0.000918917825" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_08" rgba="0 0 0 0" group="3" mass="0.000701623047" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_09" rgba="0 0 0 0" group="3" mass="0.00105227385" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_10" rgba="0 0 0 0" group="3" mass="0.00142235669" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_11" rgba="0 0 0 0" group="3" mass="0.00157897293" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_12" rgba="0 0 0 0" group="3" mass="0.00136511708" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_13" rgba="0 0 0 0" group="3" mass="0.00183101492" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_14" rgba="0 0 0 0" group="3" mass="0.000640165866" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_15" rgba="0 0 0 0" group="3" mass="0.000557341763" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_16" rgba="0 0 0 0" group="3" mass="0.0012299564" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_17" rgba="0 0 0 0" group="3" mass="0.000382367622" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_18" rgba="0 0 0 0" group="3" mass="0.000485973637" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_19" rgba="0 0 0 0" group="3" mass="0.000473942859" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_20" rgba="0 0 0 0" group="3" mass="0.000587696049" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_21" rgba="0 0 0 0" group="3" mass="0.0005090725" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_22" rgba="0 0 0 0" group="3" mass="0.000492651126" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_23" rgba="0 0 0 0" group="3" mass="0.000352881428" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_24" rgba="0 0 0 0" group="3" mass="0.000413825484" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_25" rgba="0 0 0 0" group="3" mass="0.000767402698" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_26" rgba="0 0 0 0" group="3" mass="0.000394106154" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_27" rgba="0 0 0 0" group="3" mass="0.000898777807" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_28" rgba="0 0 0 0" group="3" mass="0.000472940885" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_29" rgba="0 0 0 0" group="3" mass="0.000551664173" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_30" rgba="0 0 0 0" group="3" mass="0.000600861547" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_yellow_waffle_hull_31" rgba="0 0 0 0" group="3" mass="0.00118029924" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0439 0.0469 0.0096" pos="0.0000 0.0000 0.0096" />
     </body>
   </worldbody>

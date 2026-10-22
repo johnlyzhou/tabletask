@@ -36,34 +36,32 @@
     <mesh name="toy_elephant_hull_19" file="hulls/h19.obj" maxhullvert="128" />
     <mesh name="toy_elephant_hull_20" file="hulls/h20.obj" maxhullvert="128" />
     <mesh name="toy_elephant_hull_21" file="hulls/h21.obj" maxhullvert="128" />
-    <mesh name="toy_elephant_hull_22" file="hulls/h22.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="toy_elephant">
       <geom type="mesh" mesh="toy_elephant_0_mesh" material="toy_elephant_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_00" rgba="0 0 0 0" group="3" mass="0.014115895" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_01" rgba="0 0 0 0" group="3" mass="0.0072340408" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_02" rgba="0 0 0 0" group="3" mass="0.00338527547" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_03" rgba="0 0 0 0" group="3" mass="0.00083617693" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_04" rgba="0 0 0 0" group="3" mass="0.011243018" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_05" rgba="0 0 0 0" group="3" mass="0.0112323663" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_06" rgba="0 0 0 0" group="3" mass="0.0519581278" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_07" rgba="0 0 0 0" group="3" mass="0.11318842" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_08" rgba="0 0 0 0" group="3" mass="0.00792035893" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_09" rgba="0 0 0 0" group="3" mass="0.00569404733" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_10" rgba="0 0 0 0" group="3" mass="0.00603215178" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_11" rgba="0 0 0 0" group="3" mass="0.00702810377" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_12" rgba="0 0 0 0" group="3" mass="0.00316293633" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_13" rgba="0 0 0 0" group="3" mass="0.00120024657" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_14" rgba="0 0 0 0" group="3" mass="0.0807718774" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_15" rgba="0 0 0 0" group="3" mass="0.0046835668" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_16" rgba="0 0 0 0" group="3" mass="0.00630286063" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_17" rgba="0 0 0 0" group="3" mass="0.00513621951" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_18" rgba="0 0 0 0" group="3" mass="0.00083617693" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_19" rgba="0 0 0 0" group="3" mass="0.0207411844" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_20" rgba="0 0 0 0" group="3" mass="0.00711471366" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_21" rgba="0 0 0 0" group="3" mass="0.00548457171" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_elephant_hull_22" rgba="0 0 0 0" group="3" mass="0.0436976636" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_00" rgba="0 0 0 0" group="3" mass="0.015691708" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_01" rgba="0 0 0 0" group="3" mass="0.0080416053" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_02" rgba="0 0 0 0" group="3" mass="0.00376318712" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_03" rgba="0 0 0 0" group="3" mass="0.000836346119" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_04" rgba="0 0 0 0" group="3" mass="0.0132442056" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_05" rgba="0 0 0 0" group="3" mass="0.0129612365" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_06" rgba="0 0 0 0" group="3" mass="0.0577584185" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_07" rgba="0 0 0 0" group="3" mass="0.12582409" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_08" rgba="0 0 0 0" group="3" mass="0.00880453984" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_09" rgba="0 0 0 0" group="3" mass="0.00632969629" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_10" rgba="0 0 0 0" group="3" mass="0.00670554467" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_11" rgba="0 0 0 0" group="3" mass="0.0082513984" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_12" rgba="0 0 0 0" group="3" mass="0.00351602739" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_13" rgba="0 0 0 0" group="3" mass="0.00133423483" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_14" rgba="0 0 0 0" group="3" mass="0.0897887607" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_15" rgba="0 0 0 0" group="3" mass="0.00520641183" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_16" rgba="0 0 0 0" group="3" mass="0.00733424849" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_17" rgba="0 0 0 0" group="3" mass="0.00570959595" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_18" rgba="0 0 0 0" group="3" mass="0.000836346119" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_19" rgba="0 0 0 0" group="3" mass="0.0230566046" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_20" rgba="0 0 0 0" group="3" mass="0.0079089572" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_elephant_hull_21" rgba="0 0 0 0" group="3" mass="0.00609683608" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.1030 0.0329 0.0606" pos="0.0000 0.0000 0.0606" />
     </body>
   </worldbody>

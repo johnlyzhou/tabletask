@@ -31,30 +31,28 @@
     <mesh name="dark_red_candy_hull_14" file="hulls/h14.obj" maxhullvert="128" />
     <mesh name="dark_red_candy_hull_15" file="hulls/h15.obj" maxhullvert="128" />
     <mesh name="dark_red_candy_hull_16" file="hulls/h16.obj" maxhullvert="128" />
-    <mesh name="dark_red_candy_hull_17" file="hulls/h17.obj" maxhullvert="128" />
     <mesh name="dark_red_candy_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="dark_red_candy">
       <geom type="mesh" mesh="dark_red_candy_0_mesh" material="dark_red_candy_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_00" rgba="0 0 0 0" group="3" mass="6.19229576e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_01" rgba="0 0 0 0" group="3" mass="6.04445915e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_02" rgba="0 0 0 0" group="3" mass="0.00376619348" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_03" rgba="0 0 0 0" group="3" mass="5.58572738e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_04" rgba="0 0 0 0" group="3" mass="2.94412379e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_05" rgba="0 0 0 0" group="3" mass="2.39570187e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_06" rgba="0 0 0 0" group="3" mass="4.39217497e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_07" rgba="0 0 0 0" group="3" mass="5.09180017e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_08" rgba="0 0 0 0" group="3" mass="4.38479564e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_09" rgba="0 0 0 0" group="3" mass="2.39570187e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_10" rgba="0 0 0 0" group="3" mass="3.56044513e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_11" rgba="0 0 0 0" group="3" mass="2.39570187e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_12" rgba="0 0 0 0" group="3" mass="9.10962066e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_13" rgba="0 0 0 0" group="3" mass="5.8402239e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_14" rgba="0 0 0 0" group="3" mass="0.000114980318" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_15" rgba="0 0 0 0" group="3" mass="4.19578289e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_16" rgba="0 0 0 0" group="3" mass="0.00374701845" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_red_candy_hull_17" rgba="0 0 0 0" group="3" mass="0.0037265222" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_00" rgba="0 0 0 0" group="3" mass="8.31541541e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_01" rgba="0 0 0 0" group="3" mass="8.11689084e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_02" rgba="0 0 0 0" group="3" mass="0.00542479608" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_03" rgba="0 0 0 0" group="3" mass="9.11817572e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_04" rgba="0 0 0 0" group="3" mass="4.80077654e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_05" rgba="0 0 0 0" group="3" mass="3.09893899e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_06" rgba="0 0 0 0" group="3" mass="5.89809674e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_07" rgba="0 0 0 0" group="3" mass="6.83759873e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_08" rgba="0 0 0 0" group="3" mass="5.8881873e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_09" rgba="0 0 0 0" group="3" mass="3.06921923e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_10" rgba="0 0 0 0" group="3" mass="5.72361885e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_11" rgba="0 0 0 0" group="3" mass="2.39640169e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_12" rgba="0 0 0 0" group="3" mass="0.000138429421" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_13" rgba="0 0 0 0" group="3" mass="7.84263054e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_14" rgba="0 0 0 0" group="3" mass="0.00015440301" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_15" rgba="0 0 0 0" group="3" mass="5.63436875e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_red_candy_hull_16" rgba="0 0 0 0" group="3" mass="0.00551496829" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0080 0.0370 0.0111" pos="0.0000 0.0000 0.0111" />
       <geom name="place:top" class="place" type="mesh" mesh="dark_red_candy_top" />
     </body>

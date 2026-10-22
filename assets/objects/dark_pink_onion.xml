@@ -26,24 +26,22 @@
     <mesh name="dark_pink_onion_hull_09" file="hulls/h09.obj" maxhullvert="128" />
     <mesh name="dark_pink_onion_hull_10" file="hulls/h10.obj" maxhullvert="128" />
     <mesh name="dark_pink_onion_hull_11" file="hulls/h11.obj" maxhullvert="128" />
-    <mesh name="dark_pink_onion_hull_12" file="hulls/h12.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="dark_pink_onion">
       <geom type="mesh" mesh="dark_pink_onion_0_mesh" material="dark_pink_onion_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_00" rgba="0 0 0 0" group="3" mass="0.0215058515" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_01" rgba="0 0 0 0" group="3" mass="0.00206833864" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_02" rgba="0 0 0 0" group="3" mass="0.00362474268" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_03" rgba="0 0 0 0" group="3" mass="0.0854244262" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_04" rgba="0 0 0 0" group="3" mass="0.00371202053" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_05" rgba="0 0 0 0" group="3" mass="0.00298542975" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_06" rgba="0 0 0 0" group="3" mass="0.000900412649" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_07" rgba="0 0 0 0" group="3" mass="0.00297724998" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_08" rgba="0 0 0 0" group="3" mass="0.00165001567" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_09" rgba="0 0 0 0" group="3" mass="0.0028652155" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_10" rgba="0 0 0 0" group="3" mass="0.000322928859" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_11" rgba="0 0 0 0" group="3" mass="0.000322928859" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="dark_pink_onion_hull_12" rgba="0 0 0 0" group="3" mass="0.0336404391" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_00" rgba="0 0 0 0" group="3" mass="0.0267241526" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_01" rgba="0 0 0 0" group="3" mass="0.00282179244" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_02" rgba="0 0 0 0" group="3" mass="0.0047696025" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_03" rgba="0 0 0 0" group="3" mass="0.108200306" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_04" rgba="0 0 0 0" group="3" mass="0.00465249878" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_05" rgba="0 0 0 0" group="3" mass="0.00376880069" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_06" rgba="0 0 0 0" group="3" mass="0.00116073031" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_07" rgba="0 0 0 0" group="3" mass="0.00358400233" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_08" rgba="0 0 0 0" group="3" mass="0.0020857649" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_09" rgba="0 0 0 0" group="3" mass="0.00358627784" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_10" rgba="0 0 0 0" group="3" mass="0.000323035646" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dark_pink_onion_hull_11" rgba="0 0 0 0" group="3" mass="0.000323035646" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0395 0.0517 0.0235" pos="0.0000 0.0000 0.0235" />
     </body>
   </worldbody>

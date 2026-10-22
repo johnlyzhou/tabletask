@@ -32,31 +32,29 @@
     <mesh name="toy_round_table_hull_15" file="hulls/h15.obj" maxhullvert="128" />
     <mesh name="toy_round_table_hull_16" file="hulls/h16.obj" maxhullvert="128" />
     <mesh name="toy_round_table_hull_17" file="hulls/h17.obj" maxhullvert="128" />
-    <mesh name="toy_round_table_hull_18" file="hulls/h18.obj" maxhullvert="128" />
     <mesh name="toy_round_table_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="toy_round_table">
       <geom type="mesh" mesh="toy_round_table_0_mesh" material="toy_round_table_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_00" rgba="0 0 0 0" group="3" mass="0.0436252966" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_01" rgba="0 0 0 0" group="3" mass="0.00158978844" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_02" rgba="0 0 0 0" group="3" mass="0.00658460293" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_03" rgba="0 0 0 0" group="3" mass="0.00641491531" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_04" rgba="0 0 0 0" group="3" mass="0.00479231653" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_05" rgba="0 0 0 0" group="3" mass="0.00619450867" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_06" rgba="0 0 0 0" group="3" mass="0.00141713095" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_07" rgba="0 0 0 0" group="3" mass="0.00640180186" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_08" rgba="0 0 0 0" group="3" mass="0.00115087101" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_09" rgba="0 0 0 0" group="3" mass="0.0014344344" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_10" rgba="0 0 0 0" group="3" mass="0.00124135371" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_11" rgba="0 0 0 0" group="3" mass="0.00118775517" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_12" rgba="0 0 0 0" group="3" mass="0.0015331483" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_13" rgba="0 0 0 0" group="3" mass="0.00138779785" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_14" rgba="0 0 0 0" group="3" mass="0.00100409381" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_15" rgba="0 0 0 0" group="3" mass="0.000625921013" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_16" rgba="0 0 0 0" group="3" mass="0.000749500423" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_17" rgba="0 0 0 0" group="3" mass="0.00064534436" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_round_table_hull_18" rgba="0 0 0 0" group="3" mass="0.0340194186" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_00" rgba="0 0 0 0" group="3" mass="0.0598778179" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_01" rgba="0 0 0 0" group="3" mass="0.0021820611" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_02" rgba="0 0 0 0" group="3" mass="0.00949160149" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_03" rgba="0 0 0 0" group="3" mass="0.00897281252" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_04" rgba="0 0 0 0" group="3" mass="0.00676337317" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_05" rgba="0 0 0 0" group="3" mass="0.00850226109" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_06" rgba="0 0 0 0" group="3" mass="0.00194508039" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_07" rgba="0 0 0 0" group="3" mass="0.00916773365" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_08" rgba="0 0 0 0" group="3" mass="0.00157962582" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_09" rgba="0 0 0 0" group="3" mass="0.00196883021" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_10" rgba="0 0 0 0" group="3" mass="0.00170381767" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_11" rgba="0 0 0 0" group="3" mass="0.0016302511" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_12" rgba="0 0 0 0" group="3" mass="0.00210431978" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_13" rgba="0 0 0 0" group="3" mass="0.0019048193" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_14" rgba="0 0 0 0" group="3" mass="0.00137816704" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_15" rgba="0 0 0 0" group="3" mass="0.000912936168" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_16" rgba="0 0 0 0" group="3" mass="0.00102872538" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_round_table_hull_17" rgba="0 0 0 0" group="3" mass="0.000885766174" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0490 0.0450 0.0287" pos="0.0000 0.0000 0.0287" />
       <geom name="place:top" class="place" type="mesh" mesh="toy_round_table_top" />
     </body>

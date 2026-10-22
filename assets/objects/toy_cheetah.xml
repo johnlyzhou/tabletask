@@ -42,40 +42,38 @@
     <mesh name="toy_cheetah_hull_25" file="hulls/h25.obj" maxhullvert="128" />
     <mesh name="toy_cheetah_hull_26" file="hulls/h26.obj" maxhullvert="128" />
     <mesh name="toy_cheetah_hull_27" file="hulls/h27.obj" maxhullvert="128" />
-    <mesh name="toy_cheetah_hull_28" file="hulls/h28.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="toy_cheetah">
       <geom type="mesh" mesh="toy_cheetah_0_mesh" material="toy_cheetah_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_00" rgba="0 0 0 0" group="3" mass="0.0180930032" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_01" rgba="0 0 0 0" group="3" mass="0.00181241075" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_02" rgba="0 0 0 0" group="3" mass="0.00165461686" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_03" rgba="0 0 0 0" group="3" mass="0.00151677531" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_04" rgba="0 0 0 0" group="3" mass="0.0061501273" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_05" rgba="0 0 0 0" group="3" mass="0.00800094653" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_06" rgba="0 0 0 0" group="3" mass="0.00206149028" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_07" rgba="0 0 0 0" group="3" mass="0.00150931374" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_08" rgba="0 0 0 0" group="3" mass="0.00247372956" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_09" rgba="0 0 0 0" group="3" mass="0.000442554739" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_10" rgba="0 0 0 0" group="3" mass="0.00157175503" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_11" rgba="0 0 0 0" group="3" mass="0.000642686077" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_12" rgba="0 0 0 0" group="3" mass="0.00162653974" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_13" rgba="0 0 0 0" group="3" mass="0.00971014972" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_14" rgba="0 0 0 0" group="3" mass="0.00952812422" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_15" rgba="0 0 0 0" group="3" mass="0.00151800856" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_16" rgba="0 0 0 0" group="3" mass="0.00366781775" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_17" rgba="0 0 0 0" group="3" mass="0.0156220613" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_18" rgba="0 0 0 0" group="3" mass="0.0082599656" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_19" rgba="0 0 0 0" group="3" mass="0.00328040172" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_20" rgba="0 0 0 0" group="3" mass="0.00145900982" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_21" rgba="0 0 0 0" group="3" mass="0.00912392143" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_22" rgba="0 0 0 0" group="3" mass="0.000956139945" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_23" rgba="0 0 0 0" group="3" mass="0.001612492" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_24" rgba="0 0 0 0" group="3" mass="0.00465578238" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_25" rgba="0 0 0 0" group="3" mass="0.00480707125" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_26" rgba="0 0 0 0" group="3" mass="0.000986262516" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_27" rgba="0 0 0 0" group="3" mass="0.00135417267" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="toy_cheetah_hull_28" rgba="0 0 0 0" group="3" mass="0.03690267" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_00" rgba="0 0 0 0" group="3" mass="0.0232622761" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_01" rgba="0 0 0 0" group="3" mass="0.00233022671" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_02" rgba="0 0 0 0" group="3" mass="0.00212735023" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_03" rgba="0 0 0 0" group="3" mass="0.0022984329" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_04" rgba="0 0 0 0" group="3" mass="0.00790725333" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_05" rgba="0 0 0 0" group="3" mass="0.010286862" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_06" rgba="0 0 0 0" group="3" mass="0.00265046967" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_07" rgba="0 0 0 0" group="3" mass="0.00220839933" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_08" rgba="0 0 0 0" group="3" mass="0.00358114151" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_09" rgba="0 0 0 0" group="3" mass="0.000568995121" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_10" rgba="0 0 0 0" group="3" mass="0.00202081431" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_11" rgba="0 0 0 0" group="3" mass="0.00082630511" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_12" rgba="0 0 0 0" group="3" mass="0.00252178886" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_13" rgba="0 0 0 0" group="3" mass="0.0124843942" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_14" rgba="0 0 0 0" group="3" mass="0.012250363" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_15" rgba="0 0 0 0" group="3" mass="0.00195171216" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_16" rgba="0 0 0 0" group="3" mass="0.00471573395" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_17" rgba="0 0 0 0" group="3" mass="0.0200853722" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_18" rgba="0 0 0 0" group="3" mass="0.0106198843" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_19" rgba="0 0 0 0" group="3" mass="0.00421763098" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_20" rgba="0 0 0 0" group="3" mass="0.00187585715" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_21" rgba="0 0 0 0" group="3" mass="0.0117306772" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_22" rgba="0 0 0 0" group="3" mass="0.00122931452" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_23" rgba="0 0 0 0" group="3" mass="0.00207319006" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_24" rgba="0 0 0 0" group="3" mass="0.00598596564" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_25" rgba="0 0 0 0" group="3" mass="0.00618047859" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_26" rgba="0 0 0 0" group="3" mass="0.00126804327" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_cheetah_hull_27" rgba="0 0 0 0" group="3" mass="0.00174106744" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0640 0.0259 0.0481" pos="0.0000 0.0000 0.0481" />
     </body>
   </worldbody>

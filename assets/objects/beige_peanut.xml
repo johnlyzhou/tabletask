@@ -17,16 +17,14 @@
     <mesh name="beige_peanut_hull_00" file="hulls/h00.obj" maxhullvert="128" />
     <mesh name="beige_peanut_hull_01" file="hulls/h01.obj" maxhullvert="128" />
     <mesh name="beige_peanut_hull_02" file="hulls/h02.obj" maxhullvert="128" />
-    <mesh name="beige_peanut_hull_03" file="hulls/h03.obj" maxhullvert="128" />
     <mesh name="beige_peanut_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="beige_peanut">
       <geom type="mesh" mesh="beige_peanut_0_mesh" material="beige_peanut_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="beige_peanut_hull_00" rgba="0 0 0 0" group="3" mass="0.00134764794" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_peanut_hull_01" rgba="0 0 0 0" group="3" mass="0.0001365091" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_peanut_hull_02" rgba="0 0 0 0" group="3" mass="0.00105894514" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="beige_peanut_hull_03" rgba="0 0 0 0" group="3" mass="0.00245689782" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="beige_peanut_hull_00" rgba="0 0 0 0" group="3" mass="0.00259540202" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="beige_peanut_hull_01" rgba="0 0 0 0" group="3" mass="0.000279193056" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="beige_peanut_hull_02" rgba="0 0 0 0" group="3" mass="0.00212540493" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0068 0.0148 0.0060" pos="0.0000 0.0000 0.0060" />
       <geom name="place:top" class="place" type="mesh" mesh="beige_peanut_top" />
     </body>

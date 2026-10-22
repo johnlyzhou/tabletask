@@ -42,40 +42,38 @@
     <mesh name="black_toy_train_hull_25" file="hulls/h25.obj" maxhullvert="128" />
     <mesh name="black_toy_train_hull_26" file="hulls/h26.obj" maxhullvert="128" />
     <mesh name="black_toy_train_hull_27" file="hulls/h27.obj" maxhullvert="128" />
-    <mesh name="black_toy_train_hull_28" file="hulls/h28.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="black_toy_train">
       <geom type="mesh" mesh="black_toy_train_0_mesh" material="black_toy_train_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_00" rgba="0 0 0 0" group="3" mass="0.00759343085" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_01" rgba="0 0 0 0" group="3" mass="0.0018195787" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_02" rgba="0 0 0 0" group="3" mass="0.00141588687" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_03" rgba="0 0 0 0" group="3" mass="0.00275298417" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_04" rgba="0 0 0 0" group="3" mass="0.000703133229" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_05" rgba="0 0 0 0" group="3" mass="7.97034234e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_06" rgba="0 0 0 0" group="3" mass="0.000523680133" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_07" rgba="0 0 0 0" group="3" mass="0.000549084298" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_08" rgba="0 0 0 0" group="3" mass="0.000786304673" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_09" rgba="0 0 0 0" group="3" mass="0.000707321354" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_10" rgba="0 0 0 0" group="3" mass="0.000313585879" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_11" rgba="0 0 0 0" group="3" mass="0.00054628944" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_12" rgba="0 0 0 0" group="3" mass="0.000801752936" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_13" rgba="0 0 0 0" group="3" mass="0.000816361099" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_14" rgba="0 0 0 0" group="3" mass="0.00108875993" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_15" rgba="0 0 0 0" group="3" mass="0.000995432176" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_16" rgba="0 0 0 0" group="3" mass="0.000533418918" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_17" rgba="0 0 0 0" group="3" mass="0.00055015414" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_18" rgba="0 0 0 0" group="3" mass="7.97034234e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_19" rgba="0 0 0 0" group="3" mass="0.00134693514" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_20" rgba="0 0 0 0" group="3" mass="0.000102738583" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_21" rgba="0 0 0 0" group="3" mass="0.000913212768" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_22" rgba="0 0 0 0" group="3" mass="0.000657288004" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_23" rgba="0 0 0 0" group="3" mass="0.00390873101" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_24" rgba="0 0 0 0" group="3" mass="7.97034234e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_25" rgba="0 0 0 0" group="3" mass="0.000219939377" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_26" rgba="0 0 0 0" group="3" mass="0.00211111289" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_27" rgba="0 0 0 0" group="3" mass="0.00176466646" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="black_toy_train_hull_28" rgba="0 0 0 0" group="3" mass="0.0062391067" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_00" rgba="0 0 0 0" group="3" mass="0.00891210005" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_01" rgba="0 0 0 0" group="3" mass="0.0021355653" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_02" rgba="0 0 0 0" group="3" mass="0.00166176866" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_03" rgba="0 0 0 0" group="3" mass="0.00323106522" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_04" rgba="0 0 0 0" group="3" mass="0.000889375539" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_05" rgba="0 0 0 0" group="3" mass="7.97347795e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_06" rgba="0 0 0 0" group="3" mass="0.000660824704" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_07" rgba="0 0 0 0" group="3" mass="0.000673003069" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_08" rgba="0 0 0 0" group="3" mass="0.000988711289" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_09" rgba="0 0 0 0" group="3" mass="0.000830154221" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_10" rgba="0 0 0 0" group="3" mass="0.000368042955" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_11" rgba="0 0 0 0" group="3" mass="0.000641157633" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_12" rgba="0 0 0 0" group="3" mass="0.00100487763" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_13" rgba="0 0 0 0" group="3" mass="0.00100202647" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_14" rgba="0 0 0 0" group="3" mass="0.00127783312" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_15" rgba="0 0 0 0" group="3" mass="0.00116829814" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_16" rgba="0 0 0 0" group="3" mass="0.000681765565" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_17" rgba="0 0 0 0" group="3" mass="0.000695074317" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_18" rgba="0 0 0 0" group="3" mass="7.97347795e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_19" rgba="0 0 0 0" group="3" mass="0.00158084283" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_20" rgba="0 0 0 0" group="3" mass="0.000120580084" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_21" rgba="0 0 0 0" group="3" mass="0.00107180058" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_22" rgba="0 0 0 0" group="3" mass="0.00077143212" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_23" rgba="0 0 0 0" group="3" mass="0.00458751815" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_24" rgba="0 0 0 0" group="3" mass="7.97347795e-05" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_25" rgba="0 0 0 0" group="3" mass="0.000258133875" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_26" rgba="0 0 0 0" group="3" mass="0.00247772709" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_toy_train_hull_27" rgba="0 0 0 0" group="3" mass="0.00207111704" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0426 0.0154 0.0268" pos="0.0000 0.0000 0.0268" />
     </body>
   </worldbody>

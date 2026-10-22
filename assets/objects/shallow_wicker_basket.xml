@@ -46,46 +46,44 @@
     <mesh name="shallow_wicker_basket_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="shallow_wicker_basket_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="shallow_wicker_basket_hull_31" file="hulls/h31.obj" maxhullvert="128" />
-    <mesh name="shallow_wicker_basket_hull_32" file="hulls/h32.obj" maxhullvert="128" />
     <mesh name="shallow_wicker_basket_inside" file="inside.obj" />
     <mesh name="shallow_wicker_basket_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="shallow_wicker_basket">
       <geom type="mesh" mesh="shallow_wicker_basket_0_mesh" material="shallow_wicker_basket_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_00" rgba="0 0 0 0" group="3" mass="0.00311923712" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_01" rgba="0 0 0 0" group="3" mass="0.0135298204" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_02" rgba="0 0 0 0" group="3" mass="0.00217445776" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_03" rgba="0 0 0 0" group="3" mass="0.00312425178" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_04" rgba="0 0 0 0" group="3" mass="0.00110596984" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_05" rgba="0 0 0 0" group="3" mass="0.0115599246" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_06" rgba="0 0 0 0" group="3" mass="0.0124078388" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_07" rgba="0 0 0 0" group="3" mass="0.00317989554" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_08" rgba="0 0 0 0" group="3" mass="0.00360786381" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_09" rgba="0 0 0 0" group="3" mass="0.00449970073" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_10" rgba="0 0 0 0" group="3" mass="0.00310970038" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_11" rgba="0 0 0 0" group="3" mass="0.0224423386" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_12" rgba="0 0 0 0" group="3" mass="0.0141535539" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_13" rgba="0 0 0 0" group="3" mass="0.0227927142" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_14" rgba="0 0 0 0" group="3" mass="0.0025839275" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_15" rgba="0 0 0 0" group="3" mass="0.0182922711" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_16" rgba="0 0 0 0" group="3" mass="0.0107632469" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_17" rgba="0 0 0 0" group="3" mass="0.0268372812" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_18" rgba="0 0 0 0" group="3" mass="0.00569841686" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_19" rgba="0 0 0 0" group="3" mass="0.00213024561" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_20" rgba="0 0 0 0" group="3" mass="0.00237403147" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_21" rgba="0 0 0 0" group="3" mass="0.00540098188" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_22" rgba="0 0 0 0" group="3" mass="0.00363864152" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_23" rgba="0 0 0 0" group="3" mass="0.00254442783" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_24" rgba="0 0 0 0" group="3" mass="0.00587016669" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_25" rgba="0 0 0 0" group="3" mass="0.00370635446" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_26" rgba="0 0 0 0" group="3" mass="0.00688454158" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_27" rgba="0 0 0 0" group="3" mass="0.00317802095" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_28" rgba="0 0 0 0" group="3" mass="0.00586418126" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_29" rgba="0 0 0 0" group="3" mass="0.00234684867" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_30" rgba="0 0 0 0" group="3" mass="0.00379242223" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_31" rgba="0 0 0 0" group="3" mass="0.00322345984" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shallow_wicker_basket_hull_32" rgba="0 0 0 0" group="3" mass="0.064063265" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_00" rgba="0 0 0 0" group="3" mass="0.00383099836" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_01" rgba="0 0 0 0" group="3" mass="0.018584866" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_02" rgba="0 0 0 0" group="3" mass="0.0026649236" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_03" rgba="0 0 0 0" group="3" mass="0.00416009063" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_04" rgba="0 0 0 0" group="3" mass="0.00144812566" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_05" rgba="0 0 0 0" group="3" mass="0.0160438956" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_06" rgba="0 0 0 0" group="3" mass="0.016685242" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_07" rgba="0 0 0 0" group="3" mass="0.00390316645" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_08" rgba="0 0 0 0" group="3" mass="0.00445854322" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_09" rgba="0 0 0 0" group="3" mass="0.00553202537" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_10" rgba="0 0 0 0" group="3" mass="0.00383793407" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_11" rgba="0 0 0 0" group="3" mass="0.0277295966" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_12" rgba="0 0 0 0" group="3" mass="0.0193124466" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_13" rgba="0 0 0 0" group="3" mass="0.028141819" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_14" rgba="0 0 0 0" group="3" mass="0.00319151851" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_15" rgba="0 0 0 0" group="3" mass="0.022764684" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_16" rgba="0 0 0 0" group="3" mass="0.0142157671" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_17" rgba="0 0 0 0" group="3" mass="0.0328906385" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_18" rgba="0 0 0 0" group="3" mass="0.00698373905" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_19" rgba="0 0 0 0" group="3" mass="0.00261073906" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_20" rgba="0 0 0 0" group="3" mass="0.00290951271" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_21" rgba="0 0 0 0" group="3" mass="0.00701927589" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_22" rgba="0 0 0 0" group="3" mass="0.00450231743" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_23" rgba="0 0 0 0" group="3" mass="0.00311834329" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_24" rgba="0 0 0 0" group="3" mass="0.00752461503" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_25" rgba="0 0 0 0" group="3" mass="0.00474583903" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_26" rgba="0 0 0 0" group="3" mass="0.00843740342" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_27" rgba="0 0 0 0" group="3" mass="0.00389484826" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_28" rgba="0 0 0 0" group="3" mass="0.00718689291" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_29" rgba="0 0 0 0" group="3" mass="0.00287619862" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_30" rgba="0 0 0 0" group="3" mass="0.00464783253" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shallow_wicker_basket_hull_31" rgba="0 0 0 0" group="3" mass="0.00414616148" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.1600 0.1232 0.0490" pos="0.0000 0.0000 0.0490" />
       <geom name="place:inside" class="place" type="mesh" mesh="shallow_wicker_basket_inside" />
       <geom name="place:top" class="place" type="mesh" mesh="shallow_wicker_basket_top" />

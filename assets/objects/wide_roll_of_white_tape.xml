@@ -27,26 +27,24 @@
     <mesh name="wide_roll_of_white_tape_hull_10" file="hulls/h10.obj" maxhullvert="128" />
     <mesh name="wide_roll_of_white_tape_hull_11" file="hulls/h11.obj" maxhullvert="128" />
     <mesh name="wide_roll_of_white_tape_hull_12" file="hulls/h12.obj" maxhullvert="128" />
-    <mesh name="wide_roll_of_white_tape_hull_13" file="hulls/h13.obj" maxhullvert="128" />
     <mesh name="wide_roll_of_white_tape_top" file="top.obj" />
   </asset>
   <worldbody>
     <body name="wide_roll_of_white_tape">
       <geom type="mesh" mesh="wide_roll_of_white_tape_0_mesh" material="wide_roll_of_white_tape_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_00" rgba="0 0 0 0" group="3" mass="0.00590644669" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_01" rgba="0 0 0 0" group="3" mass="0.0147336619" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_02" rgba="0 0 0 0" group="3" mass="0.0150898239" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_03" rgba="0 0 0 0" group="3" mass="0.00612541659" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_04" rgba="0 0 0 0" group="3" mass="0.00659305654" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_05" rgba="0 0 0 0" group="3" mass="0.0160410288" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_06" rgba="0 0 0 0" group="3" mass="0.00737617732" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_07" rgba="0 0 0 0" group="3" mass="0.0168172936" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_08" rgba="0 0 0 0" group="3" mass="0.00758442996" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_09" rgba="0 0 0 0" group="3" mass="0.00771166297" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_10" rgba="0 0 0 0" group="3" mass="0.00547687907" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_11" rgba="0 0 0 0" group="3" mass="0.00551390225" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_12" rgba="0 0 0 0" group="3" mass="0.00431260631" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_13" rgba="0 0 0 0" group="3" mass="0.0447176141" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_00" rgba="0 0 0 0" group="3" mass="0.00802134529" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_01" rgba="0 0 0 0" group="3" mass="0.0198319334" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_02" rgba="0 0 0 0" group="3" mass="0.0210253965" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_03" rgba="0 0 0 0" group="3" mass="0.00838581361" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_04" rgba="0 0 0 0" group="3" mass="0.00907627565" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_05" rgba="0 0 0 0" group="3" mass="0.0225590722" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_06" rgba="0 0 0 0" group="3" mass="0.0102358315" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_07" rgba="0 0 0 0" group="3" mass="0.0228790569" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_08" rgba="0 0 0 0" group="3" mass="0.0101810024" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_09" rgba="0 0 0 0" group="3" mass="0.0103289776" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_10" rgba="0 0 0 0" group="3" mass="0.00766790354" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_11" rgba="0 0 0 0" group="3" mass="0.00775272253" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wide_roll_of_white_tape_hull_12" rgba="0 0 0 0" group="3" mass="0.00605466891" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0774 0.0768 0.0143" pos="0.0000 0.0000 0.0143" />
       <geom name="place:top" class="place" type="mesh" mesh="wide_roll_of_white_tape_top" />
     </body>

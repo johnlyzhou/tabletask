@@ -44,42 +44,40 @@
     <mesh name="feathered_dinosaur_figure_hull_27" file="hulls/h27.obj" maxhullvert="128" />
     <mesh name="feathered_dinosaur_figure_hull_28" file="hulls/h28.obj" maxhullvert="128" />
     <mesh name="feathered_dinosaur_figure_hull_29" file="hulls/h29.obj" maxhullvert="128" />
-    <mesh name="feathered_dinosaur_figure_hull_30" file="hulls/h30.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="feathered_dinosaur_figure">
       <geom type="mesh" mesh="feathered_dinosaur_figure_0_mesh" material="feathered_dinosaur_figure_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.0612365917" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.0219949874" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.0060059799" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.00391293306" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.0203786159" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.0389303625" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.0320372641" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.0410968298" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.0429182336" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.0287013821" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.0165158775" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.00583360346" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.0237842374" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.156106386" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.0269220091" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.0318452527" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.00733589806" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.02266959" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.009501358" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.00909661383" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.00825031088" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.286005824" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_22" rgba="0 0 0 0" group="3" mass="0.00568709574" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_23" rgba="0 0 0 0" group="3" mass="0.0165129469" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_24" rgba="0 0 0 0" group="3" mass="0.00308294234" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_25" rgba="0 0 0 0" group="3" mass="0.00558053281" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_26" rgba="0 0 0 0" group="3" mass="0.0123245524" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_27" rgba="0 0 0 0" group="3" mass="0.014040141" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_28" rgba="0 0 0 0" group="3" mass="0.030069772" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_29" rgba="0 0 0 0" group="3" mass="0.0023531215" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_30" rgba="0 0 0 0" group="3" mass="0.186268754" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.0721558169" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.0259169598" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.00707691877" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.00527861766" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.0258522121" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.0458721171" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.0377498959" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.0527227057" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.0505710739" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.0338191857" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.0194608582" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.00687380553" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.0295357153" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.183942043" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.031722529" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.0375236465" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.00864397743" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.0267118522" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.0111955651" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_19" rgba="0 0 0 0" group="3" mass="0.0107186501" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_20" rgba="0 0 0 0" group="3" mass="0.00972144113" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_21" rgba="0 0 0 0" group="3" mass="0.337004122" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_22" rgba="0 0 0 0" group="3" mass="0.00740364009" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_23" rgba="0 0 0 0" group="3" mass="0.0194574052" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_24" rgba="0 0 0 0" group="3" mass="0.00363266826" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_25" rgba="0 0 0 0" group="3" mass="0.00758536047" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_26" rgba="0 0 0 0" group="3" mass="0.0145221692" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_27" rgba="0 0 0 0" group="3" mass="0.016543668" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_28" rgba="0 0 0 0" group="3" mass="0.0354315761" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="feathered_dinosaur_figure_hull_29" rgba="0 0 0 0" group="3" mass="0.00235380267" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0571 0.1088 0.0987" pos="0.0000 0.0000 0.0987" />
     </body>
   </worldbody>

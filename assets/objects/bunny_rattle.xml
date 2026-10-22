@@ -46,44 +46,42 @@
     <mesh name="bunny_rattle_hull_29" file="hulls/h29.obj" maxhullvert="128" />
     <mesh name="bunny_rattle_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="bunny_rattle_hull_31" file="hulls/h31.obj" maxhullvert="128" />
-    <mesh name="bunny_rattle_hull_32" file="hulls/h32.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="bunny_rattle">
       <geom type="mesh" mesh="bunny_rattle_0_mesh" material="bunny_rattle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_00" rgba="0 0 0 0" group="3" mass="0.00179915617" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_01" rgba="0 0 0 0" group="3" mass="0.0199091553" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_02" rgba="0 0 0 0" group="3" mass="0.00140559683" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_03" rgba="0 0 0 0" group="3" mass="0.00511323216" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_04" rgba="0 0 0 0" group="3" mass="0.0120908805" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_05" rgba="0 0 0 0" group="3" mass="0.0189457501" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_06" rgba="0 0 0 0" group="3" mass="0.0010591251" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_07" rgba="0 0 0 0" group="3" mass="0.000335433439" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_08" rgba="0 0 0 0" group="3" mass="0.000718275496" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_09" rgba="0 0 0 0" group="3" mass="0.0044819821" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_10" rgba="0 0 0 0" group="3" mass="0.0112044402" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_11" rgba="0 0 0 0" group="3" mass="0.00748037109" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_12" rgba="0 0 0 0" group="3" mass="0.00701898233" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_13" rgba="0 0 0 0" group="3" mass="0.00171086535" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_14" rgba="0 0 0 0" group="3" mass="0.000335433439" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_15" rgba="0 0 0 0" group="3" mass="0.000722391681" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_16" rgba="0 0 0 0" group="3" mass="0.00266047563" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_17" rgba="0 0 0 0" group="3" mass="0.00732306697" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_18" rgba="0 0 0 0" group="3" mass="0.00040353508" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_19" rgba="0 0 0 0" group="3" mass="0.00111848288" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_20" rgba="0 0 0 0" group="3" mass="0.0150625124" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_21" rgba="0 0 0 0" group="3" mass="0.00252554209" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_22" rgba="0 0 0 0" group="3" mass="0.000787710972" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_23" rgba="0 0 0 0" group="3" mass="0.000645765824" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_24" rgba="0 0 0 0" group="3" mass="0.000706159201" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_25" rgba="0 0 0 0" group="3" mass="0.000485308344" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_26" rgba="0 0 0 0" group="3" mass="0.00178929294" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_27" rgba="0 0 0 0" group="3" mass="0.000416110665" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_28" rgba="0 0 0 0" group="3" mass="0.000554915366" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_29" rgba="0 0 0 0" group="3" mass="0.000363722807" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_30" rgba="0 0 0 0" group="3" mass="0.000335433439" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_31" rgba="0 0 0 0" group="3" mass="0.00173463023" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="bunny_rattle_hull_32" rgba="0 0 0 0" group="3" mass="0.0367562639" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_00" rgba="0 0 0 0" group="3" mass="0.0022475506" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_01" rgba="0 0 0 0" group="3" mass="0.027218222" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_02" rgba="0 0 0 0" group="3" mass="0.00175590649" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_03" rgba="0 0 0 0" group="3" mass="0.00638757668" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_04" rgba="0 0 0 0" group="3" mass="0.0158776891" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_05" rgba="0 0 0 0" group="3" mass="0.0236675019" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_06" rgba="0 0 0 0" group="3" mass="0.00132308539" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_07" rgba="0 0 0 0" group="3" mass="0.000335749009" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_08" rgba="0 0 0 0" group="3" mass="0.000897287598" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_09" rgba="0 0 0 0" group="3" mass="0.00559900342" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_10" rgba="0 0 0 0" group="3" mass="0.0139968651" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_11" rgba="0 0 0 0" group="3" mass="0.00934466545" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_12" rgba="0 0 0 0" group="3" mass="0.00876828715" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_13" rgba="0 0 0 0" group="3" mass="0.00213725551" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_14" rgba="0 0 0 0" group="3" mass="0.000335749009" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_15" rgba="0 0 0 0" group="3" mass="0.000902429639" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_16" rgba="0 0 0 0" group="3" mass="0.00332353227" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_17" rgba="0 0 0 0" group="3" mass="0.00914815723" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_18" rgba="0 0 0 0" group="3" mass="0.00050410605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_19" rgba="0 0 0 0" group="3" mass="0.0013972366" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_20" rgba="0 0 0 0" group="3" mass="0.019863439" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_21" rgba="0 0 0 0" group="3" mass="0.00315496994" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_22" rgba="0 0 0 0" group="3" mass="0.000984028121" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_23" rgba="0 0 0 0" group="3" mass="0.000806706715" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_24" rgba="0 0 0 0" group="3" mass="0.000882151623" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_25" rgba="0 0 0 0" group="3" mass="0.000606259243" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_26" rgba="0 0 0 0" group="3" mass="0.0022352292" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_27" rgba="0 0 0 0" group="3" mass="0.000519815783" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_28" rgba="0 0 0 0" group="3" mass="0.000801017105" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_29" rgba="0 0 0 0" group="3" mass="0.000454371568" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_30" rgba="0 0 0 0" group="3" mass="0.000357212171" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bunny_rattle_hull_31" rgba="0 0 0 0" group="3" mass="0.00216694318" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0373 0.0410 0.0574" pos="0.0000 0.0000 0.0574" />
     </body>
   </worldbody>

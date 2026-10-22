@@ -40,38 +40,36 @@
     <mesh name="small_black_toy_truck_hull_23" file="hulls/h23.obj" maxhullvert="128" />
     <mesh name="small_black_toy_truck_hull_24" file="hulls/h24.obj" maxhullvert="128" />
     <mesh name="small_black_toy_truck_hull_25" file="hulls/h25.obj" maxhullvert="128" />
-    <mesh name="small_black_toy_truck_hull_26" file="hulls/h26.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="small_black_toy_truck">
       <geom type="mesh" mesh="small_black_toy_truck_0_mesh" material="small_black_toy_truck_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_00" rgba="0 0 0 0" group="3" mass="0.00331392226" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_01" rgba="0 0 0 0" group="3" mass="0.000652391253" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_02" rgba="0 0 0 0" group="3" mass="0.00462871789" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_03" rgba="0 0 0 0" group="3" mass="0.000888501323" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_04" rgba="0 0 0 0" group="3" mass="0.00671068501" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_05" rgba="0 0 0 0" group="3" mass="0.00830235918" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_06" rgba="0 0 0 0" group="3" mass="0.0170771987" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_07" rgba="0 0 0 0" group="3" mass="0.00704969589" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_08" rgba="0 0 0 0" group="3" mass="0.00311038334" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_09" rgba="0 0 0 0" group="3" mass="0.00316572053" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_10" rgba="0 0 0 0" group="3" mass="0.0200841688" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_11" rgba="0 0 0 0" group="3" mass="0.000555362897" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_12" rgba="0 0 0 0" group="3" mass="0.0052347999" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_13" rgba="0 0 0 0" group="3" mass="0.00375735185" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_14" rgba="0 0 0 0" group="3" mass="0.00623137396" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_15" rgba="0 0 0 0" group="3" mass="0.0115446346" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_16" rgba="0 0 0 0" group="3" mass="0.000482827399" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_17" rgba="0 0 0 0" group="3" mass="0.00704261991" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_18" rgba="0 0 0 0" group="3" mass="0.000452181819" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_19" rgba="0 0 0 0" group="3" mass="0.0032996781" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_20" rgba="0 0 0 0" group="3" mass="0.000902703915" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_21" rgba="0 0 0 0" group="3" mass="0.000502051453" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_22" rgba="0 0 0 0" group="3" mass="0.00134636833" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_23" rgba="0 0 0 0" group="3" mass="0.000933736659" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_24" rgba="0 0 0 0" group="3" mass="0.000703510031" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_25" rgba="0 0 0 0" group="3" mass="0.00597130372" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="small_black_toy_truck_hull_26" rgba="0 0 0 0" group="3" mass="0.0200557513" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_00" rgba="0 0 0 0" group="3" mass="0.00392132199" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_01" rgba="0 0 0 0" group="3" mass="0.000750449275" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_02" rgba="0 0 0 0" group="3" mass="0.00549308168" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_03" rgba="0 0 0 0" group="3" mass="0.001022048" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_04" rgba="0 0 0 0" group="3" mass="0.00796612009" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_05" rgba="0 0 0 0" group="3" mass="0.0095502498" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_06" rgba="0 0 0 0" group="3" mass="0.0196439963" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_07" rgba="0 0 0 0" group="3" mass="0.00810930427" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_08" rgba="0 0 0 0" group="3" mass="0.0035778912" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_09" rgba="0 0 0 0" group="3" mass="0.00364154587" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_10" rgba="0 0 0 0" group="3" mass="0.0231029307" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_11" rgba="0 0 0 0" group="3" mass="0.00063883702" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_12" rgba="0 0 0 0" group="3" mass="0.00620139558" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_13" rgba="0 0 0 0" group="3" mass="0.0044854028" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_14" rgba="0 0 0 0" group="3" mass="0.00716798402" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_15" rgba="0 0 0 0" group="3" mass="0.0132798572" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_16" rgba="0 0 0 0" group="3" mass="0.000555399034" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_17" rgba="0 0 0 0" group="3" mass="0.00833725611" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_18" rgba="0 0 0 0" group="3" mass="0.000520147254" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_19" rgba="0 0 0 0" group="3" mass="0.00379563801" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_20" rgba="0 0 0 0" group="3" mass="0.00103838532" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_21" rgba="0 0 0 0" group="3" mass="0.000620657849" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_22" rgba="0 0 0 0" group="3" mass="0.00154873495" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_23" rgba="0 0 0 0" group="3" mass="0.00114711006" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_24" rgba="0 0 0 0" group="3" mass="0.000809251489" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_black_toy_truck_hull_25" rgba="0 0 0 0" group="3" mass="0.0070750041" friction="0.9 0.01 0.002" condim="4" />
       <geom name="place:bounds" class="place" type="box" size="0.0538 0.0354 0.0396" pos="0.0000 0.0000 0.0396" />
     </body>
   </worldbody>
