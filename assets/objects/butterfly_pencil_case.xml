@@ -1,0 +1,46 @@
+<mujoco model="butterfly_pencil_case">
+  <compiler angle="radian" meshdir="../mesh/butterfly_pencil_case" texturedir="../mesh/butterfly_pencil_case" />
+  <custom>
+    <text name="label" data="butterfly pencil case" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="butterfly_pencil_case_0_mesh" file="0.obj" />
+    <material name="butterfly_pencil_case_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="butterfly_pencil_case_0_tex" role="rgb" />
+    </material>
+    <texture name="butterfly_pencil_case_0_tex" type="2d" file="0.png" />
+    <mesh name="butterfly_pencil_case_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="butterfly_pencil_case_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="butterfly_pencil_case">
+      <geom type="mesh" mesh="butterfly_pencil_case_0_mesh" material="butterfly_pencil_case_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_00" rgba="0 0 0 0" group="3" mass="0.0598133422" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_01" rgba="0 0 0 0" group="3" mass="0.167074524" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_02" rgba="0 0 0 0" group="3" mass="0.0772407552" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_03" rgba="0 0 0 0" group="3" mass="0.0296031864" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_04" rgba="0 0 0 0" group="3" mass="0.0194429576" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_05" rgba="0 0 0 0" group="3" mass="0.00699534699" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_06" rgba="0 0 0 0" group="3" mass="0.00508831083" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_07" rgba="0 0 0 0" group="3" mass="0.0172636941" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_08" rgba="0 0 0 0" group="3" mass="0.00192153715" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_09" rgba="0 0 0 0" group="3" mass="0.00697601897" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butterfly_pencil_case_hull_10" rgba="0 0 0 0" group="3" mass="0.0235803265" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1046 0.0435 0.0474" pos="0.0000 0.0000 0.0474" />
+    </body>
+  </worldbody>
+</mujoco>

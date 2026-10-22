@@ -1,0 +1,90 @@
+<mujoco model="wooden_toy_sheep">
+  <compiler angle="radian" meshdir="../mesh/wooden_toy_sheep" texturedir="../mesh/wooden_toy_sheep" />
+  <custom>
+    <text name="label" data="wooden toy sheep" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="wooden_toy_sheep_0_mesh" file="0.obj" />
+    <material name="wooden_toy_sheep_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="wooden_toy_sheep_0_tex" role="rgb" />
+    </material>
+    <texture name="wooden_toy_sheep_0_tex" type="2d" file="0.png" />
+    <mesh name="wooden_toy_sheep_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="wooden_toy_sheep_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="wooden_toy_sheep">
+      <geom type="mesh" mesh="wooden_toy_sheep_0_mesh" material="wooden_toy_sheep_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_00" rgba="0 0 0 0" group="3" mass="0.00147160935" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_01" rgba="0 0 0 0" group="3" mass="0.00154702721" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_02" rgba="0 0 0 0" group="3" mass="0.00105788061" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_03" rgba="0 0 0 0" group="3" mass="0.00484121634" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_04" rgba="0 0 0 0" group="3" mass="0.00159660209" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_05" rgba="0 0 0 0" group="3" mass="0.0145068923" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_06" rgba="0 0 0 0" group="3" mass="0.0169064586" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_07" rgba="0 0 0 0" group="3" mass="0.0189372625" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_08" rgba="0 0 0 0" group="3" mass="0.00907380314" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_09" rgba="0 0 0 0" group="3" mass="0.0333117235" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_10" rgba="0 0 0 0" group="3" mass="0.00197834212" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_11" rgba="0 0 0 0" group="3" mass="0.0011353337" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_12" rgba="0 0 0 0" group="3" mass="0.0106718484" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_13" rgba="0 0 0 0" group="3" mass="0.0036342127" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_14" rgba="0 0 0 0" group="3" mass="0.00222826487" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_15" rgba="0 0 0 0" group="3" mass="0.00742891848" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_16" rgba="0 0 0 0" group="3" mass="0.00383406199" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_17" rgba="0 0 0 0" group="3" mass="0.0115373884" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_18" rgba="0 0 0 0" group="3" mass="0.00126773824" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_19" rgba="0 0 0 0" group="3" mass="0.00152333364" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_20" rgba="0 0 0 0" group="3" mass="0.00222033534" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_21" rgba="0 0 0 0" group="3" mass="0.0107908209" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_22" rgba="0 0 0 0" group="3" mass="0.00178085258" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_23" rgba="0 0 0 0" group="3" mass="0.00814747616" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_24" rgba="0 0 0 0" group="3" mass="0.0168544024" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_25" rgba="0 0 0 0" group="3" mass="0.00378362412" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_26" rgba="0 0 0 0" group="3" mass="0.000869534997" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_27" rgba="0 0 0 0" group="3" mass="0.0088753514" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_28" rgba="0 0 0 0" group="3" mass="0.000817924941" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_29" rgba="0 0 0 0" group="3" mass="0.00327604744" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_30" rgba="0 0 0 0" group="3" mass="0.024890249" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_31" rgba="0 0 0 0" group="3" mass="0.000493489862" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_toy_sheep_hull_32" rgba="0 0 0 0" group="3" mass="0.0157099727" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0425 0.0679 0.0446" pos="0.0000 0.0000 0.0446" />
+    </body>
+  </worldbody>
+</mujoco>

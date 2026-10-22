@@ -1,0 +1,90 @@
+<mujoco model="brass_hand_bell">
+  <compiler angle="radian" meshdir="../mesh/brass_hand_bell" texturedir="../mesh/brass_hand_bell" />
+  <custom>
+    <text name="label" data="brass hand bell" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="brass_hand_bell_0_mesh" file="0.obj" />
+    <material name="brass_hand_bell_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="brass_hand_bell_0_tex" role="rgb" />
+    </material>
+    <texture name="brass_hand_bell_0_tex" type="2d" file="0.png" />
+    <mesh name="brass_hand_bell_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="brass_hand_bell_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="brass_hand_bell">
+      <geom type="mesh" mesh="brass_hand_bell_0_mesh" material="brass_hand_bell_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_00" rgba="0 0 0 0" group="3" mass="0.0433064319" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_01" rgba="0 0 0 0" group="3" mass="0.0137994265" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_02" rgba="0 0 0 0" group="3" mass="0.0710561239" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_03" rgba="0 0 0 0" group="3" mass="0.00308837705" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_04" rgba="0 0 0 0" group="3" mass="0.00442129016" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_05" rgba="0 0 0 0" group="3" mass="0.000589999514" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_06" rgba="0 0 0 0" group="3" mass="0.000527152986" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_07" rgba="0 0 0 0" group="3" mass="0.00488548991" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_08" rgba="0 0 0 0" group="3" mass="0.00240309873" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_09" rgba="0 0 0 0" group="3" mass="0.00223891879" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_10" rgba="0 0 0 0" group="3" mass="0.00250601243" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_11" rgba="0 0 0 0" group="3" mass="0.00244628651" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_12" rgba="0 0 0 0" group="3" mass="0.000527152986" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_13" rgba="0 0 0 0" group="3" mass="0.00290992609" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_14" rgba="0 0 0 0" group="3" mass="0.00124807318" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_15" rgba="0 0 0 0" group="3" mass="0.00217276824" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_16" rgba="0 0 0 0" group="3" mass="0.00348210899" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_17" rgba="0 0 0 0" group="3" mass="0.00225308057" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_18" rgba="0 0 0 0" group="3" mass="0.00130935088" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_19" rgba="0 0 0 0" group="3" mass="0.000527152986" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_20" rgba="0 0 0 0" group="3" mass="0.000659211584" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_21" rgba="0 0 0 0" group="3" mass="0.00349142896" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_22" rgba="0 0 0 0" group="3" mass="0.00220671387" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_23" rgba="0 0 0 0" group="3" mass="0.00330008949" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_24" rgba="0 0 0 0" group="3" mass="0.00239455476" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_25" rgba="0 0 0 0" group="3" mass="0.00171757736" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_26" rgba="0 0 0 0" group="3" mass="0.000527152986" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_27" rgba="0 0 0 0" group="3" mass="0.00199749026" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_28" rgba="0 0 0 0" group="3" mass="0.00152103754" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_29" rgba="0 0 0 0" group="3" mass="0.00126164683" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_30" rgba="0 0 0 0" group="3" mass="0.00302127598" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_31" rgba="0 0 0 0" group="3" mass="0.00197855341" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brass_hand_bell_hull_32" rgba="0 0 0 0" group="3" mass="0.0742250447" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0415 0.0415 0.0798" pos="0.0000 0.0000 0.0798" />
+    </body>
+  </worldbody>
+</mujoco>

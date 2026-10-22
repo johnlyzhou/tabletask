@@ -1,0 +1,10 @@
+{
+  "id": "toy_vehicle_on_tray",
+  "instruction": "Put the {toy} on the tray.",
+  "objects": {
+    "toy": {"asset": ["toy_school_bus", "toy_excavator", "toy_road_roller", "small_toy_fire_engine", "chunky_toy_fire_truck", "colorful_toy_car", "chicken_racer_toy", "bunny_racer_toy", "wooden_toy_helicopter", "toy_speedboat"], "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
+    "tray": {"asset": "red_square_tray", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
+  },
+  "start": [["on", "toy", "table"], ["on", "tray", "table"]],
+  "goal": [["on", "toy", "tray"]]
+}

@@ -1,0 +1,42 @@
+<mujoco model="bottle_of_marinade">
+  <compiler angle="radian" meshdir="../mesh/bottle_of_marinade" texturedir="../mesh/bottle_of_marinade" />
+  <custom>
+    <text name="label" data="bottle of marinade" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="bottle_of_marinade_0_mesh" file="0.obj" />
+    <material name="bottle_of_marinade_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="bottle_of_marinade_0_tex" role="rgb" />
+    </material>
+    <texture name="bottle_of_marinade_0_tex" type="2d" file="0.png" />
+    <mesh name="bottle_of_marinade_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="bottle_of_marinade_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="bottle_of_marinade_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="bottle_of_marinade_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="bottle_of_marinade_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="bottle_of_marinade_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="bottle_of_marinade_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="bottle_of_marinade_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="bottle_of_marinade_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="bottle_of_marinade">
+      <geom type="mesh" mesh="bottle_of_marinade_0_mesh" material="bottle_of_marinade_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bottle_of_marinade_hull_00" rgba="0 0 0 0" group="3" mass="0.0101810026" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bottle_of_marinade_hull_01" rgba="0 0 0 0" group="3" mass="0.0115954793" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bottle_of_marinade_hull_02" rgba="0 0 0 0" group="3" mass="0.0376251765" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bottle_of_marinade_hull_03" rgba="0 0 0 0" group="3" mass="0.106996908" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bottle_of_marinade_hull_04" rgba="0 0 0 0" group="3" mass="0.00412302834" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bottle_of_marinade_hull_05" rgba="0 0 0 0" group="3" mass="0.00390777698" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bottle_of_marinade_hull_06" rgba="0 0 0 0" group="3" mass="0.00478696485" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bottle_of_marinade_hull_07" rgba="0 0 0 0" group="3" mass="0.00401056877" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bottle_of_marinade_hull_08" rgba="0 0 0 0" group="3" mass="0.00877309488" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0321 0.0313 0.0995" pos="0.0000 0.0000 0.0995" />
+    </body>
+  </worldbody>
+</mujoco>

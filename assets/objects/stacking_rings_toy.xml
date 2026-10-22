@@ -1,0 +1,44 @@
+<mujoco model="stacking_rings_toy">
+  <compiler angle="radian" meshdir="../mesh/stacking_rings_toy" texturedir="../mesh/stacking_rings_toy" />
+  <custom>
+    <text name="label" data="stacking rings toy" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="stacking_rings_toy_0_mesh" file="0.obj" />
+    <material name="stacking_rings_toy_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="stacking_rings_toy_0_tex" role="rgb" />
+    </material>
+    <texture name="stacking_rings_toy_0_tex" type="2d" file="0.png" />
+    <mesh name="stacking_rings_toy_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="stacking_rings_toy_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="stacking_rings_toy_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="stacking_rings_toy_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="stacking_rings_toy_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="stacking_rings_toy_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="stacking_rings_toy_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="stacking_rings_toy_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="stacking_rings_toy_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="stacking_rings_toy_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="stacking_rings_toy">
+      <geom type="mesh" mesh="stacking_rings_toy_0_mesh" material="stacking_rings_toy_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_00" rgba="0 0 0 0" group="3" mass="0.0364474251" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_01" rgba="0 0 0 0" group="3" mass="0.0195727815" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_02" rgba="0 0 0 0" group="3" mass="0.0408069618" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_03" rgba="0 0 0 0" group="3" mass="0.049683981" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_04" rgba="0 0 0 0" group="3" mass="0.0213857702" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_05" rgba="0 0 0 0" group="3" mass="0.0305398457" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_06" rgba="0 0 0 0" group="3" mass="0.0360050083" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_07" rgba="0 0 0 0" group="3" mass="0.0017814879" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_08" rgba="0 0 0 0" group="3" mass="0.0268454553" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stacking_rings_toy_hull_09" rgba="0 0 0 0" group="3" mass="0.0209312831" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0396 0.0399 0.0937" pos="0.0000 0.0000 0.0937" />
+    </body>
+  </worldbody>
+</mujoco>

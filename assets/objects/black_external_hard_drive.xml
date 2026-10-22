@@ -1,0 +1,34 @@
+<mujoco model="black_external_hard_drive">
+  <compiler angle="radian" meshdir="../mesh/black_external_hard_drive" texturedir="../mesh/black_external_hard_drive" />
+  <custom>
+    <text name="label" data="black external hard drive" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="black_external_hard_drive_0_mesh" file="0.obj" />
+    <material name="black_external_hard_drive_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="black_external_hard_drive_0_tex" role="rgb" />
+    </material>
+    <texture name="black_external_hard_drive_0_tex" type="2d" file="0.png" />
+    <mesh name="black_external_hard_drive_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="black_external_hard_drive_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="black_external_hard_drive_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="black_external_hard_drive_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="black_external_hard_drive_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="black_external_hard_drive">
+      <geom type="mesh" mesh="black_external_hard_drive_0_mesh" material="black_external_hard_drive_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="black_external_hard_drive_hull_00" rgba="0 0 0 0" group="3" mass="0.0104276873" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_external_hard_drive_hull_01" rgba="0 0 0 0" group="3" mass="0.0168822451" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_external_hard_drive_hull_02" rgba="0 0 0 0" group="3" mass="0.00980760871" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_external_hard_drive_hull_03" rgba="0 0 0 0" group="3" mass="0.0173774186" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_external_hard_drive_hull_04" rgba="0 0 0 0" group="3" mass="0.00350504033" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0105 0.0448 0.0641" pos="0.0000 0.0000 0.0641" />
+    </body>
+  </worldbody>
+</mujoco>

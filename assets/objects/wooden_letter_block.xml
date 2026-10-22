@@ -1,0 +1,30 @@
+<mujoco model="wooden_letter_block">
+  <compiler angle="radian" meshdir="../mesh/wooden_letter_block" texturedir="../mesh/wooden_letter_block" />
+  <custom>
+    <text name="label" data="wooden letter block" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="wooden_letter_block_0_mesh" file="0.obj" />
+    <material name="wooden_letter_block_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="wooden_letter_block_0_tex" role="rgb" />
+    </material>
+    <texture name="wooden_letter_block_0_tex" type="2d" file="0.png" />
+    <mesh name="wooden_letter_block_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="wooden_letter_block_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="wooden_letter_block_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="wooden_letter_block">
+      <geom type="mesh" mesh="wooden_letter_block_0_mesh" material="wooden_letter_block_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="wooden_letter_block_hull_00" rgba="0 0 0 0" group="3" mass="0.00950597158" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_letter_block_hull_01" rgba="0 0 0 0" group="3" mass="0.00604293033" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_letter_block_hull_02" rgba="0 0 0 0" group="3" mass="0.00445109809" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0153 0.0156 0.0152" pos="0.0000 0.0000 0.0152" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,62 @@
+<mujoco model="black_bookend">
+  <compiler angle="radian" meshdir="../mesh/black_bookend" texturedir="../mesh/black_bookend" />
+  <custom>
+    <text name="label" data="black bookend" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="black_bookend_0_mesh" file="0.obj" />
+    <material name="black_bookend_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="black_bookend_0_tex" role="rgb" />
+    </material>
+    <texture name="black_bookend_0_tex" type="2d" file="0.png" />
+    <mesh name="black_bookend_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="black_bookend_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="black_bookend">
+      <geom type="mesh" mesh="black_bookend_0_mesh" material="black_bookend_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_00" rgba="0 0 0 0" group="3" mass="0.128961915" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_01" rgba="0 0 0 0" group="3" mass="0.338009761" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_02" rgba="0 0 0 0" group="3" mass="0.00289255691" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_03" rgba="0 0 0 0" group="3" mass="0.0379409937" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_04" rgba="0 0 0 0" group="3" mass="0.0791986914" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_05" rgba="0 0 0 0" group="3" mass="0.0667677624" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_06" rgba="0 0 0 0" group="3" mass="0.133728371" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_07" rgba="0 0 0 0" group="3" mass="0.0431105608" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_08" rgba="0 0 0 0" group="3" mass="0.0438397171" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_09" rgba="0 0 0 0" group="3" mass="0.0467819633" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_10" rgba="0 0 0 0" group="3" mass="0.213193386" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_11" rgba="0 0 0 0" group="3" mass="0.133405478" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_12" rgba="0 0 0 0" group="3" mass="0.0212554434" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_13" rgba="0 0 0 0" group="3" mass="0.0210456958" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_14" rgba="0 0 0 0" group="3" mass="0.00686685558" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_15" rgba="0 0 0 0" group="3" mass="0.0290135798" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_16" rgba="0 0 0 0" group="3" mass="0.00289255691" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_17" rgba="0 0 0 0" group="3" mass="0.00814982536" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_bookend_hull_18" rgba="0 0 0 0" group="3" mass="0.0939448869" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1175 0.0544 0.1182" pos="0.0000 0.0000 0.1182" />
+    </body>
+  </worldbody>
+</mujoco>

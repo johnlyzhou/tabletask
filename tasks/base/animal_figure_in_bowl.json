@@ -1,0 +1,10 @@
+{
+  "id": "animal_figure_in_bowl",
+  "instruction": "Put the {animal} in the bowl.",
+  "objects": {
+    "animal": {"asset": ["black_rhino_figure", "bull_figure", "lion_figure", "unicorn_figure", "bald_eagle_figure", "allosaurus_figure", "grey_triceratops_figure", "horned_dinosaur_figure", "squirrel_figure", "great_white_shark_figure"], "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
+    "bowl": {"asset": "white_serving_bowl", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
+  },
+  "start": [["on", "animal", "table"], ["on", "bowl", "table"]],
+  "goal": [["inside", "animal", "bowl"]]
+}

@@ -1,0 +1,52 @@
+<mujoco model="toy_speedboat">
+  <compiler angle="radian" meshdir="../mesh/toy_speedboat" texturedir="../mesh/toy_speedboat" />
+  <custom>
+    <text name="label" data="toy speedboat" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="toy_speedboat_0_mesh" file="0.obj" />
+    <material name="toy_speedboat_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="toy_speedboat_0_tex" role="rgb" />
+    </material>
+    <texture name="toy_speedboat_0_tex" type="2d" file="0.png" />
+    <mesh name="toy_speedboat_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="toy_speedboat_inside" file="inside.obj" />
+  </asset>
+  <worldbody>
+    <body name="toy_speedboat">
+      <geom type="mesh" mesh="toy_speedboat_0_mesh" material="toy_speedboat_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_00" rgba="0 0 0 0" group="3" mass="0.00963685618" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_01" rgba="0 0 0 0" group="3" mass="0.0109621049" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_02" rgba="0 0 0 0" group="3" mass="0.0971134695" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_03" rgba="0 0 0 0" group="3" mass="0.0166595907" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_04" rgba="0 0 0 0" group="3" mass="0.0117247946" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_05" rgba="0 0 0 0" group="3" mass="0.0181949787" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_06" rgba="0 0 0 0" group="3" mass="0.00176328436" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_07" rgba="0 0 0 0" group="3" mass="0.00868303457" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_08" rgba="0 0 0 0" group="3" mass="0.00834606573" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_09" rgba="0 0 0 0" group="3" mass="0.00878889875" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_10" rgba="0 0 0 0" group="3" mass="0.0193805846" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_11" rgba="0 0 0 0" group="3" mass="0.0139339658" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="toy_speedboat_hull_12" rgba="0 0 0 0" group="3" mass="0.0458123716" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0712 0.0599 0.0331" pos="0.0000 0.0000 0.0331" />
+      <geom name="place:inside" class="place" type="mesh" mesh="toy_speedboat_inside" />
+    </body>
+  </worldbody>
+</mujoco>

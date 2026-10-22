@@ -1,0 +1,34 @@
+<mujoco model="tub_of_sweetener">
+  <compiler angle="radian" meshdir="../mesh/tub_of_sweetener" texturedir="../mesh/tub_of_sweetener" />
+  <custom>
+    <text name="label" data="tub of sweetener" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="tub_of_sweetener_0_mesh" file="0.obj" />
+    <material name="tub_of_sweetener_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="tub_of_sweetener_0_tex" role="rgb" />
+    </material>
+    <texture name="tub_of_sweetener_0_tex" type="2d" file="0.png" />
+    <mesh name="tub_of_sweetener_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="tub_of_sweetener_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="tub_of_sweetener_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="tub_of_sweetener_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="tub_of_sweetener_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="tub_of_sweetener">
+      <geom type="mesh" mesh="tub_of_sweetener_0_mesh" material="tub_of_sweetener_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="tub_of_sweetener_hull_00" rgba="0 0 0 0" group="3" mass="0.157331184" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tub_of_sweetener_hull_01" rgba="0 0 0 0" group="3" mass="0.0452961765" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tub_of_sweetener_hull_02" rgba="0 0 0 0" group="3" mass="0.105420505" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tub_of_sweetener_hull_03" rgba="0 0 0 0" group="3" mass="0.0169521351" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0485 0.0475 0.0736" pos="0.0000 0.0000 0.0736" />
+      <geom name="place:top" class="place" type="mesh" mesh="tub_of_sweetener_top" />
+    </body>
+  </worldbody>
+</mujoco>

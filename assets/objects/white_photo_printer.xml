@@ -1,0 +1,34 @@
+<mujoco model="white_photo_printer">
+  <compiler angle="radian" meshdir="../mesh/white_photo_printer" texturedir="../mesh/white_photo_printer" />
+  <custom>
+    <text name="label" data="white photo printer" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_photo_printer_0_mesh" file="0.obj" />
+    <material name="white_photo_printer_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_photo_printer_0_tex" role="rgb" />
+    </material>
+    <texture name="white_photo_printer_0_tex" type="2d" file="0.png" />
+    <mesh name="white_photo_printer_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_photo_printer_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_photo_printer_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_photo_printer_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_photo_printer_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="white_photo_printer">
+      <geom type="mesh" mesh="white_photo_printer_0_mesh" material="white_photo_printer_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_photo_printer_hull_00" rgba="0 0 0 0" group="3" mass="0.030005257" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_photo_printer_hull_01" rgba="0 0 0 0" group="3" mass="0.0249133154" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_photo_printer_hull_02" rgba="0 0 0 0" group="3" mass="0.0331931165" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_photo_printer_hull_03" rgba="0 0 0 0" group="3" mass="0.0345790919" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_photo_printer_hull_04" rgba="0 0 0 0" group="3" mass="0.00830921913" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0515 0.0215 0.0619" pos="0.0000 0.0000 0.0619" />
+    </body>
+  </worldbody>
+</mujoco>

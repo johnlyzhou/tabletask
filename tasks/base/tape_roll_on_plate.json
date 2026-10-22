@@ -1,0 +1,10 @@
+{
+  "id": "tape_roll_on_plate",
+  "instruction": "Put the {tape} on the plate.",
+  "objects": {
+    "tape": {"asset": ["roll_of_green_tape", "roll_of_purple_tape", "roll_of_silver_duct_tape", "wide_roll_of_white_tape"], "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
+    "plate": {"asset": "teal_plate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
+  },
+  "start": [["on", "tape", "table"], ["on", "plate", "table"]],
+  "goal": [["on", "tape", "plate"]]
+}

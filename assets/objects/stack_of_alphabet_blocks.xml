@@ -1,0 +1,40 @@
+<mujoco model="stack_of_alphabet_blocks">
+  <compiler angle="radian" meshdir="../mesh/stack_of_alphabet_blocks" texturedir="../mesh/stack_of_alphabet_blocks" />
+  <custom>
+    <text name="label" data="stack of alphabet blocks" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="stack_of_alphabet_blocks_0_mesh" file="0.obj" />
+    <material name="stack_of_alphabet_blocks_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="stack_of_alphabet_blocks_0_tex" role="rgb" />
+    </material>
+    <texture name="stack_of_alphabet_blocks_0_tex" type="2d" file="0.png" />
+    <mesh name="stack_of_alphabet_blocks_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="stack_of_alphabet_blocks_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="stack_of_alphabet_blocks_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="stack_of_alphabet_blocks_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="stack_of_alphabet_blocks_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="stack_of_alphabet_blocks_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="stack_of_alphabet_blocks_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="stack_of_alphabet_blocks_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="stack_of_alphabet_blocks">
+      <geom type="mesh" mesh="stack_of_alphabet_blocks_0_mesh" material="stack_of_alphabet_blocks_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="stack_of_alphabet_blocks_hull_00" rgba="0 0 0 0" group="3" mass="0.0850271372" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stack_of_alphabet_blocks_hull_01" rgba="0 0 0 0" group="3" mass="0.0412814256" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stack_of_alphabet_blocks_hull_02" rgba="0 0 0 0" group="3" mass="0.0752843833" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stack_of_alphabet_blocks_hull_03" rgba="0 0 0 0" group="3" mass="0.0683385242" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stack_of_alphabet_blocks_hull_04" rgba="0 0 0 0" group="3" mass="0.046226814" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stack_of_alphabet_blocks_hull_05" rgba="0 0 0 0" group="3" mass="0.0499107991" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="stack_of_alphabet_blocks_hull_06" rgba="0 0 0 0" group="3" mass="0.0299309167" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1070 0.0313 0.0616" pos="0.0000 0.0000 0.0616" />
+      <geom name="place:top" class="place" type="mesh" mesh="stack_of_alphabet_blocks_top" />
+    </body>
+  </worldbody>
+</mujoco>
