@@ -167,7 +167,6 @@ authors are listed with thanks.
 | `vintage_kettle` | [Vintage Electric Kettle](https://polyhaven.com/a/vintage_electric_kettle) | SV Garip |
 | `vintage_lighter` | [Vintage Lighter](https://polyhaven.com/a/vintage_lighter) | Slinc |
 | `vintage_stapler` | [Vintage Stapler](https://polyhaven.com/a/vintage_stapler) | Mateusz Sadek |
-| `walkman` | [Portable Cassette Player](https://polyhaven.com/a/portable_cassette_player) | Mateusz Sadek |
 | `wall_clock` | [Wall Clock](https://polyhaven.com/a/wall_clock) | PierreB3D |
 | `watering_can` | [Watering Can Metal 01](https://polyhaven.com/a/watering_can_metal_01) | Charles Nderitu |
 | `white_bottle_vase` | [Ceramic Vase 01](https://polyhaven.com/a/ceramic_vase_01) | James Ray Cock |

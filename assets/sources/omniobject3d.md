@@ -399,7 +399,6 @@ regions, and their textures were downsampled.
 | `grey_flashlight` | `flash_light_005` |
 | `grey_fork` | `fork_001` |
 | `grey_glasses_case` | `glasses_case_030` |
-| `grey_hair_clip` | `hairpin_011` |
 | `grey_hamster_kitchen_timer` | `timer_009` |
 | `grey_jujube` | `red_jujube_015` |
 | `grey_lipstick` | `lipstick_005` |

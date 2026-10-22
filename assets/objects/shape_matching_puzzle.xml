@@ -47,43 +47,95 @@
     <mesh name="shape_matching_puzzle_hull_30" file="hulls/h30.obj" maxhullvert="128" />
     <mesh name="shape_matching_puzzle_hull_31" file="hulls/h31.obj" maxhullvert="128" />
     <mesh name="shape_matching_puzzle_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_47" file="hulls/h47.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_48" file="hulls/h48.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_49" file="hulls/h49.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_50" file="hulls/h50.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_51" file="hulls/h51.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_52" file="hulls/h52.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_53" file="hulls/h53.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_54" file="hulls/h54.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_55" file="hulls/h55.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_56" file="hulls/h56.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_57" file="hulls/h57.obj" maxhullvert="128" />
+    <mesh name="shape_matching_puzzle_hull_58" file="hulls/h58.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="shape_matching_puzzle">
       <geom type="mesh" mesh="shape_matching_puzzle_0_mesh" material="shape_matching_puzzle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_00" rgba="0 0 0 0" group="3" mass="0.0156190988" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_01" rgba="0 0 0 0" group="3" mass="0.0099441335" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_02" rgba="0 0 0 0" group="3" mass="0.00826568847" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_03" rgba="0 0 0 0" group="3" mass="0.0105690818" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_04" rgba="0 0 0 0" group="3" mass="0.00749461052" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_05" rgba="0 0 0 0" group="3" mass="0.00810542712" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_06" rgba="0 0 0 0" group="3" mass="0.00054374618" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_07" rgba="0 0 0 0" group="3" mass="0.00054374618" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_08" rgba="0 0 0 0" group="3" mass="0.00139030539" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_09" rgba="0 0 0 0" group="3" mass="0.00863871432" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_10" rgba="0 0 0 0" group="3" mass="0.0145759044" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_11" rgba="0 0 0 0" group="3" mass="0.00106951247" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_12" rgba="0 0 0 0" group="3" mass="0.00752571756" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_13" rgba="0 0 0 0" group="3" mass="0.00204097249" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_14" rgba="0 0 0 0" group="3" mass="0.00351331926" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_15" rgba="0 0 0 0" group="3" mass="0.0021251625" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_16" rgba="0 0 0 0" group="3" mass="0.00239023136" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_17" rgba="0 0 0 0" group="3" mass="0.0208870839" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_18" rgba="0 0 0 0" group="3" mass="0.00277506267" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_19" rgba="0 0 0 0" group="3" mass="0.00263280866" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_20" rgba="0 0 0 0" group="3" mass="0.0136471481" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_21" rgba="0 0 0 0" group="3" mass="0.00054374618" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_22" rgba="0 0 0 0" group="3" mass="0.0237063891" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_23" rgba="0 0 0 0" group="3" mass="0.00054374618" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_24" rgba="0 0 0 0" group="3" mass="0.00054374618" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_25" rgba="0 0 0 0" group="3" mass="0.00549753858" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_26" rgba="0 0 0 0" group="3" mass="0.00054374618" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_27" rgba="0 0 0 0" group="3" mass="0.00150033956" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_28" rgba="0 0 0 0" group="3" mass="0.00205579611" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_29" rgba="0 0 0 0" group="3" mass="0.00054374618" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_30" rgba="0 0 0 0" group="3" mass="0.00054374618" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_31" rgba="0 0 0 0" group="3" mass="0.000961020622" friction="0.9 0.01 0.002" condim="4" />
-      <geom type="mesh" mesh="shape_matching_puzzle_hull_32" rgba="0 0 0 0" group="3" mass="0.0937189634" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_00" rgba="0 0 0 0" group="3" mass="0.0112010804" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_01" rgba="0 0 0 0" group="3" mass="0.0162931793" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_02" rgba="0 0 0 0" group="3" mass="0.00666617774" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_03" rgba="0 0 0 0" group="3" mass="0.0121151816" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_04" rgba="0 0 0 0" group="3" mass="0.00922366479" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_05" rgba="0 0 0 0" group="3" mass="0.00570055318" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_06" rgba="0 0 0 0" group="3" mass="0.00661928201" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_07" rgba="0 0 0 0" group="3" mass="0.00867717582" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_08" rgba="0 0 0 0" group="3" mass="0.00101294861" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_09" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_10" rgba="0 0 0 0" group="3" mass="0.0108677626" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_11" rgba="0 0 0 0" group="3" mass="0.00108126456" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_12" rgba="0 0 0 0" group="3" mass="0.0129153001" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_13" rgba="0 0 0 0" group="3" mass="0.00645569297" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_14" rgba="0 0 0 0" group="3" mass="0.00706259328" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_15" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_16" rgba="0 0 0 0" group="3" mass="0.00406986038" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_17" rgba="0 0 0 0" group="3" mass="0.00357298768" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_18" rgba="0 0 0 0" group="3" mass="0.00873730214" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_19" rgba="0 0 0 0" group="3" mass="0.00529590327" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_20" rgba="0 0 0 0" group="3" mass="0.00589399345" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_21" rgba="0 0 0 0" group="3" mass="0.0110347663" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_22" rgba="0 0 0 0" group="3" mass="0.00304456204" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_23" rgba="0 0 0 0" group="3" mass="0.00141718905" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_24" rgba="0 0 0 0" group="3" mass="0.00435653458" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_25" rgba="0 0 0 0" group="3" mass="0.00430905534" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_26" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_27" rgba="0 0 0 0" group="3" mass="0.00268087871" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_28" rgba="0 0 0 0" group="3" mass="0.00848416189" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_29" rgba="0 0 0 0" group="3" mass="0.0226948562" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_30" rgba="0 0 0 0" group="3" mass="0.00922513645" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_31" rgba="0 0 0 0" group="3" mass="0.00900865391" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_32" rgba="0 0 0 0" group="3" mass="0.0102307624" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_33" rgba="0 0 0 0" group="3" mass="0.00953176139" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_34" rgba="0 0 0 0" group="3" mass="0.000913344865" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_35" rgba="0 0 0 0" group="3" mass="0.00262164711" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_36" rgba="0 0 0 0" group="3" mass="0.00067076843" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_37" rgba="0 0 0 0" group="3" mass="0.00202929623" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_38" rgba="0 0 0 0" group="3" mass="0.00379819034" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_39" rgba="0 0 0 0" group="3" mass="0.00133268029" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_40" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_41" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_42" rgba="0 0 0 0" group="3" mass="0.00345935591" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_43" rgba="0 0 0 0" group="3" mass="0.00408285586" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_44" rgba="0 0 0 0" group="3" mass="0.00265596849" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_45" rgba="0 0 0 0" group="3" mass="0.00179523079" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_46" rgba="0 0 0 0" group="3" mass="0.000965650826" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_47" rgba="0 0 0 0" group="3" mass="0.00146713988" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_48" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_49" rgba="0 0 0 0" group="3" mass="0.00126572362" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_50" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_51" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_52" rgba="0 0 0 0" group="3" mass="0.000907650049" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_53" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_54" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_55" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_56" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_57" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
+      <geom type="mesh" mesh="shape_matching_puzzle_hull_58" rgba="0 0 0 0" group="3" mass="0.000539591092" condim="4" friction="0.9 0.01 0.002" />
       <geom name="place:bounds" class="place" type="box" size="0.0876 0.0947 0.0173" pos="0.0000 0.0000 0.0173" />
     </body>
   </worldbody>
