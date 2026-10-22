@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import ast
+import importlib.util
 import os
 import urllib.error
 import urllib.request
@@ -72,8 +74,27 @@ def asset_dirs(compiler: ET.Element | None) -> dict[str, str]:
     return {"mesh": meshdir, "texture": texturedir, "hfield": meshdir, "skin": meshdir}
 
 
+def siblings(script: Path, name: str) -> None:
+    """Fetch the modules beside a generator script that it imports and Python cannot find."""
+    try:
+        tree = ast.parse(script.read_text())
+    except SyntaxError:
+        return
+    modules = set()
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Import):
+            modules.update(alias.name.split(".")[0] for alias in node.names)
+        elif isinstance(node, ast.ImportFrom) and node.module and not node.level:
+            modules.add(node.module.split(".")[0])
+    for module in sorted(modules):
+        if importlib.util.find_spec(module) is None:
+            download(f"{Path(name).parent.as_posix()}/{module}.py")
+
+
 def asset(name: str) -> Path | None:
     """The cached copy of an asset xml, after fetching every mesh and texture it references.
+
+    A generator script also brings the modules beside it that it imports.
 
     Returns None if the file itself is unavailable.
 
@@ -82,6 +103,8 @@ def asset(name: str) -> Path | None:
             does not.
     """
     xml = download(name)
+    if xml is not None and xml.suffix == ".py":
+        siblings(xml, name)
     if xml is None or xml.suffix != ".xml":
         return xml
     try:
