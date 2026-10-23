@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_square_plate" texturedir="../mesh/white_square_plate" />
   <custom>
     <text name="label" data="white square plate" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

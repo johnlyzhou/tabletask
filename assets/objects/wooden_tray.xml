@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_tray" texturedir="../mesh/wooden_tray"/>
   <custom>
     <text name="label" data="wooden tray" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

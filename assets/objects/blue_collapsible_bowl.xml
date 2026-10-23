@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_collapsible_bowl" texturedir="../mesh/blue_collapsible_bowl" />
   <custom>
     <text name="label" data="blue collapsible bowl" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

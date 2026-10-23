@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/left_bin" texturedir="../mesh/left_bin" />
   <custom>
     <text name="label" data="blue crate" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

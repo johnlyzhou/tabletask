@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brass_dish" texturedir="../mesh/brass_dish" />
   <custom>
     <text name="label" data="brass dish" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

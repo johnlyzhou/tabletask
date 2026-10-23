@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/red_square_tray" texturedir="../mesh/red_square_tray" />
   <custom>
     <text name="label" data="red square tray" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

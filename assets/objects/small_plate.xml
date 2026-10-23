@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_plate" texturedir="../mesh/small_plate" />
   <custom>
     <text name="label" data="woven plate" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

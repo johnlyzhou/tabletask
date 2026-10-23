@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_plant_saucer" texturedir="../mesh/brown_plant_saucer" />
   <custom>
     <text name="label" data="brown plant saucer" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

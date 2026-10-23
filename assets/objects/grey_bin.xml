@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_bin" texturedir="../mesh/grey_bin" />
   <custom>
     <text name="label" data="grey tub" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

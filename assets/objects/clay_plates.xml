@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/clay_plates" texturedir="../mesh/clay_plates" />
   <custom>
     <text name="label" data="clay plate" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/rainbow_plate" texturedir="../mesh/rainbow_plate"/>
   <custom>
     <text name="label" data="striped plate" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

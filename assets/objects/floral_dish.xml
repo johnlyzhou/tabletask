@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/floral_dish" texturedir="../mesh/floral_dish"/>
   <custom>
     <text name="label" data="floral dish" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

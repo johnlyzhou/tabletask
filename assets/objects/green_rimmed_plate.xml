@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/green_rimmed_plate" texturedir="../mesh/green_rimmed_plate"/>
   <custom>
     <text name="label" data="green plate" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/turquoise_bowl" texturedir="../mesh/turquoise_bowl" />
   <custom>
     <text name="label" data="turquoise bowl" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

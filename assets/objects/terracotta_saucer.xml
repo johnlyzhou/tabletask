@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/terracotta_saucer" texturedir="../mesh/terracotta_saucer" />
   <custom>
     <text name="label" data="terracotta saucer" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

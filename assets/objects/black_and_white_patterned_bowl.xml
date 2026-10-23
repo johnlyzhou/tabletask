@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_and_white_patterned_bowl" texturedir="../mesh/black_and_white_patterned_bowl" />
   <custom>
     <text name="label" data="black and white patterned bowl" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/celadon_bowl" texturedir="../mesh/celadon_bowl"/>
   <custom>
     <text name="label" data="small white bowl" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_cake_pan" texturedir="../mesh/round_cake_pan" />
   <custom>
     <text name="label" data="round cake pan" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

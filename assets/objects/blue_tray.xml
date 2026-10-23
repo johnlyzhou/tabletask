@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_tray" texturedir="../mesh/blue_tray"/>
   <custom>
     <text name="label" data="light blue tray" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">

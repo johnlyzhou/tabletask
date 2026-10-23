@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_dog_bowl" texturedir="../mesh/grey_dog_bowl" />
   <custom>
     <text name="label" data="grey dog bowl" />
+    <text name="tags" data="container" />
   </custom>
   <default>
     <default class="place">
