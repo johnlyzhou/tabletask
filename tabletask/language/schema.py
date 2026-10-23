@@ -195,6 +195,7 @@ class Task(msgspec.Struct, omit_defaults=True):
     scene: Scene
     goal: Goal
     variables: dict[str, Draw] = {}
+    phrasings: list[str] = []  # other ways to say the instruction; each episode says one
     authored: dict[str, Any] = msgspec.field(default_factory=dict, name="__document__")
     observations: dict[str, dict[str, Any]] = {}
     states: dict[str, dict[str, Any]] = {}

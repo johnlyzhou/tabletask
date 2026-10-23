@@ -55,6 +55,7 @@ class Document(msgspec.Struct, forbid_unknown_fields=True):
     instruction: str
     start: list
     goal: list | dict
+    phrasings: list[str] = []
     tabletask: str = VERSION
     scene: str = DEFAULT_SCENE
     library: str = DEFAULT_LIBRARY
@@ -183,6 +184,7 @@ def compile_document(doc: dict, source: Path | None = None) -> Task:
     record = {
         "id": document.id,
         "instruction": document.instruction,
+        "phrasings": document.phrasings,
         "scene": {
             "file": _scene(document.scene, root),
             "library": document.library,
@@ -260,6 +262,8 @@ def _read_document(doc: dict) -> Document:
         )
     if not document.id or not document.instruction:
         raise ValueError("id and instruction must not be empty")
+    if not all(text.strip() for text in document.phrasings):
+        raise ValueError("phrasings must not be empty")
     if document.time_limit is not None and (
         not math.isfinite(document.time_limit) or document.time_limit <= 0
     ):

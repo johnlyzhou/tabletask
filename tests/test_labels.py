@@ -50,3 +50,17 @@ def test_labels_do_not_move_things(tmp_path):
     tasks = [_instantiate(load(t), rng) for t, rng in zip((plain, varied), rngs)]
     assert rngs[0].random() == rngs[1].random()
     assert labels(tasks[1])["red"] == "red block"  # the main name is the first
+
+
+def test_phrasings(tmp_path):
+    """Each episode says one of the instruction's phrasings, without moving anything."""
+    blue = str(ASSETS / "blue_block.xml")
+    plain = task(str(ASSETS / "red_block.xml"), blue)
+    phrased = {**plain, "phrasings": ["Lift the {red}, leave the {blue}.", "Grab the {red}, not the {blue}."]}
+    said = {tabletask.instantiate(phrased, episode).instruction for episode in range(40)}
+    assert said == {"Pick up the red block, not the blue block.", "Lift the red block, leave the blue block.",
+                    "Grab the red block, not the blue block."}
+    rngs = [np.random.default_rng(5), np.random.default_rng(5)]
+    for t, rng in zip((plain, phrased), rngs):
+        _instantiate(load(t), rng)
+    assert rngs[0].random() == rngs[1].random()

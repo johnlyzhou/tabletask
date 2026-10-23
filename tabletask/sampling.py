@@ -89,11 +89,23 @@ def _speak(task: Task, rng=None) -> Task:
 
 
 def _instantiate(task: Task, rng, bindings=None) -> Task:
+    # words draw from their own stream, so the phrasing and names chosen never change where
+    # things are placed
+    words = rng.spawn(1)[0]
+    if task.phrasings:
+        said = [task.instruction, *task.phrasings]
+        task = transform_task(
+            task,
+            lambda record: {
+                **record,
+                "instruction": said[int(words.integers(len(said)))],
+                "phrasings": [],
+            },
+        )
     result = bind(task, draw(task, rng), labels(task))
     if bindings:  # before copies are made, so a counted object's copies share its binding
         result = _attach(result, bindings)
-    # naming draws from its own stream, so the words chosen never change where things are placed
-    return _speak(concrete(realize_task(multiply(result, rng), rng)), rng.spawn(1)[0])
+    return _speak(concrete(realize_task(multiply(result, rng), rng)), words)
 
 
 def _attach(task: Task, bindings: dict) -> Task:

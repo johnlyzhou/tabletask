@@ -41,7 +41,7 @@ def check_task(task: Task) -> Task:
     task.goal.order()
     for text in _strings(msgspec.to_builtins(task, enc_hook=str)):
         for name in PLACEHOLDER.findall(text):
-            spoken = text == task.instruction and _names_object(task, name)
+            spoken = text in (task.instruction, *task.phrasings) and _names_object(task, name)
             if name not in task.variables and not spoken:
                 raise ValueError(f"{task.id}: {{{name}}} is used but not declared in variables")
     return task

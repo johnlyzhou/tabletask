@@ -226,7 +226,8 @@ An object declares `asset`, `fixed`, `count`, `tags`, `properties`, `sample` and
 An instruction may name an object or copy, `{item1}`, to say one of its asset's labels (or
 the asset's name with spaces): each episode picks one at random that no other object in the
 scene shares, falling back to the main name, from a stream of its own so the words never
-change where things are placed. `count` is an integer or an inclusive range; copies are
+change where things are placed. A task may list other ways to say its instruction in
+`phrasings`; each episode says the instruction or one of them, drawn from the same stream. `count` is an integer or an inclusive range; copies are
 named `piece1`, `piece2`, ... (even when a range draws one) and keep the `piece` tag,
 so conditions refer to them all as `#piece`; a start such as `on piece table` places
 every copy (a counted object's start can only place it `on` or `inside` something and
