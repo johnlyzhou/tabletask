@@ -1,5 +1,7 @@
 """Tabletop manipulation tasks written as JSON, sampled and graded in MuJoCo."""
 
+__version__ = "0.2.3"  # set before the imports: asset fetching reads it
+
 from .env import Env
 from .inspection import preview as _preview
 from .language.errors import SamplingError, UnsupportedError
@@ -9,8 +11,6 @@ from .language.kernel import relation, term
 from .language.schema import Task
 from .sampling import instantiate
 from .vector import Envs
-
-__version__ = "0.2.2"
 
 __all__ = [
     "Env",

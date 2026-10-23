@@ -54,6 +54,10 @@ success rates.
   `errors.py` has the two exceptions, `rotation.py` has quaternion helpers.
 - `sampling.py` draws an episode's concrete task and asks the simulator for a
   settled start; `env.py` runs episodes.
+- `fetching.py` downloads the assets a task names on first use, from the library at the
+  package's own revision (the commit a git install names, else the tag `v<version>`), into
+  `~/.cache/tabletask/<revision>/`; files of another revision are never reused. Tag each
+  release `v<version>` so its assets resolve.
 - `validation.py` checks tasks and assets; `inspection.py` explains a start
   condition by condition and draws previews.
 - `mujoco/model.py` assembles a scene; `place.py` samples where objects start;

@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import ast
+import importlib.metadata
 import importlib.util
+import json
 import os
 import urllib.error
 import urllib.request
@@ -11,19 +13,44 @@ import uuid
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-# Base URL of the asset library; override with TABLETASK_LIBRARY_URL to serve assets elsewhere.
-LIBRARY_URL = os.environ.get(
-    "TABLETASK_LIBRARY_URL", "https://raw.githubusercontent.com/omarrayyann/tabletask/main"
-).rstrip("/")
 TIMEOUT = 60  # seconds per download
 
 
+def release() -> str:
+    """The library revision this package was built with: the commit a git install names,
+    else the release tag `v<version>`.
+
+    Assets are fetched from, and cached under, this revision, so a package never mixes its
+    files with another version's.
+    """
+    from . import __version__
+
+    try:
+        dist = importlib.metadata.distribution("tabletask")
+    except importlib.metadata.PackageNotFoundError:
+        return f"v{__version__}"
+    # the install record describes this code only if it installed this very file
+    if Path(dist.locate_file("tabletask/fetching.py")).resolve() != Path(__file__).resolve():
+        return f"v{__version__}"
+    installed = json.loads(dist.read_text("direct_url.json") or "{}")
+    return installed.get("vcs_info", {}).get("commit_id") or f"v{__version__}"
+
+
+# Base URL of the asset library; override with TABLETASK_LIBRARY_URL to serve assets elsewhere.
+LIBRARY_URL = os.environ.get(
+    "TABLETASK_LIBRARY_URL", f"https://raw.githubusercontent.com/omarrayyann/tabletask/{release()}"
+).rstrip("/")
+
+
 def cache() -> Path:
-    """The directory where fetched assets are kept between runs."""
+    """The directory where fetched assets are kept between runs, one folder per revision.
+
+    Files fetched for another revision, or before revisions had folders, are never reused.
+    `TABLETASK_ASSETS` moves the folders' parent.
+    """
     given = os.environ.get("TABLETASK_ASSETS")
-    if given:
-        return Path(given).expanduser()
-    return Path(os.environ.get("XDG_CACHE_HOME", "~/.cache")).expanduser() / "tabletask"
+    root = Path(given or Path(os.environ.get("XDG_CACHE_HOME", "~/.cache")) / "tabletask").expanduser()
+    return root / release()
 
 
 def library_path(path: Path) -> str | None:
