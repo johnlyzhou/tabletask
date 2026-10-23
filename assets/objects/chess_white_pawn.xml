@@ -1,7 +1,7 @@
 <mujoco model="chess_white_pawn">
   <compiler angle="radian" meshdir="../mesh/chess_white_pawn" texturedir="../mesh/chess_white_pawn" />
   <custom>
-    <text name="label" data="white pawn" />
+    <text name="label" data="white pawn|chess piece|pawn|white chess pawn|white round topped pawn chess piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

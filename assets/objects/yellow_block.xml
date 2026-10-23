@@ -1,7 +1,7 @@
 <mujoco model="yellow_block">
   <compiler angle="radian" meshdir="../mesh/yellow_block" texturedir="../mesh/yellow_block" />
   <custom>
-    <text name="label" data="yellow block" />
+    <text name="label" data="yellow block|block|cube|yellow cube block|small solid yellow cube block" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

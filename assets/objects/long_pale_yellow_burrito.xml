@@ -1,7 +1,7 @@
 <mujoco model="long_pale_yellow_burrito">
   <compiler angle="radian" meshdir="../mesh/long_pale_yellow_burrito" texturedir="../mesh/long_pale_yellow_burrito" />
   <custom>
-    <text name="label" data="long pale yellow burrito" />
+    <text name="label" data="long pale yellow burrito|burrito|wrap|rolled tortilla wrap|long rolled pale yellow tortilla burrito with filling" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="grey_bin">
   <compiler angle="radian" meshdir="../mesh/grey_bin" texturedir="../mesh/grey_bin" />
   <custom>
-    <text name="label" data="grey tub" />
+    <text name="label" data="grey tub|tub|bin|grey plastic tub|dark grey rectangular plastic storage tub" />
     <text name="tags" data="container" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="power_drill">
   <compiler angle="radian" meshdir="../mesh/power_drill" texturedir="../mesh/power_drill" />
   <custom>
-    <text name="label" data="old power drill" />
+    <text name="label" data="old power drill|power drill|drill|yellow cordless drill|yellow-green cordless power drill with battery" />
   </custom>
   <default>
     <default class="place">

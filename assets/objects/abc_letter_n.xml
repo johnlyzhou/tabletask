@@ -1,7 +1,7 @@
 <mujoco model="abc_letter_n">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="N" />
+    <text name="label" data="letter n block|toy block|alphabet block|wooden letter n block|wooden alphabet block with a yellow-bordered letter n" />
   </custom>
   <default>
     <default class="place">

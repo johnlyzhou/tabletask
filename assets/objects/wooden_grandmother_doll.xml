@@ -1,7 +1,7 @@
 <mujoco model="wooden_grandmother_doll">
   <compiler angle="radian" meshdir="../mesh/wooden_grandmother_doll" texturedir="../mesh/wooden_grandmother_doll" />
   <custom>
-    <text name="label" data="wooden grandmother doll" />
+    <text name="label" data="wooden grandmother doll|doll|grandma doll|wooden old woman doll|wooden grandmother doll with white hair" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

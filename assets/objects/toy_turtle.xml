@@ -1,7 +1,7 @@
 <mujoco model="toy_turtle">
   <compiler angle="radian" meshdir="../mesh/toy_turtle" texturedir="../mesh/toy_turtle" />
   <custom>
-    <text name="label" data="toy turtle" />
+    <text name="label" data="toy turtle|turtle toy|baby turtle toy|green toy turtle|green baby activity turtle toy with colourful shell" />
   </custom>
   <default>
     <default class="place">

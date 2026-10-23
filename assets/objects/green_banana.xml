@@ -1,7 +1,7 @@
 <mujoco model="green_banana">
   <compiler angle="radian" meshdir="../mesh/green_banana" texturedir="../mesh/green_banana" />
   <custom>
-    <text name="label" data="green banana" />
+    <text name="label" data="green banana|banana|unripe banana|yellow-green banana|single unripe yellow-green banana" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

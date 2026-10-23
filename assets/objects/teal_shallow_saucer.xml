@@ -1,7 +1,7 @@
 <mujoco model="teal_shallow_saucer">
   <compiler angle="radian" meshdir="../mesh/teal_shallow_saucer" texturedir="../mesh/teal_shallow_saucer" />
   <custom>
-    <text name="label" data="teal shallow saucer" />
+    <text name="label" data="teal shallow saucer|saucer|shallow dish|teal saucer|round shallow teal saucer with rim" />
     <text name="tags" data="container" />
   </custom>
   <default>

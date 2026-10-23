@@ -1,7 +1,7 @@
 <mujoco model="pale_yellow_ear_of_corn">
   <compiler angle="radian" meshdir="../mesh/pale_yellow_ear_of_corn" texturedir="../mesh/pale_yellow_ear_of_corn" />
   <custom>
-    <text name="label" data="pale yellow ear of corn" />
+    <text name="label" data="pale yellow ear of corn|corn|corn cob|pale yellow corn cob|pale yellow ear of corn without husk" />
   </custom>
   <default>
     <default class="place">

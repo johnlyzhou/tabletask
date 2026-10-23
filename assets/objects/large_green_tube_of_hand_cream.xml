@@ -1,7 +1,7 @@
 <mujoco model="large_green_tube_of_hand_cream">
   <compiler angle="radian" meshdir="../mesh/large_green_tube_of_hand_cream" texturedir="../mesh/large_green_tube_of_hand_cream" />
   <custom>
-    <text name="label" data="large green tube of hand cream" />
+    <text name="label" data="large green tube of hand cream|hand cream|cream tube|green hand cream tube|slim bright green tube of hand cream" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="large_brown_peanut">
   <compiler angle="radian" meshdir="../mesh/large_brown_peanut" texturedir="../mesh/large_brown_peanut" />
   <custom>
-    <text name="label" data="large brown peanut" />
+    <text name="label" data="large brown peanut|peanut|groundnut|peanut in shell|large brown peanut in its shell" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

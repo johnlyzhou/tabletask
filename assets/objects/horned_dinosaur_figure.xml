@@ -1,7 +1,7 @@
 <mujoco model="horned_dinosaur_figure">
   <compiler angle="radian" meshdir="../mesh/horned_dinosaur_figure" texturedir="../mesh/horned_dinosaur_figure" />
   <custom>
-    <text name="label" data="horned dinosaur figure" />
+    <text name="label" data="horned dinosaur figure|dinosaur figure|toy dinosaur|brown horned dinosaur|brown horned styracosaurus dinosaur figure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

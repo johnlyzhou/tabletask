@@ -1,7 +1,7 @@
 <mujoco model="wooden_bucket">
   <compiler angle="radian" meshdir="../mesh/wooden_bucket" texturedir="../mesh/wooden_bucket" />
   <custom>
-    <text name="label" data="wooden bucket" />
+    <text name="label" data="wooden bucket|bucket|pail|brown wooden bucket|brown wooden bucket with metal bands and handle" />
   </custom>
   <default>
     <default class="place">

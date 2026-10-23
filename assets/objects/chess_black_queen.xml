@@ -1,7 +1,7 @@
 <mujoco model="chess_black_queen">
   <compiler angle="radian" meshdir="../mesh/chess_black_queen" texturedir="../mesh/chess_black_queen" />
   <custom>
-    <text name="label" data="black queen" />
+    <text name="label" data="black queen|chess piece|queen|black chess queen|black crowned queen chess piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

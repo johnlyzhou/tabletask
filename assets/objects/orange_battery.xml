@@ -1,7 +1,7 @@
 <mujoco model="orange_battery">
   <compiler angle="radian" meshdir="../mesh/orange_battery" texturedir="../mesh/orange_battery" />
   <custom>
-    <text name="label" data="copper-top battery" />
+    <text name="label" data="copper-top battery|battery|aa cell|aa battery|small black and copper aa battery" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

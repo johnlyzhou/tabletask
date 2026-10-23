@@ -1,7 +1,7 @@
 <mujoco model="megaphone">
   <compiler angle="radian" meshdir="../mesh/megaphone" texturedir="../mesh/megaphone" />
   <custom>
-    <text name="label" data="megaphone" />
+    <text name="label" data="megaphone|bullhorn|loudspeaker|red megaphone|red and black handheld megaphone with trigger grip" />
   </custom>
   <default>
     <default class="place">

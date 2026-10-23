@@ -1,7 +1,7 @@
 <mujoco model="dvd_case">
   <compiler angle="radian" meshdir="../mesh/dvd_case" texturedir="../mesh/dvd_case" />
   <custom>
-    <text name="label" data="DVD case" />
+    <text name="label" data="dvd case|dvd|movie case|grey dvd case|house of cards dvd box set case" />
   </custom>
   <default>
     <default class="place">

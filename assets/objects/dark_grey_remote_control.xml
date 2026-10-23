@@ -1,7 +1,7 @@
 <mujoco model="dark_grey_remote_control">
   <compiler angle="radian" meshdir="../mesh/dark_grey_remote_control" texturedir="../mesh/dark_grey_remote_control" />
   <custom>
-    <text name="label" data="dark grey remote control" />
+    <text name="label" data="dark grey remote control|remote control|tv remote|black tv remote|long dark grey tv remote with red buttons" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

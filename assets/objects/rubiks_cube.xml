@@ -1,7 +1,7 @@
 <mujoco model="rubiks_cube">
   <compiler angle="radian" meshdir="../mesh/rubiks_cube" texturedir="../mesh/rubiks_cube" />
   <custom>
-    <text name="label" data="Rubik's cube" />
+    <text name="label" data="rubik's cube|puzzle cube|cube puzzle|colourful rubik's cube|three by three colourful rubik's cube puzzle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

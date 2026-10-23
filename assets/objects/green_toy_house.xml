@@ -1,7 +1,7 @@
 <mujoco model="green_toy_house">
   <compiler angle="radian" meshdir="../mesh/green_toy_house" texturedir="../mesh/green_toy_house" />
   <custom>
-    <text name="label" data="green toy house" />
+    <text name="label" data="green toy house|toy house|dollhouse|wooden toy hut|small toy hut with palm trees on base" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

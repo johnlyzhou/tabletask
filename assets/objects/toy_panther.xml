@@ -1,7 +1,7 @@
 <mujoco model="toy_panther">
   <compiler angle="radian" meshdir="../mesh/toy_panther" texturedir="../mesh/toy_panther" />
   <custom>
-    <text name="label" data="toy panther" />
+    <text name="label" data="toy panther|panther figure|panther|black panther figurine|black plastic panther figure mid-stride" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

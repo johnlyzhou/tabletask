@@ -1,7 +1,7 @@
 <mujoco model="green_square_saucer">
   <compiler angle="radian" meshdir="../mesh/green_square_saucer" texturedir="../mesh/green_square_saucer" />
   <custom>
-    <text name="label" data="green square saucer" />
+    <text name="label" data="green square saucer|saucer|square dish|olive square saucer|shallow olive green square saucer tray" />
   </custom>
   <default>
     <default class="place">

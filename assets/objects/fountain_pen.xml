@@ -1,7 +1,7 @@
 <mujoco model="fountain_pen">
   <compiler angle="radian" meshdir="../mesh/fountain_pen" texturedir="../mesh/fountain_pen" />
   <custom>
-    <text name="label" data="fountain pen" />
+    <text name="label" data="fountain pen|pen|ink pen|black fountain pen|black and green fountain pen with gold trim" />
   </custom>
   <default>
     <default class="place">

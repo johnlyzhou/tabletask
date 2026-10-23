@@ -2,7 +2,7 @@
   <!-- club_sandwich, converted from the MolmoSpaces Objaverse library (uid 4fe6d72f20aa4c62bf5dc38f5a66f3a8; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/club_sandwich" texturedir="../mesh/club_sandwich"/>
   <custom>
-    <text name="label" data="sandwich" />
+    <text name="label" data="sandwich|club sandwich|sandwich wedge|triangle sandwich|triangle white bread sandwich with lettuce" />
   </custom>
   <default>
     <default class="place">

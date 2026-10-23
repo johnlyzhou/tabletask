@@ -1,7 +1,7 @@
 <mujoco model="small_white_bottle">
   <compiler angle="radian" meshdir="../mesh/small_white_bottle" texturedir="../mesh/small_white_bottle" />
   <custom>
-    <text name="label" data="small white bottle" />
+    <text name="label" data="small white bottle|bottle|pill bottle|white plastic bottle|small white plastic bottle with cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

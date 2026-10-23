@@ -1,7 +1,7 @@
 <mujoco model="dark_grey_brush">
   <compiler angle="radian" meshdir="../mesh/dark_grey_brush" texturedir="../mesh/dark_grey_brush" />
   <custom>
-    <text name="label" data="dark grey brush" />
+    <text name="label" data="dark grey brush|brush|hairbrush|dark grey hairbrush|long-handled dark grey hairbrush" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

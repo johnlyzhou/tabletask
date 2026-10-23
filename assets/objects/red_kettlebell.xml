@@ -2,7 +2,7 @@
   <!-- red_kettlebell, converted from the MolmoSpaces Objaverse library (uid 1cc5f925c20f4b619af7161698f9bfcf; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_kettlebell" texturedir="../mesh/red_kettlebell"/>
   <custom>
-    <text name="label" data="kettlebell" />
+    <text name="label" data="kettlebell|weight|kettle bell|red kettlebell|red plastic kettlebell weight with handle" />
   </custom>
   <default>
     <default class="place">

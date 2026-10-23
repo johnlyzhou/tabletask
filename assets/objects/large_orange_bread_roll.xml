@@ -1,7 +1,7 @@
 <mujoco model="large_orange_bread_roll">
   <compiler angle="radian" meshdir="../mesh/large_orange_bread_roll" texturedir="../mesh/large_orange_bread_roll" />
   <custom>
-    <text name="label" data="large orange bread roll" />
+    <text name="label" data="large orange bread roll|bread roll|bread|long orange bread roll|long golden orange crusty bread roll" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

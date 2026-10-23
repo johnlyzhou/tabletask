@@ -1,7 +1,7 @@
 <mujoco model="orange_pastry">
   <compiler angle="radian" meshdir="../mesh/orange_pastry" texturedir="../mesh/orange_pastry" />
   <custom>
-    <text name="label" data="orange pastry" />
+    <text name="label" data="orange pastry|pastry|baked pastry|flaky orange pastry|long flaky orange-brown baked pastry" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

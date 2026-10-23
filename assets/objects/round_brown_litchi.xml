@@ -1,7 +1,7 @@
 <mujoco model="round_brown_litchi">
   <compiler angle="radian" meshdir="../mesh/round_brown_litchi" texturedir="../mesh/round_brown_litchi" />
   <custom>
-    <text name="label" data="round brown litchi" />
+    <text name="label" data="round brown litchi|litchi|lychee|brown lychee fruit|round brown litchi with bumpy skin" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

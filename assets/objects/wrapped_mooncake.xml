@@ -1,7 +1,7 @@
 <mujoco model="wrapped_mooncake">
   <compiler angle="radian" meshdir="../mesh/wrapped_mooncake" texturedir="../mesh/wrapped_mooncake" />
   <custom>
-    <text name="label" data="wrapped mooncake" />
+    <text name="label" data="wrapped mooncake|mooncake|wrapped cake|green wrapped mooncake|mooncake in dark green wrapping" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

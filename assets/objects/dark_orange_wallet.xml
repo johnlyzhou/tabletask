@@ -1,7 +1,7 @@
 <mujoco model="dark_orange_wallet">
   <compiler angle="radian" meshdir="../mesh/dark_orange_wallet" texturedir="../mesh/dark_orange_wallet" />
   <custom>
-    <text name="label" data="dark orange wallet" />
+    <text name="label" data="dark orange wallet|wallet|purse|brown leather wallet|small dark brown leather wallet with clasp" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

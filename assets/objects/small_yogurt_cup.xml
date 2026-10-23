@@ -1,7 +1,7 @@
 <mujoco model="small_yogurt_cup">
   <compiler angle="radian" meshdir="../mesh/small_yogurt_cup" texturedir="../mesh/small_yogurt_cup" />
   <custom>
-    <text name="label" data="small yogurt cup" />
+    <text name="label" data="small yogurt cup|yogurt cup|yogurt|sealed yogurt cup|small grey-green yogurt cup with foil lid" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

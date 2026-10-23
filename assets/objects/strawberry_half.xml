@@ -1,7 +1,7 @@
 <mujoco model="strawberry_half">
   <compiler angle="radian" meshdir="../mesh/strawberry_half" texturedir="../mesh/strawberry_half" />
   <custom>
-    <text name="label" data="strawberry half" />
+    <text name="label" data="strawberry half|strawberry|halved strawberry|red strawberry half|halved red strawberry with seeds" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="grey_spray_can">
   <compiler angle="radian" meshdir="../mesh/grey_spray_can" texturedir="../mesh/grey_spray_can" />
   <custom>
-    <text name="label" data="grey spray can" />
+    <text name="label" data="grey spray can|spray can|aerosol can|small grey aerosol|small grey aerosol spray can with label" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

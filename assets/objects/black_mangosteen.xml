@@ -1,7 +1,7 @@
 <mujoco model="black_mangosteen">
   <compiler angle="radian" meshdir="../mesh/black_mangosteen" texturedir="../mesh/black_mangosteen" />
   <custom>
-    <text name="label" data="black mangosteen" />
+    <text name="label" data="black mangosteen|mangosteen|fruit|dark purple mangosteen|large round dark purple mangosteen with green top" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

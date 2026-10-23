@@ -1,7 +1,7 @@
 <mujoco model="silver_alarm_clock">
   <compiler angle="radian" meshdir="../mesh/silver_alarm_clock" texturedir="../mesh/silver_alarm_clock" />
   <custom>
-    <text name="label" data="silver alarm clock" />
+    <text name="label" data="silver alarm clock|alarm clock|clock|metal alarm clock|silver alarm clock with round face and bell ring" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="large_yellow_hot_dog">
   <compiler angle="radian" meshdir="../mesh/large_yellow_hot_dog" texturedir="../mesh/large_yellow_hot_dog" />
   <custom>
-    <text name="label" data="large yellow hot dog" />
+    <text name="label" data="large yellow hot dog|hot dog|sausage bun|large brown hot dog|large long brown hot dog in a bun" />
   </custom>
   <default>
     <default class="place">

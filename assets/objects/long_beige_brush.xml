@@ -1,7 +1,7 @@
 <mujoco model="long_beige_brush">
   <compiler angle="radian" meshdir="../mesh/long_beige_brush" texturedir="../mesh/long_beige_brush" />
   <custom>
-    <text name="label" data="long beige brush" />
+    <text name="label" data="long beige brush|brush|hair brush|beige plastic brush|long beige plastic brush with bristles" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="lidded_pot">
   <compiler angle="radian" meshdir="../mesh/lidded_pot" texturedir="../mesh/lidded_pot" />
   <custom>
-    <text name="label" data="lidded pot" />
+    <text name="label" data="lidded pot|pot|jar|lidded ceramic pot|round beige ceramic pot with knob lid" />
   </custom>
   <default>
     <default class="place">

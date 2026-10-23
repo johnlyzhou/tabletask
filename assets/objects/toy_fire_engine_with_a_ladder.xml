@@ -1,7 +1,7 @@
 <mujoco model="toy_fire_engine_with_a_ladder">
   <compiler angle="radian" meshdir="../mesh/toy_fire_engine_with_a_ladder" texturedir="../mesh/toy_fire_engine_with_a_ladder" />
   <custom>
-    <text name="label" data="toy fire engine with a ladder" />
+    <text name="label" data="toy fire engine with a ladder|toy fire engine|fire truck|red ladder fire truck|red toy fire engine with white ladder arm" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

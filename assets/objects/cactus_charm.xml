@@ -1,7 +1,7 @@
 <mujoco model="cactus_charm">
   <compiler angle="radian" meshdir="../mesh/cactus_charm" texturedir="../mesh/cactus_charm" />
   <custom>
-    <text name="label" data="cactus charm" />
+    <text name="label" data="cactus charm|charm|keychain|green cactus charm|green cactus charm with purple flowers" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

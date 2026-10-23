@@ -1,7 +1,7 @@
 <mujoco model="black_small_box">
   <compiler angle="radian" meshdir="../mesh/black_small_box" texturedir="../mesh/black_small_box" />
   <custom>
-    <text name="label" data="black small box" />
+    <text name="label" data="black small box|box|small case|small black box|small square black box with green label" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -2,7 +2,7 @@
   <!-- yellow_apple, converted from the MolmoSpaces Objaverse library (uid 1c3a06cd8b8d4fd1bf63f55c0b37dca4; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/yellow_apple" texturedir="../mesh/yellow_apple"/>
   <custom>
-    <text name="label" data="green apple" />
+    <text name="label" data="green apple|apple|granny smith|yellow-green apple|bright yellow-green apple with stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

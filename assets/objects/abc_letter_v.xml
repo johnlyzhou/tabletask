@@ -1,7 +1,7 @@
 <mujoco model="abc_letter_v">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="V" />
+    <text name="label" data="letter v block|toy block|alphabet block|wooden letter v block|wooden alphabet block with a green-bordered letter v" />
   </custom>
   <default>
     <default class="place">

@@ -2,7 +2,7 @@
   <!-- yellow_potato, converted from the MolmoSpaces Objaverse library (uid 0f4be86441694633b42c764a4574fd41; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/yellow_potato" texturedir="../mesh/yellow_potato" />
   <custom>
-    <text name="label" data="potato" />
+    <text name="label" data="potato|spud|baking potato|orange-yellow potato|round orange-yellow potato with blotches" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

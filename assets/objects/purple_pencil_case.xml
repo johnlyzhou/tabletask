@@ -1,7 +1,7 @@
 <mujoco model="purple_pencil_case">
   <compiler angle="radian" meshdir="../mesh/purple_pencil_case" texturedir="../mesh/purple_pencil_case" />
   <custom>
-    <text name="label" data="purple pencil case" />
+    <text name="label" data="purple pencil case|pencil case|pencil pouch|purple patterned case|purple and white patterned cylindrical pencil case" />
   </custom>
   <default>
     <default class="place">

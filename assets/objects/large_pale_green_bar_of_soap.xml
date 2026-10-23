@@ -1,7 +1,7 @@
 <mujoco model="large_pale_green_bar_of_soap">
   <compiler angle="radian" meshdir="../mesh/large_pale_green_bar_of_soap" texturedir="../mesh/large_pale_green_bar_of_soap" />
   <custom>
-    <text name="label" data="large pale green bar of soap" />
+    <text name="label" data="large pale green bar of soap|soap|soap bar|pale green soap bar|rectangular pale blue-green bar of soap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

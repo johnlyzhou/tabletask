@@ -1,7 +1,7 @@
 <mujoco model="round_beige_garlic_bulb">
   <compiler angle="radian" meshdir="../mesh/round_beige_garlic_bulb" texturedir="../mesh/round_beige_garlic_bulb" />
   <custom>
-    <text name="label" data="round beige garlic bulb" />
+    <text name="label" data="round beige garlic bulb|garlic|garlic bulb|beige garlic bulb|whole round beige garlic bulb with stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

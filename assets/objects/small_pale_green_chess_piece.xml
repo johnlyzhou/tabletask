@@ -1,7 +1,7 @@
 <mujoco model="small_pale_green_chess_piece">
   <compiler angle="radian" meshdir="../mesh/small_pale_green_chess_piece" texturedir="../mesh/small_pale_green_chess_piece" />
   <custom>
-    <text name="label" data="small pale green chess piece" />
+    <text name="label" data="small pale green chess piece|chess piece|pawn|pale green pawn|small pale green chess pawn" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

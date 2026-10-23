@@ -1,7 +1,7 @@
 <mujoco model="small_sausage_roll">
   <compiler angle="radian" meshdir="../mesh/small_sausage_roll" texturedir="../mesh/small_sausage_roll" />
   <custom>
-    <text name="label" data="small sausage roll" />
+    <text name="label" data="small sausage roll|pastry|savory pastry|baked sausage roll|small flaky baked sausage roll" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

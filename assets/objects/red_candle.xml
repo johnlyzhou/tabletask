@@ -1,7 +1,7 @@
 <mujoco model="red_candle">
   <compiler angle="radian" meshdir="../mesh/red_candle" texturedir="../mesh/red_candle" />
   <custom>
-    <text name="label" data="red candle" />
+    <text name="label" data="red candle|candle|pillar candle|red pillar candle|red melted pillar candle with gold base" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

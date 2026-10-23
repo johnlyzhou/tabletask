@@ -1,7 +1,7 @@
 <mujoco model="large_dark_green_toy_dinosaur">
   <compiler angle="radian" meshdir="../mesh/large_dark_green_toy_dinosaur" texturedir="../mesh/large_dark_green_toy_dinosaur" />
   <custom>
-    <text name="label" data="large dark green toy dinosaur" />
+    <text name="label" data="large dark green toy dinosaur|toy dinosaur|dinosaur|dark green dinosaur|large dark green toy dinosaur figure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

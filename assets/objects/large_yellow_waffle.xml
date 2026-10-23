@@ -1,7 +1,7 @@
 <mujoco model="large_yellow_waffle">
   <compiler angle="radian" meshdir="../mesh/large_yellow_waffle" texturedir="../mesh/large_yellow_waffle" />
   <custom>
-    <text name="label" data="large yellow waffle" />
+    <text name="label" data="large yellow waffle|waffle|belgian waffle|golden round waffle|large round golden yellow grid waffle" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="dark_teal_toy_animal">
   <compiler angle="radian" meshdir="../mesh/dark_teal_toy_animal" texturedir="../mesh/dark_teal_toy_animal" />
   <custom>
-    <text name="label" data="dark teal toy animal" />
+    <text name="label" data="dark teal toy animal|toy animal|animal toy|navy animal toy|round dark navy toy animal with green feet" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

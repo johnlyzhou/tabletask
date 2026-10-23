@@ -1,7 +1,7 @@
 <mujoco model="beige_thimble">
   <compiler angle="radian" meshdir="../mesh/beige_thimble" texturedir="../mesh/beige_thimble" />
   <custom>
-    <text name="label" data="beige thimble" />
+    <text name="label" data="orange thimble|thimble|sewing thimble|small orange thimble|tiny orange-red sewing thimble" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

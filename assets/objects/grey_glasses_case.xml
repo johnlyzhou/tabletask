@@ -1,7 +1,7 @@
 <mujoco model="grey_glasses_case">
   <compiler angle="radian" meshdir="../mesh/grey_glasses_case" texturedir="../mesh/grey_glasses_case" />
   <custom>
-    <text name="label" data="grey glasses case" />
+    <text name="label" data="grey glasses case|glasses case|spectacle case|grey marbled case|grey marbled hard glasses case" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

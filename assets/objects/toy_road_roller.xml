@@ -1,7 +1,7 @@
 <mujoco model="toy_road_roller">
   <compiler angle="radian" meshdir="../mesh/toy_road_roller" texturedir="../mesh/toy_road_roller" />
   <custom>
-    <text name="label" data="toy road roller" />
+    <text name="label" data="toy road roller|toy steamroller|road roller|wooden toy road roller|orange wooden toy road roller with black wheels" />
   </custom>
   <default>
     <default class="place">

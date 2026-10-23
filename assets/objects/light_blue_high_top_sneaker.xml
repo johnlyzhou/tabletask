@@ -1,7 +1,7 @@
 <mujoco model="light_blue_high_top_sneaker">
   <compiler angle="radian" meshdir="../mesh/light_blue_high_top_sneaker" texturedir="../mesh/light_blue_high_top_sneaker" />
   <custom>
-    <text name="label" data="light blue high-top sneaker" />
+    <text name="label" data="light blue high-top sneaker|sneaker|shoe|light blue high-top|light blue and white high-top sneaker with strap" />
   </custom>
   <default>
     <default class="place">

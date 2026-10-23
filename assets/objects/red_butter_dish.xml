@@ -1,7 +1,7 @@
 <mujoco model="red_butter_dish">
   <compiler angle="radian" meshdir="../mesh/red_butter_dish" texturedir="../mesh/red_butter_dish" />
   <custom>
-    <text name="label" data="red butter dish" />
+    <text name="label" data="red butter dish|butter dish|covered dish|red ceramic butter dish|red ceramic butter dish with lid" />
   </custom>
   <default>
     <default class="place">

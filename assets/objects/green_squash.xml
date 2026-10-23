@@ -1,7 +1,7 @@
 <mujoco model="green_squash">
   <compiler angle="radian" meshdir="../mesh/green_squash" texturedir="../mesh/green_squash" />
   <custom>
-    <text name="label" data="green squash" />
+    <text name="label" data="green squash|squash|zucchini|green summer squash|green speckled oblong summer squash" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

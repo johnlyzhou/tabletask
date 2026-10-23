@@ -1,7 +1,7 @@
 <mujoco model="metal_toolbox">
   <compiler angle="radian" meshdir="../mesh/metal_toolbox" texturedir="../mesh/metal_toolbox" />
   <custom>
-    <text name="label" data="metal toolbox" />
+    <text name="label" data="metal toolbox|toolbox|tool box|green metal tool chest|open green metal toolbox with hinged lid" />
   </custom>
   <default>
     <default class="place">

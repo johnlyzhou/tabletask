@@ -1,7 +1,7 @@
 <mujoco model="dark_green_and_yellow_biscuit">
   <compiler angle="radian" meshdir="../mesh/dark_green_and_yellow_biscuit" texturedir="../mesh/dark_green_and_yellow_biscuit" />
   <custom>
-    <text name="label" data="dark green and yellow biscuit" />
+    <text name="label" data="dark green and yellow biscuit|biscuit|cookie|golden shell biscuit|small golden shell-shaped ridged biscuit" />
   </custom>
   <default>
     <default class="place">

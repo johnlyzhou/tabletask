@@ -1,7 +1,7 @@
 <mujoco model="wooden_clothespin">
   <compiler angle="radian" meshdir="../mesh/wooden_clothespin" texturedir="../mesh/wooden_clothespin" />
   <custom>
-    <text name="label" data="clothespin" />
+    <text name="label" data="clothespin|clothes peg|peg|wooden clothespin|light wooden spring clothespin" />
   </custom>
   <default>
     <default class="place">

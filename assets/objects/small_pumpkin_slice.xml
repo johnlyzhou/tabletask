@@ -1,7 +1,7 @@
 <mujoco model="small_pumpkin_slice">
   <compiler angle="radian" meshdir="../mesh/small_pumpkin_slice" texturedir="../mesh/small_pumpkin_slice" />
   <custom>
-    <text name="label" data="small pumpkin slice" />
+    <text name="label" data="small pumpkin slice|pumpkin slice|pumpkin|orange pumpkin piece|small slice of bright orange pumpkin" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

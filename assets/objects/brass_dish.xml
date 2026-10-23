@@ -1,7 +1,7 @@
 <mujoco model="brass_dish">
   <compiler angle="radian" meshdir="../mesh/brass_dish" texturedir="../mesh/brass_dish" />
   <custom>
-    <text name="label" data="brass dish" />
+    <text name="label" data="brass dish|dish|bowl|round brass dish|wide round brass dish with side handles" />
     <text name="tags" data="container" />
   </custom>
   <default>

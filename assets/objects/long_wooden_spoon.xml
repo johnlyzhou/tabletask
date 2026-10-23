@@ -1,7 +1,7 @@
 <mujoco model="long_wooden_spoon">
   <compiler angle="radian" meshdir="../mesh/long_wooden_spoon" texturedir="../mesh/long_wooden_spoon" />
   <custom>
-    <text name="label" data="long wooden spoon" />
+    <text name="label" data="long wooden spoon|wooden spoon|spoon|brown cooking spoon|long brown wooden cooking spoon" />
   </custom>
   <default>
     <default class="place">

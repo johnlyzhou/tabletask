@@ -1,7 +1,7 @@
 <mujoco model="pomegranate">
   <compiler angle="radian" meshdir="../mesh/pomegranate" texturedir="../mesh/pomegranate" />
   <custom>
-    <text name="label" data="pomegranate" />
+    <text name="label" data="pomegranate|fruit|red fruit|red patterned pomegranate|large round red pomegranate with dark pattern" />
   </custom>
   <default>
     <default class="place">

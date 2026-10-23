@@ -1,7 +1,7 @@
 <mujoco model="chess_white_knight">
   <compiler angle="radian" meshdir="../mesh/chess_white_knight" texturedir="../mesh/chess_white_knight" />
   <custom>
-    <text name="label" data="white knight" />
+    <text name="label" data="white knight|chess piece|knight|white chess knight|white horse head knight chess piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

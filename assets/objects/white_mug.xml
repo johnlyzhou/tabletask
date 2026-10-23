@@ -1,7 +1,7 @@
 <mujoco model="white_mug">
   <compiler angle="radian" meshdir="../mesh/white_mug" texturedir="../mesh/white_mug" />
   <custom>
-    <text name="label" data="white mug" />
+    <text name="label" data="white mug|mug|cup|white ribbed mug|white ceramic mug with ribbed sides" />
   </custom>
   <default>
     <default class="place">

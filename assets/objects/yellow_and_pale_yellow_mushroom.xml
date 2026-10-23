@@ -1,7 +1,7 @@
 <mujoco model="yellow_and_pale_yellow_mushroom">
   <compiler angle="radian" meshdir="../mesh/yellow_and_pale_yellow_mushroom" texturedir="../mesh/yellow_and_pale_yellow_mushroom" />
   <custom>
-    <text name="label" data="yellow and pale yellow mushroom" />
+    <text name="label" data="yellow and pale yellow mushroom|mushroom|button mushroom|pale cream mushroom|large pale yellow button mushroom" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="toy_kitchen_sink">
   <compiler angle="radian" meshdir="../mesh/toy_kitchen_sink" texturedir="../mesh/toy_kitchen_sink" />
   <custom>
-    <text name="label" data="toy kitchen sink" />
+    <text name="label" data="toy kitchen sink|toy sink|play sink|green and white toy sink|small cream toy kitchen sink with green trim" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

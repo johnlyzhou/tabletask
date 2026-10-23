@@ -1,7 +1,7 @@
 <mujoco model="toy_giraffe">
   <compiler angle="radian" meshdir="../mesh/toy_giraffe" texturedir="../mesh/toy_giraffe" />
   <custom>
-    <text name="label" data="toy giraffe" />
+    <text name="label" data="toy giraffe|giraffe|animal figure|brown giraffe figure|brown toy giraffe figure with long neck" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

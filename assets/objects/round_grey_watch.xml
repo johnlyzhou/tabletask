@@ -1,7 +1,7 @@
 <mujoco model="round_grey_watch">
   <compiler angle="radian" meshdir="../mesh/round_grey_watch" texturedir="../mesh/round_grey_watch" />
   <custom>
-    <text name="label" data="round grey watch" />
+    <text name="label" data="round lilac watch|watch|wristwatch|lilac wristwatch|pale lilac plastic wristwatch with round band" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

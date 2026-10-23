@@ -1,7 +1,7 @@
 <mujoco model="brown_sausage">
   <compiler angle="radian" meshdir="../mesh/brown_sausage" texturedir="../mesh/brown_sausage" />
   <custom>
-    <text name="label" data="brown sausage" />
+    <text name="label" data="brown sausage|sausage|frankfurter|reddish brown sausage|long reddish brown cooked sausage" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

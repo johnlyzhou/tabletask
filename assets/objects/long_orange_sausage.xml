@@ -1,7 +1,7 @@
 <mujoco model="long_orange_sausage">
   <compiler angle="radian" meshdir="../mesh/long_orange_sausage" texturedir="../mesh/long_orange_sausage" />
   <custom>
-    <text name="label" data="long orange sausage" />
+    <text name="label" data="long orange sausage|sausage|frankfurter|plump orange sausage|plump curved golden orange sausage" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

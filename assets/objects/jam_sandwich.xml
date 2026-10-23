@@ -1,7 +1,7 @@
 <mujoco model="jam_sandwich">
   <compiler angle="radian" meshdir="../mesh/jam_sandwich" texturedir="../mesh/jam_sandwich" />
   <custom>
-    <text name="label" data="jam sandwich" />
+    <text name="label" data="jam sandwich|sandwich|toast sandwich|golden jam sandwich|thick golden toasted jam sandwich" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

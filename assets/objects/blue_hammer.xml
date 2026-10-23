@@ -1,7 +1,7 @@
 <mujoco model="blue_hammer">
   <compiler angle="radian" meshdir="../mesh/blue_hammer" texturedir="../mesh/blue_hammer" />
   <custom>
-    <text name="label" data="blue hammer" />
+    <text name="label" data="blue hammer|hammer|claw hammer|blue handle hammer|claw hammer with white head and blue handle" />
   </custom>
   <default>
     <default class="place">

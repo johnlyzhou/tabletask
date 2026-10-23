@@ -1,7 +1,7 @@
 <mujoco model="dark_orange_teapot">
   <compiler angle="radian" meshdir="../mesh/dark_orange_teapot" texturedir="../mesh/dark_orange_teapot" />
   <custom>
-    <text name="label" data="dark orange teapot" />
+    <text name="label" data="dark orange teapot|teapot|tea kettle|brown clay teapot|round brown clay teapot with lid knob" />
   </custom>
   <default>
     <default class="place">

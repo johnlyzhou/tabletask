@@ -1,7 +1,7 @@
 <mujoco model="green_toy_crocodile">
   <compiler angle="radian" meshdir="../mesh/green_toy_crocodile" texturedir="../mesh/green_toy_crocodile" />
   <custom>
-    <text name="label" data="green toy crocodile" />
+    <text name="label" data="green toy crocodile|toy crocodile|toy alligator|green wooden crocodile|green wooden toy crocodile with red segments" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

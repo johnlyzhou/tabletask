@@ -1,7 +1,7 @@
 <mujoco model="large_yellow_bun">
   <compiler angle="radian" meshdir="../mesh/large_yellow_bun" texturedir="../mesh/large_yellow_bun" />
   <custom>
-    <text name="label" data="large yellow bun" />
+    <text name="label" data="large yellow bun|bun|steamed bun|big round bun|large round pale yellow bun with folded top" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

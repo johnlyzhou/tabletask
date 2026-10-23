@@ -1,7 +1,7 @@
 <mujoco model="marble_bust">
   <compiler angle="radian" meshdir="../mesh/marble_bust" texturedir="../mesh/marble_bust" />
   <custom>
-    <text name="label" data="marble bust" />
+    <text name="label" data="marble bust|bust|statue|white marble bust|white marble bust of a man's head" />
   </custom>
   <default>
     <default class="place">

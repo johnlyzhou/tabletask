@@ -1,7 +1,7 @@
 <mujoco model="gold_computer_mouse">
   <compiler angle="radian" meshdir="../mesh/gold_computer_mouse" texturedir="../mesh/gold_computer_mouse" />
   <custom>
-    <text name="label" data="gold computer mouse" />
+    <text name="label" data="pink and silver computer mouse|computer mouse|mouse|pink laptop mouse|flat pink and silver wireless computer mouse" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

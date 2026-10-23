@@ -1,7 +1,7 @@
 <mujoco model="magnifying_glass">
   <compiler angle="radian" meshdir="../mesh/magnifying_glass" texturedir="../mesh/magnifying_glass" />
   <custom>
-    <text name="label" data="magnifying glass" />
+    <text name="label" data="magnifying glass|magnifier|hand lens|black magnifying glass|round magnifying glass with a black handle" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="dark_grey_ping_pong_paddle">
   <compiler angle="radian" meshdir="../mesh/dark_grey_ping_pong_paddle" texturedir="../mesh/dark_grey_ping_pong_paddle" />
   <custom>
-    <text name="label" data="dark grey ping-pong paddle" />
+    <text name="label" data="dark grey ping-pong paddle|ping-pong paddle|table tennis paddle|black ping-pong paddle|black rubber ping-pong paddle with wooden handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="purple_running_shoe">
   <compiler angle="radian" meshdir="../mesh/purple_running_shoe" texturedir="../mesh/purple_running_shoe" />
   <custom>
-    <text name="label" data="purple running shoe" />
+    <text name="label" data="purple running shoe|running shoe|sneaker|purple sneaker|purple running shoe with white sole" />
   </custom>
   <default>
     <default class="place">

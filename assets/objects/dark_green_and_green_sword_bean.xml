@@ -1,7 +1,7 @@
 <mujoco model="dark_green_and_green_sword_bean">
   <compiler angle="radian" meshdir="../mesh/dark_green_and_green_sword_bean" texturedir="../mesh/dark_green_and_green_sword_bean" />
   <custom>
-    <text name="label" data="dark green and green sword bean" />
+    <text name="label" data="dark green and green sword bean|bean|green bean|long green sword bean|long curved dark green sword bean pod" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

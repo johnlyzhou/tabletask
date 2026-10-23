@@ -2,7 +2,7 @@
   <!-- burger, converted from the MolmoSpaces Objaverse library (uid 6bf2dc6ffc594a8598bcf84f5d0325f1; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/burger" texturedir="../mesh/burger"/>
   <custom>
-    <text name="label" data="burger" />
+    <text name="label" data="burger|hamburger|sandwich|cheeseburger with lettuce|cheeseburger with lettuce and sesame bun" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="dinosaur">
   <compiler angle="radian" meshdir="../mesh/dinosaur" texturedir="../mesh/dinosaur" />
   <custom>
-    <text name="label" data="green toy dinosaur" />
+    <text name="label" data="green toy dinosaur|toy dinosaur|t-rex toy|green t-rex figure|green toy tyrannosaurus dinosaur figure" />
   </custom>
   <default>
     <default class="place">

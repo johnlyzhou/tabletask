@@ -1,7 +1,7 @@
 <mujoco model="key_lime">
   <compiler angle="radian" meshdir="../mesh/key_lime" texturedir="../mesh/key_lime" />
   <custom>
-    <text name="label" data="key lime" />
+    <text name="label" data="key lime|lime|citrus|round key lime|round yellow-green key lime" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

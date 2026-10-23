@@ -1,7 +1,7 @@
 <mujoco model="red_onion">
   <compiler angle="radian" meshdir="../mesh/red_onion" texturedir="../mesh/red_onion" />
   <custom>
-    <text name="label" data="red onion" />
+    <text name="label" data="red onion|onion|purple onion|dark red onion|whole dark red onion with root" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

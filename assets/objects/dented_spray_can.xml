@@ -1,7 +1,7 @@
 <mujoco model="dented_spray_can">
   <compiler angle="radian" meshdir="../mesh/dented_spray_can" texturedir="../mesh/dented_spray_can" />
   <custom>
-    <text name="label" data="dented spray can" />
+    <text name="label" data="dented spray can|spray can|aerosol can|orange spray can|dented orange and black aerosol spray can" />
   </custom>
   <default>
     <default class="place">

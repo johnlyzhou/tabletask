@@ -1,7 +1,7 @@
 <mujoco model="blue_tablet">
   <compiler angle="radian" meshdir="../mesh/blue_tablet" texturedir="../mesh/blue_tablet" />
   <custom>
-    <text name="label" data="blue tablet" />
+    <text name="label" data="blue tablet|tablet|tablet case|light blue tablet|tablet in a light blue cover case" />
   </custom>
   <default>
     <default class="place">

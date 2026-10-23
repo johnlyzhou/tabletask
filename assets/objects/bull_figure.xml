@@ -1,7 +1,7 @@
 <mujoco model="bull_figure">
   <compiler angle="radian" meshdir="../mesh/bull_figure" texturedir="../mesh/bull_figure" />
   <custom>
-    <text name="label" data="bull figure" />
+    <text name="label" data="bull figure|bull|toy cow|brown and white bull|brown and white toy bull figure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

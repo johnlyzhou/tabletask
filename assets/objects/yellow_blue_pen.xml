@@ -1,7 +1,7 @@
 <mujoco model="yellow_blue_pen">
   <compiler angle="radian" meshdir="../mesh/yellow_blue_pen" texturedir="../mesh/yellow_blue_pen" />
   <custom>
-    <text name="label" data="yellow and blue pen" />
+    <text name="label" data="yellow and blue pen|pen|ballpoint|yellow blue ballpoint|yellow ballpoint pen with blue cap tip" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="box_of_snack_cakes">
   <compiler angle="radian" meshdir="../mesh/box_of_snack_cakes" texturedir="../mesh/box_of_snack_cakes" />
   <custom>
-    <text name="label" data="box of snack cakes" />
+    <text name="label" data="box of snack cakes|snack box|snack cakes|white snack cake box|white and blue box of cream snack cakes" />
   </custom>
   <default>
     <default class="place">

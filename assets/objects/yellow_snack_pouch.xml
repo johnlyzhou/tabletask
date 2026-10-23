@@ -1,7 +1,7 @@
 <mujoco model="yellow_snack_pouch">
   <compiler angle="radian" meshdir="../mesh/yellow_snack_pouch" texturedir="../mesh/yellow_snack_pouch" />
   <custom>
-    <text name="label" data="yellow snack pouch" />
+    <text name="label" data="yellow snack pouch|snack pouch|snack bag|colourful snack pouch|yellow and blue printed snack pouch" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

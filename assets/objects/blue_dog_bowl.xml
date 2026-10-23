@@ -1,7 +1,7 @@
 <mujoco model="blue_dog_bowl">
   <compiler angle="radian" meshdir="../mesh/blue_dog_bowl" texturedir="../mesh/blue_dog_bowl" />
   <custom>
-    <text name="label" data="blue dog bowl" />
+    <text name="label" data="blue dog bowl|bowl|pet bowl|blue ceramic pet bowl|blue and white ceramic dog bowl with paw prints" />
     <text name="tags" data="container" />
   </custom>
   <default>

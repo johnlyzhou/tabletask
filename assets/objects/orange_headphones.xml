@@ -1,7 +1,7 @@
 <mujoco model="orange_headphones">
   <compiler angle="radian" meshdir="../mesh/orange_headphones" texturedir="../mesh/orange_headphones" />
   <custom>
-    <text name="label" data="orange headphones" />
+    <text name="label" data="orange headphones|headphones|headset|orange over-ear headset|orange and black over-ear headphones" />
   </custom>
   <default>
     <default class="place">

@@ -2,7 +2,7 @@
   <!-- red_cupcake, converted from the MolmoSpaces Objaverse library (uid 1b832a6fb7614493b893f9592f39e9ea; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_cupcake" texturedir="../mesh/red_cupcake"/>
   <custom>
-    <text name="label" data="red cupcake" />
+    <text name="label" data="red cupcake|cupcake|muffin|cupcake in red wrapper|cupcake with white frosting in red wrapper" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

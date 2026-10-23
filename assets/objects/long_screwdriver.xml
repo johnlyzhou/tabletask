@@ -1,7 +1,7 @@
 <mujoco model="long_screwdriver">
   <compiler angle="radian" meshdir="../mesh/long_screwdriver" texturedir="../mesh/long_screwdriver" />
   <custom>
-    <text name="label" data="long screwdriver" />
+    <text name="label" data="long screwdriver|screwdriver|driver|long metal screwdriver|long steel shaft screwdriver with dark handle" />
   </custom>
   <default>
     <default class="place">

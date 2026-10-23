@@ -1,7 +1,7 @@
 <mujoco model="pale_green_brush">
   <compiler angle="radian" meshdir="../mesh/pale_green_brush" texturedir="../mesh/pale_green_brush" />
   <custom>
-    <text name="label" data="pale green brush" />
+    <text name="label" data="pale green brush|brush|scrub brush|green bristle brush|scrub brush with green bristles and red handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

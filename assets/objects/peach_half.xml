@@ -1,7 +1,7 @@
 <mujoco model="peach_half">
   <compiler angle="radian" meshdir="../mesh/peach_half" texturedir="../mesh/peach_half" />
   <custom>
-    <text name="label" data="peach half" />
+    <text name="label" data="peach half|peach|halved peach|red peach half|halved red peach with yellow flesh" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="hacksaw">
   <compiler angle="radian" meshdir="../mesh/hacksaw" texturedir="../mesh/hacksaw" />
   <custom>
-    <text name="label" data="hacksaw" />
+    <text name="label" data="hacksaw|saw|metal saw|red frame hacksaw|hacksaw with red frame and black handle" />
   </custom>
   <default>
     <default class="place">

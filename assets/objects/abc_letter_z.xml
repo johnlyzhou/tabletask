@@ -1,7 +1,7 @@
 <mujoco model="abc_letter_z">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="Z" />
+    <text name="label" data="letter z block|toy block|alphabet block|wooden letter z block|wooden alphabet block with a red-bordered letter z" />
   </custom>
   <default>
     <default class="place">

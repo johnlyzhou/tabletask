@@ -1,7 +1,7 @@
 <mujoco model="brown_teapot">
   <compiler angle="radian" meshdir="../mesh/brown_teapot" texturedir="../mesh/brown_teapot" />
   <custom>
-    <text name="label" data="brown teapot" />
+    <text name="label" data="brown teapot|teapot|tea pot|tan clay teapot|tan brown clay teapot with lid" />
   </custom>
   <default>
     <default class="place">

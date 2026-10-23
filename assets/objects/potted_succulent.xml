@@ -1,7 +1,7 @@
 <mujoco model="potted_succulent">
   <compiler angle="radian" meshdir="../mesh/potted_succulent" texturedir="../mesh/potted_succulent" />
   <custom>
-    <text name="label" data="potted succulent" />
+    <text name="label" data="potted succulent|succulent|house plant|succulent in white pot|small green succulent in a white pot" />
   </custom>
   <default>
     <default class="place">

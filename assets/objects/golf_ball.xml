@@ -2,7 +2,7 @@
   <!-- golf_ball, converted from the MolmoSpaces Objaverse library (uid 3afbc0fe153146ccac248659acba9591; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/golf_ball" texturedir="../mesh/golf_ball"/>
   <custom>
-    <text name="label" data="golf ball" />
+    <text name="label" data="golf ball|ball|dimpled ball|white golf ball|white dimpled golf ball" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

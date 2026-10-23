@@ -1,7 +1,7 @@
 <mujoco model="pale_red_knife">
   <compiler angle="radian" meshdir="../mesh/pale_red_knife" texturedir="../mesh/pale_red_knife" />
   <custom>
-    <text name="label" data="pale red knife" />
+    <text name="label" data="pale red knife|knife|serrated knife|pink handled knife|serrated knife with a pale red handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

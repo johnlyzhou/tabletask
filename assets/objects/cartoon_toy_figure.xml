@@ -1,7 +1,7 @@
 <mujoco model="cartoon_toy_figure">
   <compiler angle="radian" meshdir="../mesh/cartoon_toy_figure" texturedir="../mesh/cartoon_toy_figure" />
   <custom>
-    <text name="label" data="cartoon toy figure" />
+    <text name="label" data="cartoon toy figure|toy figure|action figure|colorful cartoon figure|colorful cartoon toy figure lying down" />
   </custom>
   <default>
     <default class="place">

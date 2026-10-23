@@ -1,7 +1,7 @@
 <mujoco model="milk_jug">
   <compiler angle="radian" meshdir="../mesh/milk_jug" texturedir="../mesh/milk_jug" />
   <custom>
-    <text name="label" data="milk bottle" />
+    <text name="label" data="milk bottle|bottle|milk jug|white milk bottle|white plastic milk jug with screw cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

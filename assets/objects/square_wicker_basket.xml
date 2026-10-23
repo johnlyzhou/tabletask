@@ -1,7 +1,7 @@
 <mujoco model="square_wicker_basket">
   <compiler angle="radian" meshdir="../mesh/square_wicker_basket" texturedir="../mesh/square_wicker_basket" />
   <custom>
-    <text name="label" data="square wicker basket" />
+    <text name="label" data="square wicker basket|basket|wicker basket|brown square basket|square brown woven wicker basket with legs" />
   </custom>
   <default>
     <default class="place">

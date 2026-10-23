@@ -1,7 +1,7 @@
 <mujoco model="white_drawer">
   <compiler angle="radian" meshdir="../mesh/white_drawer" texturedir="../mesh/white_drawer" />
   <custom>
-    <text name="label" data="white drawer" />
+    <text name="label" data="white drawer|drawer|storage drawer|white cube drawer|white cube drawer unit with red handle" />
   </custom>
   <default>
     <default class="place">

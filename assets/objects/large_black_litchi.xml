@@ -1,7 +1,7 @@
 <mujoco model="large_black_litchi">
   <compiler angle="radian" meshdir="../mesh/large_black_litchi" texturedir="../mesh/large_black_litchi" />
   <custom>
-    <text name="label" data="large black litchi" />
+    <text name="label" data="large black litchi|litchi|lychee|dark brown lychee|large bumpy dark brown litchi fruit" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

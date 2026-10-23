@@ -1,7 +1,7 @@
 <mujoco model="blue_lotion_tube">
   <compiler angle="radian" meshdir="../mesh/blue_lotion_tube" texturedir="../mesh/blue_lotion_tube" />
   <custom>
-    <text name="label" data="blue lotion tube" />
+    <text name="label" data="blue lotion tube|lotion tube|tube|light blue tube|light blue squeeze tube of lotion" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

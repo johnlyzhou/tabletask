@@ -1,7 +1,7 @@
 <mujoco model="round_dark_green_shumai">
   <compiler angle="radian" meshdir="../mesh/round_dark_green_shumai" texturedir="../mesh/round_dark_green_shumai" />
   <custom>
-    <text name="label" data="round dark green shumai" />
+    <text name="label" data="round dark green shumai|shumai|dumpling|green steamed shumai|round dark green shumai dumpling with ruffled top" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="slice_of_cake">
   <compiler angle="radian" meshdir="../mesh/slice_of_cake" texturedir="../mesh/slice_of_cake" />
   <custom>
-    <text name="label" data="slice of cake" />
+    <text name="label" data="slice of cake|cake slice|cake|marble cake slice|slice of yellow and brown marble cake" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

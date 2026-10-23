@@ -2,7 +2,7 @@
   <!-- wicker_cup, converted from the MolmoSpaces Objaverse library (uid 3beabd7c94ae4def813d554afad41b9c; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/wicker_cup" texturedir="../mesh/wicker_cup"/>
   <custom>
-    <text name="label" data="pale yellow cup" />
+    <text name="label" data="pale yellow cup|cup|tumbler|light yellow cup|pale yellow tapered plastic cup" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="yellow_cream_jar">
   <compiler angle="radian" meshdir="../mesh/yellow_cream_jar" texturedir="../mesh/yellow_cream_jar" />
   <custom>
-    <text name="label" data="yellow cream jar" />
+    <text name="label" data="yellow cream jar|jar|cosmetic jar|small yellow jar|small yellow cream jar with white lid" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

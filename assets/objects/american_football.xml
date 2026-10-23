@@ -1,7 +1,7 @@
 <mujoco model="american_football">
   <compiler angle="radian" meshdir="../mesh/american_football" texturedir="../mesh/american_football" />
   <custom>
-    <text name="label" data="American football" />
+    <text name="label" data="american football|football|pigskin|brown american football|brown leather american football with white laces" />
   </custom>
   <default>
     <default class="place">

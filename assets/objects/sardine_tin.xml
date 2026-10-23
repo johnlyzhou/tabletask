@@ -1,7 +1,7 @@
 <mujoco model="sardine_tin">
   <compiler angle="radian" meshdir="../mesh/sardine_tin" texturedir="../mesh/sardine_tin" />
   <custom>
-    <text name="label" data="sardine tin" />
+    <text name="label" data="sardine tin|tin|sardine can|open sardine tin|rectangular silver sardine tin with colourful lid" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

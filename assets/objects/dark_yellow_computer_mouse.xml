@@ -1,7 +1,7 @@
 <mujoco model="dark_yellow_computer_mouse">
   <compiler angle="radian" meshdir="../mesh/dark_yellow_computer_mouse" texturedir="../mesh/dark_yellow_computer_mouse" />
   <custom>
-    <text name="label" data="dark yellow computer mouse" />
+    <text name="label" data="pink and white computer mouse|computer mouse|mouse|pink computer mouse|flat pink and white wireless computer mouse" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

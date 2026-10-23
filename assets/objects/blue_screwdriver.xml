@@ -2,7 +2,7 @@
   <!-- blue_screwdriver, converted from the MolmoSpaces Objaverse library (uid 1ac9141218ff46fb804ffc386d002179; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_screwdriver" texturedir="../mesh/blue_screwdriver"/>
   <custom>
-    <text name="label" data="blue screwdriver" />
+    <text name="label" data="blue screwdriver|screwdriver|driver|blue white screwdriver|white and blue handled screwdriver with steel shaft" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

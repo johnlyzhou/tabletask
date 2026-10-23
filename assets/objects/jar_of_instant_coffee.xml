@@ -1,7 +1,7 @@
 <mujoco model="jar_of_instant_coffee">
   <compiler angle="radian" meshdir="../mesh/jar_of_instant_coffee" texturedir="../mesh/jar_of_instant_coffee" />
   <custom>
-    <text name="label" data="jar of instant coffee" />
+    <text name="label" data="jar of instant coffee|coffee jar|instant coffee|green coffee jar|dark green jar of instant coffee" />
   </custom>
   <default>
     <default class="place">

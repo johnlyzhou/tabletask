@@ -1,7 +1,7 @@
 <mujoco model="small_dark_green_yam">
   <compiler angle="radian" meshdir="../mesh/small_dark_green_yam" texturedir="../mesh/small_dark_green_yam" />
   <custom>
-    <text name="label" data="small dark green yam" />
+    <text name="label" data="small dark green yam|yam|yam piece|dark green yam chunk|short cylindrical dark green yam piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

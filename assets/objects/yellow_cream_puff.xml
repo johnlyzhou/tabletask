@@ -1,7 +1,7 @@
 <mujoco model="yellow_cream_puff">
   <compiler angle="radian" meshdir="../mesh/yellow_cream_puff" texturedir="../mesh/yellow_cream_puff" />
   <custom>
-    <text name="label" data="yellow cream puff" />
+    <text name="label" data="yellow cream puff|cream puff|pastry|brown cream puff|golden brown baked cream puff pastry" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

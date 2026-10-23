@@ -1,7 +1,7 @@
 <mujoco model="orange_and_yellow_bread_roll">
   <compiler angle="radian" meshdir="../mesh/orange_and_yellow_bread_roll" texturedir="../mesh/orange_and_yellow_bread_roll" />
   <custom>
-    <text name="label" data="orange and yellow bread roll" />
+    <text name="label" data="orange and yellow bread roll|bread roll|bread|golden bread roll|orange and yellow crusty baked bread roll" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

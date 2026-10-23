@@ -1,7 +1,7 @@
 <mujoco model="dark_teal_knife">
   <compiler angle="radian" meshdir="../mesh/dark_teal_knife" texturedir="../mesh/dark_teal_knife" />
   <custom>
-    <text name="label" data="dark teal knife" />
+    <text name="label" data="dark teal knife|knife|table knife|long teal knife|long slim dark teal knife" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="toy_cheetah">
   <compiler angle="radian" meshdir="../mesh/toy_cheetah" texturedir="../mesh/toy_cheetah" />
   <custom>
-    <text name="label" data="toy cheetah" />
+    <text name="label" data="toy cheetah|cheetah|animal figure|spotted cheetah figure|yellow spotted toy cheetah figure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

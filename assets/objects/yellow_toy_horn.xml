@@ -1,7 +1,7 @@
 <mujoco model="yellow_toy_horn">
   <compiler angle="radian" meshdir="../mesh/yellow_toy_horn" texturedir="../mesh/yellow_toy_horn" />
   <custom>
-    <text name="label" data="yellow toy horn" />
+    <text name="label" data="yellow toy horn|toy horn|horn|yellow red horn|yellow and red toy trumpet horn with handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

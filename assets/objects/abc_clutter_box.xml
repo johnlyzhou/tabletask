@@ -1,7 +1,7 @@
 <mujoco model="abc_clutter_box">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="red box" />
+    <text name="label" data="red box|box|open box|red plastic box|open square red plastic box" />
     <text name="tags" data="container" />
   </custom>
   <default>

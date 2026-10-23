@@ -1,7 +1,7 @@
 <mujoco model="pale_pink_bar_of_soap">
   <compiler angle="radian" meshdir="../mesh/pale_pink_bar_of_soap" texturedir="../mesh/pale_pink_bar_of_soap" />
   <custom>
-    <text name="label" data="pale pink bar of soap" />
+    <text name="label" data="pale pink bar of soap|soap|soap bar|pale pink soap|rectangular pale pink bar of soap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

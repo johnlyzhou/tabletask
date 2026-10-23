@@ -1,7 +1,7 @@
 <mujoco model="metal_jerrycan">
   <compiler angle="radian" meshdir="../mesh/metal_jerrycan" texturedir="../mesh/metal_jerrycan" />
   <custom>
-    <text name="label" data="metal jerrycan" />
+    <text name="label" data="metal jerrycan|jerrycan|fuel can|red metal jerrycan|red metal jerrycan with handles and spout" />
   </custom>
   <default>
     <default class="place">

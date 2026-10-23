@@ -1,7 +1,7 @@
 <mujoco model="pencil_cup">
   <compiler angle="radian" meshdir="../mesh/pencil_cup" texturedir="../mesh/pencil_cup" />
   <custom>
-    <text name="label" data="pencil cup" />
+    <text name="label" data="pencil cup|pen cup|pencil holder|grey metal cup|small grey metal pencil cup" />
   </custom>
   <default>
     <default class="place">

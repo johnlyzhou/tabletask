@@ -1,7 +1,7 @@
 <mujoco model="pliers">
   <compiler angle="radian" meshdir="../mesh/pliers" texturedir="../mesh/pliers" />
   <custom>
-    <text name="label" data="pliers" />
+    <text name="label" data="pliers|plier|cutting pliers|red and yellow pliers|pliers with red and yellow handles" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

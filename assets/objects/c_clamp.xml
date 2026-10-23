@@ -1,7 +1,7 @@
 <mujoco model="c_clamp">
   <compiler angle="radian" meshdir="../mesh/c_clamp" texturedir="../mesh/c_clamp" />
   <custom>
-    <text name="label" data="C-clamp" />
+    <text name="label" data="c-clamp|clamp|c clamp|metal c-clamp|grey metal c-clamp with screw handle" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="small_teddy_bear">
   <compiler angle="radian" meshdir="../mesh/small_teddy_bear" texturedir="../mesh/small_teddy_bear" />
   <custom>
-    <text name="label" data="small teddy bear" />
+    <text name="label" data="small teddy bear|teddy bear|plush bear|beige teddy bear|small beige plush teddy bear" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

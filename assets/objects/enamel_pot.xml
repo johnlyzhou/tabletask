@@ -1,7 +1,7 @@
 <mujoco model="enamel_pot">
   <compiler angle="radian" meshdir="../mesh/enamel_pot" texturedir="../mesh/enamel_pot" />
   <custom>
-    <text name="label" data="enamel pot" />
+    <text name="label" data="enamel pot|pot|cooking pot|brown enamel pot|dark brown enamel cooking pot with lid" />
   </custom>
   <default>
     <default class="place">

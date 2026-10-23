@@ -2,7 +2,7 @@
   <!-- white_bowl, converted from the MolmoSpaces Objaverse library (uid 005f5630a54b442291aeb0a5d487353b; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/white_bowl" texturedir="../mesh/white_bowl"/>
   <custom>
-    <text name="label" data="white bowl" />
+    <text name="label" data="white bowl|bowl|wide bowl|plain white bowl|wide shallow plain white ceramic bowl" />
     <text name="tags" data="container" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="large_plate">
   <compiler angle="radian" meshdir="../mesh/large_plate" texturedir="../mesh/large_plate" />
   <custom>
-    <text name="label" data="large plate" />
+    <text name="label" data="large plate|plate|dish|large round plate|large round shallow pale pink ceramic plate" />
     <text name="tags" data="container" />
   </custom>
   <default>

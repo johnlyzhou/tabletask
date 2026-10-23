@@ -1,7 +1,7 @@
 <mujoco model="toy_sofa">
   <compiler angle="radian" meshdir="../mesh/toy_sofa" texturedir="../mesh/toy_sofa" />
   <custom>
-    <text name="label" data="toy sofa" />
+    <text name="label" data="toy sofa|toy couch|doll sofa|purple toy sofa|wooden toy sofa with purple cushions" />
   </custom>
   <default>
     <default class="place">

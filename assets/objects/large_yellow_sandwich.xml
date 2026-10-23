@@ -1,7 +1,7 @@
 <mujoco model="large_yellow_sandwich">
   <compiler angle="radian" meshdir="../mesh/large_yellow_sandwich" texturedir="../mesh/large_yellow_sandwich" />
   <custom>
-    <text name="label" data="large yellow sandwich" />
+    <text name="label" data="large yellow sandwich|sandwich|sandwich slice|triangle sandwich|triangular layered yellow sandwich wedge" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="black_pump_bottle">
   <compiler angle="radian" meshdir="../mesh/black_pump_bottle" texturedir="../mesh/black_pump_bottle" />
   <custom>
-    <text name="label" data="black pump bottle" />
+    <text name="label" data="black pump bottle|pump bottle|lotion bottle|black lotion bottle|small black lotion bottle with pump top" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

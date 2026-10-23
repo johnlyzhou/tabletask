@@ -1,7 +1,7 @@
 <mujoco model="can_of_beans">
   <compiler angle="radian" meshdir="../mesh/can_of_beans" texturedir="../mesh/can_of_beans" />
   <custom>
-    <text name="label" data="can of beans" />
+    <text name="label" data="can of beans|can|tin can|red bean can|red and yellow can of baked beans" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

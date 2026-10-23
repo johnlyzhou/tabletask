@@ -1,7 +1,7 @@
 <mujoco model="light_socket">
   <compiler angle="radian" meshdir="../mesh/light_socket" texturedir="../mesh/light_socket" />
   <custom>
-    <text name="label" data="light socket" />
+    <text name="label" data="light socket|socket|lamp holder|white light socket|white ceramic light bulb socket with wire" />
   </custom>
   <default>
     <default class="place">

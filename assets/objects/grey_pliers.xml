@@ -1,7 +1,7 @@
 <mujoco model="grey_pliers">
   <compiler angle="radian" meshdir="../mesh/grey_pliers" texturedir="../mesh/grey_pliers" />
   <custom>
-    <text name="label" data="grey pliers" />
+    <text name="label" data="grey pliers|pliers|pincers|grey handled pliers|grey and black needle-nose pliers" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

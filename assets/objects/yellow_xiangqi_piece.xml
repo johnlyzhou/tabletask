@@ -1,7 +1,7 @@
 <mujoco model="yellow_xiangqi_piece">
   <compiler angle="radian" meshdir="../mesh/yellow_xiangqi_piece" texturedir="../mesh/yellow_xiangqi_piece" />
   <custom>
-    <text name="label" data="yellow xiangqi piece" />
+    <text name="label" data="yellow xiangqi piece|xiangqi piece|chinese chess piece|cream xiangqi disc|cream round xiangqi piece with red character" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

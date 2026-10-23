@@ -1,7 +1,7 @@
 <mujoco model="large_brown_sweet_potato">
   <compiler angle="radian" meshdir="../mesh/large_brown_sweet_potato" texturedir="../mesh/large_brown_sweet_potato" />
   <custom>
-    <text name="label" data="large brown sweet potato" />
+    <text name="label" data="large brown sweet potato|sweet potato|yam|reddish brown sweet potato|large curved reddish brown sweet potato" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

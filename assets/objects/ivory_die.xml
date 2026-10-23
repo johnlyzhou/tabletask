@@ -1,7 +1,7 @@
 <mujoco model="ivory_die">
   <compiler angle="radian" meshdir="../mesh/ivory_die" texturedir="../mesh/ivory_die" />
   <custom>
-    <text name="label" data="ivory die" />
+    <text name="label" data="ivory die|die|dice|small ivory die|small ivory white die with black dots" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

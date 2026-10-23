@@ -1,7 +1,7 @@
 <mujoco model="small_blue_toy_boat">
   <compiler angle="radian" meshdir="../mesh/small_blue_toy_boat" texturedir="../mesh/small_blue_toy_boat" />
   <custom>
-    <text name="label" data="small blue toy boat" />
+    <text name="label" data="small blue toy boat|toy boat|boat|blue wooden toy boat|small blue wooden toy rowing boat" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

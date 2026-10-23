@@ -1,7 +1,7 @@
 <mujoco model="yellow_egg_tart">
   <compiler angle="radian" meshdir="../mesh/yellow_egg_tart" texturedir="../mesh/yellow_egg_tart" />
   <custom>
-    <text name="label" data="yellow egg tart" />
+    <text name="label" data="yellow egg tart|egg tart|tart|small egg tart|small golden custard egg tart" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="storage_box">
   <compiler angle="radian" meshdir="../mesh/storage_box" texturedir="../mesh/storage_box" />
   <custom>
-    <text name="label" data="wooden box" />
+    <text name="label" data="wooden box|box|storage box|open wooden box|tall open-top light wooden storage box" />
   </custom>
   <default>
     <default class="place">

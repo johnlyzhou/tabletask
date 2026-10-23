@@ -1,7 +1,7 @@
 <mujoco model="oyster_mushroom">
   <compiler angle="radian" meshdir="../mesh/oyster_mushroom" texturedir="../mesh/oyster_mushroom" />
   <custom>
-    <text name="label" data="oyster mushroom" />
+    <text name="label" data="oyster mushroom|mushroom|fungus|dark brown mushroom|rounded dark brown oyster mushroom cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

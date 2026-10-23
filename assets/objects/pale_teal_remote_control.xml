@@ -1,7 +1,7 @@
 <mujoco model="pale_teal_remote_control">
   <compiler angle="radian" meshdir="../mesh/pale_teal_remote_control" texturedir="../mesh/pale_teal_remote_control" />
   <custom>
-    <text name="label" data="pale teal remote control" />
+    <text name="label" data="pale teal remote control|remote control|remote|pale teal tv remote|flat pale teal remote control" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

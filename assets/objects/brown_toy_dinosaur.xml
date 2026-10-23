@@ -1,7 +1,7 @@
 <mujoco model="brown_toy_dinosaur">
   <compiler angle="radian" meshdir="../mesh/brown_toy_dinosaur" texturedir="../mesh/brown_toy_dinosaur" />
   <custom>
-    <text name="label" data="brown toy dinosaur" />
+    <text name="label" data="brown toy dinosaur|toy dinosaur|pterodactyl|brown pterosaur toy|brown toy pterodactyl with spread wings" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

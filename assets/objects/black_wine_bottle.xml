@@ -1,7 +1,7 @@
 <mujoco model="black_wine_bottle">
   <compiler angle="radian" meshdir="../mesh/black_wine_bottle" texturedir="../mesh/black_wine_bottle" />
   <custom>
-    <text name="label" data="black wine bottle" />
+    <text name="label" data="black wine bottle|bottle|wine bottle|black glass bottle|black wine bottle with white label" />
   </custom>
   <default>
     <default class="place">

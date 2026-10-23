@@ -1,7 +1,7 @@
 <mujoco model="dark_blue_figurine">
   <compiler angle="radian" meshdir="../mesh/dark_blue_figurine" texturedir="../mesh/dark_blue_figurine" />
   <custom>
-    <text name="label" data="dark blue figurine" />
+    <text name="label" data="dark blue figurine|figurine|statuette|blue animal figurine|dark blue figurine of a bear" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

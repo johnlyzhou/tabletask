@@ -1,7 +1,7 @@
 <mujoco model="dark_green_dumbbell">
   <compiler angle="radian" meshdir="../mesh/dark_green_dumbbell" texturedir="../mesh/dark_green_dumbbell" />
   <custom>
-    <text name="label" data="dark green dumbbell" />
+    <text name="label" data="dark green dumbbell|dumbbell|hand weight|olive green dumbbell|small olive green rubber-coated dumbbell" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

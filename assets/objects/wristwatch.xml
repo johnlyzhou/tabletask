@@ -1,7 +1,7 @@
 <mujoco model="wristwatch">
   <compiler angle="radian" meshdir="../mesh/wristwatch" texturedir="../mesh/wristwatch" />
   <custom>
-    <text name="label" data="digital wristwatch" />
+    <text name="label" data="digital wristwatch|watch|wristwatch|silver digital watch|silver metal band digital wristwatch" />
   </custom>
   <default>
     <default class="place">

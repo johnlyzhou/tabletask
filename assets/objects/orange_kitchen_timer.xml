@@ -1,7 +1,7 @@
 <mujoco model="orange_kitchen_timer">
   <compiler angle="radian" meshdir="../mesh/orange_kitchen_timer" texturedir="../mesh/orange_kitchen_timer" />
   <custom>
-    <text name="label" data="orange kitchen timer" />
+    <text name="label" data="orange kitchen timer|kitchen timer|timer|rounded orange timer|rounded orange plastic kitchen timer" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

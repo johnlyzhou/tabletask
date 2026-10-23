@@ -1,7 +1,7 @@
 <mujoco model="chess_white_rook">
   <compiler angle="radian" meshdir="../mesh/chess_white_rook" texturedir="../mesh/chess_white_rook" />
   <custom>
-    <text name="label" data="white rook" />
+    <text name="label" data="white rook|chess piece|rook|white chess rook|white castle shaped rook chess piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -2,7 +2,7 @@
   <!-- pill_bottle, converted from the MolmoSpaces Objaverse library (uid 7339a87dac884f1e8aeed3bf80dc0a5f; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/pill_bottle" texturedir="../mesh/pill_bottle"/>
   <custom>
-    <text name="label" data="pill bottle" />
+    <text name="label" data="pill bottle|medicine bottle|prescription bottle|orange pill bottle|orange prescription pill bottle with white cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

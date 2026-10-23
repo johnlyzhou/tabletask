@@ -1,7 +1,7 @@
 <mujoco model="dark_yellow_sausage">
   <compiler angle="radian" meshdir="../mesh/dark_yellow_sausage" texturedir="../mesh/dark_yellow_sausage" />
   <custom>
-    <text name="label" data="dark yellow sausage" />
+    <text name="label" data="dark yellow sausage|sausage|ham sausage|wrapped sausage stick|small sausage stick with blue wrapper label" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

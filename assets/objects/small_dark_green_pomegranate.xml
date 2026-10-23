@@ -1,7 +1,7 @@
 <mujoco model="small_dark_green_pomegranate">
   <compiler angle="radian" meshdir="../mesh/small_dark_green_pomegranate" texturedir="../mesh/small_dark_green_pomegranate" />
   <custom>
-    <text name="label" data="small dark green pomegranate" />
+    <text name="label" data="small dark green pomegranate|pomegranate|fruit|green spotted pomegranate|small dark green pomegranate with crown" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

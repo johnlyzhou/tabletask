@@ -1,7 +1,7 @@
 <mujoco model="grey_ribbed_vase">
   <compiler angle="radian" meshdir="../mesh/grey_ribbed_vase" texturedir="../mesh/grey_ribbed_vase" />
   <custom>
-    <text name="label" data="grey ribbed vase" />
+    <text name="label" data="grey ribbed vase|vase|flower vase|sage ribbed vase|tall sage grey ribbed ceramic vase" />
   </custom>
   <default>
     <default class="place">

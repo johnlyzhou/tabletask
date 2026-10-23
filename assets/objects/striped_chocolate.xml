@@ -1,7 +1,7 @@
 <mujoco model="striped_chocolate">
   <compiler angle="radian" meshdir="../mesh/striped_chocolate" texturedir="../mesh/striped_chocolate" />
   <custom>
-    <text name="label" data="striped chocolate" />
+    <text name="label" data="striped chocolate|chocolate|bonbon|striped chocolate truffle|small dark chocolate truffle with stripes" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

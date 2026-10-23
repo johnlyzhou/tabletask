@@ -1,7 +1,7 @@
 <mujoco model="grey_toy_motorcycle">
   <compiler angle="radian" meshdir="../mesh/grey_toy_motorcycle" texturedir="../mesh/grey_toy_motorcycle" />
   <custom>
-    <text name="label" data="grey toy motorcycle" />
+    <text name="label" data="grey toy motorcycle|toy motorcycle|toy motorbike|grey toy motorbike|grey and yellow toy motorcycle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

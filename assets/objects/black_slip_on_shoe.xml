@@ -1,7 +1,7 @@
 <mujoco model="black_slip_on_shoe">
   <compiler angle="radian" meshdir="../mesh/black_slip_on_shoe" texturedir="../mesh/black_slip_on_shoe" />
   <custom>
-    <text name="label" data="black slip-on shoe" />
+    <text name="label" data="black slip-on shoe|shoe|loafer|black boat shoe|black leather slip-on boat shoe with laces" />
   </custom>
   <default>
     <default class="place">

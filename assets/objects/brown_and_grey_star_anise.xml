@@ -1,7 +1,7 @@
 <mujoco model="brown_and_grey_star_anise">
   <compiler angle="radian" meshdir="../mesh/brown_and_grey_star_anise" texturedir="../mesh/brown_and_grey_star_anise" />
   <custom>
-    <text name="label" data="brown and grey star anise" />
+    <text name="label" data="brown and grey star anise|star anise|spice|dark star anise|small brown and grey star anise pod" />
   </custom>
   <default>
     <default class="place">

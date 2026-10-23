@@ -1,7 +1,7 @@
 <mujoco model="brown_carrot">
   <compiler angle="radian" meshdir="../mesh/brown_carrot" texturedir="../mesh/brown_carrot" />
   <custom>
-    <text name="label" data="brown carrot" />
+    <text name="label" data="brown carrot|carrot|root vegetable|thin brown carrot|small thin brownish orange carrot" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

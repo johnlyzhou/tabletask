@@ -2,7 +2,7 @@
   <!-- gold_coin, converted from the MolmoSpaces Objaverse library (uid 2a3709978a6b4c209569f97c997d4cb0; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/gold_coin" texturedir="../mesh/gold_coin"/>
   <custom>
-    <text name="label" data="gold coin" />
+    <text name="label" data="gold coin|coin|gold piece|small gold coin|small round shiny gold coin" />
   </custom>
   <default>
     <default class="place">

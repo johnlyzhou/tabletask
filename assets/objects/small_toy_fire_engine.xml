@@ -1,7 +1,7 @@
 <mujoco model="small_toy_fire_engine">
   <compiler angle="radian" meshdir="../mesh/small_toy_fire_engine" texturedir="../mesh/small_toy_fire_engine" />
   <custom>
-    <text name="label" data="small toy fire engine" />
+    <text name="label" data="small toy fire engine|toy fire engine|fire truck|red toy fire truck|small red wooden toy fire engine with ladder" />
   </custom>
   <default>
     <default class="place">

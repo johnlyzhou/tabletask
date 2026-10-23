@@ -1,7 +1,7 @@
 <mujoco model="large_dark_grey_clock">
   <compiler angle="radian" meshdir="../mesh/large_dark_grey_clock" texturedir="../mesh/large_dark_grey_clock" />
   <custom>
-    <text name="label" data="large dark grey clock" />
+    <text name="label" data="large dark grey clock|clock|wall clock|round dark clock|large round dark grey clock" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

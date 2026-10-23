@@ -1,7 +1,7 @@
 <mujoco model="nut_chocolate">
   <compiler angle="radian" meshdir="../mesh/nut_chocolate" texturedir="../mesh/nut_chocolate" />
   <custom>
-    <text name="label" data="nut chocolate" />
+    <text name="label" data="nut chocolate|chocolate|nut cluster|dark nut chocolate|lumpy dark chocolate studded with nuts" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

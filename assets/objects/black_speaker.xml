@@ -1,7 +1,7 @@
 <mujoco model="black_speaker">
   <compiler angle="radian" meshdir="../mesh/black_speaker" texturedir="../mesh/black_speaker" />
   <custom>
-    <text name="label" data="black speaker" />
+    <text name="label" data="black speaker|speaker|loudspeaker|small black speaker|small rectangular black portable speaker" />
   </custom>
   <default>
     <default class="place">

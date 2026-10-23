@@ -1,7 +1,7 @@
 <mujoco model="round_dark_red_hawthorn_berry">
   <compiler angle="radian" meshdir="../mesh/round_dark_red_hawthorn_berry" texturedir="../mesh/round_dark_red_hawthorn_berry" />
   <custom>
-    <text name="label" data="round dark red hawthorn berry" />
+    <text name="label" data="round dark red hawthorn berry|hawthorn berry|berry|dark red hawthorn|round dark red hawthorn berry fruit" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

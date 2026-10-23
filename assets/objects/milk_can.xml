@@ -1,7 +1,7 @@
 <mujoco model="milk_can">
   <compiler angle="radian" meshdir="../mesh/milk_can" texturedir="../mesh/milk_can" />
   <custom>
-    <text name="label" data="milk can" />
+    <text name="label" data="milk can|churn|milk churn|metal milk can|white metal milk churn with handles" />
   </custom>
   <default>
     <default class="place">

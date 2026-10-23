@@ -1,7 +1,7 @@
 <mujoco model="dark_teal_hair_clip">
   <compiler angle="radian" meshdir="../mesh/dark_teal_hair_clip" texturedir="../mesh/dark_teal_hair_clip" />
   <custom>
-    <text name="label" data="dark teal hair clip" />
+    <text name="label" data="dark teal hair clip|hair clip|claw clip|teal claw clip|dark teal butterfly-shaped hair claw clip" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

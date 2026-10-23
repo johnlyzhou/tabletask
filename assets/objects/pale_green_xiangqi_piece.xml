@@ -1,7 +1,7 @@
 <mujoco model="pale_green_xiangqi_piece">
   <compiler angle="radian" meshdir="../mesh/pale_green_xiangqi_piece" texturedir="../mesh/pale_green_xiangqi_piece" />
   <custom>
-    <text name="label" data="pale green xiangqi piece" />
+    <text name="label" data="pale green xiangqi piece|xiangqi piece|chinese chess piece|pale green game disc|round pale yellow-green xiangqi game piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

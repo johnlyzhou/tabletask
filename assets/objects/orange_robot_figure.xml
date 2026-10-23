@@ -1,7 +1,7 @@
 <mujoco model="orange_robot_figure">
   <compiler angle="radian" meshdir="../mesh/orange_robot_figure" texturedir="../mesh/orange_robot_figure" />
   <custom>
-    <text name="label" data="orange robot figure" />
+    <text name="label" data="orange robot figure|robot figure|android figure|orange robot toy|orange android robot figurine with antenna" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

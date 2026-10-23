@@ -2,7 +2,7 @@
   <!-- blue_sneaker, converted from the MolmoSpaces Objaverse library (uid 0070d09cecd94178b4217e244dd72efc; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_sneaker" texturedir="../mesh/blue_sneaker"/>
   <custom>
-    <text name="label" data="blue sneaker" />
+    <text name="label" data="blue sneaker|sneaker|shoe|lavender blue sneaker|lavender blue canvas sneaker with orange laces" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

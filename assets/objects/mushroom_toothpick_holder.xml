@@ -1,7 +1,7 @@
 <mujoco model="mushroom_toothpick_holder">
   <compiler angle="radian" meshdir="../mesh/mushroom_toothpick_holder" texturedir="../mesh/mushroom_toothpick_holder" />
   <custom>
-    <text name="label" data="mushroom toothpick holder" />
+    <text name="label" data="mushroom toothpick holder|toothpick holder|mushroom|brown mushroom holder|brown wooden mushroom shaped toothpick holder" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

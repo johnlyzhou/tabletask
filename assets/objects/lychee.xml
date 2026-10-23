@@ -1,7 +1,7 @@
 <mujoco model="lychee">
   <compiler angle="radian" meshdir="../mesh/lychee" texturedir="../mesh/lychee" />
   <custom>
-    <text name="label" data="lychee" />
+    <text name="label" data="lychee|fruit lychee|litchi|red bumpy lychee|round red lychee with bumpy skin" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

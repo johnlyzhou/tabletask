@@ -1,7 +1,7 @@
 <mujoco model="blue_cartoon_cat_figure">
   <compiler angle="radian" meshdir="../mesh/blue_cartoon_cat_figure" texturedir="../mesh/blue_cartoon_cat_figure" />
   <custom>
-    <text name="label" data="blue cartoon cat figure" />
+    <text name="label" data="blue cartoon cat figure|cat figure|robot cat toy|blue cat figure|blue cartoon robot cat figure with red collar" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

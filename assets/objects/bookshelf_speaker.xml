@@ -2,7 +2,7 @@
   <!-- bookshelf_speaker, converted from the MolmoSpaces Objaverse library (uid 277db5efa378494882aaa820abb84437; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/bookshelf_speaker" texturedir="../mesh/bookshelf_speaker"/>
   <custom>
-    <text name="label" data="speaker" />
+    <text name="label" data="speaker|loudspeaker|bookshelf speaker|black box speaker|small black bookshelf speaker with grey cone" />
   </custom>
   <default>
     <default class="place">

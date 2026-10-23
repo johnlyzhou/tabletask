@@ -2,7 +2,7 @@
   <!-- floral_dish, converted from the MolmoSpaces Objaverse library (uid 0f1f3038a3144ab88d39739cc980fdc1; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/floral_dish" texturedir="../mesh/floral_dish"/>
   <custom>
-    <text name="label" data="floral dish" />
+    <text name="label" data="floral dish|dish|bowl|floral ceramic dish|shallow white ceramic dish with floral pattern" />
     <text name="tags" data="container" />
   </custom>
   <default>

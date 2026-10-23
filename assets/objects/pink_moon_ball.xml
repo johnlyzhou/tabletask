@@ -1,7 +1,7 @@
 <mujoco model="pink_moon_ball">
   <compiler angle="radian" meshdir="../mesh/pink_moon_ball" texturedir="../mesh/pink_moon_ball" />
   <custom>
-    <text name="label" data="pink moon ball" />
+    <text name="label" data="pink moon ball|ball|moon ball|pink cratered ball|pale pink ball with a cratered moon surface" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

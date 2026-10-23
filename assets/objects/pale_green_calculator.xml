@@ -1,7 +1,7 @@
 <mujoco model="pale_green_calculator">
   <compiler angle="radian" meshdir="../mesh/pale_green_calculator" texturedir="../mesh/pale_green_calculator" />
   <custom>
-    <text name="label" data="pale green calculator" />
+    <text name="label" data="pale green calculator|calculator|pocket calculator|small pale green calculator|small pale green pocket calculator with buttons" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

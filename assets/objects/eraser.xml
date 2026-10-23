@@ -1,7 +1,7 @@
 <mujoco model="eraser">
   <compiler angle="radian" meshdir="../mesh/eraser" texturedir="../mesh/eraser" />
   <custom>
-    <text name="label" data="eraser" />
+    <text name="label" data="eraser|rubber eraser|rubber|pink eraser|large pink rubber eraser with white stripe" />
   </custom>
   <default>
     <default class="place">

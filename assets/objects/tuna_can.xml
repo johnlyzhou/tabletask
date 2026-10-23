@@ -1,7 +1,7 @@
 <mujoco model="tuna_can">
   <compiler angle="radian" meshdir="../mesh/tuna_can" texturedir="../mesh/tuna_can" />
   <custom>
-    <text name="label" data="can of tuna" />
+    <text name="label" data="can of tuna|tin can|tuna tin|small tuna can|small round tin can of tuna with blue label" />
   </custom>
   <default>
     <default class="place">

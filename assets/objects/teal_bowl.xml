@@ -1,7 +1,7 @@
 <mujoco model="teal_bowl">
   <compiler angle="radian" meshdir="../mesh/teal_bowl" texturedir="../mesh/teal_bowl" />
   <custom>
-    <text name="label" data="teal bowl" />
+    <text name="label" data="teal bowl|bowl|deep bowl|dark teal bowl|deep dark teal ceramic bowl" />
   </custom>
   <default>
     <default class="place">

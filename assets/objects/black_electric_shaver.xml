@@ -1,7 +1,7 @@
 <mujoco model="black_electric_shaver">
   <compiler angle="radian" meshdir="../mesh/black_electric_shaver" texturedir="../mesh/black_electric_shaver" />
   <custom>
-    <text name="label" data="black electric shaver" />
+    <text name="label" data="black electric shaver|electric shaver|shaver|black razor|black electric shaver with twin heads" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

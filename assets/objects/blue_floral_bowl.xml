@@ -2,7 +2,7 @@
   <!-- blue_floral_bowl, converted from the MolmoSpaces Objaverse library (uid 01ec7658fef64e18b69d68cf8b06548b; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_floral_bowl" texturedir="../mesh/blue_floral_bowl"/>
   <custom>
-    <text name="label" data="blue floral bowl" />
+    <text name="label" data="blue floral bowl|bowl|dish|blue and white bowl|shallow white bowl with blue floral pattern" />
     <text name="tags" data="container" />
   </custom>
   <default>

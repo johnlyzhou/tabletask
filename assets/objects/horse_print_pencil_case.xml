@@ -1,7 +1,7 @@
 <mujoco model="horse_print_pencil_case">
   <compiler angle="radian" meshdir="../mesh/horse_print_pencil_case" texturedir="../mesh/horse_print_pencil_case" />
   <custom>
-    <text name="label" data="horse print pencil case" />
+    <text name="label" data="horse print pencil case|pencil case|pencil pouch|horse print pouch|white cylindrical pencil case with horse print" />
   </custom>
   <default>
     <default class="place">

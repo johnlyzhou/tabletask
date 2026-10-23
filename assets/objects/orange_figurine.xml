@@ -1,7 +1,7 @@
 <mujoco model="orange_figurine">
   <compiler angle="radian" meshdir="../mesh/orange_figurine" texturedir="../mesh/orange_figurine" />
   <custom>
-    <text name="label" data="orange figurine" />
+    <text name="label" data="orange figurine|figurine|figure|orange-red figurine|figurine with orange-red head on blue chair" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

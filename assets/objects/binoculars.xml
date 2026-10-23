@@ -1,7 +1,7 @@
 <mujoco model="binoculars">
   <compiler angle="radian" meshdir="../mesh/binoculars" texturedir="../mesh/binoculars" />
   <custom>
-    <text name="label" data="pair of binoculars" />
+    <text name="label" data="pair of binoculars|binoculars|field glasses|black binoculars|pair of black compact binoculars" />
   </custom>
   <default>
     <default class="place">

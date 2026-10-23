@@ -1,7 +1,7 @@
 <mujoco model="small_grey_clock">
   <compiler angle="radian" meshdir="../mesh/small_grey_clock" texturedir="../mesh/small_grey_clock" />
   <custom>
-    <text name="label" data="small grey clock" />
+    <text name="label" data="small lavender clock|clock|alarm clock|lavender square clock|small lavender square clock with cute face" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

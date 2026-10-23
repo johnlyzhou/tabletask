@@ -1,7 +1,7 @@
 <mujoco model="dark_red_candy">
   <compiler angle="radian" meshdir="../mesh/dark_red_candy" texturedir="../mesh/dark_red_candy" />
   <custom>
-    <text name="label" data="dark red candy" />
+    <text name="label" data="dark red candy|candy|sweet|wrapped red candy|small dark red candy in twisted wrapper" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

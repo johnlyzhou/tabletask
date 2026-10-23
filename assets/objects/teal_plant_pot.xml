@@ -1,7 +1,7 @@
 <mujoco model="teal_plant_pot">
   <compiler angle="radian" meshdir="../mesh/teal_plant_pot" texturedir="../mesh/teal_plant_pot" />
   <custom>
-    <text name="label" data="teal plant pot" />
+    <text name="label" data="teal plant pot|plant pot|flower pot|dark teal pot|round dark teal ceramic plant pot" />
     <text name="tags" data="container" />
   </custom>
   <default>

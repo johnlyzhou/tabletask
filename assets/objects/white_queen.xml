@@ -2,7 +2,7 @@
   <!-- white_queen, converted from the MolmoSpaces Objaverse library (uid 2a76a326977c472ab3ed37c51cf51979; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/white_queen" texturedir="../mesh/white_queen"/>
   <custom>
-    <text name="label" data="white queen" />
+    <text name="label" data="white queen|chess piece|queen|white chess queen|white plastic queen chess piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="red_patterned_pencil">
   <compiler angle="radian" meshdir="../mesh/red_patterned_pencil" texturedir="../mesh/red_patterned_pencil" />
   <custom>
-    <text name="label" data="red patterned pencil" />
+    <text name="label" data="red patterned pencil|pencil|wooden pencil|red pencil|sharpened red patterned pencil with eraser" />
   </custom>
   <default>
     <default class="place">

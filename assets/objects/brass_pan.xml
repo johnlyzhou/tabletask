@@ -1,7 +1,7 @@
 <mujoco model="brass_pan">
   <compiler angle="radian" meshdir="../mesh/brass_pan" texturedir="../mesh/brass_pan" />
   <custom>
-    <text name="label" data="brass pan" />
+    <text name="label" data="brass pan|pan|frying pan|small brass pan|small brass pan with long red handle" />
   </custom>
   <default>
     <default class="place">

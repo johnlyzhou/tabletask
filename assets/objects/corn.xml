@@ -1,7 +1,7 @@
 <mujoco model="corn">
   <compiler angle="radian" meshdir="../mesh/corn" texturedir="../mesh/corn" />
   <custom>
-    <text name="label" data="corn" />
+    <text name="label" data="corn|corn cob|ear of corn|green corn husk|ear of corn in green husk" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

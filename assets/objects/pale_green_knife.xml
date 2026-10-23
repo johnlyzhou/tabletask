@@ -1,7 +1,7 @@
 <mujoco model="pale_green_knife">
   <compiler angle="radian" meshdir="../mesh/pale_green_knife" texturedir="../mesh/pale_green_knife" />
   <custom>
-    <text name="label" data="pale green knife" />
+    <text name="label" data="pale green knife|knife|kitchen knife|pale steel knife|small kitchen knife with a wooden handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="abc_bead">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="red bead" />
+    <text name="label" data="red bead|bead|ball|red ball bead|large round matte red bead" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

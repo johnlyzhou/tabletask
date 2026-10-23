@@ -1,7 +1,7 @@
 <mujoco model="pale_blue_toy_bus">
   <compiler angle="radian" meshdir="../mesh/pale_blue_toy_bus" texturedir="../mesh/pale_blue_toy_bus" />
   <custom>
-    <text name="label" data="pale blue toy bus" />
+    <text name="label" data="pale blue toy bus|toy bus|bus|pale blue bus|small pale blue and white toy bus" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

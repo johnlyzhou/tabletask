@@ -1,7 +1,7 @@
 <mujoco model="can_of_ground_coffee">
   <compiler angle="radian" meshdir="../mesh/can_of_ground_coffee" texturedir="../mesh/can_of_ground_coffee" />
   <custom>
-    <text name="label" data="can of ground coffee" />
+    <text name="label" data="can of ground coffee|coffee can|can|dark coffee can|dark green can of ground coffee" />
   </custom>
   <default>
     <default class="place">

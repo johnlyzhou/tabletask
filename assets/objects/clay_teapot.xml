@@ -2,7 +2,7 @@
   <!-- clay_teapot, converted from the MolmoSpaces Objaverse library (uid 03f6e8e3277c4969bed2f1c4ddeb710b; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/clay_teapot" texturedir="../mesh/clay_teapot"/>
   <custom>
-    <text name="label" data="white teapot" />
+    <text name="label" data="white teapot|teapot|tea pot|white ceramic teapot|white clay teapot with lid and handle" />
   </custom>
   <default>
     <default class="place">

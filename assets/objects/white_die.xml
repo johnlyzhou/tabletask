@@ -1,7 +1,7 @@
 <mujoco model="white_die">
   <compiler angle="radian" meshdir="../mesh/white_die" texturedir="../mesh/white_die" />
   <custom>
-    <text name="label" data="white die" />
+    <text name="label" data="white die|die|dice|white dotted die|small white die with black pips" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

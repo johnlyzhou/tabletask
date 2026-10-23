@@ -1,7 +1,7 @@
 <mujoco model="beige_lace_up_boot">
   <compiler angle="radian" meshdir="../mesh/beige_lace_up_boot" texturedir="../mesh/beige_lace_up_boot" />
   <custom>
-    <text name="label" data="beige lace-up boot" />
+    <text name="label" data="beige lace-up boot|boot|ankle boot|beige leather boot|beige lace-up leather boot with tan sole" />
   </custom>
   <default>
     <default class="place">

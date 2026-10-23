@@ -1,7 +1,7 @@
 <mujoco model="grey_candle">
   <compiler angle="radian" meshdir="../mesh/grey_candle" texturedir="../mesh/grey_candle" />
   <custom>
-    <text name="label" data="grey candle" />
+    <text name="label" data="grey candle|candle|pillar candle|small grey candle|small grey pillar candle with wick" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

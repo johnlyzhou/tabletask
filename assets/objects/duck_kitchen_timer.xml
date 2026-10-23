@@ -1,7 +1,7 @@
 <mujoco model="duck_kitchen_timer">
   <compiler angle="radian" meshdir="../mesh/duck_kitchen_timer" texturedir="../mesh/duck_kitchen_timer" />
   <custom>
-    <text name="label" data="duck kitchen timer" />
+    <text name="label" data="duck kitchen timer|kitchen timer|timer|white duck timer|small white duck-shaped kitchen timer" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

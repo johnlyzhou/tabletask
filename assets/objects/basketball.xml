@@ -2,7 +2,7 @@
   <!-- basketball, converted from the MolmoSpaces Objaverse library (uid 2343abdae7674f46ad85071858db93c6; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/basketball" texturedir="../mesh/basketball"/>
   <custom>
-    <text name="label" data="basketball" />
+    <text name="label" data="basketball|ball|hoop ball|orange basketball|orange basketball with black seam lines" />
   </custom>
   <default>
     <default class="place">

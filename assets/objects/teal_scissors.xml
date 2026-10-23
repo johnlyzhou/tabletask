@@ -1,7 +1,7 @@
 <mujoco model="teal_scissors">
   <compiler angle="radian" meshdir="../mesh/teal_scissors" texturedir="../mesh/teal_scissors" />
   <custom>
-    <text name="label" data="teal scissors" />
+    <text name="label" data="teal scissors|scissors|shears|teal-handled scissors|long scissors with teal handles" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

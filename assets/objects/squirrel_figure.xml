@@ -1,7 +1,7 @@
 <mujoco model="squirrel_figure">
   <compiler angle="radian" meshdir="../mesh/squirrel_figure" texturedir="../mesh/squirrel_figure" />
   <custom>
-    <text name="label" data="squirrel figure" />
+    <text name="label" data="squirrel figure|squirrel|squirrel toy|brown squirrel figure|brown and white squirrel figurine holding a nut" />
   </custom>
   <default>
     <default class="place">

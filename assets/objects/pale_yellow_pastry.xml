@@ -1,7 +1,7 @@
 <mujoco model="pale_yellow_pastry">
   <compiler angle="radian" meshdir="../mesh/pale_yellow_pastry" texturedir="../mesh/pale_yellow_pastry" />
   <custom>
-    <text name="label" data="pale yellow pastry" />
+    <text name="label" data="pale yellow pastry|pastry|tart|small pale yellow tart|small round pale yellow pastry with golden top" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

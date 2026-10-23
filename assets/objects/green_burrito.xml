@@ -1,7 +1,7 @@
 <mujoco model="green_burrito">
   <compiler angle="radian" meshdir="../mesh/green_burrito" texturedir="../mesh/green_burrito" />
   <custom>
-    <text name="label" data="green burrito" />
+    <text name="label" data="green burrito|burrito|wrapped snack|green wrapped burrito|burrito in green printed wrapper" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

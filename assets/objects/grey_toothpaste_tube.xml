@@ -1,7 +1,7 @@
 <mujoco model="grey_toothpaste_tube">
   <compiler angle="radian" meshdir="../mesh/grey_toothpaste_tube" texturedir="../mesh/grey_toothpaste_tube" />
   <custom>
-    <text name="label" data="grey toothpaste tube" />
+    <text name="label" data="grey toothpaste tube|toothpaste|toothpaste tube|grey-green toothpaste|pale grey-green tube of toothpaste" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

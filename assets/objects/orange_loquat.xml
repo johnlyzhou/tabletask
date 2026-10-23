@@ -1,7 +1,7 @@
 <mujoco model="orange_loquat">
   <compiler angle="radian" meshdir="../mesh/orange_loquat" texturedir="../mesh/orange_loquat" />
   <custom>
-    <text name="label" data="orange loquat" />
+    <text name="label" data="orange loquat|loquat|fruit loquat|orange-brown loquat|round orange-brown loquat with stem end" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

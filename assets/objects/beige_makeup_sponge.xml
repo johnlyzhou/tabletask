@@ -1,7 +1,7 @@
 <mujoco model="beige_makeup_sponge">
   <compiler angle="radian" meshdir="../mesh/beige_makeup_sponge" texturedir="../mesh/beige_makeup_sponge" />
   <custom>
-    <text name="label" data="beige makeup sponge" />
+    <text name="label" data="beige makeup sponge|makeup sponge|beauty blender|tan makeup sponge|egg-shaped beige makeup blending sponge" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

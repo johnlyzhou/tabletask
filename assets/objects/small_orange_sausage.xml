@@ -1,7 +1,7 @@
 <mujoco model="small_orange_sausage">
   <compiler angle="radian" meshdir="../mesh/small_orange_sausage" texturedir="../mesh/small_orange_sausage" />
   <custom>
-    <text name="label" data="small orange sausage" />
+    <text name="label" data="small orange sausage|sausage|hot dog|small orange sausage piece|small cylindrical orange sausage piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

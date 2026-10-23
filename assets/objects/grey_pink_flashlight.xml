@@ -1,7 +1,7 @@
 <mujoco model="grey_pink_flashlight">
   <compiler angle="radian" meshdir="../mesh/grey_pink_flashlight" texturedir="../mesh/grey_pink_flashlight" />
   <custom>
-    <text name="label" data="grey and pink flashlight" />
+    <text name="label" data="grey and pink flashlight|flashlight|torch|red and black flashlight|black flashlight with red pink grip" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

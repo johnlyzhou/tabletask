@@ -1,7 +1,7 @@
 <mujoco model="large_black_toy_train">
   <compiler angle="radian" meshdir="../mesh/large_black_toy_train" texturedir="../mesh/large_black_toy_train" />
   <custom>
-    <text name="label" data="large black toy train" />
+    <text name="label" data="large green toy train|toy train|toy locomotive|lime green toy train|large lime green toy steam locomotive" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

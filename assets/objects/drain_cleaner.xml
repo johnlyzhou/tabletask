@@ -1,7 +1,7 @@
 <mujoco model="drain_cleaner">
   <compiler angle="radian" meshdir="../mesh/drain_cleaner" texturedir="../mesh/drain_cleaner" />
   <custom>
-    <text name="label" data="drain cleaner bottle" />
+    <text name="label" data="drain cleaner bottle|drain cleaner|cleaner jug|yellow drain cleaner|yellow drain cleaner jug with red cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

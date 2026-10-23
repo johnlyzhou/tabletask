@@ -1,7 +1,7 @@
 <mujoco model="green_tape_measure">
   <compiler angle="radian" meshdir="../mesh/green_tape_measure" texturedir="../mesh/green_tape_measure" />
   <custom>
-    <text name="label" data="green tape measure" />
+    <text name="label" data="green tape measure|tape measure|measuring tape|green measuring tape|chunky green retractable tape measure with belt clip" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

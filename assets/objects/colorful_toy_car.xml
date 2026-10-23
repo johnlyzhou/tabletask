@@ -1,7 +1,7 @@
 <mujoco model="colorful_toy_car">
   <compiler angle="radian" meshdir="../mesh/colorful_toy_car" texturedir="../mesh/colorful_toy_car" />
   <custom>
-    <text name="label" data="colorful toy car" />
+    <text name="label" data="colorful toy car|toy car|car|multicolor toy car|colorful toy car with rainbow parts" />
   </custom>
   <default>
     <default class="place">

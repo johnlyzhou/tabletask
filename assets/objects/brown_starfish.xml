@@ -1,7 +1,7 @@
 <mujoco model="brown_starfish">
   <compiler angle="radian" meshdir="../mesh/brown_starfish" texturedir="../mesh/brown_starfish" />
   <custom>
-    <text name="label" data="brown starfish" />
+    <text name="label" data="brown starfish|starfish|sea star|dried brown starfish|dried brown five armed starfish" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

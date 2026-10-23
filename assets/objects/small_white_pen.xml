@@ -1,7 +1,7 @@
 <mujoco model="small_white_pen">
   <compiler angle="radian" meshdir="../mesh/small_white_pen" texturedir="../mesh/small_white_pen" />
   <custom>
-    <text name="label" data="small white pen" />
+    <text name="label" data="small white pen|pen|marker|white marker pen|small white pen with red cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

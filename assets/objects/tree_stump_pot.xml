@@ -1,7 +1,7 @@
 <mujoco model="tree_stump_pot">
   <compiler angle="radian" meshdir="../mesh/tree_stump_pot" texturedir="../mesh/tree_stump_pot" />
   <custom>
-    <text name="label" data="tree stump pot" />
+    <text name="label" data="tree stump pot|planter|stump planter|brown tree stump pot|brown planter pot shaped like a tree stump" />
   </custom>
   <default>
     <default class="place">

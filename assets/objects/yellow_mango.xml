@@ -1,7 +1,7 @@
 <mujoco model="yellow_mango">
   <compiler angle="radian" meshdir="../mesh/yellow_mango" texturedir="../mesh/yellow_mango" />
   <custom>
-    <text name="label" data="yellow mango" />
+    <text name="label" data="yellow mango|mango|mango fruit|orange-yellow mango|ripe orange-yellow mango with dark spot" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

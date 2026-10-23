@@ -1,7 +1,7 @@
 <mujoco model="asian_pear">
   <compiler angle="radian" meshdir="../mesh/asian_pear" texturedir="../mesh/asian_pear" />
   <custom>
-    <text name="label" data="Asian pear" />
+    <text name="label" data="asian pear|pear|nashi pear|green asian pear|round speckled green asian pear with stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

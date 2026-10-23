@@ -1,7 +1,7 @@
 <mujoco model="yellow_wallet">
   <compiler angle="radian" meshdir="../mesh/yellow_wallet" texturedir="../mesh/yellow_wallet" />
   <custom>
-    <text name="label" data="yellow wallet" />
+    <text name="label" data="yellow wallet|wallet|purse|yellow zip wallet|flat yellow wallet with red edges" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

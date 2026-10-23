@@ -2,7 +2,7 @@
   <!-- wooden_ruler, converted from the MolmoSpaces Objaverse library (uid 64d300bbdb734f44afd6cfcf00be665a; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/wooden_ruler" texturedir="../mesh/wooden_ruler"/>
   <custom>
-    <text name="label" data="ruler" />
+    <text name="label" data="ruler|measuring stick|wooden ruler|thin wooden ruler|long thin light wooden ruler" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="serving_bowl">
   <compiler angle="radian" meshdir="../mesh/serving_bowl" texturedir="../mesh/serving_bowl" />
   <custom>
-    <text name="label" data="beige bowl" />
+    <text name="label" data="beige bowl|bowl|serving bowl|beige ceramic bowl|wide shallow beige ceramic serving bowl" />
     <text name="tags" data="container" />
   </custom>
   <default>

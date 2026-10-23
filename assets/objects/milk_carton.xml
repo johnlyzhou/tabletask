@@ -1,7 +1,7 @@
 <mujoco model="milk_carton">
   <compiler angle="radian" meshdir="../mesh/milk_carton" texturedir="../mesh/milk_carton" />
   <custom>
-    <text name="label" data="milk carton" />
+    <text name="label" data="milk carton|carton|juice box|red and white milk carton|red and white gable top milk carton" />
   </custom>
   <default>
     <default class="place">

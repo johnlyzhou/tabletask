@@ -1,7 +1,7 @@
 <mujoco model="large_orange_candy">
   <compiler angle="radian" meshdir="../mesh/large_orange_candy" texturedir="../mesh/large_orange_candy" />
   <custom>
-    <text name="label" data="large orange candy" />
+    <text name="label" data="large orange candy|candy|lollipop|red-orange lollipop|small round red-orange lollipop on green stick" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="chunky_toy_fire_truck">
   <compiler angle="radian" meshdir="../mesh/chunky_toy_fire_truck" texturedir="../mesh/chunky_toy_fire_truck" />
   <custom>
-    <text name="label" data="chunky toy fire truck" />
+    <text name="label" data="chunky toy fire truck|toy fire truck|fire truck|red toy fire truck|chunky red wooden toy fire truck" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

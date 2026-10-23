@@ -1,7 +1,7 @@
 <mujoco model="sand_colored_footed_bowl">
   <compiler angle="radian" meshdir="../mesh/sand_colored_footed_bowl" texturedir="../mesh/sand_colored_footed_bowl" />
   <custom>
-    <text name="label" data="sand-colored footed bowl" />
+    <text name="label" data="sand-colored footed bowl|bowl|footed bowl|sand-coloured ceramic bowl|deep sand-coloured ceramic bowl on a foot" />
     <text name="tags" data="container" />
   </custom>
   <default>

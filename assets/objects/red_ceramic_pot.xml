@@ -1,7 +1,7 @@
 <mujoco model="red_ceramic_pot">
   <compiler angle="radian" meshdir="../mesh/red_ceramic_pot" texturedir="../mesh/red_ceramic_pot" />
   <custom>
-    <text name="label" data="red ceramic pot" />
+    <text name="label" data="red ceramic pot|flower pot|plant pot|red tapered pot|red ceramic tapered flower pot" />
   </custom>
   <default>
     <default class="place">

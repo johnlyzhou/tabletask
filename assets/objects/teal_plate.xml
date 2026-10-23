@@ -1,7 +1,7 @@
 <mujoco model="teal_plate">
   <compiler angle="radian" meshdir="../mesh/teal_plate" texturedir="../mesh/teal_plate" />
   <custom>
-    <text name="label" data="teal plate" />
+    <text name="label" data="teal plate|plate|dish|light teal plate|round light teal ceramic plate" />
     <text name="tags" data="container" />
   </custom>
   <default>

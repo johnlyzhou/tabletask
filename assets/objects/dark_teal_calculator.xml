@@ -1,7 +1,7 @@
 <mujoco model="dark_teal_calculator">
   <compiler angle="radian" meshdir="../mesh/dark_teal_calculator" texturedir="../mesh/dark_teal_calculator" />
   <custom>
-    <text name="label" data="dark teal calculator" />
+    <text name="label" data="dark teal calculator|calculator|desk calculator|teal desk calculator|dark teal calculator with angled screen" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

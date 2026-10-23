@@ -1,7 +1,7 @@
 <mujoco model="orange_and_brown_sweet_potato">
   <compiler angle="radian" meshdir="../mesh/orange_and_brown_sweet_potato" texturedir="../mesh/orange_and_brown_sweet_potato" />
   <custom>
-    <text name="label" data="orange and brown sweet potato" />
+    <text name="label" data="orange and brown sweet potato|sweet potato|yam|brown sweet potato|long tapered orange and brown sweet potato" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="pale_green_teapot">
   <compiler angle="radian" meshdir="../mesh/pale_green_teapot" texturedir="../mesh/pale_green_teapot" />
   <custom>
-    <text name="label" data="pale green teapot" />
+    <text name="label" data="pale green teapot|teapot|tea kettle|pale green ceramic teapot|pale green ceramic teapot with a side handle" />
   </custom>
   <default>
     <default class="place">

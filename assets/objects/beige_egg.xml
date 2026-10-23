@@ -1,7 +1,7 @@
 <mujoco model="beige_egg">
   <compiler angle="radian" meshdir="../mesh/beige_egg" texturedir="../mesh/beige_egg" />
   <custom>
-    <text name="label" data="beige egg" />
+    <text name="label" data="beige egg|egg|chicken egg|brown beige egg|whole oval light brown chicken egg" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

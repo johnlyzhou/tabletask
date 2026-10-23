@@ -1,7 +1,7 @@
 <mujoco model="white_picture_frame">
   <compiler angle="radian" meshdir="../mesh/white_picture_frame" texturedir="../mesh/white_picture_frame" />
   <custom>
-    <text name="label" data="white picture frame" />
+    <text name="label" data="white picture frame|picture frame|photo frame|white photo frame|white picture frame with brown back stand" />
   </custom>
   <default>
     <default class="place">

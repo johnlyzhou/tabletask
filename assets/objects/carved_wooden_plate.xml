@@ -1,7 +1,7 @@
 <mujoco model="carved_wooden_plate">
   <compiler angle="radian" meshdir="../mesh/carved_wooden_plate" texturedir="../mesh/carved_wooden_plate" />
   <custom>
-    <text name="label" data="carved wooden plate" />
+    <text name="label" data="carved wooden plate|plate|dish|round wooden plate|round light wooden plate with carved rim" />
     <text name="tags" data="container" />
   </custom>
   <default>

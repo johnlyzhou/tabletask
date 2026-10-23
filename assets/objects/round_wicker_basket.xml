@@ -2,7 +2,7 @@
   <!-- round_wicker_basket, converted from the MolmoSpaces Objaverse library (uid 5e7074a522a7423690efab5f9227e5a6; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/round_wicker_basket" texturedir="../mesh/round_wicker_basket"/>
   <custom>
-    <text name="label" data="round wicker basket" />
+    <text name="label" data="round wicker basket|basket|wicker bowl|brown woven basket|round brown woven wicker basket" />
   </custom>
   <default>
     <default class="place">

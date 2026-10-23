@@ -1,7 +1,7 @@
 <mujoco model="sugar_box">
   <compiler angle="radian" meshdir="../mesh/sugar_box" texturedir="../mesh/sugar_box" />
   <custom>
-    <text name="label" data="box of sugar" />
+    <text name="label" data="box of sugar|sugar box|sugar|white sugar box|white and blue cardboard box of sugar" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

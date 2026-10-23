@@ -1,7 +1,7 @@
 <mujoco model="granola_bars">
   <compiler angle="radian" meshdir="../mesh/granola_bars" texturedir="../mesh/granola_bars" />
   <custom>
-    <text name="label" data="box of granola bars" />
+    <text name="label" data="box of granola bars|granola bars|granola box|granola bar box|red and yellow box of granola bars" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

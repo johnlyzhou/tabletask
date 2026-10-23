@@ -2,7 +2,7 @@
   <!-- heart_cup, converted from the MolmoSpaces Objaverse library (uid 659aebc5e657442c9807598f77c7d419; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/heart_cup" texturedir="../mesh/heart_cup"/>
   <custom>
-    <text name="label" data="printed mug" />
+    <text name="label" data="printed mug|mug|cup|white printed mug|white ceramic mug with black lettering" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

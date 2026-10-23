@@ -2,7 +2,7 @@
   <!-- purple_tray, converted from the MolmoSpaces Objaverse library (uid a0cf648be87842db8d7b3b76950be963; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/purple_tray" texturedir="../mesh/purple_tray"/>
   <custom>
-    <text name="label" data="purple tray" />
+    <text name="label" data="purple tray|tray|bin|lavender plastic tray|deep lavender rectangular plastic tray" />
   </custom>
   <default>
     <default class="place">

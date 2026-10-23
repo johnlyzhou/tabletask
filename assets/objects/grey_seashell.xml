@@ -1,7 +1,7 @@
 <mujoco model="grey_seashell">
   <compiler angle="radian" meshdir="../mesh/grey_seashell" texturedir="../mesh/grey_seashell" />
   <custom>
-    <text name="label" data="grey seashell" />
+    <text name="label" data="white spotted seashell|seashell|shell|spotted spiral shell|white spiral seashell with brown spots" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

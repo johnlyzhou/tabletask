@@ -1,7 +1,7 @@
 <mujoco model="brown_plant_saucer">
   <compiler angle="radian" meshdir="../mesh/brown_plant_saucer" texturedir="../mesh/brown_plant_saucer" />
   <custom>
-    <text name="label" data="brown plant saucer" />
+    <text name="label" data="brown plant saucer|saucer|plant saucer|round tan saucer|round tan brown plant pot saucer" />
     <text name="tags" data="container" />
   </custom>
   <default>

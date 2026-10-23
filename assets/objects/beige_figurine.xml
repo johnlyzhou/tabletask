@@ -1,7 +1,7 @@
 <mujoco model="beige_figurine">
   <compiler angle="radian" meshdir="../mesh/beige_figurine" texturedir="../mesh/beige_figurine" />
   <custom>
-    <text name="label" data="beige figurine" />
+    <text name="label" data="beige figurine|figurine|figure|figurine in beige hat|small figurine of a person in a beige hat" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

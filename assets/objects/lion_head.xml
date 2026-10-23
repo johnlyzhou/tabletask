@@ -1,7 +1,7 @@
 <mujoco model="lion_head">
   <compiler angle="radian" meshdir="../mesh/lion_head" texturedir="../mesh/lion_head" />
   <custom>
-    <text name="label" data="lion head sculpture" />
+    <text name="label" data="lion head sculpture|sculpture|statue|bronze lion head|dark bronze lion head bust on a square base" />
   </custom>
   <default>
     <default class="place">

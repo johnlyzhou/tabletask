@@ -1,7 +1,7 @@
 <mujoco model="long_brown_bamboo_shoot">
   <compiler angle="radian" meshdir="../mesh/long_brown_bamboo_shoot" texturedir="../mesh/long_brown_bamboo_shoot" />
   <custom>
-    <text name="label" data="long brown bamboo shoot" />
+    <text name="label" data="long brown bamboo shoot|bamboo shoot|shoot|thin brown shoot|long thin tapered brown bamboo shoot" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

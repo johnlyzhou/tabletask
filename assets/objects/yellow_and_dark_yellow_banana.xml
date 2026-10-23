@@ -1,7 +1,7 @@
 <mujoco model="yellow_and_dark_yellow_banana">
   <compiler angle="radian" meshdir="../mesh/yellow_and_dark_yellow_banana" texturedir="../mesh/yellow_and_dark_yellow_banana" />
   <custom>
-    <text name="label" data="yellow and dark yellow banana" />
+    <text name="label" data="yellow and dark yellow banana|banana|fruit banana|ripe yellow banana|curved ripe yellow banana with dark tips" />
   </custom>
   <default>
     <default class="place">

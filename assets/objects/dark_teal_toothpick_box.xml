@@ -1,7 +1,7 @@
 <mujoco model="dark_teal_toothpick_box">
   <compiler angle="radian" meshdir="../mesh/dark_teal_toothpick_box" texturedir="../mesh/dark_teal_toothpick_box" />
   <custom>
-    <text name="label" data="dark teal toothpick box" />
+    <text name="label" data="dark teal toothpick box|toothpick box|toothpick holder|teal toothpick container|small cylindrical dark teal toothpick container" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

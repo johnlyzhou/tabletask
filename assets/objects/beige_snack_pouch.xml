@@ -1,7 +1,7 @@
 <mujoco model="beige_snack_pouch">
   <compiler angle="radian" meshdir="../mesh/beige_snack_pouch" texturedir="../mesh/beige_snack_pouch" />
   <custom>
-    <text name="label" data="beige snack pouch" />
+    <text name="label" data="beige snack pouch|snack pouch|pouch|small beige pouch|small round beige snack pouch with a tab" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

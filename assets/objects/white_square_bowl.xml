@@ -1,7 +1,7 @@
 <mujoco model="white_square_bowl">
   <compiler angle="radian" meshdir="../mesh/white_square_bowl" texturedir="../mesh/white_square_bowl" />
   <custom>
-    <text name="label" data="white square bowl" />
+    <text name="label" data="white square bowl|bowl|square bowl|white ceramic square bowl|white square ceramic bowl with sloped sides" />
     <text name="tags" data="container" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="chess_black_bishop">
   <compiler angle="radian" meshdir="../mesh/chess_black_bishop" texturedir="../mesh/chess_black_bishop" />
   <custom>
-    <text name="label" data="black bishop" />
+    <text name="label" data="black bishop|chess piece|bishop|black chess bishop|black wooden bishop chess piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

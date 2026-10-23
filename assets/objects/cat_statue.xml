@@ -1,7 +1,7 @@
 <mujoco model="cat_statue">
   <compiler angle="radian" meshdir="../mesh/cat_statue" texturedir="../mesh/cat_statue" />
   <custom>
-    <text name="label" data="stone cat statue" />
+    <text name="label" data="stone cat statue|statue|cat figurine|grey cat statue|grey stone statue of a sitting cat" />
   </custom>
   <default>
     <default class="place">

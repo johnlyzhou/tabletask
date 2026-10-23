@@ -1,7 +1,7 @@
 <mujoco model="red_cherry">
   <compiler angle="radian" meshdir="../mesh/red_cherry" texturedir="../mesh/red_cherry" />
   <custom>
-    <text name="label" data="red cherry" />
+    <text name="label" data="red cherry|cherry|fruit|dark red cherry|small dark red cherry with stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

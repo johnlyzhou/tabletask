@@ -1,7 +1,7 @@
 <mujoco model="terracotta_saucer">
   <compiler angle="radian" meshdir="../mesh/terracotta_saucer" texturedir="../mesh/terracotta_saucer" />
   <custom>
-    <text name="label" data="terracotta saucer" />
+    <text name="label" data="terracotta saucer|saucer|plant saucer|orange terracotta saucer|round orange terracotta plant pot saucer" />
     <text name="tags" data="container" />
   </custom>
   <default>

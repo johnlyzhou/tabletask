@@ -1,7 +1,7 @@
 <mujoco model="round_grey_rock">
   <compiler angle="radian" meshdir="../mesh/round_grey_rock" texturedir="../mesh/round_grey_rock" />
   <custom>
-    <text name="label" data="round grey rock" />
+    <text name="label" data="round grey rock|rock|stone|grey jagged rock|rough grey stone with jagged edges" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

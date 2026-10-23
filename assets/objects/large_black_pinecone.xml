@@ -1,7 +1,7 @@
 <mujoco model="large_black_pinecone">
   <compiler angle="radian" meshdir="../mesh/large_black_pinecone" texturedir="../mesh/large_black_pinecone" />
   <custom>
-    <text name="label" data="large black pinecone" />
+    <text name="label" data="large black pinecone|pinecone|pine cone|dark brown pinecone|large dark brown scaly pinecone" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

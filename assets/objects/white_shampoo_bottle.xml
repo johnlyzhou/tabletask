@@ -1,7 +1,7 @@
 <mujoco model="white_shampoo_bottle">
   <compiler angle="radian" meshdir="../mesh/white_shampoo_bottle" texturedir="../mesh/white_shampoo_bottle" />
   <custom>
-    <text name="label" data="white shampoo bottle" />
+    <text name="label" data="white shampoo bottle|bottle|shampoo|white pump bottle|white shampoo bottle with silver pump top" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

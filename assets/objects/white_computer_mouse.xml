@@ -1,7 +1,7 @@
 <mujoco model="white_computer_mouse">
   <compiler angle="radian" meshdir="../mesh/white_computer_mouse" texturedir="../mesh/white_computer_mouse" />
   <custom>
-    <text name="label" data="white computer mouse" />
+    <text name="label" data="white computer mouse|mouse|computer mouse|white wired mouse|white wired computer mouse with black cable" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="owl_shape_sorter">
   <compiler angle="radian" meshdir="../mesh/owl_shape_sorter" texturedir="../mesh/owl_shape_sorter" />
   <custom>
-    <text name="label" data="owl shape sorter" />
+    <text name="label" data="owl shape sorter|shape sorter|sorting toy|white owl sorter|white owl shape sorter with colourful shapes" />
   </custom>
   <default>
     <default class="place">

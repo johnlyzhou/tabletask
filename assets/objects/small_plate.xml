@@ -1,7 +1,7 @@
 <mujoco model="small_plate">
   <compiler angle="radian" meshdir="../mesh/small_plate" texturedir="../mesh/small_plate" />
   <custom>
-    <text name="label" data="woven plate" />
+    <text name="label" data="woven plate|plate|placemat|pink woven plate|round pale pink woven plate" />
     <text name="tags" data="container" />
   </custom>
   <default>

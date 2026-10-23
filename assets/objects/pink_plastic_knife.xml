@@ -1,7 +1,7 @@
 <mujoco model="pink_plastic_knife">
   <compiler angle="radian" meshdir="../mesh/pink_plastic_knife" texturedir="../mesh/pink_plastic_knife" />
   <custom>
-    <text name="label" data="pink plastic knife" />
+    <text name="label" data="pink plastic knife|knife|plastic knife|pale pink knife|long pale pink plastic knife" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -2,7 +2,7 @@
   <!-- tin_pail, converted from the MolmoSpaces Objaverse library (uid 186c3d0657a44e2ca04ea9544c453437; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/tin_pail" texturedir="../mesh/tin_pail"/>
   <custom>
-    <text name="label" data="metal bucket" />
+    <text name="label" data="metal bucket|bucket|pail|galvanized metal bucket|grey galvanized metal pail with handle" />
   </custom>
   <default>
     <default class="place">

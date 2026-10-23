@@ -1,7 +1,7 @@
 <mujoco model="round_brown_toy_house">
   <compiler angle="radian" meshdir="../mesh/round_brown_toy_house" texturedir="../mesh/round_brown_toy_house" />
   <custom>
-    <text name="label" data="round brown toy house" />
+    <text name="label" data="round brown toy house|toy house|miniature house|brown brick toy house|brown brick toy house with blue roof" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

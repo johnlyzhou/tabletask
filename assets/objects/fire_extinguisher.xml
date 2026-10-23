@@ -1,7 +1,7 @@
 <mujoco model="fire_extinguisher">
   <compiler angle="radian" meshdir="../mesh/fire_extinguisher" texturedir="../mesh/fire_extinguisher" />
   <custom>
-    <text name="label" data="fire extinguisher" />
+    <text name="label" data="fire extinguisher|extinguisher|fire safety tank|red fire extinguisher|red fire extinguisher on red base stand" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="plain_tray">
   <compiler angle="radian" meshdir="../mesh/blue_tray" texturedir="../mesh/blue_tray" />
   <custom>
-    <text name="label" data="tray" />
+    <text name="label" data="tray|serving tray|divided tray|plastic tray|plain divided plastic tray" />
     <text name="color" data="free" />
     <text name="tags" data="container" />
   </custom>

@@ -1,7 +1,7 @@
 <mujoco model="abc_dish_rack">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="dish rack" />
+    <text name="label" data="dish rack|rack|drying rack|black dish rack|black wire dish drying rack with tray" />
   </custom>
   <default>
     <default class="place">

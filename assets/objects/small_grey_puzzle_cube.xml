@@ -1,7 +1,7 @@
 <mujoco model="small_grey_puzzle_cube">
   <compiler angle="radian" meshdir="../mesh/small_grey_puzzle_cube" texturedir="../mesh/small_grey_puzzle_cube" />
   <custom>
-    <text name="label" data="small grey puzzle cube" />
+    <text name="label" data="small orange and blue puzzle cube|puzzle cube|cube puzzle|orange and blue cube|small orange blue and white puzzle cube" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

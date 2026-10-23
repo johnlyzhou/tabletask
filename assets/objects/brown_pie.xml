@@ -1,7 +1,7 @@
 <mujoco model="brown_pie">
   <compiler angle="radian" meshdir="../mesh/brown_pie" texturedir="../mesh/brown_pie" />
   <custom>
-    <text name="label" data="brown pie" />
+    <text name="label" data="brown pie|pie|tart|dark purple pie|round dark purple brown pie" />
   </custom>
   <default>
     <default class="place">

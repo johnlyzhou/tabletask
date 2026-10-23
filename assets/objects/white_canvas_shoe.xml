@@ -1,7 +1,7 @@
 <mujoco model="white_canvas_shoe">
   <compiler angle="radian" meshdir="../mesh/white_canvas_shoe" texturedir="../mesh/white_canvas_shoe" />
   <custom>
-    <text name="label" data="white canvas shoe" />
+    <text name="label" data="white canvas shoe|shoe|boat shoe|white lace-up shoe|white canvas boat shoe with laces" />
   </custom>
   <default>
     <default class="place">

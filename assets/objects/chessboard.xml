@@ -1,7 +1,7 @@
 <mujoco model="chessboard">
   <compiler angle="radian" meshdir="../mesh/chessboard" texturedir="../mesh/chessboard" />
   <custom>
-    <text name="label" data="chessboard" />
+    <text name="label" data="chessboard|board|checkerboard|black and white chessboard|flat black and white checkered chessboard" />
   </custom>
   <default>
     <default class="place">

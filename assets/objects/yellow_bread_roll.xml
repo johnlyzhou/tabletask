@@ -1,7 +1,7 @@
 <mujoco model="yellow_bread_roll">
   <compiler angle="radian" meshdir="../mesh/yellow_bread_roll" texturedir="../mesh/yellow_bread_roll" />
   <custom>
-    <text name="label" data="yellow bread roll" />
+    <text name="label" data="yellow bread roll|bread roll|bread|golden bread roll|small golden brown rectangular bread roll" />
   </custom>
   <default>
     <default class="place">

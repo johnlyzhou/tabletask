@@ -1,7 +1,7 @@
 <mujoco model="yellow_spray_bottle">
   <compiler angle="radian" meshdir="../mesh/yellow_spray_bottle" texturedir="../mesh/yellow_spray_bottle" />
   <custom>
-    <text name="label" data="yellow spray bottle" />
+    <text name="label" data="yellow spray bottle|spray bottle|spritzer|small yellow sprayer|small yellow spray bottle with purple nozzle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

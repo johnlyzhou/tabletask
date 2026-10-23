@@ -1,7 +1,7 @@
 <mujoco model="right_bin">
   <compiler angle="radian" meshdir="../mesh/right_bin" texturedir="../mesh/right_bin" />
   <custom>
-    <text name="label" data="blue bin" />
+    <text name="label" data="blue bin|bin|storage bin|blue plastic bin|blue open plastic storage bin" />
     <text name="tags" data="container" />
   </custom>
   <default>

@@ -2,7 +2,7 @@
   <!-- brown_flap_box, converted from an AI2-THOR prefab via MolmoSpaces (Box_24; Apache-2.0, AI2). -->
   <compiler angle="radian" meshdir="../mesh/brown_flap_box" texturedir="../mesh/brown_flap_box"/>
   <custom>
-    <text name="label" data="cardboard box" />
+    <text name="label" data="cardboard box|box|carton|orange cardboard box|open orange cardboard box with flaps" />
   </custom>
   <default>
     <default class="place">

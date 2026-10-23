@@ -1,7 +1,7 @@
 <mujoco model="card_game_box">
   <compiler angle="radian" meshdir="../mesh/card_game_box" texturedir="../mesh/card_game_box" />
   <custom>
-    <text name="label" data="card game box" />
+    <text name="label" data="card game box|card box|playing cards|skip-bo card box|colorful skip-bo card game box" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

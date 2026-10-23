@@ -1,7 +1,7 @@
 <mujoco model="large_grey_toothbrush">
   <compiler angle="radian" meshdir="../mesh/large_grey_toothbrush" texturedir="../mesh/large_grey_toothbrush" />
   <custom>
-    <text name="label" data="large grey toothbrush" />
+    <text name="label" data="large grey toothbrush|toothbrush|tooth brush|grey toothbrush|grey and orange handled toothbrush with bristles" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

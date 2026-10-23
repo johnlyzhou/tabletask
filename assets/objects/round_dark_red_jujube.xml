@@ -1,7 +1,7 @@
 <mujoco model="round_dark_red_jujube">
   <compiler angle="radian" meshdir="../mesh/round_dark_red_jujube" texturedir="../mesh/round_dark_red_jujube" />
   <custom>
-    <text name="label" data="round dark red jujube" />
+    <text name="label" data="round dark red jujube|jujube|red date|small dark red jujube|tiny wrinkled dark red dried jujube" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

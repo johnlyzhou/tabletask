@@ -1,7 +1,7 @@
 <mujoco model="round_yellow_apple">
   <compiler angle="radian" meshdir="../mesh/round_yellow_apple" texturedir="../mesh/round_yellow_apple" />
   <custom>
-    <text name="label" data="round yellow apple" />
+    <text name="label" data="round yellow apple|apple|fruit|yellow-red apple|round yellow apple with red blush" />
   </custom>
   <default>
     <default class="place">

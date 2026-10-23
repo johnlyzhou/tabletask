@@ -1,7 +1,7 @@
 <mujoco model="large_brown_sausage">
   <compiler angle="radian" meshdir="../mesh/large_brown_sausage" texturedir="../mesh/large_brown_sausage" />
   <custom>
-    <text name="label" data="large brown sausage" />
+    <text name="label" data="large brown sausage|sausage|hot dog|brown sausage link|large straight brown cooked sausage" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

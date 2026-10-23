@@ -1,7 +1,7 @@
 <mujoco model="toy_school_bus">
   <compiler angle="radian" meshdir="../mesh/toy_school_bus" texturedir="../mesh/toy_school_bus" />
   <custom>
-    <text name="label" data="toy school bus" />
+    <text name="label" data="toy school bus|toy bus|school bus|yellow toy school bus|yellow wooden toy school bus with windows" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

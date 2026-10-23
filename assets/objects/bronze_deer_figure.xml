@@ -1,7 +1,7 @@
 <mujoco model="bronze_deer_figure">
   <compiler angle="radian" meshdir="../mesh/bronze_deer_figure" texturedir="../mesh/bronze_deer_figure" />
   <custom>
-    <text name="label" data="bronze deer figure" />
+    <text name="label" data="bronze deer figure|deer figure|statuette|dark bronze deer|dark bronze figure of a resting deer" />
   </custom>
   <default>
     <default class="place">

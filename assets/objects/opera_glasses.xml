@@ -1,7 +1,7 @@
 <mujoco model="opera_glasses">
   <compiler angle="radian" meshdir="../mesh/opera_glasses" texturedir="../mesh/opera_glasses" />
   <custom>
-    <text name="label" data="opera glasses" />
+    <text name="label" data="opera glasses|binoculars|field glasses|black opera glasses|small black and gold opera glasses" />
   </custom>
   <default>
     <default class="place">

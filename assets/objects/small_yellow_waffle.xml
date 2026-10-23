@@ -1,7 +1,7 @@
 <mujoco model="small_yellow_waffle">
   <compiler angle="radian" meshdir="../mesh/small_yellow_waffle" texturedir="../mesh/small_yellow_waffle" />
   <custom>
-    <text name="label" data="small yellow waffle" />
+    <text name="label" data="small yellow waffle|waffle|pastry|golden waffle|small golden yellow grid waffle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

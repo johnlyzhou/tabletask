@@ -1,7 +1,7 @@
 <mujoco model="round_black_sushi">
   <compiler angle="radian" meshdir="../mesh/round_black_sushi" texturedir="../mesh/round_black_sushi" />
   <custom>
-    <text name="label" data="round black sushi" />
+    <text name="label" data="round black sushi|sushi|sushi roll|dark sushi roll|dark seaweed wrapped sushi piece with topping" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

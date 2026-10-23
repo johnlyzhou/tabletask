@@ -1,7 +1,7 @@
 <mujoco model="blue_figurine">
   <compiler angle="radian" meshdir="../mesh/blue_figurine" texturedir="../mesh/blue_figurine" />
   <custom>
-    <text name="label" data="blue figurine" />
+    <text name="label" data="blue figurine|figurine|figure|blue cartoon figurine|blue cartoon figurine with yellow hat" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

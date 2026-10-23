@@ -1,7 +1,7 @@
 <mujoco model="small_dark_green_bean_cake">
   <compiler angle="radian" meshdir="../mesh/small_dark_green_bean_cake" texturedir="../mesh/small_dark_green_bean_cake" />
   <custom>
-    <text name="label" data="small dark green bean cake" />
+    <text name="label" data="small dark green bean cake|bean cake|cake|dark green square cake|small square dark green bean cake" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

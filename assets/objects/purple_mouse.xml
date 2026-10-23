@@ -2,7 +2,7 @@
   <!-- purple_mouse, converted from the MolmoSpaces Objaverse library (uid 18ff36dbb00e4ab49731159c811ddf70; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/purple_mouse" texturedir="../mesh/purple_mouse"/>
   <custom>
-    <text name="label" data="purple mouse" />
+    <text name="label" data="purple mouse|computer mouse|mouse|magenta computer mouse|magenta and black computer mouse" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

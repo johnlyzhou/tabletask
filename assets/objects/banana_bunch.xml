@@ -1,7 +1,7 @@
 <mujoco model="banana_bunch">
   <compiler angle="radian" meshdir="../mesh/banana_bunch" texturedir="../mesh/banana_bunch" />
   <custom>
-    <text name="label" data="bunch of bananas" />
+    <text name="label" data="bunch of bananas|bananas|banana bunch|yellow banana bunch|bunch of ripe yellow bananas on one stem" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="spatula">
   <compiler angle="radian" meshdir="../mesh/spatula" texturedir="../mesh/spatula" />
   <custom>
-    <text name="label" data="red spatula" />
+    <text name="label" data="red spatula|spatula|turner|red slotted spatula|red plastic slotted cooking spatula" />
   </custom>
   <default>
     <default class="place">

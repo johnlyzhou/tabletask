@@ -1,7 +1,7 @@
 <mujoco model="small_blue_calculator">
   <compiler angle="radian" meshdir="../mesh/small_blue_calculator" texturedir="../mesh/small_blue_calculator" />
   <custom>
-    <text name="label" data="small blue calculator" />
+    <text name="label" data="small blue calculator|calculator|pocket calculator|blue and white calculator|small blue and white pocket calculator" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="paperback_book">
   <compiler angle="radian" meshdir="../mesh/paperback_book" texturedir="../mesh/paperback_book" />
   <custom>
-    <text name="label" data="paperback book" />
+    <text name="label" data="paperback book|book|paperback|white paperback book|white paperback book with green and red title" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

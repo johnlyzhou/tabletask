@@ -1,7 +1,7 @@
 <mujoco model="large_yellow_pear">
   <compiler angle="radian" meshdir="../mesh/large_yellow_pear" texturedir="../mesh/large_yellow_pear" />
   <custom>
-    <text name="label" data="large yellow pear" />
+    <text name="label" data="large yellow pear|pear|fruit pear|speckled asian pear|large round speckled yellow-green asian pear" />
   </custom>
   <default>
     <default class="place">

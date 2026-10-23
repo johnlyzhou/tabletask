@@ -1,7 +1,7 @@
 <mujoco model="bin">
   <compiler angle="radian" meshdir="../mesh/bin" texturedir="../mesh/bin" />
   <custom>
-    <text name="label" data="blue box" />
+    <text name="label" data="blue box|box|crate|blue plastic crate|open rectangular blue ribbed plastic crate" />
     <text name="tags" data="container" />
   </custom>
   <default>

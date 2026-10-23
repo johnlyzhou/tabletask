@@ -1,7 +1,7 @@
 <mujoco model="large_beige_garlic_bulb">
   <compiler angle="radian" meshdir="../mesh/large_beige_garlic_bulb" texturedir="../mesh/large_beige_garlic_bulb" />
   <custom>
-    <text name="label" data="large beige garlic bulb" />
+    <text name="label" data="large beige garlic bulb|garlic|garlic bulb|beige garlic head|large beige papery garlic bulb" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

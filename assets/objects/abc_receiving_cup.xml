@@ -1,7 +1,7 @@
 <mujoco model="abc_receiving_cup">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="cream mug" />
+    <text name="label" data="cream mug|mug|cup|cream ceramic mug|plain cream colored ceramic mug with handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

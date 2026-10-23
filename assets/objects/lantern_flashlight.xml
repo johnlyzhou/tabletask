@@ -1,7 +1,7 @@
 <mujoco model="lantern_flashlight">
   <compiler angle="radian" meshdir="../mesh/lantern_flashlight" texturedir="../mesh/lantern_flashlight" />
   <custom>
-    <text name="label" data="lantern flashlight" />
+    <text name="label" data="lantern flashlight|flashlight|lantern|yellow lantern torch|yellow and black lantern flashlight with handle" />
   </custom>
   <default>
     <default class="place">

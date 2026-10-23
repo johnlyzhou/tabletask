@@ -1,7 +1,7 @@
 <mujoco model="grey_rice_cake">
   <compiler angle="radian" meshdir="../mesh/grey_rice_cake" texturedir="../mesh/grey_rice_cake" />
   <custom>
-    <text name="label" data="grey rice cake" />
+    <text name="label" data="grey rice cake|rice cake|cake|small rice cake|small beige cylindrical rice cake" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

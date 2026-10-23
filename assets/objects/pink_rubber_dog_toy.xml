@@ -1,7 +1,7 @@
 <mujoco model="pink_rubber_dog_toy">
   <compiler angle="radian" meshdir="../mesh/pink_rubber_dog_toy" texturedir="../mesh/pink_rubber_dog_toy" />
   <custom>
-    <text name="label" data="pink rubber dog toy" />
+    <text name="label" data="pink rubber dog toy|dog toy|chew toy|pink rubber chew toy|pink rubber dog chew toy with stacked shape" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

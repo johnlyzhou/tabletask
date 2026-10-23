@@ -1,7 +1,7 @@
 <mujoco model="wooden_letter_block">
   <compiler angle="radian" meshdir="../mesh/wooden_letter_block" texturedir="../mesh/wooden_letter_block" />
   <custom>
-    <text name="label" data="wooden letter block" />
+    <text name="label" data="wooden letter block|block|alphabet block|wooden alphabet block|wooden alphabet block with letters and pictures" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="horse_statuette">
   <compiler angle="radian" meshdir="../mesh/horse_statuette" texturedir="../mesh/horse_statuette" />
   <custom>
-    <text name="label" data="horse statuette" />
+    <text name="label" data="horse statuette|statuette|horse figure|white horse statuette|white rearing horse statuette on base" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

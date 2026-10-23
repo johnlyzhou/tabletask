@@ -1,7 +1,7 @@
 <mujoco model="yellow_sandwich">
   <compiler angle="radian" meshdir="../mesh/yellow_sandwich" texturedir="../mesh/yellow_sandwich" />
   <custom>
-    <text name="label" data="yellow sandwich" />
+    <text name="label" data="yellow sandwich|sandwich|sandwich wedge|small sandwich wedge|small triangular yellow sandwich wedge" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

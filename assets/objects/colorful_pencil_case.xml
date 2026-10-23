@@ -1,7 +1,7 @@
 <mujoco model="colorful_pencil_case">
   <compiler angle="radian" meshdir="../mesh/colorful_pencil_case" texturedir="../mesh/colorful_pencil_case" />
   <custom>
-    <text name="label" data="colorful pencil case" />
+    <text name="label" data="colorful pencil case|pencil case|pencil pouch|pink patterned pencil case|pink geometric patterned zip pencil case" />
   </custom>
   <default>
     <default class="place">

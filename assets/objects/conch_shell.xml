@@ -1,7 +1,7 @@
 <mujoco model="conch_shell">
   <compiler angle="radian" meshdir="../mesh/conch_shell" texturedir="../mesh/conch_shell" />
   <custom>
-    <text name="label" data="spider conch shell" />
+    <text name="label" data="spider conch shell|seashell|conch|spiky conch shell|orange and white spiky spider conch shell" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

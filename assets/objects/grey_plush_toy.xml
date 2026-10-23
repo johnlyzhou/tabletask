@@ -1,7 +1,7 @@
 <mujoco model="grey_plush_toy">
   <compiler angle="radian" meshdir="../mesh/grey_plush_toy" texturedir="../mesh/grey_plush_toy" />
   <custom>
-    <text name="label" data="grey plush toy" />
+    <text name="label" data="grey plush toy|plush toy|stuffed animal|dark grey plush|dark grey stuffed plush animal" />
   </custom>
   <default>
     <default class="place">

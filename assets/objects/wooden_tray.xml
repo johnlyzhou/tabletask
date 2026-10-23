@@ -1,7 +1,7 @@
 <mujoco model="wooden_tray">
   <compiler angle="radian" meshdir="../mesh/wooden_tray" texturedir="../mesh/wooden_tray" />
   <custom>
-    <text name="label" data="wooden tray" />
+    <text name="label" data="wooden tray|tray|serving tray|yellow wooden tray|square shallow yellow wooden tray" />
     <text name="tags" data="container" />
   </custom>
   <default>

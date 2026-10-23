@@ -1,7 +1,7 @@
 <mujoco model="white_beaded_bowl">
   <compiler angle="radian" meshdir="../mesh/white_beaded_bowl" texturedir="../mesh/white_beaded_bowl" />
   <custom>
-    <text name="label" data="white beaded bowl" />
+    <text name="label" data="white beaded bowl|bowl|beaded bowl|white textured bowl|white ceramic bowl with beaded outer texture" />
     <text name="tags" data="container" />
   </custom>
   <default>

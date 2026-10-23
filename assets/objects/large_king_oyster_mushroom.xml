@@ -1,7 +1,7 @@
 <mujoco model="large_king_oyster_mushroom">
   <compiler angle="radian" meshdir="../mesh/large_king_oyster_mushroom" texturedir="../mesh/large_king_oyster_mushroom" />
   <custom>
-    <text name="label" data="large king oyster mushroom" />
+    <text name="label" data="large king oyster mushroom|mushroom|oyster mushroom|king oyster mushroom|thick pale brown king oyster mushroom stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="carved_cup_bowl">
   <compiler angle="radian" meshdir="../mesh/carved_cup_bowl" texturedir="../mesh/carved_cup_bowl" />
   <custom>
-    <text name="label" data="small carved bowl" />
+    <text name="label" data="small carved bowl|bowl|cup|wooden carved bowl|small carved brown wooden bowl" />
     <text name="tags" data="container" />
   </custom>
   <default>

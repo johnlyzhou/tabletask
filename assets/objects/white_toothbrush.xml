@@ -1,7 +1,7 @@
 <mujoco model="white_toothbrush">
   <compiler angle="radian" meshdir="../mesh/white_toothbrush" texturedir="../mesh/white_toothbrush" />
   <custom>
-    <text name="label" data="white toothbrush" />
+    <text name="label" data="white toothbrush|toothbrush|tooth brush|white plastic toothbrush|thin white and purple toothbrush" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

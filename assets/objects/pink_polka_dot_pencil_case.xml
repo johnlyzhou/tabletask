@@ -1,7 +1,7 @@
 <mujoco model="pink_polka_dot_pencil_case">
   <compiler angle="radian" meshdir="../mesh/pink_polka_dot_pencil_case" texturedir="../mesh/pink_polka_dot_pencil_case" />
   <custom>
-    <text name="label" data="pink polka-dot pencil case" />
+    <text name="label" data="pink polka-dot pencil case|pencil case|pencil pouch|pink dotted pouch|pink polka dot zippered pencil case" />
   </custom>
   <default>
     <default class="place">

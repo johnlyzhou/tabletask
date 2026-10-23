@@ -1,7 +1,7 @@
 <mujoco model="leather_cleaner_can">
   <compiler angle="radian" meshdir="../mesh/leather_cleaner_can" texturedir="../mesh/leather_cleaner_can" />
   <custom>
-    <text name="label" data="can of leather cleaner" />
+    <text name="label" data="can of leather cleaner|leather cleaner|aerosol can|black leather cleaner can|small black aerosol can of leather cleaner" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

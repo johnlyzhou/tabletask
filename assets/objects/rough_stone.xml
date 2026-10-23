@@ -1,7 +1,7 @@
 <mujoco model="rough_stone">
   <compiler angle="radian" meshdir="../mesh/rough_stone" texturedir="../mesh/rough_stone" />
   <custom>
-    <text name="label" data="rough stone" />
+    <text name="label" data="rough stone|stone|rock|rough brown stone|large rough reddish brown stone" />
   </custom>
   <default>
     <default class="place">

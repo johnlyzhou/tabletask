@@ -1,7 +1,7 @@
 <mujoco model="wood_hammer">
   <compiler angle="radian" meshdir="../mesh/wood_hammer" texturedir="../mesh/wood_hammer" />
   <custom>
-    <text name="label" data="wooden hammer" />
+    <text name="label" data="wooden hammer|hammer|claw hammer|wood-handled hammer|claw hammer with wooden handle and metal head" />
   </custom>
   <default>
     <default class="place">

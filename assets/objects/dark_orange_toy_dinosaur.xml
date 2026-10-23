@@ -1,7 +1,7 @@
 <mujoco model="dark_orange_toy_dinosaur">
   <compiler angle="radian" meshdir="../mesh/dark_orange_toy_dinosaur" texturedir="../mesh/dark_orange_toy_dinosaur" />
   <custom>
-    <text name="label" data="dark orange toy dinosaur" />
+    <text name="label" data="dark orange toy dinosaur|toy dinosaur|dinosaur figure|orange dinosaur toy|twisted dark orange toy dinosaur figure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

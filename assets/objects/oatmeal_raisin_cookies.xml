@@ -1,7 +1,7 @@
 <mujoco model="oatmeal_raisin_cookies">
   <compiler angle="radian" meshdir="../mesh/oatmeal_raisin_cookies" texturedir="../mesh/oatmeal_raisin_cookies" />
   <custom>
-    <text name="label" data="box of cookies" />
+    <text name="label" data="box of cookies|cookie box|cookies|oatmeal raisin cookies|red and white box of oatmeal raisin cookies" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

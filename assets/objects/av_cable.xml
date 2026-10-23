@@ -1,7 +1,7 @@
 <mujoco model="av_cable">
   <compiler angle="radian" meshdir="../mesh/av_cable" texturedir="../mesh/av_cable" />
   <custom>
-    <text name="label" data="AV cable" />
+    <text name="label" data="av cable|cable|rca cable|black av cable|black av cable with red white yellow plugs" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

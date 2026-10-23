@@ -1,7 +1,7 @@
 <mujoco model="yellow_juice_box">
   <compiler angle="radian" meshdir="../mesh/yellow_juice_box" texturedir="../mesh/yellow_juice_box" />
   <custom>
-    <text name="label" data="yellow juice box" />
+    <text name="label" data="yellow juice box|juice box|drink carton|small yellow carton|small yellow juice box with straw" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

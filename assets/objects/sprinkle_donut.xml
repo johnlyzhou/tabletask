@@ -2,7 +2,7 @@
   <!-- sprinkle_donut, converted from the MolmoSpaces Objaverse library (uid 04a319096cd1428a9c5af4dde414a7d7; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/sprinkle_donut" texturedir="../mesh/sprinkle_donut"/>
   <custom>
-    <text name="label" data="donut with sprinkles" />
+    <text name="label" data="donut with sprinkles|donut|doughnut|white sprinkle donut|white frosted donut with colourful sprinkles" />
   </custom>
   <default>
     <default class="place">

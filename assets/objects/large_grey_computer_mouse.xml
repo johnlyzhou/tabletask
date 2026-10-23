@@ -1,7 +1,7 @@
 <mujoco model="large_grey_computer_mouse">
   <compiler angle="radian" meshdir="../mesh/large_grey_computer_mouse" texturedir="../mesh/large_grey_computer_mouse" />
   <custom>
-    <text name="label" data="large grey computer mouse" />
+    <text name="label" data="large grey computer mouse|computer mouse|mouse|grey wireless mouse|smooth light grey computer mouse with curved top" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

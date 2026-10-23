@@ -1,7 +1,7 @@
 <mujoco model="abc_search_cabinet">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="wooden cabinet" />
+    <text name="label" data="wooden cabinet|cabinet|drawer cabinet|dark wood cabinet|dark wooden cabinet with three drawers" />
   </custom>
   <default>
     <default class="place">

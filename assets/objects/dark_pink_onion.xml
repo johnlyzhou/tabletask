@@ -1,7 +1,7 @@
 <mujoco model="dark_pink_onion">
   <compiler angle="radian" meshdir="../mesh/dark_pink_onion" texturedir="../mesh/dark_pink_onion" />
   <custom>
-    <text name="label" data="dark pink onion" />
+    <text name="label" data="dark pink onion|onion|red onion|purple whole onion|whole purple-pink onion with papery skin" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

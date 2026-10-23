@@ -1,7 +1,7 @@
 <mujoco model="grey_sushi">
   <compiler angle="radian" meshdir="../mesh/grey_sushi" texturedir="../mesh/grey_sushi" />
   <custom>
-    <text name="label" data="grey sushi" />
+    <text name="label" data="grey sushi|sushi|sushi roll|small sushi roll|small grey sushi roll piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

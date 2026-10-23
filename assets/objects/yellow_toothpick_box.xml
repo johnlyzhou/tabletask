@@ -1,7 +1,7 @@
 <mujoco model="yellow_toothpick_box">
   <compiler angle="radian" meshdir="../mesh/yellow_toothpick_box" texturedir="../mesh/yellow_toothpick_box" />
   <custom>
-    <text name="label" data="yellow toothpick box" />
+    <text name="label" data="yellow toothpick box|toothpick box|toothpick holder|small yellow tube|small yellow cylindrical toothpick container" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

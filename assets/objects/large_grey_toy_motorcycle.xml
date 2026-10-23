@@ -1,7 +1,7 @@
 <mujoco model="large_grey_toy_motorcycle">
   <compiler angle="radian" meshdir="../mesh/large_grey_toy_motorcycle" texturedir="../mesh/large_grey_toy_motorcycle" />
   <custom>
-    <text name="label" data="large grey toy motorcycle" />
+    <text name="label" data="large grey toy motorcycle|toy motorcycle|motorbike|black toy motorcycle|black and grey sport toy motorcycle with orange accents" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

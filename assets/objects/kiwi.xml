@@ -1,7 +1,7 @@
 <mujoco model="kiwi">
   <compiler angle="radian" meshdir="../mesh/kiwi" texturedir="../mesh/kiwi" />
   <custom>
-    <text name="label" data="kiwi" />
+    <text name="label" data="kiwi|kiwi fruit|fruit|fuzzy brown kiwi|round fuzzy brown kiwi fruit" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="grey_game_cartridge">
   <compiler angle="radian" meshdir="../mesh/grey_game_cartridge" texturedir="../mesh/grey_game_cartridge" />
   <custom>
-    <text name="label" data="grey game cartridge" />
+    <text name="label" data="grey game cartridge|game cartridge|video game|grey game cart|grey video game cartridge with yellow car label" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

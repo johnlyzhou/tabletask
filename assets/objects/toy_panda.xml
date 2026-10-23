@@ -1,7 +1,7 @@
 <mujoco model="toy_panda">
   <compiler angle="radian" meshdir="../mesh/toy_panda" texturedir="../mesh/toy_panda" />
   <custom>
-    <text name="label" data="toy panda" />
+    <text name="label" data="toy panda|panda figure|panda|black and white panda toy|black and white plastic panda animal figure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

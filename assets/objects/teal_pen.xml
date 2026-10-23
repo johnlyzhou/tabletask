@@ -1,7 +1,7 @@
 <mujoco model="teal_pen">
   <compiler angle="radian" meshdir="../mesh/teal_pen" texturedir="../mesh/teal_pen" />
   <custom>
-    <text name="label" data="blue pen" />
+    <text name="label" data="blue pen|pen|ballpoint pen|blue ballpoint pen|blue and teal plastic ballpoint pen" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

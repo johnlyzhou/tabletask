@@ -1,7 +1,7 @@
 <mujoco model="dark_red_scissors">
   <compiler angle="radian" meshdir="../mesh/dark_red_scissors" texturedir="../mesh/dark_red_scissors" />
   <custom>
-    <text name="label" data="dark red scissors" />
+    <text name="label" data="dark red scissors|scissors|shears|red-handled scissors|scissors with dark red handles and silver blades" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

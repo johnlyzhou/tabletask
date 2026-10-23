@@ -1,7 +1,7 @@
 <mujoco model="orange_magnet">
   <compiler angle="radian" meshdir="../mesh/orange_magnet" texturedir="../mesh/orange_magnet" />
   <custom>
-    <text name="label" data="orange magnet" />
+    <text name="label" data="orange magnet|magnet|fridge magnet|small orange magnet disc|small round orange-brown fridge magnet" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

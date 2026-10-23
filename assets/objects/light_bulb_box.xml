@@ -1,7 +1,7 @@
 <mujoco model="light_bulb_box">
   <compiler angle="radian" meshdir="../mesh/light_bulb_box" texturedir="../mesh/light_bulb_box" />
   <custom>
-    <text name="label" data="light bulb box" />
+    <text name="label" data="light bulb box|box|bulb carton|bulb packaging box|small white and green light bulb packaging box" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

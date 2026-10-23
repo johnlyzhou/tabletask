@@ -2,7 +2,7 @@
   <!-- pink_rock, converted from the MolmoSpaces Objaverse library (uid 040ab0458dd54b1bb0fecb37a5a662e4; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/pink_rock" texturedir="../mesh/pink_rock"/>
   <custom>
-    <text name="label" data="brown rock" />
+    <text name="label" data="brown rock|rock|stone|orange brown rock|rough orange brown rock with crumbly surface" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="grey_watch">
   <compiler angle="radian" meshdir="../mesh/grey_watch" texturedir="../mesh/grey_watch" />
   <custom>
-    <text name="label" data="grey watch" />
+    <text name="label" data="grey watch|watch|wristwatch|grey wristwatch|grey wristwatch with pink strap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

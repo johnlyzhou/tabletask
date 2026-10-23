@@ -2,7 +2,7 @@
   <!-- tennis_ball, converted from the MolmoSpaces Objaverse library (uid 4a6cd8d53cbc423da9e33299f4263aed; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/tennis_ball" texturedir="../mesh/tennis_ball"/>
   <custom>
-    <text name="label" data="yellow and red ball" />
+    <text name="label" data="yellow and red ball|ball|tennis ball|yellow striped ball|yellow ball with red and white stripe" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="dark_blue_toy_house">
   <compiler angle="radian" meshdir="../mesh/dark_blue_toy_house" texturedir="../mesh/dark_blue_toy_house" />
   <custom>
-    <text name="label" data="dark blue toy house" />
+    <text name="label" data="dark blue toy house|toy house|house|blue toy house|light blue toy house with dark roof" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="cheez_it">
   <compiler angle="radian" meshdir="../mesh/cheez_it" texturedir="../mesh/cheez_it" />
   <custom>
-    <text name="label" data="box of crackers" />
+    <text name="label" data="box of crackers|cracker box|crackers|red cracker box|red cheez-it box of cheese crackers" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

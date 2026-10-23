@@ -2,7 +2,7 @@
   <!-- blue_tray, converted from the MolmoSpaces Objaverse library (uid 3e7747b1db4b44a4952d6d94488ee16e; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_tray" texturedir="../mesh/blue_tray"/>
   <custom>
-    <text name="label" data="light blue tray" />
+    <text name="label" data="light blue tray|tray|organizer tray|pale blue tray|pale blue divided plastic tray" />
     <text name="tags" data="container" />
   </custom>
   <default>

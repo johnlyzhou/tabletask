@@ -1,7 +1,7 @@
 <mujoco model="abc_marker">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="red and white marker" />
+    <text name="label" data="red and white marker|marker|dry erase marker|red white marker|white and red dry erase marker pen" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

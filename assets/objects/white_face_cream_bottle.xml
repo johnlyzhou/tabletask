@@ -1,7 +1,7 @@
 <mujoco model="white_face_cream_bottle">
   <compiler angle="radian" meshdir="../mesh/white_face_cream_bottle" texturedir="../mesh/white_face_cream_bottle" />
   <custom>
-    <text name="label" data="white face cream bottle" />
+    <text name="label" data="white face cream bottle|bottle|cream bottle|small white bottle|small white face cream bottle with red band" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

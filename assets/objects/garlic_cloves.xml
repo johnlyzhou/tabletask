@@ -1,7 +1,7 @@
 <mujoco model="garlic_cloves">
   <compiler angle="radian" meshdir="../mesh/garlic_cloves" texturedir="../mesh/garlic_cloves" />
   <custom>
-    <text name="label" data="garlic cloves" />
+    <text name="label" data="garlic cloves|garlic|garlic clove|small garlic cloves|few small papery garlic cloves" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

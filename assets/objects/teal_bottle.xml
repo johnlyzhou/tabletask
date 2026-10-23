@@ -2,7 +2,7 @@
   <!-- teal_bottle, converted from the MolmoSpaces Objaverse library (uid 2a2bec5619764218bfdd715ee1148362; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/teal_bottle" texturedir="../mesh/teal_bottle"/>
   <custom>
-    <text name="label" data="teal bottle" />
+    <text name="label" data="teal bottle|bottle|water bottle|teal water bottle|tall slim teal metal water bottle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

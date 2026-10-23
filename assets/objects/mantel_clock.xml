@@ -1,7 +1,7 @@
 <mujoco model="mantel_clock">
   <compiler angle="radian" meshdir="../mesh/mantel_clock" texturedir="../mesh/mantel_clock" />
   <custom>
-    <text name="label" data="mantel clock" />
+    <text name="label" data="mantel clock|clock|table clock|wooden mantel clock|dark wooden arched mantel clock with round face" />
   </custom>
   <default>
     <default class="place">

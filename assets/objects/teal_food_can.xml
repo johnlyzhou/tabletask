@@ -1,7 +1,7 @@
 <mujoco model="teal_food_can">
   <compiler angle="radian" meshdir="../mesh/teal_food_can" texturedir="../mesh/teal_food_can" />
   <custom>
-    <text name="label" data="teal can" />
+    <text name="label" data="teal can|can|food can|teal labelled can|metal food can with teal label" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

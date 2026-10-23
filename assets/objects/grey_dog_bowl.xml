@@ -1,7 +1,7 @@
 <mujoco model="grey_dog_bowl">
   <compiler angle="radian" meshdir="../mesh/grey_dog_bowl" texturedir="../mesh/grey_dog_bowl" />
   <custom>
-    <text name="label" data="grey dog bowl" />
+    <text name="label" data="grey dog bowl|dog bowl|pet bowl|grey pet bowl|grey dog bowl with bone pattern" />
     <text name="tags" data="container" />
   </custom>
   <default>

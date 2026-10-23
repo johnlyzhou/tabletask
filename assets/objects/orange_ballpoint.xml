@@ -2,7 +2,7 @@
   <!-- orange_ballpoint, converted from the MolmoSpaces Objaverse library (uid b8e18a57f2634023bfb6ff122905fdd9; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/orange_ballpoint" texturedir="../mesh/orange_ballpoint"/>
   <custom>
-    <text name="label" data="yellow pen" />
+    <text name="label" data="yellow pen|pen|ballpoint|yellow ballpoint pen|thin yellow ballpoint pen with blue tip" />
   </custom>
   <default>
     <default class="place">

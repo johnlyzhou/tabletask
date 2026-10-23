@@ -1,7 +1,7 @@
 <mujoco model="leopard_print_high_heel">
   <compiler angle="radian" meshdir="../mesh/leopard_print_high_heel" texturedir="../mesh/leopard_print_high_heel" />
   <custom>
-    <text name="label" data="leopard print high heel" />
+    <text name="label" data="leopard print high heel|high heel|shoe|leopard print heel|leopard print pointed toe high heel shoe" />
   </custom>
   <default>
     <default class="place">

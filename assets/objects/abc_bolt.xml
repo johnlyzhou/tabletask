@@ -1,7 +1,7 @@
 <mujoco model="abc_bolt">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="bolt" />
+    <text name="label" data="bolt|screw|hex bolt|white hex bolt|large white plastic hex head bolt" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

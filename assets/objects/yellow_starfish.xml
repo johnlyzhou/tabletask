@@ -1,7 +1,7 @@
 <mujoco model="yellow_starfish">
   <compiler angle="radian" meshdir="../mesh/yellow_starfish" texturedir="../mesh/yellow_starfish" />
   <custom>
-    <text name="label" data="yellow starfish" />
+    <text name="label" data="yellow starfish|starfish|sea star|orange speckled starfish|mottled yellow-orange starfish with long arms" />
   </custom>
   <default>
     <default class="place">

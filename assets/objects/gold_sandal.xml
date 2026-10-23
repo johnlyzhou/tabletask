@@ -1,7 +1,7 @@
 <mujoco model="gold_sandal">
   <compiler angle="radian" meshdir="../mesh/gold_sandal" texturedir="../mesh/gold_sandal" />
   <custom>
-    <text name="label" data="gold sandal" />
+    <text name="label" data="gold sandal|sandal|flip-flop|gold thong sandal|beige gold embellished thong sandal" />
   </custom>
   <default>
     <default class="place">

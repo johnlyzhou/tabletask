@@ -1,7 +1,7 @@
 <mujoco model="dark_green_and_dark_yellow_pear">
   <compiler angle="radian" meshdir="../mesh/dark_green_and_dark_yellow_pear" texturedir="../mesh/dark_green_and_dark_yellow_pear" />
   <custom>
-    <text name="label" data="dark green and dark yellow pear" />
+    <text name="label" data="dark green and dark yellow pear|pear|fruit pear|round greenish pear|round dark green and yellow speckled pear" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="can_of_chocolate_drink_powder">
   <compiler angle="radian" meshdir="../mesh/can_of_chocolate_drink_powder" texturedir="../mesh/can_of_chocolate_drink_powder" />
   <custom>
-    <text name="label" data="can of chocolate drink powder" />
+    <text name="label" data="can of chocolate drink powder|can|cocoa powder|yellow nesquik can|yellow can of chocolate drink powder" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

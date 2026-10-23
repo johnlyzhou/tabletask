@@ -1,7 +1,7 @@
 <mujoco model="small_ceramic_saucer">
   <compiler angle="radian" meshdir="../mesh/small_ceramic_saucer" texturedir="../mesh/small_ceramic_saucer" />
   <custom>
-    <text name="label" data="small ceramic saucer" />
+    <text name="label" data="small ceramic saucer|saucer|small dish|white ceramic saucer|small round white ceramic saucer with dragonfly" />
   </custom>
   <default>
     <default class="place">

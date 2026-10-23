@@ -1,7 +1,7 @@
 <mujoco model="watering_can">
   <compiler angle="radian" meshdir="../mesh/watering_can" texturedir="../mesh/watering_can" />
   <custom>
-    <text name="label" data="metal watering can" />
+    <text name="label" data="metal watering can|watering can|garden can|silver watering can|weathered galvanized metal watering can with long spout" />
   </custom>
   <default>
     <default class="place">

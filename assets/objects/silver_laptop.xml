@@ -2,7 +2,7 @@
   <!-- silver_laptop, converted from an AI2-THOR prefab via MolmoSpaces (Laptop_1; Apache-2.0, AI2). -->
   <compiler angle="radian" meshdir="../mesh/silver_laptop" texturedir="../mesh/silver_laptop"/>
   <custom>
-    <text name="label" data="silver laptop" />
+    <text name="label" data="silver laptop|laptop|notebook computer|closed silver laptop|thin closed silver-white laptop computer" />
   </custom>
   <default>
     <default class="place">

@@ -2,7 +2,7 @@
   <!-- red_knight, converted from the MolmoSpaces Objaverse library (uid 4a56150cd5344dfead2db47326f6fc3a; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_knight" texturedir="../mesh/red_knight"/>
   <custom>
-    <text name="label" data="red knight" />
+    <text name="label" data="red knight|chess piece|knight|red chess knight|red chess knight piece with horse head" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

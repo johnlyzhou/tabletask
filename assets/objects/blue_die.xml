@@ -2,7 +2,7 @@
   <!-- blue_die, converted from the MolmoSpaces Objaverse library (uid 4cfea83fea564d99a14c9cb93d9e0ddf; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_die" texturedir="../mesh/blue_die"/>
   <custom>
-    <text name="label" data="blue die" />
+    <text name="label" data="blue die|die|dice|small blue die|small blue die with white pips" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

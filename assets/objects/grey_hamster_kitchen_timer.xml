@@ -1,7 +1,7 @@
 <mujoco model="grey_hamster_kitchen_timer">
   <compiler angle="radian" meshdir="../mesh/grey_hamster_kitchen_timer" texturedir="../mesh/grey_hamster_kitchen_timer" />
   <custom>
-    <text name="label" data="grey hamster kitchen timer" />
+    <text name="label" data="grey hamster kitchen timer|kitchen timer|timer|grey hamster timer|grey hamster kitchen timer on green base" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

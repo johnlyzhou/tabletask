@@ -1,7 +1,7 @@
 <mujoco model="abc_bolts_bin">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="yellow bin" />
+    <text name="label" data="yellow bin|bin|storage bin|yellow plastic bin|open front yellow plastic storage bin" />
     <text name="tags" data="container" />
   </custom>
   <default>

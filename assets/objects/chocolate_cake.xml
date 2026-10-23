@@ -1,7 +1,7 @@
 <mujoco model="chocolate_cake">
   <compiler angle="radian" meshdir="../mesh/chocolate_cake" texturedir="../mesh/chocolate_cake" />
   <custom>
-    <text name="label" data="strawberry chocolate cake" />
+    <text name="label" data="strawberry chocolate cake|cake|chocolate cake|strawberry topped cake|round chocolate cake ringed with strawberry slices" />
   </custom>
   <default>
     <default class="place">

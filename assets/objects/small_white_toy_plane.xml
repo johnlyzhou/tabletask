@@ -1,7 +1,7 @@
 <mujoco model="small_white_toy_plane">
   <compiler angle="radian" meshdir="../mesh/small_white_toy_plane" texturedir="../mesh/small_white_toy_plane" />
   <custom>
-    <text name="label" data="small white toy plane" />
+    <text name="label" data="small white toy plane|toy plane|airplane|white and green plane|small white toy airplane with green wings" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="round_electronic_game">
   <compiler angle="radian" meshdir="../mesh/round_electronic_game" texturedir="../mesh/round_electronic_game" />
   <custom>
-    <text name="label" data="round electronic game" />
+    <text name="label" data="round electronic game|electronic game|memory game|four-colour electronic game|round black electronic game with red green blue yellow buttons" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="sandwich_cookie">
   <compiler angle="radian" meshdir="../mesh/sandwich_cookie" texturedir="../mesh/sandwich_cookie" />
   <custom>
-    <text name="label" data="sandwich cookie" />
+    <text name="label" data="sandwich cookie|cookie|biscuit|round sandwich cookie|small round golden sandwich cookie" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

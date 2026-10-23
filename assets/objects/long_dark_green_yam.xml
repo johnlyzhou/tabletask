@@ -1,7 +1,7 @@
 <mujoco model="long_dark_green_yam">
   <compiler angle="radian" meshdir="../mesh/long_dark_green_yam" texturedir="../mesh/long_dark_green_yam" />
   <custom>
-    <text name="label" data="long dark green yam" />
+    <text name="label" data="long dark green yam|yam|tuber|dark green yam|thick round cut dark green yam with pale flesh" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="toy_bee_pull_toy">
   <compiler angle="radian" meshdir="../mesh/toy_bee_pull_toy" texturedir="../mesh/toy_bee_pull_toy" />
   <custom>
-    <text name="label" data="toy bee pull toy" />
+    <text name="label" data="toy bee pull toy|pull toy|toy bee|striped bee pull toy|wooden striped bee pull toy on wheels" />
   </custom>
   <default>
     <default class="place">

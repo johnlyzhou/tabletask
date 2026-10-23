@@ -1,7 +1,7 @@
 <mujoco model="black_onion">
   <compiler angle="radian" meshdir="../mesh/black_onion" texturedir="../mesh/black_onion" />
   <custom>
-    <text name="label" data="black onion" />
+    <text name="label" data="black onion|onion|red onion|dark red onion|whole dark reddish onion with papery skin" />
   </custom>
   <default>
     <default class="place">

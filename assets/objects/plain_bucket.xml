@@ -1,7 +1,7 @@
 <mujoco model="plain_bucket">
   <compiler angle="radian" meshdir="../mesh/pail" texturedir="../mesh/pail" />
   <custom>
-    <text name="label" data="bucket" />
+    <text name="label" data="bucket|pail|plastic bucket|bucket with a handle|plain plastic bucket with a handle" />
     <text name="color" data="free" />
   </custom>
   <default>

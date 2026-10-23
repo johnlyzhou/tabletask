@@ -1,7 +1,7 @@
 <mujoco model="rose_wine_bottle">
   <compiler angle="radian" meshdir="../mesh/rose_wine_bottle" texturedir="../mesh/rose_wine_bottle" />
   <custom>
-    <text name="label" data="rosé wine bottle" />
+    <text name="label" data="rosé wine bottle|wine bottle|bottle|rose wine bottle|white labelled rose wine bottle with dark cap" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="pink_tape_measure">
   <compiler angle="radian" meshdir="../mesh/pink_tape_measure" texturedir="../mesh/pink_tape_measure" />
   <custom>
-    <text name="label" data="pink tape measure" />
+    <text name="label" data="pink tape measure|tape measure|measuring tape|pink and blue tape|pink and blue tape measure with a strap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

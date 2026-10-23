@@ -1,7 +1,7 @@
 <mujoco model="abc_letter_w">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="W" />
+    <text name="label" data="letter w block|toy block|alphabet block|wooden letter w block|wooden alphabet block with a blue-bordered letter w" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="bottle_of_marinade">
   <compiler angle="radian" meshdir="../mesh/bottle_of_marinade" texturedir="../mesh/bottle_of_marinade" />
   <custom>
-    <text name="label" data="bottle of marinade" />
+    <text name="label" data="bottle of marinade|bottle|sauce bottle|glass marinade bottle|dark glass bottle of marinade with black cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="green_clock">
   <compiler angle="radian" meshdir="../mesh/green_clock" texturedir="../mesh/green_clock" />
   <custom>
-    <text name="label" data="green clock" />
+    <text name="label" data="green clock|clock|alarm clock|teal bunny clock|teal bunny-eared cartoon alarm clock" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

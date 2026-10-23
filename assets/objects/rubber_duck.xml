@@ -1,7 +1,7 @@
 <mujoco model="rubber_duck">
   <compiler angle="radian" meshdir="../mesh/rubber_duck" texturedir="../mesh/rubber_duck" />
   <custom>
-    <text name="label" data="rubber duck" />
+    <text name="label" data="rubber duck|duck|bath toy|orange rubber duck|orange rubber bath duck with red beak" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

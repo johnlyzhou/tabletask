@@ -1,7 +1,7 @@
 <mujoco model="alphabet_soup_can">
   <compiler angle="radian" meshdir="../mesh/alphabet_soup_can" texturedir="../mesh/alphabet_soup_can" />
   <custom>
-    <text name="label" data="can of alphabet soup" />
+    <text name="label" data="can of alphabet soup|can|soup can|alphabet soup can|small red and white can of alphabet soup" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

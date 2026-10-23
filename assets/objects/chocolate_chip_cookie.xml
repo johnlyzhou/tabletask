@@ -1,7 +1,7 @@
 <mujoco model="chocolate_chip_cookie">
   <compiler angle="radian" meshdir="../mesh/chocolate_chip_cookie" texturedir="../mesh/chocolate_chip_cookie" />
   <custom>
-    <text name="label" data="chocolate chip cookie" />
+    <text name="label" data="chocolate chip cookie|cookie|biscuit|yellow chip cookie|small round yellow cookie with chocolate chips" />
   </custom>
   <default>
     <default class="place">

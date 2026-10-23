@@ -2,7 +2,7 @@
   <!-- blue_race_car, converted from the MolmoSpaces Objaverse library (uid 23866496c388470a9ac8ad28bbe5ba38; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_race_car" texturedir="../mesh/blue_race_car"/>
   <custom>
-    <text name="label" data="blue toy car" />
+    <text name="label" data="blue toy car|toy car|model car|blue model sedan|bright blue toy sedan with silver wheels" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

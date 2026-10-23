@@ -2,7 +2,7 @@
   <!-- red_remote, converted from the MolmoSpaces Objaverse library (uid 31d2e78b579f4cae91e358976504a98e; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_remote" texturedir="../mesh/red_remote"/>
   <custom>
-    <text name="label" data="remote" />
+    <text name="label" data="remote|remote control|controller|red and silver remote|small red and silver remote control" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="small_pumpkin_wedge">
   <compiler angle="radian" meshdir="../mesh/small_pumpkin_wedge" texturedir="../mesh/small_pumpkin_wedge" />
   <custom>
-    <text name="label" data="small pumpkin wedge" />
+    <text name="label" data="small pumpkin wedge|pumpkin wedge|pumpkin|tiny pumpkin chunk|tiny wedge of orange-brown pumpkin" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

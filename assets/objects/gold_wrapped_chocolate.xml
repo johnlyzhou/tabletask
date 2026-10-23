@@ -1,7 +1,7 @@
 <mujoco model="gold_wrapped_chocolate">
   <compiler angle="radian" meshdir="../mesh/gold_wrapped_chocolate" texturedir="../mesh/gold_wrapped_chocolate" />
   <custom>
-    <text name="label" data="gold-wrapped chocolate" />
+    <text name="label" data="gold-wrapped chocolate|chocolate|chocolate bar|yellow wrapped chocolate|chocolate bar in shiny gold-yellow wrapper" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

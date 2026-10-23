@@ -1,7 +1,7 @@
 <mujoco model="black_flip_flop">
   <compiler angle="radian" meshdir="../mesh/black_flip_flop" texturedir="../mesh/black_flip_flop" />
   <custom>
-    <text name="label" data="black flip flop" />
+    <text name="label" data="black flip flop|flip flop|sandal|black thong sandal|single black rubber flip flop sandal" />
   </custom>
   <default>
     <default class="place">

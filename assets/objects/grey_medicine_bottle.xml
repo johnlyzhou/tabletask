@@ -1,7 +1,7 @@
 <mujoco model="grey_medicine_bottle">
   <compiler angle="radian" meshdir="../mesh/grey_medicine_bottle" texturedir="../mesh/grey_medicine_bottle" />
   <custom>
-    <text name="label" data="grey medicine bottle" />
+    <text name="label" data="grey medicine bottle|medicine bottle|pill bottle|small pill bottle|small white medicine bottle with dark lid" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

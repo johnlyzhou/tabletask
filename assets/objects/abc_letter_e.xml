@@ -1,7 +1,7 @@
 <mujoco model="abc_letter_e">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="E" />
+    <text name="label" data="letter e block|toy block|alphabet block|wooden letter e block|wooden alphabet block with a pink-bordered letter e" />
   </custom>
   <default>
     <default class="place">

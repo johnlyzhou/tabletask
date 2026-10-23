@@ -2,7 +2,7 @@
   <!-- yellow_storage_crate, converted from the MolmoSpaces Objaverse library (uid 1e1e77108edb45308123a0ec81faf4d3; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/yellow_storage_crate" texturedir="../mesh/yellow_storage_crate"/>
   <custom>
-    <text name="label" data="yellow crate" />
+    <text name="label" data="yellow crate|crate|bottle crate|yellow plastic crate|bright yellow plastic bottle crate with handles" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="cleaner_jug">
   <compiler angle="radian" meshdir="../mesh/cleaner_jug" texturedir="../mesh/cleaner_jug" />
   <custom>
-    <text name="label" data="cleaner jug" />
+    <text name="label" data="cleaner jug|bottle|cleaner bottle|pink cleaner bottle|pink plastic bottle of cleaner with red cap" />
   </custom>
   <default>
     <default class="place">

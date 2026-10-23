@@ -1,7 +1,7 @@
 <mujoco model="abc_letter_c">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="C" />
+    <text name="label" data="letter c block|toy block|alphabet block|wooden letter c block|wooden alphabet block with a blue-bordered letter c" />
   </custom>
   <default>
     <default class="place">

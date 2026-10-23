@@ -1,7 +1,7 @@
 <mujoco model="honey_dipper">
   <compiler angle="radian" meshdir="../mesh/honey_dipper" texturedir="../mesh/honey_dipper" />
   <custom>
-    <text name="label" data="honey dipper" />
+    <text name="label" data="honey dipper|dipper|honey stick|wooden honey dipper|light wooden honey dipper stick" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

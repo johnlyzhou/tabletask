@@ -1,7 +1,7 @@
 <mujoco model="red_screwdriver">
   <compiler angle="radian" meshdir="../mesh/red_screwdriver" texturedir="../mesh/red_screwdriver" />
   <custom>
-    <text name="label" data="red screwdriver" />
+    <text name="label" data="red screwdriver|screwdriver|driver|red handled screwdriver|screwdriver with a red plastic handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

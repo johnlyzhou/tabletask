@@ -1,7 +1,7 @@
 <mujoco model="dark_grey_wrench">
   <compiler angle="radian" meshdir="../mesh/dark_grey_wrench" texturedir="../mesh/dark_grey_wrench" />
   <custom>
-    <text name="label" data="dark grey wrench" />
+    <text name="label" data="dark grey wrench|wrench|spanner|small grey wrench|small dark grey open-end metal wrench" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

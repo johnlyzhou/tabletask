@@ -1,7 +1,7 @@
 <mujoco model="cyan_headphones">
   <compiler angle="radian" meshdir="../mesh/cyan_headphones" texturedir="../mesh/cyan_headphones" />
   <custom>
-    <text name="label" data="blue headphones" />
+    <text name="label" data="blue headphones|headphones|headset|cyan headphones|cyan and black over ear headphones" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -2,7 +2,7 @@
   <!-- red_teapot, converted from the MolmoSpaces Objaverse library (uid 0a104b446f124a9da76e4b98b8f5d83a; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_teapot" texturedir="../mesh/red_teapot"/>
   <custom>
-    <text name="label" data="red teapot" />
+    <text name="label" data="red teapot|teapot|tea kettle|red ceramic teapot|red teapot with lid and spout" />
   </custom>
   <default>
     <default class="place">

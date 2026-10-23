@@ -1,7 +1,7 @@
 <mujoco model="oil_can">
   <compiler angle="radian" meshdir="../mesh/oil_can" texturedir="../mesh/oil_can" />
   <custom>
-    <text name="label" data="oil can with a spout" />
+    <text name="label" data="oil can with a spout|oil can|oiler|red oil can|dark red oil can with long thin spout" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="yellow_toy_deer">
   <compiler angle="radian" meshdir="../mesh/yellow_toy_deer" texturedir="../mesh/yellow_toy_deer" />
   <custom>
-    <text name="label" data="yellow toy deer" />
+    <text name="label" data="yellow toy deer|toy deer|deer figure|olive toy deer|olive yellow toy deer with orange antlers" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

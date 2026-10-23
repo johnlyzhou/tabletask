@@ -1,7 +1,7 @@
 <mujoco model="rat_figure">
   <compiler angle="radian" meshdir="../mesh/rat_figure" texturedir="../mesh/rat_figure" />
   <custom>
-    <text name="label" data="rat figurine" />
+    <text name="label" data="rat figurine|rat|toy rat|dark brown rat|realistic dark brown rat figurine with long tail" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

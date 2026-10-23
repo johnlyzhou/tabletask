@@ -2,7 +2,7 @@
   <!-- beige_stone, converted from the MolmoSpaces Objaverse library (uid 0366f2d2441342d8b1ca050d053f9f51; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/beige_stone" texturedir="../mesh/beige_stone"/>
   <custom>
-    <text name="label" data="grey stone" />
+    <text name="label" data="grey stone|stone|rock|grey granite stone|grey speckled stone block with black writing" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

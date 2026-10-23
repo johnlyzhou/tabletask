@@ -1,7 +1,7 @@
 <mujoco model="condensed_milk_can">
   <compiler angle="radian" meshdir="../mesh/condensed_milk_can" texturedir="../mesh/condensed_milk_can" />
   <custom>
-    <text name="label" data="can of condensed milk" />
+    <text name="label" data="can of condensed milk|can|milk can|blue milk can|small white and blue can of condensed milk" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

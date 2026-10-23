@@ -1,7 +1,7 @@
 <mujoco model="dark_green_and_black_toy_car">
   <compiler angle="radian" meshdir="../mesh/dark_green_and_black_toy_car" texturedir="../mesh/dark_green_and_black_toy_car" />
   <custom>
-    <text name="label" data="dark green and black toy car" />
+    <text name="label" data="mint green and black toy car|toy car|model car|mint racing toy car|mint green toy car with black racing stripes" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

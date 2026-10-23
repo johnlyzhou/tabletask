@@ -1,7 +1,7 @@
 <mujoco model="dark_green_zucchini">
   <compiler angle="radian" meshdir="../mesh/dark_green_zucchini" texturedir="../mesh/dark_green_zucchini" />
   <custom>
-    <text name="label" data="dark green zucchini" />
+    <text name="label" data="dark green zucchini|zucchini|courgette|dark green squash|large dark green zucchini with speckled skin" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

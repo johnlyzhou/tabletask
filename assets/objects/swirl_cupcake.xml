@@ -2,7 +2,7 @@
   <!-- swirl_cupcake, converted from the MolmoSpaces Objaverse library (uid 5c019bf89c544987b0ce6643f73a41c2; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/swirl_cupcake" texturedir="../mesh/swirl_cupcake"/>
   <custom>
-    <text name="label" data="pink cupcake" />
+    <text name="label" data="pink cupcake|cupcake|cake|pink swirl cupcake|pink cupcake with swirled frosting and sprinkles" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

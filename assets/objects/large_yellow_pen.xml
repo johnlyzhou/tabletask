@@ -1,7 +1,7 @@
 <mujoco model="large_yellow_pen">
   <compiler angle="radian" meshdir="../mesh/large_yellow_pen" texturedir="../mesh/large_yellow_pen" />
   <custom>
-    <text name="label" data="large yellow pen" />
+    <text name="label" data="large yellow pen|pen|ballpoint pen|pale yellow pen|thin pale yellow cylindrical pen" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

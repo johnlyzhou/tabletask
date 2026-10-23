@@ -1,7 +1,7 @@
 <mujoco model="shaving_brush">
   <compiler angle="radian" meshdir="../mesh/shaving_brush" texturedir="../mesh/shaving_brush" />
   <custom>
-    <text name="label" data="shaving brush" />
+    <text name="label" data="shaving brush|brush|grooming brush|wooden shaving brush|wooden shaving brush with rounded head" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="brown_and_beige_peanut">
   <compiler angle="radian" meshdir="../mesh/brown_and_beige_peanut" texturedir="../mesh/brown_and_beige_peanut" />
   <custom>
-    <text name="label" data="brown and beige peanut" />
+    <text name="label" data="brown and beige peanut|peanut|groundnut|beige peanut shell|small brown and beige peanut in shell" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="picture_frame">
   <compiler angle="radian" meshdir="../mesh/picture_frame" texturedir="../mesh/picture_frame" />
   <custom>
-    <text name="label" data="picture frame" />
+    <text name="label" data="picture frame|photo frame|frame|black picture frame|black picture frame with a stand on back" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

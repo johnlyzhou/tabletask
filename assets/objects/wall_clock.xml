@@ -1,7 +1,7 @@
 <mujoco model="wall_clock">
   <compiler angle="radian" meshdir="../mesh/wall_clock" texturedir="../mesh/wall_clock" />
   <custom>
-    <text name="label" data="wall clock" />
+    <text name="label" data="wall clock|clock|round clock|white round wall clock|round white wall clock with pale blue rim" />
   </custom>
   <default>
     <default class="place">

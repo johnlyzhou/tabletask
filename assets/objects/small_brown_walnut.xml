@@ -1,7 +1,7 @@
 <mujoco model="small_brown_walnut">
   <compiler angle="radian" meshdir="../mesh/small_brown_walnut" texturedir="../mesh/small_brown_walnut" />
   <custom>
-    <text name="label" data="small brown walnut" />
+    <text name="label" data="small brown walnut|walnut|nut|tan whole walnut|round tan brown walnut in shell" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

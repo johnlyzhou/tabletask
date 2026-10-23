@@ -1,7 +1,7 @@
 <mujoco model="footstool">
   <compiler angle="radian" meshdir="../mesh/footstool" texturedir="../mesh/footstool" />
   <custom>
-    <text name="label" data="small wooden footstool" />
+    <text name="label" data="small wooden footstool|footstool|stool|wooden stool|small dark wooden four-legged footstool" />
   </custom>
   <default>
     <default class="place">

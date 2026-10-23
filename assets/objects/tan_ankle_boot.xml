@@ -1,7 +1,7 @@
 <mujoco model="tan_ankle_boot">
   <compiler angle="radian" meshdir="../mesh/tan_ankle_boot" texturedir="../mesh/tan_ankle_boot" />
   <custom>
-    <text name="label" data="tan ankle boot" />
+    <text name="label" data="tan ankle boot|boot|shoe|tan leather boot|tan leather ankle boot with block heel" />
   </custom>
   <default>
     <default class="place">

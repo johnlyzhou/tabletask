@@ -1,7 +1,7 @@
 <mujoco model="large_dark_red_hawthorn_berry">
   <compiler angle="radian" meshdir="../mesh/large_dark_red_hawthorn_berry" texturedir="../mesh/large_dark_red_hawthorn_berry" />
   <custom>
-    <text name="label" data="large dark red hawthorn berry" />
+    <text name="label" data="large dark red hawthorn berry|hawthorn berry|berry|dark red hawthorn|large glossy dark red hawthorn berry" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="pitted_rock">
   <compiler angle="radian" meshdir="../mesh/pitted_rock" texturedir="../mesh/pitted_rock" />
   <custom>
-    <text name="label" data="pitted rock" />
+    <text name="label" data="pitted rock|rock|stone|grey pitted rock|large grey rock with a pitted surface" />
   </custom>
   <default>
     <default class="place">

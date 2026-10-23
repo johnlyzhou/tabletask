@@ -1,7 +1,7 @@
 <mujoco model="black_and_dark_blue_toy_motorcycle">
   <compiler angle="radian" meshdir="../mesh/black_and_dark_blue_toy_motorcycle" texturedir="../mesh/black_and_dark_blue_toy_motorcycle" />
   <custom>
-    <text name="label" data="black and dark blue toy motorcycle" />
+    <text name="label" data="black and dark blue toy motorcycle|toy motorcycle|toy motorbike|dark toy motorcycle|black and dark blue toy motorcycle with fairing" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

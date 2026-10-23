@@ -1,7 +1,7 @@
 <mujoco model="allosaurus_figure">
   <compiler angle="radian" meshdir="../mesh/allosaurus_figure" texturedir="../mesh/allosaurus_figure" />
   <custom>
-    <text name="label" data="allosaurus figure" />
+    <text name="label" data="allosaurus figure|dinosaur figure|toy dinosaur|brown allosaurus figure|brown striped allosaurus dinosaur toy figure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

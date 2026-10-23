@@ -1,7 +1,7 @@
 <mujoco model="oil_tin">
   <compiler angle="radian" meshdir="../mesh/oil_tin" texturedir="../mesh/oil_tin" />
   <custom>
-    <text name="label" data="oil tin" />
+    <text name="label" data="oil tin|tin can|oil can|black oil tin|square dark weathered metal oil tin" />
   </custom>
   <default>
     <default class="place">

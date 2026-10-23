@@ -1,7 +1,7 @@
 <mujoco model="yellow_fig">
   <compiler angle="radian" meshdir="../mesh/yellow_fig" texturedir="../mesh/yellow_fig" />
   <custom>
-    <text name="label" data="yellow fig" />
+    <text name="label" data="yellow fig|fig|fig fruit|brownish yellow fig|round brownish yellow fig with stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

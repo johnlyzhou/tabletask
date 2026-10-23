@@ -1,7 +1,7 @@
 <mujoco model="dark_yellow_and_pale_yellow_bun">
   <compiler angle="radian" meshdir="../mesh/dark_yellow_and_pale_yellow_bun" texturedir="../mesh/dark_yellow_and_pale_yellow_bun" />
   <custom>
-    <text name="label" data="dark yellow and pale yellow bun" />
+    <text name="label" data="dark yellow and pale yellow bun|bun|steamed bun|pale steamed bun|round pale yellow soft steamed bun" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

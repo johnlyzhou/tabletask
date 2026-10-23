@@ -1,7 +1,7 @@
 <mujoco model="bowl">
   <compiler angle="radian" meshdir="../mesh/bowl" texturedir="../mesh/bowl" />
   <custom>
-    <text name="label" data="dark red bowl" />
+    <text name="label" data="dark red bowl|bowl|dish|dark red plastic bowl|round dark red bowl with ribbed rim" />
     <text name="tags" data="container" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="dark_pink_makeup_sponge">
   <compiler angle="radian" meshdir="../mesh/dark_pink_makeup_sponge" texturedir="../mesh/dark_pink_makeup_sponge" />
   <custom>
-    <text name="label" data="dark pink makeup sponge" />
+    <text name="label" data="dark pink makeup sponge|makeup sponge|beauty sponge|pink egg sponge|egg-shaped dark pink makeup blending sponge" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

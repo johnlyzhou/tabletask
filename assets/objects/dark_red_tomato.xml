@@ -1,7 +1,7 @@
 <mujoco model="dark_red_tomato">
   <compiler angle="radian" meshdir="../mesh/dark_red_tomato" texturedir="../mesh/dark_red_tomato" />
   <custom>
-    <text name="label" data="dark red tomato" />
+    <text name="label" data="dark red tomato|tomato|ripe tomato|red ripe tomato|small round red tomato with green stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

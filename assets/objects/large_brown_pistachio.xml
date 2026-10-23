@@ -1,7 +1,7 @@
 <mujoco model="large_brown_pistachio">
   <compiler angle="radian" meshdir="../mesh/large_brown_pistachio" texturedir="../mesh/large_brown_pistachio" />
   <custom>
-    <text name="label" data="large brown pistachio" />
+    <text name="label" data="large brown pistachio|pistachio|nut|tan pistachio nut|large tan pistachio nut in shell" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

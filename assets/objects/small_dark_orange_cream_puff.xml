@@ -1,7 +1,7 @@
 <mujoco model="small_dark_orange_cream_puff">
   <compiler angle="radian" meshdir="../mesh/small_dark_orange_cream_puff" texturedir="../mesh/small_dark_orange_cream_puff" />
   <custom>
-    <text name="label" data="small dark orange cream puff" />
+    <text name="label" data="small dark orange cream puff|cream puff|pastry|brown cream puff|small flaky dark orange cream puff" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="grey_eraser">
   <compiler angle="radian" meshdir="../mesh/grey_eraser" texturedir="../mesh/grey_eraser" />
   <custom>
-    <text name="label" data="grey eraser" />
+    <text name="label" data="grey eraser|eraser|rubber|white eraser|small white eraser with orange sleeve" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

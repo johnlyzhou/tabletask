@@ -1,7 +1,7 @@
 <mujoco model="grey_and_pale_pink_scissors">
   <compiler angle="radian" meshdir="../mesh/grey_and_pale_pink_scissors" texturedir="../mesh/grey_and_pale_pink_scissors" />
   <custom>
-    <text name="label" data="grey and pale pink scissors" />
+    <text name="label" data="grey and pale pink scissors|scissors|shears|pink handled scissors|scissors with pale pink handles and grey blades" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

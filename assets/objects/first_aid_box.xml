@@ -2,7 +2,7 @@
   <!-- first_aid_box, converted from the MolmoSpaces Objaverse library (uid 46b82bb9c6e245b7b89a7f78f77fd7fb; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/first_aid_box" texturedir="../mesh/first_aid_box"/>
   <custom>
-    <text name="label" data="first aid kit" />
+    <text name="label" data="first aid kit|first aid box|medical kit|white first aid box|white first aid box with red cross" />
   </custom>
   <default>
     <default class="place">

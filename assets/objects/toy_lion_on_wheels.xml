@@ -1,7 +1,7 @@
 <mujoco model="toy_lion_on_wheels">
   <compiler angle="radian" meshdir="../mesh/toy_lion_on_wheels" texturedir="../mesh/toy_lion_on_wheels" />
   <custom>
-    <text name="label" data="toy lion on wheels" />
+    <text name="label" data="toy lion on wheels|pull toy|lion pull toy|green lion wheeled toy|green and orange lion toy on wooden wheels" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

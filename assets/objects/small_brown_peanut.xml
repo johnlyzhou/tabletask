@@ -1,7 +1,7 @@
 <mujoco model="small_brown_peanut">
   <compiler angle="radian" meshdir="../mesh/small_brown_peanut" texturedir="../mesh/small_brown_peanut" />
   <custom>
-    <text name="label" data="small brown peanut" />
+    <text name="label" data="small brown peanut|peanut|nut|tiny tan peanut|tiny tan peanut kernel" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

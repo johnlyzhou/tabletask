@@ -1,7 +1,7 @@
 <mujoco model="cross_peen_hammer">
   <compiler angle="radian" meshdir="../mesh/cross_peen_hammer" texturedir="../mesh/cross_peen_hammer" />
   <custom>
-    <text name="label" data="cross-peen hammer" />
+    <text name="label" data="cross-peen hammer|hammer|peen hammer|wooden handle hammer|cross-peen hammer with wooden handle" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="black_rice_dumpling">
   <compiler angle="radian" meshdir="../mesh/black_rice_dumpling" texturedir="../mesh/black_rice_dumpling" />
   <custom>
-    <text name="label" data="black rice dumpling" />
+    <text name="label" data="black rice dumpling|rice dumpling|zongzi|leaf wrapped dumpling|leaf wrapped rice dumpling tied with red string" />
   </custom>
   <default>
     <default class="place">

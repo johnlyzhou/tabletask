@@ -1,7 +1,7 @@
 <mujoco model="large_wooden_bowl">
   <compiler angle="radian" meshdir="../mesh/large_wooden_bowl" texturedir="../mesh/large_wooden_bowl" />
   <custom>
-    <text name="label" data="large wooden bowl" />
+    <text name="label" data="large wooden bowl|bowl|wooden dish|brown wood bowl|large shallow brown wooden bowl with uneven rim" />
     <text name="tags" data="container" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="black_tube_of_hand_cream">
   <compiler angle="radian" meshdir="../mesh/black_tube_of_hand_cream" texturedir="../mesh/black_tube_of_hand_cream" />
   <custom>
-    <text name="label" data="black tube of hand cream" />
+    <text name="label" data="navy blue tube of hand cream|hand cream|cream tube|navy hand cream tube|dark navy blue tube of hand cream with print" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="wooden_toy_sheep">
   <compiler angle="radian" meshdir="../mesh/wooden_toy_sheep" texturedir="../mesh/wooden_toy_sheep" />
   <custom>
-    <text name="label" data="wooden toy sheep" />
+    <text name="label" data="wooden toy sheep|toy sheep|sheep|wooden stacking sheep|natural wood stacking sheep toy with rings" />
   </custom>
   <default>
     <default class="place">

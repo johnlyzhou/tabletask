@@ -1,7 +1,7 @@
 <mujoco model="dark_green_and_pale_green_toy_train">
   <compiler angle="radian" meshdir="../mesh/dark_green_and_pale_green_toy_train" texturedir="../mesh/dark_green_and_pale_green_toy_train" />
   <custom>
-    <text name="label" data="dark green and pale green toy train" />
+    <text name="label" data="dark green and pale green toy train|toy train|toy locomotive|cream and mint locomotive|cream and mint green toy steam locomotive with red wheels" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

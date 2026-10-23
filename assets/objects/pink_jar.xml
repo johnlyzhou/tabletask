@@ -2,7 +2,7 @@
   <!-- pink_jar, converted from the MolmoSpaces Objaverse library (uid e1586d45a933453ea41d3b9fdb308c9c; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/pink_jar" texturedir="../mesh/pink_jar"/>
   <custom>
-    <text name="label" data="pink striped jar" />
+    <text name="label" data="pink striped jar|jar|plastic jar|white striped jar|white plastic jar with pink stripes" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="white_cube_planter">
   <compiler angle="radian" meshdir="../mesh/white_cube_planter" texturedir="../mesh/white_cube_planter" />
   <custom>
-    <text name="label" data="white cube planter" />
+    <text name="label" data="white cube planter|planter|plant pot|grey cube planter|small grey speckled cube-shaped planter" />
   </custom>
   <default>
     <default class="place">

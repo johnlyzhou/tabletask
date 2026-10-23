@@ -1,7 +1,7 @@
 <mujoco model="large_grey_tube_of_hand_cream">
   <compiler angle="radian" meshdir="../mesh/large_grey_tube_of_hand_cream" texturedir="../mesh/large_grey_tube_of_hand_cream" />
   <custom>
-    <text name="label" data="large grey tube of hand cream" />
+    <text name="label" data="large grey tube of hand cream|hand cream|cream tube|silver hand cream tube|large silver metallic tube of hand cream" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

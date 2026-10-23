@@ -1,7 +1,7 @@
 <mujoco model="toothpaste_box">
   <compiler angle="radian" meshdir="../mesh/toothpaste_box" texturedir="../mesh/toothpaste_box" />
   <custom>
-    <text name="label" data="toothpaste box" />
+    <text name="label" data="toothpaste box|box|toothpaste carton|blue toothpaste box|long blue cardboard toothpaste box" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

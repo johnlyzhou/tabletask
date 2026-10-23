@@ -1,7 +1,7 @@
 <mujoco model="blue_soda_can">
   <compiler angle="radian" meshdir="../mesh/blue_soda_can" texturedir="../mesh/blue_soda_can" />
   <custom>
-    <text name="label" data="blue soda can" />
+    <text name="label" data="blue soda can|soda can|can|blue drink can|blue soda can with red and white logo" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="cassette_player">
   <compiler angle="radian" meshdir="../mesh/cassette_player" texturedir="../mesh/cassette_player" />
   <custom>
-    <text name="label" data="cassette player" />
+    <text name="label" data="cassette player|cassette|tape player|grey cassette player|small grey and black cassette player" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

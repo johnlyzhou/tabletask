@@ -1,7 +1,7 @@
 <mujoco model="blue_porcelain_jar">
   <compiler angle="radian" meshdir="../mesh/blue_porcelain_jar" texturedir="../mesh/blue_porcelain_jar" />
   <custom>
-    <text name="label" data="blue porcelain jar" />
+    <text name="label" data="blue porcelain jar|jar|small jar|blue and white jar|small blue and white porcelain jar" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

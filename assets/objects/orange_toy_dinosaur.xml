@@ -2,7 +2,7 @@
   <!-- orange_toy_dinosaur, converted from the MolmoSpaces Objaverse library (uid 26dc0c0a081144af91a962494c147ad1; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/orange_toy_dinosaur" texturedir="../mesh/orange_toy_dinosaur"/>
   <custom>
-    <text name="label" data="orange toy dinosaur" />
+    <text name="label" data="orange toy dinosaur|toy dinosaur|dinosaur|red-orange toy dinosaur|red and yellow toy dinosaur with open jaws" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

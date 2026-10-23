@@ -1,7 +1,7 @@
 <mujoco model="white_glasses_case">
   <compiler angle="radian" meshdir="../mesh/white_glasses_case" texturedir="../mesh/white_glasses_case" />
   <custom>
-    <text name="label" data="white glasses case" />
+    <text name="label" data="white glasses case|glasses case|spectacle case|white hard case|white oval hard glasses case" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

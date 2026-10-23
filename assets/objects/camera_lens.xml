@@ -1,7 +1,7 @@
 <mujoco model="camera_lens">
   <compiler angle="radian" meshdir="../mesh/camera_lens" texturedir="../mesh/camera_lens" />
   <custom>
-    <text name="label" data="camera lens" />
+    <text name="label" data="camera lens|lens|camera part|silver camera lens|silver camera lens with black cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

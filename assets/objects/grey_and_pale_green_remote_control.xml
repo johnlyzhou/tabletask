@@ -1,7 +1,7 @@
 <mujoco model="grey_and_pale_green_remote_control">
   <compiler angle="radian" meshdir="../mesh/grey_and_pale_green_remote_control" texturedir="../mesh/grey_and_pale_green_remote_control" />
   <custom>
-    <text name="label" data="grey and pale green remote control" />
+    <text name="label" data="grey and pale green remote control|remote control|remote|grey ac remote|small grey and pale green remote control with buttons" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

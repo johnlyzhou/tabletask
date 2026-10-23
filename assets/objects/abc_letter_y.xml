@@ -1,7 +1,7 @@
 <mujoco model="abc_letter_y">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="Y" />
+    <text name="label" data="letter y block|toy block|alphabet block|wooden letter y block|wooden alphabet block with a pink-bordered letter y" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="purple_snack_pouch">
   <compiler angle="radian" meshdir="../mesh/purple_snack_pouch" texturedir="../mesh/purple_snack_pouch" />
   <custom>
-    <text name="label" data="purple snack pouch" />
+    <text name="label" data="purple snack pouch|snack pouch|snack bag|purple snack bag|purple snack pouch with cartoon print" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

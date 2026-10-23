@@ -1,7 +1,7 @@
 <mujoco model="small_green_brussels_sprout">
   <compiler angle="radian" meshdir="../mesh/small_green_brussels_sprout" texturedir="../mesh/small_green_brussels_sprout" />
   <custom>
-    <text name="label" data="small green Brussels sprout" />
+    <text name="label" data="small green brussels sprout|brussels sprout|sprout|pale green sprout|small round pale green brussels sprout" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

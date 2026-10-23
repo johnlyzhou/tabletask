@@ -1,7 +1,7 @@
 <mujoco model="brown_shumai">
   <compiler angle="radian" meshdir="../mesh/brown_shumai" texturedir="../mesh/brown_shumai" />
   <custom>
-    <text name="label" data="brown shumai" />
+    <text name="label" data="brown shumai|shumai|dumpling|brown dumpling|wrinkled brown shumai dumpling" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

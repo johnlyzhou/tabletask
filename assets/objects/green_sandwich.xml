@@ -1,7 +1,7 @@
 <mujoco model="green_sandwich">
   <compiler angle="radian" meshdir="../mesh/green_sandwich" texturedir="../mesh/green_sandwich" />
   <custom>
-    <text name="label" data="green sandwich" />
+    <text name="label" data="brown sandwich|sandwich|sandwich slice|triangle sandwich slice|brown triangular layered sandwich slice" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

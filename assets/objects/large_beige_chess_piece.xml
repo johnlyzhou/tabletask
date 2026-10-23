@@ -1,7 +1,7 @@
 <mujoco model="large_beige_chess_piece">
   <compiler angle="radian" meshdir="../mesh/large_beige_chess_piece" texturedir="../mesh/large_beige_chess_piece" />
   <custom>
-    <text name="label" data="large beige chess piece" />
+    <text name="label" data="large beige chess piece|chess piece|king piece|beige chess king|large beige wooden king chess piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -2,7 +2,7 @@
   <!-- yellow_teacup, converted from the MolmoSpaces Objaverse library (uid 1595f63fbeb3421aa8a261c3815e3512; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/yellow_teacup" texturedir="../mesh/yellow_teacup"/>
   <custom>
-    <text name="label" data="yellow teacup" />
+    <text name="label" data="yellow teacup|teacup|cup|pale yellow teacup|pale yellow ceramic handleless teacup" />
   </custom>
   <default>
     <default class="place">

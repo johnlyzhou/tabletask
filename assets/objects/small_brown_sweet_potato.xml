@@ -1,7 +1,7 @@
 <mujoco model="small_brown_sweet_potato">
   <compiler angle="radian" meshdir="../mesh/small_brown_sweet_potato" texturedir="../mesh/small_brown_sweet_potato" />
   <custom>
-    <text name="label" data="small brown sweet potato" />
+    <text name="label" data="small brown sweet potato|sweet potato|yam|brown sweet potato|long thin brown sweet potato" />
   </custom>
   <default>
     <default class="place">

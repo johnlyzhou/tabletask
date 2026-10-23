@@ -1,7 +1,7 @@
 <mujoco model="brown_mushroom_cap">
   <compiler angle="radian" meshdir="../mesh/brown_mushroom_cap" texturedir="../mesh/brown_mushroom_cap" />
   <custom>
-    <text name="label" data="brown mushroom cap" />
+    <text name="label" data="brown mushroom cap|mushroom|mushroom cap|small mushroom cap|small light brown mushroom cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

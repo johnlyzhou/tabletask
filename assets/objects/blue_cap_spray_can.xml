@@ -1,7 +1,7 @@
 <mujoco model="blue_cap_spray_can">
   <compiler angle="radian" meshdir="../mesh/blue_cap_spray_can" texturedir="../mesh/blue_cap_spray_can" />
   <custom>
-    <text name="label" data="spray paint can with a blue cap" />
+    <text name="label" data="spray paint can with a blue cap|spray can|spray paint|blue cap spray can|spray paint can with blue cap and label" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

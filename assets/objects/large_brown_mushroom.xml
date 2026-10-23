@@ -1,7 +1,7 @@
 <mujoco model="large_brown_mushroom">
   <compiler angle="radian" meshdir="../mesh/large_brown_mushroom" texturedir="../mesh/large_brown_mushroom" />
   <custom>
-    <text name="label" data="large brown mushroom" />
+    <text name="label" data="large brown mushroom|mushroom|button mushroom|cream brown mushroom|large cream brown button mushroom cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

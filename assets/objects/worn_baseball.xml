@@ -1,7 +1,7 @@
 <mujoco model="worn_baseball">
   <compiler angle="radian" meshdir="../mesh/worn_baseball" texturedir="../mesh/worn_baseball" />
   <custom>
-    <text name="label" data="worn baseball" />
+    <text name="label" data="worn baseball|baseball|ball|old white baseball|worn white baseball with red stitching" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="round_blue_puzzle_cube">
   <compiler angle="radian" meshdir="../mesh/round_blue_puzzle_cube" texturedir="../mesh/round_blue_puzzle_cube" />
   <custom>
-    <text name="label" data="round blue puzzle cube" />
+    <text name="label" data="round blue puzzle cube|puzzle cube|rubik's cube|blue puzzle cube|blue colourful five by five puzzle cube" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

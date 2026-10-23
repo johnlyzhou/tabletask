@@ -1,7 +1,7 @@
 <mujoco model="green_portable_speaker">
   <compiler angle="radian" meshdir="../mesh/green_portable_speaker" texturedir="../mesh/green_portable_speaker" />
   <custom>
-    <text name="label" data="green portable speaker" />
+    <text name="label" data="green portable speaker|speaker|bluetooth speaker|green cylindrical speaker|green and white cylindrical portable bluetooth speaker" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

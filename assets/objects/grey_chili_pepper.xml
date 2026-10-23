@@ -1,7 +1,7 @@
 <mujoco model="grey_chili_pepper">
   <compiler angle="radian" meshdir="../mesh/grey_chili_pepper" texturedir="../mesh/grey_chili_pepper" />
   <custom>
-    <text name="label" data="grey chili pepper" />
+    <text name="label" data="grey chili pepper|chili pepper|chili|small chili pepper|small wrinkled chili pepper with green stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

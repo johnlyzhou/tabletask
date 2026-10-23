@@ -1,7 +1,7 @@
 <mujoco model="bagel">
   <compiler angle="radian" meshdir="../mesh/bagel" texturedir="../mesh/bagel" />
   <custom>
-    <text name="label" data="bagel" />
+    <text name="label" data="bagel|bread roll|bread ring|white frosted bagel|round bagel with white and brown speckled crust" />
   </custom>
   <default>
     <default class="place">

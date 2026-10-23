@@ -1,7 +1,7 @@
 <mujoco model="dark_orange_and_black_fig">
   <compiler angle="radian" meshdir="../mesh/dark_orange_and_black_fig" texturedir="../mesh/dark_orange_and_black_fig" />
   <custom>
-    <text name="label" data="dark orange and black fig" />
+    <text name="label" data="dark orange and black fig|fig|fresh fig|dark teardrop fig|dark brownish teardrop-shaped fig with stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

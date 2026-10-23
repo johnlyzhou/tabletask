@@ -1,7 +1,7 @@
 <mujoco model="chess_black_pawn">
   <compiler angle="radian" meshdir="../mesh/chess_black_pawn" texturedir="../mesh/chess_black_pawn" />
   <custom>
-    <text name="label" data="black pawn" />
+    <text name="label" data="black pawn|chess piece|pawn|black chess pawn|black round topped pawn chess piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

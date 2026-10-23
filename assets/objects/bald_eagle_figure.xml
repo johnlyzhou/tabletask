@@ -1,7 +1,7 @@
 <mujoco model="bald_eagle_figure">
   <compiler angle="radian" meshdir="../mesh/bald_eagle_figure" texturedir="../mesh/bald_eagle_figure" />
   <custom>
-    <text name="label" data="bald eagle figure" />
+    <text name="label" data="bald eagle figure|eagle figure|toy eagle|bald eagle figurine|bald eagle figurine with spread brown wings" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

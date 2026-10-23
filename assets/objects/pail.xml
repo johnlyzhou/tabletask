@@ -1,7 +1,7 @@
 <mujoco model="pail">
   <compiler angle="radian" meshdir="../mesh/pail" texturedir="../mesh/pail" />
   <custom>
-    <text name="label" data="white bucket" />
+    <text name="label" data="white bucket|bucket|pail|white plastic pail|white plastic bucket with a metal handle" />
   </custom>
   <default>
     <default class="place">

@@ -2,7 +2,7 @@
   <!-- red_tray, converted from the MolmoSpaces Objaverse library (uid 3b0baa42581b4836a30e218540b1d9e8; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_tray" texturedir="../mesh/red_tray"/>
   <custom>
-    <text name="label" data="red tray" />
+    <text name="label" data="red tray|tray|serving tray|orange red tray|shallow red-orange rectangular tray" />
     <text name="tags" data="container" />
   </custom>
   <default>

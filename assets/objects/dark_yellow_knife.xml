@@ -1,7 +1,7 @@
 <mujoco model="dark_yellow_knife">
   <compiler angle="radian" meshdir="../mesh/dark_yellow_knife" texturedir="../mesh/dark_yellow_knife" />
   <custom>
-    <text name="label" data="dark yellow knife" />
+    <text name="label" data="dark yellow knife|knife|paring knife|yellow-handled knife|small knife with dark yellow handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

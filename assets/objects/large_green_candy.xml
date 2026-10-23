@@ -1,7 +1,7 @@
 <mujoco model="large_green_candy">
   <compiler angle="radian" meshdir="../mesh/large_green_candy" texturedir="../mesh/large_green_candy" />
   <custom>
-    <text name="label" data="large green candy" />
+    <text name="label" data="large green candy|candy|sweets packet|green candy wrapper|green plastic wrapped candy packet with print" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

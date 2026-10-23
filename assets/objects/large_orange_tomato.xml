@@ -1,7 +1,7 @@
 <mujoco model="large_orange_tomato">
   <compiler angle="radian" meshdir="../mesh/large_orange_tomato" texturedir="../mesh/large_orange_tomato" />
   <custom>
-    <text name="label" data="large orange tomato" />
+    <text name="label" data="large red-orange tomato|tomato|vegetable tomato|glossy red tomato|large round glossy red-orange tomato" />
   </custom>
   <default>
     <default class="place">

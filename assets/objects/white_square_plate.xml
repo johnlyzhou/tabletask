@@ -1,7 +1,7 @@
 <mujoco model="white_square_plate">
   <compiler angle="radian" meshdir="../mesh/white_square_plate" texturedir="../mesh/white_square_plate" />
   <custom>
-    <text name="label" data="white square plate" />
+    <text name="label" data="white square plate|plate|square plate|white ceramic plate|flat white square ceramic plate" />
     <text name="tags" data="container" />
   </custom>
   <default>

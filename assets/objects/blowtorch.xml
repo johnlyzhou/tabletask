@@ -1,7 +1,7 @@
 <mujoco model="blowtorch">
   <compiler angle="radian" meshdir="../mesh/blowtorch" texturedir="../mesh/blowtorch" />
   <custom>
-    <text name="label" data="brass blowtorch" />
+    <text name="label" data="brass blowtorch|blowtorch|torch|old brass torch|antique brass blowtorch with long nozzle" />
   </custom>
   <default>
     <default class="place">

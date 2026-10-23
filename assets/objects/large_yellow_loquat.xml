@@ -1,7 +1,7 @@
 <mujoco model="large_yellow_loquat">
   <compiler angle="radian" meshdir="../mesh/large_yellow_loquat" texturedir="../mesh/large_yellow_loquat" />
   <custom>
-    <text name="label" data="large yellow loquat" />
+    <text name="label" data="large yellow loquat|loquat|fruit loquat|large yellow-brown loquat|large round yellow-brown loquat fruit" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="brown_longan">
   <compiler angle="radian" meshdir="../mesh/brown_longan" texturedir="../mesh/brown_longan" />
   <custom>
-    <text name="label" data="brown longan" />
+    <text name="label" data="brown longan|longan|fruit|round brown longan|smooth round dark brown longan fruit" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="beige_seashell">
   <compiler angle="radian" meshdir="../mesh/beige_seashell" texturedir="../mesh/beige_seashell" />
   <custom>
-    <text name="label" data="beige seashell" />
+    <text name="label" data="beige seashell|seashell|shell|striped beige seashell|cone shaped beige seashell with brown stripes" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

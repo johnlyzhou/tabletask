@@ -1,7 +1,7 @@
 <mujoco model="large_beige_figurine">
   <compiler angle="radian" meshdir="../mesh/large_beige_figurine" texturedir="../mesh/large_beige_figurine" />
   <custom>
-    <text name="label" data="large beige figurine" />
+    <text name="label" data="large beige figurine|figurine|toy figure|lying girl figurine|large beige figurine of red-haired girl lying down" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

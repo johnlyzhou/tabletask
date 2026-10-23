@@ -1,7 +1,7 @@
 <mujoco model="clay_flower_pot">
   <compiler angle="radian" meshdir="../mesh/clay_flower_pot" texturedir="../mesh/clay_flower_pot" />
   <custom>
-    <text name="label" data="clay flower pot" />
+    <text name="label" data="clay flower pot|flower pot|plant pot|terracotta pot|reddish brown terracotta clay flower pot" />
     <text name="tags" data="container" />
   </custom>
   <default>

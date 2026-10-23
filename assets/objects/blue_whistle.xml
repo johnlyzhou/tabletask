@@ -1,7 +1,7 @@
 <mujoco model="blue_whistle">
   <compiler angle="radian" meshdir="../mesh/blue_whistle" texturedir="../mesh/blue_whistle" />
   <custom>
-    <text name="label" data="blue whistle" />
+    <text name="label" data="blue whistle|whistle|toy whistle|pale blue whistle|pale blue plastic whistle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

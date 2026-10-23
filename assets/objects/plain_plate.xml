@@ -1,7 +1,7 @@
 <mujoco model="plain_plate">
   <compiler angle="radian" meshdir="../mesh/peach_plate" texturedir="../mesh/peach_plate" />
   <custom>
-    <text name="label" data="plate" />
+    <text name="label" data="plate|dish|dinner plate|round plate|plain round plate with a rim" />
     <text name="color" data="free" />
     <text name="tags" data="container" />
   </custom>

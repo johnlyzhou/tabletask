@@ -1,7 +1,7 @@
 <mujoco model="oil_lantern">
   <compiler angle="radian" meshdir="../mesh/oil_lantern" texturedir="../mesh/oil_lantern" />
   <custom>
-    <text name="label" data="oil lantern" />
+    <text name="label" data="oil lantern|lantern|oil lamp|rusty oil lantern|old rusty metal oil lantern with handle" />
   </custom>
   <default>
     <default class="place">

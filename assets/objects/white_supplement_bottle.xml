@@ -1,7 +1,7 @@
 <mujoco model="white_supplement_bottle">
   <compiler angle="radian" meshdir="../mesh/white_supplement_bottle" texturedir="../mesh/white_supplement_bottle" />
   <custom>
-    <text name="label" data="white supplement bottle" />
+    <text name="label" data="white supplement bottle|bottle|vitamin bottle|white pill bottle|white supplement bottle with blue label" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

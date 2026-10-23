@@ -1,7 +1,7 @@
 <mujoco model="round_spectacles">
   <compiler angle="radian" meshdir="../mesh/round_spectacles" texturedir="../mesh/round_spectacles" />
   <custom>
-    <text name="label" data="round glasses" />
+    <text name="label" data="round glasses|glasses|spectacles|round wire glasses|round silver-rimmed eyeglasses with black arms" />
   </custom>
   <default>
     <default class="place">

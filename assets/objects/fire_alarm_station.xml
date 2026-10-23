@@ -1,7 +1,7 @@
 <mujoco model="fire_alarm_station">
   <compiler angle="radian" meshdir="../mesh/fire_alarm_station" texturedir="../mesh/fire_alarm_station" />
   <custom>
-    <text name="label" data="fire alarm pull station" />
+    <text name="label" data="fire alarm pull station|fire alarm|pull station|red fire alarm|red wall-mounted fire alarm pull station" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

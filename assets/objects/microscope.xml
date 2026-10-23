@@ -1,7 +1,7 @@
 <mujoco model="microscope">
   <compiler angle="radian" meshdir="../mesh/microscope" texturedir="../mesh/microscope" />
   <custom>
-    <text name="label" data="microscope" />
+    <text name="label" data="microscope|lab microscope|scope|brass microscope|old black and brass laboratory microscope" />
   </custom>
   <default>
     <default class="place">

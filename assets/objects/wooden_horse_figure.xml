@@ -1,7 +1,7 @@
 <mujoco model="wooden_horse_figure">
   <compiler angle="radian" meshdir="../mesh/wooden_horse_figure" texturedir="../mesh/wooden_horse_figure" />
   <custom>
-    <text name="label" data="wooden horse figure" />
+    <text name="label" data="wooden horse figure|horse|horse figure|wooden toy horse|simple brown carved wooden horse figure" />
   </custom>
   <default>
     <default class="place">

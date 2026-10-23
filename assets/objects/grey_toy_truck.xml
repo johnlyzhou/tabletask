@@ -1,7 +1,7 @@
 <mujoco model="grey_toy_truck">
   <compiler angle="radian" meshdir="../mesh/grey_toy_truck" texturedir="../mesh/grey_toy_truck" />
   <custom>
-    <text name="label" data="grey toy truck" />
+    <text name="label" data="grey toy truck|toy truck|cement mixer|grey toy mixer truck|grey-blue toy cement mixer truck" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

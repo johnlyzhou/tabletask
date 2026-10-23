@@ -1,7 +1,7 @@
 <mujoco model="red_chili_pepper">
   <compiler angle="radian" meshdir="../mesh/red_chili_pepper" texturedir="../mesh/red_chili_pepper" />
   <custom>
-    <text name="label" data="red chili pepper" />
+    <text name="label" data="red chili pepper|chili pepper|chili|long red chili|long curved red chili pepper with green stem" />
   </custom>
   <default>
     <default class="place">

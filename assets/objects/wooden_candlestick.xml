@@ -1,7 +1,7 @@
 <mujoco model="wooden_candlestick">
   <compiler angle="radian" meshdir="../mesh/wooden_candlestick" texturedir="../mesh/wooden_candlestick" />
   <custom>
-    <text name="label" data="wooden candlestick" />
+    <text name="label" data="wooden candlestick|candlestick|candle holder|dark wooden candlestick|dark turned wooden candlestick with candle" />
   </custom>
   <default>
     <default class="place">

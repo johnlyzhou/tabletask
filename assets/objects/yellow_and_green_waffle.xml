@@ -1,7 +1,7 @@
 <mujoco model="yellow_and_green_waffle">
   <compiler angle="radian" meshdir="../mesh/yellow_and_green_waffle" texturedir="../mesh/yellow_and_green_waffle" />
   <custom>
-    <text name="label" data="yellow and green waffle" />
+    <text name="label" data="yellow and green waffle|waffle|waffle piece|green-tinted waffle|square yellow and green waffle piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

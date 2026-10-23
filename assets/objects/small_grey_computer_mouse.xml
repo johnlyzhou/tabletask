@@ -1,7 +1,7 @@
 <mujoco model="small_grey_computer_mouse">
   <compiler angle="radian" meshdir="../mesh/small_grey_computer_mouse" texturedir="../mesh/small_grey_computer_mouse" />
   <custom>
-    <text name="label" data="small grey computer mouse" />
+    <text name="label" data="small grey computer mouse|computer mouse|mouse|light grey mouse|small light grey computer mouse" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

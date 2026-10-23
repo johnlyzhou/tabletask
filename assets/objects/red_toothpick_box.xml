@@ -1,7 +1,7 @@
 <mujoco model="red_toothpick_box">
   <compiler angle="radian" meshdir="../mesh/red_toothpick_box" texturedir="../mesh/red_toothpick_box" />
   <custom>
-    <text name="label" data="red toothpick box" />
+    <text name="label" data="red toothpick box|toothpick box|toothpick container|red cylinder box|small red cylindrical toothpick container" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

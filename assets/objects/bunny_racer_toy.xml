@@ -1,7 +1,7 @@
 <mujoco model="bunny_racer_toy">
   <compiler angle="radian" meshdir="../mesh/bunny_racer_toy" texturedir="../mesh/bunny_racer_toy" />
   <custom>
-    <text name="label" data="bunny racer toy" />
+    <text name="label" data="bunny racer toy|toy car|racer|bunny race car|brown bunny in toy race car with green wheels" />
   </custom>
   <default>
     <default class="place">

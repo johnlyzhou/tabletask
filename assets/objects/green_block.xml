@@ -1,7 +1,7 @@
 <mujoco model="green_block">
   <compiler angle="radian" meshdir="../mesh/green_block" texturedir="../mesh/green_block" />
   <custom>
-    <text name="label" data="green block" />
+    <text name="label" data="green block|block|cube|green cube block|small dark green square cube block" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

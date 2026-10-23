@@ -1,7 +1,7 @@
 <mujoco model="tomato_wedge">
   <compiler angle="radian" meshdir="../mesh/tomato_wedge" texturedir="../mesh/tomato_wedge" />
   <custom>
-    <text name="label" data="tomato wedge" />
+    <text name="label" data="tomato wedge|tomato|tomato slice|red tomato wedge|dark red wedge of tomato" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

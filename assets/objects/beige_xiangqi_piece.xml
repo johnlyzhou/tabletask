@@ -1,7 +1,7 @@
 <mujoco model="beige_xiangqi_piece">
   <compiler angle="radian" meshdir="../mesh/beige_xiangqi_piece" texturedir="../mesh/beige_xiangqi_piece" />
   <custom>
-    <text name="label" data="beige xiangqi piece" />
+    <text name="label" data="beige xiangqi piece|xiangqi piece|game piece|beige chess disc|round beige wooden chinese chess piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

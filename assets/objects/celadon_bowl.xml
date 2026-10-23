@@ -2,7 +2,7 @@
   <!-- celadon_bowl, converted from the MolmoSpaces Objaverse library (uid 0950c31b557548ee9cedc94587a8fc10; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/celadon_bowl" texturedir="../mesh/celadon_bowl"/>
   <custom>
-    <text name="label" data="small white bowl" />
+    <text name="label" data="small white bowl|bowl|dish|white ceramic bowl|small white celadon ceramic bowl" />
     <text name="tags" data="container" />
   </custom>
   <default>

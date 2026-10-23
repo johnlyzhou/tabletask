@@ -1,7 +1,7 @@
 <mujoco model="large_dark_green_thimble">
   <compiler angle="radian" meshdir="../mesh/large_dark_green_thimble" texturedir="../mesh/large_dark_green_thimble" />
   <custom>
-    <text name="label" data="large dark green thimble" />
+    <text name="label" data="large dark green thimble|thimble|sewing thimble|dark green thimble|small dark green ribbed thimble" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

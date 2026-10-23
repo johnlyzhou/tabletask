@@ -1,7 +1,7 @@
 <mujoco model="small_brown_ginger_root">
   <compiler angle="radian" meshdir="../mesh/small_brown_ginger_root" texturedir="../mesh/small_brown_ginger_root" />
   <custom>
-    <text name="label" data="small brown ginger root" />
+    <text name="label" data="small brown ginger root|ginger|ginger root|beige ginger root|knobbly beige-brown ginger root" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

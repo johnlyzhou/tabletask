@@ -1,7 +1,7 @@
 <mujoco model="bleach_bottle">
   <compiler angle="radian" meshdir="../mesh/bleach_bottle" texturedir="../mesh/bleach_bottle" />
   <custom>
-    <text name="label" data="bleach bottle" />
+    <text name="label" data="bleach bottle|bottle|cleaner bottle|purple bleach bottle|purple plastic bleach bottle with angled neck" />
   </custom>
   <default>
     <default class="place">

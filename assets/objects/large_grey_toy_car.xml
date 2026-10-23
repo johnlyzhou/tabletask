@@ -1,7 +1,7 @@
 <mujoco model="large_grey_toy_car">
   <compiler angle="radian" meshdir="../mesh/large_grey_toy_car" texturedir="../mesh/large_grey_toy_car" />
   <custom>
-    <text name="label" data="large grey toy car" />
+    <text name="label" data="large blue toy jeep|toy car|toy jeep|blue duplo car|blue plastic building block toy car with yellow wheels" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

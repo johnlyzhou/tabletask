@@ -2,7 +2,7 @@
   <!-- green_battery, converted from the MolmoSpaces Objaverse library (uid 8d4fe802698c43edb7a7b7b95c0448d3; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/green_battery" texturedir="../mesh/green_battery"/>
   <custom>
-    <text name="label" data="green battery" />
+    <text name="label" data="green battery|battery|aa battery|green aa battery|small green cylindrical aa battery" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

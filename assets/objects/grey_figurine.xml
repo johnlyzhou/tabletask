@@ -1,7 +1,7 @@
 <mujoco model="grey_figurine">
   <compiler angle="radian" meshdir="../mesh/grey_figurine" texturedir="../mesh/grey_figurine" />
   <custom>
-    <text name="label" data="grey figurine" />
+    <text name="label" data="grey figurine|figurine|toy figure|pig figurine|grey cartoon pig figurine holding a hammer" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

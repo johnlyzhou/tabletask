@@ -1,7 +1,7 @@
 <mujoco model="box_of_paint_dabbers">
   <compiler angle="radian" meshdir="../mesh/box_of_paint_dabbers" texturedir="../mesh/box_of_paint_dabbers" />
   <custom>
-    <text name="label" data="box of paint dabbers" />
+    <text name="label" data="box of paint dabbers|paint box|paint dabbers|green paint dabber box|green box of colorful paint dabbers" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

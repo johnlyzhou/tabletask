@@ -1,7 +1,7 @@
 <mujoco model="vintage_stapler">
   <compiler angle="radian" meshdir="../mesh/vintage_stapler" texturedir="../mesh/vintage_stapler" />
   <custom>
-    <text name="label" data="stapler" />
+    <text name="label" data="stapler|desk stapler|office stapler|teal metal stapler|vintage teal metal desk stapler" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

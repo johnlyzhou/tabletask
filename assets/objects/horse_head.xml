@@ -1,7 +1,7 @@
 <mujoco model="horse_head">
   <compiler angle="radian" meshdir="../mesh/horse_head" texturedir="../mesh/horse_head" />
   <custom>
-    <text name="label" data="horse head sculpture" />
+    <text name="label" data="horse head sculpture|sculpture|horse bust|brown horse head|brown horse head bust on base" />
   </custom>
   <default>
     <default class="place">

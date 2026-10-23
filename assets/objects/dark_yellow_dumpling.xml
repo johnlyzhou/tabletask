@@ -1,7 +1,7 @@
 <mujoco model="dark_yellow_dumpling">
   <compiler angle="radian" meshdir="../mesh/dark_yellow_dumpling" texturedir="../mesh/dark_yellow_dumpling" />
   <custom>
-    <text name="label" data="dark yellow dumpling" />
+    <text name="label" data="dark yellow dumpling|dumpling|potsticker|flat pale dumpling|flat pale yellow pleated dumpling" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

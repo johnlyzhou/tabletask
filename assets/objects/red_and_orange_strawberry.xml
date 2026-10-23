@@ -1,7 +1,7 @@
 <mujoco model="red_and_orange_strawberry">
   <compiler angle="radian" meshdir="../mesh/red_and_orange_strawberry" texturedir="../mesh/red_and_orange_strawberry" />
   <custom>
-    <text name="label" data="red and orange strawberry" />
+    <text name="label" data="red and orange strawberry|strawberry|berry|seedy red strawberry|red and orange strawberry with seeds" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

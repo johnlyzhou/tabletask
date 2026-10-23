@@ -1,7 +1,7 @@
 <mujoco model="dark_rock">
   <compiler angle="radian" meshdir="../mesh/dark_rock" texturedir="../mesh/dark_rock" />
   <custom>
-    <text name="label" data="dark rock" />
+    <text name="label" data="light grey rock|rock|stone|pale jagged rock|jagged light grey rock with a small hole" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

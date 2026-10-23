@@ -1,7 +1,7 @@
 <mujoco model="yellow_bamboo_shoot">
   <compiler angle="radian" meshdir="../mesh/yellow_bamboo_shoot" texturedir="../mesh/yellow_bamboo_shoot" />
   <custom>
-    <text name="label" data="yellow bamboo shoot" />
+    <text name="label" data="yellow bamboo shoot|bamboo shoot|shoot|yellow-green bamboo shoot|pointed yellow-green bamboo shoot" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

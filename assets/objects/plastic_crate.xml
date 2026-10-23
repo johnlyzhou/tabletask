@@ -1,7 +1,7 @@
 <mujoco model="plastic_crate">
   <compiler angle="radian" meshdir="../mesh/plastic_crate" texturedir="../mesh/plastic_crate" />
   <custom>
-    <text name="label" data="plastic crate" />
+    <text name="label" data="plastic crate|crate|milk crate|dark red crate|dark red plastic milk crate" />
   </custom>
   <default>
     <default class="place">

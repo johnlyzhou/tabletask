@@ -1,7 +1,7 @@
 <mujoco model="pocket_watch">
   <compiler angle="radian" meshdir="../mesh/pocket_watch" texturedir="../mesh/pocket_watch" />
   <custom>
-    <text name="label" data="pocket watch" />
+    <text name="label" data="pocket watch|watch|stopwatch|beige pocket watch|round beige pocket watch with a ring" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

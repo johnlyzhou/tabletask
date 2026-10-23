@@ -1,7 +1,7 @@
 <mujoco model="watermelon_candy_box">
   <compiler angle="radian" meshdir="../mesh/watermelon_candy_box" texturedir="../mesh/watermelon_candy_box" />
   <custom>
-    <text name="label" data="watermelon candy box" />
+    <text name="label" data="watermelon candy box|candy box|sweets box|small watermelon candy box|small red and green watermelon-print candy box" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

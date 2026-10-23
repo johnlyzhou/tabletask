@@ -1,7 +1,7 @@
 <mujoco model="wooden_sorting_train">
   <compiler angle="radian" meshdir="../mesh/wooden_sorting_train" texturedir="../mesh/wooden_sorting_train" />
   <custom>
-    <text name="label" data="wooden sorting train" />
+    <text name="label" data="wooden sorting train|toy train|shape sorter train|colourful wooden train|colourful wooden toy train with shape blocks" />
   </custom>
   <default>
     <default class="place">

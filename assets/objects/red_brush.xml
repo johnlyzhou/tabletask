@@ -1,7 +1,7 @@
 <mujoco model="red_brush">
   <compiler angle="radian" meshdir="../mesh/red_brush" texturedir="../mesh/red_brush" />
   <custom>
-    <text name="label" data="red brush" />
+    <text name="label" data="red brush|brush|scrub brush|red scrubbing brush|red brush with grey bristles" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

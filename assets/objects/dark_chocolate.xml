@@ -1,7 +1,7 @@
 <mujoco model="dark_chocolate">
   <compiler angle="radian" meshdir="../mesh/dark_chocolate" texturedir="../mesh/dark_chocolate" />
   <custom>
-    <text name="label" data="dark chocolate" />
+    <text name="label" data="dark chocolate|chocolate|chocolate piece|dark chocolate chunk|large rounded piece of dark chocolate" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

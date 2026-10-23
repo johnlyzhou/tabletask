@@ -1,7 +1,7 @@
 <mujoco model="large_dark_yellow_sweet_potato">
   <compiler angle="radian" meshdir="../mesh/large_dark_yellow_sweet_potato" texturedir="../mesh/large_dark_yellow_sweet_potato" />
   <custom>
-    <text name="label" data="large dark yellow sweet potato" />
+    <text name="label" data="large dark yellow sweet potato|sweet potato|yam|tan sweet potato|large curved dark yellow-brown sweet potato" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

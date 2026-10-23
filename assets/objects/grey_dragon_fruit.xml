@@ -1,7 +1,7 @@
 <mujoco model="grey_dragon_fruit">
   <compiler angle="radian" meshdir="../mesh/grey_dragon_fruit" texturedir="../mesh/grey_dragon_fruit" />
   <custom>
-    <text name="label" data="grey dragon fruit" />
+    <text name="label" data="grey dragon fruit|dragon fruit|pitaya|grey dragon fruit half|small grey speckled dragon fruit" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

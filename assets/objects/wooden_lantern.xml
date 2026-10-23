@@ -1,7 +1,7 @@
 <mujoco model="wooden_lantern">
   <compiler angle="radian" meshdir="../mesh/wooden_lantern" texturedir="../mesh/wooden_lantern" />
   <custom>
-    <text name="label" data="wooden lantern" />
+    <text name="label" data="wooden lantern|lantern|lamp|small brown lantern|small brown wooden lantern with handle" />
   </custom>
   <default>
     <default class="place">

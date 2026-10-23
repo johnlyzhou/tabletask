@@ -1,7 +1,7 @@
 <mujoco model="round_tin">
   <compiler angle="radian" meshdir="../mesh/round_tin" texturedir="../mesh/round_tin" />
   <custom>
-    <text name="label" data="round tin" />
+    <text name="label" data="round tin|tin|can|red round tin|red cylindrical tin with black band" />
   </custom>
   <default>
     <default class="place">

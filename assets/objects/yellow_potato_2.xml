@@ -1,7 +1,7 @@
 <mujoco model="yellow_potato_2">
   <compiler angle="radian" meshdir="../mesh/yellow_potato_2" texturedir="../mesh/yellow_potato_2" />
   <custom>
-    <text name="label" data="yellow potato" />
+    <text name="label" data="yellow potato|potato|halved potato|cut yellow potato|half of a brownish yellow potato" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

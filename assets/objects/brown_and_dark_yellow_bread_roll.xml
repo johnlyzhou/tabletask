@@ -1,7 +1,7 @@
 <mujoco model="brown_and_dark_yellow_bread_roll">
   <compiler angle="radian" meshdir="../mesh/brown_and_dark_yellow_bread_roll" texturedir="../mesh/brown_and_dark_yellow_bread_roll" />
   <custom>
-    <text name="label" data="brown and dark yellow bread roll" />
+    <text name="label" data="brown and dark yellow bread roll|bread roll|bun|tan bread roll|large brown and dark yellow bread roll" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

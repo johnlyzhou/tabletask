@@ -1,7 +1,7 @@
 <mujoco model="great_white_shark_figure">
   <compiler angle="radian" meshdir="../mesh/great_white_shark_figure" texturedir="../mesh/great_white_shark_figure" />
   <custom>
-    <text name="label" data="great white shark figure" />
+    <text name="label" data="great white shark figure|shark figure|toy shark|grey shark toy|grey and white great white shark toy figure" />
   </custom>
   <default>
     <default class="place">

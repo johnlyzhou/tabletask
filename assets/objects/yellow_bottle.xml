@@ -1,7 +1,7 @@
 <mujoco model="yellow_bottle">
   <compiler angle="radian" meshdir="../mesh/yellow_bottle" texturedir="../mesh/yellow_bottle" />
   <custom>
-    <text name="label" data="yellow bottle" />
+    <text name="label" data="yellow bottle|bottle|soda bottle|glass soda bottle|clear glass soda bottle with yellow-green tint" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

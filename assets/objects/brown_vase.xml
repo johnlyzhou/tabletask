@@ -1,7 +1,7 @@
 <mujoco model="brown_vase">
   <compiler angle="radian" meshdir="../mesh/brown_vase" texturedir="../mesh/brown_vase" />
   <custom>
-    <text name="label" data="brown vase" />
+    <text name="label" data="brown vase|vase|jar|ribbed brown vase|tall ribbed dark brown ceramic vase" />
   </custom>
   <default>
     <default class="place">

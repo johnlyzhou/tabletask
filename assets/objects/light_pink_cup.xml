@@ -1,7 +1,7 @@
 <mujoco model="light_pink_cup">
   <compiler angle="radian" meshdir="../mesh/light_pink_cup" texturedir="../mesh/light_pink_cup" />
   <custom>
-    <text name="label" data="light pink cup" />
+    <text name="label" data="white and green paper cup|cup|paper cup|white and green cup|small white paper cup with a green band" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

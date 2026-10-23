@@ -1,7 +1,7 @@
 <mujoco model="long_dark_red_shampoo_bottle">
   <compiler angle="radian" meshdir="../mesh/long_dark_red_shampoo_bottle" texturedir="../mesh/long_dark_red_shampoo_bottle" />
   <custom>
-    <text name="label" data="long dark red shampoo bottle" />
+    <text name="label" data="long dark red shampoo bottle|shampoo bottle|shampoo|dark red shampoo bottle|small slim dark red plastic shampoo bottle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

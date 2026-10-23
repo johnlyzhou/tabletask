@@ -1,7 +1,7 @@
 <mujoco model="adjustable_wrench">
   <compiler angle="radian" meshdir="../mesh/adjustable_wrench" texturedir="../mesh/adjustable_wrench" />
   <custom>
-    <text name="label" data="adjustable wrench" />
+    <text name="label" data="adjustable wrench|wrench|spanner|metal adjustable wrench|steel adjustable wrench with dark wooden handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

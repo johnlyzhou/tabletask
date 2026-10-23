@@ -1,7 +1,7 @@
 <mujoco model="small_dark_teal_figurine">
   <compiler angle="radian" meshdir="../mesh/small_dark_teal_figurine" texturedir="../mesh/small_dark_teal_figurine" />
   <custom>
-    <text name="label" data="small dark teal figurine" />
+    <text name="label" data="small dark teal figurine|figurine|figure|tiny teal figurine|tiny dark teal and red figurine" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

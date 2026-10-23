@@ -1,7 +1,7 @@
 <mujoco model="small_spatula">
   <compiler angle="radian" meshdir="../mesh/small_spatula" texturedir="../mesh/small_spatula" />
   <custom>
-    <text name="label" data="small spatula" />
+    <text name="label" data="small spatula|spatula|scraper|white silicone spatula|small white spatula with wooden handle" />
   </custom>
   <default>
     <default class="place">

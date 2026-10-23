@@ -1,7 +1,7 @@
 <mujoco model="white_porcelain_spoon">
   <compiler angle="radian" meshdir="../mesh/white_porcelain_spoon" texturedir="../mesh/white_porcelain_spoon" />
   <custom>
-    <text name="label" data="white porcelain spoon" />
+    <text name="label" data="white porcelain spoon|spoon|soup spoon|white soup spoon|white porcelain chinese soup spoon" />
   </custom>
   <default>
     <default class="place">

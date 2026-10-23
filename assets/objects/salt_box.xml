@@ -1,7 +1,7 @@
 <mujoco model="salt_box">
   <compiler angle="radian" meshdir="../mesh/salt_box" texturedir="../mesh/salt_box" />
   <custom>
-    <text name="label" data="salt box" />
+    <text name="label" data="salt box|salt|salt carton|white salt carton|tall white and blue cardboard salt box" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="dark_grey_wallet">
   <compiler angle="radian" meshdir="../mesh/dark_grey_wallet" texturedir="../mesh/dark_grey_wallet" />
   <custom>
-    <text name="label" data="dark grey wallet" />
+    <text name="label" data="dark grey wallet|wallet|billfold|black folded wallet|flat dark grey folded leather wallet" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

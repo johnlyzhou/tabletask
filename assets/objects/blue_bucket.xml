@@ -2,7 +2,7 @@
   <!-- blue_bucket, converted from the MolmoSpaces Objaverse library (uid 53e3310475974512b39dc46f3a3d7dd5; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_bucket" texturedir="../mesh/blue_bucket"/>
   <custom>
-    <text name="label" data="speckled bucket" />
+    <text name="label" data="speckled bucket|bucket|pail|blue speckled bucket|white and blue speckled bucket with wire handle" />
   </custom>
   <default>
     <default class="place">

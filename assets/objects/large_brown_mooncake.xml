@@ -1,7 +1,7 @@
 <mujoco model="large_brown_mooncake">
   <compiler angle="radian" meshdir="../mesh/large_brown_mooncake" texturedir="../mesh/large_brown_mooncake" />
   <custom>
-    <text name="label" data="large brown mooncake" />
+    <text name="label" data="large brown mooncake|mooncake|pastry|dark brown mooncake|large round dark brown mooncake" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

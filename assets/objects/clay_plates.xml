@@ -1,7 +1,7 @@
 <mujoco model="clay_plates">
   <compiler angle="radian" meshdir="../mesh/clay_plates" texturedir="../mesh/clay_plates" />
   <custom>
-    <text name="label" data="clay plate" />
+    <text name="label" data="clay plate|plate|dish|beige clay plate|round flat beige clay plate with rings" />
     <text name="tags" data="container" />
   </custom>
   <default>

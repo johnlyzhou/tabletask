@@ -1,7 +1,7 @@
 <mujoco model="dark_green_sandwich">
   <compiler angle="radian" meshdir="../mesh/dark_green_sandwich" texturedir="../mesh/dark_green_sandwich" />
   <custom>
-    <text name="label" data="dark green sandwich" />
+    <text name="label" data="dark green sandwich|sandwich|sandwich slice|layered sandwich wedge|small layered sandwich wedge with green filling" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

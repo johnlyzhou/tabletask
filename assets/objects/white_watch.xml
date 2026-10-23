@@ -1,7 +1,7 @@
 <mujoco model="white_watch">
   <compiler angle="radian" meshdir="../mesh/white_watch" texturedir="../mesh/white_watch" />
   <custom>
-    <text name="label" data="white watch" />
+    <text name="label" data="white watch|watch|wristwatch|white plastic watch|white plastic wristwatch with pinkish tint" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

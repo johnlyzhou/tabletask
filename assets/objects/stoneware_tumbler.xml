@@ -2,7 +2,7 @@
   <!-- stoneware_tumbler, converted from the MolmoSpaces Objaverse library (uid dde060cbc53a40e2ba7ca9353c21fe91; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/stoneware_tumbler" texturedir="../mesh/stoneware_tumbler"/>
   <custom>
-    <text name="label" data="stone cup" />
+    <text name="label" data="stone cup|cup|tumbler|grey stoneware cup|small grey speckled stoneware tumbler" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

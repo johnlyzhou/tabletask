@@ -2,7 +2,7 @@
   <!-- rainbow_plate, converted from the MolmoSpaces Objaverse library (uid e123c4c29606400fa1b7f03716c5aa48; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/rainbow_plate" texturedir="../mesh/rainbow_plate"/>
   <custom>
-    <text name="label" data="striped plate" />
+    <text name="label" data="striped plate|plate|dinner plate|rainbow rimmed plate|white plate with rainbow stripes on rim" />
     <text name="tags" data="container" />
   </custom>
   <default>

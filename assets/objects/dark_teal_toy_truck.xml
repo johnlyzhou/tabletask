@@ -1,7 +1,7 @@
 <mujoco model="dark_teal_toy_truck">
   <compiler angle="radian" meshdir="../mesh/dark_teal_toy_truck" texturedir="../mesh/dark_teal_toy_truck" />
   <custom>
-    <text name="label" data="dark teal toy truck" />
+    <text name="label" data="brown and teal toy truck|toy truck|bucket truck|brown cherry picker truck|brown toy bucket truck with teal lift basket" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

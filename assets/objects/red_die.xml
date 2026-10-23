@@ -2,7 +2,7 @@
   <!-- red_die, converted from the MolmoSpaces Objaverse library (uid 728f588069f1486188208e071dc9e847; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_die" texturedir="../mesh/red_die"/>
   <custom>
-    <text name="label" data="red die" />
+    <text name="label" data="red die|die|dice|red six-sided die|red six-sided die with white pips" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

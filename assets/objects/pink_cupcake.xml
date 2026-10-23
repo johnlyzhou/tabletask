@@ -2,7 +2,7 @@
   <!-- pink_cupcake, converted from the MolmoSpaces Objaverse library (uid 1e176d7d0c5d46c89efbbe483432d1c8; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/pink_cupcake" texturedir="../mesh/pink_cupcake"/>
   <custom>
-    <text name="label" data="white frosted cupcake" />
+    <text name="label" data="white frosted cupcake|cupcake|muffin|white frosted cupcake with pink|cupcake with white and pink swirl frosting" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

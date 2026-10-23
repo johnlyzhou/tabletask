@@ -1,7 +1,7 @@
 <mujoco model="blue_battery">
   <compiler angle="radian" meshdir="../mesh/blue_battery" texturedir="../mesh/blue_battery" />
   <custom>
-    <text name="label" data="blue battery" />
+    <text name="label" data="blue battery|battery|9v battery|small blue battery|small blue and silver 9v battery" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

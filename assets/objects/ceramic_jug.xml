@@ -1,7 +1,7 @@
 <mujoco model="ceramic_jug">
   <compiler angle="radian" meshdir="../mesh/ceramic_jug" texturedir="../mesh/ceramic_jug" />
   <custom>
-    <text name="label" data="ceramic jug" />
+    <text name="label" data="ceramic jug|jug|pitcher|white floral jug|white ceramic jug with flower pattern" />
   </custom>
   <default>
     <default class="place">

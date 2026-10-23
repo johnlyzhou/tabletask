@@ -1,7 +1,7 @@
 <mujoco model="flathead_screwdriver">
   <compiler angle="radian" meshdir="../mesh/flathead_screwdriver" texturedir="../mesh/flathead_screwdriver" />
   <custom>
-    <text name="label" data="flathead screwdriver" />
+    <text name="label" data="flathead screwdriver|screwdriver|flat screwdriver|brown-handled screwdriver|flathead screwdriver with brown ridged handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

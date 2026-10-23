@@ -1,7 +1,7 @@
 <mujoco model="small_dark_orange_apple">
   <compiler angle="radian" meshdir="../mesh/small_dark_orange_apple" texturedir="../mesh/small_dark_orange_apple" />
   <custom>
-    <text name="label" data="small dark orange apple" />
+    <text name="label" data="small dark orange apple|apple|fruit|dark red apple|small round dark red-orange apple" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

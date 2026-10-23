@@ -1,7 +1,7 @@
 <mujoco model="long_yellow_medicine_bottle">
   <compiler angle="radian" meshdir="../mesh/long_yellow_medicine_bottle" texturedir="../mesh/long_yellow_medicine_bottle" />
   <custom>
-    <text name="label" data="long yellow medicine bottle" />
+    <text name="label" data="long yellow medicine bottle|medicine bottle|pill bottle|yellow pill bottle|tall clear bottle of yellow capsules with white cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

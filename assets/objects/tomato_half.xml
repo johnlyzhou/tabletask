@@ -1,7 +1,7 @@
 <mujoco model="tomato_half">
   <compiler angle="radian" meshdir="../mesh/tomato_half" texturedir="../mesh/tomato_half" />
   <custom>
-    <text name="label" data="tomato half" />
+    <text name="label" data="tomato half|tomato|halved tomato|cut red tomato|halved red tomato showing flesh" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

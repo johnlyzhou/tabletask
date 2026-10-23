@@ -1,7 +1,7 @@
 <mujoco model="brown_lipstick">
   <compiler angle="radian" meshdir="../mesh/brown_lipstick" texturedir="../mesh/brown_lipstick" />
   <custom>
-    <text name="label" data="brown lipstick" />
+    <text name="label" data="brown lipstick|lipstick|lip balm|small brown lipstick|small brown lipstick tube with cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

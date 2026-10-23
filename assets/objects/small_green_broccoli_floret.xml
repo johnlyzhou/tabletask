@@ -1,7 +1,7 @@
 <mujoco model="small_green_broccoli_floret">
   <compiler angle="radian" meshdir="../mesh/small_green_broccoli_floret" texturedir="../mesh/small_green_broccoli_floret" />
   <custom>
-    <text name="label" data="small green broccoli floret" />
+    <text name="label" data="small green broccoli floret|broccoli|broccoli floret|green broccoli piece|small green broccoli floret with stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

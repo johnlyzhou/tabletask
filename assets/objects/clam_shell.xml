@@ -2,7 +2,7 @@
   <!-- clam_shell, converted from the MolmoSpaces Objaverse library (uid 021dabd59f9a4415bf580ae0adeebcbe; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/clam_shell" texturedir="../mesh/clam_shell"/>
   <custom>
-    <text name="label" data="white seashell" />
+    <text name="label" data="white seashell|seashell|clam shell|white clam shell|large ridged white clam shell" />
   </custom>
   <default>
     <default class="place">

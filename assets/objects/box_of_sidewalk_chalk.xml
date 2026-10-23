@@ -1,7 +1,7 @@
 <mujoco model="box_of_sidewalk_chalk">
   <compiler angle="radian" meshdir="../mesh/box_of_sidewalk_chalk" texturedir="../mesh/box_of_sidewalk_chalk" />
   <custom>
-    <text name="label" data="box of sidewalk chalk" />
+    <text name="label" data="box of sidewalk chalk|chalk box|sidewalk chalk|green chalk box|green box of colorful sidewalk chalk" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="long_white_pen">
   <compiler angle="radian" meshdir="../mesh/long_white_pen" texturedir="../mesh/long_white_pen" />
   <custom>
-    <text name="label" data="long white pen" />
+    <text name="label" data="long white pen|pen|marker pen|white blue-capped pen|long white pen with a blue cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="toy_rhino">
   <compiler angle="radian" meshdir="../mesh/toy_rhino" texturedir="../mesh/toy_rhino" />
   <custom>
-    <text name="label" data="toy rhino" />
+    <text name="label" data="toy rhino|rhino figure|rhinoceros|dark grey rhino toy|dark grey plastic rhinoceros animal figurine" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

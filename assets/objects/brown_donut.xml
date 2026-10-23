@@ -1,7 +1,7 @@
 <mujoco model="brown_donut">
   <compiler angle="radian" meshdir="../mesh/brown_donut" texturedir="../mesh/brown_donut" />
   <custom>
-    <text name="label" data="brown donut" />
+    <text name="label" data="brown donut|donut|doughnut|chocolate sprinkle donut|brown chocolate donut with colorful sprinkles" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

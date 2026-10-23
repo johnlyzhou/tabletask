@@ -1,7 +1,7 @@
 <mujoco model="marker">
   <compiler angle="radian" meshdir="../mesh/marker" texturedir="../mesh/marker" />
   <custom>
-    <text name="label" data="black marker" />
+    <text name="label" data="black marker|marker|dry erase marker|expo whiteboard marker|black and white dry erase marker with cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="beige_clock">
   <compiler angle="radian" meshdir="../mesh/beige_clock" texturedir="../mesh/beige_clock" />
   <custom>
-    <text name="label" data="beige clock" />
+    <text name="label" data="beige clock|clock|small clock|beige alarm clock|beige alarm clock seen from its dark back" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

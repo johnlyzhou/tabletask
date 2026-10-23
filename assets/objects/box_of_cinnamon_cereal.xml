@@ -1,7 +1,7 @@
 <mujoco model="box_of_cinnamon_cereal">
   <compiler angle="radian" meshdir="../mesh/box_of_cinnamon_cereal" texturedir="../mesh/box_of_cinnamon_cereal" />
   <custom>
-    <text name="label" data="box of cinnamon cereal" />
+    <text name="label" data="box of cinnamon cereal|cereal box|cereal|small cereal box|small white box of cinnamon cereal" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

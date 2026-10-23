@@ -1,7 +1,7 @@
 <mujoco model="long_dark_orange_chicken_drumstick">
   <compiler angle="radian" meshdir="../mesh/long_dark_orange_chicken_drumstick" texturedir="../mesh/long_dark_orange_chicken_drumstick" />
   <custom>
-    <text name="label" data="long dark orange chicken drumstick" />
+    <text name="label" data="long dark orange chicken drumstick|chicken drumstick|drumstick|roasted chicken leg|glazed dark orange roasted chicken drumstick" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

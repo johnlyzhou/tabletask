@@ -1,7 +1,7 @@
 <mujoco model="beige_fiber_cup">
   <compiler angle="radian" meshdir="../mesh/beige_fiber_cup" texturedir="../mesh/beige_fiber_cup" />
   <custom>
-    <text name="label" data="beige fiber cup" />
+    <text name="label" data="beige fiber cup|cup|bowl cup|beige bamboo fiber cup|small tapered beige bamboo fiber cup" />
   </custom>
   <default>
     <default class="place">

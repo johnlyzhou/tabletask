@@ -1,7 +1,7 @@
 <mujoco model="yellow_ballpoint_pen">
   <compiler angle="radian" meshdir="../mesh/yellow_ballpoint_pen" texturedir="../mesh/yellow_ballpoint_pen" />
   <custom>
-    <text name="label" data="yellow ballpoint pen" />
+    <text name="label" data="yellow ballpoint pen|pen|ballpoint|yellow plastic pen|thin yellow ballpoint pen with red tip" />
   </custom>
   <default>
     <default class="place">

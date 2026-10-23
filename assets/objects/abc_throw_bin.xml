@@ -1,7 +1,7 @@
 <mujoco model="abc_throw_bin">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="yellow tub" />
+    <text name="label" data="yellow tub|tub|bucket|yellow slatted tub|round yellow slatted tub with open top" />
   </custom>
   <default>
     <default class="place">

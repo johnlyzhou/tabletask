@@ -1,7 +1,7 @@
 <mujoco model="beige_cup">
   <compiler angle="radian" meshdir="../mesh/beige_cup" texturedir="../mesh/beige_cup" />
   <custom>
-    <text name="label" data="beige cup" />
+    <text name="label" data="beige cup|cup|mug|brownish beige cup|small brownish beige plastic cup with handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

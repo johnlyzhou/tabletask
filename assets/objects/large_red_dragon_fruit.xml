@@ -1,7 +1,7 @@
 <mujoco model="large_red_dragon_fruit">
   <compiler angle="radian" meshdir="../mesh/large_red_dragon_fruit" texturedir="../mesh/large_red_dragon_fruit" />
   <custom>
-    <text name="label" data="large red dragon fruit" />
+    <text name="label" data="large red dragon fruit|dragon fruit|pitaya|halved dragon fruit|cut red dragon fruit with white seeded flesh" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

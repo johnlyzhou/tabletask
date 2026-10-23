@@ -1,7 +1,7 @@
 <mujoco model="marbled_egg">
   <compiler angle="radian" meshdir="../mesh/marbled_egg" texturedir="../mesh/marbled_egg" />
   <custom>
-    <text name="label" data="marbled egg" />
+    <text name="label" data="marbled egg|egg|tea egg|green-brown speckled egg|large green and brown marbled egg" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

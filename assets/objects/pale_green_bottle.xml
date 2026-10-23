@@ -1,7 +1,7 @@
 <mujoco model="pale_green_bottle">
   <compiler angle="radian" meshdir="../mesh/pale_green_bottle" texturedir="../mesh/pale_green_bottle" />
   <custom>
-    <text name="label" data="pale green bottle" />
+    <text name="label" data="pale green bottle|bottle|small bottle|pale green glass bottle|small pale green bottle with a brown cap" />
   </custom>
   <default>
     <default class="place">

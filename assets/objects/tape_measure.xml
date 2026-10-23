@@ -1,7 +1,7 @@
 <mujoco model="tape_measure">
   <compiler angle="radian" meshdir="../mesh/tape_measure" texturedir="../mesh/tape_measure" />
   <custom>
-    <text name="label" data="tape measure" />
+    <text name="label" data="tape measure|measuring tape|tape|black tape measure|black and yellow 3 meter tape measure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

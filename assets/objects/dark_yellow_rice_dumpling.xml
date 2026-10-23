@@ -1,7 +1,7 @@
 <mujoco model="dark_yellow_rice_dumpling">
   <compiler angle="radian" meshdir="../mesh/dark_yellow_rice_dumpling" texturedir="../mesh/dark_yellow_rice_dumpling" />
   <custom>
-    <text name="label" data="dark yellow rice dumpling" />
+    <text name="label" data="dark yellow rice dumpling|rice dumpling|zongzi|pyramid rice dumpling|pyramid rice dumpling wrapped in dark leaves" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

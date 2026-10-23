@@ -1,7 +1,7 @@
 <mujoco model="brown_lotus_root">
   <compiler angle="radian" meshdir="../mesh/brown_lotus_root" texturedir="../mesh/brown_lotus_root" />
   <custom>
-    <text name="label" data="brown lotus root" />
+    <text name="label" data="brown lotus root|lotus root|root vegetable|sliced lotus root|small brown lotus root slice with holes" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

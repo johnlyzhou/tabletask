@@ -1,7 +1,7 @@
 <mujoco model="abc_drawers">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="colorful drawers" />
+    <text name="label" data="colorful drawers|drawers|drawer unit|small colorful drawers|yellow drawer unit with blue purple green drawers" />
   </custom>
   <default>
     <default class="place">

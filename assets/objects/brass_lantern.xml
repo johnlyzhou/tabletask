@@ -1,7 +1,7 @@
 <mujoco model="brass_lantern">
   <compiler angle="radian" meshdir="../mesh/brass_lantern" texturedir="../mesh/brass_lantern" />
   <custom>
-    <text name="label" data="brass lantern" />
+    <text name="label" data="brass lantern|lantern|lamp|gold brass lantern|hexagonal brass lantern with dark panels" />
   </custom>
   <default>
     <default class="place">

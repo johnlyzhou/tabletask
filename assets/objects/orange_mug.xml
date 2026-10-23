@@ -2,7 +2,7 @@
   <!-- orange_mug, converted from the MolmoSpaces Objaverse library (uid 1522d7b6d8a14f4f8c19f996320fdc09; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/orange_mug" texturedir="../mesh/orange_mug"/>
   <custom>
-    <text name="label" data="orange mug" />
+    <text name="label" data="orange mug|mug|cup|yellow-orange mug|yellow-orange mug with a smiley face" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

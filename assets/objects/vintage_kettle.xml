@@ -1,7 +1,7 @@
 <mujoco model="vintage_kettle">
   <compiler angle="radian" meshdir="../mesh/vintage_kettle" texturedir="../mesh/vintage_kettle" />
   <custom>
-    <text name="label" data="vintage kettle" />
+    <text name="label" data="vintage kettle|kettle|teakettle|old metal kettle|worn brass stovetop kettle with top handle" />
   </custom>
   <default>
     <default class="place">

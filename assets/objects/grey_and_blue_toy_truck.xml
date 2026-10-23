@@ -1,7 +1,7 @@
 <mujoco model="grey_and_blue_toy_truck">
   <compiler angle="radian" meshdir="../mesh/grey_and_blue_toy_truck" texturedir="../mesh/grey_and_blue_toy_truck" />
   <custom>
-    <text name="label" data="grey and blue toy truck" />
+    <text name="label" data="grey and blue toy truck|toy truck|garbage truck|blue toy garbage truck|blue and grey toy garbage truck" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="white_cream_jar">
   <compiler angle="radian" meshdir="../mesh/white_cream_jar" texturedir="../mesh/white_cream_jar" />
   <custom>
-    <text name="label" data="white cream jar" />
+    <text name="label" data="pale green cream jar|jar|cosmetic jar|small green cream jar|small round pale green cosmetic cream jar" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

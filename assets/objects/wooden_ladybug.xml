@@ -1,7 +1,7 @@
 <mujoco model="wooden_ladybug">
   <compiler angle="radian" meshdir="../mesh/wooden_ladybug" texturedir="../mesh/wooden_ladybug" />
   <custom>
-    <text name="label" data="wooden ladybug" />
+    <text name="label" data="wooden ladybug|ladybug|ladybug toy|red wooden ladybug|red and natural wood ladybug toy" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

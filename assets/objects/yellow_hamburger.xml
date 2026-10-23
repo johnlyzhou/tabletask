@@ -1,7 +1,7 @@
 <mujoco model="yellow_hamburger">
   <compiler angle="radian" meshdir="../mesh/yellow_hamburger" texturedir="../mesh/yellow_hamburger" />
   <custom>
-    <text name="label" data="yellow hamburger" />
+    <text name="label" data="yellow hamburger|hamburger|burger|small toasted burger|small hamburger with toasted bun" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

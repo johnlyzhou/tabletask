@@ -1,7 +1,7 @@
 <mujoco model="green_rimmed_plate">
   <compiler angle="radian" meshdir="../mesh/green_rimmed_plate" texturedir="../mesh/green_rimmed_plate" />
   <custom>
-    <text name="label" data="green plate" />
+    <text name="label" data="green plate|plate|dinner plate|pale green rimmed plate|pale green round plate with patterned rim" />
     <text name="tags" data="container" />
   </custom>
   <default>

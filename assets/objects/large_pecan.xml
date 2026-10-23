@@ -1,7 +1,7 @@
 <mujoco model="large_pecan">
   <compiler angle="radian" meshdir="../mesh/large_pecan" texturedir="../mesh/large_pecan" />
   <custom>
-    <text name="label" data="large pecan" />
+    <text name="label" data="large pecan|pecan|nut|large brown pecan|large shiny brown pecan nut in shell" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

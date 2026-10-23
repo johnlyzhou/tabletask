@@ -1,7 +1,7 @@
 <mujoco model="abc_nuts_bin">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="teal bin" />
+    <text name="label" data="teal bin|bin|storage bin|teal plastic bin|open front teal plastic storage bin" />
     <text name="tags" data="container" />
   </custom>
   <default>

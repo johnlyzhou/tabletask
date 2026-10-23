@@ -1,7 +1,7 @@
 <mujoco model="small_green_zucchini">
   <compiler angle="radian" meshdir="../mesh/small_green_zucchini" texturedir="../mesh/small_green_zucchini" />
   <custom>
-    <text name="label" data="small green zucchini" />
+    <text name="label" data="small green zucchini|zucchini|courgette|cut green zucchini|small light green zucchini piece with cut end" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

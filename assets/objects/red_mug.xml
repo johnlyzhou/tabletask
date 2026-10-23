@@ -1,7 +1,7 @@
 <mujoco model="red_mug">
   <compiler angle="radian" meshdir="../mesh/red_mug" texturedir="../mesh/red_mug" />
   <custom>
-    <text name="label" data="dark red cup" />
+    <text name="label" data="dark red cup|cup|mug|dark red ceramic cup|small dark red ribbed ceramic cup" />
   </custom>
   <default>
     <default class="place">

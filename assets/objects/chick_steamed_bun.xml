@@ -1,7 +1,7 @@
 <mujoco model="chick_steamed_bun">
   <compiler angle="radian" meshdir="../mesh/chick_steamed_bun" texturedir="../mesh/chick_steamed_bun" />
   <custom>
-    <text name="label" data="chick steamed bun" />
+    <text name="label" data="chick steamed bun|steamed bun|bun|chick shaped bun|white chick shaped steamed bun" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

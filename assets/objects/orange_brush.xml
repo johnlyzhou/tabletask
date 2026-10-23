@@ -1,7 +1,7 @@
 <mujoco model="orange_brush">
   <compiler angle="radian" meshdir="../mesh/orange_brush" texturedir="../mesh/orange_brush" />
   <custom>
-    <text name="label" data="orange brush" />
+    <text name="label" data="orange brush|brush|pastry brush|orange pastry brush|small orange handled pastry brush with bristles" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

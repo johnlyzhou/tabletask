@@ -1,7 +1,7 @@
 <mujoco model="toy_rescue_boat">
   <compiler angle="radian" meshdir="../mesh/toy_rescue_boat" texturedir="../mesh/toy_rescue_boat" />
   <custom>
-    <text name="label" data="toy rescue boat" />
+    <text name="label" data="toy rescue boat|toy boat|rescue raft|red toy boat|red inflatable toy rescue boat with orange figure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

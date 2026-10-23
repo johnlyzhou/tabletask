@@ -1,7 +1,7 @@
 <mujoco model="teal_toy_helicopter">
   <compiler angle="radian" meshdir="../mesh/teal_toy_helicopter" texturedir="../mesh/teal_toy_helicopter" />
   <custom>
-    <text name="label" data="teal toy helicopter" />
+    <text name="label" data="teal toy helicopter|toy helicopter|helicopter|green toy helicopter|green toy helicopter with black rotor" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

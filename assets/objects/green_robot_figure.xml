@@ -1,7 +1,7 @@
 <mujoco model="green_robot_figure">
   <compiler angle="radian" meshdir="../mesh/green_robot_figure" texturedir="../mesh/green_robot_figure" />
   <custom>
-    <text name="label" data="green robot figure" />
+    <text name="label" data="green robot figure|robot figure|android figure|green android robot|green android robot figure with antennae" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

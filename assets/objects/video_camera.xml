@@ -1,7 +1,7 @@
 <mujoco model="video_camera">
   <compiler angle="radian" meshdir="../mesh/video_camera" texturedir="../mesh/video_camera" />
   <custom>
-    <text name="label" data="video camera" />
+    <text name="label" data="video camera|camera|movie camera|vintage black video camera|old black film video camera with three lenses" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

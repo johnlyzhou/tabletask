@@ -1,7 +1,7 @@
 <mujoco model="beige_peanut">
   <compiler angle="radian" meshdir="../mesh/beige_peanut" texturedir="../mesh/beige_peanut" />
   <custom>
-    <text name="label" data="beige peanut" />
+    <text name="label" data="beige peanut|peanut|nut|small beige peanut|small beige peanut in its shell" />
   </custom>
   <default>
     <default class="place">

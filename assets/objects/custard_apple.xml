@@ -1,7 +1,7 @@
 <mujoco model="custard_apple">
   <compiler angle="radian" meshdir="../mesh/custard_apple" texturedir="../mesh/custard_apple" />
   <custom>
-    <text name="label" data="custard apple" />
+    <text name="label" data="custard apple|fruit|sugar apple|green custard apple|round bumpy green custard apple" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

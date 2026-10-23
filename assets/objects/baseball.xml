@@ -2,7 +2,7 @@
   <!-- baseball, converted from the MolmoSpaces Objaverse library (uid 4799dc6cb5f046bd88609381020feab1; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/baseball" texturedir="../mesh/baseball"/>
   <custom>
-    <text name="label" data="baseball" />
+    <text name="label" data="baseball|ball|softball|white baseball|white leather baseball with red stitching" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

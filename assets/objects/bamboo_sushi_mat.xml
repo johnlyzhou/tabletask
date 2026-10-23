@@ -1,7 +1,7 @@
 <mujoco model="bamboo_sushi_mat">
   <compiler angle="radian" meshdir="../mesh/bamboo_sushi_mat" texturedir="../mesh/bamboo_sushi_mat" />
   <custom>
-    <text name="label" data="bamboo sushi mat" />
+    <text name="label" data="bamboo sushi mat|sushi mat|rolling mat|bamboo rolling mat|flat light bamboo mat for rolling sushi" />
   </custom>
   <default>
     <default class="place">

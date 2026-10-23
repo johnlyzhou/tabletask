@@ -1,7 +1,7 @@
 <mujoco model="small_brown_shrimp">
   <compiler angle="radian" meshdir="../mesh/small_brown_shrimp" texturedir="../mesh/small_brown_shrimp" />
   <custom>
-    <text name="label" data="small brown shrimp" />
+    <text name="label" data="small brown shrimp|shrimp|prawn|small cooked shrimp|small curled orange-brown cooked shrimp" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

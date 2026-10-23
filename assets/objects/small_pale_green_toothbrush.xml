@@ -1,7 +1,7 @@
 <mujoco model="small_pale_green_toothbrush">
   <compiler angle="radian" meshdir="../mesh/small_pale_green_toothbrush" texturedir="../mesh/small_pale_green_toothbrush" />
   <custom>
-    <text name="label" data="small pale green toothbrush" />
+    <text name="label" data="small pale green toothbrush|toothbrush|brush|pale green toothbrush|thin pale green plastic toothbrush" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

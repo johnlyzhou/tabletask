@@ -1,7 +1,7 @@
 <mujoco model="abc_nut">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="nut" />
+    <text name="label" data="nut|hex nut|nut fastener|large white nut|large white plastic hexagonal threaded nut" />
   </custom>
   <default>
     <default class="place">

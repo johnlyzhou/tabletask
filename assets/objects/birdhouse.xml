@@ -1,7 +1,7 @@
 <mujoco model="birdhouse">
   <compiler angle="radian" meshdir="../mesh/birdhouse" texturedir="../mesh/birdhouse" />
   <custom>
-    <text name="label" data="birdhouse" />
+    <text name="label" data="birdhouse|bird house|nest box|blue roof birdhouse|yellow wooden birdhouse with a blue roof" />
   </custom>
   <default>
     <default class="place">

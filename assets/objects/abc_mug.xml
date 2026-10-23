@@ -1,7 +1,7 @@
 <mujoco model="abc_mug">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="teal mug" />
+    <text name="label" data="teal mug|mug|cup|teal ceramic mug|teal ceramic coffee mug with a handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

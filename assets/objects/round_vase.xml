@@ -1,7 +1,7 @@
 <mujoco model="round_vase">
   <compiler angle="radian" meshdir="../mesh/round_vase" texturedir="../mesh/round_vase" />
   <custom>
-    <text name="label" data="round ceramic vase" />
+    <text name="label" data="round ceramic vase|vase|flower vase|white ceramic vase|small white ceramic vase with narrow neck" />
   </custom>
   <default>
     <default class="place">

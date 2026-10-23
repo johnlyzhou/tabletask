@@ -1,7 +1,7 @@
 <mujoco model="stacking_bear_toy">
   <compiler angle="radian" meshdir="../mesh/stacking_bear_toy" texturedir="../mesh/stacking_bear_toy" />
   <custom>
-    <text name="label" data="stacking bear toy" />
+    <text name="label" data="stacking bear toy|stacking toy|bear toy|rainbow stacking bear|bear stacking toy with rainbow rings" />
   </custom>
   <default>
     <default class="place">

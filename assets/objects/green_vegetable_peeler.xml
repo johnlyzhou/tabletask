@@ -1,7 +1,7 @@
 <mujoco model="green_vegetable_peeler">
   <compiler angle="radian" meshdir="../mesh/green_vegetable_peeler" texturedir="../mesh/green_vegetable_peeler" />
   <custom>
-    <text name="label" data="green vegetable peeler" />
+    <text name="label" data="green vegetable peeler|peeler|potato peeler|green plastic peeler|green plastic vegetable peeler with long handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="round_chocolate">
   <compiler angle="radian" meshdir="../mesh/round_chocolate" texturedir="../mesh/round_chocolate" />
   <custom>
-    <text name="label" data="round chocolate" />
+    <text name="label" data="round chocolate|chocolate|chocolate truffle|dark brown chocolate ball|round glossy dark brown chocolate truffle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="yellow_and_dark_yellow_potato">
   <compiler angle="radian" meshdir="../mesh/yellow_and_dark_yellow_potato" texturedir="../mesh/yellow_and_dark_yellow_potato" />
   <custom>
-    <text name="label" data="yellow and dark yellow potato" />
+    <text name="label" data="yellow and dark yellow potato|potato|spud|brownish potato|oval brownish yellow potato with dark patches" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

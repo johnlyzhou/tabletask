@@ -1,7 +1,7 @@
 <mujoco model="tall_toy_cactus">
   <compiler angle="radian" meshdir="../mesh/tall_toy_cactus" texturedir="../mesh/tall_toy_cactus" />
   <custom>
-    <text name="label" data="tall toy cactus" />
+    <text name="label" data="tall toy cactus|toy cactus|cactus|green toy cactus|tall green toy cactus with red flowers" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

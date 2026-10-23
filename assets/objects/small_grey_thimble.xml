@@ -1,7 +1,7 @@
 <mujoco model="small_grey_thimble">
   <compiler angle="radian" meshdir="../mesh/small_grey_thimble" texturedir="../mesh/small_grey_thimble" />
   <custom>
-    <text name="label" data="small grey thimble" />
+    <text name="label" data="small grey thimble|thimble|sewing thimble|grey metal thimble|tiny grey textured sewing thimble" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

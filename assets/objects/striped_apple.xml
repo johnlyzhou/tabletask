@@ -1,7 +1,7 @@
 <mujoco model="striped_apple">
   <compiler angle="radian" meshdir="../mesh/striped_apple" texturedir="../mesh/striped_apple" />
   <custom>
-    <text name="label" data="striped apple" />
+    <text name="label" data="striped apple|apple|red apple|red striped apple|large shiny red striped apple" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

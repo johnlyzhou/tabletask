@@ -1,7 +1,7 @@
 <mujoco model="spray_cleaner_bottle">
   <compiler angle="radian" meshdir="../mesh/spray_cleaner_bottle" texturedir="../mesh/spray_cleaner_bottle" />
   <custom>
-    <text name="label" data="spray cleaner bottle" />
+    <text name="label" data="spray cleaner bottle|bottle|cleaner bottle|white cleaner bottle|white plastic cleaner bottle with yellow cap" />
   </custom>
   <default>
     <default class="place">

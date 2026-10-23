@@ -1,7 +1,7 @@
 <mujoco model="clamp">
   <compiler angle="radian" meshdir="../mesh/clamp" texturedir="../mesh/clamp" />
   <custom>
-    <text name="label" data="small clamp" />
+    <text name="label" data="small clamp|clamp|spring clamp|black spring clamp|small black and red spring clamp" />
   </custom>
   <default>
     <default class="place">

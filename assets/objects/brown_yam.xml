@@ -1,7 +1,7 @@
 <mujoco model="brown_yam">
   <compiler angle="radian" meshdir="../mesh/brown_yam" texturedir="../mesh/brown_yam" />
   <custom>
-    <text name="label" data="brown yam" />
+    <text name="label" data="brown yam|yam|root vegetable|dark brown yam|short dark brown yam tuber" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

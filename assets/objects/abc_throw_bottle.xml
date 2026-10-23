@@ -1,7 +1,7 @@
 <mujoco model="abc_throw_bottle">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="glass bottle" />
+    <text name="label" data="glass bottle|bottle|clear bottle|clear glass bottle|clear glass bottle with a green cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="black_cream_puff">
   <compiler angle="radian" meshdir="../mesh/black_cream_puff" texturedir="../mesh/black_cream_puff" />
   <custom>
-    <text name="label" data="black cream puff" />
+    <text name="label" data="black cream puff|cream puff|pastry|dark cream puff|round dark brown crusty cream puff" />
   </custom>
   <default>
     <default class="place">

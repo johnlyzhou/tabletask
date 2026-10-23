@@ -1,7 +1,7 @@
 <mujoco model="toy_zebra">
   <compiler angle="radian" meshdir="../mesh/toy_zebra" texturedir="../mesh/toy_zebra" />
   <custom>
-    <text name="label" data="toy zebra" />
+    <text name="label" data="toy zebra|zebra figure|zebra|striped zebra figurine|black and white striped plastic zebra figure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

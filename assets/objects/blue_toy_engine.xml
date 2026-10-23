@@ -1,7 +1,7 @@
 <mujoco model="blue_toy_engine">
   <compiler angle="radian" meshdir="../mesh/blue_toy_engine" texturedir="../mesh/blue_toy_engine" />
   <custom>
-    <text name="label" data="blue toy engine" />
+    <text name="label" data="blue toy engine|toy train|toy locomotive|blue toy locomotive|blue toy tank engine with number one" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

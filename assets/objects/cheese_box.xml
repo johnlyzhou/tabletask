@@ -1,7 +1,7 @@
 <mujoco model="cheese_box">
   <compiler angle="radian" meshdir="../mesh/cheese_box" texturedir="../mesh/cheese_box" />
   <custom>
-    <text name="label" data="wooden cheese box" />
+    <text name="label" data="wooden cheese box|box|cheese box|wooden box|light wooden cheese box with red print" />
   </custom>
   <default>
     <default class="place">

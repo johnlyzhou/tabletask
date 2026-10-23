@@ -1,7 +1,7 @@
 <mujoco model="large_green_watch">
   <compiler angle="radian" meshdir="../mesh/large_green_watch" texturedir="../mesh/large_green_watch" />
   <custom>
-    <text name="label" data="large green watch" />
+    <text name="label" data="large green watch|watch|fitness band|teal rubber watch|teal blue-green rubber wristband watch strap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="long_orange_carrot">
   <compiler angle="radian" meshdir="../mesh/long_orange_carrot" texturedir="../mesh/long_orange_carrot" />
   <custom>
-    <text name="label" data="long orange carrot" />
+    <text name="label" data="long orange carrot|carrot|root vegetable|short orange carrot|short thick bright orange carrot piece" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="pink_pumpkin_ornament">
   <compiler angle="radian" meshdir="../mesh/pink_pumpkin_ornament" texturedir="../mesh/pink_pumpkin_ornament" />
   <custom>
-    <text name="label" data="pink pumpkin ornament" />
+    <text name="label" data="pink pumpkin ornament|pumpkin ornament|pumpkin|pale pink pumpkin|pale pink ceramic pumpkin ornament with stem" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

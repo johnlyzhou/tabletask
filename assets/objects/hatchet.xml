@@ -1,7 +1,7 @@
 <mujoco model="hatchet">
   <compiler angle="radian" meshdir="../mesh/hatchet" texturedir="../mesh/hatchet" />
   <custom>
-    <text name="label" data="hatchet" />
+    <text name="label" data="hatchet|axe|hand axe|small hatchet|hatchet with orange and black handle" />
   </custom>
   <default>
     <default class="place">

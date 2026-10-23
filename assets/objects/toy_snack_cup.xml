@@ -1,7 +1,7 @@
 <mujoco model="toy_snack_cup">
   <compiler angle="radian" meshdir="../mesh/toy_snack_cup" texturedir="../mesh/toy_snack_cup" />
   <custom>
-    <text name="label" data="toy snack cup" />
+    <text name="label" data="toy snack cup|snack cup|sippy snack cup|blue and green snack cup|blue and green toddler snack cup with soft lid" />
   </custom>
   <default>
     <default class="place">

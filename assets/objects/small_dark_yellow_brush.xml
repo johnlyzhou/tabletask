@@ -1,7 +1,7 @@
 <mujoco model="small_dark_yellow_brush">
   <compiler angle="radian" meshdir="../mesh/small_dark_yellow_brush" texturedir="../mesh/small_dark_yellow_brush" />
   <custom>
-    <text name="label" data="small dark yellow brush" />
+    <text name="label" data="small dark yellow brush|brush|paintbrush|yellow-handled paintbrush|small paintbrush with dark yellow handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

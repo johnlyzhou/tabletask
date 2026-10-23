@@ -2,7 +2,7 @@
   <!-- yellow_screwdriver, converted from the MolmoSpaces Objaverse library (uid 0aef1734b2b04449b4ccf0c9affc8b91; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/yellow_screwdriver" texturedir="../mesh/yellow_screwdriver"/>
   <custom>
-    <text name="label" data="yellow screwdriver" />
+    <text name="label" data="yellow screwdriver|screwdriver|flathead|yellow-handled screwdriver|screwdriver with yellow and black handle" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

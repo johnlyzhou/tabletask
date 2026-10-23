@@ -1,7 +1,7 @@
 <mujoco model="grey_fork">
   <compiler angle="radian" meshdir="../mesh/grey_fork" texturedir="../mesh/grey_fork" />
   <custom>
-    <text name="label" data="grey fork" />
+    <text name="label" data="grey fork|fork|plastic fork|pink and grey fork|long pink and grey plastic fork" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="oat_bar">
   <compiler angle="radian" meshdir="../mesh/oat_bar" texturedir="../mesh/oat_bar" />
   <custom>
-    <text name="label" data="oat bar" />
+    <text name="label" data="oat bar|granola bar|cereal bar|small oat bar|small rectangular golden oat granola bar" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

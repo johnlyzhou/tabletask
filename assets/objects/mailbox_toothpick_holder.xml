@@ -1,7 +1,7 @@
 <mujoco model="mailbox_toothpick_holder">
   <compiler angle="radian" meshdir="../mesh/mailbox_toothpick_holder" texturedir="../mesh/mailbox_toothpick_holder" />
   <custom>
-    <text name="label" data="mailbox toothpick holder" />
+    <text name="label" data="mailbox toothpick holder|toothpick holder|mini mailbox|red mailbox holder|small red mailbox shaped toothpick holder" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

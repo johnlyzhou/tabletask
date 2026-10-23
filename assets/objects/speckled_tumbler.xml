@@ -2,7 +2,7 @@
   <!-- speckled_tumbler, converted from the MolmoSpaces Objaverse library (uid b990394563af493fbe5a0f3515a6df73; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/speckled_tumbler" texturedir="../mesh/speckled_tumbler"/>
   <custom>
-    <text name="label" data="blue tumbler" />
+    <text name="label" data="blue tumbler|tumbler|cup|blue printed tumbler|blue ceramic tumbler with white text" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

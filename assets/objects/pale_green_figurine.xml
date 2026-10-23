@@ -1,7 +1,7 @@
 <mujoco model="pale_green_figurine">
   <compiler angle="radian" meshdir="../mesh/pale_green_figurine" texturedir="../mesh/pale_green_figurine" />
   <custom>
-    <text name="label" data="pale green figurine" />
+    <text name="label" data="pale green figurine|figurine|statuette|small ceramic figurine|small pale ceramic figurine on a green base" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

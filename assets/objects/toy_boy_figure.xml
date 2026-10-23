@@ -1,7 +1,7 @@
 <mujoco model="toy_boy_figure">
   <compiler angle="radian" meshdir="../mesh/toy_boy_figure" texturedir="../mesh/toy_boy_figure" />
   <custom>
-    <text name="label" data="toy boy figure" />
+    <text name="label" data="toy boy figure|figurine|boy figure|boy in raincoat|toy boy figure in yellow raincoat and jeans" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

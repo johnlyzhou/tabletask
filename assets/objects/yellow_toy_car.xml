@@ -1,7 +1,7 @@
 <mujoco model="yellow_toy_car">
   <compiler angle="radian" meshdir="../mesh/yellow_toy_car" texturedir="../mesh/yellow_toy_car" />
   <custom>
-    <text name="label" data="yellow toy car" />
+    <text name="label" data="yellow toy car|toy car|toy van|khaki toy van|small khaki yellow die-cast toy van" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

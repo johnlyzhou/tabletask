@@ -1,7 +1,7 @@
 <mujoco model="pale_green_wallet">
   <compiler angle="radian" meshdir="../mesh/pale_green_wallet" texturedir="../mesh/pale_green_wallet" />
   <custom>
-    <text name="label" data="pale green wallet" />
+    <text name="label" data="pale green wallet|wallet|purse|small pale green wallet|small pale green wallet with a printed pattern" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

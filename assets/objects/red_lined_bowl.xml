@@ -2,7 +2,7 @@
   <!-- red_lined_bowl, converted from the MolmoSpaces Objaverse library (uid 0abdb5517f7843fbacb488468cfff1b7; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_lined_bowl" texturedir="../mesh/red_lined_bowl"/>
   <custom>
-    <text name="label" data="patterned bowl" />
+    <text name="label" data="patterned bowl|bowl|dish|red lined bowl|white bowl with red inside and zigzag pattern" />
     <text name="tags" data="container" />
   </custom>
   <default>

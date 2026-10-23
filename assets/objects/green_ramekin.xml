@@ -1,7 +1,7 @@
 <mujoco model="green_ramekin">
   <compiler angle="radian" meshdir="../mesh/green_ramekin" texturedir="../mesh/green_ramekin" />
   <custom>
-    <text name="label" data="green ramekin" />
+    <text name="label" data="green ramekin|ramekin|small dish|green ceramic ramekin|small green fluted ceramic ramekin dish" />
   </custom>
   <default>
     <default class="place">

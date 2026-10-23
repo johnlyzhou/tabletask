@@ -1,7 +1,7 @@
 <mujoco model="grey_and_white_plug_adapter">
   <compiler angle="radian" meshdir="../mesh/grey_and_white_plug_adapter" texturedir="../mesh/grey_and_white_plug_adapter" />
   <custom>
-    <text name="label" data="grey and white plug adapter" />
+    <text name="label" data="grey and white plug adapter|plug adapter|charger|white plug adapter|small white cube usb plug adapter" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

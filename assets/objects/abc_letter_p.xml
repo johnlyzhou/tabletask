@@ -1,7 +1,7 @@
 <mujoco model="abc_letter_p">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="P" />
+    <text name="label" data="letter p block|toy block|alphabet block|wooden letter p block|wooden alphabet block with a red-bordered letter p" />
   </custom>
   <default>
     <default class="place">

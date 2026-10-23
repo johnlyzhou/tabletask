@@ -1,7 +1,7 @@
 <mujoco model="large_black_water_chestnut">
   <compiler angle="radian" meshdir="../mesh/large_black_water_chestnut" texturedir="../mesh/large_black_water_chestnut" />
   <custom>
-    <text name="label" data="large black water chestnut" />
+    <text name="label" data="large black water chestnut|water chestnut|chestnut|dark water chestnut|large dark brown water chestnut corm" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="terracotta_vase">
   <compiler angle="radian" meshdir="../mesh/terracotta_vase" texturedir="../mesh/terracotta_vase" />
   <custom>
-    <text name="label" data="terracotta vase" />
+    <text name="label" data="terracotta vase|vase|urn|tan clay vase|tall tan terracotta vase with flared neck" />
   </custom>
   <default>
     <default class="place">

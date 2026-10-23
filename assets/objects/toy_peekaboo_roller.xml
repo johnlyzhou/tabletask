@@ -1,7 +1,7 @@
 <mujoco model="toy_peekaboo_roller">
   <compiler angle="radian" meshdir="../mesh/toy_peekaboo_roller" texturedir="../mesh/toy_peekaboo_roller" />
   <custom>
-    <text name="label" data="toy peekaboo roller" />
+    <text name="label" data="toy peekaboo roller|baby toy|rolling toy|white and red roller toy|white baby roller toy with red swirl and blue ball" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

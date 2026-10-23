@@ -1,7 +1,7 @@
 <mujoco model="tomato_soup_can">
   <compiler angle="radian" meshdir="../mesh/tomato_soup_can" texturedir="../mesh/tomato_soup_can" />
   <custom>
-    <text name="label" data="can of tomato soup" />
+    <text name="label" data="can of tomato soup|soup can|can|red soup can|red and white can of tomato soup" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

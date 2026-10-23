@@ -1,7 +1,7 @@
 <mujoco model="black_external_hard_drive">
   <compiler angle="radian" meshdir="../mesh/black_external_hard_drive" texturedir="../mesh/black_external_hard_drive" />
   <custom>
-    <text name="label" data="black external hard drive" />
+    <text name="label" data="black external hard drive|hard drive|external drive|black portable drive|slim black portable external hard drive" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

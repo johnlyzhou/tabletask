@@ -1,7 +1,7 @@
 <mujoco model="dark_green_chili_pepper">
   <compiler angle="radian" meshdir="../mesh/dark_green_chili_pepper" texturedir="../mesh/dark_green_chili_pepper" />
   <custom>
-    <text name="label" data="dark green chili pepper" />
+    <text name="label" data="dark green chili pepper|chili pepper|chili|long green chili|long thin dark green chili pepper" />
   </custom>
   <default>
     <default class="place">

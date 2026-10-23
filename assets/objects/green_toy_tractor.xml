@@ -2,7 +2,7 @@
   <!-- green_toy_tractor, converted from the MolmoSpaces Objaverse library (uid 45e9d996e0a84a558e7b41afface911b; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/green_toy_tractor" texturedir="../mesh/green_toy_tractor"/>
   <custom>
-    <text name="label" data="toy tractor" />
+    <text name="label" data="toy tractor|tractor|farm tractor|lime green tractor|bright lime green toy farm tractor" />
   </custom>
   <default>
     <default class="place">

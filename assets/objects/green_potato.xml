@@ -1,7 +1,7 @@
 <mujoco model="green_potato">
   <compiler angle="radian" meshdir="../mesh/green_potato" texturedir="../mesh/green_potato" />
   <custom>
-    <text name="label" data="green potato" />
+    <text name="label" data="green potato|potato|spud|greenish brown potato|lumpy greenish brown potato with rough skin" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

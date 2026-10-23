@@ -1,7 +1,7 @@
 <mujoco model="small_green_sandwich">
   <compiler angle="radian" meshdir="../mesh/small_green_sandwich" texturedir="../mesh/small_green_sandwich" />
   <custom>
-    <text name="label" data="small green sandwich" />
+    <text name="label" data="small green sandwich|sandwich|sandwich wedge|green triangle sandwich|small triangular sandwich with green filling" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

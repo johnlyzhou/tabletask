@@ -1,7 +1,7 @@
 <mujoco model="pink_saucer">
   <compiler angle="radian" meshdir="../mesh/pink_saucer" texturedir="../mesh/pink_saucer" />
   <custom>
-    <text name="label" data="pink saucer" />
+    <text name="label" data="pink saucer|saucer|small plate|pink round saucer|small round pink saucer dish" />
     <text name="tags" data="container" />
   </custom>
   <default>

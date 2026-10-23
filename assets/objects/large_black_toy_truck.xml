@@ -1,7 +1,7 @@
 <mujoco model="large_black_toy_truck">
   <compiler angle="radian" meshdir="../mesh/large_black_toy_truck" texturedir="../mesh/large_black_toy_truck" />
   <custom>
-    <text name="label" data="large black toy truck" />
+    <text name="label" data="large black toy truck|toy truck|toy lorry|olive toy truck|large dark olive green toy truck" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

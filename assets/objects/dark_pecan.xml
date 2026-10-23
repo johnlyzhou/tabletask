@@ -1,7 +1,7 @@
 <mujoco model="dark_pecan">
   <compiler angle="radian" meshdir="../mesh/dark_pecan" texturedir="../mesh/dark_pecan" />
   <custom>
-    <text name="label" data="dark pecan" />
+    <text name="label" data="dark pecan|pecan|nut|small brown pecan|small oval dark brown pecan nut" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

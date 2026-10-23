@@ -1,7 +1,7 @@
 <mujoco model="small_orange_peach">
   <compiler angle="radian" meshdir="../mesh/small_orange_peach" texturedir="../mesh/small_orange_peach" />
   <custom>
-    <text name="label" data="small orange peach" />
+    <text name="label" data="small orange peach|peach|fruit|orange-red peach|small round orange and red peach" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

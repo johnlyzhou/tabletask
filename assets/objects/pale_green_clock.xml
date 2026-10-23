@@ -1,7 +1,7 @@
 <mujoco model="pale_green_clock">
   <compiler angle="radian" meshdir="../mesh/pale_green_clock" texturedir="../mesh/pale_green_clock" />
   <custom>
-    <text name="label" data="pale green clock" />
+    <text name="label" data="pale green clock|clock|alarm clock|pale green alarm clock|pale green alarm clock with a cute face" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

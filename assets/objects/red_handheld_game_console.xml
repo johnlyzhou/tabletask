@@ -1,7 +1,7 @@
 <mujoco model="red_handheld_game_console">
   <compiler angle="radian" meshdir="../mesh/red_handheld_game_console" texturedir="../mesh/red_handheld_game_console" />
   <custom>
-    <text name="label" data="red handheld game console" />
+    <text name="label" data="red handheld game console|game console|handheld console|black and red console|black and red handheld game console with two screens" />
   </custom>
   <default>
     <default class="place">

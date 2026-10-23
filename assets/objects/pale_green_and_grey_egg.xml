@@ -1,7 +1,7 @@
 <mujoco model="pale_green_and_grey_egg">
   <compiler angle="radian" meshdir="../mesh/pale_green_and_grey_egg" texturedir="../mesh/pale_green_and_grey_egg" />
   <custom>
-    <text name="label" data="pale green and grey egg" />
+    <text name="label" data="pale green and grey egg|egg|speckled egg|grey speckled egg|pale green egg with dark grey speckles" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

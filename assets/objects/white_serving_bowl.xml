@@ -1,7 +1,7 @@
 <mujoco model="white_serving_bowl">
   <compiler angle="radian" meshdir="../mesh/white_serving_bowl" texturedir="../mesh/white_serving_bowl" />
   <custom>
-    <text name="label" data="white serving bowl" />
+    <text name="label" data="white serving bowl|bowl|serving bowl|large white bowl|large shallow white ceramic serving bowl" />
     <text name="tags" data="container" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="dark_green_bottle">
   <compiler angle="radian" meshdir="../mesh/dark_green_bottle" texturedir="../mesh/dark_green_bottle" />
   <custom>
-    <text name="label" data="dark green bottle" />
+    <text name="label" data="dark green bottle|bottle|spray can|slim dark bottle|slim dark green bottle with grey cap" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

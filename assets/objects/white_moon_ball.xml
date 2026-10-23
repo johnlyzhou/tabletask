@@ -1,7 +1,7 @@
 <mujoco model="white_moon_ball">
   <compiler angle="radian" meshdir="../mesh/white_moon_ball" texturedir="../mesh/white_moon_ball" />
   <custom>
-    <text name="label" data="white moon ball" />
+    <text name="label" data="white moon ball|ball|moon ball|grey cratered ball|grey cratered moon-shaped ball" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

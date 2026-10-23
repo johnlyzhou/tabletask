@@ -1,7 +1,7 @@
 <mujoco model="black_and_dark_blue_hammer">
   <compiler angle="radian" meshdir="../mesh/black_and_dark_blue_hammer" texturedir="../mesh/black_and_dark_blue_hammer" />
   <custom>
-    <text name="label" data="black and dark blue hammer" />
+    <text name="label" data="black and dark blue hammer|hammer|claw hammer|dark blue hammer|black and dark blue claw hammer with rubber grip" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

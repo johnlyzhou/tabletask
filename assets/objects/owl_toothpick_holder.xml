@@ -1,7 +1,7 @@
 <mujoco model="owl_toothpick_holder">
   <compiler angle="radian" meshdir="../mesh/owl_toothpick_holder" texturedir="../mesh/owl_toothpick_holder" />
   <custom>
-    <text name="label" data="owl toothpick holder" />
+    <text name="label" data="owl toothpick holder|toothpick holder|owl holder|brown owl holder|brown and grey owl shaped toothpick holder" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

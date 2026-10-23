@@ -1,7 +1,7 @@
 <mujoco model="grey_razor">
   <compiler angle="radian" meshdir="../mesh/grey_razor" texturedir="../mesh/grey_razor" />
   <custom>
-    <text name="label" data="grey razor" />
+    <text name="label" data="grey razor|razor|shaver|blue grey razor|blue and grey disposable razor" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

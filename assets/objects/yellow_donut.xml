@@ -1,7 +1,7 @@
 <mujoco model="yellow_donut">
   <compiler angle="radian" meshdir="../mesh/yellow_donut" texturedir="../mesh/yellow_donut" />
   <custom>
-    <text name="label" data="yellow donut" />
+    <text name="label" data="yellow donut|donut|doughnut|glazed yellow donut|golden yellow glazed ring donut" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

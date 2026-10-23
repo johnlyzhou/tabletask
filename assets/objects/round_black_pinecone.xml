@@ -1,7 +1,7 @@
 <mujoco model="round_black_pinecone">
   <compiler angle="radian" meshdir="../mesh/round_black_pinecone" texturedir="../mesh/round_black_pinecone" />
   <custom>
-    <text name="label" data="round black pinecone" />
+    <text name="label" data="round black pinecone|pinecone|pine cone|dark round pinecone|round dark brown pinecone with open scales" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

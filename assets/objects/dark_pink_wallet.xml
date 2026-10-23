@@ -1,7 +1,7 @@
 <mujoco model="dark_pink_wallet">
   <compiler angle="radian" meshdir="../mesh/dark_pink_wallet" texturedir="../mesh/dark_pink_wallet" />
   <custom>
-    <text name="label" data="dark pink wallet" />
+    <text name="label" data="dark pink wallet|wallet|card wallet|purple slim wallet|flat slim purple-pink card wallet" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

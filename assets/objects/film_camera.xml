@@ -1,7 +1,7 @@
 <mujoco model="film_camera">
   <compiler angle="radian" meshdir="../mesh/film_camera" texturedir="../mesh/film_camera" />
   <custom>
-    <text name="label" data="film camera" />
+    <text name="label" data="film camera|camera|rangefinder camera|black film camera|black vintage film camera with lens" />
   </custom>
   <default>
     <default class="place">

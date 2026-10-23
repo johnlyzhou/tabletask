@@ -1,7 +1,7 @@
 <mujoco model="brown_pistachio">
   <compiler angle="radian" meshdir="../mesh/brown_pistachio" texturedir="../mesh/brown_pistachio" />
   <custom>
-    <text name="label" data="brown pistachio" />
+    <text name="label" data="brown pistachio|pistachio|nut|small pistachio nut|small brown pistachio in shell" />
   </custom>
   <default>
     <default class="place">

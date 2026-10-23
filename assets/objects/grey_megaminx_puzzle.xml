@@ -1,7 +1,7 @@
 <mujoco model="grey_megaminx_puzzle">
   <compiler angle="radian" meshdir="../mesh/grey_megaminx_puzzle" texturedir="../mesh/grey_megaminx_puzzle" />
   <custom>
-    <text name="label" data="grey megaminx puzzle" />
+    <text name="label" data="grey megaminx puzzle|megaminx|puzzle cube|dodecahedron puzzle|multicolour megaminx puzzle with grey frame" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="small_fork">
   <compiler angle="radian" meshdir="../mesh/small_fork" texturedir="../mesh/small_fork" />
   <custom>
-    <text name="label" data="small fork" />
+    <text name="label" data="small fork|fork|dinner fork|small metal fork|small silver stainless steel fork" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

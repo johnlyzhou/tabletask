@@ -1,7 +1,7 @@
 <mujoco model="grey_tape_measure">
   <compiler angle="radian" meshdir="../mesh/grey_tape_measure" texturedir="../mesh/grey_tape_measure" />
   <custom>
-    <text name="label" data="grey tape measure" />
+    <text name="label" data="grey tape measure|tape measure|measuring tape|lavender grey tape|lavender grey retractable tape measure" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

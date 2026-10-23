@@ -1,7 +1,7 @@
 <mujoco model="left_bin">
   <compiler angle="radian" meshdir="../mesh/left_bin" texturedir="../mesh/left_bin" />
   <custom>
-    <text name="label" data="blue crate" />
+    <text name="label" data="blue crate|crate|bin|blue plastic crate|open blue plastic storage crate with ventilated sides" />
     <text name="tags" data="container" />
   </custom>
   <default>

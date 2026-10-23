@@ -1,7 +1,7 @@
 <mujoco model="box_of_chocolate_protein">
   <compiler angle="radian" meshdir="../mesh/box_of_chocolate_protein" texturedir="../mesh/box_of_chocolate_protein" />
   <custom>
-    <text name="label" data="box of chocolate protein" />
+    <text name="label" data="box of chocolate protein|protein box|protein powder|brown protein box|brown box of chocolate whey protein" />
   </custom>
   <default>
     <default class="place">

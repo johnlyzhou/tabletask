@@ -1,7 +1,7 @@
 <mujoco model="grey_and_dark_grey_computer_mouse">
   <compiler angle="radian" meshdir="../mesh/grey_and_dark_grey_computer_mouse" texturedir="../mesh/grey_and_dark_grey_computer_mouse" />
   <custom>
-    <text name="label" data="grey and dark grey computer mouse" />
+    <text name="label" data="grey and dark grey computer mouse|computer mouse|mouse|dark grey mouse|dark grey cordless computer mouse" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

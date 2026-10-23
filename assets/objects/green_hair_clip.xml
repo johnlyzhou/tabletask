@@ -1,7 +1,7 @@
 <mujoco model="green_hair_clip">
   <compiler angle="radian" meshdir="../mesh/green_hair_clip" texturedir="../mesh/green_hair_clip" />
   <custom>
-    <text name="label" data="green hair clip" />
+    <text name="label" data="green hair clip|hair clip|barrette|yellow-green hair clip|small yellow-green plastic hair clip" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

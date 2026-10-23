@@ -1,7 +1,7 @@
 <mujoco model="large_long_black_cucumber">
   <compiler angle="radian" meshdir="../mesh/large_long_black_cucumber" texturedir="../mesh/large_long_black_cucumber" />
   <custom>
-    <text name="label" data="large long black cucumber" />
+    <text name="label" data="large long black cucumber|cucumber|dark cucumber|long black cucumber|long thin dark black-green cucumber" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

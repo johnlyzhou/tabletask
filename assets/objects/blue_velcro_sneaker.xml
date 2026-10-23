@@ -1,7 +1,7 @@
 <mujoco model="blue_velcro_sneaker">
   <compiler angle="radian" meshdir="../mesh/blue_velcro_sneaker" texturedir="../mesh/blue_velcro_sneaker" />
   <custom>
-    <text name="label" data="blue velcro sneaker" />
+    <text name="label" data="blue velcro sneaker|sneaker|kids shoe|blue strap sneaker|blue and white kids sneaker with velcro straps" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

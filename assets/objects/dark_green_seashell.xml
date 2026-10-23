@@ -1,7 +1,7 @@
 <mujoco model="dark_green_seashell">
   <compiler angle="radian" meshdir="../mesh/dark_green_seashell" texturedir="../mesh/dark_green_seashell" />
   <custom>
-    <text name="label" data="dark green seashell" />
+    <text name="label" data="dark green seashell|seashell|shell|green conch shell|rounded green spiral seashell with pointed tip" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="orange_toy_bus">
   <compiler angle="radian" meshdir="../mesh/orange_toy_bus" texturedir="../mesh/orange_toy_bus" />
   <custom>
-    <text name="label" data="orange toy bus" />
+    <text name="label" data="red-orange toy bus|toy bus|bus|red toy city bus|small red-orange toy city bus with windows" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

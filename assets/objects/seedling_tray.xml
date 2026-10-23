@@ -1,7 +1,7 @@
 <mujoco model="seedling_tray">
   <compiler angle="radian" meshdir="../mesh/seedling_tray" texturedir="../mesh/seedling_tray" />
   <custom>
-    <text name="label" data="seedling tray" />
+    <text name="label" data="seedling tray|tray|plant tray|black seedling tray|black plastic seedling tray with six cells" />
   </custom>
   <default>
     <default class="place">

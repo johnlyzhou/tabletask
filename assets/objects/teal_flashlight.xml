@@ -1,7 +1,7 @@
 <mujoco model="teal_flashlight">
   <compiler angle="radian" meshdir="../mesh/teal_flashlight" texturedir="../mesh/teal_flashlight" />
   <custom>
-    <text name="label" data="teal flashlight" />
+    <text name="label" data="teal flashlight|flashlight|torch|small teal torch|small teal handheld flashlight" />
     <text name="tags" data="pickable" />
   </custom>
   <default>

@@ -1,7 +1,7 @@
 <mujoco model="orange_hot_dog">
   <compiler angle="radian" meshdir="../mesh/orange_hot_dog" texturedir="../mesh/orange_hot_dog" />
   <custom>
-    <text name="label" data="orange hot dog" />
+    <text name="label" data="orange hot dog|hot dog|sausage bun|hot dog with toppings|hot dog in a bun with toppings" />
     <text name="tags" data="pickable" />
   </custom>
   <default>
