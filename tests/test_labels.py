@@ -44,8 +44,10 @@ def test_random_unshared_label(tmp_path):
 
 def test_labels_do_not_move_things(tmp_path):
     """Naming draws from its own stream: the draws left for placing objects are the same."""
-    plain = task(str(ASSETS / "red_block.xml"), str(ASSETS / "blue_block.xml"))
-    varied = task(labelled(tmp_path, "red_block", "red block|block|red cube"), str(ASSETS / "blue_block.xml"))
+    blue = labelled(tmp_path, "blue_block", "blue block")
+    (tmp_path / "plain").mkdir()
+    plain = task(labelled(tmp_path / "plain", "red_block", "red block"), blue)
+    varied = task(labelled(tmp_path, "red_block", "red block|block|red cube"), blue)
     rngs = [np.random.default_rng(3), np.random.default_rng(3)]
     tasks = [_instantiate(load(t), rng) for t, rng in zip((plain, varied), rngs)]
     assert rngs[0].random() == rngs[1].random()
@@ -54,8 +56,8 @@ def test_labels_do_not_move_things(tmp_path):
 
 def test_phrasings(tmp_path):
     """Each episode says one of the instruction's phrasings, without moving anything."""
-    blue = str(ASSETS / "blue_block.xml")
-    plain = task(str(ASSETS / "red_block.xml"), blue)
+    blue = labelled(tmp_path, "blue_block", "blue block")
+    plain = task(labelled(tmp_path, "red_block", "red block"), blue)
     phrased = {**plain, "phrasings": ["Lift the {red}, leave the {blue}.", "Grab the {red}, not the {blue}."]}
     said = {tabletask.instantiate(phrased, episode).instruction for episode in range(40)}
     assert said == {"Pick up the red block, not the blue block.", "Lift the red block, leave the blue block.",
