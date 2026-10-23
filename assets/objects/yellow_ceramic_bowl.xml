@@ -1,0 +1,120 @@
+<mujoco model="yellow_ceramic_bowl">
+  <compiler angle="radian" meshdir="../mesh/white_bowl" texturedir="../mesh/white_bowl" />
+  <custom>
+    <text name="label" data="yellow ceramic bowl|bowl|yellow dish|yellow bowl|plain yellow ceramic bowl with a ridged inside" />
+    <text name="tags" data="container" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_bowl_0_mesh" file="0.obj" inertia="shell" />
+    <material rgba="0.93 0.80 0.16 1" name="white_bowl_0_skin" specular="0.2" shininess="0.3" />
+    <mesh name="white_bowl_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_32" file="hulls/h32.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_33" file="hulls/h33.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_34" file="hulls/h34.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_35" file="hulls/h35.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_36" file="hulls/h36.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_37" file="hulls/h37.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_38" file="hulls/h38.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_39" file="hulls/h39.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_40" file="hulls/h40.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_41" file="hulls/h41.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_42" file="hulls/h42.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_43" file="hulls/h43.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_44" file="hulls/h44.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_45" file="hulls/h45.obj" maxhullvert="128" />
+    <mesh name="white_bowl_hull_46" file="hulls/h46.obj" maxhullvert="128" />
+    <mesh name="white_bowl_inside" file="inside.obj" />
+    <mesh name="white_bowl_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="yellow_ceramic_bowl">
+      <geom type="mesh" mesh="white_bowl_0_mesh" material="white_bowl_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_00" rgba="0 0 0 0" group="3" mass="0.015998905" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_01" rgba="0 0 0 0" group="3" mass="0.0254722964" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_02" rgba="0 0 0 0" group="3" mass="0.00943551765" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_03" rgba="0 0 0 0" group="3" mass="0.00618031971" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_04" rgba="0 0 0 0" group="3" mass="0.0181561905" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_05" rgba="0 0 0 0" group="3" mass="0.00237889753" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_06" rgba="0 0 0 0" group="3" mass="0.00554222177" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_07" rgba="0 0 0 0" group="3" mass="0.0060379897" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_08" rgba="0 0 0 0" group="3" mass="0.00788287347" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_09" rgba="0 0 0 0" group="3" mass="0.00521637296" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_10" rgba="0 0 0 0" group="3" mass="0.00465926271" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_11" rgba="0 0 0 0" group="3" mass="0.020455188" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_12" rgba="0 0 0 0" group="3" mass="0.00357679877" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_13" rgba="0 0 0 0" group="3" mass="0.0012137148" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_14" rgba="0 0 0 0" group="3" mass="0.00153285335" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_15" rgba="0 0 0 0" group="3" mass="0.00617573639" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_16" rgba="0 0 0 0" group="3" mass="0.00481979216" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_17" rgba="0 0 0 0" group="3" mass="0.00533427885" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_18" rgba="0 0 0 0" group="3" mass="0.00932998483" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_19" rgba="0 0 0 0" group="3" mass="0.00762068749" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_20" rgba="0 0 0 0" group="3" mass="0.00599434284" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_21" rgba="0 0 0 0" group="3" mass="0.00519139701" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_22" rgba="0 0 0 0" group="3" mass="0.00561633709" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_23" rgba="0 0 0 0" group="3" mass="0.0057924057" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_24" rgba="0 0 0 0" group="3" mass="0.00128123198" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_25" rgba="0 0 0 0" group="3" mass="0.00467150317" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_26" rgba="0 0 0 0" group="3" mass="0.00454686324" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_27" rgba="0 0 0 0" group="3" mass="0.00620152639" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_28" rgba="0 0 0 0" group="3" mass="0.00141555446" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_29" rgba="0 0 0 0" group="3" mass="0.00695026719" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_30" rgba="0 0 0 0" group="3" mass="0.00179653224" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_31" rgba="0 0 0 0" group="3" mass="0.00199730249" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_32" rgba="0 0 0 0" group="3" mass="0.00750506176" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_33" rgba="0 0 0 0" group="3" mass="0.00477403657" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_34" rgba="0 0 0 0" group="3" mass="0.00601319791" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_35" rgba="0 0 0 0" group="3" mass="0.0100453619" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_36" rgba="0 0 0 0" group="3" mass="0.00709431291" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_37" rgba="0 0 0 0" group="3" mass="0.00639358829" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_38" rgba="0 0 0 0" group="3" mass="0.00343983234" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_39" rgba="0 0 0 0" group="3" mass="0.00254830255" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_40" rgba="0 0 0 0" group="3" mass="0.00382914779" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_41" rgba="0 0 0 0" group="3" mass="0.00367284805" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_42" rgba="0 0 0 0" group="3" mass="0.00404065593" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_43" rgba="0 0 0 0" group="3" mass="0.00252940044" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_44" rgba="0 0 0 0" group="3" mass="0.00306250083" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_45" rgba="0 0 0 0" group="3" mass="0.00343329237" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_bowl_hull_46" rgba="0 0 0 0" group="3" mass="0.00364764557" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0822 0.0814 0.0250" pos="0.0000 0.0000 0.0250" />
+      <geom name="place:inside" class="place" type="mesh" mesh="white_bowl_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="white_bowl_top" />
+    </body>
+  </worldbody>
+</mujoco>

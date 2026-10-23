@@ -1,8 +1,7 @@
-<mujoco model="plain_tray">
+<mujoco model="teal_divided_tray">
   <compiler angle="radian" meshdir="../mesh/blue_tray" texturedir="../mesh/blue_tray" />
   <custom>
-    <text name="label" data="tray|serving tray|divided tray|plastic tray|plain divided plastic tray" />
-    <text name="color" data="free" />
+    <text name="label" data="teal divided tray|tray|teal serving tray|teal plastic tray|plain teal plastic tray with three sections" />
     <text name="tags" data="container" />
   </custom>
   <default>
@@ -12,10 +11,7 @@
   </default>
   <asset>
     <mesh name="blue_tray_0_mesh" file="0.obj" inertia="shell" />
-    <texture name="blue_tray_0_tex" type="2d" file="0.png" />
-    <material name="blue_tray_0_skin" specular="0.2" shininess="0.3">
-      <layer texture="blue_tray_0_tex" role="rgb" />
-    </material>
+    <material rgba="0.10 0.60 0.60 1" name="blue_tray_0_skin" specular="0.2" shininess="0.3" />
     <mesh name="blue_tray_hull_00" file="hulls/h00.obj" maxhullvert="128" />
     <mesh name="blue_tray_hull_01" file="hulls/h01.obj" maxhullvert="128" />
     <mesh name="blue_tray_hull_02" file="hulls/h02.obj" maxhullvert="128" />
@@ -106,7 +102,7 @@
     <mesh name="blue_tray_top" file="top.obj" />
   </asset>
   <worldbody>
-    <body name="plain_tray">
+    <body name="teal_divided_tray">
       <geom type="mesh" mesh="blue_tray_0_mesh" material="blue_tray_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="blue_tray_hull_00" rgba="0 0 0 0" group="3" mass="0.0282835412" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="blue_tray_hull_01" rgba="0 0 0 0" group="3" mass="0.00774785478" friction="0.9 0.01 0.002" condim="4" />

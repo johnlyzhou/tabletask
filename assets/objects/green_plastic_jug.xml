@@ -1,8 +1,7 @@
-<mujoco model="plain_jug">
+<mujoco model="green_plastic_jug">
   <compiler angle="radian" meshdir="../mesh/small_jug" texturedir="../mesh/small_jug" />
   <custom>
-    <text name="label" data="jug|bottle|plastic jug|jug with a handle|plain plastic jug with a handle" />
-    <text name="color" data="free" />
+    <text name="label" data="green plastic jug|jug|green bottle|green jug|plain green plastic jug with a handle" />
   </custom>
   <default>
     <default class="place">
@@ -11,9 +10,9 @@
   </default>
   <asset>
     <mesh name="utilityjug_a03_0_mesh" file="0.obj" />
-    <material name="utilityjug_a03_0_skin" rgba="1.0000 1.0000 1.0000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <material rgba="0.20 0.62 0.25 1" name="utilityjug_a03_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
     <mesh name="utilityjug_a03_1_mesh" file="1.obj" />
-    <material name="utilityjug_a03_1_skin" rgba="1.0000 1.0000 1.0000 1" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
+    <material rgba="0.20 0.62 0.25 1" name="utilityjug_a03_1_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0" />
     <mesh name="utilityjug_a03_hull_00" file="hulls/h00.obj" maxhullvert="128" />
     <mesh name="utilityjug_a03_hull_01" file="hulls/h01.obj" maxhullvert="128" />
     <mesh name="utilityjug_a03_hull_02" file="hulls/h02.obj" maxhullvert="128" />
@@ -24,7 +23,7 @@
     <mesh name="utilityjug_a03_hull_07" file="hulls/h07.obj" maxhullvert="128" />
   </asset>
   <worldbody>
-    <body name="plain_jug">
+    <body name="green_plastic_jug">
       <geom type="mesh" mesh="utilityjug_a03_0_mesh" material="utilityjug_a03_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="utilityjug_a03_1_mesh" material="utilityjug_a03_1_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="utilityjug_a03_hull_00" rgba="0 0 0 0" group="3" mass="0.146139217" friction="0.9 0.01 0.002" condim="4" />

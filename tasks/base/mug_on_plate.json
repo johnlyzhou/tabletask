@@ -1,9 +1,9 @@
 {
   "id": "mug_on_plate",
-  "instruction": "Put the mug on the plate.",
+  "instruction": "Put the {mug} on the {plate}.",
   "objects": {
-    "mug": {"asset": "plain_mug", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
-    "plate": {"asset": "plain_plate", "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
+    "mug": {"asset": ["red_ribbed_mug", "orange_ribbed_mug", "yellow_ribbed_mug", "green_ribbed_mug", "blue_ribbed_mug", "purple_ribbed_mug", "pink_ribbed_mug", "teal_ribbed_mug"], "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}},
+    "plate": {"asset": ["red_dinner_plate", "orange_dinner_plate", "yellow_dinner_plate", "green_dinner_plate", "blue_dinner_plate", "purple_dinner_plate", "pink_dinner_plate", "teal_dinner_plate"], "sample": {"rel": "table/top", "offset": [-0.07, 0.0, 0.0], "jitter": {"xy": [0.18, 0.32], "yaw": 180}}}
   },
   "start": [["on", "mug", "table"], ["on", "plate", "table"]],
   "goal": [["on", "mug", "plate"]]

@@ -1,8 +1,7 @@
-<mujoco model="plain_mug">
+<mujoco model="red_ribbed_mug">
   <compiler angle="radian" meshdir="../mesh/white_mug" texturedir="../mesh/white_mug" />
   <custom>
-    <text name="label" data="mug|cup|coffee mug|ribbed mug|plain ribbed mug with a handle" />
-    <text name="color" data="free" />
+    <text name="label" data="red ribbed mug|mug|red cup|red coffee mug|plain red ribbed mug with a handle" />
   </custom>
   <default>
     <default class="place">
@@ -12,7 +11,7 @@
   <asset>
     <mesh name="mug_01_0_mesh" file="0.obj" />
     <texture name="mug_01_0_tex" type="2d" file="0.png" />
-    <material name="mug_01_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+    <material rgba="0.80 0.12 0.12 1" name="mug_01_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
       <layer texture="mug_01_0_tex" role="rgb" />
     </material>
     <mesh name="mug_01_hull_00" file="hulls/h00.obj" maxhullvert="128" />
@@ -72,7 +71,7 @@
     <mesh name="mug_01_top" file="top.obj" />
   </asset>
   <worldbody>
-    <body name="plain_mug">
+    <body name="red_ribbed_mug">
       <geom type="mesh" mesh="mug_01_0_mesh" material="mug_01_0_skin" contype="0" conaffinity="0" mass="0" condim="4" pos="0.0095 0.0024 0.0000" />
       <geom type="mesh" mesh="mug_01_hull_00" rgba="0 0 0 0" group="3" mass="0.00363268364" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />
       <geom type="mesh" mesh="mug_01_hull_01" rgba="0 0 0 0" group="3" mass="0.00229717763" friction="0.9 0.01 0.002" condim="4" pos="0.0095 0.0024 0.0000" />

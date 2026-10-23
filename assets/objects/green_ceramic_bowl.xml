@@ -1,8 +1,7 @@
-<mujoco model="plain_bowl">
+<mujoco model="green_ceramic_bowl">
   <compiler angle="radian" meshdir="../mesh/white_bowl" texturedir="../mesh/white_bowl" />
   <custom>
-    <text name="label" data="bowl|dish|mixing bowl|ceramic bowl|plain ceramic bowl with a ridged inside" />
-    <text name="color" data="free" />
+    <text name="label" data="green ceramic bowl|bowl|green dish|green bowl|plain green ceramic bowl with a ridged inside" />
     <text name="tags" data="container" />
   </custom>
   <default>
@@ -12,10 +11,7 @@
   </default>
   <asset>
     <mesh name="white_bowl_0_mesh" file="0.obj" inertia="shell" />
-    <texture name="white_bowl_0_tex" type="2d" file="0.png" />
-    <material name="white_bowl_0_skin" specular="0.2" shininess="0.3">
-      <layer texture="white_bowl_0_tex" role="rgb" />
-    </material>
+    <material rgba="0.20 0.62 0.25 1" name="white_bowl_0_skin" specular="0.2" shininess="0.3" />
     <mesh name="white_bowl_hull_00" file="hulls/h00.obj" maxhullvert="128" />
     <mesh name="white_bowl_hull_01" file="hulls/h01.obj" maxhullvert="128" />
     <mesh name="white_bowl_hull_02" file="hulls/h02.obj" maxhullvert="128" />
@@ -67,7 +63,7 @@
     <mesh name="white_bowl_top" file="top.obj" />
   </asset>
   <worldbody>
-    <body name="plain_bowl">
+    <body name="green_ceramic_bowl">
       <geom type="mesh" mesh="white_bowl_0_mesh" material="white_bowl_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="white_bowl_hull_00" rgba="0 0 0 0" group="3" mass="0.015998905" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="white_bowl_hull_01" rgba="0 0 0 0" group="3" mass="0.0254722964" friction="0.9 0.01 0.002" condim="4" />

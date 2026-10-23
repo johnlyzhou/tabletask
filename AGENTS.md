@@ -383,11 +383,10 @@ and the rest were written here.
   say it follow, separated by `|`, from general to detailed: `data="red mug|mug|red cup|red
   ceramic mug|glossy red ceramic coffee mug"`. Each names this asset alone, never a different
   object; the first stays the main, distinct name.
-- An asset whose colour does not matter declares `<text name="color" data="free"/>` in the same
-  `<custom>`: each episode then tints all its materials one random colour (any hue, saturation
-  0.25–0.85, value 0.45–0.95), unless the scene's `appearance.vary` is false. Leave colour words
-  out of its label. `plain_plate`, `plain_bowl`, `plain_mug`, `plain_tray`, `plain_bucket`
-  and `plain_jug` are free-colour variants that share another asset's meshes.
+- An asset's colour is fixed in its file, so its labels can say it. The same shape in several
+  colours is several assets sharing one mesh folder, each painting its materials: `red_ceramic_bowl`,
+  `blue_divided_tray`, `pink_ribbed_mug`, `green_dinner_plate`, `yellow_plastic_bucket` and
+  `purple_plastic_jug` come in red, orange, yellow, green, blue, purple, pink and teal.
 - An asset declares what tasks may use it for as `<text name="tags" data="pickable"/>` in the
   same `<custom>`, words separated by spaces: `pickable` (one hand grasps and lifts it; the
   pick-max pool) and `container` (a bowl, tray, plate or bin that things are put in). An asset
