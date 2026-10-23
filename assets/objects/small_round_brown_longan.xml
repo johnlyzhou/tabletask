@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_round_brown_longan" texturedir="../mesh/small_round_brown_longan" />
   <custom>
     <text name="label" data="small round brown longan" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

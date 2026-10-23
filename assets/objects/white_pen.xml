@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_pen" texturedir="../mesh/white_pen" />
   <custom>
     <text name="label" data="white pen" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

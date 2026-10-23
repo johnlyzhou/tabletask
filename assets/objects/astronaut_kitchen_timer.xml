@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/astronaut_kitchen_timer" texturedir="../mesh/astronaut_kitchen_timer" />
   <custom>
     <text name="label" data="astronaut kitchen timer" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

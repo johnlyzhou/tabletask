@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_mooncake" texturedir="../mesh/brown_mooncake" />
   <custom>
     <text name="label" data="brown mooncake" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

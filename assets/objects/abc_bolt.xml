@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
     <text name="label" data="bolt" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

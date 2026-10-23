@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/card_game_box" texturedir="../mesh/card_game_box" />
   <custom>
     <text name="label" data="card game box" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

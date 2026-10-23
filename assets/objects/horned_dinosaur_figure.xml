@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/horned_dinosaur_figure" texturedir="../mesh/horned_dinosaur_figure" />
   <custom>
     <text name="label" data="horned dinosaur figure" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

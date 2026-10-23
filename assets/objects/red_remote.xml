@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/red_remote" texturedir="../mesh/red_remote"/>
   <custom>
     <text name="label" data="remote" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

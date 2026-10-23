@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/vintage_stapler" texturedir="../mesh/vintage_stapler" />
   <custom>
     <text name="label" data="stapler" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

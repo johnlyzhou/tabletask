@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/long_brown_bamboo_shoot" texturedir="../mesh/long_brown_bamboo_shoot" />
   <custom>
     <text name="label" data="long brown bamboo shoot" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

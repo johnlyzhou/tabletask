@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_grey_watch" texturedir="../mesh/round_grey_watch" />
   <custom>
     <text name="label" data="round grey watch" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

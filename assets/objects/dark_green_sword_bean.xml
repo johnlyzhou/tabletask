@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_green_sword_bean" texturedir="../mesh/dark_green_sword_bean" />
   <custom>
     <text name="label" data="dark green sword bean" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

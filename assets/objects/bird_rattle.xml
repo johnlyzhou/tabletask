@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/bird_rattle" texturedir="../mesh/bird_rattle" />
   <custom>
     <text name="label" data="bird rattle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pliers" texturedir="../mesh/pliers" />
   <custom>
     <text name="label" data="pliers" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_tape_measure" texturedir="../mesh/blue_tape_measure" />
   <custom>
     <text name="label" data="blue tape measure" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/purple_cookie_spatula" texturedir="../mesh/purple_cookie_spatula" />
   <custom>
     <text name="label" data="purple cookie spatula" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

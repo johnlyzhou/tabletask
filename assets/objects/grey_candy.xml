@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_candy" texturedir="../mesh/grey_candy" />
   <custom>
     <text name="label" data="grey candy" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

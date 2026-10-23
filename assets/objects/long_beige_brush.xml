@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/long_beige_brush" texturedir="../mesh/long_beige_brush" />
   <custom>
     <text name="label" data="long beige brush" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

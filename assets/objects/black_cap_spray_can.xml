@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_cap_spray_can" texturedir="../mesh/black_cap_spray_can" />
   <custom>
     <text name="label" data="spray paint can with a black cap" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

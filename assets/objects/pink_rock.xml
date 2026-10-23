@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/pink_rock" texturedir="../mesh/pink_rock"/>
   <custom>
     <text name="label" data="brown rock" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

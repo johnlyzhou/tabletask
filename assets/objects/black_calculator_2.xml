@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_calculator_2" texturedir="../mesh/black_calculator_2" />
   <custom>
     <text name="label" data="black calculator" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

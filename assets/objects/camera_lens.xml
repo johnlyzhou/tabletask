@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/camera_lens" texturedir="../mesh/camera_lens" />
   <custom>
     <text name="label" data="camera lens" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

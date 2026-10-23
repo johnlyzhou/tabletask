@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_speaker" texturedir="../mesh/grey_speaker" />
   <custom>
     <text name="label" data="grey speaker" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

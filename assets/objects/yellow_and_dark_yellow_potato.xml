@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_and_dark_yellow_potato" texturedir="../mesh/yellow_and_dark_yellow_potato" />
   <custom>
     <text name="label" data="yellow and dark yellow potato" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

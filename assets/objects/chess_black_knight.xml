@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/chess_black_knight" texturedir="../mesh/chess_black_knight" />
   <custom>
     <text name="label" data="black knight" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

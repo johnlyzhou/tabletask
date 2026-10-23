@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_hair_clip" texturedir="../mesh/black_hair_clip" />
   <custom>
     <text name="label" data="black hair clip" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/heart_cup" texturedir="../mesh/heart_cup"/>
   <custom>
     <text name="label" data="printed mug" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

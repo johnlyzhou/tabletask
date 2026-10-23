@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pecan" texturedir="../mesh/pecan" />
   <custom>
     <text name="label" data="pecan" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_and_green_waffle" texturedir="../mesh/yellow_and_green_waffle" />
   <custom>
     <text name="label" data="yellow and green waffle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

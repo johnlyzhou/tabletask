@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/sardine_tin" texturedir="../mesh/sardine_tin" />
   <custom>
     <text name="label" data="sardine tin" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

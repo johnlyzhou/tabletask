@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/gold_computer_mouse" texturedir="../mesh/gold_computer_mouse" />
   <custom>
     <text name="label" data="gold computer mouse" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

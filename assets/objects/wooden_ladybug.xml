@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_ladybug" texturedir="../mesh/wooden_ladybug" />
   <custom>
     <text name="label" data="wooden ladybug" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/ivory_die" texturedir="../mesh/ivory_die" />
   <custom>
     <text name="label" data="ivory die" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

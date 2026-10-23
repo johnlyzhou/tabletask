@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_black_sushi" texturedir="../mesh/round_black_sushi" />
   <custom>
     <text name="label" data="round black sushi" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

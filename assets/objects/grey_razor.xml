@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_razor" texturedir="../mesh/grey_razor" />
   <custom>
     <text name="label" data="grey razor" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

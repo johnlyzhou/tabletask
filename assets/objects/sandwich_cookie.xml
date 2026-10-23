@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/sandwich_cookie" texturedir="../mesh/sandwich_cookie" />
   <custom>
     <text name="label" data="sandwich cookie" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

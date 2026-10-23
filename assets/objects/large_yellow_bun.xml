@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_yellow_bun" texturedir="../mesh/large_yellow_bun" />
   <custom>
     <text name="label" data="large yellow bun" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

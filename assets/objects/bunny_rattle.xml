@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/bunny_rattle" texturedir="../mesh/bunny_rattle" />
   <custom>
     <text name="label" data="bunny rattle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

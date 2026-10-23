@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/internal_hard_drive" texturedir="../mesh/internal_hard_drive" />
   <custom>
     <text name="label" data="internal hard drive" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

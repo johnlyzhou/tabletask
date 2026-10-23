@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_green_sandwich" texturedir="../mesh/dark_green_sandwich" />
   <custom>
     <text name="label" data="dark green sandwich" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

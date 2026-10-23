@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/croissant" texturedir="../mesh/croissant" />
   <custom>
     <text name="label" data="croissant" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

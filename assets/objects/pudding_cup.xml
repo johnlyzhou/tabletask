@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pudding_cup" texturedir="../mesh/pudding_cup" />
   <custom>
     <text name="label" data="pudding cup" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

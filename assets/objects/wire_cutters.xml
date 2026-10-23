@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wire_cutters" texturedir="../mesh/wire_cutters" />
   <custom>
     <text name="label" data="wire cutters" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

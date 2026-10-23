@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_elephant" texturedir="../mesh/wooden_elephant" />
   <custom>
     <text name="label" data="carved wooden elephant" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

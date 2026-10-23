@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_toy_engine" texturedir="../mesh/grey_toy_engine" />
   <custom>
     <text name="label" data="grey toy engine" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

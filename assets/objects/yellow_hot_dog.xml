@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_hot_dog" texturedir="../mesh/yellow_hot_dog" />
   <custom>
     <text name="label" data="yellow hot dog" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_black_puzzle_cube" texturedir="../mesh/round_black_puzzle_cube" />
   <custom>
     <text name="label" data="round black puzzle cube" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

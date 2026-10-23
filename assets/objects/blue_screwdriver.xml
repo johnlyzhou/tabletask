@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_screwdriver" texturedir="../mesh/blue_screwdriver"/>
   <custom>
     <text name="label" data="blue screwdriver" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

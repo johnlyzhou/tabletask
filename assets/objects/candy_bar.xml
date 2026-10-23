@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/candy_bar" texturedir="../mesh/candy_bar" />
   <custom>
     <text name="label" data="candy bar" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

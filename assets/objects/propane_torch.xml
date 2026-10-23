@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/propane_torch" texturedir="../mesh/propane_torch" />
   <custom>
     <text name="label" data="propane torch" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

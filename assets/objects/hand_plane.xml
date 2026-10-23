@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/hand_plane" texturedir="../mesh/hand_plane" />
   <custom>
     <text name="label" data="hand plane" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

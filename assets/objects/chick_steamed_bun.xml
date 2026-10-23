@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/chick_steamed_bun" texturedir="../mesh/chick_steamed_bun" />
   <custom>
     <text name="label" data="chick steamed bun" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_magnifying_glass" texturedir="../mesh/green_magnifying_glass" />
   <custom>
     <text name="label" data="green magnifying glass" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

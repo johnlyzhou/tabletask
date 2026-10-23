@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/combination_wrench" texturedir="../mesh/combination_wrench" />
   <custom>
     <text name="label" data="combination wrench" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

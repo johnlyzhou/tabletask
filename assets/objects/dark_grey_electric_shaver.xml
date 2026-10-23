@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_grey_electric_shaver" texturedir="../mesh/dark_grey_electric_shaver" />
   <custom>
     <text name="label" data="dark grey electric shaver" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

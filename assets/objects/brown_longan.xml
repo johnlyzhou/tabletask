@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_longan" texturedir="../mesh/brown_longan" />
   <custom>
     <text name="label" data="brown longan" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

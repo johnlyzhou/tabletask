@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_whistle" texturedir="../mesh/green_whistle" />
   <custom>
     <text name="label" data="green whistle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

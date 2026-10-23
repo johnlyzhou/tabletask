@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/conch_shell" texturedir="../mesh/conch_shell" />
   <custom>
     <text name="label" data="spider conch shell" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

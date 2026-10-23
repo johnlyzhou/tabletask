@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pink_calculator" texturedir="../mesh/pink_calculator" />
   <custom>
     <text name="label" data="pink calculator" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

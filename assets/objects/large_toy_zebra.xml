@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_toy_zebra" texturedir="../mesh/large_toy_zebra" />
   <custom>
     <text name="label" data="large toy zebra" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

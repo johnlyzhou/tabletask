@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/red_screwdriver" texturedir="../mesh/red_screwdriver" />
   <custom>
     <text name="label" data="red screwdriver" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

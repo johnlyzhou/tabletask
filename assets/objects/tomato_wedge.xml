@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/tomato_wedge" texturedir="../mesh/tomato_wedge" />
   <custom>
     <text name="label" data="tomato wedge" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

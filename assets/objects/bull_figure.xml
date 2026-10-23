@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/bull_figure" texturedir="../mesh/bull_figure" />
   <custom>
     <text name="label" data="bull figure" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_dark_green_shumai" texturedir="../mesh/small_dark_green_shumai" />
   <custom>
     <text name="label" data="small dark green shumai" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

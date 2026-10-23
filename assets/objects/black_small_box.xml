@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_small_box" texturedir="../mesh/black_small_box" />
   <custom>
     <text name="label" data="black small box" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

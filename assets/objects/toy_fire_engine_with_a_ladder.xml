@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_fire_engine_with_a_ladder" texturedir="../mesh/toy_fire_engine_with_a_ladder" />
   <custom>
     <text name="label" data="toy fire engine with a ladder" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

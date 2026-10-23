@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/red_knight" texturedir="../mesh/red_knight"/>
   <custom>
     <text name="label" data="red knight" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

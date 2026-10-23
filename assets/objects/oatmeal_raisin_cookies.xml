@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/oatmeal_raisin_cookies" texturedir="../mesh/oatmeal_raisin_cookies" />
   <custom>
     <text name="label" data="box of cookies" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

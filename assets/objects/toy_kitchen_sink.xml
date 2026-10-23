@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_kitchen_sink" texturedir="../mesh/toy_kitchen_sink" />
   <custom>
     <text name="label" data="toy kitchen sink" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

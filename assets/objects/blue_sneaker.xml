@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_sneaker" texturedir="../mesh/blue_sneaker"/>
   <custom>
     <text name="label" data="blue sneaker" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

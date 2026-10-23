@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_lipstick" texturedir="../mesh/grey_lipstick" />
   <custom>
     <text name="label" data="grey lipstick" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

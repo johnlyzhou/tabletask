@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/leather_cleaner_can" texturedir="../mesh/leather_cleaner_can" />
   <custom>
     <text name="label" data="can of leather cleaner" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

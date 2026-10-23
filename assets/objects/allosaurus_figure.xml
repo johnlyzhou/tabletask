@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/allosaurus_figure" texturedir="../mesh/allosaurus_figure" />
   <custom>
     <text name="label" data="allosaurus figure" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

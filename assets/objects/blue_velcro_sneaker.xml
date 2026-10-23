@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_velcro_sneaker" texturedir="../mesh/blue_velcro_sneaker" />
   <custom>
     <text name="label" data="blue velcro sneaker" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

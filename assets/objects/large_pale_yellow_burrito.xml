@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_pale_yellow_burrito" texturedir="../mesh/large_pale_yellow_burrito" />
   <custom>
     <text name="label" data="large pale yellow burrito" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_dark_yellow_lotus_root" texturedir="../mesh/large_dark_yellow_lotus_root" />
   <custom>
     <text name="label" data="large dark yellow lotus root" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

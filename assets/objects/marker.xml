@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/marker" texturedir="../mesh/marker" />
   <custom>
     <text name="label" data="black marker" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

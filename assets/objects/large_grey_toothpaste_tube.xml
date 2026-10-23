@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_grey_toothpaste_tube" texturedir="../mesh/large_grey_toothpaste_tube" />
   <custom>
     <text name="label" data="large grey toothpaste tube" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

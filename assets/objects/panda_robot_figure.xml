@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/panda_robot_figure" texturedir="../mesh/panda_robot_figure" />
   <custom>
     <text name="label" data="panda robot figure" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

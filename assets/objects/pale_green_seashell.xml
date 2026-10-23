@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pale_green_seashell" texturedir="../mesh/pale_green_seashell" />
   <custom>
     <text name="label" data="pale green seashell" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

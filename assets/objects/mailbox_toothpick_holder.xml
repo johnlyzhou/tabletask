@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/mailbox_toothpick_holder" texturedir="../mesh/mailbox_toothpick_holder" />
   <custom>
     <text name="label" data="mailbox toothpick holder" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

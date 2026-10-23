@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/king_oyster_mushroom" texturedir="../mesh/king_oyster_mushroom" />
   <custom>
     <text name="label" data="king oyster mushroom" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

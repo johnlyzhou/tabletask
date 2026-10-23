@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pocket_watch" texturedir="../mesh/pocket_watch" />
   <custom>
     <text name="label" data="pocket watch" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_mushroom" texturedir="../mesh/yellow_mushroom" />
   <custom>
     <text name="label" data="yellow mushroom" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

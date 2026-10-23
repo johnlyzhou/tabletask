@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_fork" texturedir="../mesh/grey_fork" />
   <custom>
     <text name="label" data="grey fork" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

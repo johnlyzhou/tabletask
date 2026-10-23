@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_shampoo_bottle" texturedir="../mesh/white_shampoo_bottle" />
   <custom>
     <text name="label" data="white shampoo bottle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

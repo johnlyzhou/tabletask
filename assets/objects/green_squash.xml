@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_squash" texturedir="../mesh/green_squash" />
   <custom>
     <text name="label" data="green squash" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

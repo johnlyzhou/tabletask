@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/shaving_brush" texturedir="../mesh/shaving_brush" />
   <custom>
     <text name="label" data="shaving brush" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

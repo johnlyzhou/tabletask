@@ -1,6 +1,7 @@
 <mujoco model="square_peg">
   <custom>
     <text name="label" data="blue peg" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

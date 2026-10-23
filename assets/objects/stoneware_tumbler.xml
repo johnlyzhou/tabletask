@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/stoneware_tumbler" texturedir="../mesh/stoneware_tumbler"/>
   <custom>
     <text name="label" data="stone cup" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

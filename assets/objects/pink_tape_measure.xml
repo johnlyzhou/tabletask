@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pink_tape_measure" texturedir="../mesh/pink_tape_measure" />
   <custom>
     <text name="label" data="pink tape measure" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

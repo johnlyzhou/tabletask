@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_oyster_shell" texturedir="../mesh/brown_oyster_shell" />
   <custom>
     <text name="label" data="brown oyster shell" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

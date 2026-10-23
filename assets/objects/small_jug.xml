@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_jug" texturedir="../mesh/small_jug" />
   <custom>
     <text name="label" data="white jug" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

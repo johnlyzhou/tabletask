@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_brown_peanut" texturedir="../mesh/small_brown_peanut" />
   <custom>
     <text name="label" data="small brown peanut" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

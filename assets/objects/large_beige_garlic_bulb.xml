@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_beige_garlic_bulb" texturedir="../mesh/large_beige_garlic_bulb" />
   <custom>
     <text name="label" data="large beige garlic bulb" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

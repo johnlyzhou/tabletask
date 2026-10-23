@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_toy_plane" texturedir="../mesh/white_toy_plane" />
   <custom>
     <text name="label" data="white toy plane" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

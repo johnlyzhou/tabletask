@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/lubricant_spray" texturedir="../mesh/lubricant_spray" />
   <custom>
     <text name="label" data="spray can" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

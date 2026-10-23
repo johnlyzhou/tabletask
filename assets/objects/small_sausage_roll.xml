@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_sausage_roll" texturedir="../mesh/small_sausage_roll" />
   <custom>
     <text name="label" data="small sausage roll" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

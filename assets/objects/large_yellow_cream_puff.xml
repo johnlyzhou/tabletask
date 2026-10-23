@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_yellow_cream_puff" texturedir="../mesh/large_yellow_cream_puff" />
   <custom>
     <text name="label" data="large yellow cream puff" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

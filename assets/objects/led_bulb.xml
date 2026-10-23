@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/led_bulb" texturedir="../mesh/led_bulb" />
   <custom>
     <text name="label" data="LED bulb" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

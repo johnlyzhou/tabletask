@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/speckled_tumbler" texturedir="../mesh/speckled_tumbler"/>
   <custom>
     <text name="label" data="blue tumbler" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

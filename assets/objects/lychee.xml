@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/lychee" texturedir="../mesh/lychee" />
   <custom>
     <text name="label" data="lychee" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

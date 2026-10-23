@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_spray_bottle" texturedir="../mesh/yellow_spray_bottle" />
   <custom>
     <text name="label" data="yellow spray bottle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/light_bulb_box" texturedir="../mesh/light_bulb_box" />
   <custom>
     <text name="label" data="light bulb box" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

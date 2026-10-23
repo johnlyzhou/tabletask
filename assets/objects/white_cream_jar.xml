@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_cream_jar" texturedir="../mesh/white_cream_jar" />
   <custom>
     <text name="label" data="white cream jar" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

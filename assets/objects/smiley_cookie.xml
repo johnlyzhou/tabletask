@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/smiley_cookie" texturedir="../mesh/smiley_cookie"/>
   <custom>
     <text name="label" data="cookie" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

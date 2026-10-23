@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/beige_clock" texturedir="../mesh/beige_clock" />
   <custom>
     <text name="label" data="beige clock" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

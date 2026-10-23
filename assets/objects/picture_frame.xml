@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/picture_frame" texturedir="../mesh/picture_frame" />
   <custom>
     <text name="label" data="picture frame" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

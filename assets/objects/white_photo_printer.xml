@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_photo_printer" texturedir="../mesh/white_photo_printer" />
   <custom>
     <text name="label" data="white photo printer" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_panda" texturedir="../mesh/toy_panda" />
   <custom>
     <text name="label" data="toy panda" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

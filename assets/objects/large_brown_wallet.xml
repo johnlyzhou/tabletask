@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_brown_wallet" texturedir="../mesh/large_brown_wallet" />
   <custom>
     <text name="label" data="large brown wallet" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

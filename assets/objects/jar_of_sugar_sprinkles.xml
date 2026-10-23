@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/jar_of_sugar_sprinkles" texturedir="../mesh/jar_of_sugar_sprinkles" />
   <custom>
     <text name="label" data="jar of sugar sprinkles" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

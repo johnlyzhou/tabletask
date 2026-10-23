@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/sugar_box" texturedir="../mesh/sugar_box" />
   <custom>
     <text name="label" data="box of sugar" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

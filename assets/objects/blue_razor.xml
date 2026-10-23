@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_razor" texturedir="../mesh/blue_razor" />
   <custom>
     <text name="label" data="blue razor" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

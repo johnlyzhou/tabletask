@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_and_pale_green_tube_of_hand_cream" texturedir="../mesh/grey_and_pale_green_tube_of_hand_cream" />
   <custom>
     <text name="label" data="grey and pale green tube of hand cream" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

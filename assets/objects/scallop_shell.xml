@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/scallop_shell" texturedir="../mesh/scallop_shell"/>
   <custom>
     <text name="label" data="brown seashell" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

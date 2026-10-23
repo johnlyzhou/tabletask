@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_pink_makeup_sponge" texturedir="../mesh/dark_pink_makeup_sponge" />
   <custom>
     <text name="label" data="dark pink makeup sponge" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

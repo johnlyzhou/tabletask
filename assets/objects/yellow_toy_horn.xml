@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_toy_horn" texturedir="../mesh/yellow_toy_horn" />
   <custom>
     <text name="label" data="yellow toy horn" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

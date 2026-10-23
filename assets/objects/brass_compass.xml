@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brass_compass" texturedir="../mesh/brass_compass" />
   <custom>
     <text name="label" data="brass compass" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

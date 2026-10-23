@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_round_black_pinecone" texturedir="../mesh/small_round_black_pinecone" />
   <custom>
     <text name="label" data="small round black pinecone" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

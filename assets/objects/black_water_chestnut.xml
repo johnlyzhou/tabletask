@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_water_chestnut" texturedir="../mesh/black_water_chestnut" />
   <custom>
     <text name="label" data="black water chestnut" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

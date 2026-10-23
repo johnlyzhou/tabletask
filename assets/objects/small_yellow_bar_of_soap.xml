@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_yellow_bar_of_soap" texturedir="../mesh/small_yellow_bar_of_soap" />
   <custom>
     <text name="label" data="small yellow bar of soap" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

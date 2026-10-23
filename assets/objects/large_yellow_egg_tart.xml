@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_yellow_egg_tart" texturedir="../mesh/large_yellow_egg_tart" />
   <custom>
     <text name="label" data="large yellow egg tart" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

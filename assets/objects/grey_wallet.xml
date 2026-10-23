@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_wallet" texturedir="../mesh/grey_wallet" />
   <custom>
     <text name="label" data="grey wallet" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

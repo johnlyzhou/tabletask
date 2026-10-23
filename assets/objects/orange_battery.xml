@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/orange_battery" texturedir="../mesh/orange_battery" />
   <custom>
     <text name="label" data="copper-top battery" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

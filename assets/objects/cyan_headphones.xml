@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cyan_headphones" texturedir="../mesh/cyan_headphones" />
   <custom>
     <text name="label" data="blue headphones" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

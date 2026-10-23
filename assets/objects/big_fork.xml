@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/big_fork" texturedir="../mesh/big_fork" />
   <custom>
     <text name="label" data="large fork" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

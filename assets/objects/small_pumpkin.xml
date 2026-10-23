@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_pumpkin" texturedir="../mesh/small_pumpkin" />
   <custom>
     <text name="label" data="small pumpkin" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

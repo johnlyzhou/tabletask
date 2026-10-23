@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_brown_litchi" texturedir="../mesh/round_brown_litchi" />
   <custom>
     <text name="label" data="round brown litchi" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/white_queen" texturedir="../mesh/white_queen"/>
   <custom>
     <text name="label" data="white queen" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_block" texturedir="../mesh/green_block" />
   <custom>
     <text name="label" data="green block" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cheez_it" texturedir="../mesh/cheez_it" />
   <custom>
     <text name="label" data="box of crackers" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

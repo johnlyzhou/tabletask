@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/mousetrap" texturedir="../mesh/mousetrap" />
   <custom>
     <text name="label" data="mousetrap" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

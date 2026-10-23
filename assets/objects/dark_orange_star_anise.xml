@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_orange_star_anise" texturedir="../mesh/dark_orange_star_anise" />
   <custom>
     <text name="label" data="dark orange star anise" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

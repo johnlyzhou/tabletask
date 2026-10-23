@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_yellow_ear_of_corn" texturedir="../mesh/small_yellow_ear_of_corn" />
   <custom>
     <text name="label" data="small yellow ear of corn" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_brown_shumai" texturedir="../mesh/round_brown_shumai" />
   <custom>
     <text name="label" data="round brown shumai" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

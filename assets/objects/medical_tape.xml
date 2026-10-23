@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/medical_tape" texturedir="../mesh/medical_tape" />
   <custom>
     <text name="label" data="roll of white tape" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

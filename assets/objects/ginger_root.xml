@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/ginger_root" texturedir="../mesh/ginger_root" />
   <custom>
     <text name="label" data="ginger root" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

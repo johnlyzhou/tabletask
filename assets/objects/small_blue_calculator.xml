@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_blue_calculator" texturedir="../mesh/small_blue_calculator" />
   <custom>
     <text name="label" data="small blue calculator" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

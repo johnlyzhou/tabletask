@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_long_grey_toothbrush" texturedir="../mesh/large_long_grey_toothbrush" />
   <custom>
     <text name="label" data="large long grey toothbrush" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

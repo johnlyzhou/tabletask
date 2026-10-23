@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/hamster_kitchen_timer" texturedir="../mesh/hamster_kitchen_timer" />
   <custom>
     <text name="label" data="hamster kitchen timer" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

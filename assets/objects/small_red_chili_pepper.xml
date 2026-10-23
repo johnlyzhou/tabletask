@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_red_chili_pepper" texturedir="../mesh/small_red_chili_pepper" />
   <custom>
     <text name="label" data="small red chili pepper" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

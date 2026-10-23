@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_grandmother_doll" texturedir="../mesh/wooden_grandmother_doll" />
   <custom>
     <text name="label" data="wooden grandmother doll" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

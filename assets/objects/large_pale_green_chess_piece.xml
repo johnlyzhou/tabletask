@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_pale_green_chess_piece" texturedir="../mesh/large_pale_green_chess_piece" />
   <custom>
     <text name="label" data="large pale green chess piece" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

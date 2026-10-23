@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pink_rubber_dog_toy" texturedir="../mesh/pink_rubber_dog_toy" />
   <custom>
     <text name="label" data="pink rubber dog toy" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

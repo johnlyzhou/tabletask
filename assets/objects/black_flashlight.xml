@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_flashlight" texturedir="../mesh/black_flashlight" />
   <custom>
     <text name="label" data="black flashlight" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

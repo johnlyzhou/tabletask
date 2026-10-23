@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/chess_white_king" texturedir="../mesh/chess_white_king" />
   <custom>
     <text name="label" data="white king" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/beige_stone" texturedir="../mesh/beige_stone"/>
   <custom>
     <text name="label" data="grey stone" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

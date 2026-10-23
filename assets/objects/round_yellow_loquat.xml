@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_yellow_loquat" texturedir="../mesh/round_yellow_loquat" />
   <custom>
     <text name="label" data="round yellow loquat" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

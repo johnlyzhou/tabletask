@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/oat_bar" texturedir="../mesh/oat_bar" />
   <custom>
     <text name="label" data="oat bar" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/key_lime" texturedir="../mesh/key_lime" />
   <custom>
     <text name="label" data="key lime" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

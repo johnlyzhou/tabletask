@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_dark_blue_wrench" texturedir="../mesh/large_dark_blue_wrench" />
   <custom>
     <text name="label" data="large dark blue wrench" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

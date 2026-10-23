@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_dark_blue_puzzle_cube" texturedir="../mesh/small_dark_blue_puzzle_cube" />
   <custom>
     <text name="label" data="small dark blue puzzle cube" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

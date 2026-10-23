@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_pale_green_egg" texturedir="../mesh/small_pale_green_egg" />
   <custom>
     <text name="label" data="small pale green egg" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

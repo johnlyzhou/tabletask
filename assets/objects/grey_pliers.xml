@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_pliers" texturedir="../mesh/grey_pliers" />
   <custom>
     <text name="label" data="grey pliers" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/condensed_milk_can" texturedir="../mesh/condensed_milk_can" />
   <custom>
     <text name="label" data="can of condensed milk" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

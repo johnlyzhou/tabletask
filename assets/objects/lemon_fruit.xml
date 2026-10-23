@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/lemon_fruit" texturedir="../mesh/lemon_fruit" />
   <custom>
     <text name="label" data="bumpy lemon" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

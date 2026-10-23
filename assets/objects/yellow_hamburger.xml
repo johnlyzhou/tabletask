@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_hamburger" texturedir="../mesh/yellow_hamburger" />
   <custom>
     <text name="label" data="yellow hamburger" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

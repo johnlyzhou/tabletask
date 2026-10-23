@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/can_opener" texturedir="../mesh/can_opener" />
   <custom>
     <text name="label" data="can opener" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

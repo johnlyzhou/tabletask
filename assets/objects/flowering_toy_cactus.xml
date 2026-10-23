@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/flowering_toy_cactus" texturedir="../mesh/flowering_toy_cactus" />
   <custom>
     <text name="label" data="flowering toy cactus" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

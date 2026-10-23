@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_mangosteen" texturedir="../mesh/black_mangosteen" />
   <custom>
     <text name="label" data="black mangosteen" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

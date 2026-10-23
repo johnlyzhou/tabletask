@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_grey_rock" texturedir="../mesh/round_grey_rock" />
   <custom>
     <text name="label" data="round grey rock" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

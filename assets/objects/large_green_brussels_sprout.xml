@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_green_brussels_sprout" texturedir="../mesh/large_green_brussels_sprout" />
   <custom>
     <text name="label" data="large green Brussels sprout" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

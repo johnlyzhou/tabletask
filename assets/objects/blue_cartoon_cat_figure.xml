@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_cartoon_cat_figure" texturedir="../mesh/blue_cartoon_cat_figure" />
   <custom>
     <text name="label" data="blue cartoon cat figure" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

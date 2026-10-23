@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/bowling_pin" texturedir="../mesh/bowling_pin"/>
   <custom>
     <text name="label" data="white bowling pin" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/chunky_toy_fire_truck" texturedir="../mesh/chunky_toy_fire_truck" />
   <custom>
     <text name="label" data="chunky toy fire truck" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

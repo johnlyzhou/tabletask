@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_toy_car" texturedir="../mesh/black_toy_car" />
   <custom>
     <text name="label" data="black toy car" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

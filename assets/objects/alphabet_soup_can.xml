@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/alphabet_soup_can" texturedir="../mesh/alphabet_soup_can" />
   <custom>
     <text name="label" data="can of alphabet soup" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/vintage_lighter" texturedir="../mesh/vintage_lighter" />
   <custom>
     <text name="label" data="vintage lighter" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pink_moon_ball" texturedir="../mesh/pink_moon_ball" />
   <custom>
     <text name="label" data="pink moon ball" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

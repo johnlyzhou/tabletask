@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/striped_apple" texturedir="../mesh/striped_apple" />
   <custom>
     <text name="label" data="striped apple" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

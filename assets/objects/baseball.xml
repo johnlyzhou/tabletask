@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/baseball" texturedir="../mesh/baseball"/>
   <custom>
     <text name="label" data="baseball" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

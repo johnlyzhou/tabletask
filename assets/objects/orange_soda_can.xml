@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/orange_soda_can" texturedir="../mesh/orange_soda_can"/>
   <custom>
     <text name="label" data="can of orange soda" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

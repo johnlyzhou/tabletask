@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pink_highlighter" texturedir="../mesh/pink_highlighter" />
   <custom>
     <text name="label" data="pink highlighter" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

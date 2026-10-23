@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/orange_cream_puff" texturedir="../mesh/orange_cream_puff" />
   <custom>
     <text name="label" data="orange cream puff" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

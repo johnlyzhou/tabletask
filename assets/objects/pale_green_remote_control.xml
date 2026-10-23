@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pale_green_remote_control" texturedir="../mesh/pale_green_remote_control" />
   <custom>
     <text name="label" data="pale green remote control" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

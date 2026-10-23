@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/long_orange_sausage" texturedir="../mesh/long_orange_sausage" />
   <custom>
     <text name="label" data="long orange sausage" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_glasses_case" texturedir="../mesh/black_glasses_case" />
   <custom>
     <text name="label" data="black glasses case" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

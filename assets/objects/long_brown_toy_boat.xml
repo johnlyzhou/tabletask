@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/long_brown_toy_boat" texturedir="../mesh/long_brown_toy_boat" />
   <custom>
     <text name="label" data="long brown toy boat" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

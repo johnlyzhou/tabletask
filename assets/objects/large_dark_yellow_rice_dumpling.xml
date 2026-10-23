@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_dark_yellow_rice_dumpling" texturedir="../mesh/large_dark_yellow_rice_dumpling" />
   <custom>
     <text name="label" data="large dark yellow rice dumpling" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

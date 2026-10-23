@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/box_of_latte_pods" texturedir="../mesh/box_of_latte_pods" />
   <custom>
     <text name="label" data="box of latte pods" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

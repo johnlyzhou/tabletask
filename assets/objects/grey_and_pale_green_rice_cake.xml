@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_and_pale_green_rice_cake" texturedir="../mesh/grey_and_pale_green_rice_cake" />
   <custom>
     <text name="label" data="grey and pale green rice cake" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

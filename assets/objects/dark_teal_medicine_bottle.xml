@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_teal_medicine_bottle" texturedir="../mesh/dark_teal_medicine_bottle" />
   <custom>
     <text name="label" data="dark teal medicine bottle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

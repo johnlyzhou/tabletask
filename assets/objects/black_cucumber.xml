@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_cucumber" texturedir="../mesh/black_cucumber" />
   <custom>
     <text name="label" data="black cucumber" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

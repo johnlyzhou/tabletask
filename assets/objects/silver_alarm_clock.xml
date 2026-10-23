@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/silver_alarm_clock" texturedir="../mesh/silver_alarm_clock" />
   <custom>
     <text name="label" data="silver alarm clock" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

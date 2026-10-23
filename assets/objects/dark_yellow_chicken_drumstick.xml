@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_yellow_chicken_drumstick" texturedir="../mesh/dark_yellow_chicken_drumstick" />
   <custom>
     <text name="label" data="dark yellow chicken drumstick" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pink_yellow_padlock" texturedir="../mesh/pink_yellow_padlock" />
   <custom>
     <text name="label" data="pink and yellow padlock" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

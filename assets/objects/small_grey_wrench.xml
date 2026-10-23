@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_grey_wrench" texturedir="../mesh/small_grey_wrench" />
   <custom>
     <text name="label" data="small grey wrench" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

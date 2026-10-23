@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_cup" texturedir="../mesh/grey_cup" />
   <custom>
     <text name="label" data="grey cup" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

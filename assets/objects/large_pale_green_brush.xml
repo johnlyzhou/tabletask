@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_pale_green_brush" texturedir="../mesh/large_pale_green_brush" />
   <custom>
     <text name="label" data="large pale green brush" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

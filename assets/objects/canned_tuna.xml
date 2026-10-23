@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/canned_tuna" texturedir="../mesh/canned_tuna" />
   <custom>
     <text name="label" data="large tin can" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/honey_dipper" texturedir="../mesh/honey_dipper" />
   <custom>
     <text name="label" data="honey dipper" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

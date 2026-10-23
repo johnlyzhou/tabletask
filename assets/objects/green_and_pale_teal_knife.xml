@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_and_pale_teal_knife" texturedir="../mesh/green_and_pale_teal_knife" />
   <custom>
     <text name="label" data="green and pale teal knife" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

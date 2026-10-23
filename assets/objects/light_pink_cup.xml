@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/light_pink_cup" texturedir="../mesh/light_pink_cup" />
   <custom>
     <text name="label" data="light pink cup" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

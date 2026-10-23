@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_jujube" texturedir="../mesh/black_jujube" />
   <custom>
     <text name="label" data="black jujube" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

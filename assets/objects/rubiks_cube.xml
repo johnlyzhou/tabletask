@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/rubiks_cube" texturedir="../mesh/rubiks_cube" />
   <custom>
     <text name="label" data="Rubik's cube" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

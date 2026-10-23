@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/flathead_screwdriver" texturedir="../mesh/flathead_screwdriver" />
   <custom>
     <text name="label" data="flathead screwdriver" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -383,6 +383,10 @@ and the rest were written here.
   0.25–0.85, value 0.45–0.95), unless the scene's `appearance.vary` is false. Leave colour words
   out of its label. `plain_plate`, `plain_bowl`, `plain_mug`, `plain_tray`, `plain_bucket`
   and `plain_jug` are free-colour variants that share another asset's meshes.
+- An asset declares what tasks may use it for as `<text name="tags" data="pickable"/>` in the
+  same `<custom>`, words separated by spaces: `pickable` (one hand grasps and lifts it; the
+  pick-max pool) and `container` (a bowl, tray, plate or bin that things are put in). An asset
+  with no tag is neither.
 - Regions are geoms named `place:<region>` in class `place`, inside the body:
   `place:inside` (the cavity), `place:top` (where something rests on it) and
   `place:bounds` (a box around the visible mesh). Any other name is a custom

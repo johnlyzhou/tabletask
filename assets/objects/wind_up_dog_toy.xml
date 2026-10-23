@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wind_up_dog_toy" texturedir="../mesh/wind_up_dog_toy" />
   <custom>
     <text name="label" data="wind-up dog toy" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/gold_wrapped_chocolate" texturedir="../mesh/gold_wrapped_chocolate" />
   <custom>
     <text name="label" data="gold-wrapped chocolate" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/rubber_duck" texturedir="../mesh/rubber_duck" />
   <custom>
     <text name="label" data="rubber duck" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

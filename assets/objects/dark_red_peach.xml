@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_red_peach" texturedir="../mesh/dark_red_peach" />
   <custom>
     <text name="label" data="dark red peach" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

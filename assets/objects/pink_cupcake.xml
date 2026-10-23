@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/pink_cupcake" texturedir="../mesh/pink_cupcake"/>
   <custom>
     <text name="label" data="white frosted cupcake" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

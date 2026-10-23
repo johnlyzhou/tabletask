@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_brush" texturedir="../mesh/brown_brush" />
   <custom>
     <text name="label" data="brown brush" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

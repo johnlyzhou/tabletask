@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/oval_herring_tin" texturedir="../mesh/oval_herring_tin" />
   <custom>
     <text name="label" data="oval herring tin" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

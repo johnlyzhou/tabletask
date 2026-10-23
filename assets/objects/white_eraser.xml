@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_eraser" texturedir="../mesh/white_eraser" />
   <custom>
     <text name="label" data="white eraser" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/mushroom_toothpick_holder" texturedir="../mesh/mushroom_toothpick_holder" />
   <custom>
     <text name="label" data="mushroom toothpick holder" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

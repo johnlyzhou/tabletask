@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/beige_pistachio" texturedir="../mesh/beige_pistachio" />
   <custom>
     <text name="label" data="beige pistachio" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

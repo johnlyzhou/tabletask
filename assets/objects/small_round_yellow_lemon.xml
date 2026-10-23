@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_round_yellow_lemon" texturedir="../mesh/small_round_yellow_lemon" />
   <custom>
     <text name="label" data="small round yellow lemon" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

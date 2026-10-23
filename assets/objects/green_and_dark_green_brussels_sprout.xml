@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_and_dark_green_brussels_sprout" texturedir="../mesh/green_and_dark_green_brussels_sprout" />
   <custom>
     <text name="label" data="green and dark green Brussels sprout" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

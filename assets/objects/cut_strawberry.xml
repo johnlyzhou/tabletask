@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cut_strawberry" texturedir="../mesh/cut_strawberry" />
   <custom>
     <text name="label" data="cut strawberry" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

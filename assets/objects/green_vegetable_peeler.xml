@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_vegetable_peeler" texturedir="../mesh/green_vegetable_peeler" />
   <custom>
     <text name="label" data="green vegetable peeler" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

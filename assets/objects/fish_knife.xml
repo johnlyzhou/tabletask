@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/fish_knife" texturedir="../mesh/fish_knife" />
   <custom>
     <text name="label" data="fish knife" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

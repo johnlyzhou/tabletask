@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/white_bishop" texturedir="../mesh/white_bishop"/>
   <custom>
     <text name="label" data="white bishop" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/orange_magnet" texturedir="../mesh/orange_magnet" />
   <custom>
     <text name="label" data="orange magnet" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

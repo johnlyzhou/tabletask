@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_brown_toy_house" texturedir="../mesh/round_brown_toy_house" />
   <custom>
     <text name="label" data="round brown toy house" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

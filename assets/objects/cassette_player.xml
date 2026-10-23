@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cassette_player" texturedir="../mesh/cassette_player" />
   <custom>
     <text name="label" data="cassette player" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

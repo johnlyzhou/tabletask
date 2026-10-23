@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/tomato" texturedir="../mesh/tomato" />
   <custom>
     <text name="label" data="tomato" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

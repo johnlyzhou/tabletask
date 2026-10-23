@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/spam_can" texturedir="../mesh/spam_can" />
   <custom>
     <text name="label" data="can of Spam" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

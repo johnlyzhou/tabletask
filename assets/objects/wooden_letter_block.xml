@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_letter_block" texturedir="../mesh/wooden_letter_block" />
   <custom>
     <text name="label" data="wooden letter block" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_black_razor" texturedir="../mesh/large_black_razor" />
   <custom>
     <text name="label" data="large black razor" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/purple_mouse" texturedir="../mesh/purple_mouse"/>
   <custom>
     <text name="label" data="purple mouse" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

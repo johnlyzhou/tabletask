@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_plug_adapter" texturedir="../mesh/grey_plug_adapter" />
   <custom>
     <text name="label" data="grey plug adapter" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

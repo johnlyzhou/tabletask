@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/d_cell_battery" texturedir="../mesh/d_cell_battery" />
   <custom>
     <text name="label" data="large battery" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

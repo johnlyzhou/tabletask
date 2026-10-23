@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_external_hard_drive" texturedir="../mesh/white_external_hard_drive" />
   <custom>
     <text name="label" data="white external hard drive" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/doll_scene" texturedir="../mesh/doll_scene" />
   <custom>
     <text name="label" data="knife" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

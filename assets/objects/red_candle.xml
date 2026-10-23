@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/red_candle" texturedir="../mesh/red_candle" />
   <custom>
     <text name="label" data="red candle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/snail_tape_measure_toy" texturedir="../mesh/snail_tape_measure_toy" />
   <custom>
     <text name="label" data="snail tape measure toy" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

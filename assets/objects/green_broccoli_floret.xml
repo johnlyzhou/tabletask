@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_broccoli_floret" texturedir="../mesh/green_broccoli_floret" />
   <custom>
     <text name="label" data="green broccoli floret" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

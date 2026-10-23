@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/glazed_bread_roll" texturedir="../mesh/glazed_bread_roll" />
   <custom>
     <text name="label" data="glazed bread roll" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

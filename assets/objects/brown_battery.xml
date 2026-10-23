@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_battery" texturedir="../mesh/brown_battery" />
   <custom>
     <text name="label" data="brown battery" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_toy_crocodile" texturedir="../mesh/green_toy_crocodile" />
   <custom>
     <text name="label" data="green toy crocodile" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

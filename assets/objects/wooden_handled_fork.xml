@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_handled_fork" texturedir="../mesh/wooden_handled_fork"/>
   <custom>
     <text name="label" data="fork with a wooden handle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

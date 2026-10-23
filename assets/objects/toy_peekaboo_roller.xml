@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_peekaboo_roller" texturedir="../mesh/toy_peekaboo_roller" />
   <custom>
     <text name="label" data="toy peekaboo roller" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

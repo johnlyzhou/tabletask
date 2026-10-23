@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pen_holder" texturedir="../mesh/pen_holder" />
   <custom>
     <text name="label" data="crab pen holder" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

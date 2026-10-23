@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/pill_bottle" texturedir="../mesh/pill_bottle"/>
   <custom>
     <text name="label" data="pill bottle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

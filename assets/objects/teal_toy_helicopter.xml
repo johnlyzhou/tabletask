@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/teal_toy_helicopter" texturedir="../mesh/teal_toy_helicopter" />
   <custom>
     <text name="label" data="teal toy helicopter" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

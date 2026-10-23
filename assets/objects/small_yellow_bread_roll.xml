@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_yellow_bread_roll" texturedir="../mesh/small_yellow_bread_roll" />
   <custom>
     <text name="label" data="small yellow bread roll" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

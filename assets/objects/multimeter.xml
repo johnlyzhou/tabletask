@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/multimeter" texturedir="../mesh/multimeter" />
   <custom>
     <text name="label" data="multimeter" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_tennis_ball" texturedir="../mesh/yellow_tennis_ball"/>
   <custom>
     <text name="label" data="yellow tennis ball" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

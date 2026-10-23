@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/drain_cleaner" texturedir="../mesh/drain_cleaner" />
   <custom>
     <text name="label" data="drain cleaner bottle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

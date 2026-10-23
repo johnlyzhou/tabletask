@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/box_of_printer_ink" texturedir="../mesh/box_of_printer_ink" />
   <custom>
     <text name="label" data="box of printer ink" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

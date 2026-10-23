@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/can_of_beans" texturedir="../mesh/can_of_beans" />
   <custom>
     <text name="label" data="can of beans" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

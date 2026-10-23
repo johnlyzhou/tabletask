@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_blue_soda_can" texturedir="../mesh/dark_blue_soda_can" />
   <custom>
     <text name="label" data="dark blue soda can" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

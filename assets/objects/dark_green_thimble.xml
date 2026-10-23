@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dark_green_thimble" texturedir="../mesh/dark_green_thimble" />
   <custom>
     <text name="label" data="dark green thimble" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

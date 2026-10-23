@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/flat_rock" texturedir="../mesh/flat_rock" />
   <custom>
     <text name="label" data="flat rock" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

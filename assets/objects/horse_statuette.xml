@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/horse_statuette" texturedir="../mesh/horse_statuette" />
   <custom>
     <text name="label" data="horse statuette" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

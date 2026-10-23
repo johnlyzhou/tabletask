@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_twisty_puzzle" texturedir="../mesh/blue_twisty_puzzle" />
   <custom>
     <text name="label" data="blue twisty puzzle" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

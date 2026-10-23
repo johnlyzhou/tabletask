@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/granola_bars" texturedir="../mesh/granola_bars" />
   <custom>
     <text name="label" data="box of granola bars" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

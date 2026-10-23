@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/fire_alarm_station" texturedir="../mesh/fire_alarm_station" />
   <custom>
     <text name="label" data="fire alarm pull station" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

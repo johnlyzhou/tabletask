@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_dumbbell" texturedir="../mesh/green_dumbbell" />
   <custom>
     <text name="label" data="yellow dumbbell" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

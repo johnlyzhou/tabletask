@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/big_spoon" texturedir="../mesh/big_spoon" />
   <custom>
     <text name="label" data="large spoon" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

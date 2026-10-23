@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/marbled_egg" texturedir="../mesh/marbled_egg" />
   <custom>
     <text name="label" data="marbled egg" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

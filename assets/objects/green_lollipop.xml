@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_lollipop" texturedir="../mesh/green_lollipop" />
   <custom>
     <text name="label" data="green lollipop" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

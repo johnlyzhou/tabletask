@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_dark_pink_onion" texturedir="../mesh/round_dark_pink_onion" />
   <custom>
     <text name="label" data="round dark pink onion" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

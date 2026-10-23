@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yogurt_cup" texturedir="../mesh/yogurt_cup" />
   <custom>
     <text name="label" data="cup of yogurt" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

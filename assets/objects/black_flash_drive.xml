@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_flash_drive" texturedir="../mesh/black_flash_drive" />
   <custom>
     <text name="label" data="black flash drive" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

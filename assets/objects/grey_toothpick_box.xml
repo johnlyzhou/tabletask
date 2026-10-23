@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_toothpick_box" texturedir="../mesh/grey_toothpick_box" />
   <custom>
     <text name="label" data="grey toothpick box" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

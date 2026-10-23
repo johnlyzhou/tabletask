@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/oil_can" texturedir="../mesh/oil_can" />
   <custom>
     <text name="label" data="oil can with a spout" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

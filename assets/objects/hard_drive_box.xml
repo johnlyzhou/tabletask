@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/hard_drive_box" texturedir="../mesh/hard_drive_box" />
   <custom>
     <text name="label" data="hard drive box" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

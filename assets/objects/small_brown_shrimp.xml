@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_brown_shrimp" texturedir="../mesh/small_brown_shrimp" />
   <custom>
     <text name="label" data="small brown shrimp" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

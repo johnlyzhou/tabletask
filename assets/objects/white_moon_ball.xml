@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_moon_ball" texturedir="../mesh/white_moon_ball" />
   <custom>
     <text name="label" data="white moon ball" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

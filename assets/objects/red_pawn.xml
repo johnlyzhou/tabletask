@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/red_pawn" texturedir="../mesh/red_pawn"/>
   <custom>
     <text name="label" data="red pawn" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

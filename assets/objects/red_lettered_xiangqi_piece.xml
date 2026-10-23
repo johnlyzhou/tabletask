@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/red_lettered_xiangqi_piece" texturedir="../mesh/red_lettered_xiangqi_piece" />
   <custom>
     <text name="label" data="red-lettered xiangqi piece" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_scissors" texturedir="../mesh/grey_scissors" />
   <custom>
     <text name="label" data="grey scissors" />
+    <text name="tags" data="pickable" />
   </custom>
   <default>
     <default class="place">
