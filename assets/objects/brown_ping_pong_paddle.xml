@@ -28,7 +28,7 @@
       <geom type="mesh" mesh="brown_ping_pong_paddle_hull_01" rgba="0 0 0 0" group="3" mass="0.0228004012" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="brown_ping_pong_paddle_hull_02" rgba="0 0 0 0" group="3" mass="0.0247137472" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="brown_ping_pong_paddle_hull_03" rgba="0 0 0 0" group="3" mass="0.00250527741" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0109 0.0754 0.1276" pos="0.0000 0.0000 0.1276" />
+      <geom name="place:bounds" class="place" type="box" size="0.1275 0.0754 0.0116" pos="0.0000 0.0000 0.0116" />
       <geom name="place:top" class="place" type="mesh" mesh="brown_ping_pong_paddle_top" />
     </body>
   </worldbody>

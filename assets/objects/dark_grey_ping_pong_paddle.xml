@@ -35,7 +35,7 @@
       <geom type="mesh" mesh="dark_grey_ping_pong_paddle_hull_05" rgba="0 0 0 0" group="3" mass="0.0421775934" condim="4" friction="0.9 0.01 0.002" />
       <geom type="mesh" mesh="dark_grey_ping_pong_paddle_hull_06" rgba="0 0 0 0" group="3" mass="0.00172543531" condim="4" friction="0.9 0.01 0.002" />
       <geom type="mesh" mesh="dark_grey_ping_pong_paddle_hull_07" rgba="0 0 0 0" group="3" mass="0.0136518984" condim="4" friction="0.9 0.01 0.002" />
-      <geom name="place:bounds" class="place" type="box" size="0.0113 0.0761 0.1266" pos="0.0000 0.0000 0.1266" />
+      <geom name="place:bounds" class="place" type="box" size="0.1265 0.0761 0.0124" pos="0.0000 0.0000 0.0124" />
     </body>
   </worldbody>
 </mujoco>

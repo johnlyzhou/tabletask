@@ -30,7 +30,7 @@
       <geom type="mesh" mesh="dark_green_wallet_hull_02" rgba="0 0 0 0" group="3" mass="0.00862001252" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_green_wallet_hull_03" rgba="0 0 0 0" group="3" mass="0.0398484292" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_green_wallet_hull_04" rgba="0 0 0 0" group="3" mass="0.00755533093" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0141 0.0506 0.0952" pos="0.0000 0.0000 0.0952" />
+      <geom name="place:bounds" class="place" type="box" size="0.0952 0.0506 0.0132" pos="0.0000 0.0000 0.0132" />
       <geom name="place:top" class="place" type="mesh" mesh="dark_green_wallet_top" />
     </body>
   </worldbody>

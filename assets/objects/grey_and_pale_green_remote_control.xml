@@ -24,7 +24,7 @@
       <geom type="mesh" mesh="grey_and_pale_green_remote_control_0_mesh" material="grey_and_pale_green_remote_control_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="grey_and_pale_green_remote_control_hull_00" rgba="0 0 0 0" group="3" mass="0.066844846" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="grey_and_pale_green_remote_control_hull_01" rgba="0 0 0 0" group="3" mass="0.00315515404" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0095 0.0286 0.0676" pos="0.0000 0.0000 0.0676" />
+      <geom name="place:bounds" class="place" type="box" size="0.0676 0.0286 0.0097" pos="0.0000 0.0000 0.0097" />
       <geom name="place:top" class="place" type="mesh" mesh="grey_and_pale_green_remote_control_top" />
     </body>
   </worldbody>

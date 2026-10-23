@@ -53,7 +53,7 @@
       <geom type="mesh" mesh="peach_half_hull_14" rgba="0 0 0 0" group="3" mass="0.000555916041" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="peach_half_hull_15" rgba="0 0 0 0" group="3" mass="0.00272554125" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="peach_half_hull_16" rgba="0 0 0 0" group="3" mass="0.00302760693" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0223 0.0227 0.0379" pos="0.0000 0.0000 0.0379" />
+      <geom name="place:bounds" class="place" type="box" size="0.0379 0.0236 0.0209" pos="0.0000 0.0000 0.0209" />
     </body>
   </worldbody>
 </mujoco>

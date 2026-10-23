@@ -35,7 +35,7 @@
       <geom type="mesh" mesh="gold_wrapped_chocolate_hull_05" rgba="0 0 0 0" group="3" mass="2.71299241e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="gold_wrapped_chocolate_hull_06" rgba="0 0 0 0" group="3" mass="3.22261873e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="gold_wrapped_chocolate_hull_07" rgba="0 0 0 0" group="3" mass="0.00141833764" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0082 0.0081 0.0225" pos="0.0000 0.0000 0.0225" />
+      <geom name="place:bounds" class="place" type="box" size="0.0082 0.0224 0.0081" pos="0.0000 0.0000 0.0081" />
     </body>
   </worldbody>
 </mujoco>

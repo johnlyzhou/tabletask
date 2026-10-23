@@ -78,7 +78,7 @@
       <geom type="mesh" mesh="grey_pink_flashlight_hull_26" rgba="0 0 0 0" group="3" mass="0.00123489276" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="grey_pink_flashlight_hull_27" rgba="0 0 0 0" group="3" mass="0.0011581454" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="grey_pink_flashlight_hull_28" rgba="0 0 0 0" group="3" mass="0.0144871734" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0388 0.0389 0.1146" pos="0.0000 0.0000 0.1146" />
+      <geom name="place:bounds" class="place" type="box" size="0.1146 0.0432 0.0368" pos="0.0000 0.0000 0.0368" />
       <geom name="place:top" class="place" type="mesh" mesh="grey_pink_flashlight_top" />
     </body>
   </worldbody>

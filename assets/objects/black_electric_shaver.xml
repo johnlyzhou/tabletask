@@ -38,7 +38,7 @@
       <geom type="mesh" mesh="black_electric_shaver_hull_06" rgba="0 0 0 0" group="3" mass="0.00498585401" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="black_electric_shaver_hull_07" rgba="0 0 0 0" group="3" mass="0.0119979264" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="black_electric_shaver_hull_08" rgba="0 0 0 0" group="3" mass="0.00688465659" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0172 0.0277 0.0475" pos="0.0000 0.0000 0.0475" />
+      <geom name="place:bounds" class="place" type="box" size="0.0478 0.0277 0.0159" pos="0.0000 0.0000 0.0159" />
       <geom name="place:top" class="place" type="mesh" mesh="black_electric_shaver_top" />
     </body>
   </worldbody>

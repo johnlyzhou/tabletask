@@ -41,7 +41,7 @@
       <geom type="mesh" mesh="dark_grey_scissors_hull_08" rgba="0 0 0 0" group="3" mass="0.00315317751" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_grey_scissors_hull_09" rgba="0 0 0 0" group="3" mass="0.00486753702" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_grey_scissors_hull_10" rgba="0 0 0 0" group="3" mass="0.00294590059" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0067 0.0355 0.0892" pos="0.0000 0.0000 0.0892" />
+      <geom name="place:bounds" class="place" type="box" size="0.0892 0.0356 0.0068" pos="0.0000 0.0000 0.0068" />
     </body>
   </worldbody>
 </mujoco>

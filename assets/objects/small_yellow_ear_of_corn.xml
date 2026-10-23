@@ -30,7 +30,7 @@
       <geom type="mesh" mesh="small_yellow_ear_of_corn_hull_02" rgba="0 0 0 0" group="3" mass="0.0180465507" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="small_yellow_ear_of_corn_hull_03" rgba="0 0 0 0" group="3" mass="0.0369601331" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="small_yellow_ear_of_corn_hull_04" rgba="0 0 0 0" group="3" mass="0.00761938931" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0289 0.0295 0.0783" pos="0.0000 0.0000 0.0783" />
+      <geom name="place:bounds" class="place" type="box" size="0.0788 0.0295 0.0290" pos="0.0000 0.0000 0.0290" />
       <geom name="place:top" class="place" type="mesh" mesh="small_yellow_ear_of_corn_top" />
     </body>
   </worldbody>

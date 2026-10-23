@@ -32,7 +32,7 @@
       <geom type="mesh" mesh="dark_green_remote_control_hull_03" rgba="0 0 0 0" group="3" mass="0.00973858504" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_green_remote_control_hull_04" rgba="0 0 0 0" group="3" mass="0.00528385118" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_green_remote_control_hull_05" rgba="0 0 0 0" group="3" mass="0.0024232188" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0099 0.0296 0.0682" pos="0.0000 0.0000 0.0682" />
+      <geom name="place:bounds" class="place" type="box" size="0.0682 0.0295 0.0091" pos="0.0000 0.0000 0.0091" />
       <geom name="place:top" class="place" type="mesh" mesh="dark_green_remote_control_top" />
     </body>
   </worldbody>

@@ -52,7 +52,7 @@
       <geom type="mesh" mesh="blue_razor_hull_13" rgba="0 0 0 0" group="3" mass="0.00157433874" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="blue_razor_hull_14" rgba="0 0 0 0" group="3" mass="0.00180199972" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="blue_razor_hull_15" rgba="0 0 0 0" group="3" mass="0.00250489456" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0101 0.0197 0.0614" pos="0.0000 0.0000 0.0614" />
+      <geom name="place:bounds" class="place" type="box" size="0.0612 0.0156 0.0148" pos="0.0000 0.0000 0.0148" />
       <geom name="place:top" class="place" type="mesh" mesh="blue_razor_top" />
     </body>
   </worldbody>

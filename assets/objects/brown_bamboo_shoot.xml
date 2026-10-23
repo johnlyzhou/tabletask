@@ -43,7 +43,7 @@
       <geom type="mesh" mesh="brown_bamboo_shoot_hull_09" rgba="0 0 0 0" group="3" mass="0.00789533605" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="brown_bamboo_shoot_hull_10" rgba="0 0 0 0" group="3" mass="0.0168187828" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="brown_bamboo_shoot_hull_11" rgba="0 0 0 0" group="3" mass="0.0242495674" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0348 0.0314 0.1241" pos="0.0000 0.0000 0.1241" />
+      <geom name="place:bounds" class="place" type="box" size="0.0354 0.1244 0.0327" pos="0.0000 0.0000 0.0327" />
     </body>
   </worldbody>
 </mujoco>
