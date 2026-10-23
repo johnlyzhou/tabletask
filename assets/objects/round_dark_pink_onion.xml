@@ -23,7 +23,7 @@
       <geom type="mesh" mesh="round_dark_pink_onion_0_mesh" material="round_dark_pink_onion_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="round_dark_pink_onion_hull_00" rgba="0 0 0 0" group="3" mass="0.00446447247" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="round_dark_pink_onion_hull_01" rgba="0 0 0 0" group="3" mass="0.188535528" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0387 0.0377 0.0437" pos="0.0000 0.0000 0.0437" />
+      <geom name="place:bounds" class="place" type="box" size="0.0381 0.0377 0.0424" pos="0.0000 0.0000 0.0424" />
     </body>
   </worldbody>
 </mujoco>

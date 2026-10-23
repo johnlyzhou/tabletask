@@ -21,7 +21,7 @@
     <body name="pale_green_and_dark_green_egg">
       <geom type="mesh" mesh="pale_green_and_dark_green_egg_0_mesh" material="pale_green_and_dark_green_egg_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="pale_green_and_dark_green_egg_hull_00" rgba="0 0 0 0" group="3" mass="0.067" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0228 0.0223 0.0312" pos="0.0000 0.0000 0.0312" />
+      <geom name="place:bounds" class="place" type="box" size="0.0228 0.0311 0.0225" pos="0.0000 0.0000 0.0225" />
     </body>
   </worldbody>
 </mujoco>

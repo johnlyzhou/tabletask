@@ -23,7 +23,7 @@
       <geom type="mesh" mesh="dark_green_and_green_sword_bean_0_mesh" material="dark_green_and_green_sword_bean_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="dark_green_and_green_sword_bean_hull_00" rgba="0 0 0 0" group="3" mass="0.00226993665" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_green_and_green_sword_bean_hull_01" rgba="0 0 0 0" group="3" mass="0.00673006335" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0436 0.0127 0.0205" pos="0.0000 0.0000 0.0205" />
+      <geom name="place:bounds" class="place" type="box" size="0.0460 0.0092 0.0060" pos="0.0000 0.0000 0.0060" />
     </body>
   </worldbody>
 </mujoco>

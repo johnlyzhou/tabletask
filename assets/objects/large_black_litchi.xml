@@ -45,7 +45,7 @@
       <geom type="mesh" mesh="large_black_litchi_hull_10" rgba="0 0 0 0" group="3" mass="4.18692804e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_black_litchi_hull_11" rgba="0 0 0 0" group="3" mass="4.18692804e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_black_litchi_hull_12" rgba="0 0 0 0" group="3" mass="4.96119122e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0171 0.0186 0.0177" pos="0.0000 0.0000 0.0177" />
+      <geom name="place:bounds" class="place" type="box" size="0.0173 0.0181 0.0172" pos="0.0000 0.0000 0.0172" />
     </body>
   </worldbody>
 </mujoco>

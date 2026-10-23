@@ -23,7 +23,7 @@
       <geom type="mesh" mesh="large_dark_blue_wrench_0_mesh" material="large_dark_blue_wrench_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="large_dark_blue_wrench_hull_00" rgba="0 0 0 0" group="3" mass="0.160113701" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_dark_blue_wrench_hull_01" rgba="0 0 0 0" group="3" mass="0.214886299" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0073 0.0279 0.1272" pos="0.0000 0.0000 0.1272" />
+      <geom name="place:bounds" class="place" type="box" size="0.1227 0.0523 0.0073" pos="0.0000 0.0000 0.0073" />
     </body>
   </worldbody>
 </mujoco>

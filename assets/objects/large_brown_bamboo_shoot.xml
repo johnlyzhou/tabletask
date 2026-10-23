@@ -21,7 +21,7 @@
     <body name="large_brown_bamboo_shoot">
       <geom type="mesh" mesh="large_brown_bamboo_shoot_0_mesh" material="large_brown_bamboo_shoot_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="large_brown_bamboo_shoot_hull_00" rgba="0 0 0 0" group="3" mass="0.213" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.1249 0.0241 0.0277" pos="0.0000 0.0000 0.0277" />
+      <geom name="place:bounds" class="place" type="box" size="0.1254 0.0234 0.0232" pos="0.0000 0.0000 0.0232" />
     </body>
   </worldbody>
 </mujoco>

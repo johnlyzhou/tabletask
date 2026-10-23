@@ -33,7 +33,7 @@
       <geom type="mesh" mesh="long_dark_orange_chicken_drumstick_hull_04" rgba="0 0 0 0" group="3" mass="0.0211417502" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="long_dark_orange_chicken_drumstick_hull_05" rgba="0 0 0 0" group="3" mass="0.0181097149" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="long_dark_orange_chicken_drumstick_hull_06" rgba="0 0 0 0" group="3" mass="0.0230222057" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0185 0.0225 0.0605" pos="0.0000 0.0000 0.0605" />
+      <geom name="place:bounds" class="place" type="box" size="0.0192 0.0606 0.0224" pos="0.0000 0.0000 0.0224" />
     </body>
   </worldbody>
 </mujoco>

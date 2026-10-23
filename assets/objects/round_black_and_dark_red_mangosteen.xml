@@ -39,7 +39,7 @@
       <geom type="mesh" mesh="round_black_and_dark_red_mangosteen_hull_07" rgba="0 0 0 0" group="3" mass="0.00260228763" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="round_black_and_dark_red_mangosteen_hull_08" rgba="0 0 0 0" group="3" mass="0.00100103731" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="round_black_and_dark_red_mangosteen_hull_09" rgba="0 0 0 0" group="3" mass="0.00165939068" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0299 0.0306 0.0339" pos="0.0000 0.0000 0.0339" />
+      <geom name="place:bounds" class="place" type="box" size="0.0313 0.0306 0.0336" pos="0.0000 0.0000 0.0336" />
     </body>
   </worldbody>
 </mujoco>

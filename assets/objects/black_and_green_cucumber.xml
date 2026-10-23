@@ -24,7 +24,7 @@
       <geom type="mesh" mesh="black_and_green_cucumber_0_mesh" material="black_and_green_cucumber_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="black_and_green_cucumber_hull_00" rgba="0 0 0 0" group="3" mass="0.00659232162" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="black_and_green_cucumber_hull_01" rgba="0 0 0 0" group="3" mass="0.0154076784" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0434 0.0147 0.0105" pos="0.0000 0.0000 0.0105" />
+      <geom name="place:bounds" class="place" type="box" size="0.0435 0.0145 0.0089" pos="0.0000 0.0000 0.0089" />
       <geom name="place:top" class="place" type="mesh" mesh="black_and_green_cucumber_top" />
     </body>
   </worldbody>

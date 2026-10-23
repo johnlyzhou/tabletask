@@ -73,7 +73,7 @@
       <geom type="mesh" mesh="pale_green_fork_hull_24" rgba="0 0 0 0" group="3" mass="0.00370041601" condim="4" friction="0.9 0.01 0.002" />
       <geom type="mesh" mesh="pale_green_fork_hull_25" rgba="0 0 0 0" group="3" mass="0.00151047866" condim="4" friction="0.9 0.01 0.002" />
       <geom type="mesh" mesh="pale_green_fork_hull_26" rgba="0 0 0 0" group="3" mass="0.00181175398" condim="4" friction="0.9 0.01 0.002" />
-      <geom name="place:bounds" class="place" type="box" size="0.0125 0.0113 0.0728" pos="0.0000 0.0000 0.0728" />
+      <geom name="place:bounds" class="place" type="box" size="0.0696 0.0328 0.0093" pos="0.0000 0.0000 0.0093" />
     </body>
   </worldbody>
 </mujoco>

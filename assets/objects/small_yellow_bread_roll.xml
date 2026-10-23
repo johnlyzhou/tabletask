@@ -51,7 +51,7 @@
       <geom type="mesh" mesh="small_yellow_bread_roll_hull_13" rgba="0 0 0 0" group="3" mass="1.79597915e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="small_yellow_bread_roll_hull_14" rgba="0 0 0 0" group="3" mass="1.79597915e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="small_yellow_bread_roll_hull_15" rgba="0 0 0 0" group="3" mass="3.62500745e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0168 0.0293 0.0168" pos="0.0000 0.0000 0.0168" />
+      <geom name="place:bounds" class="place" type="box" size="0.0232 0.0277 0.0150" pos="0.0000 0.0000 0.0150" />
     </body>
   </worldbody>
 </mujoco>

@@ -27,7 +27,7 @@
       <geom type="mesh" mesh="grey_and_dark_grey_computer_mouse_hull_01" rgba="0 0 0 0" group="3" mass="0.0132909922" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="grey_and_dark_grey_computer_mouse_hull_02" rgba="0 0 0 0" group="3" mass="0.00463527691" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="grey_and_dark_grey_computer_mouse_hull_03" rgba="0 0 0 0" group="3" mass="0.00450653353" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0210 0.0371 0.0576" pos="0.0000 0.0000 0.0576" />
+      <geom name="place:bounds" class="place" type="box" size="0.0430 0.0545 0.0212" pos="0.0000 0.0000 0.0212" />
     </body>
   </worldbody>
 </mujoco>

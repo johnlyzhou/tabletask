@@ -26,7 +26,7 @@
       <geom type="mesh" mesh="pale_teal_remote_control_hull_00" rgba="0 0 0 0" group="3" mass="0.0481089212" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="pale_teal_remote_control_hull_01" rgba="0 0 0 0" group="3" mass="0.00611714993" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="pale_teal_remote_control_hull_02" rgba="0 0 0 0" group="3" mass="0.00577392884" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0131 0.0238 0.0674" pos="0.0000 0.0000 0.0674" />
+      <geom name="place:bounds" class="place" type="box" size="0.0677 0.0245 0.0116" pos="0.0000 0.0000 0.0116" />
       <geom name="place:top" class="place" type="mesh" mesh="pale_teal_remote_control_top" />
     </body>
   </worldbody>

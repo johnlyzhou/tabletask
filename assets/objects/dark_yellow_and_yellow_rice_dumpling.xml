@@ -31,7 +31,7 @@
       <geom type="mesh" mesh="dark_yellow_and_yellow_rice_dumpling_hull_03" rgba="0 0 0 0" group="3" mass="0.0362928846" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_yellow_and_yellow_rice_dumpling_hull_04" rgba="0 0 0 0" group="3" mass="0.00299859288" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_yellow_and_yellow_rice_dumpling_hull_05" rgba="0 0 0 0" group="3" mass="0.00151742989" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0225 0.0519 0.0489" pos="0.0000 0.0000 0.0489" />
+      <geom name="place:bounds" class="place" type="box" size="0.0413 0.0658 0.0237" pos="0.0000 0.0000 0.0237" />
     </body>
   </worldbody>
 </mujoco>

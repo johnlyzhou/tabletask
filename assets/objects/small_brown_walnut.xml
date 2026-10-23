@@ -23,7 +23,7 @@
       <geom type="mesh" mesh="small_brown_walnut_0_mesh" material="small_brown_walnut_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="small_brown_walnut_hull_00" rgba="0 0 0 0" group="3" mass="0.00259072069" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="small_brown_walnut_hull_01" rgba="0 0 0 0" group="3" mass="0.00540927931" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0152 0.0151 0.0153" pos="0.0000 0.0000 0.0153" />
+      <geom name="place:bounds" class="place" type="box" size="0.0153 0.0156 0.0150" pos="0.0000 0.0000 0.0150" />
     </body>
   </worldbody>
 </mujoco>

@@ -24,7 +24,7 @@
       <geom type="mesh" mesh="beige_xiangqi_piece_0_mesh" material="beige_xiangqi_piece_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="beige_xiangqi_piece_hull_00" rgba="0 0 0 0" group="3" mass="0.00355727055" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="beige_xiangqi_piece_hull_01" rgba="0 0 0 0" group="3" mass="0.00544272945" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0069 0.0167 0.0167" pos="0.0000 0.0000 0.0167" />
+      <geom name="place:bounds" class="place" type="box" size="0.0167 0.0167 0.0070" pos="0.0000 0.0000 0.0070" />
       <geom name="place:top" class="place" type="mesh" mesh="beige_xiangqi_piece_top" />
     </body>
   </worldbody>

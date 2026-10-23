@@ -28,7 +28,7 @@
       <geom type="mesh" mesh="grey_chili_pepper_hull_01" rgba="0 0 0 0" group="3" mass="0.0666507723" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="grey_chili_pepper_hull_02" rgba="0 0 0 0" group="3" mass="0.0348827459" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="grey_chili_pepper_hull_03" rgba="0 0 0 0" group="3" mass="0.0330569616" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0247 0.0284 0.0880" pos="0.0000 0.0000 0.0880" />
+      <geom name="place:bounds" class="place" type="box" size="0.0530 0.0751 0.0290" pos="0.0000 0.0000 0.0290" />
       <geom name="place:top" class="place" type="mesh" mesh="grey_chili_pepper_top" />
     </body>
   </worldbody>

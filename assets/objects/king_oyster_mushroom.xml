@@ -28,7 +28,7 @@
       <geom type="mesh" mesh="king_oyster_mushroom_hull_01" rgba="0 0 0 0" group="3" mass="0.036265055" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="king_oyster_mushroom_hull_02" rgba="0 0 0 0" group="3" mass="0.0369184951" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="king_oyster_mushroom_hull_03" rgba="0 0 0 0" group="3" mass="0.00194100446" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0263 0.0313 0.0776" pos="0.0000 0.0000 0.0776" />
+      <geom name="place:bounds" class="place" type="box" size="0.0322 0.0768 0.0283" pos="0.0000 0.0000 0.0283" />
       <geom name="place:top" class="place" type="mesh" mesh="king_oyster_mushroom_top" />
     </body>
   </worldbody>

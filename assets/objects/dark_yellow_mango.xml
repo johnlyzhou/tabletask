@@ -21,7 +21,7 @@
     <body name="dark_yellow_mango">
       <geom type="mesh" mesh="dark_yellow_mango_0_mesh" material="dark_yellow_mango_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="dark_yellow_mango_hull_00" rgba="0 0 0 0" group="3" mass="0.173" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0243 0.0333 0.0557" pos="0.0000 0.0000 0.0557" />
+      <geom name="place:bounds" class="place" type="box" size="0.0505 0.0397 0.0252" pos="0.0000 0.0000 0.0252" />
     </body>
   </worldbody>
 </mujoco>

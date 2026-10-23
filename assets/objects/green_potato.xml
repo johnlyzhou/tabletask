@@ -27,7 +27,7 @@
       <geom type="mesh" mesh="green_potato_hull_01" rgba="0 0 0 0" group="3" mass="0.0305804943" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_potato_hull_02" rgba="0 0 0 0" group="3" mass="0.0263915013" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_potato_hull_03" rgba="0 0 0 0" group="3" mass="0.0193606236" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0295 0.0556 0.0292" pos="0.0000 0.0000 0.0292" />
+      <geom name="place:bounds" class="place" type="box" size="0.0311 0.0557 0.0257" pos="0.0000 0.0000 0.0257" />
     </body>
   </worldbody>
 </mujoco>

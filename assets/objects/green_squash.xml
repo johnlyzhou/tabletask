@@ -21,7 +21,7 @@
     <body name="green_squash">
       <geom type="mesh" mesh="green_squash_0_mesh" material="green_squash_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="green_squash_hull_00" rgba="0 0 0 0" group="3" mass="0.13" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0357 0.0454 0.0466" pos="0.0000 0.0000 0.0466" />
+      <geom name="place:bounds" class="place" type="box" size="0.0414 0.0519 0.0269" pos="0.0000 0.0000 0.0269" />
     </body>
   </worldbody>
 </mujoco>

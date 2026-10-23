@@ -30,7 +30,7 @@
     <body name="orange">
       <geom type="mesh" mesh="orange2_0_mesh" material="orange2_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="orange2_1_mesh" material="orange2_1_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0359 0.0359 0.0368" pos="0.0000 0.0000 0.0368" />
+      <geom name="place:bounds" class="place" type="box" size="0.0358 0.0359 0.0359" pos="0.0000 0.0000 0.0359" />
       <geom type="mesh" mesh="orange_hull_00" rgba="0 0 0 0" group="3" mass="0.13" condim="4" friction="0.9 0.01 0.002" />
     </body>
   </worldbody>

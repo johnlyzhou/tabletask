@@ -23,7 +23,7 @@
       <geom type="mesh" mesh="long_green_zucchini_0_mesh" material="long_green_zucchini_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="long_green_zucchini_hull_00" rgba="0 0 0 0" group="3" mass="0.00220698397" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="long_green_zucchini_hull_01" rgba="0 0 0 0" group="3" mass="0.209793016" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0268 0.0257 0.1001" pos="0.0000 0.0000 0.1001" />
+      <geom name="place:bounds" class="place" type="box" size="0.0274 0.1001 0.0253" pos="0.0000 0.0000 0.0253" />
     </body>
   </worldbody>
 </mujoco>

@@ -82,7 +82,7 @@
       <geom type="mesh" mesh="large_brown_star_anise_hull_28" rgba="0 0 0 0" group="3" mass="9.00490602e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_brown_star_anise_hull_29" rgba="0 0 0 0" group="3" mass="0.000127225474" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_brown_star_anise_hull_30" rgba="0 0 0 0" group="3" mass="1.73922539e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0177 0.0201 0.0086" pos="0.0000 0.0000 0.0086" />
+      <geom name="place:bounds" class="place" type="box" size="0.0180 0.0205 0.0065" pos="0.0000 0.0000 0.0065" />
       <geom name="place:top" class="place" type="mesh" mesh="large_brown_star_anise_top" />
     </body>
   </worldbody>

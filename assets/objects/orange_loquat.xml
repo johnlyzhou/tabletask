@@ -33,7 +33,7 @@
       <geom type="mesh" mesh="orange_loquat_hull_04" rgba="0 0 0 0" group="3" mass="0.00430282767" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="orange_loquat_hull_05" rgba="0 0 0 0" group="3" mass="1.99558746e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="orange_loquat_hull_06" rgba="0 0 0 0" group="3" mass="1.99558746e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0147 0.0142 0.0138" pos="0.0000 0.0000 0.0138" />
+      <geom name="place:bounds" class="place" type="box" size="0.0154 0.0143 0.0122" pos="0.0000 0.0000 0.0122" />
     </body>
   </worldbody>
 </mujoco>

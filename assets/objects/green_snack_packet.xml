@@ -31,7 +31,7 @@
       <geom type="mesh" mesh="green_snack_packet_hull_03" rgba="0 0 0 0" group="3" mass="0.00253975628" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_snack_packet_hull_04" rgba="0 0 0 0" group="3" mass="0.00210080265" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_snack_packet_hull_05" rgba="0 0 0 0" group="3" mass="0.00376614756" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0172 0.0288 0.0090" pos="0.0000 0.0000 0.0090" />
+      <geom name="place:bounds" class="place" type="box" size="0.0171 0.0286 0.0079" pos="0.0000 0.0000 0.0079" />
     </body>
   </worldbody>
 </mujoco>

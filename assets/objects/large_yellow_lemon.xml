@@ -23,7 +23,7 @@
       <geom type="mesh" mesh="large_yellow_lemon_0_mesh" material="large_yellow_lemon_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="large_yellow_lemon_hull_00" rgba="0 0 0 0" group="3" mass="0.00373772909" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_yellow_lemon_hull_01" rgba="0 0 0 0" group="3" mass="0.0852622709" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0278 0.0355 0.0268" pos="0.0000 0.0000 0.0268" />
+      <geom name="place:bounds" class="place" type="box" size="0.0282 0.0321 0.0269" pos="0.0000 0.0000 0.0269" />
     </body>
   </worldbody>
 </mujoco>

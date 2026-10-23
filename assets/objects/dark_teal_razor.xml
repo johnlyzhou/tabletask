@@ -34,7 +34,7 @@
       <geom type="mesh" mesh="dark_teal_razor_hull_04" rgba="0 0 0 0" group="3" mass="0.00155129221" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_teal_razor_hull_05" rgba="0 0 0 0" group="3" mass="0.000717059049" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_teal_razor_hull_06" rgba="0 0 0 0" group="3" mass="0.000755255642" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0109 0.0200 0.0571" pos="0.0000 0.0000 0.0571" />
+      <geom name="place:bounds" class="place" type="box" size="0.0583 0.0251 0.0100" pos="0.0000 0.0000 0.0100" />
       <geom name="place:top" class="place" type="mesh" mesh="dark_teal_razor_top" />
     </body>
   </worldbody>

@@ -23,7 +23,7 @@
       <geom type="mesh" mesh="gold_computer_mouse_0_mesh" material="gold_computer_mouse_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="gold_computer_mouse_hull_00" rgba="0 0 0 0" group="3" mass="0.0212908722" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="gold_computer_mouse_hull_01" rgba="0 0 0 0" group="3" mass="0.0327091278" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0130 0.0288 0.0565" pos="0.0000 0.0000 0.0565" />
+      <geom name="place:bounds" class="place" type="box" size="0.0545 0.0459 0.0134" pos="0.0000 0.0000 0.0134" />
     </body>
   </worldbody>
 </mujoco>

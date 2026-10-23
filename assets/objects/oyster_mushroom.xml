@@ -65,7 +65,7 @@
       <geom type="mesh" mesh="oyster_mushroom_hull_20" rgba="0 0 0 0" group="3" mass="0.000672600119" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="oyster_mushroom_hull_21" rgba="0 0 0 0" group="3" mass="1.19727403e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="oyster_mushroom_hull_22" rgba="0 0 0 0" group="3" mass="1.19727403e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0152 0.0190 0.0128" pos="0.0000 0.0000 0.0128" />
+      <geom name="place:bounds" class="place" type="box" size="0.0149 0.0190 0.0106" pos="0.0000 0.0000 0.0106" />
     </body>
   </worldbody>
 </mujoco>

@@ -21,7 +21,7 @@
     <body name="blue_twisty_puzzle">
       <geom type="mesh" mesh="blue_twisty_puzzle_0_mesh" material="blue_twisty_puzzle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="blue_twisty_puzzle_hull_00" rgba="0 0 0 0" group="3" mass="0.064" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0346 0.0353 0.0368" pos="0.0000 -0.0000 0.0368" />
+      <geom name="place:bounds" class="place" type="box" size="0.0345 0.0382 0.0348" pos="0.0000 0.0000 0.0348" />
     </body>
   </worldbody>
 </mujoco>

@@ -21,7 +21,7 @@
     <body name="brown_and_orange_sweet_potato">
       <geom type="mesh" mesh="brown_and_orange_sweet_potato_0_mesh" material="brown_and_orange_sweet_potato_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="brown_and_orange_sweet_potato_hull_00" rgba="0 0 0 0" group="3" mass="0.183" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0279 0.0247 0.0849" pos="0.0000 0.0000 0.0849" />
+      <geom name="place:bounds" class="place" type="box" size="0.0259 0.0842 0.0223" pos="0.0000 0.0000 0.0223" />
     </body>
   </worldbody>
 </mujoco>

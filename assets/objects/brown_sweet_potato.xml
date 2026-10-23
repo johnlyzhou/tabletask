@@ -23,7 +23,7 @@
       <geom type="mesh" mesh="brown_sweet_potato_0_mesh" material="brown_sweet_potato_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="brown_sweet_potato_hull_00" rgba="0 0 0 0" group="3" mass="0.036317877" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="brown_sweet_potato_hull_01" rgba="0 0 0 0" group="3" mass="0.103682123" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0822 0.0213 0.0313" pos="0.0000 0.0000 0.0313" />
+      <geom name="place:bounds" class="place" type="box" size="0.0851 0.0233 0.0192" pos="0.0000 0.0000 0.0192" />
     </body>
   </worldbody>
 </mujoco>

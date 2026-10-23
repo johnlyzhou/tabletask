@@ -21,7 +21,7 @@
     <body name="grey_and_pale_green_rice_cake">
       <geom type="mesh" mesh="grey_and_pale_green_rice_cake_0_mesh" material="grey_and_pale_green_rice_cake_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="grey_and_pale_green_rice_cake_hull_00" rgba="0 0 0 0" group="3" mass="0.007" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0096 0.0343 0.0178" pos="0.0000 0.0000 0.0178" />
+      <geom name="place:bounds" class="place" type="box" size="0.0095 0.0369 0.0058" pos="0.0000 0.0000 0.0058" />
     </body>
   </worldbody>
 </mujoco>

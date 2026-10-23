@@ -33,7 +33,7 @@
       <geom type="mesh" mesh="large_pale_yellow_burrito_hull_04" rgba="0 0 0 0" group="3" mass="0.00666915184" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_pale_yellow_burrito_hull_05" rgba="0 0 0 0" group="3" mass="0.00236923416" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_pale_yellow_burrito_hull_06" rgba="0 0 0 0" group="3" mass="0.00527834263" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0265 0.0907 0.0203" pos="0.0000 0.0000 0.0203" />
+      <geom name="place:bounds" class="place" type="box" size="0.0271 0.0907 0.0187" pos="0.0000 0.0000 0.0187" />
     </body>
   </worldbody>
 </mujoco>

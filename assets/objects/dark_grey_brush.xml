@@ -29,7 +29,7 @@
       <geom type="mesh" mesh="dark_grey_brush_hull_02" rgba="0 0 0 0" group="3" mass="0.00140168109" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_grey_brush_hull_03" rgba="0 0 0 0" group="3" mass="0.008090218" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_grey_brush_hull_04" rgba="0 0 0 0" group="3" mass="0.0623707165" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0122 0.0359 0.1269" pos="0.0000 0.0000 0.1269" />
+      <geom name="place:bounds" class="place" type="box" size="0.0361 0.1264 0.0120" pos="0.0000 0.0000 0.0120" />
     </body>
   </worldbody>
 </mujoco>

@@ -67,7 +67,7 @@
       <geom type="mesh" mesh="large_pale_yellow_dumpling_hull_21" rgba="0 0 0 0" group="3" mass="3.9978411e-05" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_pale_yellow_dumpling_hull_22" rgba="0 0 0 0" group="3" mass="0.00251411001" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_pale_yellow_dumpling_hull_23" rgba="0 0 0 0" group="3" mass="0.00143696808" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0170 0.0259 0.0163" pos="0.0000 0.0000 0.0163" />
+      <geom name="place:bounds" class="place" type="box" size="0.0193 0.0268 0.0144" pos="0.0000 0.0000 0.0144" />
     </body>
   </worldbody>
 </mujoco>

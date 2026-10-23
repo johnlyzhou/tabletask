@@ -57,7 +57,7 @@
       <geom type="mesh" mesh="large_brown_starfish_hull_16" rgba="0 0 0 0" group="3" mass="0.00583049928" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_brown_starfish_hull_17" rgba="0 0 0 0" group="3" mass="0.00481759667" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_brown_starfish_hull_18" rgba="0 0 0 0" group="3" mass="0.00322609456" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0115 0.0602 0.0571" pos="0.0000 0.0000 0.0571" />
+      <geom name="place:bounds" class="place" type="box" size="0.0537 0.0525 0.0102" pos="0.0000 0.0000 0.0102" />
     </body>
   </worldbody>
 </mujoco>

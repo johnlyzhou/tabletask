@@ -31,7 +31,7 @@
       <geom type="mesh" mesh="yellow_cream_puff_hull_03" rgba="0 0 0 0" group="3" mass="0.00141958453" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="yellow_cream_puff_hull_04" rgba="0 0 0 0" group="3" mass="0.00021097177" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="yellow_cream_puff_hull_05" rgba="0 0 0 0" group="3" mass="0.00193521025" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0292 0.0316 0.0255" pos="0.0000 0.0000 0.0255" />
+      <geom name="place:bounds" class="place" type="box" size="0.0289 0.0316 0.0234" pos="0.0000 0.0000 0.0234" />
     </body>
   </worldbody>
 </mujoco>

@@ -27,7 +27,7 @@
       <geom type="mesh" mesh="green_whistle_hull_01" rgba="0 0 0 0" group="3" mass="0.0122671565" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_whistle_hull_02" rgba="0 0 0 0" group="3" mass="0.00297338156" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_whistle_hull_03" rgba="0 0 0 0" group="3" mass="0.0216493445" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0191 0.0190 0.0410" pos="0.0000 0.0000 0.0410" />
+      <geom name="place:bounds" class="place" type="box" size="0.0191 0.0404 0.0180" pos="0.0000 0.0000 0.0180" />
     </body>
   </worldbody>
 </mujoco>

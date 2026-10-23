@@ -56,7 +56,7 @@
       <geom type="mesh" mesh="black_cucumber_hull_15" rgba="0 0 0 0" group="3" mass="0.00314948035" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="black_cucumber_hull_16" rgba="0 0 0 0" group="3" mass="0.00244417515" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="black_cucumber_hull_17" rgba="0 0 0 0" group="3" mass="0.00499857516" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0219 0.0202 0.0832" pos="0.0000 0.0000 0.0832" />
+      <geom name="place:bounds" class="place" type="box" size="0.0217 0.0832 0.0205" pos="0.0000 0.0000 0.0205" />
       <geom name="place:top" class="place" type="mesh" mesh="black_cucumber_top" />
     </body>
   </worldbody>

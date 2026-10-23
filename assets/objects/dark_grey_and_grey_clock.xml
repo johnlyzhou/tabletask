@@ -83,7 +83,7 @@
       <geom type="mesh" mesh="dark_grey_and_grey_clock_hull_29" rgba="0 0 0 0" group="3" mass="0.0359273069" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_grey_and_grey_clock_hull_30" rgba="0 0 0 0" group="3" mass="0.00804982742" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_grey_and_grey_clock_hull_31" rgba="0 0 0 0" group="3" mass="0.00725200795" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0225 0.1027 0.1011" pos="0.0000 0.0000 0.1011" />
+      <geom name="place:bounds" class="place" type="box" size="0.1013 0.1028 0.0202" pos="0.0000 0.0000 0.0202" />
     </body>
   </worldbody>
 </mujoco>

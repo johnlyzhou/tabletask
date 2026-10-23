@@ -26,7 +26,7 @@
       <geom type="mesh" mesh="pale_green_xiangqi_piece_hull_00" rgba="0 0 0 0" group="3" mass="0.00123314339" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="pale_green_xiangqi_piece_hull_01" rgba="0 0 0 0" group="3" mass="0.00272408784" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="pale_green_xiangqi_piece_hull_02" rgba="0 0 0 0" group="3" mass="0.00404276877" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0066 0.0164 0.0164" pos="0.0000 0.0000 0.0164" />
+      <geom name="place:bounds" class="place" type="box" size="0.0164 0.0164 0.0067" pos="0.0000 0.0000 0.0067" />
       <geom name="place:top" class="place" type="mesh" mesh="pale_green_xiangqi_piece_top" />
     </body>
   </worldbody>

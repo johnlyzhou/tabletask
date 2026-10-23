@@ -27,7 +27,7 @@
       <geom type="mesh" mesh="green_and_pale_teal_knife_hull_01" rgba="0 0 0 0" group="3" mass="0.0139846162" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_and_pale_teal_knife_hull_02" rgba="0 0 0 0" group="3" mass="0.00751529974" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_and_pale_teal_knife_hull_03" rgba="0 0 0 0" group="3" mass="0.0193163823" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0089 0.0171 0.0670" pos="0.0000 0.0000 0.0670" />
+      <geom name="place:bounds" class="place" type="box" size="0.0613 0.0340 0.0100" pos="0.0000 0.0000 0.0100" />
     </body>
   </worldbody>
 </mujoco>

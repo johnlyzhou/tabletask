@@ -27,7 +27,7 @@
       <geom type="mesh" mesh="large_brown_lotus_root_hull_01" rgba="0 0 0 0" group="3" mass="0.0138368349" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_brown_lotus_root_hull_02" rgba="0 0 0 0" group="3" mass="0.00319215625" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_brown_lotus_root_hull_03" rgba="0 0 0 0" group="3" mass="0.00891315696" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0372 0.0350 0.0408" pos="0.0000 0.0000 0.0408" />
+      <geom name="place:bounds" class="place" type="box" size="0.0403 0.0450 0.0228" pos="0.0000 0.0000 0.0228" />
     </body>
   </worldbody>
 </mujoco>

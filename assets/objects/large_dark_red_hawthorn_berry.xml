@@ -65,7 +65,7 @@
       <geom type="mesh" mesh="large_dark_red_hawthorn_berry_hull_20" rgba="0 0 0 0" group="3" mass="0.00102421381" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_dark_red_hawthorn_berry_hull_21" rgba="0 0 0 0" group="3" mass="0.000412746154" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="large_dark_red_hawthorn_berry_hull_22" rgba="0 0 0 0" group="3" mass="4.77871643e-05" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0149 0.0155 0.0159" pos="0.0000 0.0000 0.0159" />
+      <geom name="place:bounds" class="place" type="box" size="0.0147 0.0151 0.0175" pos="0.0000 0.0000 0.0175" />
     </body>
   </worldbody>
 </mujoco>

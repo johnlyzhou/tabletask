@@ -21,7 +21,7 @@
     <body name="small_round_yellow_lemon">
       <geom type="mesh" mesh="small_round_yellow_lemon_0_mesh" material="small_round_yellow_lemon_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="small_round_yellow_lemon_hull_00" rgba="0 0 0 0" group="3" mass="0.096" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0288 0.0288 0.0312" pos="0.0000 0.0000 0.0312" />
+      <geom name="place:bounds" class="place" type="box" size="0.0299 0.0296 0.0289" pos="0.0000 0.0000 0.0289" />
     </body>
   </worldbody>
 </mujoco>

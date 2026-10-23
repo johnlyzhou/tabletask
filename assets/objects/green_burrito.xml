@@ -45,7 +45,7 @@
       <geom type="mesh" mesh="green_burrito_hull_10" rgba="0 0 0 0" group="3" mass="0.0168013964" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_burrito_hull_11" rgba="0 0 0 0" group="3" mass="0.00562882711" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="green_burrito_hull_12" rgba="0 0 0 0" group="3" mass="0.0160967348" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0188 0.1003 0.0363" pos="0.0000 0.0000 0.0363" />
+      <geom name="place:bounds" class="place" type="box" size="0.0362 0.1002 0.0192" pos="0.0000 0.0000 0.0192" />
     </body>
   </worldbody>
 </mujoco>

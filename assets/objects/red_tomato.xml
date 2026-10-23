@@ -29,7 +29,7 @@
   <worldbody>
     <body name="red_tomato">
       <geom type="mesh" mesh="red_tomato_0_mesh" material="red_tomato_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0281 0.0281 0.0300" pos="0.0000 0.0000 0.0300" />
+      <geom name="place:bounds" class="place" type="box" size="0.0286 0.0280 0.0306" pos="0.0000 0.0000 0.0306" />
       <geom type="mesh" mesh="red_tomato_hull_00" rgba="0 0 0 0" group="3" mass="0.0862919639" condim="4" friction="0.9 0.01 0.002" />
       <geom type="mesh" mesh="red_tomato_hull_01" rgba="0 0 0 0" group="3" mass="0.00017416871" condim="4" friction="0.9 0.01 0.002" />
       <geom type="mesh" mesh="red_tomato_hull_02" rgba="0 0 0 0" group="3" mass="0.00017416871" condim="4" friction="0.9 0.01 0.002" />

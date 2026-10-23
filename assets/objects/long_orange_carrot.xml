@@ -34,7 +34,7 @@
       <geom type="mesh" mesh="long_orange_carrot_hull_04" rgba="0 0 0 0" group="3" mass="0.00738528787" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="long_orange_carrot_hull_05" rgba="0 0 0 0" group="3" mass="0.00419000056" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="long_orange_carrot_hull_06" rgba="0 0 0 0" group="3" mass="0.00666342857" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0138 0.0142 0.0420" pos="0.0000 0.0000 0.0420" />
+      <geom name="place:bounds" class="place" type="box" size="0.0136 0.0420 0.0140" pos="0.0000 0.0000 0.0140" />
       <geom name="place:top" class="place" type="mesh" mesh="long_orange_carrot_top" />
     </body>
   </worldbody>

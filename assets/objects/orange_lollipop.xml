@@ -78,7 +78,7 @@
       <geom type="mesh" mesh="orange_lollipop_hull_26" rgba="0 0 0 0" group="3" mass="0.00040697402" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="orange_lollipop_hull_27" rgba="0 0 0 0" group="3" mass="0.000144795068" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="orange_lollipop_hull_28" rgba="0 0 0 0" group="3" mass="0.000128672745" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0121 0.0139 0.0461" pos="0.0000 0.0000 0.0461" />
+      <geom name="place:bounds" class="place" type="box" size="0.0354 0.0345 0.0119" pos="0.0000 0.0000 0.0119" />
       <geom name="place:top" class="place" type="mesh" mesh="orange_lollipop_top" />
     </body>
   </worldbody>

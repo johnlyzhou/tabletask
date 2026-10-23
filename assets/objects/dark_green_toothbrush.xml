@@ -24,7 +24,7 @@
       <geom type="mesh" mesh="dark_green_toothbrush_0_mesh" material="dark_green_toothbrush_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="dark_green_toothbrush_hull_00" rgba="0 0 0 0" group="3" mass="0.00314640297" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="dark_green_toothbrush_hull_01" rgba="0 0 0 0" group="3" mass="0.00985359703" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0086 0.0066 0.0936" pos="0.0000 0.0000 0.0936" />
+      <geom name="place:bounds" class="place" type="box" size="0.0395 0.0871 0.0083" pos="0.0000 0.0000 0.0083" />
       <geom name="place:top" class="place" type="mesh" mesh="dark_green_toothbrush_top" />
     </body>
   </worldbody>

@@ -30,7 +30,7 @@
       <geom type="mesh" mesh="beige_stone_hull_02" rgba="0 0 0 0" group="3" mass="0.0398904898" friction="0.9 0.01 0.002" condim="4"/>
       <geom type="mesh" mesh="beige_stone_hull_03" rgba="0 0 0 0" group="3" mass="0.0255396204" friction="0.9 0.01 0.002" condim="4"/>
       <geom type="mesh" mesh="beige_stone_hull_04" rgba="0 0 0 0" group="3" mass="0.0313324514" friction="0.9 0.01 0.002" condim="4"/>
-      <geom name="place:bounds" class="place" type="box" size="0.0381 0.0279 0.0375" pos="0.0000 0.0000 0.0375"/>
+      <geom name="place:bounds" class="place" type="box" size="0.0382 0.0191 0.0355" pos="0.0000 0.0000 0.0355"/>
     </body>
   </worldbody>
 </mujoco>

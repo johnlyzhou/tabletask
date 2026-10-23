@@ -75,7 +75,7 @@
       <geom type="mesh" mesh="yellow_toy_deer_hull_25" rgba="0 0 0 0" group="3" mass="0.00126218824" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="yellow_toy_deer_hull_26" rgba="0 0 0 0" group="3" mass="0.00220413598" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="yellow_toy_deer_hull_27" rgba="0 0 0 0" group="3" mass="0.00558351826" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0311 0.0327 0.0505" pos="0.0000 0.0000 0.0505" />
+      <geom name="place:bounds" class="place" type="box" size="0.0321 0.0326 0.0501" pos="0.0000 0.0000 0.0501" />
     </body>
   </worldbody>
 </mujoco>

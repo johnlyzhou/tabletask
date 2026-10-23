@@ -85,7 +85,7 @@
       <geom type="mesh" mesh="black_hair_clip_hull_30" rgba="0 0 0 0" group="3" mass="0.00367914972" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="black_hair_clip_hull_31" rgba="0 0 0 0" group="3" mass="0.00905615328" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="black_hair_clip_hull_32" rgba="0 0 0 0" group="3" mass="0.0129465209" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0258 0.0333 0.0384" pos="0.0000 0.0000 0.0384" />
+      <geom name="place:bounds" class="place" type="box" size="0.0259 0.0402 0.0304" pos="0.0000 0.0000 0.0304" />
     </body>
   </worldbody>
 </mujoco>

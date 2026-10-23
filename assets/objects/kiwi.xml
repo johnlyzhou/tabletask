@@ -21,7 +21,7 @@
     <body name="kiwi">
       <geom type="mesh" mesh="kiwi_0_mesh" material="kiwi_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="kiwi_hull_00" rgba="0 0 0 0" group="3" mass="0.08" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0270 0.0267 0.0350" pos="0.0000 0.0000 0.0350" />
+      <geom name="place:bounds" class="place" type="box" size="0.0267 0.0350 0.0269" pos="0.0000 0.0000 0.0269" />
     </body>
   </worldbody>
 </mujoco>

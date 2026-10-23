@@ -21,7 +21,7 @@
     <body name="long_pale_green_toothpaste_tube">
       <geom type="mesh" mesh="long_pale_green_toothpaste_tube_0_mesh" material="long_pale_green_toothpaste_tube_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="long_pale_green_toothpaste_tube_hull_00" rgba="0 0 0 0" group="3" mass="0.1" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0149 0.0231 0.0919" pos="0.0000 0.0000 0.0919" />
+      <geom name="place:bounds" class="place" type="box" size="0.0777 0.0737 0.0154" pos="0.0000 0.0000 0.0154" />
     </body>
   </worldbody>
 </mujoco>

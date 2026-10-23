@@ -23,7 +23,7 @@
       <geom type="mesh" mesh="ripe_avocado_0_mesh" material="ripe_avocado_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
       <geom type="mesh" mesh="ripe_avocado_hull_00" rgba="0 0 0 0" group="3" mass="0.0269700983" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="ripe_avocado_hull_01" rgba="0 0 0 0" group="3" mass="0.173029902" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0503 0.0330 0.0333" pos="0.0000 0.0000 0.0333" />
+      <geom name="place:bounds" class="place" type="box" size="0.0488 0.0326 0.0336" pos="0.0000 0.0000 0.0336" />
     </body>
   </worldbody>
 </mujoco>

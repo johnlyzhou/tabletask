@@ -27,7 +27,7 @@
       <geom type="mesh" mesh="yellow_and_dark_yellow_pear_hull_01" rgba="0 0 0 0" group="3" mass="0.0213279862" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="yellow_and_dark_yellow_pear_hull_02" rgba="0 0 0 0" group="3" mass="0.0146573386" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="yellow_and_dark_yellow_pear_hull_03" rgba="0 0 0 0" group="3" mass="0.0185702664" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0253 0.0244 0.0277" pos="0.0000 0.0000 0.0277" />
+      <geom name="place:bounds" class="place" type="box" size="0.0252 0.0243 0.0270" pos="0.0000 0.0000 0.0270" />
     </body>
   </worldbody>
 </mujoco>
