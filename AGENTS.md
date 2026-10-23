@@ -223,8 +223,10 @@ follows the body. `then` is a goal shorthand for stages in sequence.
 
 An object declares `asset`, `fixed`, `count`, `tags`, `properties`, `sample` and
 `regions`. `asset` may be a list, a pool: each copy draws a different asset from it.
-An instruction may name an object or copy, `{item1}`, to say its asset's label (or the
-asset's name with spaces). `count` is an integer or an inclusive range; copies are
+An instruction may name an object or copy, `{item1}`, to say one of its asset's labels (or
+the asset's name with spaces): each episode picks one at random that no other object in the
+scene shares, falling back to the main name, from a stream of its own so the words never
+change where things are placed. `count` is an integer or an inclusive range; copies are
 named `piece1`, `piece2`, ... (even when a range draws one) and keep the `piece` tag,
 so conditions refer to them all as `#piece`; a start such as `on piece table` places
 every copy (a counted object's start can only place it `on` or `inside` something and
@@ -377,7 +379,10 @@ and the rest were written here.
   table at z=0. `look` reports the origin's height above the lowest point and the
   tilt after settling; both should be about 0.
 - Every asset names itself in plain English, `<custom><text name="label" data="red mug"/></custom>`,
-  distinct from every other asset's label; instructions and the dashboard use it.
+  distinct from every other asset's label; instructions and the dashboard use it. Other ways to
+  say it follow, separated by `|`, from general to detailed: `data="red mug|mug|red cup|red
+  ceramic mug|glossy red ceramic coffee mug"`. Each names this asset alone, never a different
+  object; the first stays the main, distinct name.
 - An asset whose colour does not matter declares `<text name="color" data="free"/>` in the same
   `<custom>`: each episode then tints all its materials one random colour (any hue, saturation
   0.25–0.85, value 0.45–0.95), unless the scene's `appearance.vary` is false. Leave colour words

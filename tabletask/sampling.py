@@ -31,39 +31,52 @@ def instantiate(source, episode=0, bindings=None) -> Task:
 
 
 def labels(task: Task) -> dict[str, str]:
-    """What each object is called in an instruction.
+    """What each object is called: its asset's first label.
 
-    An asset gives its name in MJCF metadata, which the simulator ignores:
-    `<custom><text name="label" data="tin of tuna" /></custom>`. Without one, an
-    object is called by its name with spaces for underscores.
+    An asset gives its names in MJCF metadata, which the simulator ignores:
+    `<custom><text name="label" data="tin of tuna|tuna can|can" /></custom>`, the first
+    being its main name and the rest other ways to say it. Without one, an object is
+    called by its name with spaces for underscores.
     """
     names = {}
     for name, obj in task.scene.objects.items():
-        names[name] = _asset_label(task, obj.asset) or name.replace("_", " ")
+        said = _asset_labels(task, obj.asset)
+        names[name] = said[0] if said else name.replace("_", " ")
     return names
 
 
-def _asset_label(task: Task, asset) -> str | None:
-    """The label an asset file declares, if it names one."""
+def _asset_labels(task: Task, asset) -> list[str]:
+    """The names an asset file declares, main name first; empty if it names none."""
     if not isinstance(asset, str):
-        return None
+        return []
     try:
         path = fetching.resolve(asset, task.root)
         label = ET.parse(path).getroot().find("custom/text[@name='label']")
     except (OSError, ET.ParseError):
-        return None
-    return label.get("data") if label is not None and label.get("data") else None
+        return []
+    text = label.get("data") if label is not None else None
+    return [name.strip() for name in text.split("|") if name.strip()] if text else []
 
 
-def _speak(task: Task) -> Task:
-    """Name objects in the instruction: `{mug1}` becomes its asset's label, or the asset's name."""
-    names = {
-        name: _asset_label(task, obj.asset) or Path(obj.asset).stem.replace("_", " ")
+def _speak(task: Task, rng=None) -> Task:
+    """Name objects in the instruction: `{mug1}` becomes one of its asset's labels.
+
+    With `rng`, each object is called by a random one of its labels that no other
+    object in the scene shares, so the instruction stays unambiguous; when every label is
+    shared, or without `rng`, it is called by its main name.
+    """
+    if not PLACEHOLDER.search(task.instruction):
+        return task
+    said = {
+        name: _asset_labels(task, obj.asset) or [Path(obj.asset).stem.replace("_", " ")]
         for name, obj in task.scene.objects.items()
         if obj.asset
     }
-    if not PLACEHOLDER.search(task.instruction):
-        return task
+    names = {}
+    for name, options in said.items():
+        taken = {label for other, labels in said.items() if other != name for label in labels}
+        free = [label for label in options if label not in taken]
+        names[name] = str(rng.choice(free)) if rng is not None and free else options[0]
     return transform_task(
         task,
         lambda record: {
@@ -79,7 +92,8 @@ def _instantiate(task: Task, rng, bindings=None) -> Task:
     result = bind(task, draw(task, rng), labels(task))
     if bindings:  # before copies are made, so a counted object's copies share its binding
         result = _attach(result, bindings)
-    return _speak(concrete(realize_task(multiply(result, rng), rng)))
+    # naming draws from its own stream, so the words chosen never change where things are placed
+    return _speak(concrete(realize_task(multiply(result, rng), rng)), rng.spawn(1)[0])
 
 
 def _attach(task: Task, bindings: dict) -> Task:
