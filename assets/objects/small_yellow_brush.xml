@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small yellow brush|brush|paintbrush|yellow-handled brush|small brush with yellow handle and blue bristles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="brush" />
   </custom>
   <default>
     <default class="place">

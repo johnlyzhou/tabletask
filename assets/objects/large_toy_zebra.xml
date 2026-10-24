@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large toy zebra|toy zebra|zebra|striped toy zebra|large black and white striped plastic toy zebra" />
     <text name="tags" data="pickable" />
+    <text name="category" data="zebra" />
   </custom>
   <default>
     <default class="place">

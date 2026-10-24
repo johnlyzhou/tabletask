@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="round brown litchi|litchi|lychee|brown lychee fruit|round brown litchi with bumpy skin" />
     <text name="tags" data="pickable" />
+    <text name="category" data="lychee" />
   </custom>
   <default>
     <default class="place">

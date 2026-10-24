@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue bin|bin|storage bin|blue plastic bin|blue open plastic storage bin" />
     <text name="tags" data="container" />
+    <text name="category" data="bin" />
   </custom>
   <default>
     <default class="place">

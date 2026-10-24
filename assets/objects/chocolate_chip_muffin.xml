@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="chocolate chip muffin|muffin|cupcake|chip muffin|pale muffin with chocolate chips in paper cup" />
     <text name="tags" data="pickable" />
+    <text name="category" data="muffin" />
   </custom>
   <default>
     <default class="place">

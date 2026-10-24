@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="picture frame|photo frame|frame|black picture frame|black picture frame with a stand on back" />
     <text name="tags" data="pickable" />
+    <text name="category" data="photo frame" />
   </custom>
   <default>
     <default class="place">

@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="soccer ball|ball|football|black and white ball|black and white soccer ball" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ball" />
   </custom>
   <default>
     <default class="place">

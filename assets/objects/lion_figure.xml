@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="lion figure|toy lion|lion|brown lion figure|realistic brown toy lion figurine with mane" />
     <text name="tags" data="pickable" />
+    <text name="category" data="lion" />
   </custom>
   <default>
     <default class="place">

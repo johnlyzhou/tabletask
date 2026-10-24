@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large brown donut|donut|doughnut|chocolate donut|large chocolate glazed donut with sprinkles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="donut" />
   </custom>
   <default>
     <default class="place">

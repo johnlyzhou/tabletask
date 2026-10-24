@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pecan|nut|pecan nut|brown pecan nut|single brown pecan nut in its shell" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pecan" />
   </custom>
   <default>
     <default class="place">

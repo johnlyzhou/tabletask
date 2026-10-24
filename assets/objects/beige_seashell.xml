@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="beige seashell|seashell|shell|striped beige seashell|cone shaped beige seashell with brown stripes" />
     <text name="tags" data="pickable" />
+    <text name="category" data="seashell" />
   </custom>
   <default>
     <default class="place">

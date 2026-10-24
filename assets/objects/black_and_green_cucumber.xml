@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black and green cucumber|cucumber|cucumber slice|cucumber piece|cut piece of dark green cucumber" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cucumber" />
   </custom>
   <default>
     <default class="place">

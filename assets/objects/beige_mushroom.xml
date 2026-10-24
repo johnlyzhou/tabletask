@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="beige mushroom|mushroom|fungus|light brown mushroom|plump beige mushroom with a short stem" />
     <text name="tags" data="pickable" />
+    <text name="category" data="mushroom" />
   </custom>
   <default>
     <default class="place">

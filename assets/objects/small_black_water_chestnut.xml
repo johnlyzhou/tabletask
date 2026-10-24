@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small black water chestnut|water chestnut|chestnut|dark brown water chestnut|round dark brown water chestnut with pointed tip" />
     <text name="tags" data="pickable" />
+    <text name="category" data="water chestnut" />
   </custom>
   <default>
     <default class="place">

@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="teal bottle|bottle|water bottle|teal water bottle|tall slim teal metal water bottle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

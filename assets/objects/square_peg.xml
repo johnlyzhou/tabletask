@@ -2,6 +2,7 @@
   <custom>
     <text name="label" data="blue peg|peg|block|light blue square peg|tall light blue square wooden peg" />
     <text name="tags" data="pickable" />
+    <text name="category" data="peg" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="spray paint can with a black cap|spray can|spray paint|black cap spray can|spray paint can with black cap and label" />
     <text name="tags" data="pickable" />
+    <text name="category" data="spray can" />
   </custom>
   <default>
     <default class="place">

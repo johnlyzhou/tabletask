@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="teal can|can|food can|teal labelled can|metal food can with teal label" />
     <text name="tags" data="pickable" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

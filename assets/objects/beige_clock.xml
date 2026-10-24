@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="beige clock|clock|small clock|beige alarm clock|beige alarm clock seen from its dark back" />
     <text name="tags" data="pickable" />
+    <text name="category" data="clock" />
   </custom>
   <default>
     <default class="place">

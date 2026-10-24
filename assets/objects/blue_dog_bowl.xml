@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue dog bowl|bowl|pet bowl|blue ceramic pet bowl|blue and white ceramic dog bowl with paw prints" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

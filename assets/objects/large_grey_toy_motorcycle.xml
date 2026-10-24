@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large grey toy motorcycle|toy motorcycle|motorbike|black toy motorcycle|black and grey sport toy motorcycle with orange accents" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy motorcycle" />
   </custom>
   <default>
     <default class="place">

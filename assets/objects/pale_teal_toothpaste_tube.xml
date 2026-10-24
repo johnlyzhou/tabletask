@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale teal toothpaste tube|toothpaste tube|toothpaste|small pale teal tube|small pale teal toothpaste tube with print" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tube" />
   </custom>
   <default>
     <default class="place">

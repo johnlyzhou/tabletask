@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long pale yellow burrito|burrito|wrap|rolled tortilla wrap|long rolled pale yellow tortilla burrito with filling" />
     <text name="tags" data="pickable" />
+    <text name="category" data="burrito" />
   </custom>
   <default>
     <default class="place">

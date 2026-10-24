@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="orange toy plane|toy plane|airplane|orange toy jet|orange toy fighter jet plane" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy plane" />
   </custom>
   <default>
     <default class="place">

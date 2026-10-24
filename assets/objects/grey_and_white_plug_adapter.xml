@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey and white plug adapter|plug adapter|charger|white plug adapter|small white cube usb plug adapter" />
     <text name="tags" data="pickable" />
+    <text name="category" data="plug adapter" />
   </custom>
   <default>
     <default class="place">

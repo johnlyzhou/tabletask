@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown hot dog|hot dog|sausage bun|hot dog in foil|hot dog in a bun on foil" />
     <text name="tags" data="pickable" />
+    <text name="category" data="hot dog" />
   </custom>
   <default>
     <default class="place">

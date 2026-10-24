@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pink divided tray|tray|pink serving tray|pink plastic tray|plain pink plastic tray with three sections" />
     <text name="tags" data="container" />
+    <text name="category" data="tray" />
   </custom>
   <default>
     <default class="place">

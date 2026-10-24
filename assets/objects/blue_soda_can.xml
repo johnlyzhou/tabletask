@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue soda can|soda can|can|blue drink can|blue soda can with red and white logo" />
     <text name="tags" data="pickable" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

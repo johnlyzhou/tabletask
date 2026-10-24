@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long grey lipstick|lipstick|lip stick|slim metallic lipstick|tall slim grey metallic lipstick tube" />
     <text name="tags" data="pickable" />
+    <text name="category" data="lipstick" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="box of crackers|cracker box|crackers|red cracker box|red cheez-it box of cheese crackers" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

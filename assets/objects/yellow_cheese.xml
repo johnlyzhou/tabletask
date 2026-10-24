@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow cheese|cheese|cheese wedge|yellow cheese wedge|triangular wedge of pale yellow cheese" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cheese" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black hair clip|hair clip|claw clip|dark hair claw|dark claw hair clip with teeth" />
     <text name="tags" data="pickable" />
+    <text name="category" data="hair clip" />
   </custom>
   <default>
     <default class="place">

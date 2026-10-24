@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small pink toy motorcycle|toy motorcycle|motorbike|pink toy motorbike|small pink and grey toy motorcycle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy motorcycle" />
   </custom>
   <default>
     <default class="place">

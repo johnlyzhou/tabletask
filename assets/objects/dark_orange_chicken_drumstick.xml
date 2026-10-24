@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark orange chicken drumstick|chicken drumstick|drumstick|roasted chicken leg|small dark roasted chicken drumstick" />
     <text name="tags" data="pickable" />
+    <text name="category" data="drumstick" />
   </custom>
   <default>
     <default class="place">

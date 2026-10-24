@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small teal scissors|scissors|shears|blue-handled scissors|small scissors with teal plastic handles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="scissors" />
   </custom>
   <default>
     <default class="place">

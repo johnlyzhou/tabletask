@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="orange pastry|pastry|baked pastry|flaky orange pastry|long flaky orange-brown baked pastry" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pastry" />
   </custom>
   <default>
     <default class="place">

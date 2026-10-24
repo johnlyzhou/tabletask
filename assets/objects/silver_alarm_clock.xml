@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="silver alarm clock|alarm clock|clock|metal alarm clock|silver alarm clock with round face and bell ring" />
     <text name="tags" data="pickable" />
+    <text name="category" data="clock" />
   </custom>
   <default>
     <default class="place">

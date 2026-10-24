@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="worn baseball|baseball|ball|old white baseball|worn white baseball with red stitching" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ball" />
   </custom>
   <default>
     <default class="place">

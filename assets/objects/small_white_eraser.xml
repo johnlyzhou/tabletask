@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small white eraser|eraser|rubber|white rectangular eraser|small white eraser with blue sleeve" />
     <text name="tags" data="pickable" />
+    <text name="category" data="eraser" />
   </custom>
   <default>
     <default class="place">

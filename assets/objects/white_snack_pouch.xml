@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="white snack pouch|snack pouch|snack bag|small cream pouch|small cream snack pouch with spout" />
     <text name="tags" data="pickable" />
+    <text name="category" data="snack bag" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large dark orange carrot|carrot|vegetable|dark orange carrot|large tapered dark orange carrot root" />
     <text name="tags" data="pickable" />
+    <text name="category" data="carrot" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pink pumpkin ornament|pumpkin ornament|pumpkin|pale pink pumpkin|pale pink ceramic pumpkin ornament with stem" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pumpkin" />
   </custom>
   <default>
     <default class="place">

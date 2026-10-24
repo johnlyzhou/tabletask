@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large dark teal toothpick box|toothpick box|toothpick holder|dark teal tub|large dark teal cylindrical toothpick box" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

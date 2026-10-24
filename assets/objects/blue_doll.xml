@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue doll|doll|robot cat doll|blue cartoon doll|round headed blue cartoon cat doll" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cat" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="rat figurine|rat|toy rat|dark brown rat|realistic dark brown rat figurine with long tail" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rat" />
   </custom>
   <default>
     <default class="place">

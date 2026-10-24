@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="green planter pot|planter|flower pot|olive green planter|olive green plastic planter pot with a rim" />
     <text name="tags" data="container" />
+    <text name="category" data="pot" />
   </custom>
   <default>
     <default class="place">

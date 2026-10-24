@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="tall toy cactus|toy cactus|cactus|green toy cactus|tall green toy cactus with red flowers" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy plant" />
   </custom>
   <default>
     <default class="place">

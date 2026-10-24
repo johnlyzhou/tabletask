@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green and green sword bean|bean|green bean|long green sword bean|long curved dark green sword bean pod" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bean" />
   </custom>
   <default>
     <default class="place">

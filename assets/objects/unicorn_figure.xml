@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="unicorn figure|unicorn|unicorn toy|white unicorn figurine|white unicorn figurine with golden horn" />
     <text name="tags" data="pickable" />
+    <text name="category" data="unicorn" />
   </custom>
   <default>
     <default class="place">

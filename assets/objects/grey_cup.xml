@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown wood-grain cup|cup|mug|wood-grain mug|brown wood-grain plastic mug with handle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="green toy motorcycle|toy motorcycle|toy motorbike|green toy motorbike|green die-cast toy sport motorcycle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy motorcycle" />
   </custom>
   <default>
     <default class="place">

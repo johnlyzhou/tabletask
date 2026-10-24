@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green and dark green remote control|remote control|remote|green tv remote|small pale and dark green remote control with buttons" />
     <text name="tags" data="pickable" />
+    <text name="category" data="remote control" />
   </custom>
   <default>
     <default class="place">

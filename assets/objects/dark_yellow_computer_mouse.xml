@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pink and white computer mouse|computer mouse|mouse|pink computer mouse|flat pink and white wireless computer mouse" />
     <text name="tags" data="pickable" />
+    <text name="category" data="computer mouse" />
   </custom>
   <default>
     <default class="place">

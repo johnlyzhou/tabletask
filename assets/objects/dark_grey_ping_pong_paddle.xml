@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark grey ping-pong paddle|ping-pong paddle|table tennis paddle|black ping-pong paddle|black rubber ping-pong paddle with wooden handle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ping-pong paddle" />
   </custom>
   <default>
     <default class="place">

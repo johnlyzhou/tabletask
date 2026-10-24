@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey flashlight|flashlight|torch|small toy flashlight|small pink and grey toy flashlight" />
     <text name="tags" data="pickable" />
+    <text name="category" data="flashlight" />
   </custom>
   <default>
     <default class="place">

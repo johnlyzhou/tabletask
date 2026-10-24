@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="round lilac watch|watch|wristwatch|lilac wristwatch|pale lilac plastic wristwatch with round band" />
     <text name="tags" data="pickable" />
+    <text name="category" data="watch" />
   </custom>
   <default>
     <default class="place">

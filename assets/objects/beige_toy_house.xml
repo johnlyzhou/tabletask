@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="beige toy house|toy house|dollhouse|pink brick toy house|pink brick toy house with purple and orange roof" />
     <text name="tags" data="pickable" />
+    <text name="category" data="house" />
   </custom>
   <default>
     <default class="place">

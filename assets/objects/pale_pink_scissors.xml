@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale pink scissors|scissors|shears|pink handled scissors|pale pink scissors with round finger loops" />
     <text name="tags" data="pickable" />
+    <text name="category" data="scissors" />
   </custom>
   <default>
     <default class="place">

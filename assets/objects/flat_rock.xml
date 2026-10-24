@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="flat rock|rock|stone|flat brown rock|flat jagged dark brown rock slab" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rock" />
   </custom>
   <default>
     <default class="place">

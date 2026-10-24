@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="brown rock|rock|stone|orange brown rock|rough orange brown rock with crumbly surface" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rock" />
   </custom>
   <default>
     <default class="place">

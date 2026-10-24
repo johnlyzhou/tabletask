@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown oyster shell|oyster shell|shell|rough oyster shell|rough brown and white oyster shell" />
     <text name="tags" data="pickable" />
+    <text name="category" data="seashell" />
   </custom>
   <default>
     <default class="place">

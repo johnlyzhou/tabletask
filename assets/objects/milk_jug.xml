@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="milk bottle|bottle|milk jug|white milk bottle|white plastic milk jug with screw cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

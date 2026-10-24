@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brass dish|dish|bowl|round brass dish|wide round brass dish with side handles" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

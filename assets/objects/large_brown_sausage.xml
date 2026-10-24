@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large brown sausage|sausage|hot dog|brown sausage link|large straight brown cooked sausage" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sausage" />
   </custom>
   <default>
     <default class="place">

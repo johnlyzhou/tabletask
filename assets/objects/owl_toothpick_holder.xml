@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="owl toothpick holder|toothpick holder|owl holder|brown owl holder|brown and grey owl shaped toothpick holder" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toothpick holder" />
   </custom>
   <default>
     <default class="place">

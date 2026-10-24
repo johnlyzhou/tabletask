@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale teal knife|knife|butter knife|pale teal plastic knife|pale teal plastic knife with a rounded blade" />
     <text name="tags" data="pickable" />
+    <text name="category" data="knife" />
   </custom>
   <default>
     <default class="place">

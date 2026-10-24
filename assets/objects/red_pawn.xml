@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="red pawn|chess piece|pawn|red chess pawn|solid red chess pawn piece" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chess piece" />
   </custom>
   <default>
     <default class="place">

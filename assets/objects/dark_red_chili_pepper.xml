@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark red chili pepper|chili pepper|chili|wrinkled red chili|wrinkled dark red chili pepper piece" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chili pepper" />
   </custom>
   <default>
     <default class="place">

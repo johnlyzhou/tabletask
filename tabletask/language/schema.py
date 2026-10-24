@@ -196,6 +196,7 @@ class Task(msgspec.Struct, omit_defaults=True):
     goal: Goal
     variables: dict[str, Draw] = {}
     phrasings: list[str] = []  # other ways to say the instruction; each episode says one
+    separate: str | None = None  # an asset entry, such as "category", no two objects may share
     authored: dict[str, Any] = msgspec.field(default_factory=dict, name="__document__")
     observations: dict[str, dict[str, Any]] = {}
     states: dict[str, dict[str, Any]] = {}

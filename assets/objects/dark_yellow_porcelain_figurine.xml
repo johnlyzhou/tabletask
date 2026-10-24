@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark yellow porcelain figurine|figurine|statuette|dark porcelain figure|tall dark porcelain standing figurine" />
     <text name="tags" data="pickable" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

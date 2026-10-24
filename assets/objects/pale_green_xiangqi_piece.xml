@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green xiangqi piece|xiangqi piece|chinese chess piece|pale green game disc|round pale yellow-green xiangqi game piece" />
     <text name="tags" data="pickable" />
+    <text name="category" data="xiangqi piece" />
   </custom>
   <default>
     <default class="place">

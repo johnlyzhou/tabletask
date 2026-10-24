@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark teal wallet|wallet|pouch|dark teal flat wallet|flat dark teal zip wallet pouch" />
     <text name="tags" data="pickable" />
+    <text name="category" data="wallet" />
   </custom>
   <default>
     <default class="place">

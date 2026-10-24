@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="wire cutters|pliers|cutters|purple wire cutters|small wire cutters with purple handles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pliers" />
   </custom>
   <default>
     <default class="place">

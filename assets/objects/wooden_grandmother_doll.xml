@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="wooden grandmother doll|doll|grandma doll|wooden old woman doll|wooden grandmother doll with white hair" />
     <text name="tags" data="pickable" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

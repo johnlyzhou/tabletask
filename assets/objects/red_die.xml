@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="red die|die|dice|red six-sided die|red six-sided die with white pips" />
     <text name="tags" data="pickable" />
+    <text name="category" data="die" />
   </custom>
   <default>
     <default class="place">

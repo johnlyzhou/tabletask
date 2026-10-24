@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small brown peanut|peanut|nut|tiny tan peanut|tiny tan peanut kernel" />
     <text name="tags" data="pickable" />
+    <text name="category" data="peanut" />
   </custom>
   <default>
     <default class="place">

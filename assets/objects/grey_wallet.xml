@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey wallet|wallet|billfold|grey folding wallet|small grey and blue folding wallet" />
     <text name="tags" data="pickable" />
+    <text name="category" data="wallet" />
   </custom>
   <default>
     <default class="place">

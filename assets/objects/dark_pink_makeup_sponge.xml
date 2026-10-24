@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark pink makeup sponge|makeup sponge|beauty sponge|pink egg sponge|egg-shaped dark pink makeup blending sponge" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sponge" />
   </custom>
   <default>
     <default class="place">

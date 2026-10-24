@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="bird rattle|rattle|baby rattle|colorful bird rattle|colorful baby rattle with red dotted bird" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rattle" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large pale green knife|knife|kitchen knife|pale green knife|pale green handled kitchen knife with blade guard" />
     <text name="tags" data="pickable" />
+    <text name="category" data="knife" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark grey clock|clock|wall clock|dark round clock|flat round dark grey clock with square center" />
     <text name="tags" data="pickable" />
+    <text name="category" data="clock" />
   </custom>
   <default>
     <default class="place">

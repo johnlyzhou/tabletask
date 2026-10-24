@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green and green zucchini|zucchini|courgette|striped green zucchini|long glossy green zucchini with light speckles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cucumber" />
   </custom>
   <default>
     <default class="place">

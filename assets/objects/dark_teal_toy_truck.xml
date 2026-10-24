@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown and teal toy truck|toy truck|bucket truck|brown cherry picker truck|brown toy bucket truck with teal lift basket" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

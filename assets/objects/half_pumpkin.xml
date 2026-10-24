@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="half pumpkin|pumpkin|squash|cut pumpkin half|green pumpkin half with orange flesh" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pumpkin" />
   </custom>
   <default>
     <default class="place">

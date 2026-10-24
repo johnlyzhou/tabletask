@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="orange and green toy car|toy car|kids car|orange cartoon toy car|orange cartoon toy car with green wheels and rainbow" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

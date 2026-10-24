@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green bun|bun|bread roll|pale green bread bun|lumpy pale green bread bun" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bun" />
   </custom>
   <default>
     <default class="place">

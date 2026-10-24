@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark teal toy animal|toy animal|animal toy|navy animal toy|round dark navy toy animal with green feet" />
     <text name="tags" data="pickable" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

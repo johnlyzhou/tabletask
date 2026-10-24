@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey hamster kitchen timer|kitchen timer|timer|grey hamster timer|grey hamster kitchen timer on green base" />
     <text name="tags" data="pickable" />
+    <text name="category" data="timer" />
   </custom>
   <default>
     <default class="place">

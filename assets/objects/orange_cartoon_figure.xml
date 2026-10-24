@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="orange cartoon figure|cartoon figure|figurine|orange cartoon toy|orange and blue cartoon character figurine" />
     <text name="tags" data="pickable" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

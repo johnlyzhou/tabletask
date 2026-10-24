@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="sardine tin|tin|sardine can|open sardine tin|rectangular silver sardine tin with colourful lid" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tin" />
   </custom>
   <default>
     <default class="place">

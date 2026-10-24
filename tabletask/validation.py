@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from . import sampling
@@ -51,6 +52,19 @@ def _check_asset(path: Path, result: dict) -> None:
     facts, problems, _ = study(path)
     result.update(facts)
     result["problems"].extend(problems)
+    result["problems"].extend(_category_problems(path))
+
+
+def _category_problems(path: Path) -> list[str]:
+    """A tagged asset names one category, from the library's `categories.json`."""
+    custom = ET.parse(path).getroot()
+    tags, category = (custom.find(f"custom/text[@name='{key}']") for key in ("tags", "category"))
+    listed = path.parent.parent / "categories.json"
+    if category is None:
+        return ["a tagged asset needs a category"] if tags is not None and tags.get("data") else []
+    if listed.exists() and category.get("data") not in json.loads(listed.read_text()):
+        return [f"category {category.get('data')!r} is not in {listed.name}; use one listed there or add it"]
+    return []
 
 
 def _check_task(

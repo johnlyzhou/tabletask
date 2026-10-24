@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="round brown shumai|shumai|dumpling|brown steamed shumai|round brown steamed shumai dumpling with pleats" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dumpling" />
   </custom>
   <default>
     <default class="place">

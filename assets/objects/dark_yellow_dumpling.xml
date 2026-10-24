@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark yellow dumpling|dumpling|potsticker|flat pale dumpling|flat pale yellow pleated dumpling" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dumpling" />
   </custom>
   <default>
     <default class="place">

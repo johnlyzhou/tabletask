@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="horse statuette|statuette|horse figure|white horse statuette|white rearing horse statuette on base" />
     <text name="tags" data="pickable" />
+    <text name="category" data="horse" />
   </custom>
   <default>
     <default class="place">

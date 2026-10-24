@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small slice of cake|cake slice|cake|marble cake slice|small slice of yellow and brown marble cake" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cake" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small carved bowl|bowl|cup|wooden carved bowl|small carved brown wooden bowl" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

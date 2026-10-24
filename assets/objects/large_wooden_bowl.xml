@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large wooden bowl|bowl|wooden dish|brown wood bowl|large shallow brown wooden bowl with uneven rim" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

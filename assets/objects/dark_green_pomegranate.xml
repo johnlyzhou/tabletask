@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green pomegranate|pomegranate|fruit|dark speckled pomegranate|dark green pomegranate with pinkish crown" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pomegranate" />
   </custom>
   <default>
     <default class="place">

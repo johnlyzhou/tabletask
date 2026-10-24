@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large battery|battery|d battery|orange d cell battery|large orange and black d cell battery" />
     <text name="tags" data="pickable" />
+    <text name="category" data="battery" />
   </custom>
   <default>
     <default class="place">

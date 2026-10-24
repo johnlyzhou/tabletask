@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="beige makeup sponge|makeup sponge|beauty blender|tan makeup sponge|egg-shaped beige makeup blending sponge" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sponge" />
   </custom>
   <default>
     <default class="place">

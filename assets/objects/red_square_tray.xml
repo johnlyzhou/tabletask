@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red square tray|tray|square tray|red plastic tray|shallow red square plastic tray" />
     <text name="tags" data="container" />
+    <text name="category" data="tray" />
   </custom>
   <default>
     <default class="place">

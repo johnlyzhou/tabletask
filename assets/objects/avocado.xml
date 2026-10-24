@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="avocado|fruit|hass avocado|dark green avocado|dark bumpy skinned whole avocado" />
     <text name="tags" data="pickable" />
+    <text name="category" data="avocado" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="box of fruit snacks|snack box|fruit snacks|white fruit snack box|colorful white box of fruit snacks" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

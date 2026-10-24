@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="blue bowling pin|bowling pin|skittle|blue toy pin|bright blue toy bowling pin with stripes" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bowling pin" />
   </custom>
   <default>
     <default class="place">

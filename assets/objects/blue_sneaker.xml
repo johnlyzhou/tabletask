@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="blue sneaker|sneaker|shoe|lavender blue sneaker|lavender blue canvas sneaker with orange laces" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sneaker" />
   </custom>
   <default>
     <default class="place">

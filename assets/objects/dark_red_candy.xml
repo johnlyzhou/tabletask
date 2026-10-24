@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark red candy|candy|sweet|wrapped red candy|small dark red candy in twisted wrapper" />
     <text name="tags" data="pickable" />
+    <text name="category" data="candy" />
   </custom>
   <default>
     <default class="place">

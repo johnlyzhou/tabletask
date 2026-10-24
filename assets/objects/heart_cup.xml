@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="printed mug|mug|cup|white printed mug|white ceramic mug with black lettering" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

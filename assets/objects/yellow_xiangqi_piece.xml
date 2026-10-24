@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow xiangqi piece|xiangqi piece|chinese chess piece|cream xiangqi disc|cream round xiangqi piece with red character" />
     <text name="tags" data="pickable" />
+    <text name="category" data="xiangqi piece" />
   </custom>
   <default>
     <default class="place">

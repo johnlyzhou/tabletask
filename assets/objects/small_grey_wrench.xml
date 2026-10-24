@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small grey wrench|wrench|spanner|small metal wrench|small grey metal open-end wrench" />
     <text name="tags" data="pickable" />
+    <text name="category" data="wrench" />
   </custom>
   <default>
     <default class="place">

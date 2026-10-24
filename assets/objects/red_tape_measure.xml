@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red tape measure|tape measure|measuring tape|red and black tape|large red and black reel tape measure" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tape measure" />
   </custom>
   <default>
     <default class="place">

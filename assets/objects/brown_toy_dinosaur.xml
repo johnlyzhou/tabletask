@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown toy dinosaur|toy dinosaur|pterodactyl|brown pterosaur toy|brown toy pterodactyl with spread wings" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dinosaur" />
   </custom>
   <default>
     <default class="place">

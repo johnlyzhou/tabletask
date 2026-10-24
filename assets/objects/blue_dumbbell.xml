@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="blue dumbbell|dumbbell|hand weight|light blue dumbbell|light blue hexagonal hand dumbbell" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dumbbell" />
   </custom>
   <default>
     <default class="place">

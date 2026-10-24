@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="brown seashell|seashell|shell|brown scallop shell|ridged brown and pink scallop seashell" />
     <text name="tags" data="pickable" />
+    <text name="category" data="seashell" />
   </custom>
   <default>
     <default class="place">

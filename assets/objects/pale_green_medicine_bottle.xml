@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green medicine bottle|medicine bottle|pill bottle|small pale green bottle|small pale green medicine bottle with label" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

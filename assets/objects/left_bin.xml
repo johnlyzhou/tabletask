@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue crate|crate|bin|blue plastic crate|open blue plastic storage crate with ventilated sides" />
     <text name="tags" data="container" />
+    <text name="category" data="bin" />
   </custom>
   <default>
     <default class="place">

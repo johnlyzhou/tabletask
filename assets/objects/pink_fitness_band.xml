@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pink fitness band|fitness band|fitness tracker|pink wrist band|pink fitness tracker wrist band" />
     <text name="tags" data="pickable" />
+    <text name="category" data="watch" />
   </custom>
   <default>
     <default class="place">

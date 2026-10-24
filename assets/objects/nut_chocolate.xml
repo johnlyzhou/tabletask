@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="nut chocolate|chocolate|nut cluster|dark nut chocolate|lumpy dark chocolate studded with nuts" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chocolate" />
   </custom>
   <default>
     <default class="place">

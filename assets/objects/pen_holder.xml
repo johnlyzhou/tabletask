@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="crab pen holder|pen holder|crab figure|red crab holder|red crab shaped pen holder with raised claws" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pen holder" />
   </custom>
   <default>
     <default class="place">

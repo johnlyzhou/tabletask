@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="teal plant pot|plant pot|flower pot|dark teal pot|round dark teal ceramic plant pot" />
     <text name="tags" data="container" />
+    <text name="category" data="pot" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="green teddy bear|teddy bear|stuffed bear|green plush bear|soft dark green plush teddy bear" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bear" />
   </custom>
   <default>
     <default class="place">

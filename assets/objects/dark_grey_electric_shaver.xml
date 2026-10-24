@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark grey electric shaver|electric shaver|shaver|black twin-head shaver|compact dark grey electric shaver with twin heads" />
     <text name="tags" data="pickable" />
+    <text name="category" data="razor" />
   </custom>
   <default>
     <default class="place">

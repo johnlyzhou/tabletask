@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue bowl|bowl|basin|dark blue bowl|wide dark blue plastic bowl with rim" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

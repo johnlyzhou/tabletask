@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow cream puff|cream puff|pastry|brown cream puff|golden brown baked cream puff pastry" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cream puff" />
   </custom>
   <default>
     <default class="place">

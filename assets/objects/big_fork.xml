@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large fork|fork|dinner fork|large steel fork|large shiny stainless steel dinner fork" />
     <text name="tags" data="pickable" />
+    <text name="category" data="fork" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="clay flower pot|flower pot|plant pot|terracotta pot|reddish brown terracotta clay flower pot" />
     <text name="tags" data="container" />
+    <text name="category" data="pot" />
   </custom>
   <default>
     <default class="place">

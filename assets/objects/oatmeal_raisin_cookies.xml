@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="box of cookies|cookie box|cookies|oatmeal raisin cookies|red and white box of oatmeal raisin cookies" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

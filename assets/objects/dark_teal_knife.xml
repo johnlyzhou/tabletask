@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark teal knife|knife|table knife|long teal knife|long slim dark teal knife" />
     <text name="tags" data="pickable" />
+    <text name="category" data="knife" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale teal whistle|whistle|sports whistle|soccer ball whistle|pale teal whistle with a soccer ball design" />
     <text name="tags" data="pickable" />
+    <text name="category" data="whistle" />
   </custom>
   <default>
     <default class="place">

@@ -503,6 +503,7 @@
     "Robot, take the {item1} over to the {container1}.",
     "Your job is to relocate the {item1} to the {container1}."
   ],
+  "separate": "category",
   "objects": {
     "container": {
       "count": [1, 2],

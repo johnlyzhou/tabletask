@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="can of spam|can|spam can|blue canned meat|small rectangular blue and yellow can of spam" />
     <text name="tags" data="pickable" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

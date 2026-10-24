@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="purple makeup sponge|makeup sponge|beauty sponge|small purple sponge|small purple wedge makeup sponge" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sponge" />
   </custom>
   <default>
     <default class="place">

@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="pink cupcake|cupcake|cake|pink swirl cupcake|pink cupcake with swirled frosting and sprinkles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cupcake" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark yellow knife|knife|paring knife|yellow-handled knife|small knife with dark yellow handle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="knife" />
   </custom>
   <default>
     <default class="place">

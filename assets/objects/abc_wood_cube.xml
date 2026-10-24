@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="wooden wedge|wedge|triangle block|wooden triangle wedge|small light wooden triangular wedge block" />
     <text name="tags" data="pickable" />
+    <text name="category" data="wedge" />
   </custom>
   <default>
     <default class="place">

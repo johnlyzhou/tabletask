@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green tape measure|tape measure|measuring tape|pale green tape|large pale green tape measure with a black clip" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tape measure" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy floor lamp|lamp|floor lamp|purple toy lamp|toy floor lamp with purple shade and base" />
     <text name="tags" data="pickable" />
+    <text name="category" data="lamp" />
   </custom>
   <default>
     <default class="place">

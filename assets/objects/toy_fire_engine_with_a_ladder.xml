@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy fire engine with a ladder|toy fire engine|fire truck|red ladder fire truck|red toy fire engine with white ladder arm" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

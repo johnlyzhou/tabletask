@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey and brown figurine|figurine|toy bear|brown bear figurine|grey and brown cartoon bear figurine" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bear" />
   </custom>
   <default>
     <default class="place">

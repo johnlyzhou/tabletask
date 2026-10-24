@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow pastry|pastry|baked pastry|flaky pastry|flaky golden baked pastry with raisins" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pastry" />
   </custom>
   <default>
     <default class="place">

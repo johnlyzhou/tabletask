@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large red dragon fruit|dragon fruit|pitaya|halved dragon fruit|cut red dragon fruit with white seeded flesh" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dragon fruit" />
   </custom>
   <default>
     <default class="place">

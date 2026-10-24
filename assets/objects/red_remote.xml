@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="remote|remote control|controller|red and silver remote|small red and silver remote control" />
     <text name="tags" data="pickable" />
+    <text name="category" data="remote control" />
   </custom>
   <default>
     <default class="place">

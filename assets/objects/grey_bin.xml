@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey tub|tub|bin|grey plastic tub|dark grey rectangular plastic storage tub" />
     <text name="tags" data="container" />
+    <text name="category" data="bin" />
   </custom>
   <default>
     <default class="place">

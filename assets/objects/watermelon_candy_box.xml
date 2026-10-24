@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="watermelon candy box|candy box|sweets box|small watermelon candy box|small red and green watermelon-print candy box" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

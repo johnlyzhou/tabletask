@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="grey stone|stone|rock|grey granite stone|grey speckled stone block with black writing" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rock" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="chunky toy fire truck|toy fire truck|fire truck|red toy fire truck|chunky red wooden toy fire truck" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

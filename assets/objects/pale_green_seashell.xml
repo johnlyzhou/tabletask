@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green seashell|seashell|shell|spotted sea shell|pale green seashell with brown spots" />
     <text name="tags" data="pickable" />
+    <text name="category" data="seashell" />
   </custom>
   <default>
     <default class="place">

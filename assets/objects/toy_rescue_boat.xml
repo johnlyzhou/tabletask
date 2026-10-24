@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy rescue boat|toy boat|rescue raft|red toy boat|red inflatable toy rescue boat with orange figure" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy boat" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark teal calculator|calculator|desk calculator|teal desk calculator|dark teal calculator with angled screen" />
     <text name="tags" data="pickable" />
+    <text name="category" data="calculator" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark grey scissors|scissors|shears|dark metal scissors|dark grey scissors with brass-colored handles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="scissors" />
   </custom>
   <default>
     <default class="place">

@@ -56,6 +56,7 @@ class Document(msgspec.Struct, forbid_unknown_fields=True):
     start: list
     goal: list | dict
     phrasings: list[str] = []
+    separate: str | None = None
     tabletask: str = VERSION
     scene: str = DEFAULT_SCENE
     library: str = DEFAULT_LIBRARY
@@ -185,6 +186,7 @@ def compile_document(doc: dict, source: Path | None = None) -> Task:
         "id": document.id,
         "instruction": document.instruction,
         "phrasings": document.phrasings,
+        "separate": document.separate,
         "scene": {
             "file": _scene(document.scene, root),
             "library": document.library,

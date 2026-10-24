@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large yellow mango|mango|fruit mango|spotted yellow mango|large long yellow mango with dark spots" />
     <text name="tags" data="pickable" />
+    <text name="category" data="mango" />
   </custom>
   <default>
     <default class="place">

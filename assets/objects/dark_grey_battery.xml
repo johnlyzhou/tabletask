@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark grey battery|battery|cell battery|dark grey cell|small dark grey cylindrical battery with red band" />
     <text name="tags" data="pickable" />
+    <text name="category" data="battery" />
   </custom>
   <default>
     <default class="place">

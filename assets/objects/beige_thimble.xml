@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="orange thimble|thimble|sewing thimble|small orange thimble|tiny orange-red sewing thimble" />
     <text name="tags" data="pickable" />
+    <text name="category" data="thimble" />
   </custom>
   <default>
     <default class="place">

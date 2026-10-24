@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toothpaste box|box|toothpaste carton|blue toothpaste box|long blue cardboard toothpaste box" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

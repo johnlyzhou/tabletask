@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey face cream bottle|face cream|lotion bottle|small pump bottle|small grey face cream pump bottle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green broccoli floret|broccoli|broccoli piece|dark broccoli floret|single dark green broccoli floret with thick stem" />
     <text name="tags" data="pickable" />
+    <text name="category" data="broccoli" />
   </custom>
   <default>
     <default class="place">

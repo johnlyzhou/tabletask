@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green thimble|thimble|sewing thimble|small pale thimble|tiny pale green sewing thimble" />
     <text name="tags" data="pickable" />
+    <text name="category" data="thimble" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small pumpkin wedge|pumpkin wedge|pumpkin|tiny pumpkin chunk|tiny wedge of orange-brown pumpkin" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pumpkin" />
   </custom>
   <default>
     <default class="place">

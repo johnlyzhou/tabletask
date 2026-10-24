@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="cup of yogurt|yogurt|yogurt tub|red yogurt cup|red yogurt cup with silver foil lid" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="glazed bread roll|bread roll|bread loaf|brown glazed roll|shiny dark brown glazed bread roll" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bun" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green toy house|toy house|house|teal roofed house|pale green toy house with a teal roof" />
     <text name="tags" data="pickable" />
+    <text name="category" data="house" />
   </custom>
   <default>
     <default class="place">

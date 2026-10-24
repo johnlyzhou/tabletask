@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green shumai|shumai|dumpling|open-top shumai dumpling|large open-top shumai dumpling with dark green wrapper" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dumpling" />
   </custom>
   <default>
     <default class="place">

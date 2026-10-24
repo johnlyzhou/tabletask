@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark blue toy motorcycle|toy motorcycle|scooter|blue toy scooter|dark blue toy motor scooter with box" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy motorcycle" />
   </custom>
   <default>
     <default class="place">

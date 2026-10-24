@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="adjustable wrench|wrench|spanner|metal adjustable wrench|steel adjustable wrench with dark wooden handle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="wrench" />
   </custom>
   <default>
     <default class="place">

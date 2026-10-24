@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue lotion tube|lotion tube|tube|light blue tube|light blue squeeze tube of lotion" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tube" />
   </custom>
   <default>
     <default class="place">

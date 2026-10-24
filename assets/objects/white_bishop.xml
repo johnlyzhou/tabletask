@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="white bishop|chess piece|bishop|white chess bishop|white plastic bishop chess piece" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chess piece" />
   </custom>
   <default>
     <default class="place">

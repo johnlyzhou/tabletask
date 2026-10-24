@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="horned dinosaur figure|dinosaur figure|toy dinosaur|brown horned dinosaur|brown horned styracosaurus dinosaur figure" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dinosaur" />
   </custom>
   <default>
     <default class="place">

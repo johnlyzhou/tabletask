@@ -398,6 +398,12 @@ and the rest were written here.
   colours is several assets sharing one mesh folder, each painting its materials: `red_ceramic_bowl`,
   `blue_divided_tray`, `pink_ribbed_mug`, `green_dinner_plate`, `yellow_plastic_bucket` and
   `purple_plastic_jug` come in red, orange, yellow, green, blue, purple, pink and teal.
+- A tagged asset names its category, `<text name="category" data="cup"/>`, from
+  `assets/categories.json`: the plain noun a person would use if it were the only one on the
+  table, so two objects share a category exactly when "pick up the cup" could mean either
+  (mug and cup are both `cup`; a toy dinosaur is `dinosaur`, not `toy`). Pick an existing
+  category for a new asset, or add one to the list on purpose; `check` rejects any other. A
+  task that sets `"separate": "category"` never draws two objects of one category together.
 - An asset declares what tasks may use it for as `<text name="tags" data="pickable"/>` in the
   same `<custom>`, words separated by spaces: `pickable` (one hand grasps and lifts it; the
   pick-max pool) and `container` (a bowl, tray, plate or bin that things are put in). An asset

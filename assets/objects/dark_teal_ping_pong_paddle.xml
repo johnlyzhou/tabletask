@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark teal ping-pong paddle|ping-pong paddle|table tennis paddle|teal printed paddle|light teal ping-pong paddle with printed picture" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ping-pong paddle" />
   </custom>
   <default>
     <default class="place">

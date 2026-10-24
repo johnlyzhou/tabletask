@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue utility knife|utility knife|box cutter|dark blue cutter|dark blue retractable utility knife" />
     <text name="tags" data="pickable" />
+    <text name="category" data="knife" />
   </custom>
   <default>
     <default class="place">

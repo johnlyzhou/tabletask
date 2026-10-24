@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="led bulb|light bulb|bulb|white led bulb|white led light bulb with grey finned base" />
     <text name="tags" data="pickable" />
+    <text name="category" data="light bulb" />
   </custom>
   <default>
     <default class="place">

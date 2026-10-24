@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow bottle|bottle|soda bottle|glass soda bottle|clear glass soda bottle with yellow-green tint" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

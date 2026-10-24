@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="blue tumbler|tumbler|cup|blue printed tumbler|blue ceramic tumbler with white text" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

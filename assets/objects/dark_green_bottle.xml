@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green bottle|bottle|spray can|slim dark bottle|slim dark green bottle with grey cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

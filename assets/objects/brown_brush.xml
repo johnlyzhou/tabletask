@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown brush|brush|paintbrush|wooden paint brush|brush with brown wooden handle and bristles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="brush" />
   </custom>
   <default>
     <default class="place">

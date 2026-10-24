@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red domed toy car|toy car|bubble car|red toy car|shiny red toy car with grey dome top" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

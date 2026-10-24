@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="purple ceramic bowl|bowl|purple dish|purple bowl|plain purple ceramic bowl with a ridged inside" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

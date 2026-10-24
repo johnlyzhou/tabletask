@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="red tray|tray|serving tray|orange red tray|shallow red-orange rectangular tray" />
     <text name="tags" data="container" />
+    <text name="category" data="tray" />
   </custom>
   <default>
     <default class="place">

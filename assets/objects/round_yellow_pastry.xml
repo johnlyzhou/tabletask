@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="round yellow pastry|pastry|bun|yellow baked pastry|round yellow pastry with browned glaze patches" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pastry" />
   </custom>
   <default>
     <default class="place">

@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="baseball|ball|softball|white baseball|white leather baseball with red stitching" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ball" />
   </custom>
   <default>
     <default class="place">

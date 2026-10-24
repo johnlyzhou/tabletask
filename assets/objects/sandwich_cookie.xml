@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="sandwich cookie|cookie|biscuit|round sandwich cookie|small round golden sandwich cookie" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cookie" />
   </custom>
   <default>
     <default class="place">

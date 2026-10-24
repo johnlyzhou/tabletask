@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey glasses case|glasses case|spectacle case|grey marbled case|grey marbled hard glasses case" />
     <text name="tags" data="pickable" />
+    <text name="category" data="glasses case" />
   </custom>
   <default>
     <default class="place">

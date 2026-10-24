@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue toy dinosaur|toy dinosaur|dinosaur figure|blue long neck dinosaur|dark blue long necked toy dinosaur figure" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dinosaur" />
   </custom>
   <default>
     <default class="place">

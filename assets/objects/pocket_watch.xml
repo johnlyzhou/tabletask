@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pocket watch|watch|stopwatch|beige pocket watch|round beige pocket watch with a ring" />
     <text name="tags" data="pickable" />
+    <text name="category" data="watch" />
   </custom>
   <default>
     <default class="place">

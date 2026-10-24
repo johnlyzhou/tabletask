@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small grey rice cake|rice cake|cake|small lilac-grey rice cake|small rectangular pale lilac-grey rice cake" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rice cake" />
   </custom>
   <default>
     <default class="place">

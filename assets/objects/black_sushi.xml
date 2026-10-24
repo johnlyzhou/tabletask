@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black sushi|sushi|sushi roll|dark sushi roll|large dark sushi roll with seaweed wrap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sushi" />
   </custom>
   <default>
     <default class="place">

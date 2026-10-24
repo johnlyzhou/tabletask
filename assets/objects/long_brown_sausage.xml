@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long brown sausage|sausage|frankfurter|reddish brown sausage|long curved reddish brown sausage" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sausage" />
   </custom>
   <default>
     <default class="place">

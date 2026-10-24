@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy kitchen sink|toy sink|play sink|green and white toy sink|small cream toy kitchen sink with green trim" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy sink" />
   </custom>
   <default>
     <default class="place">

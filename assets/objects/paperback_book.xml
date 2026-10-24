@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="paperback book|book|paperback|white paperback book|white paperback book with green and red title" />
     <text name="tags" data="pickable" />
+    <text name="category" data="book" />
   </custom>
   <default>
     <default class="place">

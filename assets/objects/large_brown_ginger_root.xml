@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large brown ginger root|ginger|ginger root|knobby ginger root|large knobby tan ginger root" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ginger" />
   </custom>
   <default>
     <default class="place">

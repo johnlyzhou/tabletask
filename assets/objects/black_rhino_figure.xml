@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black rhino figure|rhino figure|toy rhino|grey rhino figurine|grey plastic rhinoceros animal figurine" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rhino" />
   </custom>
   <default>
     <default class="place">

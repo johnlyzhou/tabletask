@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large red strawberry|strawberry|berry|big ripe strawberry|large deep red seedy strawberry" />
     <text name="tags" data="pickable" />
+    <text name="category" data="strawberry" />
   </custom>
   <default>
     <default class="place">

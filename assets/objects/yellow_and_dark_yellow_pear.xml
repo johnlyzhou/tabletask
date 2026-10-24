@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow and dark yellow pear|pear|asian pear|yellow-green pear|mottled yellow and dark yellow pear" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pear" />
   </custom>
   <default>
     <default class="place">

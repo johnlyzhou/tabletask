@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow toy car|toy car|toy van|khaki toy van|small khaki yellow die-cast toy van" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pudding cup|pudding|dessert cup|small pudding cup|small sealed plastic pudding cup" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pudding" />
   </custom>
   <default>
     <default class="place">

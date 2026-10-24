@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="purple divided tray|tray|purple serving tray|purple plastic tray|plain purple plastic tray with three sections" />
     <text name="tags" data="container" />
+    <text name="category" data="tray" />
   </custom>
   <default>
     <default class="place">

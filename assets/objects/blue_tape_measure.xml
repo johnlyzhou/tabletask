@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue tape measure|tape measure|measuring tape|navy tape measure|round navy blue tape measure with grey edge" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tape measure" />
   </custom>
   <default>
     <default class="place">

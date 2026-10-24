@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="oat bar|granola bar|cereal bar|small oat bar|small rectangular golden oat granola bar" />
     <text name="tags" data="pickable" />
+    <text name="category" data="granola bar" />
   </custom>
   <default>
     <default class="place">

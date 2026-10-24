@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red box|box|open box|red plastic box|open square red plastic box" />
     <text name="tags" data="container" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

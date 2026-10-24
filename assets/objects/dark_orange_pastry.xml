@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark orange pastry|pastry|small cake|golden round pastry|small round golden brown baked pastry" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pastry" />
   </custom>
   <default>
     <default class="place">

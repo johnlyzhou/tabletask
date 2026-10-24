@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red candle|candle|pillar candle|red pillar candle|red melted pillar candle with gold base" />
     <text name="tags" data="pickable" />
+    <text name="category" data="candle" />
   </custom>
   <default>
     <default class="place">

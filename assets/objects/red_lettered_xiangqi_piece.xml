@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red-lettered xiangqi piece|xiangqi piece|chinese chess piece|wooden game disc|small round wooden xiangqi piece with red letters" />
     <text name="tags" data="pickable" />
+    <text name="category" data="xiangqi piece" />
   </custom>
   <default>
     <default class="place">

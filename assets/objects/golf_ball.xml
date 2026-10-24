@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="golf ball|ball|dimpled ball|white golf ball|white dimpled golf ball" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ball" />
   </custom>
   <default>
     <default class="place">

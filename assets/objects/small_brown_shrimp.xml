@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small brown shrimp|shrimp|prawn|small cooked shrimp|small curled orange-brown cooked shrimp" />
     <text name="tags" data="pickable" />
+    <text name="category" data="shrimp" />
   </custom>
   <default>
     <default class="place">

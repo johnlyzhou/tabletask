@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="round green pear|pear|fruit|speckled green pear|round speckled light green pear" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pear" />
   </custom>
   <default>
     <default class="place">

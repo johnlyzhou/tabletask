@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="peach half|peach|halved peach|red peach half|halved red peach with yellow flesh" />
     <text name="tags" data="pickable" />
+    <text name="category" data="peach" />
   </custom>
   <default>
     <default class="place">

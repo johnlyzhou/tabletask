@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long grey toothpaste tube|toothpaste|toothpaste tube|grey-purple toothpaste tube|long grey and purple squeeze toothpaste tube" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tube" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="light bulb box|box|bulb carton|bulb packaging box|small white and green light bulb packaging box" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

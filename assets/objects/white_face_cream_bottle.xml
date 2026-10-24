@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="white face cream bottle|bottle|cream bottle|small white bottle|small white face cream bottle with red band" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

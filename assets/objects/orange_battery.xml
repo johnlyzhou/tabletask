@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="copper-top battery|battery|aa cell|aa battery|small black and copper aa battery" />
     <text name="tags" data="pickable" />
+    <text name="category" data="battery" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue kitchen timer|kitchen timer|timer|light blue timer|square light blue digital kitchen timer" />
     <text name="tags" data="pickable" />
+    <text name="category" data="timer" />
   </custom>
   <default>
     <default class="place">

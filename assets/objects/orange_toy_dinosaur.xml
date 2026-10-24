@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="orange toy dinosaur|toy dinosaur|dinosaur|red-orange toy dinosaur|red and yellow toy dinosaur with open jaws" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dinosaur" />
   </custom>
   <default>
     <default class="place">

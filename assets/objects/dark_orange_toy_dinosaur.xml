@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark orange toy dinosaur|toy dinosaur|dinosaur figure|orange dinosaur toy|twisted dark orange toy dinosaur figure" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dinosaur" />
   </custom>
   <default>
     <default class="place">

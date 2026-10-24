@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large yellow pen|pen|ballpoint pen|pale yellow pen|thin pale yellow cylindrical pen" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pen" />
   </custom>
   <default>
     <default class="place">

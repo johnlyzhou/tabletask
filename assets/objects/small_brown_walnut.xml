@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small brown walnut|walnut|nut|tan whole walnut|round tan brown walnut in shell" />
     <text name="tags" data="pickable" />
+    <text name="category" data="walnut" />
   </custom>
   <default>
     <default class="place">

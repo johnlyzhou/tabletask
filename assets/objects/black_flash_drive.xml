@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black flash drive|flash drive|usb stick|black usb drive|black usb flash drive with printed logo" />
     <text name="tags" data="pickable" />
+    <text name="category" data="flash drive" />
   </custom>
   <default>
     <default class="place">

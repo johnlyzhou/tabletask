@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green whistle|whistle|bear whistle|pale green bear whistle|pale green bear shaped whistle with a blue shirt" />
     <text name="tags" data="pickable" />
+    <text name="category" data="whistle" />
   </custom>
   <default>
     <default class="place">

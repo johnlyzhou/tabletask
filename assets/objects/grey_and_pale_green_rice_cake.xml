@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey and pale green rice cake|rice cake|cake bar|grey rice cake bar|long grey and pale green rectangular rice cake" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rice cake" />
   </custom>
   <default>
     <default class="place">

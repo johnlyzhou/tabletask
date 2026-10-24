@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="teal toy train|toy train|locomotive|teal toy locomotive|teal metal toy steam locomotive" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy train" />
   </custom>
   <default>
     <default class="place">

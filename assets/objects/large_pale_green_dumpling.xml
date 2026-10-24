@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large pale green dumpling|dumpling|steamed dumpling|large pale dumpling|large lumpy pale green-white steamed dumpling" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dumpling" />
   </custom>
   <default>
     <default class="place">

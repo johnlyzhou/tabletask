@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red food can|can|tin can|red food tin|red and white canned food tin" />
     <text name="tags" data="pickable" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

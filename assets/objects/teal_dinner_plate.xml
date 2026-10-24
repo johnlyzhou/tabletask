@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="teal dinner plate|plate|teal dish|round teal plate|plain round teal plate with a rim" />
     <text name="tags" data="container" />
+    <text name="category" data="plate" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark teal scissors|scissors|shears|teal-handled scissors|scissors with long dark teal handles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="scissors" />
   </custom>
   <default>
     <default class="place">

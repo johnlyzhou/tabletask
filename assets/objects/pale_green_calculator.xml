@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green calculator|calculator|pocket calculator|small pale green calculator|small pale green pocket calculator with buttons" />
     <text name="tags" data="pickable" />
+    <text name="category" data="calculator" />
   </custom>
   <default>
     <default class="place">

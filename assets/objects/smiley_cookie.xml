@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="cookie|biscuit|round cookie|cream cookie with chips|round cream-coloured cookie with brown chips" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cookie" />
   </custom>
   <default>
     <default class="place">

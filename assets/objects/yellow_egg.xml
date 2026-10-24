@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow egg|egg|brown egg|tan egg|smooth tan brown chicken egg" />
     <text name="tags" data="pickable" />
+    <text name="category" data="egg" />
   </custom>
   <default>
     <default class="place">

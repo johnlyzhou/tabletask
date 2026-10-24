@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="white photo printer|printer|photo printer|white compact printer|white compact upright photo printer" />
     <text name="tags" data="pickable" />
+    <text name="category" data="printer" />
   </custom>
   <default>
     <default class="place">

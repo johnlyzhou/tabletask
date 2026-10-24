@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="tape measure|measuring tape|tape|black tape measure|black and yellow 3 meter tape measure" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tape measure" />
   </custom>
   <default>
     <default class="place">

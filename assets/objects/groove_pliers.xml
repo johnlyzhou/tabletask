@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="tongue-and-groove pliers|pliers|channel locks|adjustable groove pliers|black adjustable tongue-and-groove pliers" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pliers" />
   </custom>
   <default>
     <default class="place">

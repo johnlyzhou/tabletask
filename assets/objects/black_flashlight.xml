@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black flashlight|flashlight|torch|black metal flashlight|black metal flashlight with red end cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="flashlight" />
   </custom>
   <default>
     <default class="place">

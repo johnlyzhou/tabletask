@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue toothbrush|toothbrush|brush|light blue toothbrush|slim light blue plastic toothbrush" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toothbrush" />
   </custom>
   <default>
     <default class="place">

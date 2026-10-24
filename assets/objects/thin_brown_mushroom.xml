@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="thin brown mushroom|mushroom|fungus|thin tan mushroom|thin small brown mushroom stem" />
     <text name="tags" data="pickable" />
+    <text name="category" data="mushroom" />
   </custom>
   <default>
     <default class="place">

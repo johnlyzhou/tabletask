@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="green banana|banana|unripe banana|yellow-green banana|single unripe yellow-green banana" />
     <text name="tags" data="pickable" />
+    <text name="category" data="banana" />
   </custom>
   <default>
     <default class="place">

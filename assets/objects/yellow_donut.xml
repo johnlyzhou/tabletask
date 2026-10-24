@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow donut|donut|doughnut|glazed yellow donut|golden yellow glazed ring donut" />
     <text name="tags" data="pickable" />
+    <text name="category" data="donut" />
   </custom>
   <default>
     <default class="place">

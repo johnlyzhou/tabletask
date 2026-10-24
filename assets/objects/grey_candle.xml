@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey candle|candle|pillar candle|small grey candle|small grey pillar candle with wick" />
     <text name="tags" data="pickable" />
+    <text name="category" data="candle" />
   </custom>
   <default>
     <default class="place">

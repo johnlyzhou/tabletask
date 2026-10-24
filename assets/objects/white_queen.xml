@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="white queen|chess piece|queen|white chess queen|white plastic queen chess piece" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chess piece" />
   </custom>
   <default>
     <default class="place">

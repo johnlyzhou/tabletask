@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pink tape measure|tape measure|measuring tape|pink and blue tape|pink and blue tape measure with a strap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tape measure" />
   </custom>
   <default>
     <default class="place">

@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="red party cup|cup|party cup|red plastic cup|red plastic party cup with white inside" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large black toy truck|toy truck|toy lorry|olive toy truck|large dark olive green toy truck" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

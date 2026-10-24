@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey lipstick|lipstick|lip stick|grey cased lipstick|red lipstick in a grey case" />
     <text name="tags" data="pickable" />
+    <text name="category" data="lipstick" />
   </custom>
   <default>
     <default class="place">

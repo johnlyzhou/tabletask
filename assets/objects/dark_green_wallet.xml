@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green wallet|wallet|billfold|dark leather wallet|dark green leather wallet with snap closure" />
     <text name="tags" data="pickable" />
+    <text name="category" data="wallet" />
   </custom>
   <default>
     <default class="place">

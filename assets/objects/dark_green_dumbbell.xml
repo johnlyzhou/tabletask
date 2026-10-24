@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green dumbbell|dumbbell|hand weight|olive green dumbbell|small olive green rubber-coated dumbbell" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dumbbell" />
   </custom>
   <default>
     <default class="place">

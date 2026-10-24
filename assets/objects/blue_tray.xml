@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="light blue tray|tray|organizer tray|pale blue tray|pale blue divided plastic tray" />
     <text name="tags" data="container" />
+    <text name="category" data="tray" />
   </custom>
   <default>
     <default class="place">

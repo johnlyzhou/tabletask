@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown and beige garlic bulb|garlic|garlic bulb|small beige garlic|small brown and beige garlic bulb" />
     <text name="tags" data="pickable" />
+    <text name="category" data="garlic" />
   </custom>
   <default>
     <default class="place">

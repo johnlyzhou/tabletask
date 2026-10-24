@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow spray bottle|spray bottle|spritzer|small yellow sprayer|small yellow spray bottle with purple nozzle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

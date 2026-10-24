@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large blue toy jeep|toy car|toy jeep|blue duplo car|blue plastic building block toy car with yellow wheels" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

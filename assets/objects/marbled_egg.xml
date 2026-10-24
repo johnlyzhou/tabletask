@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="marbled egg|egg|tea egg|green-brown speckled egg|large green and brown marbled egg" />
     <text name="tags" data="pickable" />
+    <text name="category" data="egg" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark teal razor|razor|shaving razor|dark slim razor|slim dark teal disposable shaving razor" />
     <text name="tags" data="pickable" />
+    <text name="category" data="razor" />
   </custom>
   <default>
     <default class="place">

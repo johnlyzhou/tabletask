@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="shaving brush|brush|grooming brush|wooden shaving brush|wooden shaving brush with rounded head" />
     <text name="tags" data="pickable" />
+    <text name="category" data="brush" />
   </custom>
   <default>
     <default class="place">

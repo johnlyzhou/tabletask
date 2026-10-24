@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="stapler|desk stapler|office stapler|teal metal stapler|vintage teal metal desk stapler" />
     <text name="tags" data="pickable" />
+    <text name="category" data="desk stapler" />
   </custom>
   <default>
     <default class="place">

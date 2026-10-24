@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="roll of white tape|tape|tape roll|medical tape roll|small white roll of medical adhesive tape" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tape measure" />
   </custom>
   <default>
     <default class="place">

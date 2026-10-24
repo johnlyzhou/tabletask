@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black external hard drive|hard drive|external drive|black portable drive|slim black portable external hard drive" />
     <text name="tags" data="pickable" />
+    <text name="category" data="hard drive" />
   </custom>
   <default>
     <default class="place">

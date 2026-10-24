@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="yellow toy truck|toy truck|delivery truck|yellow box truck|yellow toy box truck with white wheels" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

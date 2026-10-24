@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown mooncake|mooncake|cake|dark brown mooncake|round dark brown mooncake with pattern" />
     <text name="tags" data="pickable" />
+    <text name="category" data="mooncake" />
   </custom>
   <default>
     <default class="place">

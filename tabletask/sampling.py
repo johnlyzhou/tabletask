@@ -45,17 +45,29 @@ def labels(task: Task) -> dict[str, str]:
     return names
 
 
-def _asset_labels(task: Task, asset) -> list[str]:
-    """The names an asset file declares, main name first; empty if it names none."""
+def _asset_text(task: Task, asset, key: str) -> str | None:
+    """A `<custom><text>` entry an asset file declares, such as its label or category."""
     if not isinstance(asset, str):
-        return []
+        return None
     try:
         path = fetching.resolve(asset, task.root)
-        label = ET.parse(path).getroot().find("custom/text[@name='label']")
+        text = ET.parse(path).getroot().find(f"custom/text[@name='{key}']")
     except (OSError, ET.ParseError):
-        return []
-    text = label.get("data") if label is not None else None
+        return None
+    return text.get("data") if text is not None and text.get("data") else None
+
+
+def _asset_labels(task: Task, asset) -> list[str]:
+    """The names an asset file declares, main name first; empty if it names none."""
+    text = _asset_text(task, asset, "label")
     return [name.strip() for name in text.split("|") if name.strip()] if text else []
+
+
+def _apart(task: Task) -> bool:
+    """Whether no two objects share the asset entry the task keeps `separate` (its category)."""
+    seen = [_asset_text(task, obj.asset, task.separate) for obj in task.scene.objects.values()]
+    seen = [value for value in seen if value]
+    return len(seen) == len(set(seen))
 
 
 def _speak(task: Task, rng=None) -> Task:
@@ -105,7 +117,15 @@ def _instantiate(task: Task, rng, bindings=None) -> Task:
     result = bind(task, draw(task, rng), labels(task))
     if bindings:  # before copies are made, so a counted object's copies share its binding
         result = _attach(result, bindings)
-    return _speak(concrete(realize_task(multiply(result, rng), rng)), words)
+    copies = multiply(result, rng)
+    # a task that keeps a category `separate` draws its copies again until no two share one
+    for _ in range(DRAWS * 4):
+        if not task.separate or _apart(copies):
+            break
+        copies = multiply(result, rng)
+    else:
+        raise SamplingError(f"{task.id}: could not draw objects with no two sharing a {task.separate}")
+    return _speak(concrete(realize_task(copies, rng)), words)
 
 
 def _attach(task: Task, bindings: dict) -> Task:

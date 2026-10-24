@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="duck kitchen timer|kitchen timer|timer|white duck timer|small white duck-shaped kitchen timer" />
     <text name="tags" data="pickable" />
+    <text name="category" data="timer" />
   </custom>
   <default>
     <default class="place">

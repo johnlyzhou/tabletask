@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale green fork|fork|plastic fork|pale green plastic fork|long thin pale green plastic fork" />
     <text name="tags" data="pickable" />
+    <text name="category" data="fork" />
   </custom>
   <default>
     <default class="place">

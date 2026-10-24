@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long yellow ear of corn|corn|corn cob|long yellow corn cob|long golden yellow ear of corn with kernels" />
     <text name="tags" data="pickable" />
+    <text name="category" data="corn" />
   </custom>
   <default>
     <default class="place">

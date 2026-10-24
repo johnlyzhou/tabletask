@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="green battery|battery|aa battery|green aa battery|small green cylindrical aa battery" />
     <text name="tags" data="pickable" />
+    <text name="category" data="battery" />
   </custom>
   <default>
     <default class="place">

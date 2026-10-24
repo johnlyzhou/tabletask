@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large orange carrot|carrot|root vegetable|small orange carrot|short thin orange carrot" />
     <text name="tags" data="pickable" />
+    <text name="category" data="carrot" />
   </custom>
   <default>
     <default class="place">

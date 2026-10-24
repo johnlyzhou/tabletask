@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="mousetrap|mouse trap|trap|wooden mousetrap|wooden spring loaded mousetrap with metal bar" />
     <text name="tags" data="pickable" />
+    <text name="category" data="mouse trap" />
   </custom>
   <default>
     <default class="place">

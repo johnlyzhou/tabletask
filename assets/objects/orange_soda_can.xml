@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="can of orange soda|soda can|soft drink|orange soda can|yellow-orange aluminium can of orange soda" />
     <text name="tags" data="pickable" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy elephant|elephant|animal figure|grey elephant figure|dark grey toy elephant with raised trunk" />
     <text name="tags" data="pickable" />
+    <text name="category" data="elephant" />
   </custom>
   <default>
     <default class="place">

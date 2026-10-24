@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green rice dumpling|rice dumpling|zongzi|leaf-wrapped rice dumpling|pyramid rice dumpling wrapped in dark green leaves" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rice dumpling" />
   </custom>
   <default>
     <default class="place">

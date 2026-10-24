@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pink dog bowl|dog bowl|pet bowl|pink pet bowl|pink dog bowl with bone pattern" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

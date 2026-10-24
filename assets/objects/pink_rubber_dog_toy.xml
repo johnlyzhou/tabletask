@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pink rubber dog toy|dog toy|chew toy|pink rubber chew toy|pink rubber dog chew toy with stacked shape" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dog toy" />
   </custom>
   <default>
     <default class="place">

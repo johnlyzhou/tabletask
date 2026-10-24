@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue and red toy boat|toy boat|toy ship|blue fishing boat toy|blue and white toy fishing boat with red hull" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy boat" />
   </custom>
   <default>
     <default class="place">

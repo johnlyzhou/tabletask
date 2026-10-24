@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey figurine|figurine|toy figure|pig figurine|grey cartoon pig figurine holding a hammer" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pig" />
   </custom>
   <default>
     <default class="place">

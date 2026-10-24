@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark teal figurine|figurine|statuette|small teal figurine|tiny dark teal figurine with red top" />
     <text name="tags" data="pickable" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

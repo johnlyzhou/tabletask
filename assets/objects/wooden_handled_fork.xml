@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="fork with a wooden handle|fork|serving fork|orange-handled fork|metal fork with orange wooden handle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="fork" />
   </custom>
   <default>
     <default class="place">

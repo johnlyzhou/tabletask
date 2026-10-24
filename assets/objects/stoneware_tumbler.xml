@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="stone cup|cup|tumbler|grey stoneware cup|small grey speckled stoneware tumbler" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="white and blue toy car|toy car|police car|white toy car|white and blue toy police suv with black wheels" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

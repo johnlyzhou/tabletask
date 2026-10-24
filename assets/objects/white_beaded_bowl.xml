@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="white beaded bowl|bowl|beaded bowl|white textured bowl|white ceramic bowl with beaded outer texture" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

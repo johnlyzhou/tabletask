@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large dark red onion|onion|red onion|purple-red onion|large round dark red onion" />
     <text name="tags" data="pickable" />
+    <text name="category" data="onion" />
   </custom>
   <default>
     <default class="place">

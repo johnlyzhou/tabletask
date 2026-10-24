@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="purple mouse|computer mouse|mouse|magenta computer mouse|magenta and black computer mouse" />
     <text name="tags" data="pickable" />
+    <text name="category" data="computer mouse" />
   </custom>
   <default>
     <default class="place">

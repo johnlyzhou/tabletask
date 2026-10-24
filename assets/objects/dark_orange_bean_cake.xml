@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark orange bean cake|bean cake|cake|small bean cake cube|small square dark orange layered bean cake" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bean cake" />
   </custom>
   <default>
     <default class="place">

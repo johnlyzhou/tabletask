@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark red jujube|jujube|red date|wrinkled red jujube|wrinkled dark red dried jujube date" />
     <text name="tags" data="pickable" />
+    <text name="category" data="jujube" />
   </custom>
   <default>
     <default class="place">

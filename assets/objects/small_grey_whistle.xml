@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small grey whistle|whistle|toy whistle|grey and yellow whistle|small grey whistle with yellow-green end" />
     <text name="tags" data="pickable" />
+    <text name="category" data="whistle" />
   </custom>
   <default>
     <default class="place">

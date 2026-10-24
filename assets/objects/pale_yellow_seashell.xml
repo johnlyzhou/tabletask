@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale yellow seashell|seashell|shell|cream spiral shell|large pale yellow spiral seashell" />
     <text name="tags" data="pickable" />
+    <text name="category" data="seashell" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="can of condensed milk|can|milk can|blue milk can|small white and blue can of condensed milk" />
     <text name="tags" data="pickable" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

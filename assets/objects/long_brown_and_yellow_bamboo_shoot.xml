@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long brown and yellow bamboo shoot|bamboo shoot|shoot|brown-yellow bamboo shoot|long tapered brown and yellow bamboo shoot" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bamboo shoot" />
   </custom>
   <default>
     <default class="place">

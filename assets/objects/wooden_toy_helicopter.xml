@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="wooden toy helicopter|toy helicopter|helicopter|wooden helicopter toy|natural wood toy helicopter with red wheels" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy helicopter" />
   </custom>
   <default>
     <default class="place">

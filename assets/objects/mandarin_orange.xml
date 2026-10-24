@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="mandarin orange|mandarin|tangerine|orange mandarin|round bright orange mandarin with dimpled skin" />
     <text name="tags" data="pickable" />
+    <text name="category" data="orange" />
   </custom>
   <default>
     <default class="place">

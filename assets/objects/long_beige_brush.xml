@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long beige brush|brush|hair brush|beige plastic brush|long beige plastic brush with bristles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="brush" />
   </custom>
   <default>
     <default class="place">

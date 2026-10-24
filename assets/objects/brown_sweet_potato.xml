@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown sweet potato|sweet potato|potato|long sweet potato|long curved brown sweet potato" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sweet potato" />
   </custom>
   <default>
     <default class="place">

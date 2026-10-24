@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown chicken drumstick|drumstick|chicken leg|fried chicken drumstick|crispy brown fried chicken drumstick" />
     <text name="tags" data="pickable" />
+    <text name="category" data="drumstick" />
   </custom>
   <default>
     <default class="place">

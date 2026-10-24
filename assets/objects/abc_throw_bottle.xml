@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="glass bottle|bottle|clear bottle|clear glass bottle|clear glass bottle with a green cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

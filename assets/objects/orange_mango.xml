@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="orange mango|mango|fruit mango|cut orange mango|orange mango with a sliced off end" />
     <text name="tags" data="pickable" />
+    <text name="category" data="mango" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red toy car|toy car|race car|red toy race car|red and green toy sports race car" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

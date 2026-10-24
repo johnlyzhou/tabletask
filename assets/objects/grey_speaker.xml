@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey speaker|speaker|bluetooth speaker|grey-green speaker|rounded grey-green rectangular bluetooth speaker" />
     <text name="tags" data="pickable" />
+    <text name="category" data="speaker" />
   </custom>
   <default>
     <default class="place">

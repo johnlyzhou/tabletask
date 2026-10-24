@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small pale green egg|egg|speckled egg|pale green speckled egg|small pale green egg with brown speckles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="egg" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small yellow toy truck|toy truck|cement truck|yellow toy mixer truck|small yellow toy cement mixer truck with black wheels" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

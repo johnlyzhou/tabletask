@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="orange and yellow bread roll|bread roll|bread|golden bread roll|orange and yellow crusty baked bread roll" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bun" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black toy train|toy train|toy locomotive|black toy engine|black and red toy steam locomotive with cream cab" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy train" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small yellow waffle|waffle|pastry|golden waffle|small golden yellow grid waffle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="waffle" />
   </custom>
   <default>
     <default class="place">

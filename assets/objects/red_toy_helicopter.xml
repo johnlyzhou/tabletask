@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red toy helicopter|toy helicopter|helicopter|red rescue helicopter|red toy helicopter with rotor blades" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy helicopter" />
   </custom>
   <default>
     <default class="place">

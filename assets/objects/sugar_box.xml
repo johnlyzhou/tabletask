@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="box of sugar|sugar box|sugar|white sugar box|white and blue cardboard box of sugar" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

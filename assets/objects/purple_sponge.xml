@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="purple sponge|sponge|kitchen sponge|lavender sponge|rectangular purple kitchen sponge" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sponge" />
   </custom>
   <default>
     <default class="place">

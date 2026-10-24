@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="bottle of marinade|bottle|sauce bottle|glass marinade bottle|dark glass bottle of marinade with black cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

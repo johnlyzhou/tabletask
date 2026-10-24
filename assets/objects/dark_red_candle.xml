@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark red candle|candle|taper candle|long red candle|long thin dark red candle lying down" />
     <text name="tags" data="pickable" />
+    <text name="category" data="candle" />
   </custom>
   <default>
     <default class="place">

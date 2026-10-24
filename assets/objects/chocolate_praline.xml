@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="chocolate praline|praline|chocolate|small praline|small brown and white chocolate praline" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chocolate" />
   </custom>
   <default>
     <default class="place">

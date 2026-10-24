@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy boy figure|figurine|boy figure|boy in raincoat|toy boy figure in yellow raincoat and jeans" />
     <text name="tags" data="pickable" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brownish red apple|apple|fruit|dark red apple|large round brownish red apple" />
     <text name="tags" data="pickable" />
+    <text name="category" data="apple" />
   </custom>
   <default>
     <default class="place">

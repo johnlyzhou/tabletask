@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow toy deer|toy deer|deer figure|olive toy deer|olive yellow toy deer with orange antlers" />
     <text name="tags" data="pickable" />
+    <text name="category" data="deer" />
   </custom>
   <default>
     <default class="place">

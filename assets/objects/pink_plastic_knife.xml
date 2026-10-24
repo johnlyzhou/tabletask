@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pink plastic knife|knife|plastic knife|pale pink knife|long pale pink plastic knife" />
     <text name="tags" data="pickable" />
+    <text name="category" data="knife" />
   </custom>
   <default>
     <default class="place">

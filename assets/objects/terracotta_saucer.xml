@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="terracotta saucer|saucer|plant saucer|orange terracotta saucer|round orange terracotta plant pot saucer" />
     <text name="tags" data="container" />
+    <text name="category" data="plate" />
   </custom>
   <default>
     <default class="place">

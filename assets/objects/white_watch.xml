@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="white watch|watch|wristwatch|white plastic watch|white plastic wristwatch with pinkish tint" />
     <text name="tags" data="pickable" />
+    <text name="category" data="watch" />
   </custom>
   <default>
     <default class="place">

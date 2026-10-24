@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark blue tube of hand cream|hand cream|cream tube|blue hand cream tube|light blue and white tube of hand cream" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tube" />
   </custom>
   <default>
     <default class="place">

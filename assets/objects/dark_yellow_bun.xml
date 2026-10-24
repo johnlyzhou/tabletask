@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark yellow bun|bun|bread bun|filled yellow bun|round dark yellow bun with filling showing" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bun" />
   </custom>
   <default>
     <default class="place">

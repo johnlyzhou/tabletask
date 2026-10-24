@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey game cartridge|game cartridge|video game|grey game cart|grey video game cartridge with yellow car label" />
     <text name="tags" data="pickable" />
+    <text name="category" data="game cartridge" />
   </custom>
   <default>
     <default class="place">

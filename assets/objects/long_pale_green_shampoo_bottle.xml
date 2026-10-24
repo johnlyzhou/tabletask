@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long pale green shampoo bottle|shampoo bottle|shampoo|pale green shampoo bottle|tall pale green plastic shampoo bottle with cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

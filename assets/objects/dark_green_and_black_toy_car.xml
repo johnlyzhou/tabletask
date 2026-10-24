@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="mint green and black toy car|toy car|model car|mint racing toy car|mint green toy car with black racing stripes" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

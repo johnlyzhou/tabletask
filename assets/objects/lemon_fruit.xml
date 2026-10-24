@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="bumpy lemon|lemon|citrus|bumpy yellow lemon|round bright yellow lemon with bumpy skin" />
     <text name="tags" data="pickable" />
+    <text name="category" data="lemon" />
   </custom>
   <default>
     <default class="place">

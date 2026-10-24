@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large pale green chess piece|chess piece|king piece|pale green chess king|tall pale green chess king piece with cross" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chess piece" />
   </custom>
   <default>
     <default class="place">

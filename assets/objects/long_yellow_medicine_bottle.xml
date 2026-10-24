@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long yellow medicine bottle|medicine bottle|pill bottle|yellow pill bottle|tall clear bottle of yellow capsules with white cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

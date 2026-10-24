@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown sandwich|sandwich|sandwich slice|triangle sandwich slice|brown triangular layered sandwich slice" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sandwich" />
   </custom>
   <default>
     <default class="place">

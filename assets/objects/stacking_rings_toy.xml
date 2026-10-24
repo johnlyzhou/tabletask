@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="stacking rings toy|stacking toy|ring stacker|rainbow ring stacker|rainbow stacking rings toy with red ball top" />
     <text name="tags" data="pickable" />
+    <text name="category" data="stacking toy" />
   </custom>
   <default>
     <default class="place">

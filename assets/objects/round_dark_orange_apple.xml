@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="round dark orange apple|apple|apple half|halved red apple|halved apple with dark red skin and pale flesh" />
     <text name="tags" data="pickable" />
+    <text name="category" data="apple" />
   </custom>
   <default>
     <default class="place">

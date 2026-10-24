@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark red hawthorn berry|hawthorn berry|berry|shiny red hawthorn|glossy dark red hawthorn berry with stem" />
     <text name="tags" data="pickable" />
+    <text name="category" data="hawthorn berry" />
   </custom>
   <default>
     <default class="place">

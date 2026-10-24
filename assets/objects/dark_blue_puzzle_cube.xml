@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark blue puzzle cube|puzzle cube|rubik's cube|blue puzzle cube|dark blue and white colorful puzzle cube" />
     <text name="tags" data="pickable" />
+    <text name="category" data="puzzle cube" />
   </custom>
   <default>
     <default class="place">

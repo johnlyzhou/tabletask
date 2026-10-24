@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="white medicine bottle|bottle|pill bottle|small white pill bottle|small white plastic medicine bottle with cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

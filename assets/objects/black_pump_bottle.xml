@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black pump bottle|pump bottle|lotion bottle|black lotion bottle|small black lotion bottle with pump top" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

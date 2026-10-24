@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pink moon ball|ball|moon ball|pink cratered ball|pale pink ball with a cratered moon surface" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ball" />
   </custom>
   <default>
     <default class="place">

@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="small white bowl|bowl|dish|white ceramic bowl|small white celadon ceramic bowl" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

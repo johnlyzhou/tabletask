@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long orange sausage|sausage|frankfurter|plump orange sausage|plump curved golden orange sausage" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sausage" />
   </custom>
   <default>
     <default class="place">

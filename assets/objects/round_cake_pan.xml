@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="round cake pan|cake pan|baking pan|round metal cake pan|shallow round grey metal baking pan" />
     <text name="tags" data="container" />
+    <text name="category" data="cake pan" />
   </custom>
   <default>
     <default class="place">

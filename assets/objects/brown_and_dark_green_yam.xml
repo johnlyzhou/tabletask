@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown and dark green yam|yam|root vegetable|brown green yam|long brown and dark green yam tuber" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sweet potato" />
   </custom>
   <default>
     <default class="place">

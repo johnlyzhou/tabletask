@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="hand plane|plane|wood plane|metal hand plane|rusty metal woodworking hand plane" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy plane" />
   </custom>
   <default>
     <default class="place">

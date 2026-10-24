@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark red strawberry|strawberry|berry|deep red strawberry|large deep red strawberry with rough surface" />
     <text name="tags" data="pickable" />
+    <text name="category" data="strawberry" />
   </custom>
   <default>
     <default class="place">

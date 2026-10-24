@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="bald eagle figure|eagle figure|toy eagle|bald eagle figurine|bald eagle figurine with spread brown wings" />
     <text name="tags" data="pickable" />
+    <text name="category" data="eagle" />
   </custom>
   <default>
     <default class="place">

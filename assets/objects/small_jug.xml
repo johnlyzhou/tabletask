@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="white jug|jug|bottle|white plastic jug|white plastic jug with small cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="jug" />
   </custom>
   <default>
     <default class="place">

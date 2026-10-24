@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large dark blue wrench|wrench|spanner|dark adjustable wrench|large dark blue-grey adjustable wrench" />
     <text name="tags" data="pickable" />
+    <text name="category" data="wrench" />
   </custom>
   <default>
     <default class="place">

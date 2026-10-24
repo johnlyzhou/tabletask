@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy peekaboo roller|baby toy|rolling toy|white and red roller toy|white baby roller toy with red swirl and blue ball" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rattle" />
   </custom>
   <default>
     <default class="place">

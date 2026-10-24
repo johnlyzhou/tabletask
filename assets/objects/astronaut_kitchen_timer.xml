@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="astronaut kitchen timer|kitchen timer|timer|white astronaut timer|white astronaut figure kitchen timer on navy base" />
     <text name="tags" data="pickable" />
+    <text name="category" data="timer" />
   </custom>
   <default>
     <default class="place">

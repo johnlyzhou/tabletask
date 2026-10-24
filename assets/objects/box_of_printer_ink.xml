@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="box of printer ink|ink box|ink cartridges|blue printer ink box|blue and white box of printer ink cartridges" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

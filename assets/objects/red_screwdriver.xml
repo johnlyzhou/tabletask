@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red screwdriver|screwdriver|driver|red handled screwdriver|screwdriver with a red plastic handle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="screwdriver" />
   </custom>
   <default>
     <default class="place">

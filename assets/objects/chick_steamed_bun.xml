@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="chick steamed bun|steamed bun|bun|chick shaped bun|white chick shaped steamed bun" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bun" />
   </custom>
   <default>
     <default class="place">

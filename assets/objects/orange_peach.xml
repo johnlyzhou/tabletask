@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="orange peach|peach|fruit peach|red-orange ripe peach|round ripe red and orange peach" />
     <text name="tags" data="pickable" />
+    <text name="category" data="peach" />
   </custom>
   <default>
     <default class="place">

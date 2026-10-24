@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="green apple|apple|granny smith|yellow-green apple|bright yellow-green apple with stem" />
     <text name="tags" data="pickable" />
+    <text name="category" data="apple" />
   </custom>
   <default>
     <default class="place">

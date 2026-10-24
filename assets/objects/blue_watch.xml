@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue watch|watch|wristwatch|light blue watch|light blue plastic wristwatch with strap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="watch" />
   </custom>
   <default>
     <default class="place">

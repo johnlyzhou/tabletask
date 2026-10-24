@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red block|cube|toy block|red cube|small solid red wooden cube block" />
     <text name="tags" data="pickable" />
+    <text name="category" data="block" />
   </custom>
   <default>
     <default class="place">

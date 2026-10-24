@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="blue screwdriver|screwdriver|driver|blue white screwdriver|white and blue handled screwdriver with steel shaft" />
     <text name="tags" data="pickable" />
+    <text name="category" data="screwdriver" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy school bus|toy bus|school bus|yellow toy school bus|yellow wooden toy school bus with windows" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy bus" />
   </custom>
   <default>
     <default class="place">

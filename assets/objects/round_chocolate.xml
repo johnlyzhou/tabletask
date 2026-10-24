@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="round chocolate|chocolate|chocolate truffle|dark brown chocolate ball|round glossy dark brown chocolate truffle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chocolate" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="wooden ladybug|ladybug|ladybug toy|red wooden ladybug|red and natural wood ladybug toy" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ladybug" />
   </custom>
   <default>
     <default class="place">

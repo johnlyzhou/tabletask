@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large yellow lemon|lemon|citrus fruit|big round lemon|large round bright yellow lemon" />
     <text name="tags" data="pickable" />
+    <text name="category" data="lemon" />
   </custom>
   <default>
     <default class="place">

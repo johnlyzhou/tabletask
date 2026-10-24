@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey burrito|burrito|wrap|foil wrapped burrito|grey foil wrapped burrito" />
     <text name="tags" data="pickable" />
+    <text name="category" data="burrito" />
   </custom>
   <default>
     <default class="place">

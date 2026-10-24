@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="long green candy|candy|lollipop|green lollipop|small green lollipop on a green stick" />
     <text name="tags" data="pickable" />
+    <text name="category" data="candy" />
   </custom>
   <default>
     <default class="place">

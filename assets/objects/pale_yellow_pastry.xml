@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale yellow pastry|pastry|tart|small pale yellow tart|small round pale yellow pastry with golden top" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pastry" />
   </custom>
   <default>
     <default class="place">

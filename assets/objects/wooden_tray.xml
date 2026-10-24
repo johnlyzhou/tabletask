@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="wooden tray|tray|serving tray|yellow wooden tray|square shallow yellow wooden tray" />
     <text name="tags" data="container" />
+    <text name="category" data="tray" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue pen|pen|ballpoint pen|blue ballpoint pen|blue and teal plastic ballpoint pen" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pen" />
   </custom>
   <default>
     <default class="place">

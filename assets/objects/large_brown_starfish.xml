@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large brown starfish|starfish|sea star|orange-brown starfish|large orange-brown five-armed starfish" />
     <text name="tags" data="pickable" />
+    <text name="category" data="starfish" />
   </custom>
   <default>
     <default class="place">

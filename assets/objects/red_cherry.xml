@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red cherry|cherry|fruit|dark red cherry|small dark red cherry with stem" />
     <text name="tags" data="pickable" />
+    <text name="category" data="cherry" />
   </custom>
   <default>
     <default class="place">

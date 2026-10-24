@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey and pale green tube of hand cream|hand cream|cream tube|grey cream tube|pale grey squeeze tube of hand cream with printed text" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tube" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow figurine|figurine|figure|yellow hat figurine|small figurine with big yellow hat" />
     <text name="tags" data="pickable" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

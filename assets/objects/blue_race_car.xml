@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="blue toy car|toy car|model car|blue model sedan|bright blue toy sedan with silver wheels" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

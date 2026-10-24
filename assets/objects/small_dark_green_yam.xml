@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small dark green yam|yam|yam piece|dark green yam chunk|short cylindrical dark green yam piece" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sweet potato" />
   </custom>
   <default>
     <default class="place">

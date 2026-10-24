@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green and black chili pepper|chili pepper|pepper|dark green chili|small dark green and black chili pepper" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chili pepper" />
   </custom>
   <default>
     <default class="place">

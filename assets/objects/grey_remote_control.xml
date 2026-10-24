@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey remote control|remote control|remote|grey remote|grey remote control with colourful buttons" />
     <text name="tags" data="pickable" />
+    <text name="category" data="remote control" />
   </custom>
   <default>
     <default class="place">

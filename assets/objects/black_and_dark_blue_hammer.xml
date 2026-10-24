@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black and dark blue hammer|hammer|claw hammer|dark blue hammer|black and dark blue claw hammer with rubber grip" />
     <text name="tags" data="pickable" />
+    <text name="category" data="hammer" />
   </custom>
   <default>
     <default class="place">

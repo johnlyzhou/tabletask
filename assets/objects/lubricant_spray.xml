@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="spray can|aerosol can|lubricant spray|yellow and blue spray can|yellow and blue lubricant aerosol spray can with red cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="spray can" />
   </custom>
   <default>
     <default class="place">

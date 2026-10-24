@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="bunny kitchen timer|kitchen timer|timer|blue bunny timer|light blue bunny shaped kitchen timer" />
     <text name="tags" data="pickable" />
+    <text name="category" data="timer" />
   </custom>
   <default>
     <default class="place">

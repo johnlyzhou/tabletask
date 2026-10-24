@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="allosaurus figure|dinosaur figure|toy dinosaur|brown allosaurus figure|brown striped allosaurus dinosaur toy figure" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dinosaur" />
   </custom>
   <default>
     <default class="place">

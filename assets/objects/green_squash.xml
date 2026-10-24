@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="green squash|squash|zucchini|green summer squash|green speckled oblong summer squash" />
     <text name="tags" data="pickable" />
+    <text name="category" data="squash" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="green vegetable peeler|peeler|potato peeler|green plastic peeler|green plastic vegetable peeler with long handle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="peeler" />
   </custom>
   <default>
     <default class="place">

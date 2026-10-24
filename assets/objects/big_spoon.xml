@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large spoon|spoon|serving spoon|large steel spoon|large shiny stainless steel serving spoon" />
     <text name="tags" data="pickable" />
+    <text name="category" data="spoon" />
   </custom>
   <default>
     <default class="place">

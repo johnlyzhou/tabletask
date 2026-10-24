@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="yellow tennis ball|tennis ball|ball|bright yellow tennis ball|bright yellow tennis ball with white seam" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ball" />
   </custom>
   <default>
     <default class="place">

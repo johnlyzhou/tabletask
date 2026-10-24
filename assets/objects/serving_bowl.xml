@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="beige bowl|bowl|serving bowl|beige ceramic bowl|wide shallow beige ceramic serving bowl" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

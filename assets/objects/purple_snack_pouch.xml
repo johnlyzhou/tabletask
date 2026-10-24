@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="purple snack pouch|snack pouch|snack bag|purple snack bag|purple snack pouch with cartoon print" />
     <text name="tags" data="pickable" />
+    <text name="category" data="snack bag" />
   </custom>
   <default>
     <default class="place">

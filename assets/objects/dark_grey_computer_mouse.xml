@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark grey computer mouse|computer mouse|mouse|black computer mouse|low dark grey wireless computer mouse" />
     <text name="tags" data="pickable" />
+    <text name="category" data="computer mouse" />
   </custom>
   <default>
     <default class="place">

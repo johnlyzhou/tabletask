@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark yellow orange|orange|citrus|large yellow orange|large round dark yellow orange" />
     <text name="tags" data="pickable" />
+    <text name="category" data="orange" />
   </custom>
   <default>
     <default class="place">

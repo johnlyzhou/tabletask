@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="woven basket|basket|wicker basket|round woven basket|round brown woven wicker basket" />
     <text name="tags" data="container" />
+    <text name="category" data="basket" />
   </custom>
   <default>
     <default class="place">

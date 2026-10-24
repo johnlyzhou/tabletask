@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown and dark yellow bread roll|bread roll|bun|tan bread roll|large brown and dark yellow bread roll" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bun" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="fire alarm pull station|fire alarm|pull station|red fire alarm|red wall-mounted fire alarm pull station" />
     <text name="tags" data="pickable" />
+    <text name="category" data="fire alarm" />
   </custom>
   <default>
     <default class="place">

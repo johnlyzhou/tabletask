@@ -503,6 +503,7 @@
     "Please pick the {item1} up off the table now.",
     "Please lift the {item1} off the table."
   ],
+  "separate": "category",
   "objects": {
     "item": {
       "count": [1, 5],

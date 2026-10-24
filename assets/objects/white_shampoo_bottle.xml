@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="white shampoo bottle|bottle|shampoo|white pump bottle|white shampoo bottle with silver pump top" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

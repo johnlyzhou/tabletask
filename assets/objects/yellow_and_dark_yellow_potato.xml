@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow and dark yellow potato|potato|spud|brownish potato|oval brownish yellow potato with dark patches" />
     <text name="tags" data="pickable" />
+    <text name="category" data="potato" />
   </custom>
   <default>
     <default class="place">

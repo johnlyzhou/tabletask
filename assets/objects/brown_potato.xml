@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown potato|potato|spud|halved brown potato|large brown potato cut in half" />
     <text name="tags" data="pickable" />
+    <text name="category" data="potato" />
   </custom>
   <default>
     <default class="place">

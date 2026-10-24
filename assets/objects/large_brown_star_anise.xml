@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large brown star anise|star anise|spice|brown anise pod|large brown star-shaped anise pod" />
     <text name="tags" data="pickable" />
+    <text name="category" data="star anise" />
   </custom>
   <default>
     <default class="place">

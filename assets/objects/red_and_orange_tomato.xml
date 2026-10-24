@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="red and orange tomato|tomato|vegetable|ripe red tomato|ripe red and orange tomato with stem" />
     <text name="tags" data="pickable" />
+    <text name="category" data="tomato" />
   </custom>
   <default>
     <default class="place">

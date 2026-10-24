@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="card game box|card box|playing cards|skip-bo card box|colorful skip-bo card game box" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

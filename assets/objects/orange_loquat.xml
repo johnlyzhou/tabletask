@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="orange loquat|loquat|fruit loquat|orange-brown loquat|round orange-brown loquat with stem end" />
     <text name="tags" data="pickable" />
+    <text name="category" data="loquat" />
   </custom>
   <default>
     <default class="place">

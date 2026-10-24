@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown toothpick box|toothpick box|toothpicks|small brown box|small brown box of toothpicks" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

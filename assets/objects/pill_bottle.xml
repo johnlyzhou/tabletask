@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="pill bottle|medicine bottle|prescription bottle|orange pill bottle|orange prescription pill bottle with white cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

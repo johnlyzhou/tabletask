@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="wooden letter block|block|alphabet block|wooden alphabet block|wooden alphabet block with letters and pictures" />
     <text name="tags" data="pickable" />
+    <text name="category" data="block" />
   </custom>
   <default>
     <default class="place">

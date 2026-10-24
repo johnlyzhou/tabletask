@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey shrimp|shrimp|prawn|cooked shrimp|grey and reddish curled shrimp" />
     <text name="tags" data="pickable" />
+    <text name="category" data="shrimp" />
   </custom>
   <default>
     <default class="place">

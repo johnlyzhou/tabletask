@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="patterned bowl|bowl|dish|red lined bowl|white bowl with red inside and zigzag pattern" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark red ping-pong paddle|ping-pong paddle|table tennis paddle|red cartoon paddle|dark red ping-pong paddle with cartoon face" />
     <text name="tags" data="pickable" />
+    <text name="category" data="ping-pong paddle" />
   </custom>
   <default>
     <default class="place">

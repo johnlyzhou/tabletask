@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="black shampoo bottle|shampoo bottle|bottle|small black bottle|small dark shampoo bottle with label" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

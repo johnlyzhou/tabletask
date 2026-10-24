@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="whale whistle|whistle|toy whistle|teal whale whistle|teal ceramic whale-shaped whistle" />
     <text name="tags" data="pickable" />
+    <text name="category" data="whistle" />
   </custom>
   <default>
     <default class="place">

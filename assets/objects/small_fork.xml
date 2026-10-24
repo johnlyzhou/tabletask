@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small fork|fork|dinner fork|small metal fork|small silver stainless steel fork" />
     <text name="tags" data="pickable" />
+    <text name="category" data="fork" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="silver robot figure|robot figure|robot toy|silver android figure|silver-white android robot figure with antennas" />
     <text name="tags" data="pickable" />
+    <text name="category" data="robot" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy giraffe|giraffe|animal figure|brown giraffe figure|brown toy giraffe figure with long neck" />
     <text name="tags" data="pickable" />
+    <text name="category" data="giraffe" />
   </custom>
   <default>
     <default class="place">

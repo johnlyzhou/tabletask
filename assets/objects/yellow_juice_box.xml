@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow juice box|juice box|drink carton|small yellow carton|small yellow juice box with straw" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

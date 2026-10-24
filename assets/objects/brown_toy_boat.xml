@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown toy boat|toy boat|boat|wooden toy boat|brown wooden toy boat with cabin" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy boat" />
   </custom>
   <default>
     <default class="place">

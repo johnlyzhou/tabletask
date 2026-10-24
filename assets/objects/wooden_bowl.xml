@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="wooden bowl|bowl|salad bowl|light wooden bowl|round light brown wooden bowl" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="gold-wrapped chocolate|chocolate|chocolate bar|yellow wrapped chocolate|chocolate bar in shiny gold-yellow wrapper" />
     <text name="tags" data="pickable" />
+    <text name="category" data="chocolate" />
   </custom>
   <default>
     <default class="place">

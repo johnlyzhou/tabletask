@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark green toy train|toy train|train wagon|small green train car|small dark green and yellow toy train wagon" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy train" />
   </custom>
   <default>
     <default class="place">

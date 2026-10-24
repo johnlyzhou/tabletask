@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark red fig|fig|ripe fig|dark red ripe fig|round dark red fig with long stem" />
     <text name="tags" data="pickable" />
+    <text name="category" data="fig" />
   </custom>
   <default>
     <default class="place">

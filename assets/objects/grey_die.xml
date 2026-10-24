@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="grey die|die|dice|small white die|small white die with dots" />
     <text name="tags" data="pickable" />
+    <text name="category" data="die" />
   </custom>
   <default>
     <default class="place">

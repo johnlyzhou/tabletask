@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="can of alphabet soup|can|soup can|alphabet soup can|small red and white can of alphabet soup" />
     <text name="tags" data="pickable" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

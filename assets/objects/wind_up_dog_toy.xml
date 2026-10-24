@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="wind-up dog toy|toy dog|wind-up toy|cream wind-up dog|cream plastic wind-up dog toy with brown ear" />
     <text name="tags" data="pickable" />
+    <text name="category" data="dog" />
   </custom>
   <default>
     <default class="place">

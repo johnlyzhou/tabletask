@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small dark yellow sweet potato|sweet potato|yam|brown sweet potato|small brown-yellow skinned sweet potato" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sweet potato" />
   </custom>
   <default>
     <default class="place">

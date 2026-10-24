@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="toy lion on wheels|pull toy|lion pull toy|green lion wheeled toy|green and orange lion toy on wooden wheels" />
     <text name="tags" data="pickable" />
+    <text name="category" data="lion" />
   </custom>
   <default>
     <default class="place">

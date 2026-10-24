@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="small black mangosteen|mangosteen|fruit|dark purple mangosteen|round dark purple mangosteen with green cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="mangosteen" />
   </custom>
   <default>
     <default class="place">

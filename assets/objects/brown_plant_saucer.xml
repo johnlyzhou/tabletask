@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown plant saucer|saucer|plant saucer|round tan saucer|round tan brown plant pot saucer" />
     <text name="tags" data="container" />
+    <text name="category" data="plate" />
   </custom>
   <default>
     <default class="place">

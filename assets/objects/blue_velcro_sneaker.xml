@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="blue velcro sneaker|sneaker|kids shoe|blue strap sneaker|blue and white kids sneaker with velcro straps" />
     <text name="tags" data="pickable" />
+    <text name="category" data="sneaker" />
   </custom>
   <default>
     <default class="place">

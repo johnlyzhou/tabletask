@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large white face cream bottle|face cream|cream tube|white face cream tube|large white squeeze tube of face cream with cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

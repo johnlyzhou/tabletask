@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large long grey toothbrush|toothbrush|tooth brush|long grey toothbrush|long thin grey plastic toothbrush with bristles" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toothbrush" />
   </custom>
   <default>
     <default class="place">

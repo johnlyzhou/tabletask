@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow orange|orange|citrus|brownish orange|round dull orange-brown orange fruit" />
     <text name="tags" data="pickable" />
+    <text name="category" data="orange" />
   </custom>
   <default>
     <default class="place">

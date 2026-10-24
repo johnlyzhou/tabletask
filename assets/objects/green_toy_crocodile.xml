@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="green toy crocodile|toy crocodile|toy alligator|green wooden crocodile|green wooden toy crocodile with red segments" />
     <text name="tags" data="pickable" />
+    <text name="category" data="crocodile" />
   </custom>
   <default>
     <default class="place">

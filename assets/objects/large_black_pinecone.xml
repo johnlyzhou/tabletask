@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="large black pinecone|pinecone|pine cone|dark brown pinecone|large dark brown scaly pinecone" />
     <text name="tags" data="pickable" />
+    <text name="category" data="pinecone" />
   </custom>
   <default>
     <default class="place">

@@ -4,6 +4,7 @@
   <custom>
     <text name="label" data="floral dish|dish|bowl|floral ceramic dish|shallow white ceramic dish with floral pattern" />
     <text name="tags" data="container" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

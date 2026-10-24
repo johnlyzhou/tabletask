@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="drain cleaner bottle|drain cleaner|cleaner jug|yellow drain cleaner|yellow drain cleaner jug with red cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

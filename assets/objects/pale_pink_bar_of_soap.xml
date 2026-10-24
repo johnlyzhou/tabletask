@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="pale pink bar of soap|soap|soap bar|pale pink soap|rectangular pale pink bar of soap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="soap" />
   </custom>
   <default>
     <default class="place">

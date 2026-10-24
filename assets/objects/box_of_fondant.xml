@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="box of fondant|fondant box|icing box|white fondant box|small white box of cake fondant" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

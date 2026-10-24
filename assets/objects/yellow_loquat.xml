@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow loquat|loquat|loquat fruit|brown-yellow loquat|round brownish yellow loquat fruit" />
     <text name="tags" data="pickable" />
+    <text name="category" data="loquat" />
   </custom>
   <default>
     <default class="place">

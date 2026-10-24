@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow and pale yellow mushroom|mushroom|button mushroom|pale cream mushroom|large pale yellow button mushroom" />
     <text name="tags" data="pickable" />
+    <text name="category" data="mushroom" />
   </custom>
   <default>
     <default class="place">

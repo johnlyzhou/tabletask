@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="mustard bottle|condiment bottle|mustard|yellow mustard bottle|yellow plastic squeeze bottle of mustard" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

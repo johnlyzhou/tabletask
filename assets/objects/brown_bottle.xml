@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown bottle|bottle|flask|small brown bottle|small brown cylindrical bottle with cap" />
     <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

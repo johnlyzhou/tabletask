@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="light grey rock|rock|stone|pale jagged rock|jagged light grey rock with a small hole" />
     <text name="tags" data="pickable" />
+    <text name="category" data="rock" />
   </custom>
   <default>
     <default class="place">

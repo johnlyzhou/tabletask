@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="brown hamburger|hamburger|burger|small brown burger|small hamburger with brown bun" />
     <text name="tags" data="pickable" />
+    <text name="category" data="hamburger" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="salt box|salt|salt carton|white salt carton|tall white and blue cardboard salt box" />
     <text name="tags" data="pickable" />
+    <text name="category" data="salt" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="yellow toothpick box|toothpick box|toothpick holder|small yellow tube|small yellow cylindrical toothpick container" />
     <text name="tags" data="pickable" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

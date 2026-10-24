@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="dark orange and orange hot dog|hot dog|sausage bun|grilled hot dog|grilled hot dog in bun with sauce stripes" />
     <text name="tags" data="pickable" />
+    <text name="category" data="hot dog" />
   </custom>
   <default>
     <default class="place">

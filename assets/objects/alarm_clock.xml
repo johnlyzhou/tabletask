@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="alarm clock|clock|twin bell clock|green alarm clock|green twin bell alarm clock with white face" />
     <text name="tags" data="pickable" />
+    <text name="category" data="clock" />
   </custom>
   <default>
     <default class="place">

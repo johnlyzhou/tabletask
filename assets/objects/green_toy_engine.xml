@@ -3,6 +3,7 @@
   <custom>
     <text name="label" data="green toy engine|toy train|toy locomotive|green toy locomotive|green toy steam engine with coal tender" />
     <text name="tags" data="pickable" />
+    <text name="category" data="toy train" />
   </custom>
   <default>
     <default class="place">
