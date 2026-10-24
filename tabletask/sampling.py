@@ -114,7 +114,9 @@ def _instantiate(task: Task, rng, bindings=None) -> Task:
                 "phrasings": [],
             },
         )
-    result = bind(task, draw(task, rng), labels(task))
+    values = draw(task, rng)
+    result = bind(task, values, labels(task))
+    result.drawn = values
     if bindings:  # before copies are made, so a counted object's copies share its binding
         result = _attach(result, bindings)
     copies = multiply(result, rng)

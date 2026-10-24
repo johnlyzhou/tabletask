@@ -23,6 +23,9 @@ while the robot and the objects stay in the workspace; nothing is clipped. In or
   range did not draw, so every episode of a task gives a vector of the same length and each
   copy keeps its place.
 
+- for each task variable, in the task's order, a one-hot over its ``one_of`` values marking
+  the one this episode drew (left out without a template)
+
 The workspace is the table top widened by ``WORKSPACE_MARGIN`` on each side, from
 ``WORKSPACE_DEPTH`` below its surface to ``WORKSPACE_HEIGHT`` above, in metres.
 
@@ -82,6 +85,9 @@ def privileged_state(runtime, robot, time, template=None):
             parts.append(np.zeros(OBJECT_SIZE + joints))
         else:
             parts += _object(runtime, name, joints, eef_position, eef_rotation, low, high)
+    if template is not None:
+        for name, variable in template.variables.items():
+            parts.append([float(str(v) == runtime.task.drawn.get(name)) for v in variable.one_of])
     return np.concatenate(parts).astype(np.float32)
 
 

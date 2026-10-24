@@ -203,6 +203,7 @@ class Task(msgspec.Struct, omit_defaults=True):
     time_limit: float | None = None
     source: Any = msgspec.field(default=None, name="__source__")
     milestones: dict[str, Any] = msgspec.field(default_factory=dict, name="__milestones__")
+    drawn: dict[str, str] = msgspec.field(default_factory=dict, name="__drawn__")  # variable values
 
     @property
     def root(self) -> Path:
