@@ -503,6 +503,7 @@
     "Try to arrange the {block1} to the {dir} of the {block2}.",
     "Could you please grasp the {block1} and place it to the {dir} of the {block2}?"
   ],
+  "appearance": {"lighting": 0},
   "objects": {
     "block": {
       "count": [2, 5],

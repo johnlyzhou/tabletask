@@ -11,7 +11,7 @@
   </default>
   <asset>
     <mesh name="red_block_0_mesh" file="0.obj" />
-    <material name="red_block_0_skin" rgba="0.95 0.45 0.08 1" specular="0.2" shininess="0.3" />
+    <material name="red_block_0_skin" rgba="0.92 0.32 0.03 1" specular="0.2" shininess="0.3" />
     <mesh name="red_block_top" file="top.obj" />
   </asset>
   <worldbody>

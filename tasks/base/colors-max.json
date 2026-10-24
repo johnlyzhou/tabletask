@@ -503,6 +503,7 @@
     "Please pick the {block1} up off the table now.",
     "Please lift the {block1} off the table."
   ],
+  "appearance": {"lighting": 0},
   "objects": {
     "block": {
       "count": [2, 6],
