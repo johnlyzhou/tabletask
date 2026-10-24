@@ -331,7 +331,7 @@ python -m tabletask try tasks/base/mine.json --put banana=bowl/inside --settle 2
 
 | | |
 |---|---|
-| contact and containment | `on` `inside` `at` `near` `covering` `above` `below` `lifted` `touching` `only_touching` `within` `contained` |
+| contact and containment | `on` `inside` `at` `near` `covering` `above` `below` `lifted` `touching` `only_touching` `side_of` `within` `contained` |
 | direction | `left_of` `right_of` `in_front_of` `behind` `facing` |
 | arrangement | `aligned` `ordered` `count_in` |
 | pose | `upright` `lying` `upside_down` `oriented` `oriented_like` |
@@ -353,6 +353,9 @@ python -m tabletask try tasks/base/mine.json --put banana=bowl/inside --settle 2
 - **`only_touching a b`** holds when a touches b and nothing else (no other object, nor the
   table); the robot does not count. pnp-max uses it with `inside`, so an item leaning on a
   container from the table, or resting on another item, is not placed.
+- **`side_of a b side`** is `left_of`, `right_of`, `in_front_of` or `behind` with the side as an
+  argument (`left`, `right`, `front`, `back`, as the robot sees them; front is nearer it), so a
+  variable can choose it: spatial-max draws `{dir}` and says it in the instruction too.
 - **`touching` needs a real contact.** Two blocks 0.5 mm apart are not touching;
   use `overlapping` on regions to mean "these meet".
 - **A region that dips below its object lifts it off the table.** `region` reports

@@ -65,6 +65,19 @@ def only_touching(s, a, b):
     return b in touched and touched <= {b}
 
 
+# Each side as the axis and sign that point to it, seen from the robot: front is nearer it.
+SIDES = {"left": ("y", 1), "right": ("y", -1), "front": ("x", -1), "back": ("x", 1)}
+
+
+@relation
+def side_of(s, a, b, side="left", margin=0.02):
+    """Whether a is on `side` of b (left, right, front or back, as the robot sees them): at
+    least `margin` metres that way, and within 45 degrees of it, like `left_of` and the rest."""
+    axis, sign = SIDES[side]
+    ahead = sign * offset(s, a, b, axis)
+    return ahead >= margin and ahead >= 0.7071 * gap(s, a, b, "xy")
+
+
 @relation
 def within(s, a, b, slack=0.0):
     """Whether a's origin lies in region b, grown by `slack` metres."""
