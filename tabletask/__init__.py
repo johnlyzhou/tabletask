@@ -37,6 +37,7 @@ def make(
     num_envs=None,
     robot="droid",
     gpus=None,
+    import_main=False,
     renderer=None,
     reward="success",
     scene=None,
@@ -52,6 +53,8 @@ def make(
             return them as one `Envs`.
         robot: The robot that acts in the scene: "droid", "gripper", a `Robot`, or None.
         gpus: With `num_envs`, CUDA GPU indices the environments render on, in turn.
+        import_main: With `num_envs`, re-run the calling script in each worker process, for
+            a robot or other object defined in that script; otherwise workers skip it.
         renderer: None to rasterise images, or "rtx" to path-trace them.
         reward: "success" for 1.0 on success, or "subtasks" for 1.0 at each new milestone.
         scene: A scene XML file to use in place of the task's own.
@@ -68,6 +71,7 @@ def make(
             num_envs,
             robot=robot,
             gpus=gpus,
+            import_main=import_main,
             renderer=renderer,
             reward=reward,
             scene=scene,

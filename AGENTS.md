@@ -103,7 +103,9 @@ in worker processes, one renderer each, as an `Envs` (`tabletask/vector.py`):
 `reset(episodes)`, `step(actions)` and `observe()` take and return lists, one entry
 per environment; an action may be a sequence of actions, run in turn with one render
 at the end; `set(image_size=...)` and `get("task.instruction")` reach every worker.
-Workers are spawned, so the caller's script needs a `__main__` guard.
+Workers are spawned without re-running the caller's script, so they load only tabletask;
+`import_main=True` re-runs it, for a robot or other object defined in that script, and
+then the script needs a `__main__` guard.
 
 The observation has `time`, `objects` (name -> position and wxyz quaternion),
 `robot` and `images`. Set `env.cameras` (a name, a list, or `False`) and

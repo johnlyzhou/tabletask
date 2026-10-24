@@ -11,7 +11,7 @@ import os
 import random
 import subprocess
 import sys
-from contextlib import suppress
+from contextlib import contextmanager, nullcontext, suppress
 
 import numpy as np
 
@@ -50,6 +50,26 @@ print(json.dumps(cuda))
     if missing:
         raise ValueError(f"no EGL device for GPU {missing}; EGL has {sorted(by_cuda)}")
     return [by_cuda[g] for g in gpus]
+
+
+@contextmanager
+def _hidden_main():
+    """Hide the calling script from processes started inside the block.
+
+    A spawned process normally re-runs the script that started the program before its target,
+    loading everything that script imports. Workers need only tabletask, so with the script
+    hidden they skip it.
+    """
+    main = sys.modules["__main__"]
+    saved = {name: getattr(main, name) for name in ("__spec__", "__file__") if hasattr(main, name)}
+    main.__spec__ = None
+    if hasattr(main, "__file__"):
+        del main.__file__
+    try:
+        yield
+    finally:
+        for name, value in saved.items():
+            setattr(main, name, value)
 
 
 def _trim_memory() -> None:
@@ -120,10 +140,11 @@ class Envs:
     which the worker applies in turn and renders only once, at the end: the right shape for
     a policy that emits action chunks.
 
-    Workers are started with the "spawn" method, so the calling script must be importable
-    (its top level guarded by `if __name__ == "__main__":`), and anything that must not run
-    again in a worker, such as creating a GPU backend for a learning framework, belongs
-    under that guard or must be disabled for child processes.
+    Workers are started with the "spawn" method without re-running the calling script, so they
+    load only tabletask however heavy the script's imports are. Anything passed to them (task,
+    robot, options) must then be importable from a module other than that script; a robot class
+    defined in the script itself needs `import_main=True`, which re-runs the script in each
+    worker, so its top level must be guarded by `if __name__ == "__main__":`.
 
     Args:
         source: The task, as `make` accepts it (a task id, file, JSON string or dict).
@@ -131,10 +152,11 @@ class Envs:
         robot: The robot each environment gets, as `make` accepts it.
         gpus: CUDA GPU indices to render on, one per worker in turn; None renders on
             whatever MUJOCO_EGL_DEVICE_ID or the driver chooses.
+        import_main: Re-run the calling script in each worker, for objects defined in it.
         **options: Passed to `make` (`renderer`, `scene`, `bindings`, ...).
     """
 
-    def __init__(self, source, num_envs: int, *, robot="droid", gpus=None, **options):
+    def __init__(self, source, num_envs: int, *, robot="droid", gpus=None, import_main=False, **options):
         if not isinstance(num_envs, int) or num_envs < 1:
             raise ValueError("num_envs must be a positive integer")
         self.num_envs = num_envs
@@ -144,23 +166,28 @@ class Envs:
         saved = {k: os.environ.get(k) for k in ("MUJOCO_GL", "MUJOCO_EGL_DEVICE_ID")}
         os.environ.setdefault("MUJOCO_GL", "egl")
         try:
-            for i in range(num_envs):
-                if devices:
-                    os.environ["MUJOCO_EGL_DEVICE_ID"] = str(devices[i % len(devices)])
-                parent, child = context.Pipe()
-                process = context.Process(
-                    target=_worker, args=(child, source, robot, options), daemon=True
-                )
-                process.start()
-                child.close()
-                self._pipes.append(parent)
-                self._processes.append(process)
+            with nullcontext() if import_main else _hidden_main():
+                self._start(context, source, robot, options, num_envs, devices)
         finally:
             for k, v in saved.items():
                 if v is None:
                     os.environ.pop(k, None)
                 else:
                     os.environ[k] = v
+
+    def _start(self, context, source, robot, options, num_envs, devices):
+        """Start one worker process per environment, rendering on the given EGL devices in turn."""
+        for i in range(num_envs):
+            if devices:
+                os.environ["MUJOCO_EGL_DEVICE_ID"] = str(devices[i % len(devices)])
+            parent, child = context.Pipe()
+            process = context.Process(
+                target=_worker, args=(child, source, robot, options), daemon=True
+            )
+            process.start()
+            child.close()
+            self._pipes.append(parent)
+            self._processes.append(process)
 
     def __len__(self) -> int:
         return self.num_envs
