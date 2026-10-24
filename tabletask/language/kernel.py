@@ -59,6 +59,13 @@ def touching(s, a, b):
 
 
 @relation
+def only_touching(s, a, b):
+    """Whether a touches b and nothing else: no other object, nor the table. The robot does not count."""
+    touched = s.touched(a)
+    return b in touched and touched <= {b}
+
+
+@relation
 def within(s, a, b, slack=0.0):
     """Whether a's origin lies in region b, grown by `slack` metres."""
     return s.within(b, s.pose(a)[0], slack)

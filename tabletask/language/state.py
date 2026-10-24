@@ -30,6 +30,10 @@ class State(Protocol):
     def contacts(self, a: str, b: str) -> bool:
         """Whether two named bodies or regions are in contact."""
 
+    def touched(self, name: str) -> set[str]:
+        """What a task object touches: other task objects, and `table` for anything fixed in the
+        scene; the robot is left out."""
+
     def resting_on(self, name: str) -> list[str]:
         """The objects supporting `name` from below."""
 

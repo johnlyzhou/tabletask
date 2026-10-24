@@ -203,6 +203,22 @@ class Runtime:
             touched.add(other.split("/")[0])
         return touched & set(self.task.scene.objects)
 
+    def touched(self, name: str) -> set[str]:
+        """What a task object touches: other task objects, and `table` for the table and
+        anything else fixed in the scene; the robot is left out."""
+        mine, objects = set(self._geoms_of(name)), set(self.task.scene.objects)
+        prefix, contact, touched = (self.robot.name + "/" if self.robot else None), self.data.contact, set()
+        for c in range(self.data.ncon):
+            g1, g2 = int(contact.geom1[c]), int(contact.geom2[c])
+            if (g1 in mine) == (g2 in mine):
+                continue
+            other = self.model.body(int(self.model.geom_bodyid[g2 if g1 in mine else g1])).name
+            if prefix and (other == self.robot.name or other.startswith(prefix)):
+                continue
+            owner = other.split("/")[0]
+            touched.add(owner if owner in objects else "table")
+        return touched
+
     def resting_on(self, name: str) -> list[str]:
         """Task objects supporting `name` from below, sorted.
 

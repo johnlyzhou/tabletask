@@ -331,7 +331,7 @@ python -m tabletask try tasks/base/mine.json --put banana=bowl/inside --settle 2
 
 | | |
 |---|---|
-| contact and containment | `on` `inside` `at` `near` `covering` `above` `below` `lifted` `touching` `within` `contained` |
+| contact and containment | `on` `inside` `at` `near` `covering` `above` `below` `lifted` `touching` `only_touching` `within` `contained` |
 | direction | `left_of` `right_of` `in_front_of` `behind` `facing` |
 | arrangement | `aligned` `ordered` `count_in` |
 | pose | `upright` `lying` `upside_down` `oriented` `oriented_like` |
@@ -350,6 +350,9 @@ python -m tabletask try tasks/base/mine.json --put banana=bowl/inside --settle 2
 - **Default tolerances are tight.** `at` allows 0.02 m from `b`'s centre; pass a larger
   one when the task allows it: `["at", "a", "b", 0.05]`. The object must still be within
   2 cm of `b`'s region, whatever the distance.
+- **`only_touching a b`** holds when a touches b and nothing else (no other object, nor the
+  table); the robot does not count. pnp-max uses it with `inside`, so an item leaning on a
+  container from the table, or resting on another item, is not placed.
 - **`touching` needs a real contact.** Two blocks 0.5 mm apart are not touching;
   use `overlapping` on regions to mean "these meet".
 - **A region that dips below its object lifts it off the table.** `region` reports
