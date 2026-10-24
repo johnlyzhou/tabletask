@@ -140,10 +140,12 @@ Each episode randomizes the Droid setup, seeded by the episode: joints start up 
 and y and turns up to `base_yaw_noise` (0.15 rad); with chance `table_extension` (0.5)
 the table top continues under the arm as a visual only, when the table is no higher than
 the base. The external camera moves to the arm's other side with chance `camera_mirror`
-(0.5), swings up to `camera_azimuth_noise` (45°) around the point it looks at, moves up
-to `camera_distance_noise` and `camera_height_noise` (20 cm) and re-aims at that point
-moved up to `camera_target_noise` (5 cm); its field of view changes up to
-`camera_fov_noise` (4°). Set any of these to 0 to turn it off.
+(0.5), swings within `camera_azimuth` (0 to 45°, away from the arm towards the table's
+side: swinging towards behind the arm lets the arm block the view) around the point it
+looks at, moves in or out up to `camera_distance_noise` (20 cm) and up or down within
+`camera_height` (-10 to +20 cm), and re-aims at that point moved up to
+`camera_target_noise` (5 cm); its field of view changes up to `camera_fov_noise` (4°).
+Set any of these to 0 (or a range to (0, 0)) to turn it off.
 
 `Gripper()` is a floating parallel gripper with rigid tapered rib fingers and an
 80 mm opening, for when reach and joint limits should not matter. It takes the same

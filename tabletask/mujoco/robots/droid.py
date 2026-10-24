@@ -58,11 +58,14 @@ class Droid(Robot):
         table_extension: The chance an episode extends the table top under the arm, when the
             table is no higher than the base; objects are still placed on the table itself.
         camera_mirror: The chance an episode moves the external camera to the arm's other side.
-        camera_azimuth_noise: The most the external camera swings around the point it looks at,
-            radians.
+        camera_azimuth: The range the external camera swings around the point it looks at, as
+            (low, high) radians: positive swings away from the arm, towards the side of the
+            table, negative towards behind the arm, where the arm blocks the view. Mirrored with
+            the camera.
         camera_distance_noise: The most the external camera moves towards or away from the point
             it looks at, horizontally, metres.
-        camera_height_noise: The most the external camera moves up or down, metres.
+        camera_height: The range the external camera moves up or down, as (low, high) metres; a
+            low camera looks along the arm.
         camera_target_noise: The most the point the external camera looks at moves along each
             axis, metres.
         camera_fov_noise: The most the external camera's vertical field of view changes, degrees.
@@ -91,9 +94,9 @@ class Droid(Robot):
         base_yaw_noise=0.15,
         table_extension=0.5,
         camera_mirror=0.5,
-        camera_azimuth_noise=np.pi / 4,
+        camera_azimuth=(0.0, np.pi / 4),
         camera_distance_noise=0.2,
-        camera_height_noise=0.2,
+        camera_height=(-0.1, 0.2),
         camera_target_noise=0.05,
         camera_fov_noise=4.0,
     ):
@@ -108,9 +111,9 @@ class Droid(Robot):
         self.base_yaw_noise = float(base_yaw_noise)
         self.table_extension = float(table_extension)
         self.camera_mirror = float(camera_mirror)
-        self.camera_azimuth_noise = float(camera_azimuth_noise)
+        self.camera_azimuth = tuple(float(a) for a in camera_azimuth)
         self.camera_distance_noise = float(camera_distance_noise)
-        self.camera_height_noise = float(camera_height_noise)
+        self.camera_height = tuple(float(h) for h in camera_height)
         self.camera_target_noise = float(camera_target_noise)
         self.camera_fov_noise = float(camera_fov_noise)
         self.camera = (False, 0.0, 0.0, 0.0, np.zeros(3), 0.0)
@@ -151,9 +154,9 @@ class Droid(Robot):
         self.extended = bool(rng.random() < self.table_extension)
         self.camera = (
             bool(rng.random() < self.camera_mirror),
-            rng.uniform(-self.camera_azimuth_noise, self.camera_azimuth_noise),
+            rng.uniform(*self.camera_azimuth),
             rng.uniform(-self.camera_distance_noise, self.camera_distance_noise),
-            rng.uniform(-self.camera_height_noise, self.camera_height_noise),
+            rng.uniform(*self.camera_height),
             rng.uniform(-self.camera_target_noise, self.camera_target_noise, 3),
             rng.uniform(-self.camera_fov_noise, self.camera_fov_noise),
         )
@@ -245,8 +248,8 @@ class Droid(Robot):
 
         The point is where the camera's nominal view axis meets the base's horizontal plane. The
         camera keeps its distance and height from it, mirrored across the base's xz plane on the
-        other side, then swings around it, moves in or out and up or down, and looks at it again
-        after it moves. The nominal pose is read once, so placing the camera again gives the same
+        other side, then swings around it (away from the arm for a positive swing, on either side),
+        moves in or out and up or down, and looks at it again after it moves. The nominal pose is read once, so placing the camera again gives the same
         pose.
         """
         mirrored, azimuth, distance, height, aim, fov = self.camera
@@ -265,7 +268,7 @@ class Droid(Robot):
         target = position + forward * (-position[2] / forward[2])
         offset = position - target
         if mirrored:
-            offset[1], target[1] = -offset[1], -target[1]
+            offset[1], target[1], azimuth = -offset[1], -target[1], -azimuth
         angle = np.arctan2(offset[1], offset[0]) + azimuth
         reach = max(np.hypot(offset[0], offset[1]) + distance, 0.3)
         swing = np.array([reach * np.cos(angle), reach * np.sin(angle), offset[2] + height])
