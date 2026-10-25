@@ -10,7 +10,6 @@ Assets ported into `assets/` keep the terms of where they came from.
 | objects listed in [`polyhaven.md`](polyhaven.md) | [Poly Haven](https://polyhaven.com) | CC0 |
 | objects listed in [`gso.md`](gso.md) | [Google Scanned Objects](https://app.gazebosim.org/GoogleResearch/fuel/collections/Scanned%20Objects%20by%20Google%20Research) by Google Research | CC BY 4.0 |
 | objects listed in [`omniobject3d.md`](omniobject3d.md) | [OmniObject3D](https://omniobject3d.github.io/) | CC BY 4.0 |
-| objects listed in [`abo.md`](abo.md) | [Amazon Berkeley Objects](https://amazon-berkeley-objects.s3.amazonaws.com/index.html) by Amazon.com | CC BY 4.0 |
 | baby doll mesh | reconstructed with [SAM 3D Objects](https://github.com/facebookresearch/sam-3d-objects) | SAM License, [`baby-doll-knife/SAM-LICENSE.txt`](baby-doll-knife/SAM-LICENSE.txt) |
 
 The robot models under `tabletask/mujoco/robots/assets/droid/` carry the Franka
