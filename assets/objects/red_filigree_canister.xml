@@ -1,0 +1,45 @@
+<mujoco model="red_filigree_canister">
+  <compiler angle="radian" meshdir="../mesh/red_filigree_canister" texturedir="../mesh/red_filigree_canister" />
+  <custom>
+    <text name="label" data="red filigree canister|canister|red canister|red canister with wood lid|red filigree stoneware canister with wooden lid" />
+    <text name="category" data="jar" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_filigree_canister_0_mesh" file="0.obj" />
+    <material name="red_filigree_canister_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="red_filigree_canister_0_tex" role="rgb" />
+    </material>
+    <texture name="red_filigree_canister_0_tex" type="2d" file="0.png" />
+    <mesh name="red_filigree_canister_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="red_filigree_canister_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="red_filigree_canister_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="red_filigree_canister_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="red_filigree_canister_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="red_filigree_canister_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="red_filigree_canister_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="red_filigree_canister_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="red_filigree_canister_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="red_filigree_canister_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="red_filigree_canister">
+      <geom type="mesh" mesh="red_filigree_canister_0_mesh" material="red_filigree_canister_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="red_filigree_canister_hull_00" rgba="0 0 0 0" group="3" mass="0.0208793948" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_filigree_canister_hull_01" rgba="0 0 0 0" group="3" mass="0.0488651412" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_filigree_canister_hull_02" rgba="0 0 0 0" group="3" mass="0.0377119197" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_filigree_canister_hull_03" rgba="0 0 0 0" group="3" mass="0.00195758912" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_filigree_canister_hull_04" rgba="0 0 0 0" group="3" mass="0.0146401887" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_filigree_canister_hull_05" rgba="0 0 0 0" group="3" mass="0.0952079628" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_filigree_canister_hull_06" rgba="0 0 0 0" group="3" mass="0.0847124591" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_filigree_canister_hull_07" rgba="0 0 0 0" group="3" mass="0.00797270963" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_filigree_canister_hull_08" rgba="0 0 0 0" group="3" mass="0.0304193073" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0650 0.0649 0.0882" pos="0.0000 0.0000 0.0882" />
+      <geom name="place:top" class="place" type="mesh" mesh="red_filigree_canister_top" />
+    </body>
+  </worldbody>
+</mujoco>

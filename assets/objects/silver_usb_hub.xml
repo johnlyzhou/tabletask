@@ -1,0 +1,30 @@
+<mujoco model="silver_usb_hub">
+  <compiler angle="radian" meshdir="../mesh/silver_usb_hub" texturedir="../mesh/silver_usb_hub" />
+  <custom>
+    <text name="label" data="silver usb hub|usb hub|hub|silver ten port hub|silver ten port usb hub" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="usb hub" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="silver_usb_hub_0_mesh" file="0.obj" />
+    <material name="silver_usb_hub_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="silver_usb_hub_0_tex" role="rgb" />
+    </material>
+    <texture name="silver_usb_hub_0_tex" type="2d" file="0.png" />
+    <mesh name="silver_usb_hub_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="silver_usb_hub_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="silver_usb_hub">
+      <geom type="mesh" mesh="silver_usb_hub_0_mesh" material="silver_usb_hub_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="silver_usb_hub_hull_00" rgba="0 0 0 0" group="3" mass="0.072031856" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0221 0.0724 0.0115" pos="0.0000 0.0000 0.0115" />
+      <geom name="place:top" class="place" type="mesh" mesh="silver_usb_hub_top" />
+    </body>
+  </worldbody>
+</mujoco>

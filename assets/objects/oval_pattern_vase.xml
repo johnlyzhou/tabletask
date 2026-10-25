@@ -1,0 +1,89 @@
+<mujoco model="oval_pattern_vase">
+  <compiler angle="radian" meshdir="../mesh/oval_pattern_vase" texturedir="../mesh/oval_pattern_vase" />
+  <custom>
+    <text name="label" data="oval pattern vase|vase|off white vase|off white oval pattern vase|off white oval pattern stoneware vase" />
+    <text name="category" data="vase" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="oval_pattern_vase_0_mesh" file="0.obj" />
+    <material name="oval_pattern_vase_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="oval_pattern_vase_0_tex" role="rgb" />
+    </material>
+    <texture name="oval_pattern_vase_0_tex" type="2d" file="0.png" />
+    <mesh name="oval_pattern_vase_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="oval_pattern_vase_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="oval_pattern_vase">
+      <geom type="mesh" mesh="oval_pattern_vase_0_mesh" material="oval_pattern_vase_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_00" rgba="0 0 0 0" group="3" mass="0.0248882399" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_01" rgba="0 0 0 0" group="3" mass="0.0232617842" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_02" rgba="0 0 0 0" group="3" mass="0.0257319508" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_03" rgba="0 0 0 0" group="3" mass="0.024876478" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_04" rgba="0 0 0 0" group="3" mass="0.0150771247" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_05" rgba="0 0 0 0" group="3" mass="0.0249126948" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_06" rgba="0 0 0 0" group="3" mass="0.0194677256" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_07" rgba="0 0 0 0" group="3" mass="0.0249343991" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_08" rgba="0 0 0 0" group="3" mass="0.0171232557" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_09" rgba="0 0 0 0" group="3" mass="0.0159091559" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_10" rgba="0 0 0 0" group="3" mass="0.0240565743" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_11" rgba="0 0 0 0" group="3" mass="0.0196716159" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_12" rgba="0 0 0 0" group="3" mass="0.0251793442" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_13" rgba="0 0 0 0" group="3" mass="0.00572389831" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_14" rgba="0 0 0 0" group="3" mass="0.0250222647" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_15" rgba="0 0 0 0" group="3" mass="0.0166291614" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_16" rgba="0 0 0 0" group="3" mass="0.0265011776" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_17" rgba="0 0 0 0" group="3" mass="0.0171288066" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_18" rgba="0 0 0 0" group="3" mass="0.0155600504" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_19" rgba="0 0 0 0" group="3" mass="0.0235174765" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_20" rgba="0 0 0 0" group="3" mass="0.0264927425" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_21" rgba="0 0 0 0" group="3" mass="0.00362948131" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_22" rgba="0 0 0 0" group="3" mass="0.00374857654" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_23" rgba="0 0 0 0" group="3" mass="0.00963724499" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_24" rgba="0 0 0 0" group="3" mass="0.00258748813" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_25" rgba="0 0 0 0" group="3" mass="0.00769694334" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_26" rgba="0 0 0 0" group="3" mass="0.0034247248" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_27" rgba="0 0 0 0" group="3" mass="0.00961878662" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_28" rgba="0 0 0 0" group="3" mass="0.00457741676" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_29" rgba="0 0 0 0" group="3" mass="0.00771046877" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_30" rgba="0 0 0 0" group="3" mass="0.00211578362" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="oval_pattern_vase_hull_31" rgba="0 0 0 0" group="3" mass="0.00271380703" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0811 0.0811 0.1113" pos="0.0000 0.0000 0.1113" />
+    </body>
+  </worldbody>
+</mujoco>

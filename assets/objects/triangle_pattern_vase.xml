@@ -1,0 +1,89 @@
+<mujoco model="triangle_pattern_vase">
+  <compiler angle="radian" meshdir="../mesh/triangle_pattern_vase" texturedir="../mesh/triangle_pattern_vase" />
+  <custom>
+    <text name="label" data="triangle pattern vase|vase|patterned vase|ecru and white triangle vase|ecru and white triangle pattern stoneware vase" />
+    <text name="category" data="vase" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="triangle_pattern_vase_0_mesh" file="0.obj" />
+    <material name="triangle_pattern_vase_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="triangle_pattern_vase_0_tex" role="rgb" />
+    </material>
+    <texture name="triangle_pattern_vase_0_tex" type="2d" file="0.png" />
+    <mesh name="triangle_pattern_vase_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="triangle_pattern_vase_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="triangle_pattern_vase">
+      <geom type="mesh" mesh="triangle_pattern_vase_0_mesh" material="triangle_pattern_vase_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_00" rgba="0 0 0 0" group="3" mass="0.015717248" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_01" rgba="0 0 0 0" group="3" mass="0.343197648" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_02" rgba="0 0 0 0" group="3" mass="0.00113609612" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_03" rgba="0 0 0 0" group="3" mass="0.00178327506" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_04" rgba="0 0 0 0" group="3" mass="0.00304835093" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_05" rgba="0 0 0 0" group="3" mass="0.00923683624" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_06" rgba="0 0 0 0" group="3" mass="0.0162973383" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_07" rgba="0 0 0 0" group="3" mass="0.00931018887" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_08" rgba="0 0 0 0" group="3" mass="0.00903479595" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_09" rgba="0 0 0 0" group="3" mass="0.00705550439" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_10" rgba="0 0 0 0" group="3" mass="0.0142282716" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_11" rgba="0 0 0 0" group="3" mass="0.0159859439" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_12" rgba="0 0 0 0" group="3" mass="0.00111461911" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_13" rgba="0 0 0 0" group="3" mass="0.00842382261" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_14" rgba="0 0 0 0" group="3" mass="0.0106072275" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_15" rgba="0 0 0 0" group="3" mass="0.00683085258" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_16" rgba="0 0 0 0" group="3" mass="0.0104170416" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_17" rgba="0 0 0 0" group="3" mass="0.00145265481" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_18" rgba="0 0 0 0" group="3" mass="0.0114752705" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_19" rgba="0 0 0 0" group="3" mass="0.0167469159" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_20" rgba="0 0 0 0" group="3" mass="0.0016848555" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_21" rgba="0 0 0 0" group="3" mass="0.00300109526" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_22" rgba="0 0 0 0" group="3" mass="0.00124999741" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_23" rgba="0 0 0 0" group="3" mass="0.00111461911" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_24" rgba="0 0 0 0" group="3" mass="0.00230400353" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_25" rgba="0 0 0 0" group="3" mass="0.00379796833" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_26" rgba="0 0 0 0" group="3" mass="0.00111461911" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_27" rgba="0 0 0 0" group="3" mass="0.0164671584" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_28" rgba="0 0 0 0" group="3" mass="0.0100105311" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_29" rgba="0 0 0 0" group="3" mass="0.00117845102" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_30" rgba="0 0 0 0" group="3" mass="0.00281746582" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="triangle_pattern_vase_hull_31" rgba="0 0 0 0" group="3" mass="0.00111659745" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0873 0.0871 0.1152" pos="0.0000 0.0000 0.1152" />
+    </body>
+  </worldbody>
+</mujoco>

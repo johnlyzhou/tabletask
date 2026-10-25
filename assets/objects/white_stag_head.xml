@@ -1,0 +1,71 @@
+<mujoco model="white_stag_head">
+  <compiler angle="radian" meshdir="../mesh/white_stag_head" texturedir="../mesh/white_stag_head" />
+  <custom>
+    <text name="label" data="white stag head|stag head|deer head|white deer head|white polyresin stag head figurine" />
+    <text name="category" data="deer" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_stag_head_0_mesh" file="0.obj" />
+    <material name="white_stag_head_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_stag_head_0_tex" role="rgb" />
+    </material>
+    <texture name="white_stag_head_0_tex" type="2d" file="0.png" />
+    <mesh name="white_stag_head_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="white_stag_head_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="white_stag_head">
+      <geom type="mesh" mesh="white_stag_head_0_mesh" material="white_stag_head_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_00" rgba="0 0 0 0" group="3" mass="0.207345388" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_01" rgba="0 0 0 0" group="3" mass="0.0979987892" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_02" rgba="0 0 0 0" group="3" mass="0.0178088182" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_03" rgba="0 0 0 0" group="3" mass="0.00901801746" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_04" rgba="0 0 0 0" group="3" mass="0.00538158112" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_05" rgba="0 0 0 0" group="3" mass="0.353827917" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_06" rgba="0 0 0 0" group="3" mass="0.00232952251" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_07" rgba="0 0 0 0" group="3" mass="0.00952782657" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_08" rgba="0 0 0 0" group="3" mass="0.0034313687" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_09" rgba="0 0 0 0" group="3" mass="0.0108432035" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_10" rgba="0 0 0 0" group="3" mass="0.00362720301" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_11" rgba="0 0 0 0" group="3" mass="0.0111873215" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_12" rgba="0 0 0 0" group="3" mass="0.0880704697" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_13" rgba="0 0 0 0" group="3" mass="0.0505388062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_14" rgba="0 0 0 0" group="3" mass="0.00689859413" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_15" rgba="0 0 0 0" group="3" mass="0.00718833407" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_16" rgba="0 0 0 0" group="3" mass="0.0149993397" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_17" rgba="0 0 0 0" group="3" mass="0.00783760393" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_18" rgba="0 0 0 0" group="3" mass="0.0127723002" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_19" rgba="0 0 0 0" group="3" mass="0.015433481" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_20" rgba="0 0 0 0" group="3" mass="0.00702057729" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_21" rgba="0 0 0 0" group="3" mass="0.0405981798" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_stag_head_hull_22" rgba="0 0 0 0" group="3" mass="0.0163153569" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0872 0.1120 0.1644" pos="0.0000 0.0000 0.1644" />
+    </body>
+  </worldbody>
+</mujoco>

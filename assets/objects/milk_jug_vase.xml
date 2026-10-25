@@ -1,0 +1,93 @@
+<mujoco model="milk_jug_vase">
+  <compiler angle="radian" meshdir="../mesh/milk_jug_vase" texturedir="../mesh/milk_jug_vase" />
+  <custom>
+    <text name="label" data="milk jug vase|vase|jug vase|cream and clay milk jug vase|cream and clay farmhouse milk jug stoneware vase" />
+    <text name="category" data="vase" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="milk_jug_vase_0_mesh" file="0.obj" />
+    <material name="milk_jug_vase_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="milk_jug_vase_0_tex" role="rgb" />
+    </material>
+    <texture name="milk_jug_vase_0_tex" type="2d" file="0.png" />
+    <mesh name="milk_jug_vase_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="milk_jug_vase_inside" file="inside.obj" />
+    <mesh name="milk_jug_vase_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="milk_jug_vase">
+      <geom type="mesh" mesh="milk_jug_vase_0_mesh" material="milk_jug_vase_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_00" rgba="0 0 0 0" group="3" mass="0.0393548121" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_01" rgba="0 0 0 0" group="3" mass="0.0178825558" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_02" rgba="0 0 0 0" group="3" mass="0.0108208131" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_03" rgba="0 0 0 0" group="3" mass="0.0229556945" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_04" rgba="0 0 0 0" group="3" mass="0.0170492711" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_05" rgba="0 0 0 0" group="3" mass="0.0178504088" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_06" rgba="0 0 0 0" group="3" mass="0.017753009" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_07" rgba="0 0 0 0" group="3" mass="0.0170649834" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_08" rgba="0 0 0 0" group="3" mass="0.0219604772" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_09" rgba="0 0 0 0" group="3" mass="0.0230614312" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_10" rgba="0 0 0 0" group="3" mass="0.0230314969" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_11" rgba="0 0 0 0" group="3" mass="0.0219523471" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_12" rgba="0 0 0 0" group="3" mass="0.0151543973" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_13" rgba="0 0 0 0" group="3" mass="0.0256989151" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_14" rgba="0 0 0 0" group="3" mass="0.0185718801" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_15" rgba="0 0 0 0" group="3" mass="0.0172474522" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_16" rgba="0 0 0 0" group="3" mass="0.0176385695" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_17" rgba="0 0 0 0" group="3" mass="0.0167502553" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_18" rgba="0 0 0 0" group="3" mass="0.0180656795" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_19" rgba="0 0 0 0" group="3" mass="0.0106298172" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_20" rgba="0 0 0 0" group="3" mass="0.00953531912" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_21" rgba="0 0 0 0" group="3" mass="0.0104327775" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_22" rgba="0 0 0 0" group="3" mass="0.0121287704" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_23" rgba="0 0 0 0" group="3" mass="0.0104673408" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_24" rgba="0 0 0 0" group="3" mass="0.00805398619" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_25" rgba="0 0 0 0" group="3" mass="0.0314836087" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_26" rgba="0 0 0 0" group="3" mass="0.00625308639" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_27" rgba="0 0 0 0" group="3" mass="0.0291679368" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_28" rgba="0 0 0 0" group="3" mass="0.00245409178" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_29" rgba="0 0 0 0" group="3" mass="0.00806450578" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_30" rgba="0 0 0 0" group="3" mass="0.00805905473" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="milk_jug_vase_hull_31" rgba="0 0 0 0" group="3" mass="0.00672937023" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0792 0.0792 0.1141" pos="0.0000 0.0000 0.1141" />
+      <geom name="place:inside" class="place" type="mesh" mesh="milk_jug_vase_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="milk_jug_vase_top" />
+    </body>
+  </worldbody>
+</mujoco>

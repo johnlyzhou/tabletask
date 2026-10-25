@@ -1,0 +1,45 @@
+<mujoco model="white_pillar_candle_holder">
+  <compiler angle="radian" meshdir="../mesh/white_pillar_candle_holder" texturedir="../mesh/white_pillar_candle_holder" />
+  <custom>
+    <text name="label" data="white pillar candle holder|candle holder|pillar candle holder|white and clay candle holder|white and clay stoneware pillar candle holder" />
+    <text name="category" data="candle holder" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_pillar_candle_holder_0_mesh" file="0.obj" />
+    <material name="white_pillar_candle_holder_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_pillar_candle_holder_0_tex" role="rgb" />
+    </material>
+    <texture name="white_pillar_candle_holder_0_tex" type="2d" file="0.png" />
+    <mesh name="white_pillar_candle_holder_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_pillar_candle_holder_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_pillar_candle_holder_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_pillar_candle_holder_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_pillar_candle_holder_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="white_pillar_candle_holder_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="white_pillar_candle_holder_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="white_pillar_candle_holder_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="white_pillar_candle_holder_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="white_pillar_candle_holder_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="white_pillar_candle_holder">
+      <geom type="mesh" mesh="white_pillar_candle_holder_0_mesh" material="white_pillar_candle_holder_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_pillar_candle_holder_hull_00" rgba="0 0 0 0" group="3" mass="0.021510585" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_pillar_candle_holder_hull_01" rgba="0 0 0 0" group="3" mass="0.0471660671" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_pillar_candle_holder_hull_02" rgba="0 0 0 0" group="3" mass="0.0135637692" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_pillar_candle_holder_hull_03" rgba="0 0 0 0" group="3" mass="0.0155386669" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_pillar_candle_holder_hull_04" rgba="0 0 0 0" group="3" mass="0.0118402879" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_pillar_candle_holder_hull_05" rgba="0 0 0 0" group="3" mass="0.0080722678" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_pillar_candle_holder_hull_06" rgba="0 0 0 0" group="3" mass="0.0543170187" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_pillar_candle_holder_hull_07" rgba="0 0 0 0" group="3" mass="0.0155433014" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_pillar_candle_holder_hull_08" rgba="0 0 0 0" group="3" mass="0.0219898237" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0439 0.0439 0.1015" pos="0.0000 0.0000 0.1015" />
+      <geom name="place:top" class="place" type="mesh" mesh="white_pillar_candle_holder_top" />
+    </body>
+  </worldbody>
+</mujoco>

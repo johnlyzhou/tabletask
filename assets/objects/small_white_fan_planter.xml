@@ -1,0 +1,94 @@
+<mujoco model="small_white_fan_planter">
+  <compiler angle="radian" meshdir="../mesh/small_white_fan_planter" texturedir="../mesh/small_white_fan_planter" />
+  <custom>
+    <text name="label" data="small white fan planter|planter|small white planter|small white embossed pot|small white fan embossed planter" />
+    <text name="tags" data="container" />
+    <text name="category" data="pot" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="small_white_fan_planter_0_mesh" file="0.obj" />
+    <material name="small_white_fan_planter_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="small_white_fan_planter_0_tex" role="rgb" />
+    </material>
+    <texture name="small_white_fan_planter_0_tex" type="2d" file="0.png" />
+    <mesh name="small_white_fan_planter_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="small_white_fan_planter_inside" file="inside.obj" />
+    <mesh name="small_white_fan_planter_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="small_white_fan_planter">
+      <geom type="mesh" mesh="small_white_fan_planter_0_mesh" material="small_white_fan_planter_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_00" rgba="0 0 0 0" group="3" mass="0.0262821783" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_01" rgba="0 0 0 0" group="3" mass="0.00206605668" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_02" rgba="0 0 0 0" group="3" mass="0.00138441519" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_03" rgba="0 0 0 0" group="3" mass="0.00217044966" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_04" rgba="0 0 0 0" group="3" mass="0.0207556005" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_05" rgba="0 0 0 0" group="3" mass="0.00102632647" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_06" rgba="0 0 0 0" group="3" mass="0.00976280325" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_07" rgba="0 0 0 0" group="3" mass="0.0143020245" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_08" rgba="0 0 0 0" group="3" mass="0.0120773348" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_09" rgba="0 0 0 0" group="3" mass="0.0150066735" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_10" rgba="0 0 0 0" group="3" mass="0.0100760197" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_11" rgba="0 0 0 0" group="3" mass="0.0106596864" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_12" rgba="0 0 0 0" group="3" mass="0.0184259985" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_13" rgba="0 0 0 0" group="3" mass="0.0144488767" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_14" rgba="0 0 0 0" group="3" mass="0.0017522474" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_15" rgba="0 0 0 0" group="3" mass="0.00155509503" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_16" rgba="0 0 0 0" group="3" mass="0.0018449939" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_17" rgba="0 0 0 0" group="3" mass="0.00150557178" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_18" rgba="0 0 0 0" group="3" mass="0.00198262479" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_19" rgba="0 0 0 0" group="3" mass="0.0018594258" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_20" rgba="0 0 0 0" group="3" mass="0.00818232865" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_21" rgba="0 0 0 0" group="3" mass="0.00282691939" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_22" rgba="0 0 0 0" group="3" mass="0.00140633997" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_23" rgba="0 0 0 0" group="3" mass="0.0113988942" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_24" rgba="0 0 0 0" group="3" mass="0.00166282742" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_25" rgba="0 0 0 0" group="3" mass="0.0021189208" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_26" rgba="0 0 0 0" group="3" mass="0.009281938" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_27" rgba="0 0 0 0" group="3" mass="0.00097608417" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_28" rgba="0 0 0 0" group="3" mass="0.00108537945" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_29" rgba="0 0 0 0" group="3" mass="0.00258723232" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_30" rgba="0 0 0 0" group="3" mass="0.0138397101" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="small_white_fan_planter_hull_31" rgba="0 0 0 0" group="3" mass="0.00174546173" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0619 0.0619 0.0546" pos="0.0000 0.0000 0.0546" />
+      <geom name="place:inside" class="place" type="mesh" mesh="small_white_fan_planter_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="small_white_fan_planter_top" />
+    </body>
+  </worldbody>
+</mujoco>
