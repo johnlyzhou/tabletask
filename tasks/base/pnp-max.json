@@ -518,7 +518,8 @@
   },
   "start": [["on", "container", "table"], ["on", "item", "table"]],
   "always": [
-    ["at_most", ["tally", ["each", "#item", ["lifted", "it", 0.03, "table"]]], ["tally", [["lifted", "item1", 0.03, "table"]]]]
+    ["at_most", ["tally", ["each", "#item", ["lifted", "it", 0.03, "table"]]], ["tally", [["lifted", "item1", 0.03, "table"]]]],
+    ["or", ["inside", "item1", "container1"], ["no", "#container", ["inside", "item1", "it"]]]
   ],
   "goal": {
     "stages": {
