@@ -1,0 +1,28 @@
+<mujoco model="white_baseball">
+  <compiler angle="radian" meshdir="../mesh/white_baseball" texturedir="../mesh/white_baseball" />
+  <custom>
+    <text name="label" data="white baseball|baseball|ball|white leather baseball|white leather baseball with red stitching" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="ball" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_baseball_0_mesh" file="0.obj" />
+    <material name="white_baseball_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_baseball_0_tex" role="rgb" />
+    </material>
+    <texture name="white_baseball_0_tex" type="2d" file="0.png" />
+    <mesh name="white_baseball_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="white_baseball">
+      <geom type="mesh" mesh="white_baseball_0_mesh" material="white_baseball_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_baseball_hull_00" rgba="0 0 0 0" group="3" mass="0.0805657168" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0365 0.0369 0.0363" pos="0.0000 0.0000 0.0363" />
+    </body>
+  </worldbody>
+</mujoco>
