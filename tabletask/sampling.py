@@ -93,6 +93,7 @@ def _speak(task: Task, rng=None) -> Task:
         task,
         lambda record: {
             **record,
+            "__object_labels__": names,
             "instruction": PLACEHOLDER.sub(
                 lambda m: names.get(m.group(1), m.group(0)), record["instruction"]
             ),

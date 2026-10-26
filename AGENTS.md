@@ -113,6 +113,10 @@ The observation has `time`, `objects` (name -> position and wxyz quaternion),
 same arguments for one call. A step advances 0.05 s by default, and motion goes
 through actuators, so reaching a target takes several steps.
 
+`Task.object_labels` retains the names chosen when sampling the instruction.
+Bounding boxes reuse them, falling back to main asset names when none were sampled.
+Observation generation must not resample names or advance the sampling RNG.
+
 `Env.monitor_interval` (default 0.01 s) is how often conditions are checked. It is
 rounded to whole physics steps and does not change the physics timestep.
 

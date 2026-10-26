@@ -252,7 +252,7 @@ class Env:
             }
             if requested:
                 if self._object_labels is None:
-                    self._object_labels = labels(self.task)
+                    self._object_labels = self.task.object_labels or labels(self.task)
                 boxes = runtime.bounding_boxes(requested, width, height)
                 for objects in boxes.values():
                     for name, box in objects.items():
