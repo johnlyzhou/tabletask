@@ -1,0 +1,40 @@
+<mujoco model="red_delicious_apple">
+  <compiler angle="radian" meshdir="../mesh/red_delicious_apple" texturedir="../mesh/red_delicious_apple" />
+  <custom>
+    <text name="label" data="red delicious apple|apple|fruit|dark red apple|large dark red apple with a stem" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="apple" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_delicious_apple_0_mesh" file="0.obj" />
+    <material name="red_delicious_apple_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="red_delicious_apple_0_tex" role="rgb" />
+    </material>
+    <texture name="red_delicious_apple_0_tex" type="2d" file="0.png" />
+    <mesh name="red_delicious_apple_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="red_delicious_apple_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="red_delicious_apple_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="red_delicious_apple_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="red_delicious_apple_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="red_delicious_apple_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="red_delicious_apple_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="red_delicious_apple">
+      <geom type="mesh" mesh="red_delicious_apple_0_mesh" material="red_delicious_apple_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="red_delicious_apple_hull_00" rgba="0 0 0 0" group="3" mass="0.0390892313" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_delicious_apple_hull_01" rgba="0 0 0 0" group="3" mass="0.00809929361" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_delicious_apple_hull_02" rgba="0 0 0 0" group="3" mass="0.0173122709" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_delicious_apple_hull_03" rgba="0 0 0 0" group="3" mass="0.0223668406" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_delicious_apple_hull_04" rgba="0 0 0 0" group="3" mass="0.0041316862" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_delicious_apple_hull_05" rgba="0 0 0 0" group="3" mass="0.00107980712" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_delicious_apple_hull_06" rgba="0 0 0 0" group="3" mass="0.00374927828" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0388 0.0405 0.0477" pos="0.0000 0.0000 0.0477" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,34 @@
+<mujoco model="pale_beer_bottle">
+  <compiler angle="radian" meshdir="../mesh/pale_beer_bottle" texturedir="../mesh/pale_beer_bottle" />
+  <custom>
+    <text name="label" data="pale beer bottle|bottle|beer bottle|yellow label beer bottle|clear beer bottle with a yellow label and gold cap" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pale_beer_bottle_0_mesh" file="0.obj" />
+    <material name="pale_beer_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pale_beer_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="pale_beer_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="pale_beer_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pale_beer_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pale_beer_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pale_beer_bottle_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="pale_beer_bottle">
+      <geom type="mesh" mesh="pale_beer_bottle_0_mesh" material="pale_beer_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="pale_beer_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.00102922344" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_beer_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.00435955948" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_beer_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.00844873476" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pale_beer_bottle_hull_03" rgba="0 0 0 0" group="3" mass="0.0897408738" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0252 0.0250 0.1147" pos="0.0000 0.0000 0.1147" />
+    </body>
+  </worldbody>
+</mujoco>

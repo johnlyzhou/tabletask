@@ -1,0 +1,48 @@
+<mujoco model="white_takeaway_coffee_cup">
+  <compiler angle="radian" meshdir="../mesh/white_takeaway_coffee_cup" texturedir="../mesh/white_takeaway_coffee_cup" />
+  <custom>
+    <text name="label" data="white takeaway coffee cup|cup|coffee cup|white takeaway cup|white paper takeaway coffee cup with a brown sleeve" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="cup" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_takeaway_coffee_cup_0_mesh" file="0.obj" />
+    <material name="white_takeaway_coffee_cup_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_takeaway_coffee_cup_0_tex" role="rgb" />
+    </material>
+    <texture name="white_takeaway_coffee_cup_0_tex" type="2d" file="0.png" />
+    <mesh name="white_takeaway_coffee_cup_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="white_takeaway_coffee_cup_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="white_takeaway_coffee_cup">
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_0_mesh" material="white_takeaway_coffee_cup_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_00" rgba="0 0 0 0" group="3" mass="0.0695632886" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_01" rgba="0 0 0 0" group="3" mass="0.00114203401" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_02" rgba="0 0 0 0" group="3" mass="0.00110315175" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_03" rgba="0 0 0 0" group="3" mass="0.00107189859" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_04" rgba="0 0 0 0" group="3" mass="0.00325432163" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_05" rgba="0 0 0 0" group="3" mass="0.00125888631" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_06" rgba="0 0 0 0" group="3" mass="0.00304646526" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_07" rgba="0 0 0 0" group="3" mass="0.00663287111" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_08" rgba="0 0 0 0" group="3" mass="0.00115335007" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_takeaway_coffee_cup_hull_09" rgba="0 0 0 0" group="3" mass="0.00115574237" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0324 0.0324 0.0546" pos="0.0000 0.0000 0.0546" />
+      <geom name="place:top" class="place" type="mesh" mesh="white_takeaway_coffee_cup_top" />
+    </body>
+  </worldbody>
+</mujoco>

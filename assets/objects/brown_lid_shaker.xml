@@ -1,0 +1,30 @@
+<mujoco model="brown_lid_shaker">
+  <compiler angle="radian" meshdir="../mesh/brown_lid_shaker" texturedir="../mesh/brown_lid_shaker" />
+  <custom>
+    <text name="label" data="brown lid shaker|shaker|pepper shaker|brown lid shaker|cream shaker with a brown lid" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="salt" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="brown_lid_shaker_0_mesh" file="0.obj" />
+    <material name="brown_lid_shaker_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="brown_lid_shaker_0_tex" role="rgb" />
+    </material>
+    <texture name="brown_lid_shaker_0_tex" type="2d" file="0.png" />
+    <mesh name="brown_lid_shaker_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="brown_lid_shaker_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="brown_lid_shaker">
+      <geom type="mesh" mesh="brown_lid_shaker_0_mesh" material="brown_lid_shaker_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="brown_lid_shaker_hull_00" rgba="0 0 0 0" group="3" mass="0.0100402599" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="brown_lid_shaker_hull_01" rgba="0 0 0 0" group="3" mass="0.0742917209" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0309 0.0309 0.0548" pos="0.0000 0.0000 0.0548" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,32 @@
+<mujoco model="fruit_cocktail_can">
+  <compiler angle="radian" meshdir="../mesh/fruit_cocktail_can" texturedir="../mesh/fruit_cocktail_can" />
+  <custom>
+    <text name="label" data="fruit cocktail can|can|fruit can|yellow fruit can|yellow can of fruit cocktail with grapes on the label" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="can" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="fruit_cocktail_can_0_mesh" file="0.obj" />
+    <material name="fruit_cocktail_can_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="fruit_cocktail_can_0_tex" role="rgb" />
+    </material>
+    <texture name="fruit_cocktail_can_0_tex" type="2d" file="0.png" />
+    <mesh name="fruit_cocktail_can_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="fruit_cocktail_can_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="fruit_cocktail_can_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="fruit_cocktail_can">
+      <geom type="mesh" mesh="fruit_cocktail_can_0_mesh" material="fruit_cocktail_can_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="fruit_cocktail_can_hull_00" rgba="0 0 0 0" group="3" mass="0.0531537813" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="fruit_cocktail_can_hull_01" rgba="0 0 0 0" group="3" mass="0.0659146933" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0380 0.0385 0.0508" pos="0.0000 0.0000 0.0508" />
+      <geom name="place:top" class="place" type="mesh" mesh="fruit_cocktail_can_top" />
+    </body>
+  </worldbody>
+</mujoco>

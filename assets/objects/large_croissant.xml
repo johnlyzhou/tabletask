@@ -1,0 +1,42 @@
+<mujoco model="large_croissant">
+  <compiler angle="radian" meshdir="../mesh/large_croissant" texturedir="../mesh/large_croissant" />
+  <custom>
+    <text name="label" data="large croissant|pastry|croissant|large croissant|large flaky brown croissant" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="pastry" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="large_croissant_0_mesh" file="0.obj" />
+    <material name="large_croissant_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="large_croissant_0_tex" role="rgb" />
+    </material>
+    <texture name="large_croissant_0_tex" type="2d" file="0.png" />
+    <mesh name="large_croissant_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="large_croissant_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="large_croissant_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="large_croissant_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="large_croissant_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="large_croissant_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="large_croissant_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="large_croissant_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="large_croissant">
+      <geom type="mesh" mesh="large_croissant_0_mesh" material="large_croissant_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="large_croissant_hull_00" rgba="0 0 0 0" group="3" mass="0.00835012832" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_croissant_hull_01" rgba="0 0 0 0" group="3" mass="0.00548363277" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_croissant_hull_02" rgba="0 0 0 0" group="3" mass="0.0120598625" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_croissant_hull_03" rgba="0 0 0 0" group="3" mass="0.0259573075" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_croissant_hull_04" rgba="0 0 0 0" group="3" mass="0.0107550184" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_croissant_hull_05" rgba="0 0 0 0" group="3" mass="0.0167218682" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_croissant_hull_06" rgba="0 0 0 0" group="3" mass="0.00624329258" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="large_croissant_hull_07" rgba="0 0 0 0" group="3" mass="0.00792953394" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0406 0.0799 0.0253" pos="0.0000 0.0000 0.0253" />
+    </body>
+  </worldbody>
+</mujoco>

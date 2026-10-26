@@ -1,0 +1,36 @@
+<mujoco model="blue_pastel_stick">
+  <compiler angle="radian" meshdir="../mesh/blue_pastel_stick" texturedir="../mesh/blue_pastel_stick" />
+  <custom>
+    <text name="label" data="blue pastel stick|pastel|pastel stick|blue pastel|square blue soft pastel stick" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="chalk" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_pastel_stick_0_mesh" file="0.obj" />
+    <material name="blue_pastel_stick_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="blue_pastel_stick_0_tex" role="rgb" />
+    </material>
+    <texture name="blue_pastel_stick_0_tex" type="2d" file="0.png" />
+    <mesh name="blue_pastel_stick_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="blue_pastel_stick_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="blue_pastel_stick_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="blue_pastel_stick_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="blue_pastel_stick_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="blue_pastel_stick">
+      <geom type="mesh" mesh="blue_pastel_stick_0_mesh" material="blue_pastel_stick_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="blue_pastel_stick_hull_00" rgba="0 0 0 0" group="3" mass="0.0118487043" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_pastel_stick_hull_01" rgba="0 0 0 0" group="3" mass="0.0149803229" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_pastel_stick_hull_02" rgba="0 0 0 0" group="3" mass="0.0077472066" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_pastel_stick_hull_03" rgba="0 0 0 0" group="3" mass="0.0177494635" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0430 0.0074 0.0063" pos="0.0000 0.0000 0.0063" />
+      <geom name="place:top" class="place" type="mesh" mesh="blue_pastel_stick_top" />
+    </body>
+  </worldbody>
+</mujoco>

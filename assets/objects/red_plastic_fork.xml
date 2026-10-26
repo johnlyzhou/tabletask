@@ -1,0 +1,38 @@
+<mujoco model="red_plastic_fork">
+  <compiler angle="radian" meshdir="../mesh/red_plastic_fork" texturedir="../mesh/red_plastic_fork" />
+  <custom>
+    <text name="label" data="red plastic fork|fork|plastic fork|red fork|red plastic fork" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="fork" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="red_plastic_fork_0_mesh" file="0.obj" />
+    <material name="red_plastic_fork_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="red_plastic_fork_0_tex" role="rgb" />
+    </material>
+    <texture name="red_plastic_fork_0_tex" type="2d" file="0.png" />
+    <mesh name="red_plastic_fork_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="red_plastic_fork_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="red_plastic_fork_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="red_plastic_fork_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="red_plastic_fork_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="red_plastic_fork_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="red_plastic_fork">
+      <geom type="mesh" mesh="red_plastic_fork_0_mesh" material="red_plastic_fork_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="red_plastic_fork_hull_00" rgba="0 0 0 0" group="3" mass="0.0118160486" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_plastic_fork_hull_01" rgba="0 0 0 0" group="3" mass="0.0245783845" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_plastic_fork_hull_02" rgba="0 0 0 0" group="3" mass="0.00394692603" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_plastic_fork_hull_03" rgba="0 0 0 0" group="3" mass="0.0037059852" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_plastic_fork_hull_04" rgba="0 0 0 0" group="3" mass="0.010134603" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="red_plastic_fork_hull_05" rgba="0 0 0 0" group="3" mass="0.00361404774" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0140 0.0995 0.0150" pos="0.0000 0.0000 0.0150" />
+    </body>
+  </worldbody>
+</mujoco>

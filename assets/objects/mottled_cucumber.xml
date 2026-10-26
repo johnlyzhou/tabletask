@@ -1,0 +1,28 @@
+<mujoco model="mottled_cucumber">
+  <compiler angle="radian" meshdir="../mesh/mottled_cucumber" texturedir="../mesh/mottled_cucumber" />
+  <custom>
+    <text name="label" data="mottled cucumber|cucumber|vegetable|mottled cucumber|green cucumber with brown mottled skin" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="cucumber" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="mottled_cucumber_0_mesh" file="0.obj" />
+    <material name="mottled_cucumber_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="mottled_cucumber_0_tex" role="rgb" />
+    </material>
+    <texture name="mottled_cucumber_0_tex" type="2d" file="0.png" />
+    <mesh name="mottled_cucumber_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="mottled_cucumber">
+      <geom type="mesh" mesh="mottled_cucumber_0_mesh" material="mottled_cucumber_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="mottled_cucumber_hull_00" rgba="0 0 0 0" group="3" mass="0.0876889433" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0258 0.0848 0.0261" pos="0.0000 0.0000 0.0261" />
+    </body>
+  </worldbody>
+</mujoco>

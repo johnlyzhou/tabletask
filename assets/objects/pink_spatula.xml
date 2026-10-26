@@ -1,0 +1,34 @@
+<mujoco model="pink_spatula">
+  <compiler angle="radian" meshdir="../mesh/pink_spatula" texturedir="../mesh/pink_spatula" />
+  <custom>
+    <text name="label" data="pink spatula|spatula|kitchen tool|pink spatula|pink silicone spatula" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="spatula" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pink_spatula_0_mesh" file="0.obj" />
+    <material name="pink_spatula_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pink_spatula_0_tex" role="rgb" />
+    </material>
+    <texture name="pink_spatula_0_tex" type="2d" file="0.png" />
+    <mesh name="pink_spatula_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pink_spatula_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pink_spatula_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pink_spatula_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="pink_spatula">
+      <geom type="mesh" mesh="pink_spatula_0_mesh" material="pink_spatula_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="pink_spatula_hull_00" rgba="0 0 0 0" group="3" mass="0.0186523439" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_spatula_hull_01" rgba="0 0 0 0" group="3" mass="0.00417017569" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_spatula_hull_02" rgba="0 0 0 0" group="3" mass="0.029889744" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0214 0.1040 0.0026" pos="0.0000 0.0000 0.0026" />
+      <geom name="place:top" class="place" type="mesh" mesh="pink_spatula_top" />
+    </body>
+  </worldbody>
+</mujoco>

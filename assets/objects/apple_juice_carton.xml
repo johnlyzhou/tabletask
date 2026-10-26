@@ -1,0 +1,32 @@
+<mujoco model="apple_juice_carton">
+  <compiler angle="radian" meshdir="../mesh/apple_juice_carton" texturedir="../mesh/apple_juice_carton" />
+  <custom>
+    <text name="label" data="apple juice carton|carton|juice carton|yellow juice carton|yellow apple juice carton with a cap" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="carton" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="apple_juice_carton_0_mesh" file="0.obj" />
+    <material name="apple_juice_carton_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="apple_juice_carton_0_tex" role="rgb" />
+    </material>
+    <texture name="apple_juice_carton_0_tex" type="2d" file="0.png" />
+    <mesh name="apple_juice_carton_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="apple_juice_carton_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="apple_juice_carton_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="apple_juice_carton">
+      <geom type="mesh" mesh="apple_juice_carton_0_mesh" material="apple_juice_carton_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="apple_juice_carton_hull_00" rgba="0 0 0 0" group="3" mass="0.181059789" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="apple_juice_carton_hull_01" rgba="0 0 0 0" group="3" mass="0.000686404668" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0331 0.0391 0.1010" pos="0.0000 0.0000 0.1010" />
+      <geom name="place:top" class="place" type="mesh" mesh="apple_juice_carton_top" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,42 @@
+<mujoco model="insulin_syringe">
+  <compiler angle="radian" meshdir="../mesh/insulin_syringe" texturedir="../mesh/insulin_syringe" />
+  <custom>
+    <text name="label" data="insulin syringe|syringe|medical syringe|grey syringe|thin insulin syringe with a grey body" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="syringe" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="insulin_syringe_0_mesh" file="0.obj" />
+    <material name="insulin_syringe_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="insulin_syringe_0_tex" role="rgb" />
+    </material>
+    <texture name="insulin_syringe_0_tex" type="2d" file="0.png" />
+    <mesh name="insulin_syringe_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="insulin_syringe_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="insulin_syringe_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="insulin_syringe_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="insulin_syringe_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="insulin_syringe_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="insulin_syringe_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="insulin_syringe_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="insulin_syringe">
+      <geom type="mesh" mesh="insulin_syringe_0_mesh" material="insulin_syringe_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="insulin_syringe_hull_00" rgba="0 0 0 0" group="3" mass="0.014088214" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="insulin_syringe_hull_01" rgba="0 0 0 0" group="3" mass="0.0233488843" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="insulin_syringe_hull_02" rgba="0 0 0 0" group="3" mass="0.00128328666" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="insulin_syringe_hull_03" rgba="0 0 0 0" group="3" mass="0.00587511545" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="insulin_syringe_hull_04" rgba="0 0 0 0" group="3" mass="0.00146387817" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="insulin_syringe_hull_05" rgba="0 0 0 0" group="3" mass="0.00145816917" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="insulin_syringe_hull_06" rgba="0 0 0 0" group="3" mass="0.00466466678" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0601 0.0137 0.0053" pos="0.0000 0.0000 0.0053" />
+      <geom name="place:top" class="place" type="mesh" mesh="insulin_syringe_top" />
+    </body>
+  </worldbody>
+</mujoco>

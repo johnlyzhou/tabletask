@@ -1,0 +1,90 @@
+<mujoco model="dog_bone_wrench">
+  <compiler angle="radian" meshdir="../mesh/dog_bone_wrench" texturedir="../mesh/dog_bone_wrench" />
+  <custom>
+    <text name="label" data="dog bone wrench|wrench|spanner|dog bone wrench|black dog bone wrench with metal ends" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="wrench" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="dog_bone_wrench_0_mesh" file="0.obj" />
+    <material name="dog_bone_wrench_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="dog_bone_wrench_0_tex" role="rgb" />
+    </material>
+    <texture name="dog_bone_wrench_0_tex" type="2d" file="0.png" />
+    <mesh name="dog_bone_wrench_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="dog_bone_wrench_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="dog_bone_wrench">
+      <geom type="mesh" mesh="dog_bone_wrench_0_mesh" material="dog_bone_wrench_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_00" rgba="0 0 0 0" group="3" mass="0.00333714875" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_01" rgba="0 0 0 0" group="3" mass="0.0466596795" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_02" rgba="0 0 0 0" group="3" mass="0.000349201073" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_03" rgba="0 0 0 0" group="3" mass="0.00464412867" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_04" rgba="0 0 0 0" group="3" mass="0.00456853904" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_05" rgba="0 0 0 0" group="3" mass="0.00022433062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_06" rgba="0 0 0 0" group="3" mass="0.00137415546" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_07" rgba="0 0 0 0" group="3" mass="0.000347008895" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_08" rgba="0 0 0 0" group="3" mass="0.00035719581" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_09" rgba="0 0 0 0" group="3" mass="0.00130235035" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_10" rgba="0 0 0 0" group="3" mass="0.000510759194" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_11" rgba="0 0 0 0" group="3" mass="0.00121075265" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_12" rgba="0 0 0 0" group="3" mass="0.00119594034" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_13" rgba="0 0 0 0" group="3" mass="0.00313687758" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_14" rgba="0 0 0 0" group="3" mass="0.00522741511" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_15" rgba="0 0 0 0" group="3" mass="0.00119993356" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_16" rgba="0 0 0 0" group="3" mass="0.00120072025" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_17" rgba="0 0 0 0" group="3" mass="0.00022433062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_18" rgba="0 0 0 0" group="3" mass="0.00315378232" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_19" rgba="0 0 0 0" group="3" mass="0.0015977857" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_20" rgba="0 0 0 0" group="3" mass="0.000535931343" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_21" rgba="0 0 0 0" group="3" mass="0.00299855353" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_22" rgba="0 0 0 0" group="3" mass="0.000545158952" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_23" rgba="0 0 0 0" group="3" mass="0.00487001118" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_24" rgba="0 0 0 0" group="3" mass="0.00465976067" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_25" rgba="0 0 0 0" group="3" mass="0.00497155495" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_26" rgba="0 0 0 0" group="3" mass="0.000491161652" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_27" rgba="0 0 0 0" group="3" mass="0.00309375485" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_28" rgba="0 0 0 0" group="3" mass="0.000595807579" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_29" rgba="0 0 0 0" group="3" mass="0.000362109388" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_30" rgba="0 0 0 0" group="3" mass="0.00311751336" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="dog_bone_wrench_hull_31" rgba="0 0 0 0" group="3" mass="0.0043383196" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1241 0.0245 0.0209" pos="0.0000 0.0000 0.0209" />
+    </body>
+  </worldbody>
+</mujoco>

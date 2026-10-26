@@ -1,0 +1,28 @@
+<mujoco model="dimpled_golf_ball">
+  <compiler angle="radian" meshdir="../mesh/dimpled_golf_ball" texturedir="../mesh/dimpled_golf_ball" />
+  <custom>
+    <text name="label" data="dimpled golf ball|ball|golf ball|white golf ball|white dimpled golf ball" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="ball" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="dimpled_golf_ball_0_mesh" file="0.obj" />
+    <material name="dimpled_golf_ball_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="dimpled_golf_ball_0_tex" role="rgb" />
+    </material>
+    <texture name="dimpled_golf_ball_0_tex" type="2d" file="0.png" />
+    <mesh name="dimpled_golf_ball_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="dimpled_golf_ball">
+      <geom type="mesh" mesh="dimpled_golf_ball_0_mesh" material="dimpled_golf_ball_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="dimpled_golf_ball_hull_00" rgba="0 0 0 0" group="3" mass="0.0561110541" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0213 0.0213 0.0214" pos="0.0000 0.0000 0.0214" />
+    </body>
+  </worldbody>
+</mujoco>

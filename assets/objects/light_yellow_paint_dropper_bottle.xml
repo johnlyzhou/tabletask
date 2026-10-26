@@ -1,0 +1,42 @@
+<mujoco model="light_yellow_paint_dropper_bottle">
+  <compiler angle="radian" meshdir="../mesh/light_yellow_paint_dropper_bottle" texturedir="../mesh/light_yellow_paint_dropper_bottle" />
+  <custom>
+    <text name="label" data="light yellow paint dropper bottle|bottle|paint bottle|light yellow paint bottle|light yellow watercolour paint bottle with a black dropper cap" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="light_yellow_paint_dropper_bottle_0_mesh" file="0.obj" />
+    <material name="light_yellow_paint_dropper_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="light_yellow_paint_dropper_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="light_yellow_paint_dropper_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="light_yellow_paint_dropper_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="light_yellow_paint_dropper_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="light_yellow_paint_dropper_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="light_yellow_paint_dropper_bottle_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="light_yellow_paint_dropper_bottle_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="light_yellow_paint_dropper_bottle_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="light_yellow_paint_dropper_bottle_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="light_yellow_paint_dropper_bottle_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="light_yellow_paint_dropper_bottle">
+      <geom type="mesh" mesh="light_yellow_paint_dropper_bottle_0_mesh" material="light_yellow_paint_dropper_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="light_yellow_paint_dropper_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.0499355829" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="light_yellow_paint_dropper_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.0024765969" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="light_yellow_paint_dropper_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.000553094367" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="light_yellow_paint_dropper_bottle_hull_03" rgba="0 0 0 0" group="3" mass="0.00141991596" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="light_yellow_paint_dropper_bottle_hull_04" rgba="0 0 0 0" group="3" mass="0.000135607007" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="light_yellow_paint_dropper_bottle_hull_05" rgba="0 0 0 0" group="3" mass="0.00833089723" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="light_yellow_paint_dropper_bottle_hull_06" rgba="0 0 0 0" group="3" mass="0.000812207689" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="light_yellow_paint_dropper_bottle_hull_07" rgba="0 0 0 0" group="3" mass="0.00414121446" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0252 0.0251 0.0433" pos="0.0000 0.0000 0.0433" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,38 @@
+<mujoco model="white_squeeze_bottle">
+  <compiler angle="radian" meshdir="../mesh/white_squeeze_bottle" texturedir="../mesh/white_squeeze_bottle" />
+  <custom>
+    <text name="label" data="white squeeze bottle|bottle|sauce bottle|white sauce bottle|upside down white sauce squeeze bottle" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_squeeze_bottle_0_mesh" file="0.obj" />
+    <material name="white_squeeze_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_squeeze_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="white_squeeze_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="white_squeeze_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_squeeze_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_squeeze_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_squeeze_bottle_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_squeeze_bottle_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="white_squeeze_bottle_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="white_squeeze_bottle">
+      <geom type="mesh" mesh="white_squeeze_bottle_0_mesh" material="white_squeeze_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_squeeze_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.0346823598" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_squeeze_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.0292857039" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_squeeze_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.0109193293" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_squeeze_bottle_hull_03" rgba="0 0 0 0" group="3" mass="0.0119882742" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_squeeze_bottle_hull_04" rgba="0 0 0 0" group="3" mass="0.0187304675" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0227 0.0368 0.0726" pos="0.0000 0.0000 0.0726" />
+      <geom name="place:top" class="place" type="mesh" mesh="white_squeeze_bottle_top" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,54 @@
+<mujoco model="circlip_pliers">
+  <compiler angle="radian" meshdir="../mesh/circlip_pliers" texturedir="../mesh/circlip_pliers" />
+  <custom>
+    <text name="label" data="circlip pliers|pliers|tool|red circlip pliers|circlip pliers with red handles" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="pliers" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="circlip_pliers_0_mesh" file="0.obj" />
+    <material name="circlip_pliers_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="circlip_pliers_0_tex" role="rgb" />
+    </material>
+    <texture name="circlip_pliers_0_tex" type="2d" file="0.png" />
+    <mesh name="circlip_pliers_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="circlip_pliers_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="circlip_pliers">
+      <geom type="mesh" mesh="circlip_pliers_0_mesh" material="circlip_pliers_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_00" rgba="0 0 0 0" group="3" mass="0.0156255509" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_01" rgba="0 0 0 0" group="3" mass="0.00385095839" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_02" rgba="0 0 0 0" group="3" mass="0.0182769214" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_03" rgba="0 0 0 0" group="3" mass="0.00190775163" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_04" rgba="0 0 0 0" group="3" mass="0.00487927162" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_05" rgba="0 0 0 0" group="3" mass="0.00621513702" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_06" rgba="0 0 0 0" group="3" mass="0.0064931016" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_07" rgba="0 0 0 0" group="3" mass="0.0085970071" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_08" rgba="0 0 0 0" group="3" mass="0.00324339579" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_09" rgba="0 0 0 0" group="3" mass="0.00136535266" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_10" rgba="0 0 0 0" group="3" mass="0.00282241208" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_11" rgba="0 0 0 0" group="3" mass="0.00138458975" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="circlip_pliers_hull_12" rgba="0 0 0 0" group="3" mass="0.00268851053" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0955 0.0557 0.0078" pos="0.0000 0.0000 0.0078" />
+      <geom name="place:top" class="place" type="mesh" mesh="circlip_pliers_top" />
+    </body>
+  </worldbody>
+</mujoco>

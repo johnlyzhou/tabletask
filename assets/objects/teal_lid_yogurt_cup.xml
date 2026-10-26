@@ -1,0 +1,40 @@
+<mujoco model="teal_lid_yogurt_cup">
+  <compiler angle="radian" meshdir="../mesh/teal_lid_yogurt_cup" texturedir="../mesh/teal_lid_yogurt_cup" />
+  <custom>
+    <text name="label" data="teal lid yogurt cup|yogurt|yogurt cup|small yogurt cup|small yogurt cup with a teal lid" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="yogurt" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="teal_lid_yogurt_cup_0_mesh" file="0.obj" />
+    <material name="teal_lid_yogurt_cup_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="teal_lid_yogurt_cup_0_tex" role="rgb" />
+    </material>
+    <texture name="teal_lid_yogurt_cup_0_tex" type="2d" file="0.png" />
+    <mesh name="teal_lid_yogurt_cup_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="teal_lid_yogurt_cup_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="teal_lid_yogurt_cup_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="teal_lid_yogurt_cup_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="teal_lid_yogurt_cup_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="teal_lid_yogurt_cup_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="teal_lid_yogurt_cup_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="teal_lid_yogurt_cup">
+      <geom type="mesh" mesh="teal_lid_yogurt_cup_0_mesh" material="teal_lid_yogurt_cup_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="teal_lid_yogurt_cup_hull_00" rgba="0 0 0 0" group="3" mass="0.00397337946" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_lid_yogurt_cup_hull_01" rgba="0 0 0 0" group="3" mass="0.0454664211" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_lid_yogurt_cup_hull_02" rgba="0 0 0 0" group="3" mass="0.00486320748" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_lid_yogurt_cup_hull_03" rgba="0 0 0 0" group="3" mass="0.00438467562" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_lid_yogurt_cup_hull_04" rgba="0 0 0 0" group="3" mass="0.00735810403" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_lid_yogurt_cup_hull_05" rgba="0 0 0 0" group="3" mass="0.00330359449" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0315 0.0315 0.0255" pos="0.0000 0.0000 0.0255" />
+      <geom name="place:top" class="place" type="mesh" mesh="teal_lid_yogurt_cup_top" />
+    </body>
+  </worldbody>
+</mujoco>

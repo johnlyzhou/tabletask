@@ -1,0 +1,34 @@
+<mujoco model="peeled_tangerine">
+  <compiler angle="radian" meshdir="../mesh/peeled_tangerine" texturedir="../mesh/peeled_tangerine" />
+  <custom>
+    <text name="label" data="peeled tangerine|tangerine|citrus|peeled tangerine|peeled tangerine" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="orange" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="peeled_tangerine_0_mesh" file="0.obj" />
+    <material name="peeled_tangerine_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="peeled_tangerine_0_tex" role="rgb" />
+    </material>
+    <texture name="peeled_tangerine_0_tex" type="2d" file="0.png" />
+    <mesh name="peeled_tangerine_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="peeled_tangerine_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="peeled_tangerine_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="peeled_tangerine_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="peeled_tangerine">
+      <geom type="mesh" mesh="peeled_tangerine_0_mesh" material="peeled_tangerine_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="peeled_tangerine_hull_00" rgba="0 0 0 0" group="3" mass="0.0185752991" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="peeled_tangerine_hull_01" rgba="0 0 0 0" group="3" mass="0.0183251059" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="peeled_tangerine_hull_02" rgba="0 0 0 0" group="3" mass="0.0172211808" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="peeled_tangerine_hull_03" rgba="0 0 0 0" group="3" mass="0.0186824499" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0335 0.0334 0.0290" pos="0.0000 0.0000 0.0290" />
+    </body>
+  </worldbody>
+</mujoco>
