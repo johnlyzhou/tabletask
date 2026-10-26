@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brass_hand_bell" texturedir="../mesh/brass_hand_bell" />
   <custom>
     <text name="label" data="brass hand bell|bell|hand bell|brass bell|brass hand bell with wooden handle" />
+    <text name="category" data="bell" />
   </custom>
   <default>
     <default class="place">

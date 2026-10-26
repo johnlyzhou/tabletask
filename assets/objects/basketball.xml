@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/basketball" texturedir="../mesh/basketball"/>
   <custom>
     <text name="label" data="basketball|ball|hoop ball|orange basketball|orange basketball with black seam lines" />
+    <text name="category" data="ball" />
   </custom>
   <default>
     <default class="place">

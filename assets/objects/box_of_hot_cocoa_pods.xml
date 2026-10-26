@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/box_of_hot_cocoa_pods" texturedir="../mesh/box_of_hot_cocoa_pods" />
   <custom>
     <text name="label" data="box of hot cocoa pods|pod box|cocoa pods|blue hot cocoa box|white and blue box of hot cocoa pods" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

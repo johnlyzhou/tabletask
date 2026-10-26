@@ -1,0 +1,46 @@
+<mujoco model="mac_and_cheese_box">
+  <compiler angle="radian" meshdir="../mesh/mac_and_cheese_box" texturedir="../mesh/mac_and_cheese_box" />
+  <custom>
+    <text name="label" data="mac and cheese box|box|pasta box|mac and cheese|orange box of macaroni and cheese" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="box" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="mac_and_cheese_box_0_mesh" file="0.obj" />
+    <material name="mac_and_cheese_box_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="mac_and_cheese_box_0_tex" role="rgb" />
+    </material>
+    <texture name="mac_and_cheese_box_0_tex" type="2d" file="0.png" />
+    <mesh name="mac_and_cheese_box_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="mac_and_cheese_box_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="mac_and_cheese_box_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="mac_and_cheese_box_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="mac_and_cheese_box_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="mac_and_cheese_box_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="mac_and_cheese_box_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="mac_and_cheese_box_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="mac_and_cheese_box_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="mac_and_cheese_box_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="mac_and_cheese_box">
+      <geom type="mesh" mesh="mac_and_cheese_box_0_mesh" material="mac_and_cheese_box_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="mac_and_cheese_box_hull_00" rgba="0 0 0 0" group="3" mass="0.0107273792" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="mac_and_cheese_box_hull_01" rgba="0 0 0 0" group="3" mass="0.0660534965" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="mac_and_cheese_box_hull_02" rgba="0 0 0 0" group="3" mass="0.0153260351" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="mac_and_cheese_box_hull_03" rgba="0 0 0 0" group="3" mass="0.0119944567" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="mac_and_cheese_box_hull_04" rgba="0 0 0 0" group="3" mass="0.0139619259" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="mac_and_cheese_box_hull_05" rgba="0 0 0 0" group="3" mass="0.0350586489" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="mac_and_cheese_box_hull_06" rgba="0 0 0 0" group="3" mass="0.00600361799" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="mac_and_cheese_box_hull_07" rgba="0 0 0 0" group="3" mass="0.00195028091" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="mac_and_cheese_box_hull_08" rgba="0 0 0 0" group="3" mass="0.00466744888" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0201 0.0618 0.0831" pos="0.0000 0.0000 0.0831" />
+      <geom name="place:top" class="place" type="mesh" mesh="mac_and_cheese_box_top" />
+    </body>
+  </worldbody>
+</mujoco>

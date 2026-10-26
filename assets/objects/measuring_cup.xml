@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/measuring_cup" texturedir="../mesh/measuring_cup" />
   <custom>
     <text name="label" data="measuring cup|scoop|measuring scoop|pale green measuring cup|pale green plastic measuring scoop with long handle" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

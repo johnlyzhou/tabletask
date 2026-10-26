@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_toy_airplane" texturedir="../mesh/wooden_toy_airplane" />
   <custom>
     <text name="label" data="wooden toy airplane|toy plane|toy airplane|red wooden toy plane|small red wooden toy airplane with pilot" />
+    <text name="category" data="toy plane" />
   </custom>
   <default>
     <default class="place">

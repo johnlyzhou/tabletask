@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/sprinkler" texturedir="../mesh/sprinkler" />
   <custom>
     <text name="label" data="garden sprinkler|sprinkler|lawn sprinkler|yellow garden sprinkler|yellow and black wheeled garden sprinkler" />
+    <text name="category" data="sprinkler" />
   </custom>
   <default>
     <default class="place">

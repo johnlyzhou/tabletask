@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_book" texturedir="../mesh/brown_book" />
   <custom>
     <text name="label" data="brown hardcover book|book|hardcover|brown book|closed brown leather hardcover book" />
+    <text name="category" data="book" />
   </custom>
   <default>
     <default class="place">

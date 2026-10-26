@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cheese_box" texturedir="../mesh/cheese_box" />
   <custom>
     <text name="label" data="wooden cheese box|box|cheese box|wooden box|light wooden cheese box with red print" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

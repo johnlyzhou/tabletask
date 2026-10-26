@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_chukka_boot" texturedir="../mesh/grey_chukka_boot" />
   <custom>
     <text name="label" data="grey chukka boot|boot|shoe|light grey boot|light grey lace-up chukka boot" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">

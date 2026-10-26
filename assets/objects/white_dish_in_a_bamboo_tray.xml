@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_dish_in_a_bamboo_tray" texturedir="../mesh/white_dish_in_a_bamboo_tray" />
   <custom>
     <text name="label" data="white dish in a bamboo tray|dish|tray dish|white dish on tray|white rectangular dish sitting in bamboo tray" />
+    <text name="category" data="plate" />
   </custom>
   <default>
     <default class="place">

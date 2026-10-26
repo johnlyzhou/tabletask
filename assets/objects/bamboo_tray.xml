@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/bamboo_tray" texturedir="../mesh/bamboo_tray" />
   <custom>
     <text name="label" data="bamboo tray|tray|serving tray|light bamboo tray|shallow rectangular light bamboo serving tray" />
+    <text name="category" data="tray" />
   </custom>
   <default>
     <default class="place">

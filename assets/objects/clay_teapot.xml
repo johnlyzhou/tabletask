@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/clay_teapot" texturedir="../mesh/clay_teapot"/>
   <custom>
     <text name="label" data="white teapot|teapot|tea pot|white ceramic teapot|white clay teapot with lid and handle" />
+    <text name="category" data="teapot" />
   </custom>
   <default>
     <default class="place">

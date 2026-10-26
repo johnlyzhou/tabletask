@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/searchlight" texturedir="../mesh/searchlight" />
   <custom>
     <text name="label" data="handheld searchlight|searchlight|lantern|green handheld spotlight|olive green handheld searchlight with carry handle" />
+    <text name="category" data="flashlight" />
   </custom>
   <default>
     <default class="place">

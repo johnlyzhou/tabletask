@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_slouch_boot" texturedir="../mesh/brown_slouch_boot" />
   <custom>
     <text name="label" data="brown slouch boot|boot|ankle boot|tan heeled boot|tan brown heeled slouch ankle boot" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">

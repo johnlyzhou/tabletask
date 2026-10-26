@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/bunsen_burner" texturedir="../mesh/bunsen_burner" />
   <custom>
     <text name="label" data="bunsen burner|burner|gas burner|blue bunsen burner|blue bunsen burner on tripod stand" />
+    <text name="category" data="burner" />
   </custom>
   <default>
     <default class="place">

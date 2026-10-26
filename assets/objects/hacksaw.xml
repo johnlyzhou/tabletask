@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/hacksaw" texturedir="../mesh/hacksaw" />
   <custom>
     <text name="label" data="hacksaw|saw|metal saw|red frame hacksaw|hacksaw with red frame and black handle" />
+    <text name="category" data="saw" />
   </custom>
   <default>
     <default class="place">

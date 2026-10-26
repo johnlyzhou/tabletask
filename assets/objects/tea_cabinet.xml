@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/tea_station" texturedir="../mesh/tea_station" />
   <custom>
     <text name="label" data="brown cabinet|cabinet|drawer chest|brown wooden cabinet|small brown wooden cabinet with two drawers" />
+    <text name="category" data="cabinet" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/hatchet" texturedir="../mesh/hatchet" />
   <custom>
     <text name="label" data="hatchet|axe|hand axe|small hatchet|hatchet with orange and black handle" />
+    <text name="category" data="axe" />
   </custom>
   <default>
     <default class="place">

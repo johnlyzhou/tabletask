@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/tan_ankle_boot" texturedir="../mesh/tan_ankle_boot" />
   <custom>
     <text name="label" data="tan ankle boot|boot|shoe|tan leather boot|tan leather ankle boot with block heel" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/birdhouse" texturedir="../mesh/birdhouse" />
   <custom>
     <text name="label" data="birdhouse|bird house|nest box|blue roof birdhouse|yellow wooden birdhouse with a blue roof" />
+    <text name="category" data="birdhouse" />
   </custom>
   <default>
     <default class="place">

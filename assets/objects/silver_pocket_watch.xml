@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/silver_pocket_watch" texturedir="../mesh/silver_pocket_watch" />
   <custom>
     <text name="label" data="silver pocket watch|pocket watch|watch|small pocket watch|small round pocket watch with chain ring" />
+    <text name="category" data="watch" />
   </custom>
   <default>
     <default class="place">

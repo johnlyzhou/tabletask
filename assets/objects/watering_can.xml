@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/watering_can" texturedir="../mesh/watering_can" />
   <custom>
     <text name="label" data="metal watering can|watering can|garden can|silver watering can|weathered galvanized metal watering can with long spout" />
+    <text name="category" data="watering can" />
   </custom>
   <default>
     <default class="place">

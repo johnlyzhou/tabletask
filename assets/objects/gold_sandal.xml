@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/gold_sandal" texturedir="../mesh/gold_sandal" />
   <custom>
     <text name="label" data="gold sandal|sandal|flip-flop|gold thong sandal|beige gold embellished thong sandal" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">

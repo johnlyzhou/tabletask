@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/binoculars" texturedir="../mesh/binoculars" />
   <custom>
     <text name="label" data="pair of binoculars|binoculars|field glasses|black binoculars|pair of black compact binoculars" />
+    <text name="category" data="binoculars" />
   </custom>
   <default>
     <default class="place">

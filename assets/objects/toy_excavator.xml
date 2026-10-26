@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_excavator" texturedir="../mesh/toy_excavator" />
   <custom>
     <text name="label" data="toy excavator|excavator|digger|blue toy digger|blue and white toy excavator with black wheels" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

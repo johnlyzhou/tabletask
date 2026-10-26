@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/round_wicker_basket" texturedir="../mesh/round_wicker_basket"/>
   <custom>
     <text name="label" data="round wicker basket|basket|wicker bowl|brown woven basket|round brown woven wicker basket" />
+    <text name="category" data="basket" />
   </custom>
   <default>
     <default class="place">

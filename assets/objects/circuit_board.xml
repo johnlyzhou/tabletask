@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/circuit_board" texturedir="../mesh/circuit_board" />
   <custom>
     <text name="label" data="circuit board|motherboard|pcb|green circuit board|dark green computer circuit board" />
+    <text name="category" data="circuit board" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_fiber_pot" texturedir="../mesh/green_fiber_pot" />
   <custom>
     <text name="label" data="green fiber pot|pot|plant pot|olive fiber pot|small olive green fiber plant pot" />
+    <text name="category" data="pot" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/old_television" texturedir="../mesh/old_television" />
   <custom>
     <text name="label" data="old television|television|tv|old crt television|old grey crt television with boxy back" />
+    <text name="category" data="television" />
   </custom>
   <default>
     <default class="place">

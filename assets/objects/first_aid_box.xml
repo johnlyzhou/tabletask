@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/first_aid_box" texturedir="../mesh/first_aid_box"/>
   <custom>
     <text name="label" data="first aid kit|first aid box|medical kit|white first aid box|white first aid box with red cross" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

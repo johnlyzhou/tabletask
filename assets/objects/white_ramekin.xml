@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_ramekin" texturedir="../mesh/white_ramekin" />
   <custom>
     <text name="label" data="white ramekin|ramekin|small dish|white fluted ramekin|small white fluted ceramic ramekin" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

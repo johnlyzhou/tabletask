@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
     <text name="label" data="conveyor|conveyor belt|belt|black roller conveyor|long black conveyor with metal rollers" />
+    <text name="category" data="conveyor" />
   </custom>
   <default>
     <default class="place">

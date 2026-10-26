@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/light_socket" texturedir="../mesh/light_socket" />
   <custom>
     <text name="label" data="light socket|socket|lamp holder|white light socket|white ceramic light bulb socket with wire" />
+    <text name="category" data="socket" />
   </custom>
   <default>
     <default class="place">

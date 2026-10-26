@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dustpan" texturedir="../mesh/dustpan" />
   <custom>
     <text name="label" data="dustpan|dust pan|dirt scoop|beige plastic dustpan|beige patterned dustpan with long handle" />
+    <text name="category" data="dustpan" />
   </custom>
   <default>
     <default class="place">

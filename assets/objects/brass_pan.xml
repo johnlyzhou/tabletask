@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brass_pan" texturedir="../mesh/brass_pan" />
   <custom>
     <text name="label" data="brass pan|pan|frying pan|small brass pan|small brass pan with long red handle" />
+    <text name="category" data="pan" />
   </custom>
   <default>
     <default class="place">

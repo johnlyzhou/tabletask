@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/clear_plastic_cup" texturedir="../mesh/clear_plastic_cup"/>
   <custom>
     <text name="label" data="plastic cup|cup|disposable cup|white plastic cup|white disposable plastic drinking cup" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

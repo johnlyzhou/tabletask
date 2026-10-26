@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/great_white_shark_figure" texturedir="../mesh/great_white_shark_figure" />
   <custom>
     <text name="label" data="great white shark figure|shark figure|toy shark|grey shark toy|grey and white great white shark toy figure" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

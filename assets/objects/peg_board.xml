@@ -1,6 +1,7 @@
 <mujoco model="peg_board">
   <custom>
     <text name="label" data="peg board|pegboard|peg block|white square peg board|square white peg board with a square hole" />
+    <text name="category" data="pegboard" />
   </custom>
   <default>
     <default class="place">

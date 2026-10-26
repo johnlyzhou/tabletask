@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/keyboard" texturedir="../mesh/keyboard" />
   <custom>
     <text name="label" data="keyboard|computer keyboard|keys|black keyboard|black wireless computer keyboard" />
+    <text name="category" data="keyboard" />
   </custom>
   <default>
     <default class="place">

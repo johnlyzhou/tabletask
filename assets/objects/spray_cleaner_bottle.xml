@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/spray_cleaner_bottle" texturedir="../mesh/spray_cleaner_bottle" />
   <custom>
     <text name="label" data="spray cleaner bottle|bottle|cleaner bottle|white cleaner bottle|white plastic cleaner bottle with yellow cap" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

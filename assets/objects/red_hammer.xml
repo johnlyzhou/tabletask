@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/red_hammer" texturedir="../mesh/red_hammer" />
   <custom>
     <text name="label" data="red hammer|hammer|claw hammer|red handled hammer|claw hammer with a red handle" />
+    <text name="category" data="hammer" />
   </custom>
   <default>
     <default class="place">

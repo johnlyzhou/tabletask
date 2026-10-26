@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_wedge_boot" texturedir="../mesh/brown_wedge_boot" />
   <custom>
     <text name="label" data="brown wedge boot|boot|wedge boot|dark brown boot|dark brown leather wedge heel boot" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">

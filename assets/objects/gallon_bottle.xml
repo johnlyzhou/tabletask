@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/gallon_bottle" texturedir="../mesh/gallon_bottle" />
   <custom>
     <text name="label" data="gallon bottle|jug|gallon jug|white gallon jug|white plastic gallon jug with handle" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

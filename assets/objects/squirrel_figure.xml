@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/squirrel_figure" texturedir="../mesh/squirrel_figure" />
   <custom>
     <text name="label" data="squirrel figure|squirrel|squirrel toy|brown squirrel figure|brown and white squirrel figurine holding a nut" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/red_patterned_mug" texturedir="../mesh/red_patterned_mug" />
   <custom>
     <text name="label" data="red patterned mug|mug|cup|red floral cup|red cup with white floral pattern" />
+    <text name="category" data="mug" />
   </custom>
   <default>
     <default class="place">

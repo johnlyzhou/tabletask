@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_bottle_vase" texturedir="../mesh/white_bottle_vase" />
   <custom>
     <text name="label" data="white bottle vase|vase|bud vase|white ceramic vase|tall white ceramic bottle-shaped vase" />
+    <text name="category" data="vase" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brass_goblet" texturedir="../mesh/brass_goblet" />
   <custom>
     <text name="label" data="brass goblet|goblet|chalice|small brass goblet|small brass goblet with ornate stem" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

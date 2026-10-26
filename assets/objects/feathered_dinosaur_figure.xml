@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/feathered_dinosaur_figure" texturedir="../mesh/feathered_dinosaur_figure" />
   <custom>
     <text name="label" data="feathered dinosaur figure|dinosaur figure|toy dinosaur|blue feathered dinosaur|blue and red feathered dinosaur toy figure" />
+    <text name="category" data="dinosaur" />
   </custom>
   <default>
     <default class="place">

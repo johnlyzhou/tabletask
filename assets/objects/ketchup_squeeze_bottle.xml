@@ -1,0 +1,32 @@
+<mujoco model="ketchup_squeeze_bottle">
+  <compiler angle="radian" meshdir="../mesh/ketchup_squeeze_bottle" texturedir="../mesh/ketchup_squeeze_bottle" />
+  <custom>
+    <text name="label" data="ketchup squeeze bottle|bottle|ketchup|orange ketchup bottle|orange ketchup squeeze bottle with a white cap" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="ketchup_squeeze_bottle_0_mesh" file="0.obj" />
+    <material name="ketchup_squeeze_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="ketchup_squeeze_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="ketchup_squeeze_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="ketchup_squeeze_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="ketchup_squeeze_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="ketchup_squeeze_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="ketchup_squeeze_bottle">
+      <geom type="mesh" mesh="ketchup_squeeze_bottle_0_mesh" material="ketchup_squeeze_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="ketchup_squeeze_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.0140228481" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="ketchup_squeeze_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.0326911903" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="ketchup_squeeze_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.0448841241" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0217 0.0323 0.0743" pos="0.0000 0.0000 0.0743" />
+    </body>
+  </worldbody>
+</mujoco>

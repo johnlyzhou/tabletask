@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pail" texturedir="../mesh/pail" />
   <custom>
     <text name="label" data="purple plastic bucket|bucket|purple pail|purple bucket|plain purple plastic bucket with a handle" />
+    <text name="category" data="bucket" />
   </custom>
   <default>
     <default class="place">

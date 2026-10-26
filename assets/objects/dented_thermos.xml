@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dented_thermos" texturedir="../mesh/dented_thermos" />
   <custom>
     <text name="label" data="dented thermos|thermos|vacuum flask|green patterned thermos|dented teal and white patterned thermos flask" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

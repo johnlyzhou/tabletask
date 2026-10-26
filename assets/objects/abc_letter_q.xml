@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
     <text name="label" data="letter q block|toy block|alphabet block|wooden letter q block|wooden alphabet block with a green-bordered letter q" />
+    <text name="category" data="block" />
   </custom>
   <default>
     <default class="place">

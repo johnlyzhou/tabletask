@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/rose_wine_bottle" texturedir="../mesh/rose_wine_bottle" />
   <custom>
     <text name="label" data="rosé wine bottle|wine bottle|bottle|rose wine bottle|white labelled rose wine bottle with dark cap" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_blue_pen" texturedir="../mesh/yellow_blue_pen" />
   <custom>
     <text name="label" data="yellow and blue pen|pen|ballpoint|yellow blue ballpoint|yellow ballpoint pen with blue cap tip" />
+    <text name="category" data="pen" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/silver_laptop" texturedir="../mesh/silver_laptop"/>
   <custom>
     <text name="label" data="silver laptop|laptop|notebook computer|closed silver laptop|thin closed silver-white laptop computer" />
+    <text name="category" data="laptop" />
   </custom>
   <default>
     <default class="place">

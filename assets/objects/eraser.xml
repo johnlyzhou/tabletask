@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/eraser" texturedir="../mesh/eraser" />
   <custom>
     <text name="label" data="eraser|rubber eraser|rubber|pink eraser|large pink rubber eraser with white stripe" />
+    <text name="category" data="eraser" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/clipboard" texturedir="../mesh/clipboard" />
   <custom>
     <text name="label" data="clipboard|board|writing board|brown clipboard|brown clipboard with metal clip" />
+    <text name="category" data="clipboard" />
   </custom>
   <default>
     <default class="place">

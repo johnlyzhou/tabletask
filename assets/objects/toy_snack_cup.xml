@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_snack_cup" texturedir="../mesh/toy_snack_cup" />
   <custom>
     <text name="label" data="toy snack cup|snack cup|sippy snack cup|blue and green snack cup|blue and green toddler snack cup with soft lid" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

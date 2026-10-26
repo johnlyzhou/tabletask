@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/storage_box" texturedir="../mesh/storage_box" />
   <custom>
     <text name="label" data="wooden box|box|storage box|open wooden box|tall open-top light wooden storage box" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

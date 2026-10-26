@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/metal_ammo_box" texturedir="../mesh/metal_ammo_box" />
   <custom>
     <text name="label" data="metal ammo box|ammo box|ammo can|olive ammunition box|dark olive metal ammunition box with handle" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

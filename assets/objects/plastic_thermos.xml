@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/plastic_thermos" texturedir="../mesh/plastic_thermos" />
   <custom>
     <text name="label" data="plastic thermos|thermos|flask|olive green thermos|olive green thermos flask with a beige cap" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

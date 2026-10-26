@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
     <text name="label" data="mug tree|mug stand|mug holder|wooden mug tree|wooden mug tree stand with branching pegs" />
+    <text name="category" data="rack" />
   </custom>
   <default>
     <default class="place">

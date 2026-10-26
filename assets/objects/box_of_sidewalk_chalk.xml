@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/box_of_sidewalk_chalk" texturedir="../mesh/box_of_sidewalk_chalk" />
   <custom>
     <text name="label" data="box of sidewalk chalk|chalk box|sidewalk chalk|green chalk box|green box of colorful sidewalk chalk" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

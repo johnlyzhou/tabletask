@@ -1,0 +1,36 @@
+<mujoco model="creatine_tub">
+  <compiler angle="radian" meshdir="../mesh/creatine_tub" texturedir="../mesh/creatine_tub" />
+  <custom>
+    <text name="label" data="creatine tub|bottle|supplement tub|brown tub|dark brown supplement tub with an orange label" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="creatine_tub_0_mesh" file="0.obj" />
+    <material name="creatine_tub_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="creatine_tub_0_tex" role="rgb" />
+    </material>
+    <texture name="creatine_tub_0_tex" type="2d" file="0.png" />
+    <mesh name="creatine_tub_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="creatine_tub_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="creatine_tub_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="creatine_tub_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="creatine_tub_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="creatine_tub">
+      <geom type="mesh" mesh="creatine_tub_0_mesh" material="creatine_tub_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="creatine_tub_hull_00" rgba="0 0 0 0" group="3" mass="0.00655345525" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="creatine_tub_hull_01" rgba="0 0 0 0" group="3" mass="0.0209866571" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="creatine_tub_hull_02" rgba="0 0 0 0" group="3" mass="0.0226006705" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="creatine_tub_hull_03" rgba="0 0 0 0" group="3" mass="0.0182788647" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="creatine_tub_hull_04" rgba="0 0 0 0" group="3" mass="0.0239599404" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0299 0.0298 0.0566" pos="0.0000 0.0000 0.0566" />
+    </body>
+  </worldbody>
+</mujoco>

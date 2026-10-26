@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/colorful_toy_car" texturedir="../mesh/colorful_toy_car" />
   <custom>
     <text name="label" data="colorful toy car|toy car|car|multicolor toy car|colorful toy car with rainbow parts" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_round_table" texturedir="../mesh/toy_round_table" />
   <custom>
     <text name="label" data="toy round table|toy table|doll table|small lilac toy table|small round toy table with lilac top and wooden legs" />
+    <text name="category" data="toy" />
   </custom>
   <default>
     <default class="place">

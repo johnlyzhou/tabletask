@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/footstool" texturedir="../mesh/footstool" />
   <custom>
     <text name="label" data="small wooden footstool|footstool|stool|wooden stool|small dark wooden four-legged footstool" />
+    <text name="category" data="stool" />
   </custom>
   <default>
     <default class="place">

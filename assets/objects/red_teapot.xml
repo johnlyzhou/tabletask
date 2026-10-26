@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/red_teapot" texturedir="../mesh/red_teapot"/>
   <custom>
     <text name="label" data="red teapot|teapot|tea kettle|red ceramic teapot|red teapot with lid and spout" />
+    <text name="category" data="teapot" />
   </custom>
   <default>
     <default class="place">

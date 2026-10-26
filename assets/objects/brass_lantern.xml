@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brass_lantern" texturedir="../mesh/brass_lantern" />
   <custom>
     <text name="label" data="brass lantern|lantern|lamp|gold brass lantern|hexagonal brass lantern with dark panels" />
+    <text name="category" data="lantern" />
   </custom>
   <default>
     <default class="place">

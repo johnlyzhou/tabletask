@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/copper_pitcher" texturedir="../mesh/copper_pitcher" />
   <custom>
     <text name="label" data="copper pitcher|pitcher|jug|tall copper pitcher|tall narrow copper pitcher with handle" />
+    <text name="category" data="jug" />
   </custom>
   <default>
     <default class="place">

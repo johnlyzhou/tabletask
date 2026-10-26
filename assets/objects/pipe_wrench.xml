@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pipe_wrench" texturedir="../mesh/pipe_wrench" />
   <custom>
     <text name="label" data="pipe wrench|wrench|plumber wrench|red pipe wrench|red metal pipe wrench with adjustable jaw" />
+    <text name="category" data="wrench" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/green_mug" texturedir="../mesh/green_mug"/>
   <custom>
     <text name="label" data="white cup|cup|tumbler|white plastic cup|white faceted cup without a handle" />
+    <text name="category" data="mug" />
   </custom>
   <default>
     <default class="place">

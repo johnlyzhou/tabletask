@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/clam_shell" texturedir="../mesh/clam_shell"/>
   <custom>
     <text name="label" data="white seashell|seashell|clam shell|white clam shell|large ridged white clam shell" />
+    <text name="category" data="seashell" />
   </custom>
   <default>
     <default class="place">

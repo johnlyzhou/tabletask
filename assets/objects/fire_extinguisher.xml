@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/fire_extinguisher" texturedir="../mesh/fire_extinguisher" />
   <custom>
     <text name="label" data="fire extinguisher|extinguisher|fire safety tank|red fire extinguisher|red fire extinguisher on red base stand" />
+    <text name="category" data="fire extinguisher" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/coil_of_white_cable" texturedir="../mesh/coil_of_white_cable" />
   <custom>
     <text name="label" data="coil of white cable|cable|cable coil|white cable coil|coiled roll of white network cable" />
+    <text name="category" data="cable" />
   </custom>
   <default>
     <default class="place">

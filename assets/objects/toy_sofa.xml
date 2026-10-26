@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_sofa" texturedir="../mesh/toy_sofa" />
   <custom>
     <text name="label" data="toy sofa|toy couch|doll sofa|purple toy sofa|wooden toy sofa with purple cushions" />
+    <text name="category" data="toy" />
   </custom>
   <default>
     <default class="place">

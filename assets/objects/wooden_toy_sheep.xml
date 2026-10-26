@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_toy_sheep" texturedir="../mesh/wooden_toy_sheep" />
   <custom>
     <text name="label" data="wooden toy sheep|toy sheep|sheep|wooden stacking sheep|natural wood stacking sheep toy with rings" />
+    <text name="category" data="toy" />
   </custom>
   <default>
     <default class="place">

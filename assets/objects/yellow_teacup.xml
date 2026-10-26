@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_teacup" texturedir="../mesh/yellow_teacup"/>
   <custom>
     <text name="label" data="yellow teacup|teacup|cup|pale yellow teacup|pale yellow ceramic handleless teacup" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

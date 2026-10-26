@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_ruler" texturedir="../mesh/wooden_ruler"/>
   <custom>
     <text name="label" data="ruler|measuring stick|wooden ruler|thin wooden ruler|long thin light wooden ruler" />
+    <text name="category" data="ruler" />
   </custom>
   <default>
     <default class="place">

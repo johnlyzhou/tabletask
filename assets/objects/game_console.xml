@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/game_console" texturedir="../mesh/game_console" />
   <custom>
     <text name="label" data="game console|console|video game console|black game console|black flat video game console" />
+    <text name="category" data="game console" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/green_striped_pencil" texturedir="../mesh/green_striped_pencil" />
   <custom>
     <text name="label" data="green striped pencil|pencil|graphite pencil|yellow-green striped pencil|long sharpened pencil with green and yellow stripes" />
+    <text name="category" data="pencil" />
   </custom>
   <default>
     <default class="place">

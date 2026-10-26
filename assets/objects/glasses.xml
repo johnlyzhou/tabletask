@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/glasses" texturedir="../mesh/glasses" />
   <custom>
     <text name="label" data="sunglasses|glasses|shades|black sunglasses|black framed sunglasses with dark lenses" />
+    <text name="category" data="glasses" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/box_of_protein_packets" texturedir="../mesh/box_of_protein_packets" />
   <custom>
     <text name="label" data="box of protein packets|protein box|protein packets|green protein box|green box of whey protein packets" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

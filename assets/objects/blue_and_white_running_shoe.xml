@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_and_white_running_shoe" texturedir="../mesh/blue_and_white_running_shoe" />
   <custom>
     <text name="label" data="blue and white running shoe|shoe|sneaker|blue white sneaker|blue and white high top sneaker with white laces" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">

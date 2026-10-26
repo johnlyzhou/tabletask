@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_toy_fire_engine" texturedir="../mesh/small_toy_fire_engine" />
   <custom>
     <text name="label" data="small toy fire engine|toy fire engine|fire truck|red toy fire truck|small red wooden toy fire engine with ladder" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

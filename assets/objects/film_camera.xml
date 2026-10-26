@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/film_camera" texturedir="../mesh/film_camera" />
   <custom>
     <text name="label" data="film camera|camera|rangefinder camera|black film camera|black vintage film camera with lens" />
+    <text name="category" data="camera" />
   </custom>
   <default>
     <default class="place">

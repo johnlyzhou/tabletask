@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_mug" texturedir="../mesh/white_mug" />
   <custom>
     <text name="label" data="white mug|mug|cup|white ribbed mug|white ceramic mug with ribbed sides" />
+    <text name="category" data="mug" />
   </custom>
   <default>
     <default class="place">

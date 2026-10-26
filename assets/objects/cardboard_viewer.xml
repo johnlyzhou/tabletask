@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cardboard_viewer" texturedir="../mesh/cardboard_viewer" />
   <custom>
     <text name="label" data="cardboard viewer|viewer|vr viewer|flat cardboard viewer|flat brown cardboard vr viewer" />
+    <text name="category" data="viewer" />
   </custom>
   <default>
     <default class="place">

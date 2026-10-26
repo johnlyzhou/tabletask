@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/metal_toolbox" texturedir="../mesh/metal_toolbox" />
   <custom>
     <text name="label" data="metal toolbox|toolbox|tool box|green metal tool chest|open green metal toolbox with hinged lid" />
+    <text name="category" data="toolbox" />
   </custom>
   <default>
     <default class="place">

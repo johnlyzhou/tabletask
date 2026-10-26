@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_usb_stick" texturedir="../mesh/blue_usb_stick"/>
   <custom>
     <text name="label" data="usb stick|flash drive|usb drive|teal usb stick|small teal usb flash drive" />
+    <text name="category" data="flash drive" />
   </custom>
   <default>
     <default class="place">

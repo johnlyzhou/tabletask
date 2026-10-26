@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/long_screwdriver" texturedir="../mesh/long_screwdriver" />
   <custom>
     <text name="label" data="long screwdriver|screwdriver|driver|long metal screwdriver|long steel shaft screwdriver with dark handle" />
+    <text name="category" data="screwdriver" />
   </custom>
   <default>
     <default class="place">

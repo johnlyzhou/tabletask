@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/black_calculator" texturedir="../mesh/black_calculator"/>
   <custom>
     <text name="label" data="calculator|desk calculator|adding machine|black desk calculator|black desk calculator with lcd display" />
+    <text name="category" data="calculator" />
   </custom>
   <default>
     <default class="place">

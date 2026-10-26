@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/carrot_cake" texturedir="../mesh/carrot_cake" />
   <custom>
     <text name="label" data="carrot cake|cake|bundt cake|frosted carrot cake|brown carrot bundt cake with nut frosting" />
+    <text name="category" data="cake" />
   </custom>
   <default>
     <default class="place">

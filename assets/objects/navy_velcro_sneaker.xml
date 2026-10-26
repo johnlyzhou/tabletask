@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/navy_velcro_sneaker" texturedir="../mesh/navy_velcro_sneaker" />
   <custom>
     <text name="label" data="navy velcro sneaker|sneaker|shoe|navy kids sneaker|navy blue and white kids sneaker with velcro straps" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">

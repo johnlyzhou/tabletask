@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_road_roller" texturedir="../mesh/toy_road_roller" />
   <custom>
     <text name="label" data="toy road roller|toy steamroller|road roller|wooden toy road roller|orange wooden toy road roller with black wheels" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

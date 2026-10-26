@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_speckled_bowl" texturedir="../mesh/yellow_speckled_bowl" />
   <custom>
     <text name="label" data="yellow speckled bowl|bowl|rice bowl|yellow ceramic bowl|yellow bowl with speckled blue-white inside" />
+    <text name="category" data="bowl" />
   </custom>
   <default>
     <default class="place">

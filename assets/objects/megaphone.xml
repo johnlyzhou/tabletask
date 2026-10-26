@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/megaphone" texturedir="../mesh/megaphone" />
   <custom>
     <text name="label" data="megaphone|bullhorn|loudspeaker|red megaphone|red and black handheld megaphone with trigger grip" />
+    <text name="category" data="megaphone" />
   </custom>
   <default>
     <default class="place">

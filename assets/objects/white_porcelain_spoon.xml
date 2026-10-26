@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/white_porcelain_spoon" texturedir="../mesh/white_porcelain_spoon" />
   <custom>
     <text name="label" data="white porcelain spoon|spoon|soup spoon|white soup spoon|white porcelain chinese soup spoon" />
+    <text name="category" data="spoon" />
   </custom>
   <default>
     <default class="place">

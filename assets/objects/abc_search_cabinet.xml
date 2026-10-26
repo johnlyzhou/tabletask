@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
     <text name="label" data="wooden cabinet|cabinet|drawer cabinet|dark wood cabinet|dark wooden cabinet with three drawers" />
+    <text name="category" data="cabinet" />
   </custom>
   <default>
     <default class="place">

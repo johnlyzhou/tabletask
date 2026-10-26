@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/slim_vase" texturedir="../mesh/slim_vase" />
   <custom>
     <text name="label" data="slim vase|vase|bud vase|slim white vase|tall slim square white vase" />
+    <text name="category" data="vase" />
   </custom>
   <default>
     <default class="place">

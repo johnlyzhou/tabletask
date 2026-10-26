@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/camel_suede_boot" texturedir="../mesh/camel_suede_boot" />
   <custom>
     <text name="label" data="camel suede boot|boot|ankle boot|tan suede boot|camel tan suede heeled ankle boot" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">
