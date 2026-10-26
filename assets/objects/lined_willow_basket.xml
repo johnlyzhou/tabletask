@@ -1,0 +1,62 @@
+<mujoco model="lined_willow_basket">
+  <compiler angle="radian" meshdir="../mesh/lined_willow_basket" texturedir="../mesh/lined_willow_basket" />
+  <custom>
+    <text name="label" data="lined willow basket|basket|willow basket|lined basket|willow basket with a white cloth lining" />
+    <text name="tags" data="container" />
+    <text name="category" data="basket" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="lined_willow_basket_0_mesh" file="0.obj" />
+    <material name="lined_willow_basket_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="lined_willow_basket_0_tex" role="rgb" />
+    </material>
+    <texture name="lined_willow_basket_0_tex" type="2d" file="0.png" />
+    <mesh name="lined_willow_basket_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="lined_willow_basket_inside" file="inside.obj" />
+    <mesh name="lined_willow_basket_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="lined_willow_basket">
+      <geom type="mesh" mesh="lined_willow_basket_0_mesh" material="lined_willow_basket_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_00" rgba="0 0 0 0" group="3" mass="0.0453113106" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_01" rgba="0 0 0 0" group="3" mass="0.0370427859" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_02" rgba="0 0 0 0" group="3" mass="0.045051697" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_03" rgba="0 0 0 0" group="3" mass="0.0467229156" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_04" rgba="0 0 0 0" group="3" mass="0.0328480631" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_05" rgba="0 0 0 0" group="3" mass="0.044295543" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_06" rgba="0 0 0 0" group="3" mass="0.0019795011" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_07" rgba="0 0 0 0" group="3" mass="0.0327791648" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_08" rgba="0 0 0 0" group="3" mass="0.0496278573" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_09" rgba="0 0 0 0" group="3" mass="0.0345670718" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_10" rgba="0 0 0 0" group="3" mass="0.103878361" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_11" rgba="0 0 0 0" group="3" mass="0.0608750254" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_12" rgba="0 0 0 0" group="3" mass="0.00276042129" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_13" rgba="0 0 0 0" group="3" mass="0.123193553" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_14" rgba="0 0 0 0" group="3" mass="0.0545287925" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="lined_willow_basket_hull_15" rgba="0 0 0 0" group="3" mass="0.0213426867" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1200 0.0922 0.0605" pos="0.0000 0.0000 0.0605" />
+      <geom name="place:inside" class="place" type="mesh" mesh="lined_willow_basket_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="lined_willow_basket_top" />
+    </body>
+  </worldbody>
+</mujoco>

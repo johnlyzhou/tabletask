@@ -165,6 +165,7 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `pink_paint_dropper_bottle` | [paint_container_bottle_pink_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/paint_container_bottle_pink_a01) |
 | `pink_spatula` | [kitchenware_spatula_c01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_spatula_c01) |
 | `plain_bagel` | [food_prepared_bagel_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_prepared_bagel_b01) |
+| `plastic_basket` | [misc_basket_plastic_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/misc_basket_plastic_a01) |
 | `plum_colored_pencil` | [stationery_pencil_watercolor_plum_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pencil_watercolor_plum_a01) |
 | `prussian_blue_marker` | [stationery_marker_alcohol_prussianBlue_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_marker_alcohol_prussianBlue_a01) |
 | `raw_steak` | [food_prepared_steak_c01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_prepared_steak_c01) |

@@ -8,6 +8,7 @@ meshes were given collision hulls and placement regions.
 
 | Asset | HSSD object |
 | --- | --- |
+| `acacia_storage_box` | `414f1b65ce123c7acc6487d2d73626b819de89ba` (Acacia Wood Collection Storage Box) |
 | `almond_deco_kettle` | `6e35f1ab01230ea2687cade5e71e4a3abf07262e` (Prestige Deco Kettle Almond 1.5L) |
 | `amber_cleanser_bottle` | `31af0878469759544453aa0414303d93f483f37e` (AESOP Parsley Seed Facial Cleanser) |
 | `amber_dropper_bottle` | `14253175da7cf53afa64c928c14bd4b803178bc6` (AESOP Sage & Cedar Scalp Treatment) |
@@ -47,6 +48,7 @@ meshes were given collision hulls and placement regions.
 | `cream_stovetop_kettle` | `6982c7794384aecaa6134b600d473e98d812b8be` (Alessi Mami Kettle) |
 | `cream_tissue_box` | `5637420729ce687138e32bad2bd77154b561df36` (Baliana Rectangle Tissue Box Cover) |
 | `cube_candle` | `0bcb338131c6c8157b712d649ccf71ccfbd056d2` (Welton Design Onyx No3 Scented Candle) |
+| `cutlery_organiser` | `a6c48f3aa47b8fc45b8ae132760bb93f7bd03cf0` (Cutlery Drawer Organiser) |
 | `cypress_candle` | `03569aed377a86f80ab87191174ae47b5332b77a` (Scented Candle Cypres) |
 | `dandelion_mug` | `5d1f718ed51e63cdf4d69617f849e10ad36f9b97` (Dandelion mug) |
 | `dark_tissue_box` | `efc0201c33f516285eea7f5ad4516fed892a4ba6` (Cleo Rectangle Tissue Box Cover) |
@@ -69,12 +71,14 @@ meshes were given collision hulls and placement regions.
 | `letter_n_mug` | `7a18a3e82b9463b934c1017fce21adcbc5d0b1da` (N Initial Mug Red Lettering) |
 | `lidded_grey_candle` | `7b040f16bea8a12b95c442c377e6746a92f0c372` (Fornasetti Candle) |
 | `lime_melamine_cup` | `3ce41cf0b912a259a5b352d5bf1141ee102640d9` (Dark Lime Melamine Cup) |
+| `lined_willow_basket` | `2382da50dbb82b1a316461a792b383441edf1a9f` (Shallow Lined Willow Basket) |
 | `love_birds_mug` | `fcae3d93545969544b5aec155f56fda69f1a2f9a` (Love birds mug blue) |
 | `marble_tissue_box` | `584328d2150aea7fe946343cee183497e8b0464f` (Tissue Box Cover-BB071) |
 | `merlot_bottle` | `6321b6d56d59d1298990434517ac65e2d93f5274` (Honey Tree Cabernet Merlot) |
 | `moroccan_teapot` | `1b8049a707cc4f4b440d7a60b24dcf73065aaa88` (YURI) |
 | `olive_striped_mug` | `4c439ebcd2eec3923ab3e41dc64d71092b54a0ab` (Multi Flower Abacus Mug) |
 | `ombre_pillar_candle` | `7696a432ae056712d7c12321200c49ff89b5ce32` (Coastal Winds Blends Pillar Candle - 7.5 x 15cm) |
+| `open_roasting_tray` | `3017f3e89e8d40f76e1ef5d10a6c9787ba63e743` (Mermaid Cookware Open Roasting Dish, 12") |
 | `orange_roll_on_bottle` | `a362cd09714a88e499a8b0b4bed607d233de5ffc` (AESOP Ginger Flight Therapy) |
 | `orange_shower_gel_bottle` | `609b597b4243c36fbf721d25fea456b40e806519` (MOLTON BROWN INVIGORATING GINSENG SHOWER GEL 300ML) |
 | `pale_scene_mug` | `6c988f13a1ea7360d4958bb938e7910c547e7ed4` (Bucolic Scene Mug) |
@@ -88,6 +92,7 @@ meshes were given collision hulls and placement regions.
 | `pink_striped_mug` | `bd12f6fd478618cc550689cd9a050e61b1b5abe0` (Orchid mug) |
 | `pink_table_clock` | `d0d608870026a708eb52b2599117a5f260424d22` (Lucas Table Clock, Pink) |
 | `purple_church_candle` | `f51c9355d6f6e8f0aeaad4dc29ad86fca9fa234a` (Church Candle Purple) |
+| `rattan_basket` | `13f59be6cd2d0f811fdfcafb794bde1a513ecbde` (Rattan Basket Small) |
 | `red_alarm_clock` | `2503515e4e92100f8d9c1e8fc661c4ff7ba9496a` (Karlsson Rubber Alarm Clock Red) |
 | `red_casserole_pot` | `2e220a72339bd2be92f210affc6adb599e7a297a` (Le Creuset 22cm Cast Iron Round Casserole Dish Volcanic) |
 | `red_cola_can` | `3b2bc1d7fb915261a095e2c2935803941b58f546` (Take Away Party Food Coke Can) |
@@ -103,9 +108,11 @@ meshes were given collision hulls and placement regions.
 | `silver_letter_s` | `af0b9aef8292ff2e8c4407b8ba6a5be89ba341eb` (silver wooden letters) |
 | `silver_ribbed_candle` | `2e6ab9310ec61f3acec8ca13f43b5f70090ad919` (Fornasetti Candle) |
 | `slim_purple_candle` | `9dfbc1df2349093e0444dfabb8789296c83561cf` (Purple Church Candle) |
+| `springform_cake_tin` | `827ea422557a263f198a98fbecd36ecb0f77b2b5` (Non Stick Spring Form Cake Tin, 20cm) |
 | `square_whiskey_bottle` | `4b4f5834c4163706bcc3029862f8f0ec73d92684` (Jack Daniel"s Tennessee Whiskey) |
 | `stacked_lotion_bottle` | `d9eaaf3aafe844aa8494db180d22a53ad2a01f8a` (Charlette Lotion Bottle) |
 | `steel_electric_kettle` | `689686140b7ab8fd656ce588f10f8c40568da3bf` (Aroma 2liter Electric Water Kettle) |
+| `steel_roasting_dish` | `13619669d6d62bdab8d04a4b61c2083af5e61819` (Mermaid Cookware Roasting Dish, 14") |
 | `steel_stockpot` | `bc273df69e9d7941f7124094ed0fae196305c41e` (Supreme Soft Grip Deep Stockpot) |
 | `steel_tea_scoop` | `f2973f4839d826120e55c99a9e9c23610f214041` (Coffee/tea scoop) |
 | `steel_thermos` | `6559f3e7b5325e7981d153d288fbb8e54659584a` (Thermos Everyday Flask, Stainless Steel, 0.5L) |
@@ -128,12 +135,15 @@ meshes were given collision hulls and placement regions.
 | `white_label_bourbon_bottle` | `c0708291eba7d5d0080df6a748a728930225be91` (Jim Beam Bourbon Whiskey) |
 | `white_label_candle` | `e325d90bb531eabc16607c416f1e9defd7cb25a7` (DIPTYQUE SCENTED CANDLE BAIES) |
 | `white_reed_diffuser` | `e919205941143f38ec34e7d76876850a9acf234c` (ROSE PETAL WHITE PEPPER DIFFUSER STICKS) |
+| `white_ribbed_planter` | `xxxx8cb9b4e9xe2b1x4e79xbf2dx1779cdf91e9e` (Basket Small White Planter) |
 | `white_rubber_duck` | `6352062ae6b416e3502bffc1c720461a99e344c0` (Large Rubber Ducks) |
 | `white_shower_gel_tube` | `474626239ff5c30ed30604f849caf0b4fd891784` (Shower Gel Joop) |
 | `white_strawberry_teapot` | `d0a06a5a905aee68c410b6ca8714bde74a834df5` (Strawberry Teapot) |
 | `white_vodka_bottle_tall` | `2f92d709c9e94753a896c065cb62ed33765837c0` (Wyborowa Vodka) |
+| `wire_bread_basket` | `22b95b4f67153a8b44b3bbc33b456a666e6203fa` (Wire Bread Basket) |
 | `wood_travel_speaker` | `d49fed23ebc56b2debce7783a311b0a1a5c4f02f` (Travel Speakers - Wood Effect) |
 | `wooden_morph_mill` | `eb266a87765e0bc3c3bc80f0cb942f8c4f991109` (morph mill, natural) |
+| `wooden_plant_crate` | `b90db13497b5b84599e9bac16913b5e57492dc3a` (Empty Small Plantabox) |
 | `wooden_tissue_box` | `1472a0b835223f7c39e850146dbde04d28e99da1` (Hinoki Tissue Box) |
 | `yellow_flower_mug` | `1a6b779033e0f9f9936970d79af01ed7653e4321` (Etc Flower Oval Mug) |
 | `yellow_pastry_brush` | `36a344f05e508f75db478a6cba6814e0d863ae75` (Typhoon Grip It! Pastry Brush, Fennel) |

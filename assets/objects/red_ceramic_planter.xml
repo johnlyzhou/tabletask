@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/red_ceramic_planter" texturedir="../mesh/red_ceramic_planter" />
   <custom>
     <text name="label" data="red ceramic planter|planter|flower pot|red pot with holes|red ceramic planter with holes and saucer" />
+    <text name="tags" data="container" />
     <text name="category" data="pot" />
   </custom>
   <default>
