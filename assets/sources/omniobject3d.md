@@ -33,7 +33,6 @@ regions, and their textures were downsampled.
 | `black_small_box` | `box_001` |
 | `black_speaker` | `speaker_001` |
 | `black_star_anise` | `anise_001` |
-| `black_sushi` | `sushi_028` |
 | `black_tape_measure` | `tape_measure_013` |
 | `black_toy_boat` | `toy_boat_007` |
 | `black_toy_bus` | `toy_bus_028` |
@@ -74,7 +73,6 @@ regions, and their textures were downsampled.
 | `brown_and_dark_orange_peach` | `peach_003` |
 | `brown_and_dark_yellow_bread_roll` | `bread_014` |
 | `brown_and_dark_yellow_mooncake` | `mooncake_001` |
-| `brown_and_dark_yellow_pastry` | `pastry_003` |
 | `brown_and_grey_star_anise` | `anise_008` |
 | `brown_and_orange_seashell` | `conch_009` |
 | `brown_and_orange_sweet_potato` | `sweet_potato_020` |
@@ -91,7 +89,6 @@ regions, and their textures were downsampled.
 | `brown_chicken_drumstick` | `chicken_leg_015` |
 | `brown_donut` | `donut_011` |
 | `brown_ear_of_corn` | `corn_005` |
-| `brown_egg` | `egg_021` |
 | `brown_fig` | `fig_003` |
 | `brown_figurine` | `garage_kit_014` |
 | `brown_garlic_bulb` | `garlic_007` |
@@ -103,14 +100,10 @@ regions, and their textures were downsampled.
 | `brown_longan` | `longan_001` |
 | `brown_lotus_root` | `lotus_root_025` |
 | `brown_mooncake` | `mooncake_011` |
-| `brown_mushroom_cap` | `mushroom_023` |
-| `brown_oyster_shell` | `oyster_018` |
-| `brown_pastry` | `pastry_019` |
 | `brown_peach` | `peach_002` |
 | `brown_peanut` | `peanut_016` |
 | `brown_pie` | `pie_029` |
 | `brown_ping_pong_paddle` | `table_tennis_bat_020` |
-| `brown_pistachio` | `pistachio_022` |
 | `brown_porcelain_figurine` | `china_019` |
 | `brown_potato` | `potato_022` |
 | `brown_sausage` | `sausage_021` |
@@ -157,7 +150,6 @@ regions, and their textures were downsampled.
 | `dark_blue_wrench` | `spanner_002` |
 | `dark_chocolate` | `chocolate_007` |
 | `dark_green_and_black_chili_pepper` | `chili_030` |
-| `dark_green_and_black_toy_car` | `toy_car_004` |
 | `dark_green_and_dark_yellow_pear` | `pear_009` |
 | `dark_green_and_green_sword_bean` | `sword_bean_002` |
 | `dark_green_and_green_toy_car` | `toy_car_002` |
@@ -170,8 +162,6 @@ regions, and their textures were downsampled.
 | `dark_green_bottle` | `bottle_060` |
 | `dark_green_broccoli_floret` | `broccoli_019` |
 | `dark_green_chili_pepper` | `chili_008` |
-| `dark_green_computer_mouse` | `mouse_012` |
-| `dark_green_cucumber` | `cucumber_025` |
 | `dark_green_dumbbell` | `dumbbell_001` |
 | `dark_green_fig` | `fig_020` |
 | `dark_green_kitchen_timer` | `timer_022` |
@@ -218,13 +208,11 @@ regions, and their textures were downsampled.
 | `dark_orange_bread_roll` | `bread_033` |
 | `dark_orange_carrot` | `carrot_009` |
 | `dark_orange_chicken_drumstick` | `chicken_leg_019` |
-| `dark_orange_cream_puff` | `puff_001` |
 | `dark_orange_fig` | `fig_018` |
 | `dark_orange_ginger_root` | `ginger_012` |
 | `dark_orange_hawthorn_berry` | `haw_thorn_007` |
 | `dark_orange_kiwi_fruit` | `kiwifruit_001` |
 | `dark_orange_litchi` | `litchi_012` |
-| `dark_orange_pastry` | `pastry_009` |
 | `dark_orange_star_anise` | `anise_025` |
 | `dark_orange_teapot` | `teapot_023` |
 | `dark_orange_toy_dinosaur` | `dinosaur_003` |
@@ -232,7 +220,6 @@ regions, and their textures were downsampled.
 | `dark_pecan` | `walnut_026` |
 | `dark_pink_bar_of_soap` | `soap_027` |
 | `dark_pink_calculator` | `calculator_009` |
-| `dark_pink_makeup_sponge` | `beauty_blender_001` |
 | `dark_pink_onion` | `onion_021` |
 | `dark_pink_wallet` | `wallet_008` |
 | `dark_red_and_dark_orange_jujube` | `red_jujube_012` |
@@ -257,7 +244,6 @@ regions, and their textures were downsampled.
 | `dark_red_scissors` | `scissor_016` |
 | `dark_red_shampoo_bottle` | `shampoo_021` |
 | `dark_red_strawberry` | `strawberry_019` |
-| `dark_red_sushi` | `sushi_022` |
 | `dark_red_teapot` | `teapot_019` |
 | `dark_red_tomato` | `tomato_010` |
 | `dark_red_toy_boat` | `toy_boat_010` |
@@ -292,7 +278,6 @@ regions, and their textures were downsampled.
 | `dark_yellow_lotus_root` | `lotus_root_003` |
 | `dark_yellow_mango` | `mango_009` |
 | `dark_yellow_orange` | `orange_001` |
-| `dark_yellow_pastry` | `pastry_008` |
 | `dark_yellow_porcelain_figurine` | `china_001` |
 | `dark_yellow_rice_dumpling` | `zongzi_011` |
 | `dark_yellow_sausage` | `sausage_030` |
@@ -304,7 +289,6 @@ regions, and their textures were downsampled.
 | `glazed_bread_roll` | `steamed_bun_048` |
 | `gold_computer_mouse` | `mouse_019` |
 | `gold_wrapped_chocolate` | `chocolate_027` |
-| `green_and_black_toy_car` | `toy_car_005` |
 | `green_and_dark_green_broccoli_floret` | `broccoli_027` |
 | `green_and_dark_green_brussels_sprout` | `brussels_sprout_009` |
 | `green_and_dark_green_toy_train` | `toy_train_005` |
@@ -333,7 +317,6 @@ regions, and their textures were downsampled.
 | `green_squash` | `squash_021` |
 | `green_tape_measure` | `tape_measure_024` |
 | `green_teddy_bear` | `doll_019` |
-| `green_toy_car` | `toy_car_003` |
 | `green_toy_house` | `house_003` |
 | `green_toy_motorcycle` | `toy_motorcycle_012` |
 | `green_toy_plant` | `toy_plant_005` |
@@ -363,7 +346,6 @@ regions, and their textures were downsampled.
 | `grey_cherry` | `cherry_011` |
 | `grey_chili_pepper` | `chili_005` |
 | `grey_clock` | `clock_024` |
-| `grey_cucumber` | `cucumber_001` |
 | `grey_cup` | `cup_019` |
 | `grey_die` | `dice_015` |
 | `grey_dragon_fruit` | `pitaya_006` |
@@ -393,7 +375,6 @@ regions, and their textures were downsampled.
 | `grey_shrimp` | `shrimp_001` |
 | `grey_speaker` | `speaker_003` |
 | `grey_spray_can` | `facial_cream_019` |
-| `grey_sushi` | `sushi_023` |
 | `grey_tape_measure` | `tape_measure_018` |
 | `grey_thimble` | `thimble_016` |
 | `grey_toothbrush` | `tooth_brush_002` |
@@ -418,9 +399,7 @@ regions, and their textures were downsampled.
 | `large_beige_chess_piece` | `chess_024` |
 | `large_beige_figurine` | `garage_kit_026` |
 | `large_beige_garlic_bulb` | `garlic_003` |
-| `large_black_cucumber` | `cucumber_015` |
 | `large_black_litchi` | `litchi_010` |
-| `large_black_mangosteen` | `mangosteen_013` |
 | `large_black_pinecone` | `pinecone_003` |
 | `large_black_razor` | `razor_003` |
 | `large_black_toy_train` | `toy_train_011` |
@@ -436,11 +415,9 @@ regions, and their textures were downsampled.
 | `large_brown_lotus_root` | `lotus_root_005` |
 | `large_brown_mooncake` | `mooncake_007` |
 | `large_brown_mushroom` | `mushroom_010` |
-| `large_brown_oyster_shell` | `oyster_024` |
 | `large_brown_peach` | `peach_006` |
 | `large_brown_peanut` | `peanut_004` |
 | `large_brown_ping_pong_paddle` | `table_tennis_bat_011` |
-| `large_brown_pistachio` | `pistachio_010` |
 | `large_brown_potato` | `potato_013` |
 | `large_brown_sausage` | `sausage_029` |
 | `large_brown_shumai` | `shaomai_002` |
@@ -456,7 +433,6 @@ regions, and their textures were downsampled.
 | `large_dark_green_pomegranate` | `pomegranate_021` |
 | `large_dark_green_thimble` | `thimble_011` |
 | `large_dark_green_toothpaste_tube` | `tooth_paste_001` |
-| `large_dark_green_toy_car` | `toy_car_014` |
 | `large_dark_green_toy_dinosaur` | `dinosaur_009` |
 | `large_dark_grey_clock` | `clock_011` |
 | `large_dark_grey_remote_control` | `remote_control_005` |
@@ -499,7 +475,6 @@ regions, and their textures were downsampled.
 | `large_grey_toy_truck` | `toy_truck_012` |
 | `large_grey_tube_of_hand_cream` | `hand_cream_030` |
 | `large_king_oyster_mushroom` | `mushroom_011` |
-| `large_long_black_cucumber` | `cucumber_035` |
 | `large_long_grey_toothbrush` | `tooth_brush_021` |
 | `large_long_orange_carrot` | `carrot_003` |
 | `large_long_yellow_ear_of_corn` | `corn_015` |
@@ -535,7 +510,6 @@ regions, and their textures were downsampled.
 | `large_yellow_banana` | `banana_034` |
 | `large_yellow_bun` | `bun_028` |
 | `large_yellow_calculator` | `calculator_021` |
-| `large_yellow_cream_puff` | `puff_021` |
 | `large_yellow_donut` | `donut_005` |
 | `large_yellow_ear_of_corn` | `corn_027` |
 | `large_yellow_egg_tart` | `egg_tart_017` |
@@ -544,7 +518,6 @@ regions, and their textures were downsampled.
 | `large_yellow_lemon` | `lemon_003` |
 | `large_yellow_loquat` | `loquat_001` |
 | `large_yellow_mango` | `mango_017` |
-| `large_yellow_pastry` | `pastry_011` |
 | `large_yellow_pear` | `pear_018` |
 | `large_yellow_pen` | `pen_005` |
 | `large_yellow_potato` | `potato_001` |
@@ -552,7 +525,6 @@ regions, and their textures were downsampled.
 | `large_yellow_waffle` | `waffle_029` |
 | `light_pink_cup` | `cup_007` |
 | `long_beige_brush` | `brush_005` |
-| `long_black_cucumber` | `cucumber_010` |
 | `long_blue_medicine_bottle` | `medicine_bottle_032` |
 | `long_brown_and_yellow_bamboo_shoot` | `bamboo_shoots_011` |
 | `long_brown_bamboo_shoot` | `bamboo_shoots_010` |
@@ -586,7 +558,6 @@ regions, and their textures were downsampled.
 | `long_yellow_medicine_bottle` | `medicine_bottle_031` |
 | `mailbox_toothpick_holder` | `toothpick_box_010` |
 | `mandarin_orange` | `orange_018` |
-| `marbled_egg` | `egg_005` |
 | `mushroom_toothpick_holder` | `toothpick_box_012` |
 | `nut_chocolate` | `chocolate_005` |
 | `oat_bar` | `biscuit_030` |
@@ -604,7 +575,6 @@ regions, and their textures were downsampled.
 | `orange_candy` | `candy_009` |
 | `orange_carrot` | `carrot_005` |
 | `orange_cartoon_figure` | `cheese_001` |
-| `orange_cream_puff` | `puff_007` |
 | `orange_figurine` | `garage_kit_035` |
 | `orange_hawthorn_berry` | `haw_thorn_015` |
 | `orange_hot_dog` | `hot_dog_074` |
@@ -613,7 +583,6 @@ regions, and their textures were downsampled.
 | `orange_loquat` | `loquat_005` |
 | `orange_magnet` | `magnet_003` |
 | `orange_mango` | `mango_024` |
-| `orange_pastry` | `pastry_015` |
 | `orange_peach` | `peach_025` |
 | `orange_sausage` | `sausage_044` |
 | `orange_sweet_potato` | `sweet_potato_024` |
@@ -700,8 +669,6 @@ regions, and their textures were downsampled.
 | `potted_toy_cactus` | `toy_plant_006` |
 | `pudding_cup` | `chocolate_023` |
 | `pumpkin_slice` | `pumpkin_026` |
-| `purple_makeup_sponge` | `beauty_blender_003` |
-| `purple_snack_pouch` | `cheese_016` |
 | `red_and_brown_apple` | `apple_003` |
 | `red_and_orange_sausage` | `sausage_034` |
 | `red_and_orange_strawberry` | `strawberry_027` |
@@ -725,10 +692,8 @@ regions, and their textures were downsampled.
 | `round_beige_mushroom` | `mushroom_003` |
 | `round_black_and_dark_orange_pinecone` | `pinecone_017` |
 | `round_black_and_dark_red_mangosteen` | `mangosteen_003` |
-| `round_black_mangosteen` | `mangosteen_023` |
 | `round_black_pinecone` | `pinecone_011` |
 | `round_black_puzzle_cube` | `rubik_cube_040` |
-| `round_black_sushi` | `sushi_015` |
 | `round_black_water_chestnut` | `water_chestnut_005` |
 | `round_blue_puzzle_cube` | `rubik_cube_016` |
 | `round_brown_apple` | `apple_052` |
@@ -766,25 +731,18 @@ regions, and their textures were downsampled.
 | `small_beige_chess_piece` | `chess_026` |
 | `small_beige_garlic_bulb` | `garlic_033` |
 | `small_beige_pistachio` | `pistachio_006` |
-| `small_black_cucumber` | `cucumber_031` |
 | `small_black_litchi` | `litchi_008` |
-| `small_black_mangosteen` | `mangosteen_022` |
-| `small_black_sushi` | `sushi_025` |
 | `small_black_toy_bus` | `toy_bus_011` |
 | `small_black_toy_truck` | `toy_truck_024` |
 | `small_black_water_chestnut` | `water_chestnut_002` |
 | `small_blue_calculator` | `calculator_003` |
 | `small_blue_toy_boat` | `toy_boat_017` |
-| `small_brown_and_beige_peanut` | `peanut_009` |
 | `small_brown_carrot` | `carrot_029` |
 | `small_brown_ginger_root` | `ginger_027` |
 | `small_brown_longan` | `longan_019` |
-| `small_brown_oyster_shell` | `oyster_015` |
-| `small_brown_peanut` | `peanut_008` |
 | `small_brown_potato` | `potato_018` |
 | `small_brown_shrimp` | `shrimp_028` |
 | `small_brown_starfish` | `starfish_003` |
-| `small_brown_sushi` | `sushi_027` |
 | `small_brown_sweet_potato` | `sweet_potato_003` |
 | `small_brown_walnut` | `walnut_010` |
 | `small_brown_yam` | `yam_018` |
@@ -798,7 +756,6 @@ regions, and their textures were downsampled.
 | `small_dark_green_yam` | `yam_029` |
 | `small_dark_orange_apple` | `apple_060` |
 | `small_dark_orange_carrot` | `carrot_023` |
-| `small_dark_orange_cream_puff` | `puff_002` |
 | `small_dark_orange_litchi` | `litchi_016` |
 | `small_dark_orange_star_anise` | `anise_021` |
 | `small_dark_pink_onion` | `onion_017` |
@@ -876,7 +833,6 @@ regions, and their textures were downsampled.
 | `small_yellow_bread_roll` | `bread_035` |
 | `small_yellow_brush` | `brush_017` |
 | `small_yellow_cheese` | `cheese_023` |
-| `small_yellow_cream_puff` | `puff_003` |
 | `small_yellow_donut` | `donut_036` |
 | `small_yellow_ear_of_corn` | `corn_017` |
 | `small_yellow_egg_tart` | `egg_tart_001` |
@@ -896,7 +852,6 @@ regions, and their textures were downsampled.
 | `teal_toy_bus` | `toy_bus_026` |
 | `teal_toy_helicopter` | `toy_plane_004` |
 | `teal_toy_train` | `toy_train_025` |
-| `thin_brown_mushroom` | `mushroom_020` |
 | `tomato_half` | `tomato_022` |
 | `tomato_kitchen_timer` | `timer_002` |
 | `tomato_wedge` | `tomato_005` |
@@ -926,7 +881,6 @@ regions, and their textures were downsampled.
 | `white_pen` | `pen_001` |
 | `white_puzzle_cube` | `rubik_cube_001` |
 | `white_shampoo_bottle` | `shampoo_028` |
-| `white_snack_pouch` | `cheese_006` |
 | `white_toothbrush` | `tooth_brush_007` |
 | `white_toy_plane` | `toy_plane_023` |
 | `white_tube_of_hand_cream` | `hand_cream_017` |
@@ -955,7 +909,6 @@ regions, and their textures were downsampled.
 | `yellow_cream_puff` | `puff_008` |
 | `yellow_donut` | `donut_015` |
 | `yellow_ear_of_corn` | `corn_030` |
-| `yellow_egg` | `egg_003` |
 | `yellow_egg_tart` | `egg_tart_033` |
 | `yellow_fig` | `fig_000` |
 | `yellow_figurine` | `garage_kit_018` |
@@ -968,7 +921,6 @@ regions, and their textures were downsampled.
 | `yellow_medicine_bottle` | `medicine_bottle_012` |
 | `yellow_mushroom` | `mushroom_007` |
 | `yellow_orange` | `orange_005` |
-| `yellow_pastry` | `pastry_017` |
 | `yellow_peach` | `peach_016` |
 | `yellow_pear` | `pear_016` |
 | `yellow_potato_2` | `potato_019` |
@@ -977,12 +929,10 @@ regions, and their textures were downsampled.
 | `yellow_spray_bottle` | `facial_cream_013` |
 | `yellow_starfish` | `starfish_009` |
 | `yellow_steamed_bun` | `steamed_bun_001` |
-| `yellow_sushi` | `sushi_021` |
 | `yellow_teapot` | `teapot_024` |
 | `yellow_toothpick_box` | `toothpick_box_008` |
 | `yellow_toy_boat` | `toy_boat_011` |
 | `yellow_toy_bus` | `toy_bus_018` |
-| `yellow_toy_car` | `toy_car_009` |
 | `yellow_toy_deer` | `doll_007` |
 | `yellow_toy_dinosaur` | `dinosaur_033` |
 | `yellow_toy_horn` | `whistle_001` |
