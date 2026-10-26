@@ -1,0 +1,90 @@
+<mujoco model="white_handle_whisk">
+  <compiler angle="radian" meshdir="../mesh/white_handle_whisk" texturedir="../mesh/white_handle_whisk" />
+  <custom>
+    <text name="label" data="white handle whisk|whisk|balloon whisk|white whisk|steel whisk with a white handle" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="whisk" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_handle_whisk_0_mesh" file="0.obj" />
+    <material name="white_handle_whisk_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_handle_whisk_0_tex" role="rgb" />
+    </material>
+    <texture name="white_handle_whisk_0_tex" type="2d" file="0.png" />
+    <mesh name="white_handle_whisk_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="white_handle_whisk_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="white_handle_whisk">
+      <geom type="mesh" mesh="white_handle_whisk_0_mesh" material="white_handle_whisk_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_00" rgba="0 0 0 0" group="3" mass="0.0524043051" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_01" rgba="0 0 0 0" group="3" mass="0.0019631045" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_02" rgba="0 0 0 0" group="3" mass="0.00299246646" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_03" rgba="0 0 0 0" group="3" mass="0.00216443955" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_04" rgba="0 0 0 0" group="3" mass="0.00229664609" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_05" rgba="0 0 0 0" group="3" mass="0.00227390046" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_06" rgba="0 0 0 0" group="3" mass="0.00253935449" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_07" rgba="0 0 0 0" group="3" mass="0.00437713195" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_08" rgba="0 0 0 0" group="3" mass="0.00146501933" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_09" rgba="0 0 0 0" group="3" mass="0.000212912018" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_10" rgba="0 0 0 0" group="3" mass="0.00116252539" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_11" rgba="0 0 0 0" group="3" mass="0.00188920445" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_12" rgba="0 0 0 0" group="3" mass="0.00106836908" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_13" rgba="0 0 0 0" group="3" mass="0.00545390672" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_14" rgba="0 0 0 0" group="3" mass="0.000189080483" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_15" rgba="0 0 0 0" group="3" mass="0.000644543868" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_16" rgba="0 0 0 0" group="3" mass="0.000339946542" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_17" rgba="0 0 0 0" group="3" mass="0.00177022869" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_18" rgba="0 0 0 0" group="3" mass="0.000823580622" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_19" rgba="0 0 0 0" group="3" mass="0.00177112262" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_20" rgba="0 0 0 0" group="3" mass="0.00022366558" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_21" rgba="0 0 0 0" group="3" mass="0.000418907677" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_22" rgba="0 0 0 0" group="3" mass="0.00123511711" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_23" rgba="0 0 0 0" group="3" mass="0.000919497079" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_24" rgba="0 0 0 0" group="3" mass="0.000189080483" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_25" rgba="0 0 0 0" group="3" mass="0.000230901225" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_26" rgba="0 0 0 0" group="3" mass="0.000295354589" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_27" rgba="0 0 0 0" group="3" mass="0.000366596253" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_28" rgba="0 0 0 0" group="3" mass="0.0014921066" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_29" rgba="0 0 0 0" group="3" mass="0.000386273129" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_30" rgba="0 0 0 0" group="3" mass="0.000234887346" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_handle_whisk_hull_31" rgba="0 0 0 0" group="3" mass="0.00081659582" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1219 0.0323 0.0284" pos="0.0000 0.0000 0.0284" />
+    </body>
+  </worldbody>
+</mujoco>

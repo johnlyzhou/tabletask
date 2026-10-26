@@ -13,6 +13,7 @@ Assets ported into `assets/` keep the terms of where they came from.
 | objects listed in [`simready.md`](simready.md) | [NVIDIA SimReady assets](https://huggingface.co/datasets/nvidia/simready-assets) | CC BY 4.0 |
 | objects listed in [`hssd.md`](hssd.md) | [HSSD](https://huggingface.co/datasets/hssd/hssd-models) | CC BY-NC 4.0 (non-commercial) |
 | objects listed in [`hope.md`](hope.md) | [HOPE](https://github.com/swtyree/hope-dataset) by NVIDIA | CC BY-SA 4.0 |
+| objects listed in [`handal.md`](handal.md) | [HANDAL](https://nvlabs.github.io/HANDAL/) by NVIDIA | CC BY-NC-SA 4.0 (non-commercial) |
 | baby doll mesh | reconstructed with [SAM 3D Objects](https://github.com/facebookresearch/sam-3d-objects) | SAM License, [`baby-doll-knife/SAM-LICENSE.txt`](baby-doll-knife/SAM-LICENSE.txt) |
 
 The robot models under `tabletask/mujoco/robots/assets/droid/` carry the Franka
