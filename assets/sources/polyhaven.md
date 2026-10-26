@@ -24,6 +24,7 @@ authors are listed with thanks.
 | `brass_lantern` | [Brass Diya Lantern](https://polyhaven.com/a/brass_diya_lantern) | Bhargav Kubal |
 | `brass_pan` | [Brass Pan 01](https://polyhaven.com/a/brass_pan_01) | Rico Cilliers |
 | `brown_book` | [Book Encyclopedia Set 01](https://polyhaven.com/a/book_encyclopedia_set_01) | John Malcolm |
+| `bumpy_yellow_lemon` | [Lemon](https://polyhaven.com/a/lemon) | Kuutti Siitonen |
 | `bunsen_burner` | [Bunsen Burner](https://polyhaven.com/a/bunsen_burner) | BKS |
 | `burger_bun` | [Hamburger Buns](https://polyhaven.com/a/hamburger_buns) | Alexander Shulha |
 | `can_of_beans` | [Long Life Food](https://polyhaven.com/a/long_life_food) | Mia Pecina Zorko |
@@ -81,6 +82,7 @@ authors are listed with thanks.
 | `gallon_bottle` | [Plastic Bottle Gallon](https://polyhaven.com/a/plastic_bottle_gallon) | Rahul Chaudhary |
 | `game_console` | [Gaming Console](https://polyhaven.com/a/gaming_console) | Sean Buckley |
 | `garden_gnome` | [Garden Gnome](https://polyhaven.com/a/garden_gnome) | Bhargav Kubal |
+| `garden_trowel` | [Trowel 01](https://polyhaven.com/a/trowel_01) | Satyaki Mandal |
 | `ginger_root` | [Food Ginger 01](https://polyhaven.com/a/food_ginger_01) | Oliver Harries |
 | `green_striped_pencil` | [Stationery Supplies](https://polyhaven.com/a/stationery_supplies) | Mateusz Sadek |
 | `groove_pliers` | [Tongue & Groove Pliers](https://polyhaven.com/a/tongue_groove_pliers) | BKS |
@@ -92,6 +94,7 @@ authors are listed with thanks.
 | `key_lime` | [Food Lime 01](https://polyhaven.com/a/food_lime_01) | Oliver Harries |
 | `kiwi` | [Food Kiwi 01](https://polyhaven.com/a/food_kiwi_01) | Oliver Harries |
 | `lantern_flashlight` | [Plastic Torch 6V](https://polyhaven.com/a/pastic_torch_6v) | James Cocks |
+| `large_red_pomegranate` | [Food Pomegranate 01](https://polyhaven.com/a/food_pomegranate_01) | Oliver Harries |
 | `large_wooden_bowl` | [Wooden Bowl 01](https://polyhaven.com/a/wooden_bowl_01) | Oliver Harries |
 | `leather_cleaner_can` | [Leather Cleaner Can](https://polyhaven.com/a/leather_cleaner_can) | James Ray Cock |
 | `led_bulb` | [Lightbulb Led](https://polyhaven.com/a/lightbulb_led) | Josh Dean |

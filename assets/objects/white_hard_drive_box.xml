@@ -1,0 +1,50 @@
+<mujoco model="white_hard_drive_box">
+  <compiler angle="radian" meshdir="../mesh/white_hard_drive_box" texturedir="../mesh/white_hard_drive_box" />
+  <custom>
+    <text name="label" data="white hard drive box|box|white box|flat white box|flat white box of a portable hard drive" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="box" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_hard_drive_box_0_mesh" file="0.obj" />
+    <material name="white_hard_drive_box_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_hard_drive_box_0_tex" role="rgb" />
+    </material>
+    <texture name="white_hard_drive_box_0_tex" type="2d" file="0.png" />
+    <mesh name="white_hard_drive_box_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="white_hard_drive_box_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="white_hard_drive_box">
+      <geom type="mesh" mesh="white_hard_drive_box_0_mesh" material="white_hard_drive_box_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_00" rgba="0 0 0 0" group="3" mass="0.00376999468" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_01" rgba="0 0 0 0" group="3" mass="0.0117772752" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_02" rgba="0 0 0 0" group="3" mass="0.0130092164" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_03" rgba="0 0 0 0" group="3" mass="0.00706052956" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_04" rgba="0 0 0 0" group="3" mass="0.00834852076" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_05" rgba="0 0 0 0" group="3" mass="0.0107190296" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_06" rgba="0 0 0 0" group="3" mass="0.0114352274" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_07" rgba="0 0 0 0" group="3" mass="0.000965499718" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_08" rgba="0 0 0 0" group="3" mass="0.00177477976" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_09" rgba="0 0 0 0" group="3" mass="0.000744576238" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_hard_drive_box_hull_10" rgba="0 0 0 0" group="3" mass="0.00358382075" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0083 0.0410 0.0621" pos="0.0000 0.0000 0.0621" />
+      <geom name="place:top" class="place" type="mesh" mesh="white_hard_drive_box_top" />
+    </body>
+  </worldbody>
+</mujoco>
