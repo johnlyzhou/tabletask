@@ -21,6 +21,7 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `black_colored_pencil` | [stationery_pencil_watercolor_black_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pencil_watercolor_black_a01) |
 | `black_drink_can` | [food_beverage_can_k01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_beverage_can_k01) |
 | `black_floral_jug` | [kitchenware_jug_e01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_jug_e01) |
+| `black_frying_pan` | [kitchenware_pan_r01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_pan_r01) |
 | `black_lancing_pen` | [device_insulin_lancing_c01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/device_insulin_lancing_c01) |
 | `black_plastic_pen` | [stationery_pen_plastic_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pen_plastic_a01) |
 | `black_tape_dispenser` | [misc_tape_dispenser_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/misc_tape_dispenser_a01) |
@@ -68,6 +69,8 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `corked_glass_vial` | [container_vial_glass_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/container_vial_glass_a01) |
 | `craft_beer_bottle` | [food_beverage_beerBottle_f01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_beverage_beerBottle_f01) |
 | `cream_flower_mug` | [kitchenware_mug_c01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_mug_c01) |
+| `cream_teapot_kettle` | [kitchenware_kettle_w01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_kettle_w01) |
+| `cyan_kettle` | [kitchenware_kettle_i01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_kettle_i01) |
 | `dark_green_colored_pencil` | [stationery_pencil_watercolor_lushGreen_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pencil_watercolor_lushGreen_a01) |
 | `dark_teal_mug` | [kitchenware_mug_o01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_mug_o01) |
 | `dark_tomato_soup_can` | [food_can_tomatoSoup_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_can_tomatoSoup_a01) |
@@ -90,6 +93,7 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `grass_green_colored_pencil` | [stationery_pencil_watercolor_grassGreen_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pencil_watercolor_grassGreen_a01) |
 | `grease_tube` | [consumable_lubricant_grease_red_tacky_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/consumable_lubricant_grease_red_tacky_a01) |
 | `green_combination_pliers` | [handTool_pliers_combination_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/handTool_pliers_combination_b01) |
+| `green_dish_soap_bottle` | [cleaning_dishSoap_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/cleaning_dishSoap_a01) |
 | `green_fineliner` | [stationery_marker_thin_green_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_marker_thin_green_a01) |
 | `green_orange` | [food_produce_orange_i01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_orange_i01) |
 | `green_paint_dropper_bottle` | [paint_container_bottle_green_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/paint_container_bottle_green_a01) |
@@ -113,6 +117,7 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `light_yellow_paint_dropper_bottle` | [paint_container_bottle_yellowLight_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/paint_container_bottle_yellowLight_a01) |
 | `long_carrot` | [food_produce_freshCarrot_a04](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_freshCarrot_a04) |
 | `long_nose_pliers` | [handTool_pliers_long_nose_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/handTool_pliers_long_nose_a01) |
+| `marbled_kettle` | [kitchenware_kettle_l01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_kettle_l01) |
 | `marker_box` | [stationery_marker_alcohol_box_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_marker_alcohol_box_a01) |
 | `maroon_pill_bottle` | [medicine_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/medicine_b01) |
 | `medicine_box` | [medicine_a03](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/medicine_a03) |
@@ -121,6 +126,7 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `mint_pastel_stick` | [stationary_pastel_mint_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationary_pastel_mint_a01) |
 | `mottled_cucumber` | [food_produce_cucumber_e01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_cucumber_e01) |
 | `mustard_hot_dog` | [food_prepared_hotDog_e01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_prepared_hotDog_e01) |
+| `navy_kettle` | [kitchenware_kettle_s01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_kettle_s01) |
 | `navy_plastic_cup` | [dishware_plastic_cup_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/dishware_plastic_cup_a01) |
 | `orange_bell_pepper` | [food_produce_bellPepper_d01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_bellPepper_d01) |
 | `orange_colored_pencil` | [stationery_pencil_watercolor_orange_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pencil_watercolor_orange_a01) |
@@ -145,6 +151,7 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `pale_peach` | [food_produce_peach_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_peach_a01) |
 | `pale_wooden_spoon` | [kitchenware_spoon_k01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_spoon_k01) |
 | `palette_knife` | [paint_supplies_palletknife_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/paint_supplies_palletknife_a01) |
+| `paper_towel_roll` | [consumable_paperTowel_roll_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/consumable_paperTowel_roll_a01) |
 | `peach_colored_pencil` | [stationery_pencil_watercolor_softPeach_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pencil_watercolor_softPeach_a01) |
 | `peach_fineliner` | [stationery_marker_thin_peach_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_marker_thin_peach_a01) |
 | `peeled_tangerine` | [food_produce_tangerine_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_tangerine_b01) |
@@ -167,6 +174,7 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `red_colored_pencil` | [stationery_pencil_watercolor_red_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pencil_watercolor_red_a01) |
 | `red_cookie_box` | [food_processed_boxedFood_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_processed_boxedFood_a01) |
 | `red_delicious_apple` | [food_produce_apple_redDelicous_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_apple_redDelicous_a01) |
+| `red_electric_kettle` | [kitchenware_kettle_j01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_kettle_j01) |
 | `red_gin_bottle` | [food_beverage_ginBottle_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_beverage_ginBottle_b01) |
 | `red_grape_bunch` | [food_produce_grape_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_grape_a01) |
 | `red_handled_paring_knife` | [kitchenware_knife_m01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_knife_m01) |
@@ -201,6 +209,8 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `spotted_banana` | [food_produce_banana_u01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_banana_u01) |
 | `spray_gun` | [paint_supplies_spraygun_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/paint_supplies_spraygun_b01) |
 | `square_whisky_bottle` | [food_beverage_whiskyBottle_d01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_beverage_whiskyBottle_d01) |
+| `steel_serving_ladle` | [kitchenware_ladle_d01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_ladle_d01) |
+| `steel_soup_ladle` | [kitchenware_ladle_c01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_ladle_c01) |
 | `strawberry_cake_slice` | [food_prepared_cake_e01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_prepared_cake_e01) |
 | `strawberry_cupcake` | [food_prepared_cupcake_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_prepared_cupcake_b01) |
 | `strawberry_jam_jar` | [food_processed_jam_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_processed_jam_b01) |
@@ -211,6 +221,7 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `teal_lid_yogurt_cup` | [food_processed_yogurt_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_processed_yogurt_a01) |
 | `teal_metal_pen` | [stationery_pen_metal_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pen_metal_a01) |
 | `teal_soap_bar` | [cleaning_barSoap_d01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/cleaning_barSoap_d01) |
+| `teal_whistling_kettle` | [kitchenware_kettle_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_kettle_b01) |
 | `tequila_bottle` | [food_beverage_tequilaBottle_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_beverage_tequilaBottle_a01) |
 | `thin_paint_brush` | [paint_supplies_brush_a11](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/paint_supplies_brush_a11) |
 | `threadlocker_bottle` | [consumable_threadlocker_blue_small_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/consumable_threadlocker_blue_small_a01) |
@@ -233,6 +244,7 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `white_lancing_pen` | [device_lancing_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/device_lancing_a01) |
 | `white_phone` | [phone_reception_b01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/phone_reception_b01) |
 | `white_pillar_candle` | [decor_candle_k01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/decor_candle_k01) |
+| `white_saucepan` | [kitchenware_pan_t01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_pan_t01) |
 | `white_soap_bar` | [cleaning_barSoap_c01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/cleaning_barSoap_c01) |
 | `white_soap_dispenser` | [cleaning_soapDispenser_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/cleaning_soapDispenser_a01) |
 | `white_squeeze_bottle` | [food_condiment_ketchup_a03](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_condiment_ketchup_a03) |
@@ -243,6 +255,8 @@ into a single mesh with one diffuse texture, then given collision hulls and plac
 | `whole_kiwi` | [food_produce_kiwi_a05](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_kiwi_a05) |
 | `wide_paint_brush` | [paint_supplies_brush_a03](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/paint_supplies_brush_a03) |
 | `window_sealant_tube` | [consumable_sealant_window_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/consumable_sealant_window_a01) |
+| `window_spray_bottle` | [cleaning_windowSpray_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/cleaning_windowSpray_a01) |
+| `wooden_ladle` | [kitchenware_ladle_a01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_ladle_a01) |
 | `wooden_serving_spoon` | [kitchenware_spoon_e01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_spoon_e01) |
 | `wooden_spatula` | [kitchenware_spatula_d01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/kitchenware_spatula_d01) |
 | `yellow_banana` | [food_produce_banana_q01](https://huggingface.co/datasets/nvidia/simready-assets/tree/main/food_produce_banana_q01) |

@@ -1,0 +1,52 @@
+<mujoco model="teal_whistling_kettle">
+  <compiler angle="radian" meshdir="../mesh/teal_whistling_kettle" texturedir="../mesh/teal_whistling_kettle" />
+  <custom>
+    <text name="label" data="teal whistling kettle|kettle|stovetop kettle|teal kettle|round teal whistling kettle with a black handle" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="kettle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="teal_whistling_kettle_0_mesh" file="0.obj" />
+    <material name="teal_whistling_kettle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="teal_whistling_kettle_0_tex" role="rgb" />
+    </material>
+    <texture name="teal_whistling_kettle_0_tex" type="2d" file="0.png" />
+    <mesh name="teal_whistling_kettle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="teal_whistling_kettle_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="teal_whistling_kettle">
+      <geom type="mesh" mesh="teal_whistling_kettle_0_mesh" material="teal_whistling_kettle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_00" rgba="0 0 0 0" group="3" mass="0.0041068872" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_01" rgba="0 0 0 0" group="3" mass="0.0275060494" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_02" rgba="0 0 0 0" group="3" mass="0.00184636449" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_03" rgba="0 0 0 0" group="3" mass="0.00285580946" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_04" rgba="0 0 0 0" group="3" mass="0.00966405813" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_05" rgba="0 0 0 0" group="3" mass="0.00299132557" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_06" rgba="0 0 0 0" group="3" mass="0.00198425459" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_07" rgba="0 0 0 0" group="3" mass="0.00271351124" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_08" rgba="0 0 0 0" group="3" mass="0.809591529" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_09" rgba="0 0 0 0" group="3" mass="0.028106455" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_10" rgba="0 0 0 0" group="3" mass="0.0307107577" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_11" rgba="0 0 0 0" group="3" mass="0.00184636449" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_whistling_kettle_hull_12" rgba="0 0 0 0" group="3" mass="0.00184636449" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1233 0.1305 0.1099" pos="0.0000 0.0000 0.1099" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,32 @@
+<mujoco model="cream_lotion_bottle">
+  <compiler angle="radian" meshdir="../mesh/cream_lotion_bottle" texturedir="../mesh/cream_lotion_bottle" />
+  <custom>
+    <text name="label" data="cream lotion bottle|bottle|pump bottle|cream lotion bottle|cream lotion bottle with a pump" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="cream_lotion_bottle_0_mesh" file="0.obj" />
+    <material name="cream_lotion_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="cream_lotion_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="cream_lotion_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="cream_lotion_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="cream_lotion_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="cream_lotion_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="cream_lotion_bottle">
+      <geom type="mesh" mesh="cream_lotion_bottle_0_mesh" material="cream_lotion_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="cream_lotion_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.155462561" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_lotion_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.00108980941" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_lotion_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.00516654268" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0407 0.0407 0.0936" pos="0.0000 0.0000 0.0936" />
+    </body>
+  </worldbody>
+</mujoco>

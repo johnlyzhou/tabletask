@@ -1,0 +1,36 @@
+<mujoco model="rose_body_cream_jar">
+  <compiler angle="radian" meshdir="../mesh/rose_body_cream_jar" texturedir="../mesh/rose_body_cream_jar" />
+  <custom>
+    <text name="label" data="rose body cream jar|jar|cream jar|rose cream jar|body cream jar with a rose label and silver lid" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="jar" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="rose_body_cream_jar_0_mesh" file="0.obj" />
+    <material name="rose_body_cream_jar_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="rose_body_cream_jar_0_tex" role="rgb" />
+    </material>
+    <texture name="rose_body_cream_jar_0_tex" type="2d" file="0.png" />
+    <mesh name="rose_body_cream_jar_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="rose_body_cream_jar_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="rose_body_cream_jar_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="rose_body_cream_jar_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="rose_body_cream_jar_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="rose_body_cream_jar">
+      <geom type="mesh" mesh="rose_body_cream_jar_0_mesh" material="rose_body_cream_jar_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="rose_body_cream_jar_hull_00" rgba="0 0 0 0" group="3" mass="0.0585151605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rose_body_cream_jar_hull_01" rgba="0 0 0 0" group="3" mass="0.012274873" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rose_body_cream_jar_hull_02" rgba="0 0 0 0" group="3" mass="0.00985383973" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="rose_body_cream_jar_hull_03" rgba="0 0 0 0" group="3" mass="0.00756291047" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0401 0.0401 0.0257" pos="0.0000 0.0000 0.0257" />
+      <geom name="place:top" class="place" type="mesh" mesh="rose_body_cream_jar_top" />
+    </body>
+  </worldbody>
+</mujoco>

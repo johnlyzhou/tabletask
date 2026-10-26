@@ -1,0 +1,90 @@
+<mujoco model="cherry_teapot">
+  <compiler angle="radian" meshdir="../mesh/cherry_teapot" texturedir="../mesh/cherry_teapot" />
+  <custom>
+    <text name="label" data="cherry teapot|teapot|tea pot|cherry teapot|white teapot painted with red cherries" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="teapot" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="cherry_teapot_0_mesh" file="0.obj" />
+    <material name="cherry_teapot_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="cherry_teapot_0_tex" role="rgb" />
+    </material>
+    <texture name="cherry_teapot_0_tex" type="2d" file="0.png" />
+    <mesh name="cherry_teapot_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="cherry_teapot_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="cherry_teapot">
+      <geom type="mesh" mesh="cherry_teapot_0_mesh" material="cherry_teapot_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_00" rgba="0 0 0 0" group="3" mass="0.00806770654" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_01" rgba="0 0 0 0" group="3" mass="0.0184389571" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_02" rgba="0 0 0 0" group="3" mass="0.0206869031" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_03" rgba="0 0 0 0" group="3" mass="0.0141131336" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_04" rgba="0 0 0 0" group="3" mass="0.0109336741" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_05" rgba="0 0 0 0" group="3" mass="0.011710922" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_06" rgba="0 0 0 0" group="3" mass="0.0121685903" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_07" rgba="0 0 0 0" group="3" mass="0.00739876496" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_08" rgba="0 0 0 0" group="3" mass="0.00767415625" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_09" rgba="0 0 0 0" group="3" mass="0.0520159162" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_10" rgba="0 0 0 0" group="3" mass="0.0247757502" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_11" rgba="0 0 0 0" group="3" mass="0.0134399773" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_12" rgba="0 0 0 0" group="3" mass="0.00692589604" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_13" rgba="0 0 0 0" group="3" mass="0.01215937" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_14" rgba="0 0 0 0" group="3" mass="0.00844656721" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_15" rgba="0 0 0 0" group="3" mass="0.00844059362" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_16" rgba="0 0 0 0" group="3" mass="0.0199363294" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_17" rgba="0 0 0 0" group="3" mass="0.0108573449" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_18" rgba="0 0 0 0" group="3" mass="0.0291630885" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_19" rgba="0 0 0 0" group="3" mass="0.00967584141" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_20" rgba="0 0 0 0" group="3" mass="0.00926172971" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_21" rgba="0 0 0 0" group="3" mass="0.00622370613" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_22" rgba="0 0 0 0" group="3" mass="0.0177429568" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_23" rgba="0 0 0 0" group="3" mass="0.00424457595" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_24" rgba="0 0 0 0" group="3" mass="0.0221377454" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_25" rgba="0 0 0 0" group="3" mass="0.00459183356" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_26" rgba="0 0 0 0" group="3" mass="0.00672176657" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_27" rgba="0 0 0 0" group="3" mass="0.0053905785" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_28" rgba="0 0 0 0" group="3" mass="0.0522387239" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_29" rgba="0 0 0 0" group="3" mass="0.00159636942" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_30" rgba="0 0 0 0" group="3" mass="0.0189400186" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cherry_teapot_hull_31" rgba="0 0 0 0" group="3" mass="0.0136027917" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1326 0.0766 0.0958" pos="0.0000 0.0000 0.0958" />
+    </body>
+  </worldbody>
+</mujoco>

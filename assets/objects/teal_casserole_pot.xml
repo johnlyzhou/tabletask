@@ -1,0 +1,52 @@
+<mujoco model="teal_casserole_pot">
+  <compiler angle="radian" meshdir="../mesh/teal_casserole_pot" texturedir="../mesh/teal_casserole_pot" />
+  <custom>
+    <text name="label" data="teal casserole pot|pot|casserole|teal pot|round teal cast iron casserole pot with a lid" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="cooking pot" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="teal_casserole_pot_0_mesh" file="0.obj" />
+    <material name="teal_casserole_pot_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="teal_casserole_pot_0_tex" role="rgb" />
+    </material>
+    <texture name="teal_casserole_pot_0_tex" type="2d" file="0.png" />
+    <mesh name="teal_casserole_pot_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="teal_casserole_pot_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="teal_casserole_pot">
+      <geom type="mesh" mesh="teal_casserole_pot_0_mesh" material="teal_casserole_pot_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_00" rgba="0 0 0 0" group="3" mass="0.411293421" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_01" rgba="0 0 0 0" group="3" mass="0.00474664928" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_02" rgba="0 0 0 0" group="3" mass="0.0652831464" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_03" rgba="0 0 0 0" group="3" mass="0.00129488605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_04" rgba="0 0 0 0" group="3" mass="0.16315286" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_05" rgba="0 0 0 0" group="3" mass="0.00129488605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_06" rgba="0 0 0 0" group="3" mass="0.00129488605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_07" rgba="0 0 0 0" group="3" mass="0.00129488605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_08" rgba="0 0 0 0" group="3" mass="0.00129488605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_09" rgba="0 0 0 0" group="3" mass="0.00129488605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_10" rgba="0 0 0 0" group="3" mass="0.00129488605" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="teal_casserole_pot_hull_11" rgba="0 0 0 0" group="3" mass="0.00129488605" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1441 0.1137 0.0635" pos="0.0000 0.0000 0.0635" />
+      <geom name="place:top" class="place" type="mesh" mesh="teal_casserole_pot_top" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,40 @@
+<mujoco model="peach_soap_dispenser">
+  <compiler angle="radian" meshdir="../mesh/peach_soap_dispenser" texturedir="../mesh/peach_soap_dispenser" />
+  <custom>
+    <text name="label" data="peach soap dispenser|bottle|pump bottle|peach soap dispenser|peach colored soap dispenser with a pump" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="peach_soap_dispenser_0_mesh" file="0.obj" />
+    <material name="peach_soap_dispenser_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="peach_soap_dispenser_0_tex" role="rgb" />
+    </material>
+    <texture name="peach_soap_dispenser_0_tex" type="2d" file="0.png" />
+    <mesh name="peach_soap_dispenser_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="peach_soap_dispenser_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="peach_soap_dispenser_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="peach_soap_dispenser_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="peach_soap_dispenser_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="peach_soap_dispenser_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="peach_soap_dispenser_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="peach_soap_dispenser">
+      <geom type="mesh" mesh="peach_soap_dispenser_0_mesh" material="peach_soap_dispenser_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="peach_soap_dispenser_hull_00" rgba="0 0 0 0" group="3" mass="0.00307433824" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="peach_soap_dispenser_hull_01" rgba="0 0 0 0" group="3" mass="0.110163273" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="peach_soap_dispenser_hull_02" rgba="0 0 0 0" group="3" mass="0.000333816372" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="peach_soap_dispenser_hull_03" rgba="0 0 0 0" group="3" mass="0.00117102033" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="peach_soap_dispenser_hull_04" rgba="0 0 0 0" group="3" mass="0.000616488327" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="peach_soap_dispenser_hull_05" rgba="0 0 0 0" group="3" mass="0.00189067078" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0400 0.0311 0.0899" pos="0.0000 0.0000 0.0899" />
+      <geom name="place:top" class="place" type="mesh" mesh="peach_soap_dispenser_top" />
+    </body>
+  </worldbody>
+</mujoco>
