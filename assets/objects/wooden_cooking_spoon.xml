@@ -1,0 +1,48 @@
+<mujoco model="wooden_cooking_spoon">
+  <compiler angle="radian" meshdir="../mesh/wooden_cooking_spoon" texturedir="../mesh/wooden_cooking_spoon" />
+  <custom>
+    <text name="label" data="wooden cooking spoon|spoon|wooden spoon|pale wooden spoon|pale wooden cooking spoon" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="spoon" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="wooden_cooking_spoon_0_mesh" file="0.obj" />
+    <material name="wooden_cooking_spoon_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="wooden_cooking_spoon_0_tex" role="rgb" />
+    </material>
+    <texture name="wooden_cooking_spoon_0_tex" type="2d" file="0.png" />
+    <mesh name="wooden_cooking_spoon_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="wooden_cooking_spoon_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="wooden_cooking_spoon">
+      <geom type="mesh" mesh="wooden_cooking_spoon_0_mesh" material="wooden_cooking_spoon_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_00" rgba="0 0 0 0" group="3" mass="0.00266817893" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_01" rgba="0 0 0 0" group="3" mass="0.0293606817" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_02" rgba="0 0 0 0" group="3" mass="0.00365611488" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_03" rgba="0 0 0 0" group="3" mass="0.00390676523" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_04" rgba="0 0 0 0" group="3" mass="0.00394068467" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_05" rgba="0 0 0 0" group="3" mass="0.0038592784" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_06" rgba="0 0 0 0" group="3" mass="0.00389884069" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_07" rgba="0 0 0 0" group="3" mass="0.00338335636" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_08" rgba="0 0 0 0" group="3" mass="0.00532257062" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="wooden_cooking_spoon_hull_09" rgba="0 0 0 0" group="3" mass="0.0132395026" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0342 0.1547 0.0090" pos="0.0000 0.0000 0.0090" />
+      <geom name="place:top" class="place" type="mesh" mesh="wooden_cooking_spoon_top" />
+    </body>
+  </worldbody>
+</mujoco>

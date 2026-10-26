@@ -14,6 +14,9 @@ Assets ported into `assets/` keep the terms of where they came from.
 | objects listed in [`hssd.md`](hssd.md) | [HSSD](https://huggingface.co/datasets/hssd/hssd-models) | CC BY-NC 4.0 (non-commercial) |
 | objects listed in [`hope.md`](hope.md) | [HOPE](https://github.com/swtyree/hope-dataset) by NVIDIA | CC BY-SA 4.0 |
 | objects listed in [`handal.md`](handal.md) | [HANDAL](https://nvlabs.github.io/HANDAL/) by NVIDIA | CC BY-NC-SA 4.0 (non-commercial) |
+| objects listed in [`bop.md`](bop.md) from HOT3D | [HOT3D](https://github.com/facebookresearch/hot3d) by Meta | CC BY-SA 4.0, may not be sold |
+| objects listed in [`bop.md`](bop.md) from Toyota Light | [BOP TYO-L](https://bop.felk.cvut.cz/datasets/) | CC BY-NC 4.0 (non-commercial) |
+| objects listed in [`bop.md`](bop.md) from HomebrewedDB | [BOP HB](https://bop.felk.cvut.cz/datasets/) | CC0 1.0 |
 | baby doll mesh | reconstructed with [SAM 3D Objects](https://github.com/facebookresearch/sam-3d-objects) | SAM License, [`baby-doll-knife/SAM-LICENSE.txt`](baby-doll-knife/SAM-LICENSE.txt) |
 
 The robot models under `tabletask/mujoco/robots/assets/droid/` carry the Franka

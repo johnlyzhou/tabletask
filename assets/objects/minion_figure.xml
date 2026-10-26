@@ -1,0 +1,64 @@
+<mujoco model="minion_figure">
+  <compiler angle="radian" meshdir="../mesh/minion_figure" texturedir="../mesh/minion_figure" />
+  <custom>
+    <text name="label" data="minion figure|figurine|toy figure|yellow minion|yellow minion toy figure" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="figurine" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="minion_figure_0_mesh" file="0.obj" />
+    <material name="minion_figure_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="minion_figure_0_tex" role="rgb" />
+    </material>
+    <texture name="minion_figure_0_tex" type="2d" file="0.png" />
+    <mesh name="minion_figure_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="minion_figure_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="minion_figure">
+      <geom type="mesh" mesh="minion_figure_0_mesh" material="minion_figure_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_00" rgba="0 0 0 0" group="3" mass="0.0301266584" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_01" rgba="0 0 0 0" group="3" mass="0.0479089173" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_02" rgba="0 0 0 0" group="3" mass="0.00485972486" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_03" rgba="0 0 0 0" group="3" mass="0.00425924664" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_04" rgba="0 0 0 0" group="3" mass="0.0230220098" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_05" rgba="0 0 0 0" group="3" mass="0.00318826849" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_06" rgba="0 0 0 0" group="3" mass="0.0332779527" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_07" rgba="0 0 0 0" group="3" mass="0.00253413755" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_08" rgba="0 0 0 0" group="3" mass="0.000542979593" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_09" rgba="0 0 0 0" group="3" mass="0.00334148099" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_10" rgba="0 0 0 0" group="3" mass="0.000337956683" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_11" rgba="0 0 0 0" group="3" mass="0.000337956683" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_12" rgba="0 0 0 0" group="3" mass="0.00106728428" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_13" rgba="0 0 0 0" group="3" mass="0.000638567395" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_14" rgba="0 0 0 0" group="3" mass="0.00528810852" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_15" rgba="0 0 0 0" group="3" mass="0.000495567912" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_16" rgba="0 0 0 0" group="3" mass="0.00451912412" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_17" rgba="0 0 0 0" group="3" mass="0.000337956683" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="minion_figure_hull_18" rgba="0 0 0 0" group="3" mass="0.00365812264" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0458 0.0465 0.0899" pos="0.0000 0.0000 0.0899" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,32 @@
+<mujoco model="blue_cracker_box">
+  <compiler angle="radian" meshdir="../mesh/blue_cracker_box" texturedir="../mesh/blue_cracker_box" />
+  <custom>
+    <text name="label" data="blue cracker box|box|cracker box|blue cracker box|flat blue box of crackers" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="box" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_cracker_box_0_mesh" file="0.obj" />
+    <material name="blue_cracker_box_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="blue_cracker_box_0_tex" role="rgb" />
+    </material>
+    <texture name="blue_cracker_box_0_tex" type="2d" file="0.png" />
+    <mesh name="blue_cracker_box_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="blue_cracker_box_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="blue_cracker_box_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="blue_cracker_box">
+      <geom type="mesh" mesh="blue_cracker_box_0_mesh" material="blue_cracker_box_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="blue_cracker_box_hull_00" rgba="0 0 0 0" group="3" mass="0.0408691248" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_cracker_box_hull_01" rgba="0 0 0 0" group="3" mass="0.0363617818" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0351 0.0651 0.0103" pos="0.0000 0.0000 0.0103" />
+      <geom name="place:top" class="place" type="mesh" mesh="blue_cracker_box_top" />
+    </body>
+  </worldbody>
+</mujoco>
