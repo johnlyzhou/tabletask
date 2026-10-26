@@ -1,0 +1,46 @@
+<mujoco model="black_usb_stick">
+  <compiler angle="radian" meshdir="../mesh/black_usb_stick" texturedir="../mesh/black_usb_stick" />
+  <custom>
+    <text name="label" data="black usb stick|usb stick|flash drive|black flash drive|small black usb flash drive" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="flash drive" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="black_usb_stick_0_mesh" file="0.obj" />
+    <material name="black_usb_stick_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="black_usb_stick_0_tex" role="rgb" />
+    </material>
+    <texture name="black_usb_stick_0_tex" type="2d" file="0.png" />
+    <mesh name="black_usb_stick_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="black_usb_stick_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="black_usb_stick_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="black_usb_stick_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="black_usb_stick_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="black_usb_stick_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="black_usb_stick_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="black_usb_stick_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="black_usb_stick_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="black_usb_stick_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="black_usb_stick">
+      <geom type="mesh" mesh="black_usb_stick_0_mesh" material="black_usb_stick_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="black_usb_stick_hull_00" rgba="0 0 0 0" group="3" mass="0.0100456425" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_usb_stick_hull_01" rgba="0 0 0 0" group="3" mass="0.00137461354" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_usb_stick_hull_02" rgba="0 0 0 0" group="3" mass="0.00766963939" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_usb_stick_hull_03" rgba="0 0 0 0" group="3" mass="0.00966439236" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_usb_stick_hull_04" rgba="0 0 0 0" group="3" mass="0.0106557702" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_usb_stick_hull_05" rgba="0 0 0 0" group="3" mass="0.00487781162" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_usb_stick_hull_06" rgba="0 0 0 0" group="3" mass="0.00289806337" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_usb_stick_hull_07" rgba="0 0 0 0" group="3" mass="0.00226776573" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_usb_stick_hull_08" rgba="0 0 0 0" group="3" mass="0.00310316855" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0397 0.0110 0.0065" pos="0.0000 0.0000 0.0065" />
+      <geom name="place:top" class="place" type="mesh" mesh="black_usb_stick_top" />
+    </body>
+  </worldbody>
+</mujoco>

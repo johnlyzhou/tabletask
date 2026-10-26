@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_tablet" texturedir="../mesh/blue_tablet" />
   <custom>
     <text name="label" data="blue tablet|tablet|tablet case|light blue tablet|tablet in a light blue cover case" />
+    <text name="category" data="tablet" />
   </custom>
   <default>
     <default class="place">

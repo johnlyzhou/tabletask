@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/pitcher" texturedir="../mesh/pitcher" />
   <custom>
     <text name="label" data="white pitcher|pitcher|jug|white ceramic pitcher|tall white ceramic pitcher with a handle" />
+    <text name="category" data="jug" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/horse_head" texturedir="../mesh/horse_head" />
   <custom>
     <text name="label" data="horse head sculpture|sculpture|horse bust|brown horse head|brown horse head bust on base" />
+    <text name="category" data="sculpture" />
   </custom>
   <default>
     <default class="place">

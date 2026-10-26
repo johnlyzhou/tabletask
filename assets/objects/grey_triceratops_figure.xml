@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/grey_triceratops_figure" texturedir="../mesh/grey_triceratops_figure" />
   <custom>
     <text name="label" data="grey triceratops figure|triceratops|dinosaur figure|grey triceratops|grey standing triceratops dinosaur figure" />
+    <text name="category" data="dinosaur" />
   </custom>
   <default>
     <default class="place">

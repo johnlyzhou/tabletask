@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/roll_of_purple_tape" texturedir="../mesh/roll_of_purple_tape" />
   <custom>
     <text name="label" data="roll of purple tape|tape|tape roll|purple masking tape|roll of purple painter's tape" />
+    <text name="category" data="tape" />
   </custom>
   <default>
     <default class="place">

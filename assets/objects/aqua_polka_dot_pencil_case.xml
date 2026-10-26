@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/aqua_polka_dot_pencil_case" texturedir="../mesh/aqua_polka_dot_pencil_case" />
   <custom>
     <text name="label" data="aqua polka-dot pencil case|pencil case|pencil pouch|aqua polka-dot case|aqua cylindrical pencil case with purple trim and dots" />
+    <text name="category" data="pencil case" />
   </custom>
   <default>
     <default class="place">

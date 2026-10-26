@@ -1,0 +1,42 @@
+<mujoco model="block_calendar">
+  <compiler angle="radian" meshdir="../mesh/block_calendar" texturedir="../mesh/block_calendar" />
+  <custom>
+    <text name="label" data="block calendar|calendar|block calendar|grey calendar|dark grey wooden block calendar" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="box" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="block_calendar_0_mesh" file="0.obj" />
+    <material name="block_calendar_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="block_calendar_0_tex" role="rgb" />
+    </material>
+    <texture name="block_calendar_0_tex" type="2d" file="0.png" />
+    <mesh name="block_calendar_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="block_calendar_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="block_calendar_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="block_calendar_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="block_calendar_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="block_calendar_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="block_calendar_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="block_calendar_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="block_calendar">
+      <geom type="mesh" mesh="block_calendar_0_mesh" material="block_calendar_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="block_calendar_hull_00" rgba="0 0 0 0" group="3" mass="0.0165366687" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="block_calendar_hull_01" rgba="0 0 0 0" group="3" mass="0.00479887297" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="block_calendar_hull_02" rgba="0 0 0 0" group="3" mass="0.0196327326" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="block_calendar_hull_03" rgba="0 0 0 0" group="3" mass="0.0143136748" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="block_calendar_hull_04" rgba="0 0 0 0" group="3" mass="0.00652397403" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="block_calendar_hull_05" rgba="0 0 0 0" group="3" mass="0.0175103649" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="block_calendar_hull_06" rgba="0 0 0 0" group="3" mass="0.0504019971" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0600 0.0302 0.0376" pos="0.0000 0.0000 0.0376" />
+      <geom name="place:top" class="place" type="mesh" mesh="block_calendar_top" />
+    </body>
+  </worldbody>
+</mujoco>

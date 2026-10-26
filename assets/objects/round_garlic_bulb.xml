@@ -1,0 +1,48 @@
+<mujoco model="round_garlic_bulb">
+  <compiler angle="radian" meshdir="../mesh/round_garlic_bulb" texturedir="../mesh/round_garlic_bulb" />
+  <custom>
+    <text name="label" data="round garlic bulb|garlic|vegetable|round garlic|round white garlic bulb" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="garlic" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="round_garlic_bulb_0_mesh" file="0.obj" />
+    <material name="round_garlic_bulb_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="round_garlic_bulb_0_tex" role="rgb" />
+    </material>
+    <texture name="round_garlic_bulb_0_tex" type="2d" file="0.png" />
+    <mesh name="round_garlic_bulb_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="round_garlic_bulb_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="round_garlic_bulb">
+      <geom type="mesh" mesh="round_garlic_bulb_0_mesh" material="round_garlic_bulb_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_00" rgba="0 0 0 0" group="3" mass="0.000207759759" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_01" rgba="0 0 0 0" group="3" mass="0.000551523827" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_02" rgba="0 0 0 0" group="3" mass="0.0100974918" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_03" rgba="0 0 0 0" group="3" mass="0.0104305947" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_04" rgba="0 0 0 0" group="3" mass="0.00367407547" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_05" rgba="0 0 0 0" group="3" mass="0.0127786524" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_06" rgba="0 0 0 0" group="3" mass="0.00674115927" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_07" rgba="0 0 0 0" group="3" mass="0.00682087736" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_08" rgba="0 0 0 0" group="3" mass="0.00449373236" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_09" rgba="0 0 0 0" group="3" mass="0.000118514258" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="round_garlic_bulb_hull_10" rgba="0 0 0 0" group="3" mass="0.00344164966" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0250 0.0262 0.0257" pos="0.0000 0.0000 0.0257" />
+    </body>
+  </worldbody>
+</mujoco>

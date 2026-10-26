@@ -1,7 +1,7 @@
 <mujoco model="big_fork">
   <compiler angle="radian" meshdir="../mesh/big_fork" texturedir="../mesh/big_fork" />
   <custom>
-    <text name="label" data="steel dinner fork|fork" />
+    <text name="label" data="large fork|fork|dinner fork|large steel fork|large shiny stainless steel dinner fork" />
     <text name="tags" data="pickable" />
     <text name="category" data="fork" />
   </custom>

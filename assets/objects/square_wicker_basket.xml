@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/square_wicker_basket" texturedir="../mesh/square_wicker_basket" />
   <custom>
     <text name="label" data="square wicker basket|basket|wicker basket|brown square basket|square brown woven wicker basket with legs" />
+    <text name="category" data="basket" />
   </custom>
   <default>
     <default class="place">

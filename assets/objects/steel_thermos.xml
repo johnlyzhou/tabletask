@@ -1,0 +1,30 @@
+<mujoco model="steel_thermos">
+  <compiler angle="radian" meshdir="../mesh/steel_thermos" texturedir="../mesh/steel_thermos" />
+  <custom>
+    <text name="label" data="steel thermos|bottle|thermos|steel thermos|slim stainless steel thermos" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="steel_thermos_0_mesh" file="0.obj" />
+    <material name="steel_thermos_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="steel_thermos_0_tex" role="rgb" />
+    </material>
+    <texture name="steel_thermos_0_tex" type="2d" file="0.png" />
+    <mesh name="steel_thermos_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="steel_thermos_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="steel_thermos">
+      <geom type="mesh" mesh="steel_thermos_0_mesh" material="steel_thermos_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="steel_thermos_hull_00" rgba="0 0 0 0" group="3" mass="0.103589322" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0264 0.0259 0.1015" pos="0.0000 0.0000 0.1015" />
+      <geom name="place:top" class="place" type="mesh" mesh="steel_thermos_top" />
+    </body>
+  </worldbody>
+</mujoco>

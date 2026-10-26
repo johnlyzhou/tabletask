@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/can_of_tomatoes" texturedir="../mesh/can_of_tomatoes" />
   <custom>
     <text name="label" data="can of tomatoes|can|tin can|tomato can|white and blue can of tomatoes" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

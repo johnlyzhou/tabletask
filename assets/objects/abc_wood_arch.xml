@@ -1,9 +1,9 @@
 <mujoco model="abc_wood_arch">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="wooden arch block|block" />
+    <text name="label" data="wooden arch|arch|arch block|wooden arch block|light wooden block with a curved arch cutout" />
     <text name="tags" data="pickable" />
-    <text name="category" data="block" />
+    <text name="category" data="arch" />
   </custom>
   <default>
     <default class="place">

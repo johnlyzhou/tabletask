@@ -2,7 +2,7 @@
   <!-- green_tennis_ball, converted from the MolmoSpaces Objaverse library (uid b3e9fd64f19f4274a6bab8eeaa5dce2a; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/green_tennis_ball" texturedir="../mesh/green_tennis_ball"/>
   <custom>
-    <text name="label" data="green tennis ball|ball" />
+    <text name="label" data="green tennis ball|tennis ball|ball|bright green ball|bright green tennis ball with white seam line" />
     <text name="tags" data="pickable" />
     <text name="category" data="ball" />
   </custom>

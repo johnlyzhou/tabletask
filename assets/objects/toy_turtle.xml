@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_turtle" texturedir="../mesh/toy_turtle" />
   <custom>
     <text name="label" data="toy turtle|turtle toy|baby turtle toy|green toy turtle|green baby activity turtle toy with colourful shell" />
+    <text name="category" data="toy" />
   </custom>
   <default>
     <default class="place">

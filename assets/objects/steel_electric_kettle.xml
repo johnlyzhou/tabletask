@@ -1,0 +1,50 @@
+<mujoco model="steel_electric_kettle">
+  <compiler angle="radian" meshdir="../mesh/steel_electric_kettle" texturedir="../mesh/steel_electric_kettle" />
+  <custom>
+    <text name="label" data="steel electric kettle|kettle|electric kettle|steel kettle|brushed steel electric kettle with a black handle" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="kettle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="steel_electric_kettle_0_mesh" file="0.obj" />
+    <material name="steel_electric_kettle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="steel_electric_kettle_0_tex" role="rgb" />
+    </material>
+    <texture name="steel_electric_kettle_0_tex" type="2d" file="0.png" />
+    <mesh name="steel_electric_kettle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="steel_electric_kettle_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="steel_electric_kettle">
+      <geom type="mesh" mesh="steel_electric_kettle_0_mesh" material="steel_electric_kettle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_00" rgba="0 0 0 0" group="3" mass="0.109473781" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_01" rgba="0 0 0 0" group="3" mass="0.00184868967" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_02" rgba="0 0 0 0" group="3" mass="0.167123879" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_03" rgba="0 0 0 0" group="3" mass="0.599109628" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_04" rgba="0 0 0 0" group="3" mass="0.00634427421" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_05" rgba="0 0 0 0" group="3" mass="0.0149632406" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_06" rgba="0 0 0 0" group="3" mass="0.00228277039" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_07" rgba="0 0 0 0" group="3" mass="0.0025853244" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_08" rgba="0 0 0 0" group="3" mass="0.00311584637" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_09" rgba="0 0 0 0" group="3" mass="0.00453769545" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_electric_kettle_hull_10" rgba="0 0 0 0" group="3" mass="0.0140991011" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1092 0.0821 0.1455" pos="0.0000 0.0000 0.1455" />
+      <geom name="place:top" class="place" type="mesh" mesh="steel_electric_kettle_top" />
+    </body>
+  </worldbody>
+</mujoco>

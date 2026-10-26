@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/bagel" texturedir="../mesh/bagel" />
   <custom>
     <text name="label" data="bagel|bread roll|bread ring|white frosted bagel|round bagel with white and brown speckled crust" />
+    <text name="category" data="bread" />
   </custom>
   <default>
     <default class="place">

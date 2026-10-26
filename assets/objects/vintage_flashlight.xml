@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/vintage_flashlight" texturedir="../mesh/vintage_flashlight" />
   <custom>
     <text name="label" data="vintage flashlight|flashlight|torch|red vintage flashlight|old red metal flashlight with silver head" />
+    <text name="category" data="flashlight" />
   </custom>
   <default>
     <default class="place">

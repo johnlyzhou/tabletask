@@ -1,0 +1,28 @@
+<mujoco model="blue_racquetball">
+  <compiler angle="radian" meshdir="../mesh/blue_racquetball" texturedir="../mesh/blue_racquetball" />
+  <custom>
+    <text name="label" data="blue racquetball|racquetball|ball|small blue ball|small blue rubber racquetball" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="ball" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_racquetball_0_mesh" file="0.obj" />
+    <material name="blue_racquetball_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="blue_racquetball_0_tex" role="rgb" />
+    </material>
+    <texture name="blue_racquetball_0_tex" type="2d" file="0.png" />
+    <mesh name="blue_racquetball_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="blue_racquetball">
+      <geom type="mesh" mesh="blue_racquetball_0_mesh" material="blue_racquetball_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="blue_racquetball_hull_00" rgba="0 0 0 0" group="3" mass="0.0636593848" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0279 0.0280 0.0278" pos="0.0000 0.0000 0.0278" />
+    </body>
+  </worldbody>
+</mujoco>

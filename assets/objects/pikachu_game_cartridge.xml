@@ -1,0 +1,44 @@
+<mujoco model="pikachu_game_cartridge">
+  <compiler angle="radian" meshdir="../mesh/pikachu_game_cartridge" texturedir="../mesh/pikachu_game_cartridge" />
+  <custom>
+    <text name="label" data="pikachu game cartridge|game cartridge|cartridge|grey pikachu cartridge|grey video game cartridge with a pikachu label" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="game cartridge" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pikachu_game_cartridge_0_mesh" file="0.obj" />
+    <material name="pikachu_game_cartridge_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pikachu_game_cartridge_0_tex" role="rgb" />
+    </material>
+    <texture name="pikachu_game_cartridge_0_tex" type="2d" file="0.png" />
+    <mesh name="pikachu_game_cartridge_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pikachu_game_cartridge_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pikachu_game_cartridge_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pikachu_game_cartridge_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="pikachu_game_cartridge_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="pikachu_game_cartridge_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="pikachu_game_cartridge_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="pikachu_game_cartridge_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="pikachu_game_cartridge_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="pikachu_game_cartridge">
+      <geom type="mesh" mesh="pikachu_game_cartridge_0_mesh" material="pikachu_game_cartridge_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="pikachu_game_cartridge_hull_00" rgba="0 0 0 0" group="3" mass="0.0180641809" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pikachu_game_cartridge_hull_01" rgba="0 0 0 0" group="3" mass="0.00402566388" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pikachu_game_cartridge_hull_02" rgba="0 0 0 0" group="3" mass="0.0100499934" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pikachu_game_cartridge_hull_03" rgba="0 0 0 0" group="3" mass="0.00932030524" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pikachu_game_cartridge_hull_04" rgba="0 0 0 0" group="3" mass="0.00743450496" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pikachu_game_cartridge_hull_05" rgba="0 0 0 0" group="3" mass="0.0154509537" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pikachu_game_cartridge_hull_06" rgba="0 0 0 0" group="3" mass="0.00398819067" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pikachu_game_cartridge_hull_07" rgba="0 0 0 0" group="3" mass="0.00517427809" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0583 0.0118 0.0388" pos="0.0000 0.0000 0.0388" />
+      <geom name="place:top" class="place" type="mesh" mesh="pikachu_game_cartridge_top" />
+    </body>
+  </worldbody>
+</mujoco>

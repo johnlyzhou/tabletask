@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
     <text name="label" data="letter o block|toy block|alphabet block|wooden letter o block|wooden alphabet block with a pink-bordered letter o" />
+    <text name="category" data="block" />
   </custom>
   <default>
     <default class="place">

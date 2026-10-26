@@ -1,7 +1,7 @@
 <mujoco model="smartphone">
   <compiler angle="radian" meshdir="../mesh/smartphone" texturedir="../mesh/smartphone" />
   <custom>
-    <text name="label" data="black smartphone|phone" />
+    <text name="label" data="phone|smartphone|mobile phone|black smartphone|thin black touchscreen smartphone" />
     <text name="category" data="phone" />
   </custom>
   <default>

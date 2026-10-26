@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/bookshelf_speaker" texturedir="../mesh/bookshelf_speaker"/>
   <custom>
     <text name="label" data="speaker|loudspeaker|bookshelf speaker|black box speaker|small black bookshelf speaker with grey cone" />
+    <text name="category" data="speaker" />
   </custom>
   <default>
     <default class="place">

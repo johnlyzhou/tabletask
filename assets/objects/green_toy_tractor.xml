@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/green_toy_tractor" texturedir="../mesh/green_toy_tractor"/>
   <custom>
     <text name="label" data="toy tractor|tractor|farm tractor|lime green tractor|bright lime green toy farm tractor" />
+    <text name="category" data="toy truck" />
   </custom>
   <default>
     <default class="place">

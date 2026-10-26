@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_computer_mouse" texturedir="../mesh/black_computer_mouse" />
   <custom>
     <text name="label" data="black computer mouse|computer mouse|mouse|black wired mouse|black wired computer mouse with cord" />
+    <text name="category" data="computer mouse" />
   </custom>
   <default>
     <default class="place">

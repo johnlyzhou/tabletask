@@ -1,0 +1,68 @@
+<mujoco model="flaky_croissant">
+  <compiler angle="radian" meshdir="../mesh/flaky_croissant" texturedir="../mesh/flaky_croissant" />
+  <custom>
+    <text name="label" data="flaky croissant|pastry|croissant|flaky croissant|curved flaky croissant" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="pastry" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="flaky_croissant_0_mesh" file="0.obj" />
+    <material name="flaky_croissant_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="flaky_croissant_0_tex" role="rgb" />
+    </material>
+    <texture name="flaky_croissant_0_tex" type="2d" file="0.png" />
+    <mesh name="flaky_croissant_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="flaky_croissant_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="flaky_croissant">
+      <geom type="mesh" mesh="flaky_croissant_0_mesh" material="flaky_croissant_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_00" rgba="0 0 0 0" group="3" mass="0.0210630203" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_01" rgba="0 0 0 0" group="3" mass="0.0026370168" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_02" rgba="0 0 0 0" group="3" mass="0.00269723555" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_03" rgba="0 0 0 0" group="3" mass="0.00550694074" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_04" rgba="0 0 0 0" group="3" mass="0.0038088672" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_05" rgba="0 0 0 0" group="3" mass="0.00325328681" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_06" rgba="0 0 0 0" group="3" mass="0.00566809303" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_07" rgba="0 0 0 0" group="3" mass="0.0127712977" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_08" rgba="0 0 0 0" group="3" mass="0.00575709018" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_09" rgba="0 0 0 0" group="3" mass="0.00252696258" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_10" rgba="0 0 0 0" group="3" mass="0.000404772632" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_11" rgba="0 0 0 0" group="3" mass="0.00368328903" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_12" rgba="0 0 0 0" group="3" mass="0.00618460066" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_13" rgba="0 0 0 0" group="3" mass="0.00309035103" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_14" rgba="0 0 0 0" group="3" mass="0.00151602401" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_15" rgba="0 0 0 0" group="3" mass="0.00642728474" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_16" rgba="0 0 0 0" group="3" mass="0.00888468751" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_17" rgba="0 0 0 0" group="3" mass="0.00205073104" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_18" rgba="0 0 0 0" group="3" mass="0.00102381929" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_19" rgba="0 0 0 0" group="3" mass="0.000198716814" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="flaky_croissant_hull_20" rgba="0 0 0 0" group="3" mass="0.000266059178" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0464 0.0650 0.0267" pos="0.0000 0.0000 0.0267" />
+    </body>
+  </worldbody>
+</mujoco>

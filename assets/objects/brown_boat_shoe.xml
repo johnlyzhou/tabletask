@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_boat_shoe" texturedir="../mesh/brown_boat_shoe" />
   <custom>
     <text name="label" data="brown boat shoe|shoe|boat shoe|leather boat shoe|brown leather boat shoe with laces" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">

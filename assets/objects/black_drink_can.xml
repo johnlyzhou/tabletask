@@ -1,0 +1,50 @@
+<mujoco model="black_drink_can">
+  <compiler angle="radian" meshdir="../mesh/black_drink_can" texturedir="../mesh/black_drink_can" />
+  <custom>
+    <text name="label" data="black drink can|can|drink can|black drink can|black drink can with a light blue band" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="can" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="black_drink_can_0_mesh" file="0.obj" />
+    <material name="black_drink_can_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="black_drink_can_0_tex" role="rgb" />
+    </material>
+    <texture name="black_drink_can_0_tex" type="2d" file="0.png" />
+    <mesh name="black_drink_can_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="black_drink_can_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="black_drink_can">
+      <geom type="mesh" mesh="black_drink_can_0_mesh" material="black_drink_can_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_00" rgba="0 0 0 0" group="3" mass="0.00867261445" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_01" rgba="0 0 0 0" group="3" mass="0.0126759984" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_02" rgba="0 0 0 0" group="3" mass="0.00972364794" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_03" rgba="0 0 0 0" group="3" mass="0.0102395411" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_04" rgba="0 0 0 0" group="3" mass="0.0118278819" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_05" rgba="0 0 0 0" group="3" mass="0.00519670149" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_06" rgba="0 0 0 0" group="3" mass="0.00483717778" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_07" rgba="0 0 0 0" group="3" mass="0.00634754798" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_08" rgba="0 0 0 0" group="3" mass="0.00489564392" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_09" rgba="0 0 0 0" group="3" mass="0.00659858134" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_drink_can_hull_10" rgba="0 0 0 0" group="3" mass="0.00832387249" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0289 0.0289 0.0522" pos="0.0000 0.0000 0.0522" />
+      <geom name="place:top" class="place" type="mesh" mesh="black_drink_can_top" />
+    </body>
+  </worldbody>
+</mujoco>

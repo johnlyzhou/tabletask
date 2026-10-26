@@ -1,7 +1,7 @@
 <mujoco model="brown_flower_pot">
   <compiler angle="radian" meshdir="../mesh/brown_flower_pot" texturedir="../mesh/brown_flower_pot" />
   <custom>
-    <text name="label" data="brown flower pot|plant pot" />
+    <text name="label" data="brown flower pot|flower pot|plant pot|small brown pot|small brown clay flower pot" />
     <text name="category" data="pot" />
   </custom>
   <default>

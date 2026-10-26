@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/teal_cupcake" texturedir="../mesh/teal_cupcake"/>
   <custom>
     <text name="label" data="teal cupcake|cupcake|cake|teal-wrapped cupcake|cupcake with teal wrapper and lilac frosting" />
+    <text name="category" data="cupcake" />
   </custom>
   <default>
     <default class="place">

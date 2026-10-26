@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/chocolate_pudding" texturedir="../mesh/chocolate_pudding" />
   <custom>
     <text name="label" data="box of pudding|pudding box|jell-o box|red pudding box|red jell-o box of chocolate pudding" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

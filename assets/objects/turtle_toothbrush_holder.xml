@@ -1,8 +1,8 @@
 <mujoco model="turtle_toothbrush_holder">
   <compiler angle="radian" meshdir="../mesh/turtle_toothbrush_holder" texturedir="../mesh/turtle_toothbrush_holder" />
   <custom>
-    <text name="label" data="turtle shaped toothbrush holder|toothbrush holder" />
-    <text name="category" data="toothbrush holder" />
+    <text name="label" data="turtle toothbrush holder|toothbrush holder|turtle holder|green turtle toothbrush holder|green and yellow turtle-shaped toothbrush holder with holes" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

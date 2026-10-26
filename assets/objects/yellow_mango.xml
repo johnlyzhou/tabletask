@@ -1,7 +1,7 @@
 <mujoco model="yellow_mango">
   <compiler angle="radian" meshdir="../mesh/yellow_mango" texturedir="../mesh/yellow_mango" />
   <custom>
-    <text name="label" data="yellow mango|mango" />
+    <text name="label" data="yellow mango|mango|fruit|yellow mango|yellow mango" />
     <text name="tags" data="pickable" />
     <text name="category" data="mango" />
   </custom>
@@ -17,12 +17,14 @@
     </material>
     <texture name="yellow_mango_0_tex" type="2d" file="0.png" />
     <mesh name="yellow_mango_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="yellow_mango_hull_01" file="hulls/h01.obj" maxhullvert="128" />
   </asset>
   <worldbody>
     <body name="yellow_mango">
       <geom type="mesh" mesh="yellow_mango_0_mesh" material="yellow_mango_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
-      <geom type="mesh" mesh="yellow_mango_hull_00" rgba="0 0 0 0" group="3" mass="0.076" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.0309 0.0338 0.0203" pos="0.0000 0.0000 0.0203" />
+      <geom type="mesh" mesh="yellow_mango_hull_00" rgba="0 0 0 0" group="3" mass="0.0127931975" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_mango_hull_01" rgba="0 0 0 0" group="3" mass="0.0780328787" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0403 0.0550 0.0313" pos="0.0000 0.0000 0.0313" />
     </body>
   </worldbody>
 </mujoco>

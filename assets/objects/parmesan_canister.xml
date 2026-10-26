@@ -1,0 +1,76 @@
+<mujoco model="parmesan_canister">
+  <compiler angle="radian" meshdir="../mesh/parmesan_canister" texturedir="../mesh/parmesan_canister" />
+  <custom>
+    <text name="label" data="parmesan canister|can|cheese can|parmesan|green and yellow canister of grated parmesan" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="can" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="parmesan_canister_0_mesh" file="0.obj" />
+    <material name="parmesan_canister_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="parmesan_canister_0_tex" role="rgb" />
+    </material>
+    <texture name="parmesan_canister_0_tex" type="2d" file="0.png" />
+    <mesh name="parmesan_canister_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="parmesan_canister_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="parmesan_canister">
+      <geom type="mesh" mesh="parmesan_canister_0_mesh" material="parmesan_canister_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_00" rgba="0 0 0 0" group="3" mass="0.000357097531" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_01" rgba="0 0 0 0" group="3" mass="0.000322055671" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_02" rgba="0 0 0 0" group="3" mass="0.000236865929" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_03" rgba="0 0 0 0" group="3" mass="0.000293337749" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_04" rgba="0 0 0 0" group="3" mass="0.000283191159" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_05" rgba="0 0 0 0" group="3" mass="0.000282346528" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_06" rgba="0 0 0 0" group="3" mass="0.000284674297" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_07" rgba="0 0 0 0" group="3" mass="0.000308665766" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_08" rgba="0 0 0 0" group="3" mass="0.00764439835" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_09" rgba="0 0 0 0" group="3" mass="0.00346312916" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_10" rgba="0 0 0 0" group="3" mass="0.0182866616" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_11" rgba="0 0 0 0" group="3" mass="0.00514739107" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_12" rgba="0 0 0 0" group="3" mass="0.00588472631" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_13" rgba="0 0 0 0" group="3" mass="0.00250966023" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_14" rgba="0 0 0 0" group="3" mass="0.0044808551" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_15" rgba="0 0 0 0" group="3" mass="0.0106907899" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_16" rgba="0 0 0 0" group="3" mass="0.00578026868" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_17" rgba="0 0 0 0" group="3" mass="0.00899834951" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_18" rgba="0 0 0 0" group="3" mass="0.00996971249" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_19" rgba="0 0 0 0" group="3" mass="0.0058025033" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_20" rgba="0 0 0 0" group="3" mass="0.0080898652" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_21" rgba="0 0 0 0" group="3" mass="0.00040117273" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_22" rgba="0 0 0 0" group="3" mass="0.00279835131" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="parmesan_canister_hull_23" rgba="0 0 0 0" group="3" mass="0.000205013819" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0330 0.0356 0.0514" pos="0.0000 0.0000 0.0514" />
+      <geom name="place:top" class="place" type="mesh" mesh="parmesan_canister_top" />
+    </body>
+  </worldbody>
+</mujoco>

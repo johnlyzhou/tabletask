@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cleaner_canister" texturedir="../mesh/cleaner_canister" />
   <custom>
     <text name="label" data="cleaner canister|canister|cleaner jug|blue cleaner canister|large blue plastic canister of cleaner" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

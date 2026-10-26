@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/brown_flap_box" texturedir="../mesh/brown_flap_box"/>
   <custom>
     <text name="label" data="cardboard box|box|carton|orange cardboard box|open orange cardboard box with flaps" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

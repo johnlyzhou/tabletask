@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/burger_bun" texturedir="../mesh/burger_bun" />
   <custom>
     <text name="label" data="burger bun|bun|bread roll|golden burger bun|round golden brown burger bun" />
+    <text name="category" data="bread" />
   </custom>
   <default>
     <default class="place">

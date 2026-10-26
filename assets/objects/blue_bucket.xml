@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_bucket" texturedir="../mesh/blue_bucket"/>
   <custom>
     <text name="label" data="speckled bucket|bucket|pail|blue speckled bucket|white and blue speckled bucket with wire handle" />
+    <text name="category" data="bucket" />
   </custom>
   <default>
     <default class="place">

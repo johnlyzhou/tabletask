@@ -1,7 +1,7 @@
 <mujoco model="bunsen_burner">
   <compiler angle="radian" meshdir="../mesh/bunsen_burner" texturedir="../mesh/bunsen_burner" />
   <custom>
-    <text name="label" data="blue burner with a tripod stand|burner" />
+    <text name="label" data="bunsen burner|burner|gas burner|blue bunsen burner|blue bunsen burner on tripod stand" />
     <text name="category" data="burner" />
   </custom>
   <default>

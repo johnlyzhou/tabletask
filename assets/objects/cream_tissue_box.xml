@@ -1,0 +1,92 @@
+<mujoco model="cream_tissue_box">
+  <compiler angle="radian" meshdir="../mesh/cream_tissue_box" texturedir="../mesh/cream_tissue_box" />
+  <custom>
+    <text name="label" data="cream tissue box|tissue box|tissues|cream tissue box|rectangular cream tissue box" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="tissue" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="cream_tissue_box_0_mesh" file="0.obj" />
+    <material name="cream_tissue_box_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="cream_tissue_box_0_tex" role="rgb" />
+    </material>
+    <texture name="cream_tissue_box_0_tex" type="2d" file="0.png" />
+    <mesh name="cream_tissue_box_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="cream_tissue_box_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="cream_tissue_box">
+      <geom type="mesh" mesh="cream_tissue_box_0_mesh" material="cream_tissue_box_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_00" rgba="0 0 0 0" group="3" mass="0.00374301306" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_01" rgba="0 0 0 0" group="3" mass="0.0390332184" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_02" rgba="0 0 0 0" group="3" mass="0.00641219396" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_03" rgba="0 0 0 0" group="3" mass="0.00274920368" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_04" rgba="0 0 0 0" group="3" mass="0.0553532606" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_05" rgba="0 0 0 0" group="3" mass="0.00387497513" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_06" rgba="0 0 0 0" group="3" mass="0.0175825165" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_07" rgba="0 0 0 0" group="3" mass="0.00839294371" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_08" rgba="0 0 0 0" group="3" mass="0.00642358632" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_09" rgba="0 0 0 0" group="3" mass="0.0659107727" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_10" rgba="0 0 0 0" group="3" mass="0.0303728476" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_11" rgba="0 0 0 0" group="3" mass="0.0221060972" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_12" rgba="0 0 0 0" group="3" mass="0.0030511276" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_13" rgba="0 0 0 0" group="3" mass="0.0063886269" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_14" rgba="0 0 0 0" group="3" mass="0.0664366864" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_15" rgba="0 0 0 0" group="3" mass="0.0368799392" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_16" rgba="0 0 0 0" group="3" mass="0.0168226324" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_17" rgba="0 0 0 0" group="3" mass="0.06658248" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_18" rgba="0 0 0 0" group="3" mass="0.0230813188" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_19" rgba="0 0 0 0" group="3" mass="0.00318729903" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_20" rgba="0 0 0 0" group="3" mass="0.0257862407" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_21" rgba="0 0 0 0" group="3" mass="0.0194809147" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_22" rgba="0 0 0 0" group="3" mass="0.0332371581" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_23" rgba="0 0 0 0" group="3" mass="0.0018654426" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_24" rgba="0 0 0 0" group="3" mass="0.0231306424" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_25" rgba="0 0 0 0" group="3" mass="0.0129508023" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_26" rgba="0 0 0 0" group="3" mass="0.00546502344" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_27" rgba="0 0 0 0" group="3" mass="0.00442233347" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_28" rgba="0 0 0 0" group="3" mass="0.0028803822" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_29" rgba="0 0 0 0" group="3" mass="0.0320166303" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_30" rgba="0 0 0 0" group="3" mass="0.00476453203" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="cream_tissue_box_hull_31" rgba="0 0 0 0" group="3" mass="0.0213601194" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1361 0.0815 0.0500" pos="0.0000 0.0000 0.0500" />
+      <geom name="place:top" class="place" type="mesh" mesh="cream_tissue_box_top" />
+    </body>
+  </worldbody>
+</mujoco>

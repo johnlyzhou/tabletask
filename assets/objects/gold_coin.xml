@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/gold_coin" texturedir="../mesh/gold_coin"/>
   <custom>
     <text name="label" data="gold coin|coin|gold piece|small gold coin|small round shiny gold coin" />
+    <text name="category" data="coin" />
   </custom>
   <default>
     <default class="place">

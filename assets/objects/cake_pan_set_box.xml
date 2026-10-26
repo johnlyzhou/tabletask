@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cake_pan_set_box" texturedir="../mesh/cake_pan_set_box" />
   <custom>
     <text name="label" data="cake pan set box|box|cake pan box|white cake pan box|white box of rainbow cake pans" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/sprinkle_donut" texturedir="../mesh/sprinkle_donut"/>
   <custom>
     <text name="label" data="donut with sprinkles|donut|doughnut|white sprinkle donut|white frosted donut with colourful sprinkles" />
+    <text name="category" data="donut" />
   </custom>
   <default>
     <default class="place">

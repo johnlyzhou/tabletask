@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/sweet_potato" texturedir="../mesh/sweet_potato" />
   <custom>
     <text name="label" data="sweet potato|potato|yam|purple-brown sweet potato|oval purple-brown sweet potato with speckles" />
+    <text name="category" data="sweet potato" />
   </custom>
   <default>
     <default class="place">

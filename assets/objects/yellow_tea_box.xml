@@ -1,0 +1,32 @@
+<mujoco model="yellow_tea_box">
+  <compiler angle="radian" meshdir="../mesh/yellow_tea_box" texturedir="../mesh/yellow_tea_box" />
+  <custom>
+    <text name="label" data="yellow tea box|box|tea box|yellow tea box|yellow box of tea" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="box" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="yellow_tea_box_0_mesh" file="0.obj" />
+    <material name="yellow_tea_box_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="yellow_tea_box_0_tex" role="rgb" />
+    </material>
+    <texture name="yellow_tea_box_0_tex" type="2d" file="0.png" />
+    <mesh name="yellow_tea_box_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="yellow_tea_box_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="yellow_tea_box_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="yellow_tea_box">
+      <geom type="mesh" mesh="yellow_tea_box_0_mesh" material="yellow_tea_box_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="yellow_tea_box_hull_00" rgba="0 0 0 0" group="3" mass="0.12570213" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_tea_box_hull_01" rgba="0 0 0 0" group="3" mass="0.077561997" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0340 0.0847 0.0490" pos="0.0000 0.0000 0.0490" />
+      <geom name="place:top" class="place" type="mesh" mesh="yellow_tea_box_top" />
+    </body>
+  </worldbody>
+</mujoco>

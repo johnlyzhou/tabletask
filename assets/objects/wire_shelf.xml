@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wire_shelf" texturedir="../mesh/wire_shelf" />
   <custom>
     <text name="label" data="wire shelf|shelf|shelving unit|white wire shelf|small white metal wire shelving unit" />
+    <text name="category" data="shelf" />
   </custom>
   <default>
     <default class="place">

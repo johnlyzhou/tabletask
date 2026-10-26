@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/milk_can" texturedir="../mesh/milk_can" />
   <custom>
     <text name="label" data="milk can|churn|milk churn|metal milk can|white metal milk churn with handles" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

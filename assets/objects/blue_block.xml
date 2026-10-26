@@ -1,7 +1,7 @@
 <mujoco model="blue_block">
   <compiler angle="radian" meshdir="../mesh/blue_block" texturedir="../mesh/blue_block" />
   <custom>
-    <text name="label" data="blue cube block|block" />
+    <text name="label" data="blue block|cube|toy block|blue cube block|solid bright blue cube block" />
     <text name="tags" data="pickable" />
     <text name="category" data="block" />
   </custom>

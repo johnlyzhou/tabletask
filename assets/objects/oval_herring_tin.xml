@@ -1,7 +1,7 @@
 <mujoco model="oval_herring_tin">
   <compiler angle="radian" meshdir="../mesh/oval_herring_tin" texturedir="../mesh/oval_herring_tin" />
   <custom>
-    <text name="label" data="oval fish tin|tin" />
+    <text name="label" data="oval herring tin|fish tin|herring can|oval fish tin|oval tin of smoked peppered herring fillets" />
     <text name="tags" data="pickable" />
     <text name="category" data="tin" />
   </custom>

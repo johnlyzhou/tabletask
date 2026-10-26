@@ -1,0 +1,90 @@
+<mujoco model="black_dot_cup">
+  <compiler angle="radian" meshdir="../mesh/black_dot_cup" texturedir="../mesh/black_dot_cup" />
+  <custom>
+    <text name="label" data="black dot cup|cup|tea cup|dotted cup|white cup with black dots" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="cup" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="black_dot_cup_0_mesh" file="0.obj" />
+    <material name="black_dot_cup_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="black_dot_cup_0_tex" role="rgb" />
+    </material>
+    <texture name="black_dot_cup_0_tex" type="2d" file="0.png" />
+    <mesh name="black_dot_cup_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="black_dot_cup_inside" file="inside.obj" />
+    <mesh name="black_dot_cup_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="black_dot_cup">
+      <geom type="mesh" mesh="black_dot_cup_0_mesh" material="black_dot_cup_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_00" rgba="0 0 0 0" group="3" mass="0.00329181972" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_01" rgba="0 0 0 0" group="3" mass="0.00643267199" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_02" rgba="0 0 0 0" group="3" mass="0.00757311898" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_03" rgba="0 0 0 0" group="3" mass="0.00951557824" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_04" rgba="0 0 0 0" group="3" mass="0.00944691945" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_05" rgba="0 0 0 0" group="3" mass="0.001079214" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_06" rgba="0 0 0 0" group="3" mass="0.00493202107" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_07" rgba="0 0 0 0" group="3" mass="0.00425322657" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_08" rgba="0 0 0 0" group="3" mass="0.00108443263" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_09" rgba="0 0 0 0" group="3" mass="0.00211968274" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_10" rgba="0 0 0 0" group="3" mass="0.00197579665" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_11" rgba="0 0 0 0" group="3" mass="0.00208365336" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_12" rgba="0 0 0 0" group="3" mass="0.00358368142" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_13" rgba="0 0 0 0" group="3" mass="0.00634833824" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_14" rgba="0 0 0 0" group="3" mass="0.00686959449" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_15" rgba="0 0 0 0" group="3" mass="0.00494551936" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_16" rgba="0 0 0 0" group="3" mass="0.00875414678" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_17" rgba="0 0 0 0" group="3" mass="0.00566241082" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_18" rgba="0 0 0 0" group="3" mass="0.00099908039" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_19" rgba="0 0 0 0" group="3" mass="0.00257635227" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_20" rgba="0 0 0 0" group="3" mass="0.00333178108" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_21" rgba="0 0 0 0" group="3" mass="0.000654352751" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_22" rgba="0 0 0 0" group="3" mass="0.00196285642" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_23" rgba="0 0 0 0" group="3" mass="0.000380489874" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_24" rgba="0 0 0 0" group="3" mass="0.00327295484" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_25" rgba="0 0 0 0" group="3" mass="0.0011216863" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_26" rgba="0 0 0 0" group="3" mass="0.000778890904" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_27" rgba="0 0 0 0" group="3" mass="0.00113279368" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_28" rgba="0 0 0 0" group="3" mass="0.00169372056" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="black_dot_cup_hull_29" rgba="0 0 0 0" group="3" mass="0.0032154397" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0550 0.0438 0.0432" pos="0.0000 0.0000 0.0432" />
+      <geom name="place:inside" class="place" type="mesh" mesh="black_dot_cup_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="black_dot_cup_top" />
+    </body>
+  </worldbody>
+</mujoco>

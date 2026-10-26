@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/chessboard" texturedir="../mesh/chessboard" />
   <custom>
     <text name="label" data="chessboard|board|checkerboard|black and white chessboard|flat black and white checkered chessboard" />
+    <text name="category" data="chessboard" />
   </custom>
   <default>
     <default class="place">

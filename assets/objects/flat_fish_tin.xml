@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/flat_fish_tin" texturedir="../mesh/flat_fish_tin" />
   <custom>
     <text name="label" data="flat fish tin|fish tin|tin can|sprats tin|round flat tin of sprats with pull tab" />
+    <text name="category" data="tin" />
   </custom>
   <default>
     <default class="place">

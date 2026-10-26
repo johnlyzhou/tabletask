@@ -1,0 +1,36 @@
+<mujoco model="white_shower_gel_tube">
+  <compiler angle="radian" meshdir="../mesh/white_shower_gel_tube" texturedir="../mesh/white_shower_gel_tube" />
+  <custom>
+    <text name="label" data="white shower gel tube|tube|shower gel|white tube|white shower gel tube" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="tube" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_shower_gel_tube_0_mesh" file="0.obj" />
+    <material name="white_shower_gel_tube_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_shower_gel_tube_0_tex" role="rgb" />
+    </material>
+    <texture name="white_shower_gel_tube_0_tex" type="2d" file="0.png" />
+    <mesh name="white_shower_gel_tube_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_shower_gel_tube_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_shower_gel_tube_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_shower_gel_tube_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_shower_gel_tube_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="white_shower_gel_tube">
+      <geom type="mesh" mesh="white_shower_gel_tube_0_mesh" material="white_shower_gel_tube_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_shower_gel_tube_hull_00" rgba="0 0 0 0" group="3" mass="0.00274408646" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_shower_gel_tube_hull_01" rgba="0 0 0 0" group="3" mass="0.00911100016" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_shower_gel_tube_hull_02" rgba="0 0 0 0" group="3" mass="0.0164780633" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_shower_gel_tube_hull_03" rgba="0 0 0 0" group="3" mass="0.0159609363" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_shower_gel_tube_hull_04" rgba="0 0 0 0" group="3" mass="0.043939988" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0391 0.0241 0.0879" pos="0.0000 0.0000 0.0879" />
+    </body>
+  </worldbody>
+</mujoco>

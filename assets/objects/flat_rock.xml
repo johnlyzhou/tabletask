@@ -1,7 +1,7 @@
 <mujoco model="flat_rock">
   <compiler angle="radian" meshdir="../mesh/flat_rock" texturedir="../mesh/flat_rock" />
   <custom>
-    <text name="label" data="flat brown rock|rock" />
+    <text name="label" data="flat rock|rock|stone|flat brown rock|flat jagged dark brown rock slab" />
     <text name="tags" data="pickable" />
     <text name="category" data="rock" />
   </custom>

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/banana" texturedir="../mesh/banana" />
   <custom>
     <text name="label" data="banana|fruit|single banana|yellow banana|single ripe yellow banana with green tip" />
+    <text name="category" data="banana" />
   </custom>
   <default>
     <default class="place">

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/burger" texturedir="../mesh/burger"/>
   <custom>
     <text name="label" data="burger|hamburger|sandwich|cheeseburger with lettuce|cheeseburger with lettuce and sesame bun" />
+    <text name="category" data="sandwich" />
   </custom>
   <default>
     <default class="place">

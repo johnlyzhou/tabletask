@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/garden_gnome" texturedir="../mesh/garden_gnome" />
   <custom>
     <text name="label" data="garden gnome|gnome|garden figure|red hat gnome|garden gnome with red hat and green coat" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

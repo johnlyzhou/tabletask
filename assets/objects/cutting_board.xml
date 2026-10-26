@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cutting_board" texturedir="../mesh/cutting_board" />
   <custom>
     <text name="label" data="cutting board|board|chopping board|wooden cutting board|rectangular brown wooden cutting board" />
+    <text name="category" data="cutting board" />
   </custom>
   <default>
     <default class="place">

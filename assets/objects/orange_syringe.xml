@@ -1,0 +1,38 @@
+<mujoco model="orange_syringe">
+  <compiler angle="radian" meshdir="../mesh/orange_syringe" texturedir="../mesh/orange_syringe" />
+  <custom>
+    <text name="label" data="orange syringe|syringe|medical syringe|orange syringe|syringe with an orange plunger" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="syringe" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="orange_syringe_0_mesh" file="0.obj" />
+    <material name="orange_syringe_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="orange_syringe_0_tex" role="rgb" />
+    </material>
+    <texture name="orange_syringe_0_tex" type="2d" file="0.png" />
+    <mesh name="orange_syringe_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="orange_syringe_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="orange_syringe_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="orange_syringe_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="orange_syringe_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="orange_syringe_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="orange_syringe">
+      <geom type="mesh" mesh="orange_syringe_0_mesh" material="orange_syringe_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="orange_syringe_hull_00" rgba="0 0 0 0" group="3" mass="0.00246172593" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_syringe_hull_01" rgba="0 0 0 0" group="3" mass="0.00616137414" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_syringe_hull_02" rgba="0 0 0 0" group="3" mass="0.0106067524" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_syringe_hull_03" rgba="0 0 0 0" group="3" mass="0.00991645531" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_syringe_hull_04" rgba="0 0 0 0" group="3" mass="0.0231863846" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0582 0.0095 0.0065" pos="0.0000 0.0000 0.0065" />
+      <geom name="place:top" class="place" type="mesh" mesh="orange_syringe_top" />
+    </body>
+  </worldbody>
+</mujoco>

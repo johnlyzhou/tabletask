@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_bookend" texturedir="../mesh/black_bookend" />
   <custom>
     <text name="label" data="black bookend|bookend|book holder|black wooden bookend|black stepped wooden bookend with small drawers" />
+    <text name="category" data="bookend" />
   </custom>
   <default>
     <default class="place">

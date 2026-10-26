@@ -1,0 +1,90 @@
+<mujoco model="blue_hole_punch">
+  <compiler angle="radian" meshdir="../mesh/blue_hole_punch" texturedir="../mesh/blue_hole_punch" />
+  <custom>
+    <text name="label" data="blue hole punch|punch|hole punch|blue hole punch|dark blue paper hole punch" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="hole punch" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_hole_punch_0_mesh" file="0.obj" />
+    <material name="blue_hole_punch_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="blue_hole_punch_0_tex" role="rgb" />
+    </material>
+    <texture name="blue_hole_punch_0_tex" type="2d" file="0.png" />
+    <mesh name="blue_hole_punch_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="blue_hole_punch_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="blue_hole_punch">
+      <geom type="mesh" mesh="blue_hole_punch_0_mesh" material="blue_hole_punch_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_00" rgba="0 0 0 0" group="3" mass="0.0515986535" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_01" rgba="0 0 0 0" group="3" mass="0.00612389425" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_02" rgba="0 0 0 0" group="3" mass="0.00370589802" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_03" rgba="0 0 0 0" group="3" mass="0.00613936772" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_04" rgba="0 0 0 0" group="3" mass="0.0119651637" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_05" rgba="0 0 0 0" group="3" mass="0.00889718166" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_06" rgba="0 0 0 0" group="3" mass="0.0179014116" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_07" rgba="0 0 0 0" group="3" mass="0.000355066011" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_08" rgba="0 0 0 0" group="3" mass="0.00142551098" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_09" rgba="0 0 0 0" group="3" mass="0.00434478186" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_10" rgba="0 0 0 0" group="3" mass="0.00491351141" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_11" rgba="0 0 0 0" group="3" mass="0.00398209544" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_12" rgba="0 0 0 0" group="3" mass="0.0144800721" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_13" rgba="0 0 0 0" group="3" mass="0.000601184202" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_14" rgba="0 0 0 0" group="3" mass="0.00600468622" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_15" rgba="0 0 0 0" group="3" mass="0.00496118153" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_16" rgba="0 0 0 0" group="3" mass="0.00289017779" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_17" rgba="0 0 0 0" group="3" mass="0.000791197043" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_18" rgba="0 0 0 0" group="3" mass="0.000981867972" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_19" rgba="0 0 0 0" group="3" mass="0.00289502823" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_20" rgba="0 0 0 0" group="3" mass="0.00216197334" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_21" rgba="0 0 0 0" group="3" mass="0.00200124028" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_22" rgba="0 0 0 0" group="3" mass="0.00050717178" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_23" rgba="0 0 0 0" group="3" mass="0.000891804636" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_24" rgba="0 0 0 0" group="3" mass="0.00249913434" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_25" rgba="0 0 0 0" group="3" mass="0.00292479256" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_26" rgba="0 0 0 0" group="3" mass="0.00303231279" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_27" rgba="0 0 0 0" group="3" mass="0.00222039087" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_28" rgba="0 0 0 0" group="3" mass="0.000733055229" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_29" rgba="0 0 0 0" group="3" mass="0.00130815302" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_30" rgba="0 0 0 0" group="3" mass="0.00230769386" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_hole_punch_hull_31" rgba="0 0 0 0" group="3" mass="0.00213543748" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0578 0.0710 0.0460" pos="0.0000 0.0000 0.0460" />
+    </body>
+  </worldbody>
+</mujoco>

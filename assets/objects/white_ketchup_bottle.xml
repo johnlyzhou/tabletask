@@ -1,0 +1,38 @@
+<mujoco model="white_ketchup_bottle">
+  <compiler angle="radian" meshdir="../mesh/white_ketchup_bottle" texturedir="../mesh/white_ketchup_bottle" />
+  <custom>
+    <text name="label" data="white ketchup bottle|bottle|ketchup|white ketchup bottle|tall white ketchup bottle with a red cap" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_ketchup_bottle_0_mesh" file="0.obj" />
+    <material name="white_ketchup_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_ketchup_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="white_ketchup_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="white_ketchup_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_ketchup_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_ketchup_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_ketchup_bottle_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_ketchup_bottle_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="white_ketchup_bottle_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="white_ketchup_bottle">
+      <geom type="mesh" mesh="white_ketchup_bottle_0_mesh" material="white_ketchup_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_ketchup_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.00337453938" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_ketchup_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.110016536" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_ketchup_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.00308630237" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_ketchup_bottle_hull_03" rgba="0 0 0 0" group="3" mass="0.0073859283" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_ketchup_bottle_hull_04" rgba="0 0 0 0" group="3" mass="0.00274744585" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_ketchup_bottle_hull_05" rgba="0 0 0 0" group="3" mass="0.00437616058" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0226 0.0420 0.1045" pos="0.0000 0.0000 0.1045" />
+    </body>
+  </worldbody>
+</mujoco>

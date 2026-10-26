@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_spoons" texturedir="../mesh/wooden_spoons" />
   <custom>
     <text name="label" data="wooden spoon|spoon|cooking spoon|light wooden spoon|plain light wooden cooking spoon" />
+    <text name="category" data="spoon" />
   </custom>
   <default>
     <default class="place">

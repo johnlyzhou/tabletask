@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/toy_wooden_chair" texturedir="../mesh/toy_wooden_chair" />
   <custom>
     <text name="label" data="toy wooden chair|toy chair|doll chair|yellow wooden toy chair|yellow slatted wooden toy armchair" />
+    <text name="category" data="toy" />
   </custom>
   <default>
     <default class="place">

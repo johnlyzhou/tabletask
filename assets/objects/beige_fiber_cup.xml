@@ -1,8 +1,8 @@
 <mujoco model="beige_fiber_cup">
   <compiler angle="radian" meshdir="../mesh/beige_fiber_cup" texturedir="../mesh/beige_fiber_cup" />
   <custom>
-    <text name="label" data="beige tapered planter|plant pot" />
-    <text name="category" data="pot" />
+    <text name="label" data="beige fiber cup|cup|bowl cup|beige bamboo fiber cup|small tapered beige bamboo fiber cup" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

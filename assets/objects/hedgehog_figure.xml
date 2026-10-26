@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/hedgehog_figure" texturedir="../mesh/hedgehog_figure"/>
   <custom>
     <text name="label" data="hedgehog|hedgehog figure|toy hedgehog|spiky hedgehog figure|realistic brown and white hedgehog figure" />
+    <text name="category" data="figurine" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/box_of_snack_cakes" texturedir="../mesh/box_of_snack_cakes" />
   <custom>
     <text name="label" data="box of snack cakes|snack box|snack cakes|white snack cake box|white and blue box of cream snack cakes" />
+    <text name="category" data="box" />
   </custom>
   <default>
     <default class="place">

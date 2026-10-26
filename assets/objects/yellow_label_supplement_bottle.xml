@@ -1,0 +1,32 @@
+<mujoco model="yellow_label_supplement_bottle">
+  <compiler angle="radian" meshdir="../mesh/yellow_label_supplement_bottle" texturedir="../mesh/yellow_label_supplement_bottle" />
+  <custom>
+    <text name="label" data="yellow label supplement bottle|bottle|supplement|yellow label bottle|white supplement bottle with a yellow label" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="yellow_label_supplement_bottle_0_mesh" file="0.obj" />
+    <material name="yellow_label_supplement_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="yellow_label_supplement_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="yellow_label_supplement_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="yellow_label_supplement_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="yellow_label_supplement_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="yellow_label_supplement_bottle_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="yellow_label_supplement_bottle">
+      <geom type="mesh" mesh="yellow_label_supplement_bottle_0_mesh" material="yellow_label_supplement_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="yellow_label_supplement_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.00914992274" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="yellow_label_supplement_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.0704904895" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0269 0.0268 0.0480" pos="0.0000 0.0000 0.0480" />
+      <geom name="place:top" class="place" type="mesh" mesh="yellow_label_supplement_bottle_top" />
+    </body>
+  </worldbody>
+</mujoco>

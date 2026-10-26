@@ -1,0 +1,60 @@
+<mujoco model="orange_grip_hammer">
+  <compiler angle="radian" meshdir="../mesh/orange_grip_hammer" texturedir="../mesh/orange_grip_hammer" />
+  <custom>
+    <text name="label" data="orange grip hammer|hammer|claw hammer|orange grip hammer|claw hammer with an orange and black grip" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="hammer" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="orange_grip_hammer_0_mesh" file="0.obj" />
+    <material name="orange_grip_hammer_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="orange_grip_hammer_0_tex" role="rgb" />
+    </material>
+    <texture name="orange_grip_hammer_0_tex" type="2d" file="0.png" />
+    <mesh name="orange_grip_hammer_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="orange_grip_hammer_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="orange_grip_hammer">
+      <geom type="mesh" mesh="orange_grip_hammer_0_mesh" material="orange_grip_hammer_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_00" rgba="0 0 0 0" group="3" mass="0.036121692" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_01" rgba="0 0 0 0" group="3" mass="0.00885868583" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_02" rgba="0 0 0 0" group="3" mass="0.014677591" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_03" rgba="0 0 0 0" group="3" mass="0.0147359451" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_04" rgba="0 0 0 0" group="3" mass="0.0647458262" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_05" rgba="0 0 0 0" group="3" mass="0.0018599882" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_06" rgba="0 0 0 0" group="3" mass="0.00700553244" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_07" rgba="0 0 0 0" group="3" mass="0.00282366929" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_08" rgba="0 0 0 0" group="3" mass="0.00186356755" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_09" rgba="0 0 0 0" group="3" mass="0.00373330911" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_10" rgba="0 0 0 0" group="3" mass="0.0037768128" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_11" rgba="0 0 0 0" group="3" mass="0.000837616425" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_12" rgba="0 0 0 0" group="3" mass="0.00366949124" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_13" rgba="0 0 0 0" group="3" mass="0.00512230933" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_14" rgba="0 0 0 0" group="3" mass="0.0020837017" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_15" rgba="0 0 0 0" group="3" mass="0.00562120597" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="orange_grip_hammer_hull_16" rgba="0 0 0 0" group="3" mass="0.00189177162" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1683 0.0634 0.0172" pos="0.0000 0.0000 0.0172" />
+    </body>
+  </worldbody>
+</mujoco>

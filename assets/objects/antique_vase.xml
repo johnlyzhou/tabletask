@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/antique_vase" texturedir="../mesh/antique_vase" />
   <custom>
     <text name="label" data="antique vase|vase|porcelain vase|blue and white vase|antique blue and white patterned porcelain vase" />
+    <text name="category" data="vase" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="pen_holder">
   <compiler angle="radian" meshdir="../mesh/pen_holder" texturedir="../mesh/pen_holder" />
   <custom>
-    <text name="label" data="red crab shaped pen holder|pen holder" />
+    <text name="label" data="crab pen holder|pen holder|crab figure|red crab holder|red crab shaped pen holder with raised claws" />
     <text name="tags" data="pickable" />
     <text name="category" data="pen holder" />
   </custom>

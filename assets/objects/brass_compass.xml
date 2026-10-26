@@ -1,7 +1,7 @@
 <mujoco model="brass_compass">
   <compiler angle="radian" meshdir="../mesh/brass_compass" texturedir="../mesh/brass_compass" />
   <custom>
-    <text name="label" data="open brass compass|compass" />
+    <text name="label" data="brass compass|compass|pocket compass|antique brass compass|open antique brass pocket compass with lid" />
     <text name="tags" data="pickable" />
     <text name="category" data="compass" />
   </custom>

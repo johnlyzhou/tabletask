@@ -1,0 +1,32 @@
+<mujoco model="mocha_coffee_box">
+  <compiler angle="radian" meshdir="../mesh/mocha_coffee_box" texturedir="../mesh/mocha_coffee_box" />
+  <custom>
+    <text name="label" data="mocha coffee box|box|coffee box|brown coffee box|brown box of mocha coffee" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="box" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="mocha_coffee_box_0_mesh" file="0.obj" />
+    <material name="mocha_coffee_box_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="mocha_coffee_box_0_tex" role="rgb" />
+    </material>
+    <texture name="mocha_coffee_box_0_tex" type="2d" file="0.png" />
+    <mesh name="mocha_coffee_box_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="mocha_coffee_box_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="mocha_coffee_box_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="mocha_coffee_box">
+      <geom type="mesh" mesh="mocha_coffee_box_0_mesh" material="mocha_coffee_box_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="mocha_coffee_box_hull_00" rgba="0 0 0 0" group="3" mass="0.0798263766" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="mocha_coffee_box_hull_01" rgba="0 0 0 0" group="3" mass="0.104564074" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0456 0.0322 0.0807" pos="0.0000 0.0000 0.0807" />
+      <geom name="place:top" class="place" type="mesh" mesh="mocha_coffee_box_top" />
+    </body>
+  </worldbody>
+</mujoco>

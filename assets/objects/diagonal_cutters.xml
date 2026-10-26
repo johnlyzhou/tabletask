@@ -1,0 +1,92 @@
+<mujoco model="diagonal_cutters">
+  <compiler angle="radian" meshdir="../mesh/diagonal_cutters" texturedir="../mesh/diagonal_cutters" />
+  <custom>
+    <text name="label" data="diagonal cutters|pliers|wire cutters|orange cutters|diagonal cutting pliers with orange handles" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="pliers" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="diagonal_cutters_0_mesh" file="0.obj" />
+    <material name="diagonal_cutters_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="diagonal_cutters_0_tex" role="rgb" />
+    </material>
+    <texture name="diagonal_cutters_0_tex" type="2d" file="0.png" />
+    <mesh name="diagonal_cutters_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="diagonal_cutters_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="diagonal_cutters">
+      <geom type="mesh" mesh="diagonal_cutters_0_mesh" material="diagonal_cutters_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_00" rgba="0 0 0 0" group="3" mass="0.0114414978" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_01" rgba="0 0 0 0" group="3" mass="0.00485004096" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_02" rgba="0 0 0 0" group="3" mass="0.00642059498" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_03" rgba="0 0 0 0" group="3" mass="0.00725564255" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_04" rgba="0 0 0 0" group="3" mass="0.006922634" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_05" rgba="0 0 0 0" group="3" mass="0.000293934891" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_06" rgba="0 0 0 0" group="3" mass="0.0110445493" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_07" rgba="0 0 0 0" group="3" mass="0.00512315439" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_08" rgba="0 0 0 0" group="3" mass="0.000483612493" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_09" rgba="0 0 0 0" group="3" mass="0.00027207757" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_10" rgba="0 0 0 0" group="3" mass="0.00049053951" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_11" rgba="0 0 0 0" group="3" mass="0.0067977983" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_12" rgba="0 0 0 0" group="3" mass="0.00699088632" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_13" rgba="0 0 0 0" group="3" mass="0.000271678781" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_14" rgba="0 0 0 0" group="3" mass="0.000518577984" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_15" rgba="0 0 0 0" group="3" mass="0.000156226387" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_16" rgba="0 0 0 0" group="3" mass="0.000307666926" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_17" rgba="0 0 0 0" group="3" mass="0.000156226387" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_18" rgba="0 0 0 0" group="3" mass="0.000156226387" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_19" rgba="0 0 0 0" group="3" mass="0.000156226387" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_20" rgba="0 0 0 0" group="3" mass="0.00042694576" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_21" rgba="0 0 0 0" group="3" mass="0.00095530941" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_22" rgba="0 0 0 0" group="3" mass="0.000156226387" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_23" rgba="0 0 0 0" group="3" mass="0.000315874929" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_24" rgba="0 0 0 0" group="3" mass="0.000164008535" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_25" rgba="0 0 0 0" group="3" mass="0.000218781034" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_26" rgba="0 0 0 0" group="3" mass="0.000374284451" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_27" rgba="0 0 0 0" group="3" mass="0.000470413385" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_28" rgba="0 0 0 0" group="3" mass="0.000952352372" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_29" rgba="0 0 0 0" group="3" mass="0.000862032606" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_30" rgba="0 0 0 0" group="3" mass="0.000919109131" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="diagonal_cutters_hull_31" rgba="0 0 0 0" group="3" mass="0.00246456833" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0960 0.0344 0.0129" pos="0.0000 0.0000 0.0129" />
+      <geom name="place:top" class="place" type="mesh" mesh="diagonal_cutters_top" />
+    </body>
+  </worldbody>
+</mujoco>

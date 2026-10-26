@@ -1,7 +1,7 @@
 <mujoco model="abc_plate">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="pale blue plate|plate" />
+    <text name="label" data="light blue plate|plate|dish|pale blue plate|round shallow pale blue ceramic plate" />
     <text name="category" data="plate" />
   </custom>
   <default>

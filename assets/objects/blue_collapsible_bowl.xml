@@ -1,7 +1,7 @@
 <mujoco model="blue_collapsible_bowl">
   <compiler angle="radian" meshdir="../mesh/blue_collapsible_bowl" texturedir="../mesh/blue_collapsible_bowl" />
   <custom>
-    <text name="label" data="blue collapsible bowl|bowl" />
+    <text name="label" data="blue collapsible bowl|bowl|travel bowl|blue silicone bowl|blue collapsible silicone bowl with dark base" />
     <text name="tags" data="container" />
     <text name="category" data="bowl" />
   </custom>

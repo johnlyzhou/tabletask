@@ -1,0 +1,38 @@
+<mujoco model="tall_wooden_pepper_mill">
+  <compiler angle="radian" meshdir="../mesh/tall_wooden_pepper_mill" texturedir="../mesh/tall_wooden_pepper_mill" />
+  <custom>
+    <text name="label" data="tall wooden pepper mill|mill|pepper mill|tall wooden mill|tall thin light wood pepper mill" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="salt" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="tall_wooden_pepper_mill_0_mesh" file="0.obj" />
+    <material name="tall_wooden_pepper_mill_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="tall_wooden_pepper_mill_0_tex" role="rgb" />
+    </material>
+    <texture name="tall_wooden_pepper_mill_0_tex" type="2d" file="0.png" />
+    <mesh name="tall_wooden_pepper_mill_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="tall_wooden_pepper_mill_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="tall_wooden_pepper_mill_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="tall_wooden_pepper_mill_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="tall_wooden_pepper_mill_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="tall_wooden_pepper_mill_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="tall_wooden_pepper_mill">
+      <geom type="mesh" mesh="tall_wooden_pepper_mill_0_mesh" material="tall_wooden_pepper_mill_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="tall_wooden_pepper_mill_hull_00" rgba="0 0 0 0" group="3" mass="0.0273274283" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tall_wooden_pepper_mill_hull_01" rgba="0 0 0 0" group="3" mass="0.0198374075" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tall_wooden_pepper_mill_hull_02" rgba="0 0 0 0" group="3" mass="0.0401830537" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tall_wooden_pepper_mill_hull_03" rgba="0 0 0 0" group="3" mass="0.0767732999" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="tall_wooden_pepper_mill_hull_04" rgba="0 0 0 0" group="3" mass="0.0121856696" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0350 0.0350 0.1450" pos="0.0000 0.0000 0.1450" />
+      <geom name="place:top" class="place" type="mesh" mesh="tall_wooden_pepper_mill_top" />
+    </body>
+  </worldbody>
+</mujoco>

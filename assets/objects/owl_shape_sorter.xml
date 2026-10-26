@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/owl_shape_sorter" texturedir="../mesh/owl_shape_sorter" />
   <custom>
     <text name="label" data="owl shape sorter|shape sorter|sorting toy|white owl sorter|white owl shape sorter with colourful shapes" />
+    <text name="category" data="toy" />
   </custom>
   <default>
     <default class="place">

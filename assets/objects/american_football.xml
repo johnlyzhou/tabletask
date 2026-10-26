@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/american_football" texturedir="../mesh/american_football" />
   <custom>
     <text name="label" data="american football|football|pigskin|brown american football|brown leather american football with white laces" />
+    <text name="category" data="ball" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/spatula" texturedir="../mesh/spatula" />
   <custom>
     <text name="label" data="red spatula|spatula|turner|red slotted spatula|red plastic slotted cooking spatula" />
+    <text name="category" data="spatula" />
   </custom>
   <default>
     <default class="place">

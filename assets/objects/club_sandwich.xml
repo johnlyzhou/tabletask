@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/club_sandwich" texturedir="../mesh/club_sandwich"/>
   <custom>
     <text name="label" data="sandwich|club sandwich|sandwich wedge|triangle sandwich|triangle white bread sandwich with lettuce" />
+    <text name="category" data="sandwich" />
   </custom>
   <default>
     <default class="place">

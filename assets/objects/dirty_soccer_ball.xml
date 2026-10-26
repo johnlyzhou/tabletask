@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/dirty_soccer_ball" texturedir="../mesh/dirty_soccer_ball" />
   <custom>
     <text name="label" data="dirty soccer ball|soccer ball|football|worn brown soccer ball|dirty worn tan leather soccer ball" />
+    <text name="category" data="ball" />
   </custom>
   <default>
     <default class="place">

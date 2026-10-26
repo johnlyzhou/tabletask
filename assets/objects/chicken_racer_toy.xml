@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/chicken_racer_toy" texturedir="../mesh/chicken_racer_toy" />
   <custom>
     <text name="label" data="chicken racer toy|toy car|racer|chicken race car|white chicken in red and blue toy race car" />
+    <text name="category" data="toy car" />
   </custom>
   <default>
     <default class="place">

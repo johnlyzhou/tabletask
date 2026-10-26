@@ -1,0 +1,50 @@
+<mujoco model="pink_glazed_donut">
+  <compiler angle="radian" meshdir="../mesh/pink_glazed_donut" texturedir="../mesh/pink_glazed_donut" />
+  <custom>
+    <text name="label" data="pink glazed donut|donut|pastry|pink donut|donut with pink glaze and white stripes" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="donut" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="pink_glazed_donut_0_mesh" file="0.obj" />
+    <material name="pink_glazed_donut_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="pink_glazed_donut_0_tex" role="rgb" />
+    </material>
+    <texture name="pink_glazed_donut_0_tex" type="2d" file="0.png" />
+    <mesh name="pink_glazed_donut_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="pink_glazed_donut_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="pink_glazed_donut">
+      <geom type="mesh" mesh="pink_glazed_donut_0_mesh" material="pink_glazed_donut_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_00" rgba="0 0 0 0" group="3" mass="0.0163403441" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_01" rgba="0 0 0 0" group="3" mass="0.00643885902" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_02" rgba="0 0 0 0" group="3" mass="0.00631965709" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_03" rgba="0 0 0 0" group="3" mass="0.0165876063" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_04" rgba="0 0 0 0" group="3" mass="0.00496254969" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_05" rgba="0 0 0 0" group="3" mass="0.00469292734" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_06" rgba="0 0 0 0" group="3" mass="0.00263493207" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_07" rgba="0 0 0 0" group="3" mass="0.0031421501" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_08" rgba="0 0 0 0" group="3" mass="0.00694530611" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_09" rgba="0 0 0 0" group="3" mass="0.00750453925" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_10" rgba="0 0 0 0" group="3" mass="0.0116758274" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="pink_glazed_donut_hull_11" rgba="0 0 0 0" group="3" mass="0.0027580221" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0525 0.0520 0.0190" pos="0.0000 0.0000 0.0190" />
+    </body>
+  </worldbody>
+</mujoco>

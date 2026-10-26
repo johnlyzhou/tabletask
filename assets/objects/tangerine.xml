@@ -1,0 +1,28 @@
+<mujoco model="tangerine">
+  <compiler angle="radian" meshdir="../mesh/tangerine" texturedir="../mesh/tangerine" />
+  <custom>
+    <text name="label" data="tangerine|tangerine|citrus|small orange|small bright tangerine" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="orange" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="tangerine_0_mesh" file="0.obj" />
+    <material name="tangerine_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="tangerine_0_tex" role="rgb" />
+    </material>
+    <texture name="tangerine_0_tex" type="2d" file="0.png" />
+    <mesh name="tangerine_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="tangerine">
+      <geom type="mesh" mesh="tangerine_0_mesh" material="tangerine_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="tangerine_hull_00" rgba="0 0 0 0" group="3" mass="0.0648624208" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0290 0.0299 0.0265" pos="0.0000 0.0000 0.0265" />
+    </body>
+  </worldbody>
+</mujoco>

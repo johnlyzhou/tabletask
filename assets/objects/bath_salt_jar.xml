@@ -1,0 +1,32 @@
+<mujoco model="bath_salt_jar">
+  <compiler angle="radian" meshdir="../mesh/bath_salt_jar" texturedir="../mesh/bath_salt_jar" />
+  <custom>
+    <text name="label" data="bath salt jar|jar|bath salts|striped bath salt jar|tall jar of bath salts with a brown striped label" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="jar" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="bath_salt_jar_0_mesh" file="0.obj" />
+    <material name="bath_salt_jar_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="bath_salt_jar_0_tex" role="rgb" />
+    </material>
+    <texture name="bath_salt_jar_0_tex" type="2d" file="0.png" />
+    <mesh name="bath_salt_jar_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="bath_salt_jar_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="bath_salt_jar_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="bath_salt_jar">
+      <geom type="mesh" mesh="bath_salt_jar_0_mesh" material="bath_salt_jar_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bath_salt_jar_hull_00" rgba="0 0 0 0" group="3" mass="0.0201652815" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bath_salt_jar_hull_01" rgba="0 0 0 0" group="3" mass="0.166703736" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0400 0.0394 0.0930" pos="0.0000 0.0000 0.0930" />
+      <geom name="place:top" class="place" type="mesh" mesh="bath_salt_jar_top" />
+    </body>
+  </worldbody>
+</mujoco>

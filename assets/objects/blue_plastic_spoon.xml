@@ -1,0 +1,48 @@
+<mujoco model="blue_plastic_spoon">
+  <compiler angle="radian" meshdir="../mesh/blue_plastic_spoon" texturedir="../mesh/blue_plastic_spoon" />
+  <custom>
+    <text name="label" data="blue plastic spoon|spoon|plastic spoon|blue plastic spoon|dark blue plastic spoon" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="spoon" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="blue_plastic_spoon_0_mesh" file="0.obj" />
+    <material name="blue_plastic_spoon_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="blue_plastic_spoon_0_tex" role="rgb" />
+    </material>
+    <texture name="blue_plastic_spoon_0_tex" type="2d" file="0.png" />
+    <mesh name="blue_plastic_spoon_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="blue_plastic_spoon_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="blue_plastic_spoon">
+      <geom type="mesh" mesh="blue_plastic_spoon_0_mesh" material="blue_plastic_spoon_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_00" rgba="0 0 0 0" group="3" mass="0.0308512947" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_01" rgba="0 0 0 0" group="3" mass="0.00286617866" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_02" rgba="0 0 0 0" group="3" mass="0.00286530569" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_03" rgba="0 0 0 0" group="3" mass="0.00250348047" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_04" rgba="0 0 0 0" group="3" mass="0.00348298716" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_05" rgba="0 0 0 0" group="3" mass="0.00147935108" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_06" rgba="0 0 0 0" group="3" mass="0.00234790101" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_07" rgba="0 0 0 0" group="3" mass="0.00367957813" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_08" rgba="0 0 0 0" group="3" mass="0.00214764103" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="blue_plastic_spoon_hull_09" rgba="0 0 0 0" group="3" mass="0.00185760693" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0783 0.0173 0.0053" pos="0.0000 0.0000 0.0053" />
+      <geom name="place:top" class="place" type="mesh" mesh="blue_plastic_spoon_top" />
+    </body>
+  </worldbody>
+</mujoco>

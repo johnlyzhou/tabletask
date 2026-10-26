@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/blowtorch" texturedir="../mesh/blowtorch" />
   <custom>
     <text name="label" data="brass blowtorch|blowtorch|torch|old brass torch|antique brass blowtorch with long nozzle" />
+    <text name="category" data="blowtorch" />
   </custom>
   <default>
     <default class="place">

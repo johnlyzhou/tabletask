@@ -1,8 +1,8 @@
 <mujoco model="sea_green_mug">
   <compiler angle="radian" meshdir="../mesh/sea_green_mug" texturedir="../mesh/sea_green_mug" />
   <custom>
-    <text name="label" data="wide sea green mug|cup" />
-    <text name="category" data="cup" />
+    <text name="label" data="sea green mug|mug|cup|sea green ceramic mug|sea green glazed ceramic mug with handle" />
+    <text name="category" data="mug" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/metal_jerrycan" texturedir="../mesh/metal_jerrycan" />
   <custom>
     <text name="label" data="metal jerrycan|jerrycan|fuel can|red metal jerrycan|red metal jerrycan with handles and spout" />
+    <text name="category" data="jerrycan" />
   </custom>
   <default>
     <default class="place">

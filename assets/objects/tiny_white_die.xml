@@ -1,0 +1,30 @@
+<mujoco model="tiny_white_die">
+  <compiler angle="radian" meshdir="../mesh/tiny_white_die" texturedir="../mesh/tiny_white_die" />
+  <custom>
+    <text name="label" data="tiny white die|die|dice|tiny dice|tiny white die with black dots" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="die" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="tiny_white_die_0_mesh" file="0.obj" />
+    <material name="tiny_white_die_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="tiny_white_die_0_tex" role="rgb" />
+    </material>
+    <texture name="tiny_white_die_0_tex" type="2d" file="0.png" />
+    <mesh name="tiny_white_die_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="tiny_white_die_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="tiny_white_die">
+      <geom type="mesh" mesh="tiny_white_die_0_mesh" material="tiny_white_die_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="tiny_white_die_hull_00" rgba="0 0 0 0" group="3" mass="0.0506568686" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0086 0.0085 0.0088" pos="0.0000 -0.0000 0.0088" />
+      <geom name="place:top" class="place" type="mesh" mesh="tiny_white_die_top" />
+    </body>
+  </worldbody>
+</mujoco>

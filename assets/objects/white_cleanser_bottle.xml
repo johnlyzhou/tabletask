@@ -1,0 +1,36 @@
+<mujoco model="white_cleanser_bottle">
+  <compiler angle="radian" meshdir="../mesh/white_cleanser_bottle" texturedir="../mesh/white_cleanser_bottle" />
+  <custom>
+    <text name="label" data="white cleanser bottle|bottle|cleaner bottle|white cleaner bottle|white bottle of bleach cleanser" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="white_cleanser_bottle_0_mesh" file="0.obj" />
+    <material name="white_cleanser_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="white_cleanser_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="white_cleanser_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="white_cleanser_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="white_cleanser_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="white_cleanser_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="white_cleanser_bottle_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="white_cleanser_bottle_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="white_cleanser_bottle">
+      <geom type="mesh" mesh="white_cleanser_bottle_0_mesh" material="white_cleanser_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="white_cleanser_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.00384342015" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_cleanser_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.141196724" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_cleanser_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.029766216" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_cleanser_bottle_hull_03" rgba="0 0 0 0" group="3" mass="0.0136761827" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="white_cleanser_bottle_hull_04" rgba="0 0 0 0" group="3" mass="0.0216382018" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0512 0.0338 0.1253" pos="0.0000 0.0000 0.1253" />
+    </body>
+  </worldbody>
+</mujoco>

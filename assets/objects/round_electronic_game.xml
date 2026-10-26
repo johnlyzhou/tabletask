@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/round_electronic_game" texturedir="../mesh/round_electronic_game" />
   <custom>
     <text name="label" data="round electronic game|electronic game|memory game|four-colour electronic game|round black electronic game with red green blue yellow buttons" />
+    <text name="category" data="game console" />
   </custom>
   <default>
     <default class="place">

@@ -1,0 +1,40 @@
+<mujoco model="bitter_melon">
+  <compiler angle="radian" meshdir="../mesh/bitter_melon" texturedir="../mesh/bitter_melon" />
+  <custom>
+    <text name="label" data="bitter melon|vegetable|gourd|green bitter melon|bumpy green bitter melon" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bitter melon" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="bitter_melon_0_mesh" file="0.obj" />
+    <material name="bitter_melon_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="bitter_melon_0_tex" role="rgb" />
+    </material>
+    <texture name="bitter_melon_0_tex" type="2d" file="0.png" />
+    <mesh name="bitter_melon_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="bitter_melon_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="bitter_melon_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="bitter_melon_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="bitter_melon_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="bitter_melon_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="bitter_melon_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="bitter_melon">
+      <geom type="mesh" mesh="bitter_melon_0_mesh" material="bitter_melon_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="bitter_melon_hull_00" rgba="0 0 0 0" group="3" mass="0.0123663962" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bitter_melon_hull_01" rgba="0 0 0 0" group="3" mass="0.00755791037" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bitter_melon_hull_02" rgba="0 0 0 0" group="3" mass="0.00762675764" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bitter_melon_hull_03" rgba="0 0 0 0" group="3" mass="0.0119888144" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bitter_melon_hull_04" rgba="0 0 0 0" group="3" mass="0.0121482724" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bitter_melon_hull_05" rgba="0 0 0 0" group="3" mass="0.0123326065" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="bitter_melon_hull_06" rgba="0 0 0 0" group="3" mass="0.0098951066" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1000 0.0185 0.0197" pos="0.0000 0.0000 0.0197" />
+    </body>
+  </worldbody>
+</mujoco>

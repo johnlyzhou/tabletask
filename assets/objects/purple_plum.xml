@@ -1,0 +1,40 @@
+<mujoco model="purple_plum">
+  <compiler angle="radian" meshdir="../mesh/purple_plum" texturedir="../mesh/purple_plum" />
+  <custom>
+    <text name="label" data="purple plum|plum|fruit|dark purple plum|small dark purple plum" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="plum" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="purple_plum_0_mesh" file="0.obj" />
+    <material name="purple_plum_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="purple_plum_0_tex" role="rgb" />
+    </material>
+    <texture name="purple_plum_0_tex" type="2d" file="0.png" />
+    <mesh name="purple_plum_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="purple_plum_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="purple_plum_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="purple_plum_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="purple_plum_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="purple_plum_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="purple_plum_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="purple_plum">
+      <geom type="mesh" mesh="purple_plum_0_mesh" material="purple_plum_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="purple_plum_hull_00" rgba="0 0 0 0" group="3" mass="0.016306376" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="purple_plum_hull_01" rgba="0 0 0 0" group="3" mass="0.0064913369" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="purple_plum_hull_02" rgba="0 0 0 0" group="3" mass="0.00580472441" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="purple_plum_hull_03" rgba="0 0 0 0" group="3" mass="0.013202476" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="purple_plum_hull_04" rgba="0 0 0 0" group="3" mass="0.0164708921" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="purple_plum_hull_05" rgba="0 0 0 0" group="3" mass="0.0023786777" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="purple_plum_hull_06" rgba="0 0 0 0" group="3" mass="0.00244430052" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0286 0.0275 0.0265" pos="0.0000 -0.0000 0.0265" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,7 +1,7 @@
 <mujoco model="kitchen_knife">
   <compiler angle="radian" meshdir="../mesh/doll_scene" texturedir="../mesh/doll_scene" />
   <custom>
-    <text name="label" data="kitchen knife with a wooden handle|knife" />
+    <text name="label" data="knife|kitchen knife|chef knife|wooden handled knife|kitchen knife with wooden handle and steel blade" />
     <text name="tags" data="pickable" />
     <text name="category" data="knife" />
   </custom>

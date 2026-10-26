@@ -2,7 +2,7 @@
   <!-- blue_dumbbell, converted from the MolmoSpaces Objaverse library (uid 6ab43fefeca843c4bad35122dc9bdad7; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_dumbbell" texturedir="../mesh/blue_dumbbell"/>
   <custom>
-    <text name="label" data="blue hexagonal dumbbell|dumbbell" />
+    <text name="label" data="blue dumbbell|dumbbell|hand weight|light blue dumbbell|light blue hexagonal hand dumbbell" />
     <text name="tags" data="pickable" />
     <text name="category" data="dumbbell" />
   </custom>

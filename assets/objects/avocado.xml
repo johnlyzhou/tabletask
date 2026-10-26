@@ -1,7 +1,7 @@
 <mujoco model="avocado">
   <compiler angle="radian" meshdir="../mesh/avocado" texturedir="../mesh/avocado" />
   <custom>
-    <text name="label" data="dark avocado|avocado" />
+    <text name="label" data="avocado|fruit|hass avocado|dark green avocado|dark bumpy skinned whole avocado" />
     <text name="tags" data="pickable" />
     <text name="category" data="avocado" />
   </custom>

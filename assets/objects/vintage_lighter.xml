@@ -1,7 +1,7 @@
 <mujoco model="vintage_lighter">
   <compiler angle="radian" meshdir="../mesh/vintage_lighter" texturedir="../mesh/vintage_lighter" />
   <custom>
-    <text name="label" data="open brown flip top lighter|lighter" />
+    <text name="label" data="vintage lighter|lighter|flip lighter|brown vintage lighter|brown flip-top lighter with open silver lid" />
     <text name="tags" data="pickable" />
     <text name="category" data="lighter" />
   </custom>

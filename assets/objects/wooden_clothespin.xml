@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_clothespin" texturedir="../mesh/wooden_clothespin" />
   <custom>
     <text name="label" data="clothespin|clothes peg|peg|wooden clothespin|light wooden spring clothespin" />
+    <text name="category" data="clothespin" />
   </custom>
   <default>
     <default class="place">

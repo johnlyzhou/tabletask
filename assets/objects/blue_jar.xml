@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/blue_jar" texturedir="../mesh/blue_jar"/>
   <custom>
     <text name="label" data="jar with a yellow lid|jar|container|red and white jar|red and white plastic jar with yellow lid" />
+    <text name="category" data="jar" />
   </custom>
   <default>
     <default class="place">

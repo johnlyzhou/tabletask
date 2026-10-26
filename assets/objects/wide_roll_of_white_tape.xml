@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wide_roll_of_white_tape" texturedir="../mesh/wide_roll_of_white_tape" />
   <custom>
     <text name="label" data="wide roll of white tape|tape|tape roll|white tape roll|wide roll of white adhesive tape" />
+    <text name="category" data="tape" />
   </custom>
   <default>
     <default class="place">

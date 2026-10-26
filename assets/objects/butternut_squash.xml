@@ -1,0 +1,34 @@
+<mujoco model="butternut_squash">
+  <compiler angle="radian" meshdir="../mesh/butternut_squash" texturedir="../mesh/butternut_squash" />
+  <custom>
+    <text name="label" data="butternut squash|squash|vegetable|butternut squash|small tan butternut squash" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="squash" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="butternut_squash_0_mesh" file="0.obj" />
+    <material name="butternut_squash_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="butternut_squash_0_tex" role="rgb" />
+    </material>
+    <texture name="butternut_squash_0_tex" type="2d" file="0.png" />
+    <mesh name="butternut_squash_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="butternut_squash_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="butternut_squash_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="butternut_squash_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="butternut_squash">
+      <geom type="mesh" mesh="butternut_squash_0_mesh" material="butternut_squash_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="butternut_squash_hull_00" rgba="0 0 0 0" group="3" mass="0.00919563505" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butternut_squash_hull_01" rgba="0 0 0 0" group="3" mass="0.00917780709" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butternut_squash_hull_02" rgba="0 0 0 0" group="3" mass="0.0585410176" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="butternut_squash_hull_03" rgba="0 0 0 0" group="3" mass="0.00892141549" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0341 0.0619 0.0336" pos="0.0000 0.0000 0.0336" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,32 @@
+<mujoco model="grey_liquid_soap_bottle">
+  <compiler angle="radian" meshdir="../mesh/grey_liquid_soap_bottle" texturedir="../mesh/grey_liquid_soap_bottle" />
+  <custom>
+    <text name="label" data="grey liquid soap bottle|bottle|pump bottle|grey soap bottle|dark grey liquid soap pump bottle" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="grey_liquid_soap_bottle_0_mesh" file="0.obj" />
+    <material name="grey_liquid_soap_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="grey_liquid_soap_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="grey_liquid_soap_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="grey_liquid_soap_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="grey_liquid_soap_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="grey_liquid_soap_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="grey_liquid_soap_bottle">
+      <geom type="mesh" mesh="grey_liquid_soap_bottle_0_mesh" material="grey_liquid_soap_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="grey_liquid_soap_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.155484537" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_liquid_soap_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.00514639804" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="grey_liquid_soap_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.00108788539" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0407 0.0407 0.0936" pos="0.0000 0.0000 0.0936" />
+    </body>
+  </worldbody>
+</mujoco>

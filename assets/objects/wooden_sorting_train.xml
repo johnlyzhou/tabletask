@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/wooden_sorting_train" texturedir="../mesh/wooden_sorting_train" />
   <custom>
     <text name="label" data="wooden sorting train|toy train|shape sorter train|colourful wooden train|colourful wooden toy train with shape blocks" />
+    <text name="category" data="toy train" />
   </custom>
   <default>
     <default class="place">

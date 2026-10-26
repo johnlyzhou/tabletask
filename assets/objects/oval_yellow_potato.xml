@@ -1,0 +1,28 @@
+<mujoco model="oval_yellow_potato">
+  <compiler angle="radian" meshdir="../mesh/oval_yellow_potato" texturedir="../mesh/oval_yellow_potato" />
+  <custom>
+    <text name="label" data="oval yellow potato|potato|vegetable|yellow potato|oval yellow potato" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="potato" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="oval_yellow_potato_0_mesh" file="0.obj" />
+    <material name="oval_yellow_potato_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="oval_yellow_potato_0_tex" role="rgb" />
+    </material>
+    <texture name="oval_yellow_potato_0_tex" type="2d" file="0.png" />
+    <mesh name="oval_yellow_potato_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="oval_yellow_potato">
+      <geom type="mesh" mesh="oval_yellow_potato_0_mesh" material="oval_yellow_potato_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="oval_yellow_potato_hull_00" rgba="0 0 0 0" group="3" mass="0.0945802492" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0359 0.0524 0.0364" pos="0.0000 0.0000 0.0364" />
+    </body>
+  </worldbody>
+</mujoco>

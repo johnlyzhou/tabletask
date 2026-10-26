@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/large_pumpkin" texturedir="../mesh/large_pumpkin" />
   <custom>
     <text name="label" data="large pumpkin|pumpkin|squash|orange ribbed pumpkin|large round orange ribbed pumpkin with brown stem" />
+    <text name="category" data="pumpkin" />
   </custom>
   <default>
     <default class="place">

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/lion_head" texturedir="../mesh/lion_head" />
   <custom>
     <text name="label" data="lion head sculpture|sculpture|statue|bronze lion head|dark bronze lion head bust on a square base" />
+    <text name="category" data="sculpture" />
   </custom>
   <default>
     <default class="place">

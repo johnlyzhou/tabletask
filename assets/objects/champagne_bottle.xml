@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/champagne_bottle" texturedir="../mesh/champagne_bottle" />
   <custom>
     <text name="label" data="champagne bottle|bottle|wine bottle|pale green bottle|pale green champagne bottle with gold top" />
+    <text name="category" data="bottle" />
   </custom>
   <default>
     <default class="place">

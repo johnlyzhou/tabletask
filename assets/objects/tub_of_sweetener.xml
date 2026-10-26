@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/tub_of_sweetener" texturedir="../mesh/tub_of_sweetener" />
   <custom>
     <text name="label" data="tub of sweetener|sweetener tub|xylitol tub|white sweetener tub|white plastic tub of xylitol sweetener with blue label" />
+    <text name="category" data="jar" />
   </custom>
   <default>
     <default class="place">

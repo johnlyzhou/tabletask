@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/butterfly_pencil_case" texturedir="../mesh/butterfly_pencil_case" />
   <custom>
     <text name="label" data="butterfly pencil case|pencil case|pencil pouch|light blue pencil case|light blue zip pencil case with butterflies" />
+    <text name="category" data="pencil case" />
   </custom>
   <default>
     <default class="place">

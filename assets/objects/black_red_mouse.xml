@@ -2,7 +2,7 @@
   <!-- black_red_mouse, converted from the MolmoSpaces Objaverse library (uid 3d53925857e945168a669642e68495a2; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/black_red_mouse" texturedir="../mesh/black_red_mouse"/>
   <custom>
-    <text name="label" data="black and red computer mouse|computer mouse" />
+    <text name="label" data="black and red mouse|computer mouse|mouse|red striped mouse|black computer mouse with red stripes" />
     <text name="tags" data="pickable" />
     <text name="category" data="computer mouse" />
   </custom>

@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
     <text name="label" data="wooden drawer|drawer|drawer box|dark wood drawer|small dark wooden drawer with brass handle" />
+    <text name="category" data="drawer" />
   </custom>
   <default>
     <default class="place">

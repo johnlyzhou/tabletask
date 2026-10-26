@@ -1,0 +1,36 @@
+<mujoco model="amber_cleanser_bottle">
+  <compiler angle="radian" meshdir="../mesh/amber_cleanser_bottle" texturedir="../mesh/amber_cleanser_bottle" />
+  <custom>
+    <text name="label" data="amber cleanser bottle|bottle|amber bottle|amber cleanser bottle|amber glass cleanser bottle with a black cap and label" />
+    <text name="tags" data="pickable" />
+    <text name="category" data="bottle" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="amber_cleanser_bottle_0_mesh" file="0.obj" />
+    <material name="amber_cleanser_bottle_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="amber_cleanser_bottle_0_tex" role="rgb" />
+    </material>
+    <texture name="amber_cleanser_bottle_0_tex" type="2d" file="0.png" />
+    <mesh name="amber_cleanser_bottle_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="amber_cleanser_bottle_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="amber_cleanser_bottle_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="amber_cleanser_bottle_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="amber_cleanser_bottle_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+  </asset>
+  <worldbody>
+    <body name="amber_cleanser_bottle">
+      <geom type="mesh" mesh="amber_cleanser_bottle_0_mesh" material="amber_cleanser_bottle_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="amber_cleanser_bottle_hull_00" rgba="0 0 0 0" group="3" mass="0.00103403912" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="amber_cleanser_bottle_hull_01" rgba="0 0 0 0" group="3" mass="0.104288887" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="amber_cleanser_bottle_hull_02" rgba="0 0 0 0" group="3" mass="0.00110500936" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="amber_cleanser_bottle_hull_03" rgba="0 0 0 0" group="3" mass="0.00225863464" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="amber_cleanser_bottle_hull_04" rgba="0 0 0 0" group="3" mass="0.00435734385" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.0315 0.0315 0.0834" pos="0.0000 0.0000 0.0834" />
+    </body>
+  </worldbody>
+</mujoco>

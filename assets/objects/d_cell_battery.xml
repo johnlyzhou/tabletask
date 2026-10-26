@@ -1,7 +1,7 @@
 <mujoco model="d_cell_battery">
   <compiler angle="radian" meshdir="../mesh/d_cell_battery" texturedir="../mesh/d_cell_battery" />
   <custom>
-    <text name="label" data="D cell battery|battery" />
+    <text name="label" data="large battery|battery|d battery|orange d cell battery|large orange and black d cell battery" />
     <text name="tags" data="pickable" />
     <text name="category" data="battery" />
   </custom>

@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/yellow_storage_crate" texturedir="../mesh/yellow_storage_crate"/>
   <custom>
     <text name="label" data="yellow crate|crate|bottle crate|yellow plastic crate|bright yellow plastic bottle crate with handles" />
+    <text name="category" data="bin" />
   </custom>
   <default>
     <default class="place">

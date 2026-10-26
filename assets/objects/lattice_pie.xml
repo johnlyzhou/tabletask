@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/lattice_pie" texturedir="../mesh/lattice_pie"/>
   <custom>
     <text name="label" data="pie|lattice pie|tart|golden lattice pie|round golden pie with a lattice crust top" />
+    <text name="category" data="pie" />
   </custom>
   <default>
     <default class="place">

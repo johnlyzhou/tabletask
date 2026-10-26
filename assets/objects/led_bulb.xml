@@ -1,7 +1,7 @@
 <mujoco model="led_bulb">
   <compiler angle="radian" meshdir="../mesh/led_bulb" texturedir="../mesh/led_bulb" />
   <custom>
-    <text name="label" data="white LED bulb|light bulb" />
+    <text name="label" data="led bulb|light bulb|bulb|white led bulb|white led light bulb with grey finned base" />
     <text name="tags" data="pickable" />
     <text name="category" data="light bulb" />
   </custom>

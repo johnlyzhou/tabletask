@@ -1,9 +1,9 @@
 <mujoco model="toy_refrigerator">
   <compiler angle="radian" meshdir="../mesh/toy_refrigerator" texturedir="../mesh/toy_refrigerator" />
   <custom>
-    <text name="label" data="cream toy refrigerator|toy refrigerator" />
+    <text name="label" data="toy refrigerator|toy fridge|play fridge|cream toy fridge|small cream toy refrigerator with green doors" />
     <text name="tags" data="pickable" />
-    <text name="category" data="toy refrigerator" />
+    <text name="category" data="toy fridge" />
   </custom>
   <default>
     <default class="place">

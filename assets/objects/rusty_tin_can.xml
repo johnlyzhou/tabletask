@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/rusty_tin_can" texturedir="../mesh/rusty_tin_can" />
   <custom>
     <text name="label" data="rusty tin can|tin can|can|old rusty can|old rusty metal tin can with faded label" />
+    <text name="category" data="can" />
   </custom>
   <default>
     <default class="place">

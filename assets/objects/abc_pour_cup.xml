@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
     <text name="label" data="pouring cup|cup|tumbler|dark pouring cup|dark tapered pouring cup with grey inside" />
+    <text name="category" data="cup" />
   </custom>
   <default>
     <default class="place">

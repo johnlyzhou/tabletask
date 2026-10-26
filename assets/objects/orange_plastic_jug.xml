@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/small_jug" texturedir="../mesh/small_jug" />
   <custom>
     <text name="label" data="orange plastic jug|jug|orange bottle|orange jug|plain orange plastic jug with a handle" />
+    <text name="category" data="jug" />
   </custom>
   <default>
     <default class="place">

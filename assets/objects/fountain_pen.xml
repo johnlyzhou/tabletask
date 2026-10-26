@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/fountain_pen" texturedir="../mesh/fountain_pen" />
   <custom>
     <text name="label" data="fountain pen|pen|ink pen|black fountain pen|black and green fountain pen with gold trim" />
+    <text name="category" data="pen" />
   </custom>
   <default>
     <default class="place">

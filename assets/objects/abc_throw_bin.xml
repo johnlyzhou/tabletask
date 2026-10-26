@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
     <text name="label" data="yellow tub|tub|bucket|yellow slatted tub|round yellow slatted tub with open top" />
+    <text name="category" data="bin" />
   </custom>
   <default>
     <default class="place">

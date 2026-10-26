@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/plastic_crate" texturedir="../mesh/plastic_crate" />
   <custom>
     <text name="label" data="plastic crate|crate|milk crate|dark red crate|dark red plastic milk crate" />
+    <text name="category" data="bin" />
   </custom>
   <default>
     <default class="place">

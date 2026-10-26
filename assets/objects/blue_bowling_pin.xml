@@ -2,7 +2,7 @@
   <!-- blue_bowling_pin, converted from the MolmoSpaces Objaverse library (uid 40a52bb7b68b41658f0f657805752468; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/blue_bowling_pin" texturedir="../mesh/blue_bowling_pin"/>
   <custom>
-    <text name="label" data="blue bowling pin|bowling pin" />
+    <text name="label" data="blue bowling pin|bowling pin|skittle|blue toy pin|bright blue toy bowling pin with stripes" />
     <text name="tags" data="pickable" />
     <text name="category" data="bowling pin" />
   </custom>

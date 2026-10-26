@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/purple_tray" texturedir="../mesh/purple_tray"/>
   <custom>
     <text name="label" data="purple tray|tray|bin|lavender plastic tray|deep lavender rectangular plastic tray" />
+    <text name="category" data="tray" />
   </custom>
   <default>
     <default class="place">

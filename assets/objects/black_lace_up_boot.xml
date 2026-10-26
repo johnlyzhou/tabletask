@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/black_lace_up_boot" texturedir="../mesh/black_lace_up_boot" />
   <custom>
     <text name="label" data="black lace-up boot|boot|ankle boot|black leather boot|black lace-up leather boot with studded collar" />
+    <text name="category" data="shoe" />
   </custom>
   <default>
     <default class="place">

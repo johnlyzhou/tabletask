@@ -1,7 +1,7 @@
 <mujoco model="white_photo_printer">
   <compiler angle="radian" meshdir="../mesh/white_photo_printer" texturedir="../mesh/white_photo_printer" />
   <custom>
-    <text name="label" data="white compact photo printer|printer" />
+    <text name="label" data="white photo printer|printer|photo printer|white compact printer|white compact upright photo printer" />
     <text name="tags" data="pickable" />
     <text name="category" data="printer" />
   </custom>

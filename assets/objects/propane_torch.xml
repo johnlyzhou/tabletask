@@ -1,9 +1,9 @@
 <mujoco model="propane_torch">
   <compiler angle="radian" meshdir="../mesh/propane_torch" texturedir="../mesh/propane_torch" />
   <custom>
-    <text name="label" data="blue propane torch|blowtorch" />
+    <text name="label" data="propane torch|torch|blow torch|blue propane torch|blue propane torch with brass nozzle" />
     <text name="tags" data="pickable" />
-    <text name="category" data="blowtorch" />
+    <text name="category" data="flashlight" />
   </custom>
   <default>
     <default class="place">

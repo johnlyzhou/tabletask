@@ -1,7 +1,7 @@
 <mujoco model="chess_black_knight">
   <compiler angle="radian" meshdir="../mesh/chess_black_knight" texturedir="../mesh/chess_black_knight" />
   <custom>
-    <text name="label" data="black chess knight|chess piece" />
+    <text name="label" data="black knight|chess piece|knight|black chess knight|black horse head knight chess piece" />
     <text name="tags" data="pickable" />
     <text name="category" data="chess piece" />
   </custom>

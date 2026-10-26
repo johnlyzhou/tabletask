@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/potted_succulent" texturedir="../mesh/potted_succulent" />
   <custom>
     <text name="label" data="potted succulent|succulent|house plant|succulent in white pot|small green succulent in a white pot" />
+    <text name="category" data="plant" />
   </custom>
   <default>
     <default class="place">

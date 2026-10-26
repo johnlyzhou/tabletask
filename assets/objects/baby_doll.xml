@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/baby_doll" texturedir="../mesh/baby_doll" />
   <custom>
     <text name="label" data="baby doll|doll|toy baby|doll in onesie|small baby doll in a pale grey onesie" />
+    <text name="category" data="doll" />
   </custom>
   <default>
     <default class="place">

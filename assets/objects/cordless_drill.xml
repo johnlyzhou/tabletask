@@ -2,6 +2,7 @@
   <compiler angle="radian" meshdir="../mesh/cordless_drill" texturedir="../mesh/cordless_drill" />
   <custom>
     <text name="label" data="drill|power drill|cordless drill|red cordless drill|red and black cordless power drill" />
+    <text name="category" data="drill" />
   </custom>
   <default>
     <default class="place">

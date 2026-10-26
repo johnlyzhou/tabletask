@@ -3,6 +3,7 @@
   <compiler angle="radian" meshdir="../mesh/red_bucket" texturedir="../mesh/red_bucket"/>
   <custom>
     <text name="label" data="red bucket|bucket|pail|worn red bucket|worn red metal bucket with handle" />
+    <text name="category" data="bucket" />
   </custom>
   <default>
     <default class="place">
