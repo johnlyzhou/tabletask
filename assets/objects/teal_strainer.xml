@@ -86,7 +86,7 @@
       <geom type="mesh" mesh="teal_strainer_hull_29" rgba="0 0 0 0" group="3" mass="0.00784320668" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="teal_strainer_hull_30" rgba="0 0 0 0" group="3" mass="0.0126858125" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="teal_strainer_hull_31" rgba="0 0 0 0" group="3" mass="0.00503635832" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.1650 0.1013 0.0698" pos="0.0000 0.0000 0.0698" />
+      <geom name="place:bounds" class="place" type="box" size="0.1698 0.1052 0.0496" pos="0.0000 0.0000 0.0496" />
       <geom name="place:inside" class="place" type="mesh" mesh="teal_strainer_inside" />
       <geom name="place:top" class="place" type="mesh" mesh="teal_strainer_top" />
     </body>
