@@ -15,12 +15,10 @@ textures were downsampled.
 | `bamboo_sushi_mat` | [Sushi_Mat](https://app.gazebosim.org/GoogleResearch/fuel/models/Sushi_Mat) |
 | `beige_fiber_cup` | [Ecoforms_Cup_B4_SAN](https://app.gazebosim.org/GoogleResearch/fuel/models/Ecoforms_Cup_B4_SAN) |
 | `beige_lace_up_boot` | [Womens_Hikerfish_Boot_in_Linen_Leather_Sparkle_Suede_QktIyAkonrU](https://app.gazebosim.org/GoogleResearch/fuel/models/Womens_Hikerfish_Boot_in_Linen_Leather_Sparkle_Suede_QktIyAkonrU) |
-| `bird_rattle` | [BIRD_RATTLE](https://app.gazebosim.org/GoogleResearch/fuel/models/BIRD_RATTLE) |
 | `black_and_white_patterned_bowl` | [Now_Designs_Bowl_Akita_Black](https://app.gazebosim.org/GoogleResearch/fuel/models/Now_Designs_Bowl_Akita_Black) |
 | `black_bookend` | [Victor_Reversible_Bookend](https://app.gazebosim.org/GoogleResearch/fuel/models/Victor_Reversible_Bookend) |
 | `black_computer_mouse` | [Razer_Abyssus_Ambidextrous_Gaming_Mouse](https://app.gazebosim.org/GoogleResearch/fuel/models/Razer_Abyssus_Ambidextrous_Gaming_Mouse) |
 | `black_external_hard_drive` | [Seagate_1TB_Wireless_Plus_mobile_device_storage](https://app.gazebosim.org/GoogleResearch/fuel/models/Seagate_1TB_Wireless_Plus_mobile_device_storage) |
-| `black_flash_drive` | [Kingston_DT4000MR_G2_Management_Ready_USB_64GB](https://app.gazebosim.org/GoogleResearch/fuel/models/Kingston_DT4000MR_G2_Management_Ready_USB_64GB) |
 | `black_flip_flop` | [REEF_ZENFUN](https://app.gazebosim.org/GoogleResearch/fuel/models/REEF_ZENFUN) |
 | `black_handheld_game_console` | [BlackBlack_Nintendo_3DSXL](https://app.gazebosim.org/GoogleResearch/fuel/models/BlackBlack_Nintendo_3DSXL) |
 | `black_lace_up_boot` | [Womens_Hikerfish_Boot_in_Black_Leopard_bVSNY1Le1sm](https://app.gazebosim.org/GoogleResearch/fuel/models/Womens_Hikerfish_Boot_in_Black_Leopard_bVSNY1Le1sm) |
