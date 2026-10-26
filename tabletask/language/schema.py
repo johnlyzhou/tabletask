@@ -204,6 +204,7 @@ class Task(msgspec.Struct, omit_defaults=True):
     source: Any = msgspec.field(default=None, name="__source__")
     milestones: dict[str, Any] = msgspec.field(default_factory=dict, name="__milestones__")
     drawn: dict[str, str] = msgspec.field(default_factory=dict, name="__drawn__")  # variable values
+    object_labels: dict[str, str] = msgspec.field(default_factory=dict, name="__object_labels__")
 
     @property
     def root(self) -> Path:

@@ -78,6 +78,8 @@ env.close()
 
 - Labels are disabled by default. The same option works with `num_envs`, and
   `envs.set(bounding_boxes={"external": ["item1"]})` changes it for existing workers.
+- Box labels reuse the episode's sampled object names. Instructions without object
+  placeholders use the assets' main names.
 - Boxes enclose visible object pixels, including child bodies, with exclusive maximum
   coordinates. Fully occluded or offscreen objects return an all-zero box and `visible=False`.
 - Add `"wrist": ["item1"]` to label the wrist view. Each labeled camera adds one
