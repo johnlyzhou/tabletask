@@ -1,7 +1,7 @@
 <mujoco model="small_jug">
   <compiler angle="radian" meshdir="../mesh/small_jug" texturedir="../mesh/small_jug" />
   <custom>
-    <text name="label" data="white jug|jug|bottle|white plastic jug|white plastic jug with small cap" />
+    <text name="label" data="white jug with a handle|jug" />
     <text name="tags" data="pickable" />
     <text name="category" data="jug" />
   </custom>

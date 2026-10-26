@@ -1,7 +1,7 @@
 <mujoco model="wind_up_dog_toy">
   <compiler angle="radian" meshdir="../mesh/wind_up_dog_toy" texturedir="../mesh/wind_up_dog_toy" />
   <custom>
-    <text name="label" data="wind-up dog toy|toy dog|wind-up toy|cream wind-up dog|cream plastic wind-up dog toy with brown ear" />
+    <text name="label" data="wind up dog toy|dog" />
     <text name="tags" data="pickable" />
     <text name="category" data="dog" />
   </custom>

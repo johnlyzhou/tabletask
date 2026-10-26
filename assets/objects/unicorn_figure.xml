@@ -1,7 +1,7 @@
 <mujoco model="unicorn_figure">
   <compiler angle="radian" meshdir="../mesh/unicorn_figure" texturedir="../mesh/unicorn_figure" />
   <custom>
-    <text name="label" data="unicorn figure|unicorn|unicorn toy|white unicorn figurine|white unicorn figurine with golden horn" />
+    <text name="label" data="white unicorn figurine|unicorn" />
     <text name="tags" data="pickable" />
     <text name="category" data="unicorn" />
   </custom>

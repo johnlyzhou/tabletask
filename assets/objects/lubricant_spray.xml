@@ -1,7 +1,7 @@
 <mujoco model="lubricant_spray">
   <compiler angle="radian" meshdir="../mesh/lubricant_spray" texturedir="../mesh/lubricant_spray" />
   <custom>
-    <text name="label" data="spray can|aerosol can|lubricant spray|yellow and blue spray can|yellow and blue lubricant aerosol spray can with red cap" />
+    <text name="label" data="yellow and blue aerosol can|spray can" />
     <text name="tags" data="pickable" />
     <text name="category" data="spray can" />
   </custom>

@@ -1,7 +1,7 @@
 <mujoco model="brown_horse_figurine">
   <compiler angle="radian" meshdir="../mesh/brown_horse_figurine" texturedir="../mesh/brown_horse_figurine" />
   <custom>
-    <text name="label" data="brown horse figurine|horse figurine|toy horse|brown toy horse|brown and white standing horse figurine" />
+    <text name="label" data="brown and white horse figurine|horse" />
     <text name="tags" data="pickable" />
     <text name="category" data="horse" />
   </custom>
