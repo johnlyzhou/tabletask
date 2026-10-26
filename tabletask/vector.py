@@ -109,6 +109,8 @@ def _worker(pipe, source, robot, options) -> None:
                 break
             pipe.send(result)
     except (EOFError, BrokenPipeError):
+        pass
+    finally:
         env.close()
 
 
@@ -156,7 +158,9 @@ class Envs:
         **options: Passed to `make` (`renderer`, `scene`, `bindings`, ...).
     """
 
-    def __init__(self, source, num_envs: int, *, robot="droid", gpus=None, import_main=False, **options):
+    def __init__(
+        self, source, num_envs: int, *, robot="droid", gpus=None, import_main=False, **options
+    ):
         if not isinstance(num_envs, int) or num_envs < 1:
             raise ValueError("num_envs must be a positive integer")
         self.num_envs = num_envs

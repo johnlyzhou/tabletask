@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import colorsys
+import os
 from contextlib import contextmanager
 
 import mujoco
@@ -65,18 +66,82 @@ MAX_SHADOW_PER_PIXEL = 4  # shadow map texels per image pixel, beyond which deta
 MIN_SHADOW_SIZE = 2048
 
 
-def make_renderer(model, width: int, height: int) -> mujoco.Renderer:
-    """A rasteriser for images of this size.
+class RenderContext:
+    """Lazy EGL context shared across an environment's episodes."""
 
-    The offscreen buffer and shadow map are sized for the image rather than the scene's
-    defaults, which are set for large pictures: at 320x240 those would take gigabytes
-    of GPU memory per renderer.
+    def __init__(self):
+        self._context = None
+
+    def get(self, width: int, height: int):
+        """Return the context, creating it on first use."""
+        if self._context is None:
+            from mujoco.egl import GLContext
+
+            self._context = GLContext(width, height)
+        return self._context
+
+    def close(self) -> None:
+        """Release the context after its renderers close."""
+        context = self._context
+        self._context = None
+        if context is not None:
+            context.free()
+
+
+class _Renderer(mujoco.Renderer):
+    """MuJoCo renderer with a borrowed EGL context."""
+
+    def __init__(self, model, width: int, height: int, context):
+        # Initialize MuJoCo's renderer state directly because its constructor owns the GL context.
+        self._gl_context = context
+        self._mjr_context = None
+        self._width, self._height = width, height
+        self._model = model
+        self._scene = mujoco.MjvScene(model=model, maxgeom=10000)
+        self._scene_option = mujoco.MjvOption()
+        self._rect = mujoco.MjrRect(0, 0, width, height)
+        self._depth_rendering = False
+        self._segmentation_rendering = False
+        try:
+            context.make_current()
+            self._mjr_context = mujoco.MjrContext(model, mujoco.mjtFontScale.mjFONTSCALE_150.value)
+            mujoco.mjr_setBuffer(mujoco.mjtFramebuffer.mjFB_OFFSCREEN.value, self._mjr_context)
+            self._mjr_context.readDepthMap = mujoco.mjtDepthMap.mjDEPTH_ZEROFAR
+        except BaseException:
+            self.close()
+            raise
+
+    def render(self, *, out=None) -> np.ndarray:
+        """Select this renderer's framebuffer before drawing."""
+        if self._mjr_context is not None:
+            self._gl_context.make_current()
+            mujoco.mjr_restoreBuffer(self._mjr_context)
+        return super().render(out=out)
+
+    def close(self) -> None:
+        """Release model GPU resources, leaving the borrowed context open."""
+        context = self._mjr_context
+        self._mjr_context = None
+        try:
+            if context is not None:
+                self._gl_context.make_current()
+                context.free()
+        finally:
+            self._gl_context = None
+
+
+def make_renderer(model, width: int, height: int, *, context=None) -> mujoco.Renderer:
+    """Create a rasteriser with image-sized buffers and an optional shared EGL context.
+
+    Size offscreen buffers and shadow maps for the image to limit GPU memory use.
     """
     visual, quality = model.vis.global_, model.vis.quality
     visual.offwidth, visual.offheight = width, height
     quality.shadowsize = min(
         quality.shadowsize, max(MIN_SHADOW_SIZE, MAX_SHADOW_PER_PIXEL * max(width, height))
     )
+    if context is not None and os.environ.get("MUJOCO_GL", "").lower().strip() == "egl":
+        return _Renderer(model, width, height, context.get(width, height))
     return mujoco.Renderer(model, height=height, width=width)
 
 
@@ -187,7 +252,7 @@ def frame(
     Returns:
         A (height, width, 3) uint8 array.
     """
-    renderer = make_renderer(runtime.model, width, height)
+    renderer = make_renderer(runtime.model, width, height, context=runtime.render_context)
     try:
         with scene_options(runtime, regions, collision, focus) as options:
             renderer.update_scene(

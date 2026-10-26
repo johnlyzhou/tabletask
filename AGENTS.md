@@ -169,6 +169,11 @@ A new robot subclasses `tabletask.robots.Robot` with `model`, `cameras`, `setup`
 Images come from `runtime.images()` and `runtime.picture()`. By default they are
 rasterised with `mujoco.Renderer`.
 
+EGL environments retain a lazy context across resets. Runtimes release episode GPU
+resources; `Env.close()` frees the context, including after failed resets. Renderers
+select their own framebuffer before drawing. Standalone runtimes free their context
+through `close_renderer()`. Workers close their environment on every exit.
+
 `make(task, renderer="rtx")` path-traces them with NVIDIA's OVRTX instead
 (`pip install "tabletask[rtx]"`, an RTX GPU; `TABLETASK_RTX_GPU` picks GPUs).
 `mujoco/rtx.py` exports the scene to USD once and renders the stage. If OVRTX or
