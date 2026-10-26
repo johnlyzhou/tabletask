@@ -1,7 +1,7 @@
 <mujoco model="black_star_anise">
   <compiler angle="radian" meshdir="../mesh/black_star_anise" texturedir="../mesh/black_star_anise" />
   <custom>
-    <text name="label" data="black star anise|star anise|spice|dark brown star anise|dried dark brown star anise pod" />
+    <text name="label" data="star anise pod|star anise" />
     <text name="tags" data="pickable" />
     <text name="category" data="star anise" />
   </custom>

@@ -2,7 +2,8 @@
   <!-- chocolate_donut, converted from the MolmoSpaces Objaverse library (uid 2b17a19500dd481685351ae5355aab5c; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/chocolate_donut" texturedir="../mesh/chocolate_donut"/>
   <custom>
-    <text name="label" data="red frosted donut|donut|doughnut|red glazed donut|donut with red frosting on top" />
+    <text name="label" data="chocolate glazed donut|donut" />
+    <text name="category" data="donut" />
   </custom>
   <default>
     <default class="place">

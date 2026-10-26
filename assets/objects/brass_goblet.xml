@@ -1,7 +1,8 @@
 <mujoco model="brass_goblet">
   <compiler angle="radian" meshdir="../mesh/brass_goblet" texturedir="../mesh/brass_goblet" />
   <custom>
-    <text name="label" data="brass goblet|goblet|chalice|small brass goblet|small brass goblet with ornate stem" />
+    <text name="label" data="brass goblet|goblet" />
+    <text name="category" data="goblet" />
   </custom>
   <default>
     <default class="place">

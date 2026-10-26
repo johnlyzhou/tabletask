@@ -1,7 +1,7 @@
 <mujoco model="purple_cookie_spatula">
   <compiler angle="radian" meshdir="../mesh/purple_cookie_spatula" texturedir="../mesh/purple_cookie_spatula" />
   <custom>
-    <text name="label" data="purple cookie spatula|spatula|turner|purple silicone spatula|purple cookie spatula with black handle" />
+    <text name="label" data="purple spatula|spatula" />
     <text name="tags" data="pickable" />
     <text name="category" data="spatula" />
   </custom>

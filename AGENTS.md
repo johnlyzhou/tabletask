@@ -466,3 +466,10 @@ commit `6c467ce`) and `robolab-` tasks from
 those benchmarks' scores: layouts, assets and episode distributions differ, and
 goals use TableTask's 0.5 s hold. `assets/sources/NOTICE.md` and the license texts
 beside it are required by the ported assets' licenses; keep them.
+
+## Shared asset pools
+
+Object entries may specify asset_pool instead of asset. The manifest path resolves relative to the declaring task
+file (the working directory for dict or JSON-string input). Manifests contain asset_count and selection records with
+asset names. Reject duplicate or empty members, mismatched counts, and simultaneous asset or document.assets overrides.
+Compile to ordinary asset lists so stored Task definitions do not need the source manifest for recovery.

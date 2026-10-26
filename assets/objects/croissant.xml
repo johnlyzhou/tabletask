@@ -1,7 +1,7 @@
 <mujoco model="croissant">
   <compiler angle="radian" meshdir="../mesh/croissant" texturedir="../mesh/croissant" />
   <custom>
-    <text name="label" data="croissant|pastry|crescent roll|golden croissant|flaky golden brown croissant" />
+    <text name="label" data="croissant|pastry" />
     <text name="tags" data="pickable" />
     <text name="category" data="pastry" />
   </custom>

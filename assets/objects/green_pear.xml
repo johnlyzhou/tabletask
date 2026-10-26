@@ -1,7 +1,7 @@
 <mujoco model="green_pear">
   <compiler angle="radian" meshdir="../mesh/green_pear" texturedir="../mesh/green_pear" />
   <custom>
-    <text name="label" data="green pear|pear|fruit|large green pear|round olive green pear with dark spots" />
+    <text name="label" data="green pear|pear" />
     <text name="tags" data="pickable" />
     <text name="category" data="pear" />
   </custom>

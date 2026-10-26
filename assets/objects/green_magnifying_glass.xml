@@ -1,7 +1,7 @@
 <mujoco model="green_magnifying_glass">
   <compiler angle="radian" meshdir="../mesh/green_magnifying_glass" texturedir="../mesh/green_magnifying_glass" />
   <custom>
-    <text name="label" data="green magnifying glass|magnifying glass|magnifier|green handheld magnifier|teal-green magnifying glass with orange handle" />
+    <text name="label" data="green magnifier with an orange handle|magnifying glass" />
     <text name="tags" data="pickable" />
     <text name="category" data="magnifying glass" />
   </custom>

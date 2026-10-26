@@ -1,7 +1,7 @@
 <mujoco model="ratchet_wrench">
   <compiler angle="radian" meshdir="../mesh/ratchet_wrench" texturedir="../mesh/ratchet_wrench" />
   <custom>
-    <text name="label" data="ratchet wrench|wrench|ratchet|silver ratchet|silver metal ratchet wrench with white grip" />
+    <text name="label" data="silver ratchet wrench|wrench" />
     <text name="tags" data="pickable" />
     <text name="category" data="wrench" />
   </custom>

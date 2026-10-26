@@ -2,7 +2,7 @@
   <!-- orange_toy_truck, converted from the MolmoSpaces Objaverse library (uid 5397be7779634d2a843d3f7198e54f02; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/orange_toy_truck" texturedir="../mesh/orange_toy_truck"/>
   <custom>
-    <text name="label" data="yellow toy truck|toy truck|delivery truck|yellow box truck|yellow toy box truck with white wheels" />
+    <text name="label" data="orange toy box truck|toy truck" />
     <text name="tags" data="pickable" />
     <text name="category" data="toy truck" />
   </custom>

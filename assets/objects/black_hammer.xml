@@ -1,7 +1,7 @@
 <mujoco model="black_hammer">
   <compiler angle="radian" meshdir="../mesh/black_hammer" texturedir="../mesh/black_hammer" />
   <custom>
-    <text name="label" data="black hammer|hammer|sledgehammer|black head hammer|black head hammer with wooden handle" />
+    <text name="label" data="dark hammer with a wooden handle|hammer" />
     <text name="tags" data="pickable" />
     <text name="category" data="hammer" />
   </custom>

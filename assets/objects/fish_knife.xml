@@ -1,7 +1,7 @@
 <mujoco model="fish_knife">
   <compiler angle="radian" meshdir="../mesh/fish_knife" texturedir="../mesh/fish_knife" />
   <custom>
-    <text name="label" data="fish knife|knife|fillet knife|brown fish knife|fish knife with brown handle and short blade" />
+    <text name="label" data="short knife with a brown handle|knife" />
     <text name="tags" data="pickable" />
     <text name="category" data="knife" />
   </custom>

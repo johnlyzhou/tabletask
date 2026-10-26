@@ -1,7 +1,8 @@
 <mujoco model="black_megaminx_puzzle">
   <compiler angle="radian" meshdir="../mesh/black_megaminx_puzzle" texturedir="../mesh/black_megaminx_puzzle" />
   <custom>
-    <text name="label" data="black megaminx puzzle|megaminx|puzzle|dodecahedron puzzle|black megaminx puzzle with colorful stickers" />
+    <text name="label" data="multicolored dodecahedron puzzle|puzzle" />
+    <text name="category" data="puzzle" />
   </custom>
   <default>
     <default class="place">

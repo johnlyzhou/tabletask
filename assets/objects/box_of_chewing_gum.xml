@@ -1,7 +1,7 @@
 <mujoco model="box_of_chewing_gum">
   <compiler angle="radian" meshdir="../mesh/box_of_chewing_gum" texturedir="../mesh/box_of_chewing_gum" />
   <custom>
-    <text name="label" data="box of chewing gum|gum box|chewing gum|pink gum box|pink cardboard pack of chewing gum" />
+    <text name="label" data="box of chewing gum|box" />
     <text name="tags" data="pickable" />
     <text name="category" data="box" />
   </custom>

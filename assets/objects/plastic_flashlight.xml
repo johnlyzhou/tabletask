@@ -1,7 +1,7 @@
 <mujoco model="plastic_flashlight">
   <compiler angle="radian" meshdir="../mesh/plastic_flashlight" texturedir="../mesh/plastic_flashlight" />
   <custom>
-    <text name="label" data="plastic flashlight|flashlight|torch|yellow flashlight|yellow plastic flashlight with black head" />
+    <text name="label" data="yellow flashlight|flashlight" />
     <text name="tags" data="pickable" />
     <text name="category" data="flashlight" />
   </custom>

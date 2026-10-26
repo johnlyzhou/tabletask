@@ -2,7 +2,7 @@
   <!-- orange_soda_can, converted from the MolmoSpaces Objaverse library (uid 51226d166ef84bfcbe5c63bfd389a152; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/orange_soda_can" texturedir="../mesh/orange_soda_can"/>
   <custom>
-    <text name="label" data="can of orange soda|soda can|soft drink|orange soda can|yellow-orange aluminium can of orange soda" />
+    <text name="label" data="orange soda can|can" />
     <text name="tags" data="pickable" />
     <text name="category" data="can" />
   </custom>

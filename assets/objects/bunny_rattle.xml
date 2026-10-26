@@ -1,7 +1,7 @@
 <mujoco model="bunny_rattle">
   <compiler angle="radian" meshdir="../mesh/bunny_rattle" texturedir="../mesh/bunny_rattle" />
   <custom>
-    <text name="label" data="bunny rattle|rattle|baby rattle|wooden bunny rattle|wooden bunny baby rattle with carrot" />
+    <text name="label" data="bunny rattle|rattle" />
     <text name="tags" data="pickable" />
     <text name="category" data="rattle" />
   </custom>

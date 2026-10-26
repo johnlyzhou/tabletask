@@ -1,7 +1,7 @@
 <mujoco model="abc_wood_cube">
   <compiler angle="radian" meshdir="../mesh/abc" texturedir="../mesh/abc" />
   <custom>
-    <text name="label" data="wooden wedge|wedge|triangle block|wooden triangle wedge|small light wooden triangular wedge block" />
+    <text name="label" data="wooden triangle wedge|wedge" />
     <text name="tags" data="pickable" />
     <text name="category" data="wedge" />
   </custom>

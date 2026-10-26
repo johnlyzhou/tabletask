@@ -1,7 +1,7 @@
 <mujoco model="round_orange">
   <compiler angle="radian" meshdir="../mesh/round_orange" texturedir="../mesh/round_orange" />
   <custom>
-    <text name="label" data="round orange|orange|citrus fruit|ripe orange fruit|round bright orange citrus fruit with dimpled peel" />
+    <text name="label" data="textured orange|orange" />
     <text name="tags" data="pickable" />
     <text name="category" data="orange" />
   </custom>

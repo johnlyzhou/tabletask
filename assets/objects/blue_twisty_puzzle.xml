@@ -1,9 +1,9 @@
 <mujoco model="blue_twisty_puzzle">
   <compiler angle="radian" meshdir="../mesh/blue_twisty_puzzle" texturedir="../mesh/blue_twisty_puzzle" />
   <custom>
-    <text name="label" data="blue twisty puzzle|twisty puzzle|puzzle cube|blue white puzzle|blue and white pyramid shaped twisty puzzle" />
+    <text name="label" data="blue and white pyramid puzzle|puzzle" />
     <text name="tags" data="pickable" />
-    <text name="category" data="puzzle cube" />
+    <text name="category" data="puzzle" />
   </custom>
   <default>
     <default class="place">

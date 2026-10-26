@@ -1,7 +1,7 @@
 <mujoco model="wooden_elephant">
   <compiler angle="radian" meshdir="../mesh/wooden_elephant" texturedir="../mesh/wooden_elephant" />
   <custom>
-    <text name="label" data="carved wooden elephant|elephant|elephant figure|brown wooden elephant|brown hand-carved wooden elephant figure" />
+    <text name="label" data="wooden elephant figurine|elephant" />
     <text name="tags" data="pickable" />
     <text name="category" data="elephant" />
   </custom>

@@ -1,7 +1,7 @@
 <mujoco model="dark_green_cucumber">
   <compiler angle="radian" meshdir="../mesh/dark_green_cucumber" texturedir="../mesh/dark_green_cucumber" />
   <custom>
-    <text name="label" data="dark green cucumber|cucumber|cuke|halved green cucumber|dark green cucumber cut lengthwise in half" />
+    <text name="label" data="cucumber half|cucumber" />
     <text name="tags" data="pickable" />
     <text name="category" data="cucumber" />
   </custom>

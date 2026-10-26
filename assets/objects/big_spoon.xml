@@ -1,7 +1,7 @@
 <mujoco model="big_spoon">
   <compiler angle="radian" meshdir="../mesh/big_spoon" texturedir="../mesh/big_spoon" />
   <custom>
-    <text name="label" data="large spoon|spoon|serving spoon|large steel spoon|large shiny stainless steel serving spoon" />
+    <text name="label" data="steel spoon|spoon" />
     <text name="tags" data="pickable" />
     <text name="category" data="spoon" />
   </custom>

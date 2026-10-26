@@ -1,7 +1,7 @@
 <mujoco model="whale_whistle">
   <compiler angle="radian" meshdir="../mesh/whale_whistle" texturedir="../mesh/whale_whistle" />
   <custom>
-    <text name="label" data="whale whistle|whistle|toy whistle|teal whale whistle|teal ceramic whale-shaped whistle" />
+    <text name="label" data="teal whale whistle|whistle" />
     <text name="tags" data="pickable" />
     <text name="category" data="whistle" />
   </custom>

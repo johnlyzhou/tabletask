@@ -1,7 +1,7 @@
 <mujoco model="bird_rattle">
   <compiler angle="radian" meshdir="../mesh/bird_rattle" texturedir="../mesh/bird_rattle" />
   <custom>
-    <text name="label" data="bird rattle|rattle|baby rattle|colorful bird rattle|colorful baby rattle with red dotted bird" />
+    <text name="label" data="bird rattle|rattle" />
     <text name="tags" data="pickable" />
     <text name="category" data="rattle" />
   </custom>

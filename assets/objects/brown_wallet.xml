@@ -1,7 +1,7 @@
 <mujoco model="brown_wallet">
   <compiler angle="radian" meshdir="../mesh/brown_wallet" texturedir="../mesh/brown_wallet" />
   <custom>
-    <text name="label" data="brown wallet|wallet|billfold|leather wallet|small dark brown leather wallet" />
+    <text name="label" data="brown wallet|wallet" />
     <text name="tags" data="pickable" />
     <text name="category" data="wallet" />
   </custom>

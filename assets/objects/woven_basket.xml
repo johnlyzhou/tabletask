@@ -2,7 +2,7 @@
   <!-- woven_basket, converted from the MolmoSpaces Objaverse library (uid 13e2e288ceb6419ebd68c3eb8c29237b; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/woven_basket" texturedir="../mesh/woven_basket"/>
   <custom>
-    <text name="label" data="woven basket|basket|wicker basket|round woven basket|round brown woven wicker basket" />
+    <text name="label" data="woven basket|basket" />
     <text name="tags" data="container" />
     <text name="category" data="basket" />
   </custom>

@@ -2,7 +2,7 @@
   <!-- red_party_cup, converted from the MolmoSpaces Objaverse library (uid 22798b1b718749608a0e729d576727a4; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/red_party_cup" texturedir="../mesh/red_party_cup"/>
   <custom>
-    <text name="label" data="red party cup|cup|party cup|red plastic cup|red plastic party cup with white inside" />
+    <text name="label" data="red party cup|cup" />
     <text name="tags" data="pickable" />
     <text name="category" data="cup" />
   </custom>

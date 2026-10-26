@@ -1,7 +1,7 @@
 <mujoco model="stacking_rings_toy">
   <compiler angle="radian" meshdir="../mesh/stacking_rings_toy" texturedir="../mesh/stacking_rings_toy" />
   <custom>
-    <text name="label" data="stacking rings toy|stacking toy|ring stacker|rainbow ring stacker|rainbow stacking rings toy with red ball top" />
+    <text name="label" data="rainbow stacking rings toy|stacking toy" />
     <text name="tags" data="pickable" />
     <text name="category" data="stacking toy" />
   </custom>

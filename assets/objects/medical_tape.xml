@@ -1,9 +1,9 @@
 <mujoco model="medical_tape">
   <compiler angle="radian" meshdir="../mesh/medical_tape" texturedir="../mesh/medical_tape" />
   <custom>
-    <text name="label" data="roll of white tape|tape|tape roll|medical tape roll|small white roll of medical adhesive tape" />
+    <text name="label" data="small roll of white medical tape|tape roll" />
     <text name="tags" data="pickable" />
-    <text name="category" data="tape measure" />
+    <text name="category" data="tape roll" />
   </custom>
   <default>
     <default class="place">

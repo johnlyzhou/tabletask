@@ -1,7 +1,7 @@
 <mujoco model="blue_utility_knife">
   <compiler angle="radian" meshdir="../mesh/blue_utility_knife" texturedir="../mesh/blue_utility_knife" />
   <custom>
-    <text name="label" data="blue utility knife|utility knife|box cutter|dark blue cutter|dark blue retractable utility knife" />
+    <text name="label" data="dark blue utility knife|knife" />
     <text name="tags" data="pickable" />
     <text name="category" data="knife" />
   </custom>

@@ -1,7 +1,7 @@
 <mujoco model="spam_can">
   <compiler angle="radian" meshdir="../mesh/spam_can" texturedir="../mesh/spam_can" />
   <custom>
-    <text name="label" data="can of spam|can|spam can|blue canned meat|small rectangular blue and yellow can of spam" />
+    <text name="label" data="rectangular blue and yellow meat can|can" />
     <text name="tags" data="pickable" />
     <text name="category" data="can" />
   </custom>

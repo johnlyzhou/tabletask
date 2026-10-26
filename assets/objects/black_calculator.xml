@@ -2,7 +2,8 @@
   <!-- black_calculator, converted from the MolmoSpaces Objaverse library (uid 7547b73ba9e54c4d89bfa47ba5d6f23f; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/black_calculator" texturedir="../mesh/black_calculator"/>
   <custom>
-    <text name="label" data="calculator|desk calculator|adding machine|black desk calculator|black desk calculator with lcd display" />
+    <text name="label" data="black calculator|calculator" />
+    <text name="category" data="calculator" />
   </custom>
   <default>
     <default class="place">

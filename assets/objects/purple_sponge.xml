@@ -1,7 +1,7 @@
 <mujoco model="purple_sponge">
   <compiler angle="radian" meshdir="../mesh/purple_sponge" texturedir="../mesh/purple_sponge" />
   <custom>
-    <text name="label" data="purple sponge|sponge|kitchen sponge|lavender sponge|rectangular purple kitchen sponge" />
+    <text name="label" data="purple rectangular sponge|sponge" />
     <text name="tags" data="pickable" />
     <text name="category" data="sponge" />
   </custom>

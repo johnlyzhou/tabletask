@@ -1,7 +1,8 @@
 <mujoco model="teal_square_planter">
   <compiler angle="radian" meshdir="../mesh/teal_square_planter" texturedir="../mesh/teal_square_planter" />
   <custom>
-    <text name="label" data="teal square planter|planter|plant pot|square teal pot|square dark teal planter pot" />
+    <text name="label" data="teal square planter|plant pot" />
+    <text name="category" data="pot" />
   </custom>
   <default>
     <default class="place">

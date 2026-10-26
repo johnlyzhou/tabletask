@@ -2,7 +2,7 @@
   <!-- wooden_handled_fork, converted from the MolmoSpaces Objaverse library (uid 1332dcafbe5448a697b27a49797bb1bf; ODC-By 1.0). -->
   <compiler angle="radian" meshdir="../mesh/wooden_handled_fork" texturedir="../mesh/wooden_handled_fork"/>
   <custom>
-    <text name="label" data="fork with a wooden handle|fork|serving fork|orange-handled fork|metal fork with orange wooden handle" />
+    <text name="label" data="fork with a wooden handle|fork" />
     <text name="tags" data="pickable" />
     <text name="category" data="fork" />
   </custom>

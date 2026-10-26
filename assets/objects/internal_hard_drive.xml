@@ -1,7 +1,7 @@
 <mujoco model="internal_hard_drive">
   <compiler angle="radian" meshdir="../mesh/internal_hard_drive" texturedir="../mesh/internal_hard_drive" />
   <custom>
-    <text name="label" data="internal hard drive|hard drive|hdd|silver hard drive|silver and black internal hard disk drive" />
+    <text name="label" data="internal hard drive|hard drive" />
     <text name="tags" data="pickable" />
     <text name="category" data="hard drive" />
   </custom>

@@ -1,7 +1,7 @@
 <mujoco model="yellow_cheese">
   <compiler angle="radian" meshdir="../mesh/yellow_cheese" texturedir="../mesh/yellow_cheese" />
   <custom>
-    <text name="label" data="yellow cheese|cheese|cheese wedge|yellow cheese wedge|triangular wedge of pale yellow cheese" />
+    <text name="label" data="cheese wedge|cheese" />
     <text name="tags" data="pickable" />
     <text name="category" data="cheese" />
   </custom>

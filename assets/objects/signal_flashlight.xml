@@ -1,7 +1,7 @@
 <mujoco model="signal_flashlight">
   <compiler angle="radian" meshdir="../mesh/signal_flashlight" texturedir="../mesh/signal_flashlight" />
   <custom>
-    <text name="label" data="signal flashlight|flashlight|torch|dark green signal light|dark green rectangular signal flashlight with lens" />
+    <text name="label" data="green rectangular signal light|flashlight" />
     <text name="tags" data="pickable" />
     <text name="category" data="flashlight" />
   </custom>

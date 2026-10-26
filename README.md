@@ -67,3 +67,11 @@ envs.close()
 Tasks are ported from [ABC](https://github.com/amazon-far/abc) and
 [RoboLab](https://github.com/NVlabs/RoboLab). The robot models come from
 [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie).
+
+### Shared object pools
+
+An object entry may use `"asset_pool": "../pools/example/manifest.json"` instead of `asset`.
+The manifest contains `asset_count` and an ordered `selection` array of records with an `asset` name.
+Paths resolve relative to the task file, or the working directory for dictionary and JSON-string inputs.
+Empty pools, duplicate members, conflicting asset declarations, and mismatched counts are rejected.
+Loading expands the pool to an ordinary asset list, so compiled tasks remain usable without the manifest.

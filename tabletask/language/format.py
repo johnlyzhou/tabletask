@@ -75,6 +75,7 @@ class ObjectDocument(msgspec.Struct, forbid_unknown_fields=True):
     """An entry in a task file's `objects`."""
 
     asset: str | list[str] | schema.Generate | None = None
+    asset_pool: str | None = None
     tags: list[str] = []
     properties: dict[str, Any] = {}
     fixed: bool = False
@@ -170,7 +171,7 @@ def compile_document(doc: dict, source: Path | None = None) -> Task:
     local.update(document.states)
     words = _vocabulary(local)
     fixtures = set(document.fixtures)
-    entries = _parse_entries(document, fixtures, words)
+    entries = _parse_entries(document, fixtures, words, root)
     parser = _ConditionParser(
         words,
         fixtures,
@@ -339,7 +340,7 @@ class _ConditionParser:
 
 
 def _parse_entries(
-    document: Document, fixtures: set[str], words: set[str]
+    document: Document, fixtures: set[str], words: set[str], root: Path
 ) -> dict[str, ObjectDocument]:
     """Every object: those in `objects`, and any the start names that are not there."""
     if len(fixtures) != len(document.fixtures):
@@ -348,6 +349,21 @@ def _parse_entries(
         name: msgspec.convert(value, type=ObjectDocument)
         for name, value in document.objects.items()
     }
+
+    for name, entry in entries.items():
+        if entry.asset_pool is not None:
+            if entry.asset is not None or name in document.assets:
+                raise ValueError(f"{name}: choose asset_pool or asset, not both")
+            path = root / entry.asset_pool
+            manifest = json.loads(path.read_bytes())
+            assets = [row["asset"] for row in manifest["selection"]]
+            if not assets or any(not isinstance(asset, str) or not asset for asset in assets):
+                raise ValueError(f"{path}: asset pool needs nonempty asset names")
+            if len(set(assets)) != len(assets):
+                raise ValueError(f"{path}: duplicate asset pool members")
+            if manifest["asset_count"] != len(assets):
+                raise ValueError(f"{path}: asset_count does not match selection")
+            entry.asset = assets
 
     counted = {name for name, entry in entries.items() if entry.count != 1}
     for cond in document.start:

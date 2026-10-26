@@ -1,7 +1,7 @@
 <mujoco model="dark_red_dragon_fruit">
   <compiler angle="radian" meshdir="../mesh/dark_red_dragon_fruit" texturedir="../mesh/dark_red_dragon_fruit" />
   <custom>
-    <text name="label" data="dark red dragon fruit|dragon fruit|pitaya|red dragon fruit|chunk of dark red dragon fruit with scales" />
+    <text name="label" data="dragon fruit piece|dragon fruit" />
     <text name="tags" data="pickable" />
     <text name="category" data="dragon fruit" />
   </custom>

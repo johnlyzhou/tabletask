@@ -1,7 +1,7 @@
 <mujoco model="mustard">
   <compiler angle="radian" meshdir="../mesh/mustard" texturedir="../mesh/mustard" />
   <custom>
-    <text name="label" data="mustard bottle|condiment bottle|mustard|yellow mustard bottle|yellow plastic squeeze bottle of mustard" />
+    <text name="label" data="yellow mustard squeeze bottle|bottle" />
     <text name="tags" data="pickable" />
     <text name="category" data="bottle" />
   </custom>

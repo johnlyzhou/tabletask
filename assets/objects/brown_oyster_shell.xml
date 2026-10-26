@@ -1,7 +1,7 @@
 <mujoco model="brown_oyster_shell">
   <compiler angle="radian" meshdir="../mesh/brown_oyster_shell" texturedir="../mesh/brown_oyster_shell" />
   <custom>
-    <text name="label" data="brown oyster shell|oyster shell|shell|rough oyster shell|rough brown and white oyster shell" />
+    <text name="label" data="rough oyster shell|seashell" />
     <text name="tags" data="pickable" />
     <text name="category" data="seashell" />
   </custom>

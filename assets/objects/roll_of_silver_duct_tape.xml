@@ -1,7 +1,8 @@
 <mujoco model="roll_of_silver_duct_tape">
   <compiler angle="radian" meshdir="../mesh/roll_of_silver_duct_tape" texturedir="../mesh/roll_of_silver_duct_tape" />
   <custom>
-    <text name="label" data="roll of silver duct tape|duct tape|tape roll|silver tape roll|wide roll of silver duct tape" />
+    <text name="label" data="roll of silver duct tape|tape roll" />
+    <text name="category" data="tape roll" />
   </custom>
   <default>
     <default class="place">

@@ -1,7 +1,7 @@
 <mujoco model="pink_fitness_band">
   <compiler angle="radian" meshdir="../mesh/pink_fitness_band" texturedir="../mesh/pink_fitness_band" />
   <custom>
-    <text name="label" data="pink fitness band|fitness band|fitness tracker|pink wrist band|pink fitness tracker wrist band" />
+    <text name="label" data="pink fitness band|watch" />
     <text name="tags" data="pickable" />
     <text name="category" data="watch" />
   </custom>

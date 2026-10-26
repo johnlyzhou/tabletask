@@ -1,7 +1,7 @@
 <mujoco model="blue_scissors">
   <compiler angle="radian" meshdir="../mesh/blue_scissors" texturedir="../mesh/blue_scissors" />
   <custom>
-    <text name="label" data="blue scissors|scissors|shears|light blue scissors|light blue plastic handled scissors" />
+    <text name="label" data="short blue handled scissors|scissors" />
     <text name="tags" data="pickable" />
     <text name="category" data="scissors" />
   </custom>

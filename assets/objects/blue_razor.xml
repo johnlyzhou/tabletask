@@ -1,7 +1,7 @@
 <mujoco model="blue_razor">
   <compiler angle="radian" meshdir="../mesh/blue_razor" texturedir="../mesh/blue_razor" />
   <custom>
-    <text name="label" data="blue razor|razor|shaver|blue disposable razor|blue plastic disposable shaving razor" />
+    <text name="label" data="blue disposable razor|razor" />
     <text name="tags" data="pickable" />
     <text name="category" data="razor" />
   </custom>
