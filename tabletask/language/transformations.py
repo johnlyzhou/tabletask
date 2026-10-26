@@ -40,12 +40,14 @@ def draw(task: Task, rng) -> dict[str, str]:
     return values
 
 
-def multiply(task: Task, rng=None) -> Task:
+def multiply(task: Task, rng=None, groups=None) -> Task:
     """Draw each object's count and make numbered copies tagged with its name.
 
     An object with a count other than 1 always becomes `name1`, `name2`, ..., even when
     a range draws a single copy, so conditions can name the copies reliably. An object
-    whose asset is a pool gives each copy a different asset drawn from it.
+    whose asset is a pool gives each copy a different asset drawn from it; with `groups`,
+    a function splitting a pool into groups (such as its categories), each copy comes from
+    a different group, every group equally likely.
     """
     objects = task.scene.objects.values()
     if all(obj.count == 1 and not isinstance(obj.asset, list) for obj in objects):
@@ -57,7 +59,7 @@ def multiply(task: Task, rng=None) -> Task:
             count = _sample_count(obj.count, rng)
             written = record["scene"]["objects"][name]
             written.pop("count", None)
-            assets = _draw_assets(obj.asset, count, rng)
+            assets = _draw_assets(obj.asset, count, rng, groups)
             if obj.count == 1:
                 objects[name] = {**written, "asset": assets[0]}
                 continue
@@ -72,12 +74,20 @@ def multiply(task: Task, rng=None) -> Task:
     return transform_task(task, copies)
 
 
-def _draw_assets(asset, count: int, rng) -> list:
-    """Each copy's asset: a pool gives distinct assets in random order; one asset repeats."""
+def _draw_assets(asset, count: int, rng, groups=None) -> list:
+    """Each copy's asset: a pool gives distinct assets in random order; one asset repeats.
+
+    With `groups`, the copies come from distinct groups of the pool drawn uniformly, then
+    one asset from each, so a large group is no likelier than a small one.
+    """
     if not isinstance(asset, list):
         return [asset] * count
     if rng is None:
         return asset[:count]
+    split = groups(asset) if groups else None
+    if split and count <= len(split):
+        chosen = [split[i] for i in rng.choice(len(split), count, replace=False)]
+        return [group[int(rng.integers(len(group)))] for group in chosen]
     return [asset[i] for i in rng.choice(len(asset), count, replace=False)]
 
 

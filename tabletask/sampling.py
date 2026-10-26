@@ -1,5 +1,6 @@
 """Drawing a concrete task for an episode, and sampling a start for it."""
 
+import functools
 import xml.etree.ElementTree as ET
 from importlib import import_module
 from pathlib import Path
@@ -47,10 +48,15 @@ def labels(task: Task) -> dict[str, str]:
 
 def _asset_text(task: Task, asset, key: str) -> str | None:
     """A `<custom><text>` entry an asset file declares, such as its label or category."""
+    return _entry(task.root, asset, key)
+
+
+def _entry(root: Path, asset, key: str) -> str | None:
+    """A `<custom><text>` entry of the asset file `asset` names, found from `root`."""
     if not isinstance(asset, str):
         return None
     try:
-        path = fetching.resolve(asset, task.root)
+        path = fetching.resolve(asset, root)
         text = ET.parse(path).getroot().find(f"custom/text[@name='{key}']")
     except (OSError, ET.ParseError):
         return None
@@ -61,6 +67,18 @@ def _asset_labels(task: Task, asset) -> list[str]:
     """The names an asset file declares, main name first; empty if it names none."""
     text = _asset_text(task, asset, "label")
     return [name.strip() for name in text.split("|") if name.strip()] if text else []
+
+
+@functools.lru_cache(maxsize=None)
+def _groups(root, pool: tuple, key: str) -> list[list[str]]:
+    """A pool's assets grouped by the entry `key` they declare; one without it is its own group.
+
+    Cached, so a pool's asset files are read once per process rather than on every draw.
+    """
+    split = {}
+    for asset in pool:
+        split.setdefault(_entry(root, asset, key) or asset, []).append(asset)
+    return list(split.values())
 
 
 def _apart(task: Task) -> bool:
@@ -119,12 +137,16 @@ def _instantiate(task: Task, rng, bindings=None) -> Task:
     result.drawn = values
     if bindings:  # before copies are made, so a counted object's copies share its binding
         result = _attach(result, bindings)
-    copies = multiply(result, rng)
-    # a task that keeps a category `separate` draws its copies again until no two share one
+    # a task that keeps a category `separate` draws each pool's copies from distinct
+    # categories, every category equally likely
+    groups = (lambda pool: _groups(result.root, tuple(pool), task.separate)) if task.separate else None
+    copies = multiply(result, rng, groups)
+    # copies of different objects may still share one (a bowl item and a bowl container),
+    # so such a draw is made again
     for _ in range(DRAWS * 4):
         if not task.separate or _apart(copies):
             break
-        copies = multiply(result, rng)
+        copies = multiply(result, rng, groups)
     else:
         raise SamplingError(f"{task.id}: could not draw objects with no two sharing a {task.separate}")
     return _speak(concrete(realize_task(copies, rng)), words)
