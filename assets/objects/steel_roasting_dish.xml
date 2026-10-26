@@ -1,0 +1,94 @@
+<mujoco model="steel_roasting_dish">
+  <compiler angle="radian" meshdir="../mesh/steel_roasting_dish" texturedir="../mesh/steel_roasting_dish" />
+  <custom>
+    <text name="label" data="steel roasting dish|pan|roasting dish|steel roasting dish|deep stainless steel roasting dish with handles" />
+    <text name="tags" data="container" />
+    <text name="category" data="cake pan" />
+  </custom>
+  <default>
+    <default class="place">
+      <geom contype="0" conaffinity="0" rgba="0 0 0 0" group="4" mass="0" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="steel_roasting_dish_0_mesh" file="0.obj" />
+    <material name="steel_roasting_dish_0_skin" specular="0.2" shininess="0.3" roughness="0.5" metallic="0">
+      <layer texture="steel_roasting_dish_0_tex" role="rgb" />
+    </material>
+    <texture name="steel_roasting_dish_0_tex" type="2d" file="0.png" />
+    <mesh name="steel_roasting_dish_hull_00" file="hulls/h00.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_01" file="hulls/h01.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_02" file="hulls/h02.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_03" file="hulls/h03.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_04" file="hulls/h04.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_05" file="hulls/h05.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_06" file="hulls/h06.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_07" file="hulls/h07.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_08" file="hulls/h08.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_09" file="hulls/h09.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_10" file="hulls/h10.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_11" file="hulls/h11.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_12" file="hulls/h12.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_13" file="hulls/h13.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_14" file="hulls/h14.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_15" file="hulls/h15.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_16" file="hulls/h16.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_17" file="hulls/h17.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_18" file="hulls/h18.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_19" file="hulls/h19.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_20" file="hulls/h20.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_21" file="hulls/h21.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_22" file="hulls/h22.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_23" file="hulls/h23.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_24" file="hulls/h24.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_25" file="hulls/h25.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_26" file="hulls/h26.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_27" file="hulls/h27.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_28" file="hulls/h28.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_29" file="hulls/h29.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_30" file="hulls/h30.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_hull_31" file="hulls/h31.obj" maxhullvert="128" />
+    <mesh name="steel_roasting_dish_inside" file="inside.obj" />
+    <mesh name="steel_roasting_dish_top" file="top.obj" />
+  </asset>
+  <worldbody>
+    <body name="steel_roasting_dish">
+      <geom type="mesh" mesh="steel_roasting_dish_0_mesh" material="steel_roasting_dish_0_skin" contype="0" conaffinity="0" mass="0" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_00" rgba="0 0 0 0" group="3" mass="0.110571784" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_01" rgba="0 0 0 0" group="3" mass="0.0633484111" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_02" rgba="0 0 0 0" group="3" mass="0.0174191516" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_03" rgba="0 0 0 0" group="3" mass="0.0390015993" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_04" rgba="0 0 0 0" group="3" mass="0.0538265122" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_05" rgba="0 0 0 0" group="3" mass="0.0970061696" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_06" rgba="0 0 0 0" group="3" mass="0.0919624454" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_07" rgba="0 0 0 0" group="3" mass="0.0201815609" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_08" rgba="0 0 0 0" group="3" mass="0.00958503186" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_09" rgba="0 0 0 0" group="3" mass="0.0452121536" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_10" rgba="0 0 0 0" group="3" mass="0.0154455384" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_11" rgba="0 0 0 0" group="3" mass="0.0119436071" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_12" rgba="0 0 0 0" group="3" mass="0.00342551938" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_13" rgba="0 0 0 0" group="3" mass="0.0537456392" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_14" rgba="0 0 0 0" group="3" mass="0.0300769787" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_15" rgba="0 0 0 0" group="3" mass="0.0115108487" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_16" rgba="0 0 0 0" group="3" mass="0.0170785241" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_17" rgba="0 0 0 0" group="3" mass="0.0106441907" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_18" rgba="0 0 0 0" group="3" mass="0.0106398471" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_19" rgba="0 0 0 0" group="3" mass="0.0207694189" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_20" rgba="0 0 0 0" group="3" mass="0.0123575594" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_21" rgba="0 0 0 0" group="3" mass="0.00168807078" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_22" rgba="0 0 0 0" group="3" mass="0.0190222739" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_23" rgba="0 0 0 0" group="3" mass="0.00895707304" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_24" rgba="0 0 0 0" group="3" mass="0.00938695278" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_25" rgba="0 0 0 0" group="3" mass="0.0174787101" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_26" rgba="0 0 0 0" group="3" mass="0.0169702004" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_27" rgba="0 0 0 0" group="3" mass="0.00422224281" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_28" rgba="0 0 0 0" group="3" mass="0.00466050623" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_29" rgba="0 0 0 0" group="3" mass="0.00421512159" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_30" rgba="0 0 0 0" group="3" mass="0.0098041476" friction="0.9 0.01 0.002" condim="4" />
+      <geom type="mesh" mesh="steel_roasting_dish_hull_31" rgba="0 0 0 0" group="3" mass="0.00204276797" friction="0.9 0.01 0.002" condim="4" />
+      <geom name="place:bounds" class="place" type="box" size="0.1800 0.1250 0.0300" pos="0.0000 0.0000 0.0300" />
+      <geom name="place:inside" class="place" type="mesh" mesh="steel_roasting_dish_inside" />
+      <geom name="place:top" class="place" type="mesh" mesh="steel_roasting_dish_top" />
+    </body>
+  </worldbody>
+</mujoco>

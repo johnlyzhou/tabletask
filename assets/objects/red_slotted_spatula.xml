@@ -44,7 +44,7 @@
       <geom type="mesh" mesh="red_slotted_spatula_hull_09" rgba="0 0 0 0" group="3" mass="0.0145779143" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="red_slotted_spatula_hull_10" rgba="0 0 0 0" group="3" mass="0.00261066419" friction="0.9 0.01 0.002" condim="4" />
       <geom type="mesh" mesh="red_slotted_spatula_hull_11" rgba="0 0 0 0" group="3" mass="0.00527702325" friction="0.9 0.01 0.002" condim="4" />
-      <geom name="place:bounds" class="place" type="box" size="0.1510 0.1055 0.0320" pos="0.0000 0.0000 0.0320" />
+      <geom name="place:bounds" class="place" type="box" size="0.1518 0.1062 0.0173" pos="0.0000 0.0000 0.0173" />
     </body>
   </worldbody>
 </mujoco>
