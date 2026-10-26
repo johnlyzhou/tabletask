@@ -1,9 +1,9 @@
 <mujoco model="lime">
   <compiler angle="radian" meshdir="../mesh/lime" texturedir="../mesh/lime" />
   <custom>
-    <text name="label" data="lime|citrus|citrus fruit|green lime|round textured bright green lime" />
+    <text name="label" data="green lime|lime" />
     <text name="tags" data="pickable" />
-    <text name="category" data="orange" />
+    <text name="category" data="lime" />
   </custom>
   <default>
     <default class="place">

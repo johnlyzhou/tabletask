@@ -1,7 +1,7 @@
 <mujoco model="groove_pliers">
   <compiler angle="radian" meshdir="../mesh/groove_pliers" texturedir="../mesh/groove_pliers" />
   <custom>
-    <text name="label" data="tongue-and-groove pliers|pliers|channel locks|adjustable groove pliers|black adjustable tongue-and-groove pliers" />
+    <text name="label" data="black tongue and groove pliers|pliers" />
     <text name="tags" data="pickable" />
     <text name="category" data="pliers" />
   </custom>
