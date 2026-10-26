@@ -18,7 +18,7 @@ from ..language.schema import Task
 from . import geometry
 from .geometry import DIRECTIONS, collides, geoms_under, height, hull, static_contacts, under
 from .model import save
-from .render import DEFAULT_CAMERA, frame, make_renderer, scene_options
+from .render import DEFAULT_CAMERA, RenderContext, frame, make_renderer, scene_options
 from .rtx import attach
 
 SETTLE_RATE = 4  # damping per unit mass (or inertia) applied while settling, in 1/s
@@ -66,6 +66,8 @@ class Runtime:
         self._cache: dict = {}
         self.started: dict = {}
         self.start_state = None
+        self.render_context = RenderContext()
+        self._owns_render_context = True
         self._renderer = None
         self._image_size = None
         self._box_renderer = None
@@ -407,7 +409,7 @@ class Runtime:
                 self._raster_fallback(error)
         if self._renderer is None or self._image_size != (width, height):
             self.close_renderer()
-            self._renderer = make_renderer(self.model, width, height)
+            self._renderer = make_renderer(self.model, width, height, context=self.render_context)
             self._image_size = (width, height)
         out = {}
         with scene_options(self, regions) as options:
@@ -440,7 +442,9 @@ class Runtime:
             samples = self.model.vis.quality.offsamples
             self.model.vis.quality.offsamples = 0
             try:
-                self._box_renderer = make_renderer(self.model, width, height)
+                self._box_renderer = make_renderer(
+                    self.model, width, height, context=self.render_context
+                )
             finally:
                 self.model.vis.quality.offsamples = samples
             self._box_renderer.enable_segmentation_rendering()
@@ -480,6 +484,16 @@ class Runtime:
         )
         self.close_renderer()
 
+    def borrow_render_context(self, context=None):
+        """Borrow a render context, leaving final cleanup to the caller.
+
+        None transfers this runtime's empty context. Call before creating renderers.
+        """
+        if context is not None:
+            self.render_context = context
+        self._owns_render_context = False
+        return self.render_context
+
     def close_renderer(self) -> None:
         """Release the RTX session and raster renderers, if open."""
         rtx, raster = self._rtx, self._renderer
@@ -497,8 +511,12 @@ class Runtime:
                 if raster is not None:
                     raster.close()
             finally:
-                if boxes is not None:
-                    boxes.close()
+                try:
+                    if boxes is not None:
+                        boxes.close()
+                finally:
+                    if self._owns_render_context:
+                        self.render_context.close()
 
     def reset(self) -> None:
         """Return to the scene's keyframe, if it has one."""

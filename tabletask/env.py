@@ -42,6 +42,7 @@ class Env:
         self.scene = scene
         self.bindings = bindings
         self.runtime = None
+        self._render_context = None
         self.status = Status()
         self.episode = -1
         self.robot = None
@@ -93,21 +94,22 @@ class Env:
             raise ValueError(f"unknown renderer {self.renderer!r}; use None or 'rtx'")
         if self.reward not in ("success", "subtasks"):
             raise ValueError(f"unknown reward {self.reward!r}; use 'success' or 'subtasks'")
-        self.close()
-        episode = episode if seed is None else seed
-        if self.robot is not None and hasattr(self.robot, "start_pose"):
-            self.robot.start = self.robot.start_pose(episode)
-        if self.robot is not None and hasattr(self.robot, "place"):
-            self.robot.place(episode)
-        self.runtime = build(
-            self.template,
-            episode,
-            self.scene,
-            self.bindings,
-            robot=self.robot,
-            backend=self.backend,
-        )
         try:
+            self._close_runtime()
+            episode = episode if seed is None else seed
+            if self.robot is not None and hasattr(self.robot, "start_pose"):
+                self.robot.start = self.robot.start_pose(episode)
+            if self.robot is not None and hasattr(self.robot, "place"):
+                self.robot.place(episode)
+            self.runtime = build(
+                self.template,
+                episode,
+                self.scene,
+                self.bindings,
+                robot=self.robot,
+                backend=self.backend,
+            )
+            self._render_context = self.runtime.borrow_render_context(self._render_context)
             self.task = self.runtime.task
             self._object_labels = None
             self.episode = episode
@@ -260,12 +262,22 @@ class Env:
                 observation["bounding_boxes"] = boxes
         return observation
 
-    def close(self):
-        """Release the episode's simulator and renderer."""
+    def _close_runtime(self):
+        """Close episode resources, retaining the render context."""
         runtime = self.runtime
         self.runtime = None
         if runtime is not None:
             runtime.close_renderer()
+
+    def close(self):
+        """Release episode resources and the retained render context."""
+        try:
+            self._close_runtime()
+        finally:
+            context = self._render_context
+            self._render_context = None
+            if context is not None:
+                context.close()
 
     def _require_reset(self):
         if self.runtime is None:

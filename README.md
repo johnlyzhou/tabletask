@@ -61,6 +61,9 @@ observations, rewards, terminated, truncated, infos = envs.step(actions)
 envs.close()
 ```
 
+EGL environments reuse their OpenGL context across resets. Call `env.close()` or
+`envs.close()` to release it.
+
 ### Optional bounding-box labels
 
 Request labels for named task objects in selected cameras. For `pick-max`, `item1`
