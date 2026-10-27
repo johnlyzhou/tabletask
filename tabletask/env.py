@@ -3,13 +3,15 @@
 from __future__ import annotations
 
 import math
+from copy import deepcopy
 from numbers import Integral
 
+from .language.format import load
 from .language.monitor import Monitor, Status
 from .language.schema import Task
 from .privileged import privileged_state
 from .robots import Robot
-from .sampling import build, labels
+from .sampling import build, capture, labels, restore
 
 
 class Env:
@@ -41,6 +43,7 @@ class Env:
         self.backend = backend
         self.scene = scene
         self.bindings = bindings
+        self._episode_template = task
         self.runtime = None
         self._render_context = None
         self.status = Status()
@@ -76,39 +79,66 @@ class Env:
         self.robot = robot
         return self
 
-    def reset(self, episode=0, *, seed=None, options=None):
-        """Sample the start of an episode.
-
-        The same episode number always gives the same start, including every object's
-        settled pose and the robot's joints.
+    def reset(
+        self,
+        episode=None,
+        *,
+        seed=None,
+        task=None,
+        state=None,
+        scene=None,
+        bindings=None,
+        capture_reset_state=False,
+        options=None,
+    ):
+        """Sample or replay an episode start. Omitted overrides use configured defaults.
 
         Args:
-            episode: The episode number, which seeds the start.
-            seed: Alias for `episode`, as in Gymnasium.
-            options: Accepted for Gymnasium compatibility; unused.
+            episode: Sampling seed, default 0.
+            seed: Alias for episode.
+            task: Task id, path, document or Task for this reset. Replay requires the same scene.
+            state: Captured ResetState to replay, using its seed.
+            scene: Scene XML override for this reset.
+            bindings: Asset bindings for this reset. An empty dict clears configured bindings.
+            capture_reset_state: Include ResetState in info["reset_state"].
+            options: Unused Gymnasium compatibility argument.
 
         Returns:
-            (observation, info), as `step` returns them.
+            (observation, info), with reset_state included in info only when requested.
         """
         if self.renderer not in (None, "rtx"):
             raise ValueError(f"unknown renderer {self.renderer!r}; use None or 'rtx'")
         if self.reward not in ("success", "subtasks"):
             raise ValueError(f"unknown reward {self.reward!r}; use 'success' or 'subtasks'")
+        if state is not None and (scene is not None or bindings is not None):
+            raise ValueError("state fixes the scene and bindings")
+        episode = episode if seed is None else seed
+        if state is not None:
+            if episode is not None and episode != state.seed:
+                raise ValueError("seed must match the captured reset state")
+            if self.backend != state.backend:
+                raise ValueError("reset state backend does not match the environment")
+            episode = state.seed
+        episode = 0 if episode is None else int(episode)
         try:
             self._close_runtime()
-            episode = episode if seed is None else seed
-            if self.robot is not None and hasattr(self.robot, "start_pose"):
-                self.robot.start = self.robot.start_pose(episode)
-            if self.robot is not None and hasattr(self.robot, "place"):
-                self.robot.place(episode)
-            self.runtime = build(
-                self.template,
-                episode,
-                self.scene,
-                self.bindings,
-                robot=self.robot,
-                backend=self.backend,
-            )
+            if state is None:
+                self._episode_template = self.template if task is None else load(task)
+                if self.robot is not None and hasattr(self.robot, "start_pose"):
+                    self.robot.start = self.robot.start_pose(episode)
+                if self.robot is not None and hasattr(self.robot, "place"):
+                    self.robot.place(episode)
+                self.runtime = build(
+                    self._episode_template,
+                    episode,
+                    self.scene if scene is None else scene,
+                    self.bindings if bindings is None else bindings,
+                    robot=self.robot,
+                    backend=self.backend,
+                )
+            else:
+                self._episode_template = deepcopy(state.template)
+                self.runtime = restore(state, task)
             self._render_context = self.runtime.borrow_render_context(self._render_context)
             self.task = self.runtime.task
             self._object_labels = None
@@ -118,7 +148,15 @@ class Env:
             self.monitor = Monitor(self.task)
             self.status = self.monitor.reset(self.runtime)
             self._best = self.status.progress
-            return self.observe(), self._info()
+            info = self._info()
+            if capture_reset_state:
+                info["reset_state"] = capture(
+                    self.runtime,
+                    self._episode_template,
+                    self.episode,
+                    backend=self.backend,
+                )
+            return self.observe(), info
         except BaseException:
             self.close()
             raise
@@ -219,7 +257,7 @@ class Env:
             observation["robot"] = runtime.robot.observe()
             if "tcp_pose" in observation["robot"]:
                 observation["priv_combined"] = privileged_state(
-                    runtime, observation["robot"], self.status.time, self.template
+                    runtime, observation["robot"], self.status.time, self._episode_template
                 )
 
         available = runtime.robot.cameras if runtime.robot is not None else ()

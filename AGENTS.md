@@ -52,8 +52,8 @@ success rates.
   `monitor.py` tracks stages over an episode. `vocabulary.py` has the defined
   words and quantifiers, `modules.py` loads `uses` modules,
   `errors.py` has the two exceptions, `rotation.py` has quaternion helpers.
-- `sampling.py` draws an episode's concrete task and asks the simulator for a
-  settled start; `env.py` runs episodes.
+- `sampling.py` draws concrete tasks and dispatches start sampling, capture and replay.
+  `episodes.py` defines replay records; `env.py` manages episode lifecycle.
 - `fetching.py` downloads the assets a task names on first use, from the library at the
   package's own revision (the commit a git install names, else the tag `v<version>`), into
   `~/.cache/tabletask/<revision>/`; files of another revision are never reused. Tag each
@@ -106,6 +106,24 @@ at the end; `set(image_size=...)` and `get("task.instruction")` reach every work
 Workers are spawned without re-running the caller's script, so they load only tabletask;
 `import_main=True` re-runs it, for a robot or other object defined in that script, and
 then the script needs a `__main__` guard.
+
+Per-episode reset kwargs are explicit: task, scene and bindings override only that
+reset. They never replace the configured template or defaults. Privileged observation
+padding uses the episode's template. Envs.reset(reset_kwargs=[...], envs=...) forwards
+one dictionary per selected worker; legacy episodes lists remain supported.
+Drain every dispatched response before reporting a worker error, so later calls
+cannot consume stale replies.
+
+Env owns episode task selection, monitor lifecycle and reset info. sampling.py owns
+backend dispatch and task compatibility checks for sampling, capture and replay.
+ResetState in episodes.py carries task metadata and an opaque backend payload.
+The MuJoCo backend owns XML, snapshots and robot rebinding; Runtime retains the
+unbound robot configuration used for capture. Vector workers only transport reset
+kwargs and results. No queue or pairing logic belongs in the simulator.
+
+Capture is opt-in through info["reset_state"]. Replay records restored poses as the
+new start and resets monitor/reward progress. Refresh derived poses after settling
+before validating and recording starts.
 
 The observation has `time`, `objects` (name -> position and wxyz quaternion),
 `robot` and `images`. Set `env.cameras` (a name, a list, or `False`) and

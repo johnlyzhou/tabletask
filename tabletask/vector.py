@@ -12,10 +12,25 @@ import random
 import subprocess
 import sys
 from contextlib import contextmanager, nullcontext, suppress
+from dataclasses import dataclass
 
 import numpy as np
 
 _EGL_CUDA_DEVICE_NV = 0x323A
+
+
+@dataclass
+class _WorkerError:
+    message: str
+
+
+def _receive(pipes):
+    """Drain every dispatched response before raising a worker error."""
+    results = [pipe.recv() for pipe in pipes]
+    for result in results:
+        if isinstance(result, _WorkerError):
+            raise RuntimeError(result.message)
+    return results
 
 
 def egl_devices(gpus) -> list[int]:
@@ -87,26 +102,31 @@ def _worker(pipe, source, robot, options) -> None:
     try:
         while True:
             command, data = pipe.recv()
-            if command == "reset":
-                result = env.reset(data)
-                _trim_memory()
-            elif command == "step":
-                actions, seconds = data
-                result = _step(env, actions, seconds)
-            elif command == "observe":
-                result = env.observe(**data)
-            elif command == "get":
-                result = env
-                for part in data.split("."):
-                    result = getattr(result, part)
-            elif command == "set":
-                for name, value in data.items():
-                    setattr(env, name, value)
-                result = None
-            elif command == "close":
-                env.close()
-                pipe.send(None)
-                break
+            try:
+                if command == "reset":
+                    result = env.reset(**data)
+                    _trim_memory()
+                elif command == "step":
+                    actions, seconds = data
+                    result = _step(env, actions, seconds)
+                elif command == "observe":
+                    result = env.observe(**data)
+                elif command == "get":
+                    result = env
+                    for part in data.split("."):
+                        result = getattr(result, part)
+                elif command == "set":
+                    for name, value in data.items():
+                        setattr(env, name, value)
+                    result = None
+                elif command == "close":
+                    env.close()
+                    pipe.send(None)
+                    break
+                else:
+                    raise ValueError(f"unknown worker command: {command}")
+            except Exception as error:
+                result = _WorkerError(f"{type(error).__name__}: {error}")
             pipe.send(result)
     except (EOFError, BrokenPipeError):
         pass
@@ -205,7 +225,7 @@ class Envs:
     def _ask(self, command, data):
         for pipe in self._pipes:
             pipe.send((command, data))
-        return [pipe.recv() for pipe in self._pipes]
+        return _receive(self._pipes)
 
     def set(self, **attributes) -> None:
         """Set attributes on every environment, such as `image_size` or `cameras`."""
@@ -215,25 +235,33 @@ class Envs:
         """An attribute of each environment, by dotted name: `get("task.instruction")`."""
         return self._ask("get", name)
 
-    def reset(self, episodes=None, envs=None):
+    def reset(self, episodes=None, envs=None, *, reset_kwargs=None):
         """Start an episode in each environment (or only those in `envs`).
 
         Args:
             episodes: One episode number per environment reset, or None for random ones.
             envs: Indices of the environments to reset; None for all.
+            reset_kwargs: One Env.reset keyword dict per selected worker. Mutually exclusive
+                with episodes.
 
         Returns:
             (observations, infos): lists, one entry per environment reset.
         """
         envs = list(range(self.num_envs)) if envs is None else list(envs)
-        if episodes is None:
-            episodes = [random.randrange(2**31) for _ in envs]
-        episodes = [int(e) for e in episodes]
-        if len(episodes) != len(envs):
-            raise ValueError(f"{len(envs)} environments reset but {len(episodes)} episodes given")
-        for i, episode in zip(envs, episodes):
-            self._pipes[i].send(("reset", episode))
-        results = [self._pipes[i].recv() for i in envs]
+        if reset_kwargs is not None and episodes is not None:
+            raise ValueError("choose episodes or reset_kwargs")
+        if reset_kwargs is None:
+            if episodes is None:
+                episodes = [random.randrange(2**31) for _ in envs]
+            reset_kwargs = [{"seed": int(episode)} for episode in episodes]
+        reset_kwargs = list(reset_kwargs)
+        if len(reset_kwargs) != len(envs):
+            raise ValueError(f"{len(envs)} environments reset but {len(reset_kwargs)} resets given")
+        if len(set(envs)) != len(envs):
+            raise ValueError("reset environment indices must be distinct")
+        for i, kwargs in zip(envs, reset_kwargs):
+            self._pipes[i].send(("reset", kwargs))
+        results = _receive([self._pipes[i] for i in envs])
         return [r[0] for r in results], [r[1] for r in results]
 
     def step(self, actions, seconds=0.05):
@@ -254,8 +282,8 @@ class Envs:
         for i in active:
             self._pipes[i].send(("step", (actions[i], seconds)))
         results = [None] * self.num_envs
-        for i in active:
-            results[i] = self._pipes[i].recv()
+        for i, result in zip(active, _receive([self._pipes[i] for i in active])):
+            results[i] = result
         return tuple([None if r is None else r[k] for r in results] for k in range(5))
 
     def observe(self, **kwargs) -> list:

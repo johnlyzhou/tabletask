@@ -3,6 +3,7 @@
 __version__ = "0.2.3"  # set before the imports: asset fetching reads it
 
 from .env import Env
+from .episodes import ResetState
 from .inspection import preview as _preview
 from .language.errors import SamplingError, UnsupportedError
 from .language.format import dumps, json_schema, load, tasks
@@ -15,6 +16,7 @@ from .vector import Envs
 __all__ = [
     "Env",
     "Envs",
+    "ResetState",
     "SamplingError",
     "Task",
     "UnsupportedError",
