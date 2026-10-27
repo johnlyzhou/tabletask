@@ -59,6 +59,7 @@ class Runtime:
     def __init__(self, task: Task, xml: str):
         self.task = task
         self.robot = None
+        self.robot_template = None
         self.xml = xml
 
         self.model = copy.deepcopy(_compiled(xml))

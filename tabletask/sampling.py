@@ -1,13 +1,15 @@
-"""Drawing a concrete task for an episode, and sampling a start for it."""
+"""Task sampling and simulator dispatch for episode starts."""
 
 import functools
 import xml.etree.ElementTree as ET
+from copy import deepcopy
 from importlib import import_module
 from pathlib import Path
 
 import numpy as np
 
 from . import fetching
+from .episodes import ResetState
 from .generation import realize_task
 from .language.errors import SamplingError, UnsupportedError
 from .language.format import load
@@ -174,6 +176,39 @@ def _attach(task: Task, bindings: dict) -> Task:
         return record
 
     return transform_task(task, assign)
+
+
+def capture(runtime, template, seed, *, backend="mujoco"):
+    """Capture a detached initial state for replay.
+
+    Args:
+        runtime: Live simulator runtime.
+        template: Source task defining observation padding.
+        seed: Sampling seed.
+        backend: Simulator name.
+    """
+    simulator = import_module(f".{backend}", __package__)
+    return ResetState(
+        seed=seed,
+        task=deepcopy(runtime.task),
+        template=deepcopy(template),
+        backend=backend,
+        backend_state=simulator.capture(runtime),
+    )
+
+
+def restore(state, task=None):
+    """Restore a captured start with an optional replacement objective.
+
+    Args:
+        state: Captured ResetState.
+        task: Task source retaining the captured scene, or None to retain its objective.
+    """
+    task = deepcopy(state.task if task is None else load(task))
+    if task.scene != state.task.scene or task.root != state.task.root or task.variables:
+        raise ValueError("a replay task must retain the captured concrete scene and asset root")
+    simulator = import_module(f".{state.backend}", __package__)
+    return simulator.restore(task, state.backend_state)
 
 
 def build(source, episode=0, scene=None, bindings=None, *, robot=None, backend="mujoco"):

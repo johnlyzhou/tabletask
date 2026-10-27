@@ -1,4 +1,7 @@
-"""The MuJoCo backend: building and sampling a start for a task."""
+"""Build, capture and restore MuJoCo episode starts."""
+
+from copy import deepcopy
+from dataclasses import dataclass
 
 import numpy as np
 
@@ -9,13 +12,20 @@ from ..language.schema import Task
 from ..robots.base import Robot
 from .model import mjcf
 from .place import place_all
-from .runtime import Runtime
+from .runtime import Runtime, Snapshot
 
-__all__ = ["CAPABILITIES", "PENETRATION", "STARTS", "Runtime", "build"]
+__all__ = ["CAPABILITIES", "PENETRATION", "STARTS", "Runtime", "build", "capture", "restore"]
 
 CAPABILITIES = ()  # optional observation capabilities this backend provides (none)
 STARTS = 12  # placements tried for one concrete task before giving up
 PENETRATION = 0.01  # largest allowed overlap between geoms after settling, in metres
+
+
+@dataclass(frozen=True)
+class _ResetScene:
+    xml: str
+    snapshot: Snapshot
+    robot: Robot | None
 
 
 def build(task: Task, rng: np.random.Generator, robot=None) -> Runtime:
@@ -59,25 +69,57 @@ def build(task: Task, rng: np.random.Generator, robot=None) -> Runtime:
     raise error
 
 
-def _compile(task: Task, rng: np.random.Generator, robot) -> Runtime:
+def capture(runtime):
+    """Capture the initial scene and physics.
+
+    Args:
+        runtime: Live MuJoCo runtime.
+    """
+    return _ResetScene(runtime.xml, deepcopy(runtime.start_state), deepcopy(runtime.robot_template))
+
+
+def restore(task, scene):
+    """Rebuild a captured scene and restore its start.
+
+    Args:
+        task: Concrete task for the replay.
+        scene: Captured MuJoCo scene and physics.
+    """
+    runtime = _compile(task, None, scene.robot, xml=scene.xml)
+    try:
+        runtime.restore(scene.snapshot)
+        runtime.mark_start()
+        return runtime
+    except BaseException:
+        runtime.close_renderer()
+        raise
+
+
+def _compile(task: Task, rng: np.random.Generator | None, robot, *, xml=None) -> Runtime:
     """Check the robot, compile the scene and check every name the task uses."""
     if robot is not None:
         if not isinstance(robot, Robot):
             raise TypeError("robot must be a Robot instance")
         if robot.name in task.scene.objects:
             raise ValueError(f"robot name {robot.name!r} conflicts with a task object")
-    runtime = Runtime(task, mjcf(task, rng, robot=robot))
-    runtime.robot = robot.bind(runtime) if robot is not None else None
-    for name, where in names(task):
-        if not runtime.resolves(name):
-            raise KeyError(f"{where}: {name!r} is not a body, region or joint in this scene")
-    return runtime
+    runtime = Runtime(task, mjcf(task, rng, robot=robot) if xml is None else xml)
+    try:
+        runtime.robot_template = robot
+        runtime.robot = robot.bind(runtime) if robot is not None else None
+        for name, where in names(task):
+            if not runtime.resolves(name):
+                raise KeyError(f"{where}: {name!r} is not a body, region or joint in this scene")
+        return runtime
+    except BaseException:
+        runtime.close_renderer()
+        raise
 
 
 def _settle(runtime: Runtime) -> None:
     """Let a placed draw settle and record the settled state as the episode start."""
     runtime.rested = runtime.settle()
-    # The settled state, not the placement transient, defines the episode start.
+    # mj_step leaves derived poses at the previous integration step.
+    runtime.refresh()
     runtime.spawn_penetration = runtime.penetration()
     runtime.mark_start()
 
